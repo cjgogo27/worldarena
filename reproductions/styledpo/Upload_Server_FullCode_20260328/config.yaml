@@ -1,0 +1,211 @@
+# config.yaml - Style-DPO 训练配置文件
+# 项目：BAGEL 风格迁移 DPO 优化
+# 版本：v2.0
+# 最后更新：2025-12-11
+
+# ===== 模型配置 =====
+model:
+  # 基础模型
+  pretrained_model_name_or_path: "bagel-path-or-huggingface-id"  # 需要更新
+  model_type: "bagel"  # bagel / diffusion / flow-matching
+  
+  # 量化配置
+  quantization:
+    enabled: true
+    bits: 4
+    compute_dtype: "bfloat16"
+    load_in_4bit: true
+  
+  # LoRA 配置
+  lora:
+    enabled: true
+    r: 8  # LoRA rank
+    lora_alpha: 16
+    target_modules: ["q_proj", "v_proj", "k_proj", "o_proj"]
+    lora_dropout: 0.05
+    bias: "none"
+    task_type: "CAUSAL_LM"
+
+# ===== DPO 配置 =====
+dpo:
+  beta: 0.1  # DPO 温度参数
+  loss_type: "sigmoid"  # sigmoid / hinge / ipo
+  label_smoothing: 0.0
+  sanity_check: false
+
+# ===== 数据配置 =====
+data:
+  # 数据路径
+  train_data_path: "/data/style-dpo/preference_pairs.json"
+  validation_data_path: "/data/style-dpo/validation_pairs.json"
+  
+  # 数据处理
+  max_seq_length: 1024
+  max_image_size: 768  # 最大图像分辨率
+  preprocessing:
+    enable_vae_cache: true  # 缓存 VAE 编码
+    vae_cache_dir: "./cache/vae_latents"
+    num_workers: 8
+  
+  # 数据分割
+  dataset_split:
+    train: 0.8
+    validation: 0.2
+
+# ===== 训练配置 =====
+training:
+  # 基础设置
+  output_dir: "./results/checkpoints"
+  num_train_epochs: 3
+  max_steps: -1  # -1表示用完整数据集
+  
+  # 批次和优化
+  per_device_train_batch_size: 4
+  per_device_eval_batch_size: 4
+  gradient_accumulation_steps: 2
+  gradient_checkpointing: true  # 节省显存
+  
+  # 学习率和优化器
+  learning_rate: 1e-5
+  weight_decay: 0.01
+  lr_scheduler_type: "cosine"
+  num_warmup_steps: 100
+  
+  # 优化器选择
+  optim: "paged_adamw_32bit"  # 8bit/32bit AdamW
+  
+  # 精度配置
+  fp16: false  # 使用 bfloat16 而不是 fp16
+  bf16: true  # bfloat16 混合精度
+  
+  # 检查点和保存
+  save_strategy: "steps"
+  save_steps: 100
+  save_total_limit: 3  # 只保留最后 3 个 checkpoint
+  evaluation_strategy: "steps"
+  eval_steps: 100
+  
+  # 日志记录
+  logging_dir: "./results/logs"
+  logging_strategy: "steps"
+  logging_steps: 10
+  
+  # 其他
+  seed: 42
+  group_by_length: true
+  dataloader_pin_memory: true
+  remove_unused_columns: false
+
+# ===== 冻结层配置 =====
+freeze:
+  # 冻结这些模块以节省显存
+  freeze_modules:
+    - "vae"
+    - "embedding"
+    - "layernorm"
+    - "lm_head"
+  
+  # 仅训练这些投影层 (Qwen2 示例)
+  trainable_params:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+# ===== 硬件和分布式配置 =====
+hardware:
+  # GPU 配置
+  num_gpus: 2
+  max_gpu_batch_size: 4
+  max_grad_norm: 1.0
+  
+  # 分布式训练
+  distributed_training:
+    backend: "nccl"
+    find_unused_parameters: false
+    ddp_find_unused_parameters: false
+  
+  # 显存管理
+  memory:
+    clear_cache: true
+    empty_cache_freq: 10  # 每10步清空一次缓存
+    max_memory_allocated: "45GB"  # 单卡限制
+
+# ===== 验证和评估配置 =====
+evaluation:
+  # 评估指标
+  metric_for_best_model: "accuracy"
+  greater_is_better: true
+  
+  # CLIP 评估
+  clip_eval:
+    enabled: true
+    batch_size: 32
+    
+  # VLM 评估
+  vlm_eval:
+    enabled: true
+    model_name: "Qwen/Qwen3.5-9B"  # Unified scorer model
+    batch_size: 8
+  
+  # 生成评估
+  generation:
+    num_inference_steps: 30
+    num_samples_per_style: 5
+
+# ===== 推理配置 =====
+inference:
+  device_map: "auto"
+  torch_dtype: "bfloat16"
+  pipeline_type: "text2image"
+  load_safety_checker: false  # 跳过安全检查以加快速度
+
+# ===== 实验跟踪 =====
+tracking:
+  # Weights & Biases
+  report_to: ["wandb", "tensorboard"]
+  wandb_project: "style-dpo"
+  wandb_entity: null  # 设置为你的 WandB entity
+  wandb_notes: "BAGEL DPO optimization with LoRA"
+  
+  # TensorBoard
+  tensorboard_dir: "./results/logs/tensorboard"
+
+# ===== 其他高级配置 =====
+advanced:
+  # 自动混合精度的无效操作跳过
+  skip_memory_metrics: false
+  
+  # 回调函数
+  enable_callbacks: true
+  
+  # 恢复训练
+  resume_from_checkpoint: null  # 设置为 checkpoint 路径以恢复
+  
+  # 本地排序检查
+  local_rank: -1
+
+# ===== 日志级别 =====
+log_level: "info"
+log_level_replica: "warning"
+
+# ===== 样式信息 =====
+metadata:
+  experiment_name: "bagel-dpo-lora-v2"
+  description: "DPO optimization for BAGEL style transfer with LoRA fine-tuning"
+  version: "2.0"
+  created_date: "2025-12-11"
+  author: "[Your Name]"
+  tags: ["dpo", "lora", "style-transfer", "bagel"]
+
+# ---
+# 使用方式：
+# python code/train/dpo_training.py --config config.yaml
+#
+# 或覆盖特定参数：
+# python code/train/dpo_training.py --config config.yaml \\
+#     --learning_rate 2e-5 \\
+#     --num_train_epochs 5

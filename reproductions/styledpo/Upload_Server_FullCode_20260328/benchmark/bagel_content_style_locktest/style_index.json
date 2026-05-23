@@ -1,0 +1,10 @@
+{
+  "generated_at": "2026-03-30T00:41:10.212923+00:00",
+  "styles": [
+    {
+      "style_id": "Action Painting",
+      "style_safe": "Action_Painting",
+      "prompt": "Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    }
+  ]
+}

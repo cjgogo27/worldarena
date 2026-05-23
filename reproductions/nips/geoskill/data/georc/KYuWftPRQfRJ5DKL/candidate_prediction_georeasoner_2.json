@@ -1,0 +1,11 @@
+{
+  "country": "Taiwan",
+  "country_code": "tw",
+  "city": "",
+  "reasoning_chain": [
+    "The road curves right with a yellow-and-green painted guardrail, typical of rural Taiwanese mountain roads.",
+    "Vegetation is lush, tropical, and dense with broadleaf trees and flowering shrubs, consistent with subtropical Taiwan climate.",
+    "No visible signage or vehicles, but the road design and guardrail style match Taiwan’s provincial or county roads in mountainous areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Taiwan\",\n  \"country_code\": \"tw\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road curves right with a yellow-and-green painted guardrail, typical of rural Taiwanese mountain roads.\",\n    \"Vegetation is lush, tropical, and dense with broadleaf trees and flowering shrubs, consistent with subtropical Taiwan climate.\",\n    \"No visible signage or vehicles, but the road design and guardrail style match Taiwan’s provincial or county roads in mountainous areas.\",\n    \"Overcast sky and humid greenery suggest a subtropical"
+}

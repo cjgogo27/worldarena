@@ -1,0 +1,942 @@
+{
+  "game_id": "EEI3fwu4iZvPT2zP",
+  "round": 1,
+  "sample_id": "georc::EEI3fwu4iZvPT2zP::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ke",
+    "predicted_region": "africa",
+    "predicted_lat": -1.2921,
+    "predicted_lng": 36.8219,
+    "reasoning_text": "{\n  \"country\": \"Kenya\",\n  \"country_code\": \"ke\",\n  \"region\": \"Eastern Africa\",\n  \"lat\": -1.2921,\n  \"lng\": 36.8219,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly supports a location in Kenya, specifically the highlands surrounding Nairobi. The reddish-brown soil (laterite) is a hallmark of this region. The architecture—single-story structures with white-washed walls, exposed brick pillars, and corrugated metal roofs—is typical of peri-urban settlements in Kenya. The corrugated metal fencing seen on the left is also common in these areas. The vegetation, including acacia-like trees and dry grass, aligns with the semi-arid savanna climate of the Kenyan highlands. The road is unpaved but well-defined, consistent with rural or semi-rural infrastructure in Kenya. The clear sky and sharp shadows suggest a low-latitude location during the dry season. All these cues converge on Kenya, particularly the outskirts of Nairobi, as the most likely location.\",\n  \"evidence\": [\n    \"Reddish-brown laterite soil\",\n    \"Single-story white-washed buildings with brick pillars\",\n    \"Corrugated metal roofing and fencing\",\n    \"Acacia-like trees and dry savanna vegetation\",\n    \"Unpaved but defined road\",\n    \"Clear sky and sharp shadows indicating low latitude\",\n    \"Rolling hills in the distance\"\n  ]\n}",
+    "evidence_spans": [
+      "Reddish-brown laterite soil",
+      "Single-story white-washed buildings with brick pillars",
+      "Corrugated metal roofing and fencing",
+      "Acacia-like trees and dry savanna vegetation",
+      "Unpaved but defined road",
+      "Clear sky and sharp shadows indicating low latitude",
+      "Rolling hills in the distance"
+    ],
+    "confidence": 0.85,
+    "retrieved_skills": [
+      {
+        "skill_text": "The landscape is dry, but not the dryness associated with desert biomes; there is low brownish/yellowish shrubbery next to the road and several stretches of low hills, most indicative of South Africa",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 2,
+        "score": 0.7920716881752015,
+        "bm25_score": 30.001115798950195,
+        "semantic_score": 0.47649824619293213
+      },
+      {
+        "skill_text": "This landscape is typical of the Northeastern provinces of South Africa: a dry arid landscape that is not quite desert-like and an abundance of low shrubs and trees that have lost their leaves",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 5,
+        "score": 0.6720676749944687,
+        "bm25_score": 24.06975555419922,
+        "semantic_score": 0.47009313106536865
+      },
+      {
+        "skill_text": "The landscape is rather open with rolling hills and an abundance of subtropical African vegetation, most commonly seen in Western African countries of Rwanda, Uganda, and Kenya",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "vegetation"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 4,
+        "score": 0.44196437001228334,
+        "bm25_score": 31.856416702270508,
+        "semantic_score": 0.6225615739822388
+      },
+      {
+        "skill_text": "The combination of sandy soil, solar infrastructure, local architecture, and environmental clues strongly suggests Senegal, Mauritania, Mali, or northern Nigeria.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "soil"
+        ],
+        "source_game_id": "AVKTblAzBqaYrcKe",
+        "source_round": 2,
+        "score": 0.38197881877422335,
+        "bm25_score": 28.229347229003906,
+        "semantic_score": 0.5254045724868774
+      },
+      {
+        "skill_text": "Based on flora, infrastructure, and road markings, the location is most likely in Kenya, near the outskirts of Nairobi or in the Rift Valley region.",
+        "region_hint": "africa",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 4,
+        "score": 0.517658469080925,
+        "bm25_score": 43.43552017211914,
+        "semantic_score": 0.6385868787765503
+      },
+      {
+        "skill_text": "The style and quality of road paving, as well as the presence of simple fencing, align closely with Botswana's infrastructure outside major cities.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 5,
+        "score": 0.6782408356666565,
+        "bm25_score": 28.522594451904297,
+        "semantic_score": 0.4781181812286377
+      },
+      {
+        "skill_text": "The landscape features gently rolling hills and distant scattered homes with tin roofs, typical of the Kenyan countryside outside larger cities.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "roof"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 4,
+        "score": 0.3977487683296204,
+        "bm25_score": 23.8125057220459,
+        "semantic_score": 0.632684588432312
+      },
+      {
+        "skill_text": "The dry savanna landscape with sparse trees and dry grass is characteristic of the Kalahari region and matches the geography of Botswana.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 5,
+        "score": 0.3854425251483918,
+        "bm25_score": 32.694183349609375,
+        "semantic_score": 0.4662468135356903
+      },
+      {
+        "skill_text": "The utility poles reveal a developed rural infrastructure, and the road fencing suggests agricultural land rather than purely pastoral.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles",
+          "road"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 3,
+        "score": 0.7068868041038514,
+        "bm25_score": 21.82871437072754,
+        "semantic_score": 0.4584932029247284
+      },
+      {
+        "skill_text": "The architecture features simple concrete block walls and metal roofs, commonly found in rural and peri-urban West African settings.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "AVKTblAzBqaYrcKe",
+        "source_round": 2,
+        "score": 0.69122733771801,
+        "bm25_score": 23.782793045043945,
+        "semantic_score": 0.5715522766113281
+      },
+      {
+        "skill_text": "The lack of any mountains or hills except some low mounds in the distance reinforces the identification of a dry plateau region.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "mountains"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 5,
+        "score": 0.6543251276016235,
+        "bm25_score": 31.811729431152344,
+        "semantic_score": 0.36254817247390747
+      },
+      {
+        "skill_text": "The direction of shadows and quality of light hint at a low latitude and southern summer, with clear skies and sharp sunlight.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "direction",
+          "light",
+          "quality",
+          "shadows"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 3,
+        "score": 0.40606648921966554,
+        "bm25_score": 48.17491912841797,
+        "semantic_score": 0.4407542943954468
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "ke",
+      "predicted_region": "africa",
+      "predicted_lat": -1.2921,
+      "predicted_lng": 36.8219,
+      "reasoning_text": "{\n  \"country\": \"Kenya\",\n  \"country_code\": \"ke\",\n  \"region\": \"Eastern Africa\",\n  \"lat\": -1.2921,\n  \"lng\": 36.8219,\n  \"confidence\": 0.75,\n  \"reasoning\": \"The visual evidence strongly points to an East African setting, specifically the highlands of Kenya. The combination of reddish-brown soil (laterite), the specific architectural style (single-story, white-washed walls, brick pillars supporting verandas), and the corrugated metal fencing is highly characteristic of residential areas in the outskirts of Nairobi or towns in the Central/Nyanza regions. The hilly terrain with a view of a valley is consistent with the topography found in areas like Kibera, Mathare, or the slopes leading up to the Aberdare range. The vegetation suggests a tropical highland climate. While Uganda and Tanzania share similar features, the specific style of the brick pillars and the density of the settlement visible in the distance aligns most closely with peri-urban Kenya.\",\n  \"evidence\": [\n    \"Unpaved reddish-brown dirt road surface\",\n    \"Single-story white-washed houses with brick-pillar verandas\",\n    \"Corrugated metal fencing on the left\",\n    \"Hilly terrain with distant valley view\",\n    \"Tropical/subtropical vegetation\",\n    \"Overhead power lines\",\n    \"Clear blue sky\"\n  ]\n}",
+      "evidence_spans": [
+        "Unpaved reddish-brown dirt road surface",
+        "Single-story white-washed houses with brick-pillar verandas",
+        "Corrugated metal fencing on the left",
+        "Hilly terrain with distant valley view",
+        "Tropical/subtropical vegetation",
+        "Overhead power lines",
+        "Clear blue sky"
+      ],
+      "confidence": 0.75,
+      "geovista_observation": {
+        "observations": [
+          "The road surface is unpaved, consisting of reddish-brown dirt/gravel.",
+          "The architecture consists of single-story, simple structures with flat or low-pitched roofs.",
+          "Walls are made of concrete or plaster, painted white or light grey.",
+          "Brick pillars are visible supporting the roof overhangs (verandas).",
+          "A corrugated metal fence is visible on the left side.",
+          "Vegetation includes leafy green trees and shrubs, suggesting a tropical or subtropical climate.",
+          "The terrain is hilly, with a view of a valley or lower-lying area in the distance.",
+          "Overhead power lines are present.",
+          "The sky is clear and blue.",
+          "No vehicles or license plates are visible.",
+          "No road signs or markings are visible."
+        ],
+        "hard_clues": [
+          "Unpaved road surface",
+          "Specific architectural style (single-story, flat roofs, brick pillars)",
+          "Corrugated metal fencing",
+          "Hilly terrain with distant view",
+          "Tropical/subtropical vegetation"
+        ],
+        "ambiguous_clues": [
+          "Lack of specific signage",
+          "Generic building materials",
+          "No clear indication of country or region beyond general climate and architecture"
+        ],
+        "possible_scripts": [
+          "Latin script (potentially, based on common usage in regions with this architecture, but not visible)",
+          "No script visible"
+        ],
+        "driving_side": "unknown"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "Kenya",
+          "Uganda",
+          "Tanzania",
+          "Rwanda",
+          "Ethiopia"
+        ],
+        "zoom_boxes": [
+          [
+            0,
+            450,
+            450,
+            1000
+          ],
+          [
+            550,
+            150,
+            1000,
+            600
+          ]
+        ],
+        "verification_queries": [
+          "Search for unpaved residential roads in East African highlands with corrugated metal fencing and brick-pillar verandas.",
+          "Identify regions in Kenya or Uganda with similar single-story white-washed houses on hilly terrain.",
+          "Check satellite imagery for rural settlements in East Africa matching this architectural and topographical profile."
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "ke",
+      "predicted_region": "africa",
+      "predicted_lat": -1.2921,
+      "predicted_lng": 36.8219,
+      "confidence": 0.85
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "ke",
+      "predicted_region": "africa",
+      "predicted_lat": -1.2921,
+      "predicted_lng": 36.8219,
+      "confidence": 0.85
+    },
+    "base_prediction_summary": {
+      "predicted_country": "ke",
+      "predicted_region": "africa",
+      "predicted_lat": -1.2921,
+      "predicted_lng": 36.8219,
+      "confidence": 0.75
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.75,
+    "skill_boost_boost_confidence": 0.85,
+    "skill_boost_aggressive_confidence": 0.85,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The landscape is dry, but not the dryness associated with desert biomes; there is low brownish/yellowish shrubbery next to the road and several stretches of low hills, most indicative of South Africa",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7920716881752015,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The utility poles reveal a developed rural infrastructure, and the road fencing suggests agricultural land rather than purely pastoral.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7068868041038514,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The architecture features simple concrete block walls and metal roofs, commonly found in rural and peri-urban West African settings.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.69122733771801,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The style and quality of road paving, as well as the presence of simple fencing, align closely with Botswana's infrastructure outside major cities.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.6782408356666565,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "This landscape is typical of the Northeastern provinces of South Africa: a dry arid landscape that is not quite desert-like and an abundance of low shrubs and trees that have lost their leaves",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.6720676749944687,
+          "visual_cues": [
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The lack of any mountains or hills except some low mounds in the distance reinforces the identification of a dry plateau region.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.6543251276016235,
+          "visual_cues": [
+            "mountains"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "Based on flora, infrastructure, and road markings, the location is most likely in Kenya, near the outskirts of Nairobi or in the Rift Valley region.",
+          "region_hint": "africa",
+          "confidence": 0.75,
+          "score": 0.517658469080925,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The landscape is rather open with rolling hills and an abundance of subtropical African vegetation, most commonly seen in Western African countries of Rwanda, Uganda, and Kenya",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.44196437001228334,
+          "visual_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The direction of shadows and quality of light hint at a low latitude and southern summer, with clear skies and sharp sunlight.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.40606648921966554,
+          "visual_cues": [
+            "direction",
+            "light",
+            "quality",
+            "shadows"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The landscape features gently rolling hills and distant scattered homes with tin roofs, typical of the Kenyan countryside outside larger cities.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.3977487683296204,
+          "visual_cues": [
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The dry savanna landscape with sparse trees and dry grass is characteristic of the Kalahari region and matches the geography of Botswana.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.3854425251483918,
+          "visual_cues": [
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The combination of sandy soil, solar infrastructure, local architecture, and environmental clues strongly suggests Senegal, Mauritania, Mali, or northern Nigeria.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.38197881877422335,
+          "visual_cues": [
+            "architecture",
+            "soil"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The landscape is dry, but not the dryness associated with desert biomes; there is low brownish/yellowish shrubbery next to the road and several stretches of low hills, most indicative of South Africa",
+        "The utility poles reveal a developed rural infrastructure, and the road fencing suggests agricultural land rather than purely pastoral.",
+        "The architecture features simple concrete block walls and metal roofs, commonly found in rural and peri-urban West African settings.",
+        "The style and quality of road paving, as well as the presence of simple fencing, align closely with Botswana's infrastructure outside major cities.",
+        "This landscape is typical of the Northeastern provinces of South Africa: a dry arid landscape that is not quite desert-like and an abundance of low shrubs and trees that have lost their leaves",
+        "The lack of any mountains or hills except some low mounds in the distance reinforces the identification of a dry plateau region.",
+        "Based on flora, infrastructure, and road markings, the location is most likely in Kenya, near the outskirts of Nairobi or in the Rift Valley region.",
+        "The landscape is rather open with rolling hills and an abundance of subtropical African vegetation, most commonly seen in Western African countries of Rwanda, Uganda, and Kenya",
+        "The direction of shadows and quality of light hint at a low latitude and southern summer, with clear skies and sharp sunlight.",
+        "The landscape features gently rolling hills and distant scattered homes with tin roofs, typical of the Kenyan countryside outside larger cities.",
+        "The dry savanna landscape with sparse trees and dry grass is characteristic of the Kalahari region and matches the geography of Botswana.",
+        "The combination of sandy soil, solar infrastructure, local architecture, and environmental clues strongly suggests Senegal, Mauritania, Mali, or northern Nigeria."
+      ],
+      "summary": "nodes=12, edges=66, base_region=africa, top_skill_region=africa"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=africa, top_skill_region=africa"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

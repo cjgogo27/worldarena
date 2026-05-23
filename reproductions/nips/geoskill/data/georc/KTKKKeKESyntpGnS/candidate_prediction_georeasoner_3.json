@@ -1,0 +1,12 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "Red dirt road with no markings and dust cloud suggests remote rural area typical of Australian outback or regional farmland.",
+    "Vegetation includes eucalyptus trees with peeling bark, characteristic of Australian flora.",
+    "Flat, dry grassland terrain under overcast sky aligns with Australian inland climate zones.",
+    "No visible infrastructure like power lines, signs, or buildings reinforces location in sparsely populated Australian countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Red dirt road with no markings and dust cloud suggests remote rural area typical of Australian outback or regional farmland.\",\n    \"Vegetation includes eucalyptus trees with peeling bark, characteristic of Australian flora.\",\n    \"Flat, dry grassland terrain under overcast sky aligns with Australian inland climate zones.\",\n    \"No visible infrastructure like power lines, signs, or buildings reinforces location in sparsely populated Australian countryside.\""
+}

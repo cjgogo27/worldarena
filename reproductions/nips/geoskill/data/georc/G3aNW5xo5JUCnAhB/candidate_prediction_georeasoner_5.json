@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The architecture features modern Japanese-style houses with clean lines and minimal ornamentation, typical of rural Japan.",
+    "Utility poles and wires are present, consistent with Japanese infrastructure in semi-rural areas.",
+    "Vegetation includes lush greenery and cultivated fields, indicative of Japan’s temperate climate and agricultural practices."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The architecture features modern Japanese-style houses with clean lines and minimal ornamentation, typical of rural Japan.\",\n    \"Utility poles and wires are present, consistent with Japanese infrastructure in semi-rural areas.\",\n    \"Vegetation includes lush greenery and cultivated fields, indicative of Japan’s temperate climate and agricultural practices.\",\n    \"No visible road markings or signage, but the narrow paved path and surrounding farmland suggest a quiet, non-urban Japanese countryside"
+}

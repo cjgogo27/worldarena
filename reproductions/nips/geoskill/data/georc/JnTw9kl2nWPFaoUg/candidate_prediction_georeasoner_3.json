@@ -1,0 +1,11 @@
+{
+  "country": "Russia",
+  "country_code": "ru",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt with a single white line on the right edge, consistent with right-hand traffic in Russia.",
+    "Utility poles are concrete and spaced regularly along the roadside, typical of rural Russian infrastructure.",
+    "Houses feature modern pitched roofs with dark cladding and light-colored walls, common in post-Soviet suburban developments."
+  ],
+  "raw_output": "{\n  \"country\": \"Russia\",\n  \"country_code\": \"ru\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt with a single white line on the right edge, consistent with right-hand traffic in Russia.\",\n    \"Utility poles are concrete and spaced regularly along the roadside, typical of rural Russian infrastructure.\",\n    \"Houses feature modern pitched roofs with dark cladding and light-colored walls, common in post-Soviet suburban developments.\",\n    \"Vegetation includes lush green grass and mixed deciduous/coniferous trees, indicating"
+}

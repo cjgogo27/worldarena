@@ -1,0 +1,11 @@
+{
+  "country": "Kenya",
+  "country_code": "ke",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow center line, indicating two-way traffic with vehicles driving on the left, consistent with Kenya’s traffic rules.",
+    "Utility poles with overhead wires and transformers are typical of rural infrastructure in Kenya, especially along national roads.",
+    "Vegetation includes lush green shrubs and trees like acacia and eucalyptus, common in Kenya’s highland or mid-altitude regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Kenya\",\n  \"country_code\": \"ke\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow center line, indicating two-way traffic with vehicles driving on the left, consistent with Kenya’s traffic rules.\",\n    \"Utility poles with overhead wires and transformers are typical of rural infrastructure in Kenya, especially along national roads.\",\n    \"Vegetation includes lush green shrubs and trees like acacia and eucalyptus, common in Kenya’s highland or mid-altitude regions.\",\n    \"Architecture features simple concrete"
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "user_id": "30002945_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:45"
+      }
+    ]
+  },
+  {
+    "user_id": "30002945_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      }
+    ]
+  },
+  {
+    "user_id": "30000400_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:15"
+      }
+    ]
+  },
+  {
+    "user_id": "30000400_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:30"
+      }
+    ]
+  },
+  {
+    "user_id": "30000983_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:45"
+      }
+    ]
+  }
+]

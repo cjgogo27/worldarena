@@ -1,0 +1,105 @@
+{
+  "game_id": "sf2wEErB2IDY3qJ5",
+  "round": 1,
+  "sample_id": "georc::sf2wEErB2IDY3qJ5::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "kz",
+    "predicted_region": "asia",
+    "predicted_address": "A1 highway, Shchuchinsk, Akmola Region, Kazakhstan",
+    "predicted_lat": 52.9387457,
+    "predicted_lng": 70.1857634,
+    "reasoning_text": "```json\n{\n  \"country\": \"Kazakhstan\",\n  \"country_code\": \"kz\",\n  \"region\": \"Central Asia\",\n  \"city\": \"Shchuchinsk\",\n  \"province_or_state\": \"Akmola Region\",\n  \"address\": \"A1 highway, Shchuchinsk, Akmola Region, Kazakhstan\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The Vienna Convention speed limit sign (red circle, 60 on white) confirms a post-Soviet state using European road signage standards. The flat arid steppe with snow-capped mountains visible on the southern horizon matches the geography of north-central Kazakhstan along the major A1 highway corridor between Astana and Almaty. The excellent dual-carriageway condition, W-beam guardrails, and fresh asphalt are characteristic of Kazakhstan's modernized A1/E125 trunk road. The 60 km/h limit suggests a transition zone near a settlement rather than open rural highway. Shchuchinsk is the largest town along this stretch of the A1 in Akmola Region, where such speed restrictions and road configurations are commonly found.\",\n  \"evidence\": [\"Vienna Convention speed limit sign (red circle, 60)\", \"flat arid steppe landscape\", \"snow-capped mountains on southern horizon\", \"modern dual-carriageway with W-beam guardrails\", \"fresh asphalt with European-style road markings\", \"Kazakhstan A1 highway corridor between Astana and Almaty\"]\n}\n```",
+    "evidence_spans": [
+      "Vienna Convention speed limit sign (red circle, 60)",
+      "flat arid steppe landscape",
+      "snow-capped mountains on southern horizon",
+      "modern dual-carriageway with W-beam guardrails",
+      "fresh asphalt with European-style road markings",
+      "Kazakhstan A1 highway corridor between Astana and Almaty"
+    ],
+    "confidence": 0.72,
+    "country_top3": [
+      "kz",
+      "ru",
+      "mn"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"kz\",\"ru\",\"mn\"],\"reason\":\"Vienna Convention speed limit sign (red circle, 60 on white) indicates Europe or post-Soviet state. The flat arid steppe with distant snow-capped mountains is highly characteristic of Kazakhstan's major north-south highways crossing the Kazakh steppe with Tian Shan range visible. Russia (southern Siberia/Altai) and Mongolia (steppe with mountain backdrops) are visually similar alternatives but less consistent with the specific highway infrastructure and signposting style.\"}\n```",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9600000000000001,
+        "pred_country": "kz",
+        "geo_country": "kz",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "A1 highway, Shchuchinsk, Akmola Region, Kazakhstan"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.9600000000000001,
+        "pred_country": "kz",
+        "geo_country": "kz",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "A1 highway, Shchuchinsk, Akmola Region, Kazakhstan"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.9600000000000001,
+        "pred_country": "kz",
+        "geo_country": "kz",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "A1 highway, Shchuchinsk, Akmola Region, Kazakhstan"
+      }
+    ],
+    "selected_candidate_score": 0.9600000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "kz",
+      "predicted_region": "asia",
+      "confidence": 0.78
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"Kazakhstan\",\n  \"country_code\": \"kz\",\n  \"region\": \"Central Asia\",\n  \"city\": \"Unknown\",\n  \"province_or_state\": \"Unknown\",\n  \"address\": \"Kazakhstan, highway between Astana and Almaty, steppe region with snow-capped Tian Shan mountains to the south\",\n  \"confidence\": 0.78,\n  \"reas",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "kz"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

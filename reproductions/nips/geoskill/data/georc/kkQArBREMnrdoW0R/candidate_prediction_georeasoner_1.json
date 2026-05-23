@@ -1,0 +1,12 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "The road features concrete barriers and a two-lane layout with no center divider, typical of rural Thai highways.",
+    "Vegetation includes tropical trees and shrubs consistent with Thailand’s monsoon climate and landscape.",
+    "No visible signage, vehicles, or urban infrastructure suggests a remote or less-developed area common in Thailand’s countryside.",
+    "The clear blue sky and open terrain align with Thailand’s seasonal weather patterns and geographic openness."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features concrete barriers and a two-lane layout with no center divider, typical of rural Thai highways.\",\n    \"Vegetation includes tropical trees and shrubs consistent with Thailand’s monsoon climate and landscape.\",\n    \"No visible signage, vehicles, or urban infrastructure suggests a remote or less-developed area common in Thailand’s countryside.\",\n    \"The clear blue sky and open terrain align with Thailand’s seasonal weather patterns and geographic openness.\""
+}

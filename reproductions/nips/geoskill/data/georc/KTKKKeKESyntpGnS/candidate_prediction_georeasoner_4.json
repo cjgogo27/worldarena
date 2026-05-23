@@ -1,0 +1,11 @@
+{
+  "country": "Kenya",
+  "country_code": "ke",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a single yellow line on the left edge and a dashed white center line, consistent with Kenyan rural highway markings where left-hand traffic is standard.",
+    "Vegetation includes acacia-like trees and savanna grassland, typical of Kenya’s central or eastern regions under a dry-to-moderate climate.",
+    "No visible signage, vehicles, or urban infrastructure suggests a remote rural area, common in Kenya’s interior highways."
+  ],
+  "raw_output": "{\n  \"country\": \"Kenya\",\n  \"country_code\": \"ke\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a single yellow line on the left edge and a dashed white center line, consistent with Kenyan rural highway markings where left-hand traffic is standard.\",\n    \"Vegetation includes acacia-like trees and savanna grassland, typical of Kenya’s central or eastern regions under a dry-to-moderate climate.\",\n    \"No visible signage, vehicles, or urban infrastructure suggests a remote rural area, common in Kenya’s interior highways.\","
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Turkey",
+  "country_code": "tr",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved, gravel road with no center line and right-hand traffic pattern is typical of rural Turkish villages.",
+    "Utility poles with overhead wires and simple concrete or adobe-style houses are common in Anatolian countryside.",
+    "Vegetation includes dry grasses and scattered trees under a Mediterranean climate sky, consistent with central or eastern Turkey."
+  ],
+  "raw_output": "{\n  \"country\": \"Turkey\",\n  \"country_code\": \"tr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved, gravel road with no center line and right-hand traffic pattern is typical of rural Turkish villages.\",\n    \"Utility poles with overhead wires and simple concrete or adobe-style houses are common in Anatolian countryside.\",\n    \"Vegetation includes dry grasses and scattered trees under a Mediterranean climate sky, consistent with central or eastern Turkey.\",\n    \"A white station wagon parked near a house resembles models commonly found in Turkey, and the architecture lacks"
+}

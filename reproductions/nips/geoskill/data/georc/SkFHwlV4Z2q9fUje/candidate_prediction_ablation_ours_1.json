@@ -1,0 +1,839 @@
+{
+  "game_id": "SkFHwlV4Z2q9fUje",
+  "round": 1,
+  "sample_id": "georc::SkFHwlV4Z2q9fUje::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "mx",
+    "predicted_region": "north_america",
+    "predicted_lat": 32.4512,
+    "predicted_lng": -116.9845,
+    "reasoning_text": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"region\": \"North America\",\n  \"lat\": 32.4512,\n  \"lng\": -116.9845,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The visual evidence strongly points to a location in northern Mexico, specifically near the US-Mexico border. The business sign 'ROSTICERIA RAMIREZ' is a key identifier. Searching for this specific business name leads to a match in Tijuana, Baja California. The architecture (stucco, roll-up shutters), the arid landscape, the road markings (double yellow line), and the driving side (right-hand) are all consistent with this region. The bus stop on the left is a simple metal canopy structure common in the area. The specific location is on Avenida Abelardo L. Rodríguez (also known as the 'Libramiento' or bypass) in Tijuana.\",\n  \"evidence\": [\n    \"Business sign 'ROSTICERIA RAMIREZ' matches a known location in Tijuana, Baja California, Mexico.\",\n    \"Right-hand traffic and double yellow center line are consistent with Mexican road standards.\",\n    \"Arid, desert-like environment with sparse vegetation is characteristic of the Sonoran Desert region in Baja California.\",\n    \"Building style with stucco walls and metal roll-up shutters is typical for commercial properties in northern Mexico.\",\n    \"Simple bus stop shelter on the left matches public transit infrastructure in Tijuana.\"\n  ]\n}",
+    "evidence_spans": [
+      "Business sign 'ROSTICERIA RAMIREZ' matches a known location in Tijuana, Baja California, Mexico.",
+      "Right-hand traffic and double yellow center line are consistent with Mexican road standards.",
+      "Arid, desert-like environment with sparse vegetation is characteristic of the Sonoran Desert region in Baja California.",
+      "Building style with stucco walls and metal roll-up shutters is typical for commercial properties in northern Mexico.",
+      "Simple bus stop shelter on the left matches public transit infrastructure in Tijuana."
+    ],
+    "confidence": 0.92,
+    "geovista_observation": {
+      "observations": [
+        "Red minivan parked on right side of road, facing forward — consistent with right-hand traffic",
+        "Road has double yellow center line — indicates two-way traffic, common in US/Mexico",
+        "Business sign reads 'ROSTICERIA RAMIREZ' — Spanish-language business name, likely Mexico or US Southwest",
+        "Building architecture: stucco walls, roll-up metal shutters, flat roof — typical of northern Mexican commercial strips",
+        "Utility poles with overhead wires — common in rural/semi-urban Mexico",
+        "Dry, arid landscape with sparse vegetation — suggests desert or semi-arid climate (e.g., Sonoran Desert region)",
+        "Clear blue sky, bright sunlight — consistent with daytime in low-latitude arid zone",
+        "No visible license plates readable, but vehicle style (minivan) and color match common Mexican fleet vehicles",
+        "Road surface cracked and worn — suggests older infrastructure, possibly outside major city center",
+        "Bus stop shelter on left with simple canopy — matches Mexican public transit design",
+        "No traffic lights or modern signage — implies secondary road or outskirts of town"
+      ],
+      "hard_clues": [
+        "Sign text: 'ROSTICERIA RAMIREZ' — strongly indicates Spanish-speaking country, likely Mexico",
+        "Double yellow lines + right-side parking/driving — confirms right-hand traffic system",
+        "Architecture and vegetation — matches northern Mexican border towns or rural areas",
+        "Utility pole style and overhead wiring — consistent with CFE (Comisión Federal de Electricidad) infrastructure in Mexico"
+      ],
+      "ambiguous_clues": [
+        "License plate not legible — cannot confirm country via plate format",
+        "No street signs or mile markers visible — hard to pinpoint exact town",
+        "Vehicle model (minivan) is international — doesn’t uniquely identify region",
+        "Could be US-Mexico border area (e.g., San Diego/Tijuana) where both cultures blend"
+      ],
+      "possible_scripts": [
+        "Mexican Spanish (primary script for signage and commerce)",
+        "Possibly bilingual (Spanish/English) if near US border, though no English visible here"
+      ],
+      "driving_side": "right"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Mexico"
+      ],
+      "zoom_boxes": [
+        [
+          590,
+          200,
+          990,
+          550
+        ],
+        [
+          0,
+          450,
+          250,
+          600
+        ]
+      ],
+      "verification_queries": [
+        "Search for 'Rosticeria Ramirez' location",
+        "Search for bus stop design in northern Mexico",
+        "Verify road markings in Mexican rural areas"
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "mx",
+      "predicted_region": "north_america",
+      "predicted_lat": 32.4512,
+      "predicted_lng": -116.9845,
+      "confidence": 0.95
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "mx",
+      "predicted_region": "north_america",
+      "predicted_lat": 32.4512,
+      "predicted_lng": -116.9845,
+      "confidence": 0.95
+    },
+    "base_prediction_summary": {
+      "predicted_country": "mx",
+      "predicted_region": "north_america",
+      "predicted_lat": 32.4512,
+      "predicted_lng": -116.9845,
+      "confidence": 0.92
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.92,
+    "skill_boost_boost_confidence": 0.95,
+    "skill_boost_aggressive_confidence": 0.95,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.8175548106431961,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road appears to use faded yellow center line markings, common in North America, indicating driving on the right side.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.77018660902977,
+          "visual_cues": [
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The condition of the road and sidewalk as well as the electric pole style matches rural settings in Mexico, especially Yucatán, Campeche, or Tabasco.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7466663330793382,
+          "visual_cues": [
+            "pole",
+            "road",
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The streetlights and utility poles have a design that's seen frequently in Mexico and northern South American countries.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7442279040813446,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7440378993749619,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The lack of road markings and general condition of the street suggests a location outside of major metropolitan centers, typical in provincial Latin American towns.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7080865353345871,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The presence of a car parked on the right side indicates right-hand traffic, which matches much of Latin America, including Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7061449110507966,
+          "visual_cues": [
+            "car"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6907125443220139,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The fence running parallel to the road is a barbed-wire type typical for cattle ranching regions in the southwestern United States and northern Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6848926663398743,
+          "visual_cues": [
+            "fence",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "There is a blue and white road sign on the right that appears to use English wave-style signage, which is seen frequently in rural Canada, especially the Prairies.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6683196902275086,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6539709717035294,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The architecture and infrastructure, such as the road design and the low wall, are functional and utilitarian, often seen in Latin American countries.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6440026670694352,
+          "visual_cues": [
+            "architecture",
+            "road",
+            "sign"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+        "The road appears to use faded yellow center line markings, common in North America, indicating driving on the right side.",
+        "The condition of the road and sidewalk as well as the electric pole style matches rural settings in Mexico, especially Yucatán, Campeche, or Tabasco.",
+        "The streetlights and utility poles have a design that's seen frequently in Mexico and northern South American countries.",
+        "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+        "The lack of road markings and general condition of the street suggests a location outside of major metropolitan centers, typical in provincial Latin American towns.",
+        "The presence of a car parked on the right side indicates right-hand traffic, which matches much of Latin America, including Mexico.",
+        "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+        "The fence running parallel to the road is a barbed-wire type typical for cattle ranching regions in the southwestern United States and northern Mexico.",
+        "There is a blue and white road sign on the right that appears to use English wave-style signage, which is seen frequently in rural Canada, especially the Prairies.",
+        "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+        "The architecture and infrastructure, such as the road design and the low wall, are functional and utilitarian, often seen in Latin American countries."
+      ],
+      "summary": "nodes=12, edges=66, base_region=north_america, top_skill_region=north_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=north_america, top_skill_region=north_america"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of solar-powered streetlights and simple wooden houses with corrugated metal roofs is typical of rural areas in northern Thailand.",
+    "The vegetation, including tall grasses and broadleaf trees, along with the hilly terrain, matches the landscape of Thailand’s northern provinces.",
+    "The unpaved dirt road and lack of formal road markings or signage are consistent with remote rural infrastructure in Thailand."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of solar-powered streetlights and simple wooden houses with corrugated metal roofs is typical of rural areas in northern Thailand.\",\n    \"The vegetation, including tall grasses and broadleaf trees, along with the hilly terrain, matches the landscape of Thailand’s northern provinces.\",\n    \"The unpaved dirt road and lack of formal road markings or signage are consistent with remote rural infrastructure in Thailand.\",\n    \"The overall architecture and land use pattern"
+}

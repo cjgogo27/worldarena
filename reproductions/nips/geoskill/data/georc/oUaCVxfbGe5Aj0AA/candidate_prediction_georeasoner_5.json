@@ -1,0 +1,11 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "The dirt road with no markings and rural setting is typical of inland Portugal, especially in regions like Trás-os-Montes or Beira Interior.",
+    "Vegetation includes eucalyptus trees and dry grasses, common in Mediterranean climates of western Europe, particularly Portugal.",
+    "No visible infrastructure like power lines, signs, or buildings suggests remote rural area, consistent with less developed regions of Portugal."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The dirt road with no markings and rural setting is typical of inland Portugal, especially in regions like Trás-os-Montes or Beira Interior.\",\n    \"Vegetation includes eucalyptus trees and dry grasses, common in Mediterranean climates of western Europe, particularly Portugal.\",\n    \"No visible infrastructure like power lines, signs, or buildings suggests remote rural area, consistent with less developed regions of Portugal.\",\n    \"Sky conditions and"
+}

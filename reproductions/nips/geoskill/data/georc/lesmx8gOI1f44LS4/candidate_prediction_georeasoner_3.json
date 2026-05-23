@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unpaved shoulder and lack of road markings suggest a rural setting common in South Asia.",
+    "Tall coconut palms and dense tropical vegetation are characteristic of coastal or island regions in India, particularly Kerala or Tamil Nadu.",
+    "Utility poles with overhead wires and simple concrete structures align with rural infrastructure patterns in southern Indian states."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unpaved shoulder and lack of road markings suggest a rural setting common in South Asia.\",\n    \"Tall coconut palms and dense tropical vegetation are characteristic of coastal or island regions in India, particularly Kerala or Tamil Nadu.\",\n    \"Utility poles with overhead wires and simple concrete structures align with rural infrastructure patterns in southern Indian states.\",\n    \"The absence of vehicles, signage, or modern architecture reinforces a remote, non-urbanized location typical of"
+}

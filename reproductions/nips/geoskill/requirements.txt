@@ -1,0 +1,9 @@
+openai
+Pillow
+sentence-transformers
+faiss-cpu
+rank-bm25
+pandas
+numpy
+pyyaml
+tqdm

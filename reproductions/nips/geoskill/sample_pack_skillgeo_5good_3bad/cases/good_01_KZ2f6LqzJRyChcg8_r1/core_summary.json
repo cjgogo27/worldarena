@@ -1,0 +1,25 @@
+{
+  "selection_group": "good",
+  "selection_rank": 1,
+  "distance_km": 2.26133,
+  "retrieved_skill_count": 12,
+  "sample_id": "georc::KZ2f6LqzJRyChcg8::round1",
+  "game_id": "KZ2f6LqzJRyChcg8",
+  "round": "1",
+  "image_source": "/data/alice/cjtest/NIPS/geoskill/data/georc/KZ2f6LqzJRyChcg8/KZ2f6LqzJRyChcg8_1.png",
+  "ground_truth": {
+    "country": "ad",
+    "lat": 42.546186181162476,
+    "lng": 1.508177145315149
+  },
+  "prediction": {
+    "predicted_country": "ad",
+    "predicted_region": "europe",
+    "predicted_address": "Camí de la Llobatera, Ordino, Andorra",
+    "predicted_lat": 42.555,
+    "predicted_lng": 1.53305556,
+    "confidence": 0.92,
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  }
+}

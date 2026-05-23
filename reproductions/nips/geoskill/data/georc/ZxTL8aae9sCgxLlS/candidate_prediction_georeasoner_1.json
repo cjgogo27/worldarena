@@ -1,0 +1,11 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "The reddish-brown laterite soil and dry grassy verges are characteristic of Thailand’s central or northeastern regions during the dry season.",
+    "Lack of paved roads, utility poles, or formal signage suggests a rural area, common in Thailand’s less developed provinces.",
+    "Vegetation includes dense tropical trees and flowering species (e.g., red-flowered tree likely a Delonix regia), typical of Thai lowland forests."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The reddish-brown laterite soil and dry grassy verges are characteristic of Thailand’s central or northeastern regions during the dry season.\",\n    \"Lack of paved roads, utility poles, or formal signage suggests a rural area, common in Thailand’s less developed provinces.\",\n    \"Vegetation includes dense tropical trees and flowering species (e.g., red-flowered tree likely a Delonix regia), typical of Thai lowland forests.\","
+}

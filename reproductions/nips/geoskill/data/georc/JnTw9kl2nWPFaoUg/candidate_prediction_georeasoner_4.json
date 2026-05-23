@@ -1,0 +1,11 @@
+{
+  "country": "South Korea",
+  "country_code": "kr",
+  "city": "",
+  "reasoning_chain": [
+    "The green-roofed utility box features Korean text and the 'Hankook' logo, indicating South Korean origin.",
+    "Road markings include red curbs and white lane lines consistent with South Korean road design standards.",
+    "Streetlights are modern, tall poles with single-headed fixtures typical of urban infrastructure in South Korea."
+  ],
+  "raw_output": "{\n  \"country\": \"South Korea\",\n  \"country_code\": \"kr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The green-roofed utility box features Korean text and the 'Hankook' logo, indicating South Korean origin.\",\n    \"Road markings include red curbs and white lane lines consistent with South Korean road design standards.\",\n    \"Streetlights are modern, tall poles with single-headed fixtures typical of urban infrastructure in South Korea.\",\n    \"Vegetation is temperate grassland with young trees, matching suburban or semi-rural landscapes common in South"
+}

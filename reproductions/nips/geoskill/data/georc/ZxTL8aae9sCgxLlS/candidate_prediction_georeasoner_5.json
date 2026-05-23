@@ -1,0 +1,11 @@
+{
+  "country": "Sri Lanka",
+  "country_code": "lk",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line and white edge lines indicate a two-lane road with traffic driving on the left, consistent with Sri Lankan road standards.",
+    "Presence of a palm tree (likely a coconut or similar tropical species) alongside dense green vegetation suggests a tropical climate typical of Sri Lanka.",
+    "Overhead power lines running parallel to the road are common in rural Sri Lankan landscapes and match the infrastructure style seen in the image."
+  ],
+  "raw_output": "{\n  \"country\": \"Sri Lanka\",\n  \"country_code\": \"lk\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line and white edge lines indicate a two-lane road with traffic driving on the left, consistent with Sri Lankan road standards.\",\n    \"Presence of a palm tree (likely a coconut or similar tropical species) alongside dense green vegetation suggests a tropical climate typical of Sri Lanka.\",\n    \"Overhead power lines running parallel to the road are common in rural Sri Lankan landscapes and match the infrastructure style seen in the image.\","
+}

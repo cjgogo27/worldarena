@@ -1,0 +1,94 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/full_100_mytokenland_tail50
+vlm:
+  base_url: https://api.mytokenland.com/v1
+  api_key: sk-vUjdYc4zpi71lC1Z9TCQvTLeh3i50V7bImq3zKDLkPZhS1IV
+  model: qwen3.5-plus
+  max_tokens: 1500
+  max_image_side: 1024
+  retries: 1
+  backoff_seconds: 0.0
+  request_timeout_seconds: 60
+llm_large:
+  base_url: https://api.mytokenland.com/v1
+  api_key: sk-vUjdYc4zpi71lC1Z9TCQvTLeh3i50V7bImq3zKDLkPZhS1IV
+  model: gpt-5.4-mini
+  enable_thinking: false
+  max_tokens: 1100
+  max_image_side: 896
+  retries: 1
+  backoff_seconds: 0.0
+  request_timeout_seconds: 60
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  min_score: 0.15
+  retrieval_mode: text_only
+  skill_graph_top_k: 7
+training_free:
+  enable_failure_recovery: false
+  enable_skill_fusion: false
+  recovery_max_records: 20
+  search_evolution:
+    enabled: false
+    provider: brave
+    api_key: ''
+    max_cases: 4
+    queries_per_case: 2
+    results_per_query: 3
+    timeout_seconds: 8.0
+    context_char_budget: 3000
+dataset:
+  dataset_version: georc_v1
+  game_ids:
+  - VpFDohrcFkP6vSIB
+  - X7L1cT0kKi0gYjlg
+  - XFWA7xovGlFChF2o
+  - XdOtqbtqAbSvRHij
+  - Xf8Xjx82sajsyJdw
+  - XwCZ4C6astQYennV
+  - Y2QhKx7sks9MExvw
+  - YlXQJ8JIXvcRXwF5
+  - ZMSyLdPt9G7MhcHC
+  - ZxTL8aae9sCgxLlS
+  - aKDWzyoV4cSA6Da2
+  - amHvOfYODNHwXiJg
+  - bwyAndeFczBo5Gzj
+  - cObaVm83g5wtLkhH
+  - cV9n1YpMOmaTJpG7
+  - d8lnc9Ex03KQUJEL
+  - e1zn5HV7y0bMjzQL
+  - e3PS9nBwbU94sIyP
+  - f49AGnnCYZbZVLbW
+  - f7TDBGoaR3hv0dVw
+  - iF7CiuoojlFChTQ9
+  - k4PVd80ZGfSSesQF
+  - kMEhvQ4rbv1USOGs
+  - kkJz0TJOX5PkNDIu
+  - kkQArBREMnrdoW0R
+  - lCqI2T7mSJAgSbAi
+  - lHnt4Veq3Tu10VKJ
+  - lesmx8gOI1f44LS4
+  - mMZ8js56Rj2JtLlc
+  - nnxZ3V6PpY9PoPLX
+  - oIqmyQzBGtaIeI84
+  - oUaCVxfbGe5Aj0AA
+  - qDVJNPKVIYAK5Irg
+  - qKKfsK89gK6yZii9
+  - qOTM2e7p8dcC02Fz
+  - qPJtxO4pQJtlqpth
+  - qREuLz0JK8CfSFMC
+  - qRoLM1xS7DE5KEjE
+  - sFHfIZ209HMmIVTP
+  - sMPhUAFKpkB21pnD
+  - sf2wEErB2IDY3qJ5
+  - sq3HZiEly0mZ6jNJ
+  - tFoKseRvMTUy6eCq
+  - uluG1Pbks9IwTjsA
+  - va4YOTJhmCbe6lWr
+  - w3MFlsmvpeCTNUcG
+  - xYdYhcgnMuyj35eG
+  - xnoF4a1DE73F1kiV
+  - z2mhsiTu4DYWixQf
+  - z5NxwG2Ul6PVWSaj

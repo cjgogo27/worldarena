@@ -1,0 +1,19 @@
+Loaded 10/10 samples for round 1
+Main-agent model (small): qwen3.5-plus
+Skill-update model (large): gpt-5.4-mini
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12285.67it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Skill library built: 540 skills from 10 games
+Skill graph top_k (clamped): 7
+Methods to run: ['direct_vlm', 'external_geovista_skill_graph']
+
+============================================================
+Running: direct_vlm (10 samples)
+============================================================
+direct_vlm:   0%|          | 0/10 [00:00<?, ?it/s]direct_vlm:  10%|█         | 1/10 [02:36<23:30, 156.76s/it]

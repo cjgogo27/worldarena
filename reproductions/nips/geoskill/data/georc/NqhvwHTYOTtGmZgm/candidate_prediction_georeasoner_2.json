@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with no center line, typical of rural US roads in arid regions.",
+    "Vegetation consists of dry sagebrush and grasses, characteristic of the Great Basin or Intermountain West of the USA.",
+    "Utility poles are wooden and spaced regularly, consistent with rural infrastructure in western US states like Nevada or Utah."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with no center line, typical of rural US roads in arid regions.\",\n    \"Vegetation consists of dry sagebrush and grasses, characteristic of the Great Basin or Intermountain West of the USA.\",\n    \"Utility poles are wooden and spaced regularly, consistent with rural infrastructure in western US states like Nevada or Utah.\",\n    \"No visible signage, vehicles, or buildings provide direct location clues"
+}

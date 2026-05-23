@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-03-29T04:35:05.401903+00:00",
+  "content_dir": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/resources/datasets/omnistyle/content",
+  "style_prompts": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/resources/styles/style_prompts_40_v1.json",
+  "output_dir": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_content_style_benchmark_smoke_mode2",
+  "model_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/models/BAGEL-7B-MoT",
+  "mode": 2,
+  "content_start": 0,
+  "content_end_requested": 200,
+  "content_end_effective": 1,
+  "max_contents": 1,
+  "cfg_text_scale": 4.0,
+  "cfg_img_scale": 1.5,
+  "num_timesteps": 1,
+  "use_content_size": false,
+  "content_count": 1,
+  "style_count": 1,
+  "expected_images": 1,
+  "generated_images": 0,
+  "skipped_images": 0,
+  "failed_images": 1,
+  "records": [
+    {
+      "content_id": "content_0001",
+      "content_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/resources/datasets/omnistyle/content/Mythicalcreatures_A graceful phoenix rising from a nest of flames, with feathers of vibrant red and gold.png",
+      "images": [
+        {
+          "style_id": "Action Painting",
+          "style_safe": "Action_Painting",
+          "prompt": "Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure.",
+          "output_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_content_style_benchmark_smoke_mode2/content_0001/Action_Painting.png",
+          "seed": 20261330,
+          "status": "failed"
+        }
+      ]
+    }
+  ],
+  "failures_file": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_content_style_benchmark_smoke_mode2/generation_failures.jsonl"
+}

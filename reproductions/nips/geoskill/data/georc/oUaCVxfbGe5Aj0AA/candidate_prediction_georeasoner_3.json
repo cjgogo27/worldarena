@@ -1,0 +1,11 @@
+{
+  "country": "South Korea",
+  "country_code": "kr",
+  "city": "",
+  "reasoning_chain": [
+    "The stone sign displays Korean characters '성실' (Seong-sil), indicating a location in South Korea.",
+    "The road is narrow, paved with asphalt, and lacks center markings, typical of residential or campus roads in urban Korean areas.",
+    "Vegetation includes autumn-colored trees and evergreens, consistent with temperate climates found in South Korea."
+  ],
+  "raw_output": "{\n  \"country\": \"South Korea\",\n  \"country_code\": \"kr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The stone sign displays Korean characters '성실' (Seong-sil), indicating a location in South Korea.\",\n    \"The road is narrow, paved with asphalt, and lacks center markings, typical of residential or campus roads in urban Korean areas.\",\n    \"Vegetation includes autumn-colored trees and evergreens, consistent with temperate climates found in South Korea.\",\n    \"Architecture on the left shows multi-story apartment buildings with balconies and air"
+}

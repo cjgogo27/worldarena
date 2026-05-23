@@ -1,0 +1,49 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/ablation_geovista_skill_graph_retry50_rollout5
+
+vlm:
+  base_url: https://api.mytokenland.com/v1
+  api_key: sk-vUjdYc4zpi71lC1Z9TCQvTLeh3i50V7bImq3zKDLkPZhS1IV
+  model: qwen3.5-plus
+  max_tokens: 1500
+  max_image_side: 1024
+  retries: 3
+  backoff_seconds: 1.0
+  request_timeout_seconds: 90
+
+llm_large:
+  base_url: https://api.mytokenland.com/v1
+  api_key: sk-vUjdYc4zpi71lC1Z9TCQvTLeh3i50V7bImq3zKDLkPZhS1IV
+  model: gpt-5.4-mini
+  enable_thinking: false
+  max_tokens: 1100
+  max_image_side: 896
+  retries: 3
+  backoff_seconds: 1.0
+  request_timeout_seconds: 90
+
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  min_score: 0.15
+  retrieval_mode: text_only
+  skill_graph_top_k: 7
+
+training_free:
+  enable_failure_recovery: true
+  enable_skill_fusion: false
+  recovery_max_records: 20
+  failure_distance_km: 200.0
+  rollout_rounds: 5
+  search_evolution:
+    enabled: false
+    provider: brave
+    api_key: ""
+
+runtime:
+  sample_retry_attempts: 3
+  sample_retry_backoff_seconds: 2.0
+
+dataset:
+  dataset_version: georc_v1

@@ -1,0 +1,11 @@
+{
+  "country": "Saudi Arabia",
+  "country_code": "sa",
+  "city": "",
+  "reasoning_chain": [
+    "The arid, desert-like terrain with sparse scrub vegetation and sandy soil is characteristic of the Arabian Peninsula, particularly Saudi Arabia.",
+    "The presence of large red-and-white high-voltage transmission towers and associated infrastructure suggests an industrial or energy zone, common in Saudi Arabia’s oil-rich regions.",
+    "The vehicle driving on the right side of the road aligns with Saudi Arabia’s traffic laws, which mandate right-hand traffic."
+  ],
+  "raw_output": "{\n  \"country\": \"Saudi Arabia\",\n  \"country_code\": \"sa\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The arid, desert-like terrain with sparse scrub vegetation and sandy soil is characteristic of the Arabian Peninsula, particularly Saudi Arabia.\",\n    \"The presence of large red-and-white high-voltage transmission towers and associated infrastructure suggests an industrial or energy zone, common in Saudi Arabia’s oil-rich regions.\",\n    \"The vehicle driving on the right side of the road aligns with Saudi Arabia’s traffic laws, which mandate right-hand traffic.\",\n    \"The lack"
+}

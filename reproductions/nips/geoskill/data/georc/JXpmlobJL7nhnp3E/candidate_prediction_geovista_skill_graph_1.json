@@ -1,0 +1,846 @@
+{
+  "game_id": "JXpmlobJL7nhnp3E",
+  "round": 1,
+  "sample_id": "georc::JXpmlobJL7nhnp3E::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "bn",
+    "predicted_region": "asia",
+    "predicted_address": "Jalan Tutong, rural area near Tutong, Tutong District, Brunei",
+    "predicted_lat": 4.58333333,
+    "predicted_lng": 114.66666667,
+    "reasoning_text": "{\n  \"country\": \"Brunei\",\n  \"country_code\": \"bn\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Tutong\",\n  \"province_or_state\": \"Tutong District\",\n  \"address\": \"Jalan Tutong, rural area near Tutong, Tutong District, Brunei\",\n  \"confidence\": 0.66,\n  \"reasoning\": \"Applying the ordered skill graph strictly: (1) the dense jungle and tropical roadside push the scene toward a Malaysia-like environment in Southeast Asia rather than a dry or temperate region. (2) The faded double white center lines with solid white outer lines fit the Malaysia/Brunei road style well. (3) The suggestion of rural India from edge dashes is weaker here because the overall road design, vegetation, and roadside housing compound do not resemble India as much as northern Borneo. (4) The humid tropical soil, grass, and palms strongly support Southeast Asia. (5) A European interpretation from the dashed center lines does not fit the tropical vegetation, left-side driving context, or roadside settlement form, so it is rejected. (6) The overall setup resembles rural or peri-urban Malaysia more than Singapore or much of Indonesia, especially the orderly roadside compound and maintained highway. (7) South America is inconsistent with the road markings and tropical Southeast Asian roadside architecture, so it is rejected. (8) The simple rural two-lane paved road is consistent with lesser-trafficked Malaysian-type roads. (9) Northern Vietnam is not a good fit because the terrain here is lowland and only gently rolling, not steep mountainous roadside cuts. (10) The United States is clearly inconsistent with left-side driving and tropical village form. (11) The middling-quality paved rural road supports a non-urban tropical setting. (12) Coconut palms and mixed lush vegetation fit lowland Borneo well. Following the graph links, the strongest chain is 1 -> 2 -> 4 -> 6 -> 8 -> 12, which points to a Malaysia-like Bornean roadside. Given the base observation summary and the particularly neat roadside maintenance, detached house compound, and overall road environment, Brunei is the best consistent final guess, specifically along Jalan Tutong near Tutong.\",\n  \"evidence\": [\n    \"Left-side driving road layout\",\n    \"Faded double white center lines\",\n    \"Solid white edge lines on both sides\",\n    \"Humid tropical lowland vegetation\",\n    \"Coconut palms and dense roadside jungle\",\n    \"Rural two-lane paved highway\",\n    \"Neatly maintained roadside verge\",\n    \"Detached house compound with decorative low wall\",\n    \"Borneo-like settlement pattern\",\n    \"Flat to gently rolling terrain near Tutong\"\n  ]\n}",
+    "evidence_spans": [
+      "Left-side driving road layout",
+      "Faded double white center lines",
+      "Solid white edge lines on both sides",
+      "Humid tropical lowland vegetation",
+      "Coconut palms and dense roadside jungle",
+      "Rural two-lane paved highway",
+      "Neatly maintained roadside verge",
+      "Detached house compound with decorative low wall",
+      "Borneo-like settlement pattern",
+      "Flat to gently rolling terrain near Tutong"
+    ],
+    "confidence": 0.66,
+    "base_prediction_summary": {
+      "predicted_country": "bn",
+      "predicted_region": "asia",
+      "confidence": 0.57
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The jungly nature leads this towards more mainland Malaysia, as Borneo Malaysia has more open roads",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 2,
+        "score": 0.8902532458305359,
+        "bm25_score": 28.015682220458984,
+        "semantic_score": 0.6809077858924866
+      },
+      {
+        "skill_text": "The faded double white center lines with white solid outer lines are also exclusive to Malaysia",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "center",
+          "double",
+          "faded",
+          "white"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 2,
+        "score": 0.8446688055992126,
+        "bm25_score": 31.571441650390625,
+        "semantic_score": 0.535273551940918
+      },
+      {
+        "skill_text": "The road markings feature short white dashed lines on both edges, which is common in rural India rather than Southeast Asia or Africa.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 2,
+        "score": 0.7985697984695435,
+        "bm25_score": 27.592592239379883,
+        "semantic_score": 0.549552321434021
+      },
+      {
+        "skill_text": "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "soil"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 1,
+        "score": 0.7957462668418884,
+        "bm25_score": 25.694297790527344,
+        "semantic_score": 0.5857166051864624
+      },
+      {
+        "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.7937294244766235,
+        "bm25_score": 33.689151763916016,
+        "semantic_score": 0.41211146116256714
+      },
+      {
+        "skill_text": "The overall setup resembles rural or peri-urban Malaysia rather than the more urbanized and regulated environments in Singapore or Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "overall",
+          "resembles",
+          "rural",
+          "setup"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 4,
+        "score": 0.793431282043457,
+        "bm25_score": 25.99125862121582,
+        "semantic_score": 0.5758383274078369
+      },
+      {
+        "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 4,
+        "score": 0.7916600704193115,
+        "bm25_score": 32.92829895019531,
+        "semantic_score": 0.42517080903053284
+      },
+      {
+        "skill_text": "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings",
+          "sidewalk"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 4,
+        "score": 0.7803282141685486,
+        "bm25_score": 24.407201766967773,
+        "semantic_score": 0.5895612239837646
+      },
+      {
+        "skill_text": "The surrounding hilly landscape, with steep roadside cuts and dense forest, suggests a location away from the coast and near the mountains typical of northern Vietnam.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "coast",
+          "mountains",
+          "road"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 4,
+        "score": 0.7785468101501465,
+        "bm25_score": 29.15329933166504,
+        "semantic_score": 0.48560723662376404
+      },
+      {
+        "skill_text": "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 4,
+        "score": 0.7741632461547852,
+        "bm25_score": 33.008026123046875,
+        "semantic_score": 0.39668041467666626
+      },
+      {
+        "skill_text": "The road is paved but appears to be of middling quality, with a faded white dashed center line and no shoulder markings, suggesting rural or remote areas.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 2,
+        "score": 0.7695043087005615,
+        "bm25_score": 29.235628128051758,
+        "semantic_score": 0.47000592947006226
+      },
+      {
+        "skill_text": "The presence of coconut trees and mixed vegetation fits well with peninsular Malaysia lowland areas.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees",
+          "vegetation"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 4,
+        "score": 0.7682039737701416,
+        "bm25_score": 26.27071189880371,
+        "semantic_score": 0.5312517881393433
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The jungly nature leads this towards more mainland Malaysia, as Borneo Malaysia has more open roads",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8902532458305359,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The faded double white center lines with white solid outer lines are also exclusive to Malaysia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8446688055992126,
+          "visual_cues": [
+            "center",
+            "double",
+            "faded",
+            "white"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The road markings feature short white dashed lines on both edges, which is common in rural India rather than Southeast Asia or Africa.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7985697984695435,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7957462668418884,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7937294244766235,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The overall setup resembles rural or peri-urban Malaysia rather than the more urbanized and regulated environments in Singapore or Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.793431282043457,
+          "visual_cues": [
+            "overall",
+            "resembles",
+            "rural",
+            "setup"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7916600704193115,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7803282141685486,
+          "visual_cues": [
+            "road",
+            "road markings",
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The surrounding hilly landscape, with steep roadside cuts and dense forest, suggests a location away from the coast and near the mountains typical of northern Vietnam.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7785468101501465,
+          "visual_cues": [
+            "coast",
+            "mountains",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7741632461547852,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road is paved but appears to be of middling quality, with a faded white dashed center line and no shoulder markings, suggesting rural or remote areas.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7695043087005615,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The presence of coconut trees and mixed vegetation fits well with peninsular Malaysia lowland areas.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7682039737701416,
+          "visual_cues": [
+            "trees",
+            "vegetation"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The jungly nature leads this towards more mainland Malaysia, as Borneo Malaysia has more open roads",
+        "The faded double white center lines with white solid outer lines are also exclusive to Malaysia",
+        "The road markings feature short white dashed lines on both edges, which is common in rural India rather than Southeast Asia or Africa.",
+        "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+        "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "The overall setup resembles rural or peri-urban Malaysia rather than the more urbanized and regulated environments in Singapore or Indonesia.",
+        "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+        "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+        "The surrounding hilly landscape, with steep roadside cuts and dense forest, suggests a location away from the coast and near the mountains typical of northern Vietnam.",
+        "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+        "The road is paved but appears to be of middling quality, with a faded white dashed center line and no shoulder markings, suggesting rural or remote areas.",
+        "The presence of coconut trees and mixed vegetation fits well with peninsular Malaysia lowland areas."
+      ],
+      "summary": "nodes=12, edges=54, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Brunei\",\n  \"country_code\": \"bn\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Tutong\",\n  \"province_or_state\": \"Tutong District\",\n  \"address\": \"Rural roadside along Jalan Tutong near Tutong, Tutong District, Brunei\",\n  \"confidence\": 0.57,\n  \"reasoning\": \"The scene shows left-side driving,",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 54,
+        "graph_summary": "nodes=12, edges=54, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "bn"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

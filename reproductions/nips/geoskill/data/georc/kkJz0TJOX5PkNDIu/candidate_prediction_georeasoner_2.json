@@ -1,0 +1,12 @@
+{
+  "country": "Russia",
+  "country_code": "ru",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt with no center line, typical of rural Russian roads in less developed regions.",
+    "Utility poles with overhead wires are present on the right side, consistent with Russian infrastructure standards.",
+    "Vegetation includes birch trees and dense green shrubs, common in temperate zones of Russia.",
+    "A distant blue sign with Cyrillic text is visible, confirming the location is in a Russian-speaking region."
+  ],
+  "raw_output": "{\n  \"country\": \"Russia\",\n  \"country_code\": \"ru\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt with no center line, typical of rural Russian roads in less developed regions.\",\n    \"Utility poles with overhead wires are present on the right side, consistent with Russian infrastructure standards.\",\n    \"Vegetation includes birch trees and dense green shrubs, common in temperate zones of Russia.\",\n    \"A distant blue sign with Cyrillic text is visible, confirming the location is in a Russian-speaking region.\""
+}

@@ -1,0 +1,34 @@
+{
+  "game_id": "4UvmdTHySo6AXW4M",
+  "round": 1,
+  "sample_id": "georc::4UvmdTHySo6AXW4M::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "gb",
+    "predicted_region": "europe",
+    "predicted_address": "B6399, Cavers, Hawick, Scottish Borders, Scotland, United Kingdom",
+    "predicted_lat": 55.422,
+    "predicted_lng": -2.787,
+    "reasoning_text": "```json\n{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"region\": \"Europe\",\n  \"city\": \"Hawick\",\n  \"province_or_state\": \"Scotland\",\n  \"address\": \"B6399, Cavers, Hawick, Scottish Borders, Scotland, United Kingdom\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"The image shows a narrow rural road with left-hand driving orientation (steering wheel position implied by camera placement on left side of road), typical of the UK. The landscape features rolling green pasture fields, dry stone walls/fencing, and deciduous trees without leaves suggesting early spring or late autumn. The road surface and rural infrastructure match British countryside characteristics. The terrain and vegetation are consistent with the Scottish Borders region rather than England or Wales. The B-road style narrow winding route through farmland points toward a specific minor road in the Hawick area.\",\n  \"evidence\": [\"Left-hand driving orientation\", \"Narrow rural B-road style asphalt\", \"Rolling green pasture fields with fencing\", \"Deciduous trees in bare/spring state\", \"Overcast grey sky typical of UK climate\", \"Dry stone wall and wooden fence construction\", \"Scottish Borders style pastoral landscape\"]\n}\n```",
+    "evidence_spans": [
+      "Left-hand driving orientation",
+      "Narrow rural B-road style asphalt",
+      "Rolling green pasture fields with fencing",
+      "Deciduous trees in bare/spring state",
+      "Overcast grey sky typical of UK climate",
+      "Dry stone wall and wooden fence construction",
+      "Scottish Borders style pastoral landscape"
+    ],
+    "confidence": 0.6,
+    "country_top3": [
+      "gb",
+      "ie",
+      "fr"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"gb\",\"ie\",\"fr\"],\"reason\":\"Narrow winding rural road with left-hand traffic wear pattern, temperate deciduous trees bare in winter/early spring, lush green pasture fields with post-and-wire fencing, overcast sky, and rolling gentle hills are characteristic of the British Isles, particularly Great Britain. The road surface and drainage ditches are typical of UK minor country roads. Ireland shares similar features but the specific road character and fencing style lean more toward GB. France is a distant third as parts of northern France have similar rural landscapes but the overall combination strongly suggests UK.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8600000000000001
+  },
+  "error": null
+}

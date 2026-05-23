@@ -1,0 +1,12 @@
+{
+  "country": "Ukraine",
+  "country_code": "ua",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved with no center line, typical of rural Ukrainian villages.",
+    "Utility poles are wooden and spaced irregularly, common in Eastern Europe.",
+    "Houses have simple pitched roofs and white-painted walls, consistent with Ukrainian rural architecture.",
+    "Vegetation is lush green with deciduous trees, indicating a temperate climate zone."
+  ],
+  "raw_output": "{\n  \"country\": \"Ukraine\",\n  \"country_code\": \"ua\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved with no center line, typical of rural Ukrainian villages.\",\n    \"Utility poles are wooden and spaced irregularly, common in Eastern Europe.\",\n    \"Houses have simple pitched roofs and white-painted walls, consistent with Ukrainian rural architecture.\",\n    \"Vegetation is lush green with deciduous trees, indicating a temperate climate zone.\"\n  ]\n}"
+}

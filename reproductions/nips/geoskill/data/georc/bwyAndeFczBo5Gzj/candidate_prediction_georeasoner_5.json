@@ -1,0 +1,11 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved gravel road flanked by dense boreal forest is typical of rural Finland, where such tracks are common in forested regions.",
+    "Absence of road markings, signs, or vehicles suggests a remote, non-urbanized area consistent with Finland’s vast wilderness zones.",
+    "Vegetation includes mixed deciduous and coniferous trees under a temperate climate, matching Finland’s summer landscape."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved gravel road flanked by dense boreal forest is typical of rural Finland, where such tracks are common in forested regions.\",\n    \"Absence of road markings, signs, or vehicles suggests a remote, non-urbanized area consistent with Finland’s vast wilderness zones.\",\n    \"Vegetation includes mixed deciduous and coniferous trees under a temperate climate, matching Finland’s summer landscape.\",\n    \"No infrastructure like utility"
+}

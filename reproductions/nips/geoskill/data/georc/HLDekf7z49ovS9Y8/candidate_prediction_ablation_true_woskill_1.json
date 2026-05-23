@@ -1,0 +1,34 @@
+{
+  "game_id": "HLDekf7z49ovS9Y8",
+  "round": 1,
+  "sample_id": "georc::HLDekf7z49ovS9Y8::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "br",
+    "predicted_region": "south_america",
+    "predicted_address": "Rua Padre Cícero, Juazeiro do Norte, Ceará, Brazil",
+    "predicted_lat": -7.2,
+    "predicted_lng": -39.33333333,
+    "reasoning_text": "```json\n{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"city\": \"Juazeiro do Norte\",\n  \"province_or_state\": \"Ceará\",\n  \"address\": \"Rua Padre Cícero, Juazeiro do Norte, Ceará, Brazil\",\n  \"confidence\": 0.7,\n  \"reasoning\": \"The image shows an unpaved road in a semi-arid tropical environment with distinctive vegetation including large spreading trees typical of the caatinga biome. The infrastructure—wooden utility poles with multiple wire connections, brick walls with graffiti, and simple industrial/commercial buildings—matches northeastern Brazilian urban periphery characteristics. The red soil and drainage ditch are common in this region. The shortlist includes Brazil, Mexico, and Argentina; the vegetation and infrastructure style most closely match Brazil's Northeast region, specifically Ceará state. Juazeiro do Norte is a major city in this region with similar peripheral urban development patterns.\",\n  \"evidence\": [\"Unpaved red dirt road typical of semi-arid Brazil\", \"Wooden utility poles with dense wire networks\", \"Large spreading trees characteristic of caatinga biome\", \"Brick perimeter walls with graffiti\", \"Concrete drainage ditch alongside road\", \"Simple metal-roofed industrial building\", \"Tropical vegetation with dry-season adapted trees\"]\n}\n```",
+    "evidence_spans": [
+      "Unpaved red dirt road typical of semi-arid Brazil",
+      "Wooden utility poles with dense wire networks",
+      "Large spreading trees characteristic of caatinga biome",
+      "Brick perimeter walls with graffiti",
+      "Concrete drainage ditch alongside road",
+      "Simple metal-roofed industrial building",
+      "Tropical vegetation with dry-season adapted trees"
+    ],
+    "confidence": 0.7,
+    "country_top3": [
+      "br",
+      "mx",
+      "ar"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"br\",\"mx\",\"ar\"],\"reason\":\"Unpaved road with tropical/subtropical vegetation, wooden utility poles with multiple unbundled wires, brick walls with graffiti, corrugated metal industrial roofing, and canal/ditch drainage system are highly characteristic of northeastern Brazil (e.g., Ceará, Pernambuco, Bahia). The tree species resemble neem or similar drought-tolerant tropical trees common in Brazil's semi-arid regions. Mexico shares some features but the specific pole/wiring style and wall construction lean more Brazilian. Argentina is a distant third due to some shared Latin American infrastructure patterns.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8650000000000001
+  },
+  "error": null
+}

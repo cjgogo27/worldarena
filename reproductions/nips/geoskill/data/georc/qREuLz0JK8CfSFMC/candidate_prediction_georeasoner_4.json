@@ -1,0 +1,11 @@
+{
+  "country": "Chile",
+  "country_code": "cl",
+  "city": "",
+  "reasoning_chain": [
+    "The arid, brown hills and sparse vegetation are characteristic of the Atacama Desert region in northern Chile.",
+    "The white van with 'JOSÉLO' written on it uses Spanish, consistent with Chilean vehicle branding.",
+    "The road layout, including the right-hand traffic flow and lack of center markings, aligns with Chilean infrastructure standards."
+  ],
+  "raw_output": "{\n  \"country\": \"Chile\",\n  \"country_code\": \"cl\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The arid, brown hills and sparse vegetation are characteristic of the Atacama Desert region in northern Chile.\",\n    \"The white van with 'JOSÉLO' written on it uses Spanish, consistent with Chilean vehicle branding.\",\n    \"The road layout, including the right-hand traffic flow and lack of center markings, aligns with Chilean infrastructure standards.\",\n    \"The presence of eucalyptus trees and the overall landscape match"
+}

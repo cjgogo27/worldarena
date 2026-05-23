@@ -1,0 +1,11 @@
+{
+  "country": "Costa Rica",
+  "country_code": "cr",
+  "city": "",
+  "reasoning_chain": [
+    "The white SUV is parked on the right side of the road, consistent with right-hand traffic in Costa Rica.",
+    "Utility poles with exposed wiring and a simple streetlight design are typical of rural or semi-rural areas in Costa Rica.",
+    "Vegetation includes lush green trees and shrubs, indicative of a tropical climate common in Costa Rica."
+  ],
+  "raw_output": "{\n  \"country\": \"Costa Rica\",\n  \"country_code\": \"cr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The white SUV is parked on the right side of the road, consistent with right-hand traffic in Costa Rica.\",\n    \"Utility poles with exposed wiring and a simple streetlight design are typical of rural or semi-rural areas in Costa Rica.\",\n    \"Vegetation includes lush green trees and shrubs, indicative of a tropical climate common in Costa Rica.\",\n    \"The architecture features simple, single-story buildings with metal roofs, typical of residential"
+}

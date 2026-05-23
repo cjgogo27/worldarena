@@ -1,0 +1,93 @@
+{
+  "timestamp_utc": "2026-04-01T03:21:59.300278+00:00",
+  "project_root": "/data/alice/cjtest/NIPS/geoskill",
+  "config": "configs/full.yaml",
+  "dataset": {
+    "expected_sample_count": 1,
+    "expected_game_count": 1,
+    "loaded_sample_count": 1,
+    "missing_game_count": 0,
+    "missing_sample_ids": [],
+    "missing_game_ids": [],
+    "datasets_loaded": [
+      "georc"
+    ]
+  },
+  "run": {
+    "methods_requested": [
+      "external_geovista"
+    ],
+    "methods_executed": [
+      "external_geovista"
+    ]
+  },
+  "method_status": {
+    "external_geovista": {
+      "num_samples": 1,
+      "num_errors": 1,
+      "num_success": 0,
+      "error_rate": 1.0
+    }
+  },
+  "external_baselines": {
+    "GeoComp": {
+      "present": true,
+      "has_run_or_eval_script": true,
+      "local_results_found": true,
+      "local_result_files": [
+        "experiments/full_100/external_geocomp/latest_metrics.json"
+      ],
+      "artifact_file_count": 4,
+      "artifact_examples": [
+        "external_baselines/GeoComp/Hallucination/GPT4o.csv",
+        "external_baselines/GeoComp/Hallucination/GeoCoT.csv",
+        "external_baselines/GeoComp/Hallucination/GeoReasoners.csv",
+        "external_baselines/GeoComp/src/Geoeval/Ground Truth.csv"
+      ]
+    },
+    "GeoReasoner": {
+      "present": true,
+      "has_run_or_eval_script": true,
+      "local_results_found": true,
+      "local_result_files": [
+        "experiments/full_100/external_georeasoner/latest_metrics.json"
+      ],
+      "artifact_file_count": 0,
+      "artifact_examples": []
+    },
+    "GeoVista": {
+      "present": true,
+      "has_run_or_eval_script": true,
+      "local_results_found": true,
+      "local_result_files": [
+        "experiments/full_100/external_geovista/latest_metrics.json"
+      ],
+      "artifact_file_count": 0,
+      "artifact_examples": []
+    },
+    "SAFA": {
+      "present": true,
+      "has_run_or_eval_script": true,
+      "local_results_found": true,
+      "local_result_files": [
+        "experiments/full_100/external_safa/latest_metrics.json"
+      ],
+      "artifact_file_count": 0,
+      "artifact_examples": []
+    },
+    "EP-BEV": {
+      "present": false,
+      "has_run_or_eval_script": false,
+      "local_results_found": false,
+      "artifact_file_count": 0,
+      "artifact_examples": []
+    },
+    "Sample4Geo": {
+      "present": false,
+      "has_run_or_eval_script": false,
+      "local_results_found": false,
+      "artifact_file_count": 0,
+      "artifact_examples": []
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Indonesia",
+  "country_code": "id",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of stilt houses with wooden construction and blue corrugated metal roofs is characteristic of rural Indonesian architecture, especially in coastal or flood-prone areas.",
+    "Vegetation includes tropical plants like banana trees and palm-like species, consistent with a humid tropical climate found in Indonesia.",
+    "The unpaved dirt road and lack of formal road markings suggest a rural setting typical of outer islands or less developed regions in Indonesia."
+  ],
+  "raw_output": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of stilt houses with wooden construction and blue corrugated metal roofs is characteristic of rural Indonesian architecture, especially in coastal or flood-prone areas.\",\n    \"Vegetation includes tropical plants like banana trees and palm-like species, consistent with a humid tropical climate found in Indonesia.\",\n    \"The unpaved dirt road and lack of formal road markings suggest a rural setting typical of outer islands or less developed regions in Indonesia.\",\n    \"Utility poles"
+}

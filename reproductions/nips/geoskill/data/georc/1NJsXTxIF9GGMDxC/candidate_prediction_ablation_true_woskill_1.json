@@ -1,0 +1,33 @@
+{
+  "game_id": "1NJsXTxIF9GGMDxC",
+  "round": 1,
+  "sample_id": "georc::1NJsXTxIF9GGMDxC::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "kz",
+    "predicted_region": "asia",
+    "predicted_address": "Kulzha Batyr Street, Almaty, Almaty Region, Kazakhstan",
+    "predicted_lat": 44.06667,
+    "predicted_lng": 76.45,
+    "reasoning_text": "```json\n{\n  \"country\": \"Kazakhstan\",\n  \"country_code\": \"kz\",\n  \"region\": \"Central Asia\",\n  \"city\": \"Almaty\",\n  \"province_or_state\": \"Almaty Region\",\n  \"address\": \"Kulzha Batyr Street, Almaty, Almaty Region, Kazakhstan\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"The green fuel price sign displays text in Cyrillic script with prices in what appears to be Kazakhstani tenge format (ending in 00). The semi-arid vegetation with deciduous trees showing autumn colors, the style of the road, and the general infrastructure are consistent with southern Kazakhstan. The flat terrain and mountain hints in the distance suggest the Almaty area at the northern edge of the Tian Shan mountains. The driving side appears to be right-hand traffic. The specific street is difficult to determine precisely, but the overall character matches a residential or suburban road in Almaty.\",\n  \"evidence\": [\"Cyrillic script on green fuel price sign\", \"Fuel prices ending in 00 suggesting Kazakhstani tenge\", \"Autumn deciduous trees in semi-arid climate\", \"Flat terrain with distant mountain range\", \"Right-hand traffic road configuration\", \"Soviet-era road and infrastructure style\"]\n}\n```",
+    "evidence_spans": [
+      "Cyrillic script on green fuel price sign",
+      "Fuel prices ending in 00 suggesting Kazakhstani tenge",
+      "Autumn deciduous trees in semi-arid climate",
+      "Flat terrain with distant mountain range",
+      "Right-hand traffic road configuration",
+      "Soviet-era road and infrastructure style"
+    ],
+    "confidence": 0.6,
+    "country_top3": [
+      "kg",
+      "kz",
+      "uz"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"kg\",\"kz\",\"uz\"],\"reason\":\"The green fuel price sign displays prices in a Cyrillic script currency format typical of Central Asia, with prices around 52-55 range suggesting Kyrgyzstani som or Kazakhstani tenge. The autumn vegetation with deciduous trees losing leaves, unpaved road edges, and Soviet-era infrastructure style are consistent with rural Kyrgyzstan, Kazakhstan, or Uzbekistan. The green color scheme and specific sign design strongly resembles Kyrgyzstan's common fuel station branding.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.7775000000000001
+  },
+  "error": null
+}

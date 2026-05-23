@@ -1,0 +1,34 @@
+{
+  "game_id": "KWr0ySMIaUQRvikA",
+  "round": 1,
+  "sample_id": "georc::KWr0ySMIaUQRvikA::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ph",
+    "predicted_region": "asia",
+    "predicted_address": "Barangay Biao Escuela, Davao City, Davao del Sur, Philippines",
+    "predicted_lat": 7.07222222,
+    "predicted_lng": 125.61305556,
+    "reasoning_text": "```json\n{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Davao City\",\n  \"province_or_state\": \"Davao del Sur\",\n  \"address\": \"Barangay Biao Escuela, Davao City, Davao del Sur, Philippines\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"The image shows a rural road with tropical vegetation including coconut palms and dense greenery, consistent with the Philippines. The road has a yellow centerline and white edge markings typical of Philippine rural roads. The utility poles and wire configuration match common Philippine infrastructure. The motorcycle as primary transport, the style of low concrete walls, and the simple rural housing architecture are characteristic of Mindanao region. The flat terrain and specific vegetation density suggest the Davao area. The road width and condition match barangay roads in the outskirts of Davao City.\",\n  \"evidence\": [\"Coconut palms and tropical vegetation typical of Mindanao\", \"Yellow centerline road marking style used in Philippines\", \"Concrete utility poles with multiple wire levels\", \"Motorcycle as common rural transport\", \"Low concrete perimeter walls on properties\", \"Simple single-story rural housing construction\", \"Flat terrain with dense tree canopy\"]\n}\n```",
+    "evidence_spans": [
+      "Coconut palms and tropical vegetation typical of Mindanao",
+      "Yellow centerline road marking style used in Philippines",
+      "Concrete utility poles with multiple wire levels",
+      "Motorcycle as common rural transport",
+      "Low concrete perimeter walls on properties",
+      "Simple single-story rural housing construction",
+      "Flat terrain with dense tree canopy"
+    ],
+    "confidence": 0.6,
+    "country_top3": [
+      "ph",
+      "id",
+      "my"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"ph\",\"id\",\"my\"],\"reason\":\"Tropical vegetation with palm trees and dense greenery, right-hand traffic with motorbikes as primary transport, concrete road with yellow center line, simple concrete structures, and utility poles with overhead wires are characteristic of Southeast Asia. The specific road markings, building style, and vegetation density most strongly match the Philippines, followed by Indonesia and Malaysia.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8400000000000001
+  },
+  "error": null
+}

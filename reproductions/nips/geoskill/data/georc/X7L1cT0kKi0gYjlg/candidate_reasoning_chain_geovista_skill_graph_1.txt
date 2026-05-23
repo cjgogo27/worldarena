@@ -1,0 +1,10 @@
+single-lane paved road with no lane markings
+dense mixed conifer and broadleaf forest
+abundant roadside ferns and humid upland vegetation
+steep enclosed mountain terrain
+light roadside engineering typical of minor Japanese backroads
+base observation summary points to Karuizawa in Nagano Prefecture
+The scene shows a very narrow paved mountain road without centerlines, bordered by dense mixed forest and ferns, which is characteristic of minor upland roads in Japan.
+The humid temperate vegetation and enclosed wooded terrain fit central Honshu well.
+Given the provided country and city signals pointing to Japan and Karuizawa, the best consistent match is a forest road in the Nagakura-Sengataki side of Karuizawa, where such narrow wooded lanes are common.
+Conclusion: likely location is Karuizawa, Nagano Prefecture, Japan

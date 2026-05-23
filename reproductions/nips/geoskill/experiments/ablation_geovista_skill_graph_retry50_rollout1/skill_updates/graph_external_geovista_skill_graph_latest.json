@@ -1,0 +1,85 @@
+{
+  "method": "external_geovista_skill_graph",
+  "rollout_idx": 1,
+  "timestamp": "20260401_162647",
+  "num_records": 1,
+  "num_failed_records": 1,
+  "edge_count": 15,
+  "edges": [
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "The soil looks dry and reddish, which is more characteristic of Central Asia's steppe regions than Russia's wetter forests.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "skill_b": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "skill_b": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "skill_b": "The soil looks dry and reddish, which is more characteristic of Central Asia's steppe regions than Russia's wetter forests.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "skill_b": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "skill_b": "The soil looks dry and reddish, which is more characteristic of Central Asia's steppe regions than Russia's wetter forests.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+      "skill_b": "The soil looks dry and reddish, which is more characteristic of Central Asia's steppe regions than Russia's wetter forests.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The soil looks dry and reddish, which is more characteristic of Central Asia's steppe regions than Russia's wetter forests.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    }
+  ]
+}

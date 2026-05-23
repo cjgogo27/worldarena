@@ -1,0 +1,12 @@
+{
+  "country": "New Zealand",
+  "country_code": "nz",
+  "city": "",
+  "reasoning_chain": [
+    "Road markings show left-hand traffic, consistent with New Zealand’s driving side.",
+    "Blue directional arrow signs on traffic islands are standard in New Zealand road infrastructure.",
+    "Vegetation includes native-looking shrubs and trees (e.g., pohutukawa or similar evergreens) typical of NZ temperate climates.",
+    "Utility poles and residential architecture (white-painted houses, wooden fences) match common suburban styles in New Zealand towns."
+  ],
+  "raw_output": "{\n  \"country\": \"New Zealand\",\n  \"country_code\": \"nz\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Road markings show left-hand traffic, consistent with New Zealand’s driving side.\",\n    \"Blue directional arrow signs on traffic islands are standard in New Zealand road infrastructure.\",\n    \"Vegetation includes native-looking shrubs and trees (e.g., pohutukawa or similar evergreens) typical of NZ temperate climates.\",\n    \"Utility poles and residential architecture (white-painted houses, wooden fences) match common suburban styles in New Zealand towns.\""
+}

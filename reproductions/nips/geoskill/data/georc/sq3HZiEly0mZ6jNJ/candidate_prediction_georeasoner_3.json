@@ -1,0 +1,10 @@
+{
+  "country": "Spain",
+  "country_code": "es",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of pine trees (Pinus pinaster) and heathland vegetation is characteristic of the Mediterranean climate zones in Spain, particularly in regions like Catalonia or Andalusia.",
+    "The unpaved dirt road with gravel shoulders and lack of formal markings suggests a rural or semi-rural area common in less developed parts of Spain."
+  ],
+  "raw_output": "{\n  \"country\": \"Spain\",\n  \"country_code\": \"es\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of pine trees (Pinus pinaster) and heathland vegetation is characteristic of the Mediterranean climate zones in Spain, particularly in regions like Catalonia or Andalusia.\",\n    \"The unpaved dirt road with gravel shoulders and lack of formal markings suggests a rural or semi-rural area common in less developed parts of Spain.\",\n    \"The overcast sky and rolling terrain with scattered rocky outcrops align with the topography of the Pyrene"
+}

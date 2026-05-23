@@ -1,0 +1,11 @@
+{
+  "country": "Malaysia",
+  "country_code": "my",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unpaved rural road flanked by paddy fields and aquaculture ponds is typical of agricultural zones in Peninsular Malaysia.",
+    "Utility poles with overhead wires follow a straight alignment common in Malaysian countryside infrastructure development.",
+    "Vegetation includes tall grasses and tropical trees consistent with the humid equatorial climate of Malaysia."
+  ],
+  "raw_output": "{\n  \"country\": \"Malaysia\",\n  \"country_code\": \"my\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unpaved rural road flanked by paddy fields and aquaculture ponds is typical of agricultural zones in Peninsular Malaysia.\",\n    \"Utility poles with overhead wires follow a straight alignment common in Malaysian countryside infrastructure development.\",\n    \"Vegetation includes tall grasses and tropical trees consistent with the humid equatorial climate of Malaysia.\",\n    \"No visible signage or vehicles, but the overall landscape—water-based farming, simple structures,"
+}

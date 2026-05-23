@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The double yellow center line on the asphalt road indicates two-way traffic with no passing, common in rural Brazilian roads.",
+    "Utility poles with overhead wires and simple concrete/brick houses suggest a low-density rural settlement typical of Brazil’s interior regions.",
+    "Lush tropical vegetation including palm trees and dense greenery points to a humid subtropical or tropical climate, consistent with northeastern or central Brazil."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The double yellow center line on the asphalt road indicates two-way traffic with no passing, common in rural Brazilian roads.\",\n    \"Utility poles with overhead wires and simple concrete/brick houses suggest a low-density rural settlement typical of Brazil’s interior regions.\",\n    \"Lush tropical vegetation including palm trees and dense greenery points to a humid subtropical or tropical climate, consistent with northeastern or central Brazil.\",\n    \"Absence of signage, vehicles, or urban"
+}

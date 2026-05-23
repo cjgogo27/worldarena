@@ -1,0 +1,25 @@
+{
+  "game_id": "KXkXw08ZCDqL1e2q",
+  "round": 1,
+  "sample_id": "georc::KXkXw08ZCDqL1e2q::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "cz",
+    "predicted_region": "europe",
+    "predicted_address": "residential village street, likely in a small municipality in the Ústí nad Labem Region, Czech Republic",
+    "predicted_lat": 31.0,
+    "predicted_lng": 35.0,
+    "reasoning_text": "{\n  \"country\": \"Czech Republic\",\n  \"country_code\": \"cz\",\n  \"region\": \"Central Europe\",\n  \"city\": \"unknown rural locality\",\n  \"province_or_state\": \"Ústí nad Labem Region\",\n  \"address\": \"residential village street, likely in a small municipality in the Ústí nad Labem Region, Czech Republic\",\n  \"confidence\": 0.46,\n  \"reasoning\": \"The scene shows a rural Central European village with right-hand traffic, narrow paved road, dashed white centerline, detached stucco houses with steep tiled roofs, fenced gardens, and overhead utility wiring. The house-mounted red number plaque is especially characteristic of Czech addressing style, and the overall village architecture and road environment fit the Czech Republic better than neighboring countries. The flat-to-gently rolling terrain and village appearance suggest northern or western Czech countryside; Ústí nad Labem Region is a plausible fit, though the exact locality cannot be determined from the image alone.\",\n  \"evidence\": [\n    \"right-hand driving road layout\",\n    \"European-style dashed white centerline\",\n    \"stucco detached houses with steep tiled roofs typical of Czech villages\",\n    \"red house number plaque on building consistent with Czech addressing\",\n    \"overhead utility lines and simple village streetlights common in rural Czech Republic\",\n    \"temperate vegetation and fenced residential plots typical of Central Europe\"\n  ]\n}",
+    "evidence_spans": [
+      "right-hand driving road layout",
+      "European-style dashed white centerline",
+      "stucco detached houses with steep tiled roofs typical of Czech villages",
+      "red house number plaque on building consistent with Czech addressing",
+      "overhead utility lines and simple village streetlights common in rural Czech Republic",
+      "temperate vegetation and fenced residential plots typical of Central Europe"
+    ],
+    "confidence": 0.46
+  },
+  "error": null
+}

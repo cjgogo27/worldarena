@@ -1,0 +1,24 @@
+{
+  "game_id": "No9HbFZyTOwfaU8s",
+  "round": 1,
+  "sample_id": "georc::No9HbFZyTOwfaU8s::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "us",
+    "predicted_region": "north_america",
+    "predicted_address": "Interstate highway in the Sonoran Desert, west or southwest of Phoenix, Arizona, USA",
+    "predicted_lat": 33.44833333,
+    "predicted_lng": -112.07388889,
+    "reasoning_text": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"city\": \"near Phoenix\",\n  \"province_or_state\": \"Arizona\",\n  \"address\": \"Interstate highway in the Sonoran Desert, west or southwest of Phoenix, Arizona, USA\",\n  \"confidence\": 0.82,\n  \"reasoning\": \"The scene shows right-hand driving on a wide modern highway with American-style pavement markings and shoulders. The semi-trailer is branded 'R+L Carriers,' a major US freight company, which strongly suggests the United States. The landscape is flat to gently rolling desert with sparse scrub and distant rocky hills, matching the Sonoran Desert of the US Southwest. The road design and desert vegetation are especially consistent with Arizona, likely on a major interstate corridor around the Phoenix area.\",\n  \"evidence\": [\n    \"R+L Carriers truck, a well-known United States freight company\",\n    \"Right-hand traffic and US-style highway lane/shoulder markings\",\n    \"Arid desert scrub landscape with distant low mountains\",\n    \"Wide paved highway typical of interstate roads in the American Southwest\",\n    \"Vegetation and terrain strongly resemble Arizona's Sonoran Desert\"\n  ]\n}",
+    "evidence_spans": [
+      "R+L Carriers truck, a well-known United States freight company",
+      "Right-hand traffic and US-style highway lane/shoulder markings",
+      "Arid desert scrub landscape with distant low mountains",
+      "Wide paved highway typical of interstate roads in the American Southwest",
+      "Vegetation and terrain strongly resemble Arizona's Sonoran Desert"
+    ],
+    "confidence": 0.82
+  },
+  "error": null
+}

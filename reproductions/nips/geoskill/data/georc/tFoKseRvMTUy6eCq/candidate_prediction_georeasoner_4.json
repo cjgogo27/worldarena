@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unpaved shoulder and lack of road markings suggest a rural or semi-rural setting common in the U.S. countryside.",
+    "Vegetation includes deciduous trees with early autumn foliage, consistent with temperate climates found across the eastern and midwestern U.S.",
+    "No visible infrastructure like utility poles, signs, or buildings eliminates urban or heavily developed areas, pointing to a remote location."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unpaved shoulder and lack of road markings suggest a rural or semi-rural setting common in the U.S. countryside.\",\n    \"Vegetation includes deciduous trees with early autumn foliage, consistent with temperate climates found across the eastern and midwestern U.S.\",\n    \"No visible infrastructure like utility poles, signs, or buildings eliminates urban or heavily developed areas, pointing to a remote location.\",\n    \"The sun’s position and"
+}

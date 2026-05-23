@@ -1,0 +1,12 @@
+{
+  "country": "Canada",
+  "country_code": "ca",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line and right-hand traffic indicate a North American country, likely Canada or USA.",
+    "Utility poles with overhead wires and rural road design are typical of Canadian provincial highways.",
+    "Vegetation includes mixed coniferous and deciduous trees, including birch, common in eastern Canada.",
+    "Absence of commercial signage or urban infrastructure suggests a remote or rural area, consistent with Canadian countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Canada\",\n  \"country_code\": \"ca\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line and right-hand traffic indicate a North American country, likely Canada or USA.\",\n    \"Utility poles with overhead wires and rural road design are typical of Canadian provincial highways.\",\n    \"Vegetation includes mixed coniferous and deciduous trees, including birch, common in eastern Canada.\",\n    \"Absence of commercial signage or urban infrastructure suggests a remote or rural area, consistent with Canadian countryside.\"\n  ]\n}"
+}

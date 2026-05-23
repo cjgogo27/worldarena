@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved dirt road with no center line or markings is typical of rural U.S. farm roads, especially in the Great Plains.",
+    "Utility poles are wooden and spaced regularly, consistent with rural electrification infrastructure common in the U.S. Midwest.",
+    "The flat, open terrain with harvested fields and sparse vegetation matches agricultural landscapes of states like Kansas or Nebraska."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved dirt road with no center line or markings is typical of rural U.S. farm roads, especially in the Great Plains.\",\n    \"Utility poles are wooden and spaced regularly, consistent with rural electrification infrastructure common in the U.S. Midwest.\",\n    \"The flat, open terrain with harvested fields and sparse vegetation matches agricultural landscapes of states like Kansas or Nebraska.\",\n    \"No visible signage, vehicles, or architectural features suggest a remote rural"
+}

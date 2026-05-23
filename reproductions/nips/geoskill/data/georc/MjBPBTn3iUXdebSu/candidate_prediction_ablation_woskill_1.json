@@ -1,0 +1,25 @@
+{
+  "game_id": "MjBPBTn3iUXdebSu",
+  "round": 1,
+  "sample_id": "georc::MjBPBTn3iUXdebSu::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "br",
+    "predicted_region": "south_america",
+    "predicted_address": "Residential street in Braganca, Para, Brazil",
+    "predicted_lat": -23.55,
+    "predicted_lng": -46.63333333,
+    "reasoning_text": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"city\": \"Braganca\",\n  \"province_or_state\": \"Para\",\n  \"address\": \"Residential street in Braganca, Para, Brazil\",\n  \"confidence\": 0.58,\n  \"reasoning\": \"The scene looks strongly Latin American and most likely Brazilian. The houses are single-story with clay tile roofs, barred windows, and simple plastered facades, a common style in smaller Brazilian towns. The tropical vegetation, including palms and banana plants, suggests a hot and humid lowland climate consistent with northern or northeastern Brazil. The reddish soil, narrow paved street, and informal roadside drainage also fit many residential areas in northern Brazil. A small blue house-number plaque and the overall urban layout resemble Brazilian municipal streets. I do not see a definitive sign naming the place, so this is an approximate guess, and the environment seems most consistent with a smaller town in Para, such as Braganca.\",\n  \"evidence\": [\n    \"Tropical vegetation with palms and banana plants\",\n    \"Single-story houses with red clay tile roofs\",\n    \"Barred windows and doors typical of Brazilian residential architecture\",\n    \"Narrow paved street with informal drainage common in small Brazilian towns\",\n    \"Reddish soil and humid lowland environment suggest northern Brazil\",\n    \"Blue house-number plaque and overall streetscape resemble Brazil\"\n  ]\n}",
+    "evidence_spans": [
+      "Tropical vegetation with palms and banana plants",
+      "Single-story houses with red clay tile roofs",
+      "Barred windows and doors typical of Brazilian residential architecture",
+      "Narrow paved street with informal drainage common in small Brazilian towns",
+      "Reddish soil and humid lowland environment suggest northern Brazil",
+      "Blue house-number plaque and overall streetscape resemble Brazil"
+    ],
+    "confidence": 0.58
+  },
+  "error": null
+}

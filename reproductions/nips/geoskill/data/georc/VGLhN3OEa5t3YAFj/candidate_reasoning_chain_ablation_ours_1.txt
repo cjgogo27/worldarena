@@ -1,0 +1,15 @@
+Left-hand traffic indicated by vehicle position and road markings
+Arid, brownish hills and sparse vegetation typical of South African Highveld
+Concrete block wall with white-painted base, common in South African rural construction
+Blue metal fencing around a sports court, typical of South African schools or community facilities
+Absence of Moroccan-specific architectural or signage features
+The baseline prediction of Morocco is incorrect.
+The most definitive visual cue is the driving side: the camera vehicle is positioned on the left side of the road, and the road markings (chevrons) are oriented for left-hand traffic.
+Morocco drives on the right.
+This immediately rules out the baseline.
+The landscape features arid, brown hills and sparse vegetation, consistent with the Highveld region of South Africa (specifically the Free State province).
+The architecture—concrete block walls with a white-painted base—is common in South African rural and peri-urban areas.
+The blue fencing around a sports court (likely a netball or tennis court) is a typical feature of South African schools or community centers.
+The utility poles are concrete or steel, not the wooden poles with crossed crossbars mentioned in some skills, but the overall infrastructure style matches South Africa.
+The combination of left-hand traffic, arid terrain, and specific architectural elements strongly supports South Africa over Morocco.
+Conclusion: likely location is South Africa

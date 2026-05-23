@@ -1,0 +1,11 @@
+{
+  "country": "Denmark",
+  "country_code": "dk",
+  "city": "",
+  "reasoning_chain": [
+    "The white church with a simple steeple and red-tiled roof is typical of rural Danish architecture, especially in Jutland or Funen.",
+    "The road layout, including the paved bike path on the right and grassy verges, matches common Danish rural infrastructure design.",
+    "Vegetation is lush green with no snow or Mediterranean flora, consistent with Denmark’s temperate maritime climate."
+  ],
+  "raw_output": "{\n  \"country\": \"Denmark\",\n  \"country_code\": \"dk\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The white church with a simple steeple and red-tiled roof is typical of rural Danish architecture, especially in Jutland or Funen.\",\n    \"The road layout, including the paved bike path on the right and grassy verges, matches common Danish rural infrastructure design.\",\n    \"Vegetation is lush green with no snow or Mediterranean flora, consistent with Denmark’s temperate maritime climate.\",\n    \"No visible signage or vehicles provide"
+}

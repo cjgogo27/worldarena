@@ -1,0 +1,31 @@
+Round 1
+This location features a landscape typical of the Mediterranean region, with exposed white-colored limestone rock and low shrubs typical of a coastal Mediterranean climate.
+There is a house visible which is most indicative of the coastal Adriatic region. The house is multi-storied, as is common in the Balkans, with a gabled roof made of red tiles. This roof design would be most common in Croatia and Montenegro, and less so in Albania, which often has flat roofs instead.
+There are several factors relating to the coverage that can distinguish Montenegro from Croatia. Firstly, google streetview panoramas contain a copyright date which indicate when the imagery was last processed; here the copyright is 2016 which is common in Montenegro. Secondly, the google streeview vehicle used to record the coverage is a car with a long antenna which is visible here at the bottom. This long antenna car was only used in Montenegro and not in Croatia.
+Conclusion: This location is 100% in Montenegro. It is likely more south or west in the country, closer to the coast due to the climate.
+
+Round 2
+This location features wooden electricity poles with an insulator on the side of the top the pole, which is a design used by far most commonly in the US and Canada. 
+There is a Canadian flag visible, with its red and white stripes.
+There are bollards or reflective posts visible along the road, which are white and have two black stripes at the top. This bollard is found in the province of Alberta.
+The landscape is a flat and open prairie with very few trees, which is common for most of the central and southern part of the province.
+Conclusion: This location is 100% in the province of Alberta, in Canada. It is difficult to determine where in Alberta it is.
+
+Round 3
+There is a car visible in the distance which has a short rectangular plate that is yellow. This plate design, within the Americas, is only used in Colombia.
+Round concrete electricity poles are commonly used throughout Colombia.
+The architecture is specific to the Santander Department of Colombia. Simple white-washed walls with dark brown motifs on doors, balconies, and shutters are common in this region.
+The landscape is hilly and there are pine trees and low shrubs along the hills, which would suggest a high elevation area. Within Santander Department, this would best fit for the eastern part.
+Conclusion: This location is 100% in Colombia, in the Santander Department.
+
+Round 4
+The road features double yellow center lines, which is commonly used in many countries in the Americas.
+There are electricity poles made out of both wood and concrete visible. The wooden poles feature a horizontal wooden crossbar and small diagonal supports with three insulators above, a style most common in the United States and Canada, but which can also be found in countries such as Argentina. The concrete pole, which has a simple round shape, is a style found commonly in some European countries and which is also used in Argentina. The mix of these two infrastructural designs suggests Argentina.
+The architecture visible consists of a home in the distance with wooden elements and a sloped roof, which is a style more associated with areas of the country that receive alpine tourism, as the style mimics that of European chalet homes. While houses like these could be found in many regions of the country, several areas that have lots of alpine tourism include the Sierras de Cordoba in the central region of the country and the Patagonian Andes, particularly around San Carlos de Bariloche.
+While the majority of the landscape is flat, there is a mountain ridge visible to the east and in the distance to the south. The vegetation suggests a more arid region, with many low trees such as mesquites and other bushes. The ridge to the east and vegetation would fit with the Sierras de Cordoba which cross north-south through Cordoba and San Luis Provinces.
+Conclusion: This location is 100% in Argentina. It is likely in the Cordoba Mountains. When using the ridge angle and road angle, one road that fits well is the Provincial Route 1 in San Luis.
+
+Round 5
+There is a yellow sign indicating a winding road ahead, which is placed on the left-hand side of the road, indicating a left-hand drive country. In addition, there are bollards which are short and white with a red or gray rectangular reflector near the top of the bollard. These bollards are found in Australia. The double white center lines on the road are also commonly used in Australia.
+The vegetation consists of eucalyptus trees, recognizable by their smooth white bark and small bunched leaves. These eucalyptus are notably tall and have a very white bark color, and are the dominant species found along Australia’s southeast coast in New South Wales and Victoria, and sometimes in Tasmania. In addition, there are many large ferns visible, which indicates a cool and wet climate as is found in that region.
+Conclusion: This location is 100% in Australia. While it is difficult to determine which state, this location is almost certainly along the southeast coast of the country.

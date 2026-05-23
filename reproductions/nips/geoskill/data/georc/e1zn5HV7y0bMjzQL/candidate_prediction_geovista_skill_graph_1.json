@@ -1,0 +1,107 @@
+{
+  "game_id": "e1zn5HV7y0bMjzQL",
+  "round": 1,
+  "sample_id": "georc::e1zn5HV7y0bMjzQL::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "jo",
+    "predicted_region": "asia",
+    "predicted_address": "Al-Qastal Power Station Road, Al-Qastal, Amman Governorate, Jordan",
+    "predicted_lat": 31.95522,
+    "predicted_lng": 35.94503,
+    "reasoning_text": "```json\n{\n  \"country\": \"Jordan\",\n  \"country_code\": \"jo\",\n  \"region\": \"Middle East\",\n  \"city\": \"Amman\",\n  \"province_or_state\": \"Amman Governorate\",\n  \"address\": \"Al-Qastal Power Station Road, Al-Qastal, Amman Governorate, Jordan\",\n  \"confidence\": 0.78,\n  \"reasoning\": \"The image shows a narrow asphalt road leading toward major electrical infrastructure with distinctive red-and-white lattice transmission towers, which are characteristic of Jordan's National Electric Power Company (NEPCO) installations. The Al-Qastal Power Station is a known combined-cycle gas turbine plant located approximately 25km southeast of central Amman. The arid desert-edge terrain with sparse scrub vegetation, sandy soil, and the specific infrastructure pattern (wooden distribution poles alongside modern transmission towers) matches this location precisely. The streetlight design with simple curved arm on round metal pole is consistent with Jordanian rural road standards. The right-hand driving position of the vehicle confirms Jordan over left-driving Israel. The absence of Israeli-style road signage or infrastructure, and the specific tower coloring pattern, rule out the Negev region of Israel. Saudi infrastructure typically features different tower designs and road standards in comparable desert settings.\",\n  \"evidence\": [\"Red-and-white lattice transmission towers characteristic of Jordan NEPCO\", \"Arid sandy terrain with sparse desert scrub vegetation\", \"Narrow unmarked asphalt road with streetlights in sparse surroundings\", \"Wooden utility poles with multiple overhead wires\", \"Simple curved-arm streetlight on round pole (Jordanian standard)\", \"Vehicle driving on right side of road\", \"Power station substation infrastructure visible in distance\", \"Al-Qastal area topography matching Amman southeastern desert fringe\"]\n}\n```",
+    "evidence_spans": [
+      "Red-and-white lattice transmission towers characteristic of Jordan NEPCO",
+      "Arid sandy terrain with sparse desert scrub vegetation",
+      "Narrow unmarked asphalt road with streetlights in sparse surroundings",
+      "Wooden utility poles with multiple overhead wires",
+      "Simple curved-arm streetlight on round pole (Jordanian standard)",
+      "Vehicle driving on right side of road",
+      "Power station substation infrastructure visible in distance",
+      "Al-Qastal area topography matching Amman southeastern desert fringe"
+    ],
+    "confidence": 0.78,
+    "country_top3": [
+      "jo",
+      "il",
+      "sa"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"jo\",\"il\",\"sa\"],\"reason\":\"Arid Middle Eastern desert-edge landscape with sparse scrub, narrow paved road, utility poles, and prominent red-white power transmission towers near substation infrastructure strongly fit Jordan, especially the outskirts of Amman. Similar semi-arid utility-corridor scenes can occur in Israel/Palestine and northern Saudi Arabia, but the overall road environment and infrastructure styling most strongly suggest Jordan.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9450000000000002,
+        "pred_country": "jo",
+        "geo_country": "jo",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.74,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Road to Al-Qastal Power Station, Al-Qastal, Amman, Amman Governorate, Jordan"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.9550000000000002,
+        "pred_country": "jo",
+        "geo_country": "jo",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.78,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Al-Qastal Power Station Road, Al-Qastal, Amman Governorate, Jordan"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.9550000000000002,
+        "pred_country": "jo",
+        "geo_country": "jo",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.78,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Al-Qastal Power Station Road, Al-Qastal, Amman Governorate, Jordan"
+      }
+    ],
+    "selected_candidate_score": 0.9550000000000002,
+    "base_prediction_summary": {
+      "predicted_country": "jo",
+      "predicted_region": "asia",
+      "confidence": 0.72
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"Jordan\",\n  \"country_code\": \"jo\",\n  \"region\": \"Middle East\",\n  \"city\": \"Amman\",\n  \"province_or_state\": \"Amman Governorate\",\n  \"address\": \"Road to Al-Qastal Power Station, southeast of Amman, Jordan\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The arid sandy terrain, red-and-white l",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "jo"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

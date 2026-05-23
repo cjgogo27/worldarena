@@ -1,0 +1,68 @@
+{
+  "experiment": "pendulum_bottleneck_smoke",
+  "config": {
+    "motion_type": "pendulum",
+    "context_len": 4,
+    "label": "smoke",
+    "model_kind": "bottleneck",
+    "num_train": 8,
+    "num_val": 4,
+    "num_test": 4,
+    "num_ood": 4,
+    "epochs": 1,
+    "batch_size": 4,
+    "hidden_size": 64,
+    "latent_dim": 32,
+    "learning_rate": 0.001,
+    "state_dim": 8,
+    "attn_window_size": 4
+  },
+  "history": {
+    "loss": [
+      0.011180218180705762
+    ],
+    "reconstruction_loss": [
+      0.011180218180705762
+    ],
+    "val_loss": [
+      0.009056099578095922
+    ],
+    "val_reconstruction_loss": [
+      0.009056099578095922
+    ]
+  },
+  "test_metrics": {
+    "frame_mse": 0.009240948595106602,
+    "trajectory_mse": 57.05791091918945,
+    "velocity_mse": 1.0704625844955444,
+    "acceleration_mse": 0.8886317014694214
+  },
+  "ood_metrics": {
+    "frame_mse": 0.007545451167970896,
+    "trajectory_mse": 907.7139282226562,
+    "velocity_mse": 81.37537384033203,
+    "acceleration_mse": 10.696619987487793
+  },
+  "probe_test": {
+    "probe_r2_vx": 0.991561233997345,
+    "probe_r2_vy": 0.9989351034164429,
+    "probe_r2_ax": 0.9960805773735046,
+    "probe_r2_ay": 0.9883641004562378,
+    "probe_mse_vx": 0.0009800302796065807,
+    "probe_mse_vy": 4.876744787907228e-05,
+    "probe_mse_ax": 1.6191228496609256e-05,
+    "probe_mse_ay": 1.3299062629812397e-05,
+    "probe_r2_mean": 0.9937353134155273
+  },
+  "probe_ood": {
+    "probe_r2_vx": 0.043747127056121826,
+    "probe_r2_vy": -0.05123627185821533,
+    "probe_r2_ax": -0.0841677188873291,
+    "probe_r2_ay": -0.049626708030700684,
+    "probe_mse_vx": 38.517879486083984,
+    "probe_mse_vy": 41.891605377197266,
+    "probe_mse_ax": 3.3935205936431885,
+    "probe_mse_ay": 3.148786783218384,
+    "probe_r2_mean": -0.03532089293003082
+  }
+}

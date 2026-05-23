@@ -1,0 +1,39 @@
+latent_encoder:
+  action_dim: 7
+  latent_dim: 32
+  feature_dim: 1536
+  hidden_dim: 256
+  num_layers: 2
+  dropout: 0.1
+  kl_weight: 1.0
+  collapse_variance_threshold: 0.001
+  collapse_kl_threshold: 0.001
+
+world_model:
+  latent_dim: 1536
+  action_dim: 1536
+  hidden_dim: 512
+  num_layers: 2
+  dropout: 0.1
+  architecture: "gru"
+  num_attention_heads: 8
+  ff_multiplier: 4
+  max_rollout_horizon: 128
+  state_loss: "mse"
+  reward_output_dim: 1
+  state_loss_weight: 1.0
+  reward_loss_weight: 1.0
+  use_residual_transition: true
+
+action_decoder:
+  latent_dim: 1536
+  action_dim: 7
+  hidden_dim: 512
+  num_layers: 2
+  dropout: 0.1
+
+backbone:
+  model_path: null
+  device: "cuda"
+  dtype: "float16"
+  freeze: false

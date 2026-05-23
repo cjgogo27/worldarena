@@ -1,0 +1,10 @@
+{
+  "country": "Kenya",
+  "country_code": "ke",
+  "city": "",
+  "reasoning_chain": [
+    "The road marking '5+212' on the drainage culvert is a standard Kenyan kilometer post format, indicating location along a national highway.",
+    "The red lateritic soil and lush green vegetation are characteristic of highland regions in Kenya, such as around Nairobi or the Central Highlands."
+  ],
+  "raw_output": "{\n  \"country\": \"Kenya\",\n  \"country_code\": \"ke\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road marking '5+212' on the drainage culvert is a standard Kenyan kilometer post format, indicating location along a national highway.\",\n    \"The red lateritic soil and lush green vegetation are characteristic of highland regions in Kenya, such as around Nairobi or the Central Highlands.\",\n    \"The two-lane paved road with yellow center line and no visible traffic or urban infrastructure suggests a rural or semi-rural area in a developing"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Malta",
+  "country_code": "mt",
+  "city": "",
+  "reasoning_chain": [
+    "The dry, arid landscape with sparse vegetation and limestone terrain is characteristic of Malta’s rural countryside.",
+    "The traditional dry-stone walls lining the road are a hallmark of Maltese agricultural land division and heritage.",
+    "The absence of modern infrastructure like utility poles or paved roads suggests a remote, non-urban area typical of Malta’s interior."
+  ],
+  "raw_output": "{\n  \"country\": \"Malta\",\n  \"country_code\": \"mt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The dry, arid landscape with sparse vegetation and limestone terrain is characteristic of Malta’s rural countryside.\",\n    \"The traditional dry-stone walls lining the road are a hallmark of Maltese agricultural land division and heritage.\",\n    \"The absence of modern infrastructure like utility poles or paved roads suggests a remote, non-urban area typical of Malta’s interior.\",\n    \"The distant view of the Mediterranean Sea and hilly topography aligns with Malta’s"
+}

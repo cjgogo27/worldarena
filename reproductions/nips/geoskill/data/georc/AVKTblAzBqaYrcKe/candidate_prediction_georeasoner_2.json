@@ -1,0 +1,10 @@
+{
+  "country": "Ghana",
+  "country_code": "gh",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of a solar-powered streetlight with a simple metal pole and concrete base is typical of rural or semi-urban infrastructure in West Africa, particularly Ghana.",
+    "The unpaved dirt road and sandy terrain suggest a developing region with limited urbanization, consistent with many areas in Ghana outside major cities."
+  ],
+  "raw_output": "{\n  \"country\": \"Ghana\",\n  \"country_code\": \"gh\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of a solar-powered streetlight with a simple metal pole and concrete base is typical of rural or semi-urban infrastructure in West Africa, particularly Ghana.\",\n    \"The unpaved dirt road and sandy terrain suggest a developing region with limited urbanization, consistent with many areas in Ghana outside major cities.\",\n    \"The vegetation—dense green trees including what appear to be acacia or similar tropical species—is characteristic of the savanna or transitional zones found"
+}

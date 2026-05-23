@@ -1,0 +1,11 @@
+{
+  "country": "South Africa",
+  "country_code": "za",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved on the left shoulder and has no center line, consistent with rural South African roads in mountainous regions.",
+    "Vegetation includes grassy slopes and scattered trees typical of the Highveld or Drakensberg foothills in South Africa.",
+    "Architecture features simple stone and thatched structures, common in rural areas of KwaZulu-Natal or Eastern Cape."
+  ],
+  "raw_output": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved on the left shoulder and has no center line, consistent with rural South African roads in mountainous regions.\",\n    \"Vegetation includes grassy slopes and scattered trees typical of the Highveld or Drakensberg foothills in South Africa.\",\n    \"Architecture features simple stone and thatched structures, common in rural areas of KwaZulu-Natal or Eastern Cape.\",\n    \"No visible signage or vehicles, but the"
+}

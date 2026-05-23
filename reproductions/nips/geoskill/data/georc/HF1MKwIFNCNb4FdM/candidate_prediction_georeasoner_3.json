@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The billboard on the right displays Portuguese text ('Vilabonita Country'), indicating a Portuguese-speaking country, likely Brazil.",
+    "Vehicles are driving on the right side of the road, consistent with Brazilian traffic laws.",
+    "The presence of palm trees and lush green vegetation under an overcast sky suggests a tropical or subtropical climate typical of Brazil."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The billboard on the right displays Portuguese text ('Vilabonita Country'), indicating a Portuguese-speaking country, likely Brazil.\",\n    \"Vehicles are driving on the right side of the road, consistent with Brazilian traffic laws.\",\n    \"The presence of palm trees and lush green vegetation under an overcast sky suggests a tropical or subtropical climate typical of Brazil.\",\n    \"The wide, multi-lane road with modern streetlights and utility poles indicates urban"
+}

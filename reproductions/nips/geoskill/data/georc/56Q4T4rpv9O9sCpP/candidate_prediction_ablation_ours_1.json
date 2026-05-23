@@ -1,0 +1,799 @@
+{
+  "game_id": "56Q4T4rpv9O9sCpP",
+  "round": 1,
+  "sample_id": "georc::56Q4T4rpv9O9sCpP::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "at",
+    "predicted_region": "europe",
+    "predicted_lat": 47.2833,
+    "predicted_lng": 11.8667,
+    "reasoning_text": "{\n  \"country\": \"Austria\",\n  \"country_code\": \"at\",\n  \"region\": \"Europe\",\n  \"lat\": 47.2833,\n  \"lng\": 11.8667,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The blue street sign clearly reads 'Bachstrasse', a common German street name. The red directional signs on the right point to 'St. Johann in Tirol' and 'Kössen', which are towns in the Kitzbühel district of Tyrol, Austria. The mountainous terrain and architecture are consistent with the Austrian Alps. The license plates are white with black text, typical for Austria. The specific intersection of Bachstrasse with signs pointing to St. Johann in Tirol places this location in the town of St. Johann in Tirol itself.\",\n  \"evidence\": [\n    \"Blue street sign reading 'Bachstrasse'\",\n    \"Red directional signs pointing to 'St. Johann in Tirol' and 'Kössen'\",\n    \"Mountainous alpine terrain\",\n    \"White license plates with black text (Austria)\",\n    \"German language on signs\"\n  ]\n}",
+    "evidence_spans": [
+      "Blue street sign reading 'Bachstrasse'",
+      "Red directional signs pointing to 'St. Johann in Tirol' and 'Kössen'",
+      "Mountainous alpine terrain",
+      "White license plates with black text (Austria)",
+      "German language on signs"
+    ],
+    "confidence": 0.95,
+    "geovista_observation": {
+      "observations": [
+        "The image displays a paved road junction in a mountainous region with overcast skies.",
+        "On the right, there is a cluster of red directional signs mounted on a pole.",
+        "A blue street sign is visible below the red signs, reading 'Bachstrasse'.",
+        "A large billboard is visible in the background, partially obscured but showing a landscape image.",
+        "There is a yellow dumpster and a blue generator/trailer parked on the right side of the road.",
+        "On the left, there is a parking lot with several cars (white, red, black) parked facing the building.",
+        "The buildings are low-rise, functional structures, typical of industrial or commercial zones in alpine areas.",
+        "The mountains in the background are rugged and rocky, suggesting an alpine environment.",
+        "The vegetation is green but not tropical, consistent with temperate alpine climates.",
+        "The license plates on the cars are white with black text, typical of European countries.",
+        "The road surface has a blue painted marking, possibly indicating a bike lane or specific zone.",
+        "There is a red barrier arm or gate mechanism visible on the far right.",
+        "The overall architecture and signage style are consistent with German-speaking regions."
+      ],
+      "hard_clues": [
+        "Street sign 'Bachstrasse' (German for 'Stream Street').",
+        "Red directional signs with white text pointing to 'St. Georgen' and 'Berg'.",
+        "License plates are European style (white background, black text).",
+        "Mountainous terrain with specific rock formations.",
+        "The combination of 'Bachstrasse' and the specific directional signs pointing to 'St. Georgen' and 'Berg' strongly suggests a location in Austria or Germany.",
+        "The presence of a 'Berg' (Mountain) sign indicates proximity to a mountain or ski area.",
+        "The specific layout of the road and the buildings matches the area around the 'Berg' ski lift in St. Georgen im Attergau, Austria."
+      ],
+      "ambiguous_clues": [
+        "The exact name of the mountain or ski lift is not fully legible on the billboard.",
+        "The specific model of the cars does not provide precise location data.",
+        "The weather conditions (overcast) do not uniquely identify a location.",
+        "The blue road marking is not standard enough to pinpoint a country without other context."
+      ],
+      "possible_scripts": [
+        "German (Latin script)",
+        "Austrian German"
+      ],
+      "driving_side": "right"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Austria",
+        "Switzerland",
+        "Germany"
+      ],
+      "zoom_boxes": [
+        [
+          600,
+          380,
+          910,
+          460
+        ],
+        [
+          600,
+          440,
+          680,
+          470
+        ]
+      ],
+      "verification_queries": [
+        "Read the text on the red directional signs on the right pole.",
+        "Read the text on the blue street sign below the red signs.",
+        "Identify the text on the billboard in the background.",
+        "Read the license plate on the white car on the left."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "at",
+      "predicted_region": "europe",
+      "predicted_lat": 47.5183,
+      "predicted_lng": 12.3833,
+      "confidence": 0.98
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "at",
+      "predicted_region": "europe",
+      "predicted_lat": 47.5183,
+      "predicted_lng": 12.3833,
+      "confidence": 0.98
+    },
+    "base_prediction_summary": {
+      "predicted_country": "at",
+      "predicted_region": "europe",
+      "predicted_lat": 47.2833,
+      "predicted_lng": 11.8667,
+      "confidence": 0.95
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.95,
+    "skill_boost_boost_confidence": 0.98,
+    "skill_boost_aggressive_confidence": 0.98,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8128620684146881,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The curve road signs with black chevrons on a white rectangular background are commonly used in southern European countries, especially Spain and Portugal.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7631834208965302,
+          "visual_cues": [
+            "chevron",
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7295250475406647,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The signage is not common in Spain and France and the plate is not a typical European license plate with the blue strip on the left, leading to Andorra being the most likely",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.725754076242447,
+          "visual_cues": [
+            "license plate",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The license plates appear to be long and narrow, a European standard, and some seem to have a blue stripe on the left, which is consistent with EU member states.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6974121242761613,
+          "visual_cues": [
+            "license plate"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6924067676067354,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The bus stop shelter on the right with faded paint and a concrete structure is typical of rural Ukraine, Russia, or Belarus.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6678756803274155,
+          "visual_cues": [
+            "right",
+            "shelter",
+            "stop",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.66717828810215,
+          "visual_cues": [
+            "architecture",
+            "cyrillic",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.6626415431499482,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6520782709121704,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6378977060317994,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6358685433864595,
+          "visual_cues": [
+            "architecture",
+            "building",
+            "fence"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "license plate"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+        "The curve road signs with black chevrons on a white rectangular background are commonly used in southern European countries, especially Spain and Portugal.",
+        "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+        "The signage is not common in Spain and France and the plate is not a typical European license plate with the blue strip on the left, leading to Andorra being the most likely",
+        "The license plates appear to be long and narrow, a European standard, and some seem to have a blue stripe on the left, which is consistent with EU member states.",
+        "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+        "The bus stop shelter on the right with faded paint and a concrete structure is typical of rural Ukraine, Russia, or Belarus.",
+        "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+        "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+        "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland."
+      ],
+      "summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

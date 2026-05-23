@@ -1,0 +1,25 @@
+Left-side driving road layout
+Faded double white center lines
+Solid white edge lines on both sides
+Humid tropical lowland vegetation
+Coconut palms and dense roadside jungle
+Rural two-lane paved highway
+Neatly maintained roadside verge
+Detached house compound with decorative low wall
+Borneo-like settlement pattern
+Flat to gently rolling terrain near Tutong
+Applying the ordered skill graph strictly: (1) the dense jungle and tropical roadside push the scene toward a Malaysia-like environment in Southeast Asia rather than a dry or temperate region.
+(2) The faded double white center lines with solid white outer lines fit the Malaysia/Brunei road style well.
+(3) The suggestion of rural India from edge dashes is weaker here because the overall road design, vegetation, and roadside housing compound do not resemble India as much as northern Borneo.
+(4) The humid tropical soil, grass, and palms strongly support Southeast Asia.
+(5) A European interpretation from the dashed center lines does not fit the tropical vegetation, left-side driving context, or roadside settlement form, so it is rejected.
+(6) The overall setup resembles rural or peri-urban Malaysia more than Singapore or much of Indonesia, especially the orderly roadside compound and maintained highway.
+(7) South America is inconsistent with the road markings and tropical Southeast Asian roadside architecture, so it is rejected.
+(8) The simple rural two-lane paved road is consistent with lesser-trafficked Malaysian-type roads.
+(9) Northern Vietnam is not a good fit because the terrain here is lowland and only gently rolling, not steep mountainous roadside cuts.
+(10) The United States is clearly inconsistent with left-side driving and tropical village form.
+(11) The middling-quality paved rural road supports a non-urban tropical setting.
+(12) Coconut palms and mixed lush vegetation fit lowland Borneo well.
+Following the graph links, the strongest chain is 1 -> 2 -> 4 -> 6 -> 8 -> 12, which points to a Malaysia-like Bornean roadside.
+Given the base observation summary and the particularly neat roadside maintenance, detached house compound, and overall road environment, Brunei is the best consistent final guess, specifically along Jalan Tutong near Tutong.
+Conclusion: likely location is Tutong, Tutong District, Brunei

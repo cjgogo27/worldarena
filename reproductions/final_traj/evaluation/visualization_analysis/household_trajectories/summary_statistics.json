@@ -1,0 +1,9 @@
+{
+  "total_households": 20,
+  "total_members": 45,
+  "household_sizes": {
+    "2": 16,
+    "3": 3,
+    "4": 1
+  }
+}

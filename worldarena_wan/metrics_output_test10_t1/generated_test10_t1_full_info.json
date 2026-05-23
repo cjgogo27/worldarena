@@ -1,0 +1,82 @@
+[
+    {
+        "dimension": [
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode10/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode100/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1000/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode101/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode102/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode103/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode104/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode105/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "subject_consistency"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode106/1/video"
+        ]
+    }
+]

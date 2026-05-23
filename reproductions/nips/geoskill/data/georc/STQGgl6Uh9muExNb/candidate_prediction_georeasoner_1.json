@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow residential street with traditional Japanese-style houses and tiled roofs suggests a suburban or rural area in Japan.",
+    "The presence of green metal fencing and stone retaining walls along the road is typical of Japanese residential architecture.",
+    "The overcast sky and leafless trees indicate a temperate climate, consistent with many regions in Japan during late autumn or winter."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow residential street with traditional Japanese-style houses and tiled roofs suggests a suburban or rural area in Japan.\",\n    \"The presence of green metal fencing and stone retaining walls along the road is typical of Japanese residential architecture.\",\n    \"The overcast sky and leafless trees indicate a temperate climate, consistent with many regions in Japan during late autumn or winter.\",\n    \"No visible road signs or vehicles provide direct confirmation, but the overall aesthetic strongly aligns"
+}

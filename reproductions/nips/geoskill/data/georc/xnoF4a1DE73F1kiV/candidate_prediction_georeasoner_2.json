@@ -1,0 +1,11 @@
+{
+  "country": "New Zealand",
+  "country_code": "nz",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt road with white dashed center lines and solid white edge lines, consistent with New Zealand’s rural highway standards.",
+    "Vegetation includes dense ferns and coastal palms, typical of New Zealand’s temperate maritime climate, especially in regions like the Coromandel or North Island east coast.",
+    "Utility poles are wooden and spaced regularly along the roadside, matching common infrastructure in rural NZ areas."
+  ],
+  "raw_output": "{\n  \"country\": \"New Zealand\",\n  \"country_code\": \"nz\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt road with white dashed center lines and solid white edge lines, consistent with New Zealand’s rural highway standards.\",\n    \"Vegetation includes dense ferns and coastal palms, typical of New Zealand’s temperate maritime climate, especially in regions like the Coromandel or North Island east coast.\",\n    \"Utility poles are wooden and spaced regularly along the roadside, matching common infrastructure in rural NZ areas.\",\n    \""
+}

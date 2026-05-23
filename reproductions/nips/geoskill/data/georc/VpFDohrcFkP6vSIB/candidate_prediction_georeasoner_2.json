@@ -1,0 +1,11 @@
+{
+  "country": "Italy",
+  "country_code": "it",
+  "city": "",
+  "reasoning_chain": [
+    "The architecture features modern, low-rise residential buildings with stucco facades and flat roofs, typical of suburban areas in northern Italy.",
+    "The road is wide, paved, and lacks center lines or directional markings, consistent with quiet residential streets in Italian towns.",
+    "Vegetation includes mature deciduous trees and manicured hedges, suggesting a temperate climate common in northern Italy."
+  ],
+  "raw_output": "{\n  \"country\": \"Italy\",\n  \"country_code\": \"it\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The architecture features modern, low-rise residential buildings with stucco facades and flat roofs, typical of suburban areas in northern Italy.\",\n    \"The road is wide, paved, and lacks center lines or directional markings, consistent with quiet residential streets in Italian towns.\",\n    \"Vegetation includes mature deciduous trees and manicured hedges, suggesting a temperate climate common in northern Italy.\",\n    \"No visible signage or vehicles are present, but"
+}

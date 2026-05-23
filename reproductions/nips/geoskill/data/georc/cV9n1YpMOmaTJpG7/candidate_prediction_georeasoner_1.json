@@ -1,0 +1,11 @@
+{
+  "country": "South Africa",
+  "country_code": "za",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single dashed white centerline, consistent with right-hand traffic systems used in South Africa.",
+    "Houses feature corrugated metal roofs and earth-toned walls, typical of informal settlements in rural South Africa.",
+    "Vegetation includes dry grasses and scattered shrubs, matching the semi-arid climate of regions like Limpopo or Mpumalanga."
+  ],
+  "raw_output": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single dashed white centerline, consistent with right-hand traffic systems used in South Africa.\",\n    \"Houses feature corrugated metal roofs and earth-toned walls, typical of informal settlements in rural South Africa.\",\n    \"Vegetation includes dry grasses and scattered shrubs, matching the semi-arid climate of regions like Limpopo or Mpumalanga.\",\n    \"Distant hills and lack of dense urban infrastructure suggest"
+}

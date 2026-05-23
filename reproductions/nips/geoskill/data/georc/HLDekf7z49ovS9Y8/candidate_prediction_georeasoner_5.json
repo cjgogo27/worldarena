@@ -1,0 +1,10 @@
+{
+  "country": "Dominican Republic",
+  "country_code": "do",
+  "city": "",
+  "reasoning_chain": [
+    "The sign 'REFRITERICA D'JESUS' with Spanish text and Dominican phone number format (829-666-9445) indicates a location in the Dominican Republic.",
+    "The presence of 'VIA' and 'Digicel' logos on signs are telecom providers common in the Dominican Republic."
+  ],
+  "raw_output": "{\n  \"country\": \"Dominican Republic\",\n  \"country_code\": \"do\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The sign 'REFRITERICA D'JESUS' with Spanish text and Dominican phone number format (829-666-9445) indicates a location in the Dominican Republic.\",\n    \"The presence of 'VIA' and 'Digicel' logos on signs are telecom providers common in the Dominican Republic.\",\n    \"The architecture, including white stucco buildings and concrete block walls, is typical of"
+}

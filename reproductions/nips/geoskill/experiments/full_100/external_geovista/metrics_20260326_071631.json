@@ -1,0 +1,18 @@
+{
+  "country_accuracy": 1.0,
+  "continent_accuracy": 1.0,
+  "distance_error_km_median": 170.1158643233381,
+  "distance_error_km_mean_valid_only": 170.1158643233381,
+  "distance_error_km_mean_penalized": 170.1158643233381,
+  "valid_coordinate_rate": 1.0,
+  "heuristic_hallucination_rate": 0.0,
+  "expert_chain_token_f1": 0.07200000000000001,
+  "Acc@1km": 0.0,
+  "Acc@25km": 0.0,
+  "Acc@150km": 0.0,
+  "Acc@750km": 1.0,
+  "Acc@2500km": 1.0,
+  "elapsed_seconds": 14.945833683013916,
+  "num_samples": 1,
+  "num_errors": 0
+}

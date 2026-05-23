@@ -1,0 +1,25 @@
+{
+  "cuda_available": true,
+  "cuda_device_count": 8,
+  "bagel_required": {
+    "llm_config.json": true,
+    "vit_config.json": true,
+    "ae.safetensors": true,
+    "ema.safetensors": true
+  },
+  "clip_inference_ok": true,
+  "clip_result": {
+    "logits_per_image": 21.736669540405273,
+    "command": "conda run -n style_dpo_qwen35 python -c ... CLIPModel.from_pretrained(local_path)"
+  },
+  "vlm_inference_ok": true,
+  "vlm_result": {
+    "response_preview": "Reply with exactly one word: ready",
+    "command": "conda run -n style_dpo_qwen35 python -c ... AutoModelForCausalLM.from_pretrained(local_qwen_path, 4bit)"
+  },
+  "evidence_files": [
+    "results/setup/assets_manifest_20260328.json",
+    "logs/model_download_20260328_053455.log"
+  ],
+  "note": "Values are recorded from successful terminal checks in the same session."
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Ukraine",
+  "country_code": "ua",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved and lacks center markings, typical of rural Ukrainian villages.",
+    "Utility poles are wooden and spaced irregularly, consistent with Eastern European rural infrastructure.",
+    "Vegetation includes dandelions and young deciduous trees, suggesting temperate climate and spring season common in Ukraine."
+  ],
+  "raw_output": "{\n  \"country\": \"Ukraine\",\n  \"country_code\": \"ua\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved and lacks center markings, typical of rural Ukrainian villages.\",\n    \"Utility poles are wooden and spaced irregularly, consistent with Eastern European rural infrastructure.\",\n    \"Vegetation includes dandelions and young deciduous trees, suggesting temperate climate and spring season common in Ukraine.\",\n    \"Architecture features brick houses with metal roofs and fenced yards, matching suburban/rural housing styles in Ukrainian regions like Kyiv or Dnipro"
+}

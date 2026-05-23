@@ -1,0 +1,167 @@
+[
+  {
+    "skill_text": "The road markings feature a double solid white center line, which is characteristic of Australia and New Zealand.",
+    "region_hint": "oceania",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "road markings"
+    ],
+    "source_game_id": "9NNxopqtafH8pTbN",
+    "source_round": 1,
+    "score": 0.8275119066238403,
+    "bm25_score": 38.18366241455078,
+    "semantic_score": 0.3821496069431305
+  },
+  {
+    "skill_text": "The vegetation consists of eucalyptus trees and temperate grasses, which are abundant in Uruguay and parts of southern Brazil and Argentina.",
+    "region_hint": "south_america",
+    "confidence": 0.65,
+    "visual_cues": [
+      "trees",
+      "vegetation"
+    ],
+    "source_game_id": "6fGwHxCTvCbaK77Q",
+    "source_round": 5,
+    "score": 0.7898792028427124,
+    "bm25_score": 23.025943756103516,
+    "semantic_score": 0.5862154364585876
+  },
+  {
+    "skill_text": "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "highway",
+      "lane markings",
+      "road"
+    ],
+    "source_game_id": "9NNxopqtafH8pTbN",
+    "source_round": 5,
+    "score": 0.7897742986679077,
+    "bm25_score": 30.377723693847656,
+    "semantic_score": 0.4639503061771393
+  },
+  {
+    "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+    "region_hint": "south_america",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "road markings"
+    ],
+    "source_game_id": "1NJsXTxIF9GGMDxC",
+    "source_round": 4,
+    "score": 0.7878137826919556,
+    "bm25_score": 32.12440490722656,
+    "semantic_score": 0.4324461817741394
+  },
+  {
+    "skill_text": "The road is narrow and edged with rough grass, suggesting a minor road, often found in southern France, northern Spain, Italy, or Portugal.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "2xnQdwiCve2rHWVt",
+    "source_round": 5,
+    "score": 0.7874671220779419,
+    "bm25_score": 29.258228302001953,
+    "semantic_score": 0.4796209931373596
+  },
+  {
+    "skill_text": "The presence of eucalyptus trees is a strong clue, as they are native and predominant in Australia, especially in South Australia and Victoria.",
+    "region_hint": "oceania",
+    "confidence": 0.65,
+    "visual_cues": [
+      "trees"
+    ],
+    "source_game_id": "56Q4T4rpv9O9sCpP",
+    "source_round": 2,
+    "score": 0.7832966446876526,
+    "bm25_score": 21.634607315063477,
+    "semantic_score": 0.6009781360626221
+  },
+  {
+    "skill_text": "The hilly nature and also the abundance of furs and pine trees lean the location more towards Northern Spain, and possibly as far west as Galicia",
+    "region_hint": "europe",
+    "confidence": 0.55,
+    "visual_cues": [
+      "trees"
+    ],
+    "source_game_id": "9NNxopqtafH8pTbN",
+    "source_round": 5,
+    "score": 0.7820231914520264,
+    "bm25_score": 23.08548355102539,
+    "semantic_score": 0.5752597451210022
+  },
+  {
+    "skill_text": "The presence of eucalyptus trees dominating the forest indicates an Australian environment, as these trees are indigenous to Australia.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "trees"
+    ],
+    "source_game_id": "6ypQOh9cOoE7WaWH",
+    "source_round": 5,
+    "score": 0.7804208397865295,
+    "bm25_score": 22.91796112060547,
+    "semantic_score": 0.5760098695755005
+  },
+  {
+    "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "road markings"
+    ],
+    "source_game_id": "5GS2RPgTrf85UZM5",
+    "source_round": 1,
+    "score": 0.7607659101486206,
+    "bm25_score": 28.685949325561523,
+    "semantic_score": 0.45525333285331726
+  },
+  {
+    "skill_text": "Based on the combination of climate, vegetation, geography, and road style, my guess is Portugal, near the city of Porto in northern Portugal.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "climate",
+      "road",
+      "vegetation"
+    ],
+    "source_game_id": "2xnQdwiCve2rHWVt",
+    "source_round": 5,
+    "score": 0.7572371959686279,
+    "bm25_score": 28.437286376953125,
+    "semantic_score": 0.45490747690200806
+  },
+  {
+    "skill_text": "The presence of eucalyptus trees is characteristic of Australia.",
+    "region_hint": "oceania",
+    "confidence": 0.65,
+    "visual_cues": [
+      "trees"
+    ],
+    "source_game_id": "3I4ZtihbhZy5qZzQ",
+    "source_round": 2,
+    "score": 0.7557495832443237,
+    "bm25_score": 19.722618103027344,
+    "semantic_score": 0.597793459892273
+  },
+  {
+    "skill_text": "The road markings display double yellow center lines with white edge lines, a common style in South American countries such as Argentina.",
+    "region_hint": "south_america",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "road markings"
+    ],
+    "source_game_id": "6ypQOh9cOoE7WaWH",
+    "source_round": 4,
+    "score": 0.7556418180465698,
+    "bm25_score": 30.01251983642578,
+    "semantic_score": 0.42671486735343933
+  }
+]

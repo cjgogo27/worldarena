@@ -1,0 +1,7 @@
+{
+  "num_valid_dirs": 20,
+  "num_results": 100,
+  "precision_mean": 0.4784670722795721,
+  "recall_mean": 0.47678884680134664,
+  "f1_mean": 0.46468942596032403
+}

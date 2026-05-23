@@ -1,0 +1,985 @@
+{
+  "game_id": "JfPkjboMSjCsG1Qu",
+  "round": 1,
+  "sample_id": "georc::JfPkjboMSjCsG1Qu::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "id",
+    "predicted_region": "asia",
+    "predicted_lat": -6.385,
+    "predicted_lng": 106.845,
+    "reasoning_text": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"region\": \"Southeast Asia\",\n  \"lat\": -6.385,\n  \"lng\": 106.845,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The visual evidence strongly supports Indonesia. The white SUV on the left has a license plate starting with 'B', which is the registration code for Jakarta and its surrounding satellite cities (Bogor, Depok, Tangerang, Bekasi). The driving side is left, consistent with Indonesia. The architecture features a mix of modern concrete multi-story buildings and traditional wooden structures, common in Indonesian suburban areas. The lush greenery and hilly terrain suggest a location outside the dense urban core, possibly in the Bogor or Depok area. The road markings and utility poles are also consistent with Indonesian infrastructure.\",\n  \"evidence\": [\n    \"White SUV with 'B' license plate\",\n    \"Left-hand traffic\",\n    \"Mix of modern concrete and traditional wooden architecture\",\n    \"Lush greenery and hilly terrain\",\n    \"Road markings and utility poles consistent with Indonesian infrastructure\"\n  ]\n}",
+    "evidence_spans": [
+      "White SUV with 'B' license plate",
+      "Left-hand traffic",
+      "Mix of modern concrete and traditional wooden architecture",
+      "Lush greenery and hilly terrain",
+      "Road markings and utility poles consistent with Indonesian infrastructure"
+    ],
+    "confidence": 0.92,
+    "retrieved_skills": [
+      {
+        "skill_text": "The road is made of concrete, which is mainly found in Thailand and Philippines in Southeast Asia, but the crossing sign is set for right hand drive, making Thailand not possible (since they drive left hand side)",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 1,
+        "score": 0.6216670602560044,
+        "bm25_score": 20.92780113220215,
+        "semantic_score": 0.44496670365333557
+      },
+      {
+        "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "driving",
+          "road",
+          "terrain"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.7691351532936097,
+        "bm25_score": 32.66789245605469,
+        "semantic_score": 0.4574035406112671
+      },
+      {
+        "skill_text": "The language on the blue sign by the house gate reads \"DIONTITASKAN,\" which doesn’t make direct sense in English, but the style and structure of the text is typical of Bahasa Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.7491543978452683,
+        "bm25_score": 30.2091121673584,
+        "semantic_score": 0.5265558362007141
+      },
+      {
+        "skill_text": "The street layout, mixed-use low-rise modern buildings, and the relatively new urban development in the background align with a developing city infrastructure typical of Amman.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 4,
+        "score": 0.631435039639473,
+        "bm25_score": 26.38779067993164,
+        "semantic_score": 0.3771764934062958
+      },
+      {
+        "skill_text": "The architecture of the apartment buildings, with their simple, concrete frame constructions and balcony designs, is common in the Mediterranean region, especially in Turkey.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building",
+          "sign"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 5,
+        "score": 0.3998351812362671,
+        "bm25_score": 28.768674850463867,
+        "semantic_score": 0.3973205089569092
+      },
+      {
+        "skill_text": "The architecture of the building on the left is utilitarian, with concrete, simple wooden benches, and laundry drying outside, fitting Indonesian or Filipino styles.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.7827717363834381,
+        "bm25_score": 30.317991256713867,
+        "semantic_score": 0.4891206622123718
+      },
+      {
+        "skill_text": "The cars are driving on the left side of the road, which suggests a country with left-hand traffic such as Thailand, Indonesia, or some countries in Africa.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "car",
+          "driving",
+          "road"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 1,
+        "score": 0.40372601151466375,
+        "bm25_score": 29.652070999145508,
+        "semantic_score": 0.39234715700149536
+      },
+      {
+        "skill_text": "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.7417852282524109,
+        "bm25_score": 32.1266975402832,
+        "semantic_score": 0.42596808075904846
+      },
+      {
+        "skill_text": "The road is narrow with a single lane in each direction, and the lane markings are simple white edge lines, which is common in India and Sri Lanka.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 3,
+        "score": 0.6557543516159059,
+        "bm25_score": 24.53401756286621,
+        "semantic_score": 0.35314300656318665
+      },
+      {
+        "skill_text": "Given the relatively lush greenery, slightly hilly terrain, and less densely packed buildings, the location leans more towards Bandung, Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building",
+          "terrain"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.6308107316493988,
+        "bm25_score": 23.396425247192383,
+        "semantic_score": 0.42388856410980225
+      },
+      {
+        "skill_text": "The overall setup resembles rural or peri-urban Malaysia rather than the more urbanized and regulated environments in Singapore or Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "overall",
+          "resembles",
+          "rural",
+          "setup"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 4,
+        "score": 0.416292679309845,
+        "bm25_score": 26.539386749267578,
+        "semantic_score": 0.4650024473667145
+      },
+      {
+        "skill_text": "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "bollard",
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.7518282741308213,
+        "bm25_score": 28.85173797607422,
+        "semantic_score": 0.4754692316055298
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "id",
+      "predicted_region": "asia",
+      "predicted_lat": -6.385,
+      "predicted_lng": 106.845,
+      "reasoning_text": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"region\": \"Southeast Asia\",\n  \"lat\": -6.385,\n  \"lng\": 106.845,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to Indonesia. The white SUV on the left has a license plate starting with 'B', which is the registration code for Jakarta and its surrounding satellite cities (Bogor, Depok, Tangerang, Bekasi). The driving side is left, consistent with Indonesia. The architecture features a mix of modern concrete multi-story homes and traditional wooden stilt houses (rumah panggung), common in rural and semi-urban areas of Java. The lush tropical vegetation, overhead utility wires, and motorbike-heavy traffic further support this. The terrain is gently sloping, typical of areas outside the flat Jakarta core. While exact coordinates are uncertain without street signs, the combination of 'B' plate, left-hand traffic, and architectural style places this in the greater Jakarta metropolitan area or nearby West Java highlands. The zoom box targets the white SUV and the distinctive purple-roofed stilt house for verification.\",\n  \"evidence\": [\n    \"White SUV with 'B' prefix license plate (Jakarta/Bogor region)\",\n    \"Left-hand traffic flow (motorcycles positioned on left)\",\n    \"Traditional wooden stilt house with purple roof and white picket fence\",\n    \"Modern multi-story white building with arched windows and balconies\",\n    \"Overhead utility wires crisscrossing sky — common in Southeast Asia\",\n    \"Lush green tropical vegetation and cloudy but bright sky\",\n    \"Two-lane asphalt road with faded yellow centerline\",\n    \"Multiple motor scooters and motorcycles in traffic\",\n    \"Roadside vendors or small stalls under awnings on left\",\n    \"Gently sloping terrain with slight uphill curve ahead\"\n  ]\n}",
+      "evidence_spans": [
+        "White SUV with 'B' prefix license plate (Jakarta/Bogor region)",
+        "Left-hand traffic flow (motorcycles positioned on left)",
+        "Traditional wooden stilt house with purple roof and white picket fence",
+        "Modern multi-story white building with arched windows and balconies",
+        "Overhead utility wires crisscrossing sky — common in Southeast Asia",
+        "Lush green tropical vegetation and cloudy but bright sky",
+        "Two-lane asphalt road with faded yellow centerline",
+        "Multiple motor scooters and motorcycles in traffic",
+        "Roadside vendors or small stalls under awnings on left",
+        "Gently sloping terrain with slight uphill curve ahead"
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "Two-lane asphalt road with faded yellow centerline",
+          "Multiple motor scooters and motorcycles in traffic",
+          "White SUV parked on left shoulder; license plate partially visible (Indonesian format: 'B' prefix likely)",
+          "Traditional wooden stilt house on right with purple roof and white picket fence",
+          "Modern multi-story white building with balconies and arched windows on right",
+          "Overhead utility wires crisscrossing sky — common in Southeast Asia",
+          "Lush green vegetation, tropical trees, cloudy but bright sky",
+          "Roadside vendors or small stalls under awnings on left",
+          "No visible street signs or directional markers",
+          "Driving appears to be on the left side of the road (motorcycles positioned accordingly)",
+          "Architecture blends modern concrete structures with traditional elevated wooden homes",
+          "Terrain is gently sloping; road curves slightly uphill ahead",
+          "No traffic lights or major intersections visible — rural or semi-urban setting"
+        ],
+        "hard_clues": [
+          "License plate on white SUV begins with 'B' — strongly suggests Indonesia (Jakarta region or surrounding areas)",
+          "Left-hand traffic confirmed by motorcycle positioning and lane usage",
+          "Stilt house architecture + tropical vegetation + overhead wires = classic Indonesian village/town aesthetic",
+          "Yellow centerline on two-lane road matches Indonesian road marking standards",
+          "Motorcycle dominance in traffic — typical of Indonesian urban/rural transport"
+        ],
+        "ambiguous_clues": [
+          "Specific town or district cannot be determined without signage",
+          "White building’s architectural style is generic modern Southeast Asian — not uniquely identifiable",
+          "Vegetation could match other tropical countries (e.g., Philippines, Malaysia), but combined with license plate, Indonesia is more likely",
+          "Road condition and infrastructure level suggest developing area — could be Java, Sumatra, or Sulawesi"
+        ],
+        "possible_scripts": [
+          "Javanese script may appear on local signage (though none visible here)",
+          "Latin script used for all visible text (e.g., license plates, banners)",
+          "Potential for Balinese or Sundanese cultural elements if near those regions — not evident in image"
+        ],
+        "driving_side": "left"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "Indonesia"
+        ],
+        "zoom_boxes": [
+          [
+            100,
+            580,
+            290,
+            680
+          ],
+          [
+            750,
+            180,
+            999,
+            750
+          ]
+        ],
+        "verification_queries": [
+          "Identify the specific road name and village based on the white SUV's license plate 'B' prefix and surrounding architecture.",
+          "Confirm if the white multi-story building with arched windows and the purple-roofed stilt house are located on the same street in a rural Indonesian setting.",
+          "Search for Google Street View imagery matching the combination of a two-lane road with faded yellow centerline, overhead utility wires, and tropical vegetation in Indonesia."
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "id",
+      "predicted_region": "asia",
+      "predicted_lat": -6.385,
+      "predicted_lng": 106.845,
+      "confidence": 0.92
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "id",
+      "predicted_region": "asia",
+      "predicted_lat": -6.385,
+      "predicted_lng": 106.845,
+      "confidence": 0.92
+    },
+    "base_prediction_summary": {
+      "predicted_country": "id",
+      "predicted_region": "asia",
+      "predicted_lat": -6.385,
+      "predicted_lng": 106.845,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.92,
+    "skill_boost_aggressive_confidence": 0.92,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The architecture of the building on the left is utilitarian, with concrete, simple wooden benches, and laundry drying outside, fitting Indonesian or Filipino styles.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7827717363834381,
+          "visual_cues": [
+            "architecture",
+            "building"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7691351532936097,
+          "visual_cues": [
+            "driving",
+            "road",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7518282741308213,
+          "visual_cues": [
+            "bollard",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The language on the blue sign by the house gate reads \"DIONTITASKAN,\" which doesn’t make direct sense in English, but the style and structure of the text is typical of Bahasa Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7491543978452683,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7417852282524109,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The road is narrow with a single lane in each direction, and the lane markings are simple white edge lines, which is common in India and Sri Lanka.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6557543516159059,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The street layout, mixed-use low-rise modern buildings, and the relatively new urban development in the background align with a developing city infrastructure typical of Amman.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.631435039639473,
+          "visual_cues": [
+            "building"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "Given the relatively lush greenery, slightly hilly terrain, and less densely packed buildings, the location leans more towards Bandung, Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6308107316493988,
+          "visual_cues": [
+            "building",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The road is made of concrete, which is mainly found in Thailand and Philippines in Southeast Asia, but the crossing sign is set for right hand drive, making Thailand not possible (since they drive left hand side)",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6216670602560044,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The overall setup resembles rural or peri-urban Malaysia rather than the more urbanized and regulated environments in Singapore or Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.416292679309845,
+          "visual_cues": [
+            "overall",
+            "resembles",
+            "rural",
+            "setup"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The cars are driving on the left side of the road, which suggests a country with left-hand traffic such as Thailand, Indonesia, or some countries in Africa.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.40372601151466375,
+          "visual_cues": [
+            "car",
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The architecture of the apartment buildings, with their simple, concrete frame constructions and balcony designs, is common in the Mediterranean region, especially in Turkey.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.3998351812362671,
+          "visual_cues": [
+            "architecture",
+            "building",
+            "sign"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "building"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The architecture of the building on the left is utilitarian, with concrete, simple wooden benches, and laundry drying outside, fitting Indonesian or Filipino styles.",
+        "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+        "The language on the blue sign by the house gate reads \"DIONTITASKAN,\" which doesn’t make direct sense in English, but the style and structure of the text is typical of Bahasa Indonesia.",
+        "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+        "The road is narrow with a single lane in each direction, and the lane markings are simple white edge lines, which is common in India and Sri Lanka.",
+        "The street layout, mixed-use low-rise modern buildings, and the relatively new urban development in the background align with a developing city infrastructure typical of Amman.",
+        "Given the relatively lush greenery, slightly hilly terrain, and less densely packed buildings, the location leans more towards Bandung, Indonesia.",
+        "The road is made of concrete, which is mainly found in Thailand and Philippines in Southeast Asia, but the crossing sign is set for right hand drive, making Thailand not possible (since they drive left hand side)",
+        "The overall setup resembles rural or peri-urban Malaysia rather than the more urbanized and regulated environments in Singapore or Indonesia.",
+        "The cars are driving on the left side of the road, which suggests a country with left-hand traffic such as Thailand, Indonesia, or some countries in Africa.",
+        "The architecture of the apartment buildings, with their simple, concrete frame constructions and balcony designs, is common in the Mediterranean region, especially in Turkey."
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

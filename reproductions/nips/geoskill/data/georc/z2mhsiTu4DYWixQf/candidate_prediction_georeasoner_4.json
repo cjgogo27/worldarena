@@ -1,0 +1,11 @@
+{
+  "country": "Spain",
+  "country_code": "es",
+  "city": "",
+  "reasoning_chain": [
+    "The white van displays a European-style license plate, consistent with Spanish vehicles, and the road layout suggests right-hand traffic typical of Spain.",
+    "The architecture features red brick and stone facades with tiled roofs, common in rural or small-town Spanish settlements.",
+    "Graffiti on the right wall includes Spanish text ('SALIDA A DOS CARRETERAS'), confirming the location is in a Spanish-speaking region."
+  ],
+  "raw_output": "{\n  \"country\": \"Spain\",\n  \"country_code\": \"es\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The white van displays a European-style license plate, consistent with Spanish vehicles, and the road layout suggests right-hand traffic typical of Spain.\",\n    \"The architecture features red brick and stone facades with tiled roofs, common in rural or small-town Spanish settlements.\",\n    \"Graffiti on the right wall includes Spanish text ('SALIDA A DOS CARRETERAS'), confirming the location is in a Spanish-speaking region.\",\n    \"Utility poles and overhead wires"
+}

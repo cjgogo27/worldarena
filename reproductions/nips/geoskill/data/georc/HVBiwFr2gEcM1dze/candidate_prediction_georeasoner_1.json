@@ -1,0 +1,11 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow center line, indicating two-way traffic with no overtaking allowed — common in rural Portuguese roads.",
+    "Vegetation includes eucalyptus trees and mixed deciduous forest, typical of northern Portugal’s temperate climate.",
+    "No visible signage, vehicles, or urban infrastructure suggests a remote rural area, consistent with Portugal’s countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow center line, indicating two-way traffic with no overtaking allowed — common in rural Portuguese roads.\",\n    \"Vegetation includes eucalyptus trees and mixed deciduous forest, typical of northern Portugal’s temperate climate.\",\n    \"No visible signage, vehicles, or urban infrastructure suggests a remote rural area, consistent with Portugal’s countryside.\",\n    \"The overcast sky and green-brown grass indicate a cool"
+}

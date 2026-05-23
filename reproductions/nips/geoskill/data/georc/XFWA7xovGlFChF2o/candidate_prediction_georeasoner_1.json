@@ -1,0 +1,11 @@
+{
+  "country": "Ukraine",
+  "country_code": "ua",
+  "city": "",
+  "reasoning_chain": [
+    "The white sedan resembles a classic Soviet-era Lada, commonly found in post-Soviet states like Ukraine.",
+    "The road is unmarked with no center line or lane dividers, typical of rural roads in Eastern Europe.",
+    "Utility poles are wooden and spaced irregularly, consistent with infrastructure in less urbanized areas of Ukraine."
+  ],
+  "raw_output": "{\n  \"country\": \"Ukraine\",\n  \"country_code\": \"ua\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The white sedan resembles a classic Soviet-era Lada, commonly found in post-Soviet states like Ukraine.\",\n    \"The road is unmarked with no center line or lane dividers, typical of rural roads in Eastern Europe.\",\n    \"Utility poles are wooden and spaced irregularly, consistent with infrastructure in less urbanized areas of Ukraine.\",\n    \"Vegetation shows autumnal trees with sparse leaves, matching temperate continental climate zones in Ukraine"
+}

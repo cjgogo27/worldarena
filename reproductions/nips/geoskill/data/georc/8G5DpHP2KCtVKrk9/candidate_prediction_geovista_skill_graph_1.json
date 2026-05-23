@@ -1,0 +1,741 @@
+{
+  "game_id": "8G5DpHP2KCtVKrk9",
+  "round": 1,
+  "sample_id": "georc::8G5DpHP2KCtVKrk9::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "br",
+    "predicted_region": "south_america",
+    "predicted_address": "Waterfront historic center area, Salvador, Bahia, Brazil",
+    "predicted_lat": -12.97472222,
+    "predicted_lng": -38.47666667,
+    "reasoning_text": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"city\": \"Salvador\",\n  \"province_or_state\": \"Bahia\",\n  \"address\": \"Waterfront historic center area, Salvador, Bahia, Brazil\",\n  \"confidence\": 0.44,\n  \"reasoning\": \"Applying the ordered skill graph strictly: first, the river/waterfront road with urban buildings matches a coastal Brazilian city setup. Second, the pastel-colored colonial building with balconies fits Portuguese colonial architecture. Third, combining the apparent Portuguese-language context, tropical climate, and colonial style leads to Salvador, Brazil as the primary location guess. Following linked supporting skills, the road and street design are consistent with historic centers of Brazilian cities, the dense overhead wiring and concrete utility poles are typical in Brazil, and the storefront text appears Portuguese rather than Spanish. Although some lower-priority skills suggest alternative countries or regions, they conflict with the higher-priority Brazil-to-Salvador chain, so the final consistent guess is Salvador, Bahia, Brazil.\",\n  \"evidence\": [\n    \"Broad waterfront boulevard beside calm water\",\n    \"Pastel pink colonial/neoclassical corner building\",\n    \"Balconies and facade style associated with Portuguese colonial urbanism\",\n    \"Right-hand traffic and Brazilian-style lane markings\",\n    \"Dense overhead electrical wiring on concrete poles\",\n    \"Tropical palms and humid coastal vegetation\",\n    \"Storefront text appears to be in Portuguese\"\n  ]\n}",
+    "evidence_spans": [
+      "Broad waterfront boulevard beside calm water",
+      "Pastel pink colonial/neoclassical corner building",
+      "Balconies and facade style associated with Portuguese colonial urbanism",
+      "Right-hand traffic and Brazilian-style lane markings",
+      "Dense overhead electrical wiring on concrete poles",
+      "Tropical palms and humid coastal vegetation",
+      "Storefront text appears to be in Portuguese"
+    ],
+    "confidence": 0.44,
+    "base_prediction_summary": {
+      "predicted_country": "br",
+      "predicted_region": "south_america",
+      "confidence": 0.58
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The river and waterfront setup with urban buildings resemble the layout of cities in coastal Brazil.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building",
+          "coast"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 1,
+        "score": 1.0,
+        "bm25_score": 35.40158462524414,
+        "semantic_score": 0.615562915802002
+      },
+      {
+        "skill_text": "The architecture features pastel-colored colonial buildings with balconies, which are typical of Portuguese colonial style.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 1,
+        "score": 0.8889963626861572,
+        "bm25_score": 27.57159423828125,
+        "semantic_score": 0.6150660514831543
+      },
+      {
+        "skill_text": "Taking into account the Portuguese language, tropical climate, and colonial architectural style, this is likely Salvador, Brazil.",
+        "region_hint": "south_america",
+        "confidence": 0.75,
+        "visual_cues": [
+          "climate"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 1,
+        "score": 0.8740306496620178,
+        "bm25_score": 29.278076171875,
+        "semantic_score": 0.5683499574661255
+      },
+      {
+        "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 4,
+        "score": 0.789279580116272,
+        "bm25_score": 27.661584854125977,
+        "semantic_score": 0.49430686235427856
+      },
+      {
+        "skill_text": "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "fence"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.7697553634643555,
+        "bm25_score": 25.24444580078125,
+        "semantic_score": 0.5117828249931335
+      },
+      {
+        "skill_text": "The road and street design are found in historic centers of Brazilian cities.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 1,
+        "score": 0.7669219970703125,
+        "bm25_score": 21.586891174316406,
+        "semantic_score": 0.5701664090156555
+      },
+      {
+        "skill_text": "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 3,
+        "score": 0.7583997249603271,
+        "bm25_score": 24.29195785522461,
+        "semantic_score": 0.5142902731895447
+      },
+      {
+        "skill_text": "The style of the power lines and concrete poles is also typical in Brazil, differing from neighboring countries in design and placement.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles",
+          "sign"
+        ],
+        "source_game_id": "AVKTblAzBqaYrcKe",
+        "source_round": 5,
+        "score": 0.7543306350708008,
+        "bm25_score": 21.12164306640625,
+        "semantic_score": 0.5629673600196838
+      },
+      {
+        "skill_text": "Signage on the building says \"TESIS\" and some words in Portuguese, which suggests Brazil.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building",
+          "sign"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 1,
+        "score": 0.7362532615661621,
+        "bm25_score": 24.15338706970215,
+        "semantic_score": 0.4901483654975891
+      },
+      {
+        "skill_text": "The use of concrete poles for electrical wiring and fencing style is consistent with infrastructure seen in the Argentine countryside.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 4,
+        "score": 0.7061760425567627,
+        "bm25_score": 28.915334701538086,
+        "semantic_score": 0.37375903129577637
+      },
+      {
+        "skill_text": "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+        "region_hint": "south_america",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 4,
+        "score": 0.7026886940002441,
+        "bm25_score": 23.846105575561523,
+        "semantic_score": 0.4552021026611328
+      },
+      {
+        "skill_text": "The architecture of the buildings, with whitewashed walls, red brick lower facades, and wooden balconies, is characteristic of colonial towns in Colombia.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 3,
+        "score": 0.6996051073074341,
+        "bm25_score": 21.300294876098633,
+        "semantic_score": 0.4945104718208313
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The river and waterfront setup with urban buildings resemble the layout of cities in coastal Brazil.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 1.0,
+          "visual_cues": [
+            "building",
+            "coast"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The architecture features pastel-colored colonial buildings with balconies, which are typical of Portuguese colonial style.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.8889963626861572,
+          "visual_cues": [
+            "architecture",
+            "building"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "Taking into account the Portuguese language, tropical climate, and colonial architectural style, this is likely Salvador, Brazil.",
+          "region_hint": "south_america",
+          "confidence": 0.75,
+          "score": 0.8740306496620178,
+          "visual_cues": [
+            "climate"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.789279580116272,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7697553634643555,
+          "visual_cues": [
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The road and street design are found in historic centers of Brazilian cities.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7669219970703125,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7583997249603271,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The style of the power lines and concrete poles is also typical in Brazil, differing from neighboring countries in design and placement.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7543306350708008,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "Signage on the building says \"TESIS\" and some words in Portuguese, which suggests Brazil.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7362532615661621,
+          "visual_cues": [
+            "building",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The use of concrete poles for electrical wiring and fencing style is consistent with infrastructure seen in the Argentine countryside.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7061760425567627,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+          "region_hint": "south_america",
+          "confidence": 0.75,
+          "score": 0.7026886940002441,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The architecture of the buildings, with whitewashed walls, red brick lower facades, and wooden balconies, is characteristic of colonial towns in Colombia.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6996051073074341,
+          "visual_cues": [
+            "architecture",
+            "building"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "building"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The river and waterfront setup with urban buildings resemble the layout of cities in coastal Brazil.",
+        "The architecture features pastel-colored colonial buildings with balconies, which are typical of Portuguese colonial style.",
+        "Taking into account the Portuguese language, tropical climate, and colonial architectural style, this is likely Salvador, Brazil.",
+        "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+        "The road and street design are found in historic centers of Brazilian cities.",
+        "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+        "The style of the power lines and concrete poles is also typical in Brazil, differing from neighboring countries in design and placement.",
+        "Signage on the building says \"TESIS\" and some words in Portuguese, which suggests Brazil.",
+        "The use of concrete poles for electrical wiring and fencing style is consistent with infrastructure seen in the Argentine countryside.",
+        "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+        "The architecture of the buildings, with whitewashed walls, red brick lower facades, and wooden balconies, is characteristic of colonial towns in Colombia."
+      ],
+      "summary": "nodes=12, edges=48, base_region=south_america, top_skill_region=south_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"city\": \"Belém\",\n  \"province_or_state\": \"Pará\",\n  \"address\": \"Avenida Portugal / Boulevard Castilhos França waterfront area, Cidade Velha, Belém, Pará, Brazil\",\n  \"confidence\": 0.58,\n  \"reasoning\": \"The scene strongly su",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 48,
+        "graph_summary": "nodes=12, edges=48, base_region=south_america, top_skill_region=south_america"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "br"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

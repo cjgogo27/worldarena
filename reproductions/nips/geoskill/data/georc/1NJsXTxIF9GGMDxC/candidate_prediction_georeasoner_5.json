@@ -1,0 +1,13 @@
+{
+  "country": "Namibia",
+  "country_code": "na",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with a single dashed white centerline, typical of rural roads in southern Africa, particularly Namibia.",
+    "Vegetation consists of dry grassland and scattered acacia-like shrubs, consistent with the arid to semi-arid climate of Namibia’s central regions.",
+    "Utility poles are wooden and sparsely placed along the roadside, matching infrastructure patterns in remote areas of Namibia where electrification is limited.",
+    "The combination of a straight, lightly trafficked paved road, sparse wooden utility poles, and characteristic savanna vegetation under an overcast sky strongly points to a rural location in Namibia. The absence of signage, buildings, or vehicles further supports a remote setting typical of Namibia’s interior highways."
+  ],
+  "reasoning": "The combination of a straight, lightly trafficked paved road, sparse wooden utility poles, and characteristic savanna vegetation under an overcast sky strongly points to a rural location in Namibia. The absence of signage, buildings, or vehicles further supports a remote setting typical of Namibia’s interior highways.",
+  "raw_output": "{\n  \"country\": \"Namibia\",\n  \"country_code\": \"na\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with a single dashed white centerline, typical of rural roads in southern Africa, particularly Namibia.\",\n    \"Vegetation consists of dry grassland and scattered acacia-like shrubs, consistent with the arid to semi-arid climate of Namibia’s central regions.\",\n    \"Utility poles are wooden and sparsely placed along the roadside, matching infrastructure patterns in remote areas of Namibia where electrification is limited.\"\n  ],\n  \"reasoning\": \"The combination of a straight, lightly trafficked paved road, sparse wooden utility poles, and characteristic savanna vegetation under an overcast sky strongly points to a rural location in Namibia. The absence of signage, buildings, or vehicles further supports a remote setting typical of Namibia’s interior highways.\"\n}"
+}

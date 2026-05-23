@@ -1,0 +1,709 @@
+{
+  "game_id": "GbfNQanBbRoPIoek",
+  "round": 1,
+  "sample_id": "georc::GbfNQanBbRoPIoek::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "th",
+    "predicted_region": "asia",
+    "predicted_address": "Residential alley in outer Bangkok, Bangkok, Thailand",
+    "predicted_lat": 13.74722222,
+    "predicted_lng": 100.49444444,
+    "reasoning_text": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Bangkok\",\n  \"province_or_state\": \"Bangkok\",\n  \"address\": \"Residential alley in outer Bangkok, Bangkok, Thailand\",\n  \"confidence\": 0.64,\n  \"reasoning\": \"Applying the ordered skill graph strictly: Skill 1 is the first high-priority cue, and the very narrow unmarked concrete road strongly supports Thailand. Following its graph edges, Skill 3 and Skill 4 broaden the setting to mainland/peri-urban Southeast Asia, but the scene does not fit Vietnam or Malaysia as well as Thailand. Skill 5 keeps Indonesia in consideration because narrow paved residential lanes are common there, yet the enclosed compound-style homes and concrete alley feel less Indonesian than Thai. Skill 6 points to rural India, but the residential layout and lack of Indian-specific infrastructure make that weaker. Skill 7 is the strongest linked confirmation: the combination of a narrow concrete lane, tropical setting, and Southeast Asian residential form makes Thailand the best match. Skill 9 also supports narrowing to Thailand, Malaysia, Indonesia, or the Philippines based on tropical vegetation and neighborhood architecture; among those, Thailand remains most consistent. Skill 2 suggesting France, Skill 8 suggesting Australia/New Zealand, Skill 10 suggesting South Korea, and Skill 11 suggesting Turkey are inconsistent with the tropical vegetation, alley form, and compound housing, so they are rejected. Using the graph-consistent cues together, this is best placed in a quiet residential soi in outer Bangkok.\",\n  \"evidence\": [\n    \"Very narrow poured-concrete residential lane with no lane markings\",\n    \"Low walls, fences, and detached compound-style homes lining both sides\",\n    \"Dense humid tropical vegetation overhanging the alley\",\n    \"Flat peri-urban residential environment typical of Bangkok outskirts\",\n    \"Quiet soi-like neighborhood layout with simple local access road\",\n    \"No visible signage or markings contradicting a Thailand placement\"\n  ]\n}",
+    "evidence_spans": [
+      "Very narrow poured-concrete residential lane with no lane markings",
+      "Low walls, fences, and detached compound-style homes lining both sides",
+      "Dense humid tropical vegetation overhanging the alley",
+      "Flat peri-urban residential environment typical of Bangkok outskirts",
+      "Quiet soi-like neighborhood layout with simple local access road",
+      "No visible signage or markings contradicting a Thailand placement"
+    ],
+    "confidence": 0.64,
+    "base_prediction_summary": {
+      "predicted_country": "th",
+      "predicted_region": "asia",
+      "confidence": 0.39
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 1,
+        "score": 0.8280878067016602,
+        "bm25_score": 26.613080978393555,
+        "semantic_score": 0.5259832143783569
+      },
+      {
+        "skill_text": "The street layout and the presence of a detached single-family home structure in a tidy residential neighborhood further point toward France.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "detached",
+          "layout",
+          "presence",
+          "street"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 3,
+        "score": 0.8216205835342407,
+        "bm25_score": 32.087223052978516,
+        "semantic_score": 0.41532501578330994
+      },
+      {
+        "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.8147279024124146,
+        "bm25_score": 25.69256019592285,
+        "semantic_score": 0.526138424873352
+      },
+      {
+        "skill_text": "The overall setup resembles rural or peri-urban Malaysia rather than the more urbanized and regulated environments in Singapore or Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "overall",
+          "resembles",
+          "rural",
+          "setup"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 4,
+        "score": 0.8073302507400513,
+        "bm25_score": 20.984725952148438,
+        "semantic_score": 0.6047533750534058
+      },
+      {
+        "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.8072904348373413,
+        "bm25_score": 27.07927894592285,
+        "semantic_score": 0.4906993508338928
+      },
+      {
+        "skill_text": "Given this combination of agricultural practice, vegetation type, infrastructure, and road markings, this is most likely rural India, particularly in West Bengal near Kolkata, as the area matches the flat, green, and lush environment.",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road",
+          "road markings",
+          "vegetation"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 2,
+        "score": 0.8042290210723877,
+        "bm25_score": 27.798851013183594,
+        "semantic_score": 0.4733290672302246
+      },
+      {
+        "skill_text": "The combination of left-hand drive, concrete square poles, and a dry yet tropical landscape makes Thailand the most likely country",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "pole",
+          "poles"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 1,
+        "score": 0.7832137942314148,
+        "bm25_score": 24.08733367919922,
+        "semantic_score": 0.5159142017364502
+      },
+      {
+        "skill_text": "The road is wide, smooth, and lacks any lane markings, a common feature in the quiet residential cul-de-sacs of Australian and New Zealand suburbs.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 4,
+        "score": 0.7794104814529419,
+        "bm25_score": 34.14035415649414,
+        "semantic_score": 0.32300716638565063
+      },
+      {
+        "skill_text": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof",
+          "trees",
+          "vegetation"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.7710953950881958,
+        "bm25_score": 25.061847686767578,
+        "semantic_score": 0.48220711946487427
+      },
+      {
+        "skill_text": "The fencing design and sidewalk layout are modern and typical for South Korea in peri-urban areas.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sidewalk",
+          "sign"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 4,
+        "score": 0.7642524242401123,
+        "bm25_score": 24.110960006713867,
+        "semantic_score": 0.491254061460495
+      },
+      {
+        "skill_text": "The person cycling in the street and lack of lane markings gives a sense of suburban or peri-urban planning found in newer Turkish city expansions.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 5,
+        "score": 0.7630795240402222,
+        "bm25_score": 28.024856567382812,
+        "semantic_score": 0.4165436029434204
+      },
+      {
+        "skill_text": "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "asphalt",
+          "paved",
+          "street",
+          "with"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 2,
+        "score": 0.7576212882995605,
+        "bm25_score": 27.136503219604492,
+        "semantic_score": 0.42618948221206665
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8280878067016602,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The street layout and the presence of a detached single-family home structure in a tidy residential neighborhood further point toward France.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8216205835342407,
+          "visual_cues": [
+            "detached",
+            "layout",
+            "presence",
+            "street"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8147279024124146,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The overall setup resembles rural or peri-urban Malaysia rather than the more urbanized and regulated environments in Singapore or Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8073302507400513,
+          "visual_cues": [
+            "overall",
+            "resembles",
+            "rural",
+            "setup"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8072904348373413,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "Given this combination of agricultural practice, vegetation type, infrastructure, and road markings, this is most likely rural India, particularly in West Bengal near Kolkata, as the area matches the flat, green, and lush environment.",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.8042290210723877,
+          "visual_cues": [
+            "road",
+            "road markings",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The combination of left-hand drive, concrete square poles, and a dry yet tropical landscape makes Thailand the most likely country",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.7832137942314148,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The road is wide, smooth, and lacks any lane markings, a common feature in the quiet residential cul-de-sacs of Australian and New Zealand suburbs.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.7794104814529419,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7710953950881958,
+          "visual_cues": [
+            "architecture",
+            "roof",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The fencing design and sidewalk layout are modern and typical for South Korea in peri-urban areas.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7642524242401123,
+          "visual_cues": [
+            "sidewalk",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The person cycling in the street and lack of lane markings gives a sense of suburban or peri-urban planning found in newer Turkish city expansions.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7630795240402222,
+          "visual_cues": [
+            "lane markings"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7576212882995605,
+          "visual_cues": [
+            "asphalt",
+            "paved",
+            "street",
+            "with"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "street"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "lane markings"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+        "The street layout and the presence of a detached single-family home structure in a tidy residential neighborhood further point toward France.",
+        "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "The overall setup resembles rural or peri-urban Malaysia rather than the more urbanized and regulated environments in Singapore or Indonesia.",
+        "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "Given this combination of agricultural practice, vegetation type, infrastructure, and road markings, this is most likely rural India, particularly in West Bengal near Kolkata, as the area matches the flat, green, and lush environment.",
+        "The combination of left-hand drive, concrete square poles, and a dry yet tropical landscape makes Thailand the most likely country",
+        "The road is wide, smooth, and lacks any lane markings, a common feature in the quiet residential cul-de-sacs of Australian and New Zealand suburbs.",
+        "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+        "The fencing design and sidewalk layout are modern and typical for South Korea in peri-urban areas.",
+        "The person cycling in the street and lack of lane markings gives a sense of suburban or peri-urban planning found in newer Turkish city expansions.",
+        "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions."
+      ],
+      "summary": "nodes=12, edges=42, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Bangkok\",\n  \"province_or_state\": \"Bangkok\",\n  \"address\": \"Residential alley in outer Bangkok, Thailand\",\n  \"confidence\": 0.39,\n  \"reasoning\": \"The scene shows a very narrow poured-concrete residential lane bo",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 42,
+        "graph_summary": "nodes=12, edges=42, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "th"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

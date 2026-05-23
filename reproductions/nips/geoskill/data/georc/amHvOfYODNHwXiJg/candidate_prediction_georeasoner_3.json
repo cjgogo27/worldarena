@@ -1,0 +1,11 @@
+{
+  "country": "New Zealand",
+  "country_code": "nz",
+  "city": "",
+  "reasoning_chain": [
+    "The 'Family Store' sign with phone number format '0800 800 316' is typical of New Zealand's toll-free numbering system.",
+    "Road markings show left-hand traffic, consistent with New Zealand's driving side.",
+    "The Maori-style mural on the white building reflects indigenous cultural art common in New Zealand towns."
+  ],
+  "raw_output": "{\n  \"country\": \"New Zealand\",\n  \"country_code\": \"nz\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The 'Family Store' sign with phone number format '0800 800 316' is typical of New Zealand's toll-free numbering system.\",\n    \"Road markings show left-hand traffic, consistent with New Zealand's driving side.\",\n    \"The Maori-style mural on the white building reflects indigenous cultural art common in New Zealand towns.\",\n    \"Vegetation includes native trees and overcast skies typical of New Zealand"
+}

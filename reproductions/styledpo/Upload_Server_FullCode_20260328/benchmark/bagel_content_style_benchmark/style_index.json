@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-03-29T14:03:36.552352+00:00",
+  "styles": [
+    {
+      "style_id": "Action Painting",
+      "style_safe": "Action_Painting",
+      "prompt": "Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "African Tribal Art",
+      "style_safe": "African_Tribal_Art",
+      "prompt": "Apply an African Tribal Art style with geometric motifs, earthy palettes, and symbolic patterning while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Anime",
+      "style_safe": "Anime",
+      "prompt": "Apply an Anime style with clean line art, stylized shading, and vivid color blocks while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Black and White",
+      "style_safe": "Black_and_White",
+      "prompt": "Apply a Black and White style with strong tonal contrast and grayscale rendering while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Candy Pastel",
+      "style_safe": "Candy_Pastel",
+      "prompt": "Apply a Candy Pastel style with soft pastel tones, gentle highlights, and dreamy color transitions while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Cartoon",
+      "style_safe": "Cartoon",
+      "prompt": "Apply a Cartoon style with simplified shapes, bold outlines, and stylized shading while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Children's book Illustration",
+      "style_safe": "Children_s_book_Illustration",
+      "prompt": "Apply a Children's book Illustration style with playful forms, warm colors, and storybook texture while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Chinese Ink Painting",
+      "style_safe": "Chinese_Ink_Painting",
+      "prompt": "Apply a Chinese Ink Painting style with ink wash gradients, calligraphic strokes, and minimal color while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Cinematic",
+      "style_safe": "Cinematic",
+      "prompt": "Apply a Cinematic style with filmic lighting, dramatic contrast, and mood-focused color grading while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Comic",
+      "style_safe": "Comic",
+      "prompt": "Apply a Comic style with panel-like boldness, clear contour lines, and punchy color separation while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Cool Tone",
+      "style_safe": "Cool_Tone",
+      "prompt": "Apply a Cool Tone style with blue-cyan dominant grading and crisp atmospheric lighting while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Crayon Texture",
+      "style_safe": "Crayon_Texture",
+      "prompt": "Apply a Crayon Texture style with waxy grain, hand-drawn strokes, and textured fills while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Cubism",
+      "style_safe": "Cubism",
+      "prompt": "Apply a Cubism-inspired style with angular color blocking, faceted brush rhythm, and abstract surface treatment while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Dreamlike Ethereal",
+      "style_safe": "Dreamlike_Ethereal",
+      "prompt": "Apply a Dreamlike Ethereal style with misty glow, soft transitions, and surreal ambience while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Fantasy",
+      "style_safe": "Fantasy",
+      "prompt": "Apply a Fantasy style with magical atmosphere, rich color accents, and imaginative visual mood while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Futuristic Sci-Fi",
+      "style_safe": "Futuristic_Sci_Fi",
+      "prompt": "Apply a Futuristic Sci-Fi style with futuristic materials, neon highlights, and high-tech visual language while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Genshin Impact Style",
+      "style_safe": "Genshin_Impact_Style",
+      "prompt": "Apply a Genshin Impact Style look with anime-inspired rendering, crisp cel shading, and vibrant game-like color design while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Ghibli Style",
+      "style_safe": "Ghibli_Style",
+      "prompt": "Apply a Ghibli Style look with painterly softness, warm storytelling atmosphere, and gentle hand-painted tones while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Golden Hour",
+      "style_safe": "Golden_Hour",
+      "prompt": "Apply a Golden Hour style with warm low-angle sunlight, amber highlights, and soft shadows while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Graffiti",
+      "style_safe": "Graffiti",
+      "prompt": "Apply a Graffiti style with spray-paint textures, bold urban color splashes, and street-art energy while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Greek Mythological Painting",
+      "style_safe": "Greek_Mythological_Painting",
+      "prompt": "Apply a Greek Mythological Painting style with classical composition, dramatic lighting, and painterly historic tone while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Impasto",
+      "style_safe": "Impasto",
+      "prompt": "Apply an Impasto style with thick paint texture, visible brush buildup, and tactile surface depth while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Impressionism",
+      "style_safe": "Impressionism",
+      "prompt": "Apply an Impressionism style with soft broken brushwork, light-focused color blending, and painterly atmosphere while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Indian Folk Painting",
+      "style_safe": "Indian_Folk_Painting",
+      "prompt": "Apply an Indian Folk Painting style with decorative patterns, strong flat colors, and traditional motif design while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Low Poly Art",
+      "style_safe": "Low_Poly_Art",
+      "prompt": "Apply a Low Poly Art-inspired style with faceted shading, polygon-inspired texture cues, and simplified color regions while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Makoto Shinkai Light Style",
+      "style_safe": "Makoto_Shinkai_Light_Style",
+      "prompt": "Apply a Makoto Shinkai Light Style look with luminous sky lighting, clean anime details, and atmospheric color gradients while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Marvel Comic Style",
+      "style_safe": "Marvel_Comic_Style",
+      "prompt": "Apply a Marvel Comic Style look with dynamic contrast, heroic rendering, and bold comic-book color treatment while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Mexican Art",
+      "style_safe": "Mexican_Art",
+      "prompt": "Apply a Mexican Art style with vibrant folk color palettes, decorative symbolism, and handcrafted texture while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Minecraft Style",
+      "style_safe": "Minecraft_Style",
+      "prompt": "Apply a Minecraft-inspired style with pixelated block-texture shading, game-like color design, and voxel-like material feel while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Neon",
+      "style_safe": "Neon",
+      "prompt": "Apply a Neon style with glowing highlights, high-saturation accents, and dark-background contrast while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Pastel Texture",
+      "style_safe": "Pastel_Texture",
+      "prompt": "Apply a Pastel Texture style with powdery texture, soft edges, and chalk-like blending while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Pixel Art",
+      "style_safe": "Pixel_Art",
+      "prompt": "Apply a Pixel Art style with low-resolution pixel-grid rendering, constrained color palette, and retro game aesthetics while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Realism",
+      "style_safe": "Realism",
+      "prompt": "Apply a Realism style with natural materials, physically plausible lighting, and faithful detail while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Slam Dunk Style",
+      "style_safe": "Slam_Dunk_Style",
+      "prompt": "Apply a Slam Dunk Style look with classic sports anime linework, dynamic motion expression, and bold cel shading while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Ukiyo-e",
+      "style_safe": "Ukiyo_e",
+      "prompt": "Apply a Ukiyo-e style with woodblock print aesthetics, flat color regions, and stylized contour lines while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Vaporwave",
+      "style_safe": "Vaporwave",
+      "prompt": "Apply a Vaporwave style with retro-futuristic gradients, neon-pastel aesthetics, and nostalgic digital atmosphere while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Vibrant",
+      "style_safe": "Vibrant",
+      "prompt": "Apply a Vibrant style with highly saturated colors, vivid contrast, and energetic visual tone while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Warm Tone",
+      "style_safe": "Warm_Tone",
+      "prompt": "Apply a Warm Tone style with red-orange dominant grading and cozy lighting while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Watercolor",
+      "style_safe": "Watercolor",
+      "prompt": "Apply a Watercolor style with translucent pigment washes, soft edges, and flowing tonal transitions while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    },
+    {
+      "style_id": "Yangliuqing New Year Painting",
+      "style_safe": "Yangliuqing_New_Year_Painting",
+      "prompt": "Apply a Yangliuqing New Year Painting style with traditional Chinese New Year print aesthetics, festive color richness, and decorative folk composition while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood)."
+    }
+  ]
+}

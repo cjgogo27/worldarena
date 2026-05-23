@@ -1,0 +1,11 @@
+{
+  "country": "Norway",
+  "country_code": "no",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with no center line, typical of rural Norwegian mountain roads.",
+    "The guardrails are metal W-beam type, commonly used in Norway for safety on winding mountain passes.",
+    "The vegetation consists of frost-covered deciduous trees and conifers, consistent with Norway’s temperate to subarctic climate zones."
+  ],
+  "raw_output": "{\n  \"country\": \"Norway\",\n  \"country_code\": \"no\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with no center line, typical of rural Norwegian mountain roads.\",\n    \"The guardrails are metal W-beam type, commonly used in Norway for safety on winding mountain passes.\",\n    \"The vegetation consists of frost-covered deciduous trees and conifers, consistent with Norway’s temperate to subarctic climate zones.\",\n    \"The terrain features steep rocky cliffs and narrow valleys, characteristic of Norway’s fj"
+}

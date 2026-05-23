@@ -1,0 +1,12 @@
+
+========================================
+Household Trajectory Visualization Summary
+========================================
+
+Total Households: 20
+Total Members: 45
+
+Household Size Distribution:
+  2 members: 16 households
+  3 members: 3 households
+  4 members: 1 households

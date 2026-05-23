@@ -1,0 +1,23 @@
+{
+  "country_accuracy": 0.1,
+  "continent_accuracy": 0.16326530612244897,
+  "country_known_rate": 1.0,
+  "continent_known_rate": 0.98,
+  "distance_error_km_median": 20037.0,
+  "distance_error_km_mean_valid_only": 633.8266151668051,
+  "distance_error_km_mean_penalized": 16932.492258426686,
+  "distance_error_km_std_penalized": 7123.997700527392,
+  "valid_coordinate_rate": 0.16,
+  "coverage_rate": 0.16,
+  "total_samples": 50.0,
+  "valid_predictions": 8.0,
+  "Acc@10km": 0.0,
+  "Acc@25km": 0.0,
+  "Acc@200km": 0.1,
+  "Acc@750km": 0.12,
+  "Acc@2000km": 0.14,
+  "elapsed_seconds": 956.3534970283508,
+  "num_samples": 50,
+  "num_errors": 42,
+  "recovery_error": "VLM query failed after retries: 401 Client Error: Unauthorized for url: https://api.mytokenland.com/v1/chat/completions"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road is paved with no center line or markings, typical of rural US mountain roads in national forests.",
+    "Vegetation includes coniferous trees (pines/firs) and shrubs consistent with Sierra Nevada or Rocky Mountain ecosystems.",
+    "Burnt tree trunks on the right hillside suggest past wildfire activity, common in western US forests."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is paved with no center line or markings, typical of rural US mountain roads in national forests.\",\n    \"Vegetation includes coniferous trees (pines/firs) and shrubs consistent with Sierra Nevada or Rocky Mountain ecosystems.\",\n    \"Burnt tree trunks on the right hillside suggest past wildfire activity, common in western US forests.\",\n    \"No visible signage, utility poles, or non-native architecture; terrain and lighting"
+}

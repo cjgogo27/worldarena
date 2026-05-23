@@ -1,0 +1,11 @@
+{
+  "country": "France",
+  "country_code": "fr",
+  "city": "",
+  "reasoning_chain": [
+    "The sign 'CAMI de la LOBATERA' uses Catalan script, indicating a location in Catalonia, Spain, not France.",
+    "The road is narrow, winding uphill with guardrails and stone retaining walls, typical of rural mountainous areas in the Pyrenees.",
+    "Vehicles are parked on the left side of the road, consistent with right-hand traffic in Spain."
+  ],
+  "raw_output": "{\n  \"country\": \"France\",\n  \"country_code\": \"fr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The sign 'CAMI de la LOBATERA' uses Catalan script, indicating a location in Catalonia, Spain, not France.\",\n    \"The road is narrow, winding uphill with guardrails and stone retaining walls, typical of rural mountainous areas in the Pyrenees.\",\n    \"Vehicles are parked on the left side of the road, consistent with right-hand traffic in Spain.\",\n    \"Vegetation includes deciduous trees with autumn foliage"
+}

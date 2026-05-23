@@ -1,0 +1,11 @@
+{
+  "country": "Ireland",
+  "country_code": "ie",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unmarked rural road with a central grass strip is typical of Irish country lanes, especially in less populated areas.",
+    "The lush green vegetation and rolling hills are characteristic of Ireland’s temperate maritime climate and landscape.",
+    "No visible road signs, utility poles, or vehicles suggest a remote, low-traffic area common in rural Ireland."
+  ],
+  "raw_output": "{\n  \"country\": \"Ireland\",\n  \"country_code\": \"ie\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unmarked rural road with a central grass strip is typical of Irish country lanes, especially in less populated areas.\",\n    \"The lush green vegetation and rolling hills are characteristic of Ireland’s temperate maritime climate and landscape.\",\n    \"No visible road signs, utility poles, or vehicles suggest a remote, low-traffic area common in rural Ireland.\",\n    \"The overcast sky and diffuse lighting are consistent with Ireland’s frequent cloud cover and"
+}

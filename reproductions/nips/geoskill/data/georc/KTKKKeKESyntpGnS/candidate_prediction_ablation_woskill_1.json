@@ -1,0 +1,25 @@
+{
+  "game_id": "KTKKKeKESyntpGnS",
+  "round": 1,
+  "sample_id": "georc::KTKKKeKESyntpGnS::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ch",
+    "predicted_region": "europe",
+    "predicted_address": "Rural road near Payerne, Vaud, Switzerland",
+    "predicted_lat": 46.81666667,
+    "predicted_lng": 6.93333333,
+    "reasoning_text": "{\n  \"country\": \"Switzerland\",\n  \"country_code\": \"ch\",\n  \"region\": \"Western Europe\",\n  \"city\": \"Payerne\",\n  \"province_or_state\": \"Vaud\",\n  \"address\": \"Rural road near Payerne, Vaud, Switzerland\",\n  \"confidence\": 0.62,\n  \"reasoning\": \"The scene shows a well-maintained rural European road with right-hand traffic, white roadside delineator posts, and a separate paved cycle path lined with trees. The flat open farmland combined with distant low mountains strongly suggests the Swiss Plateau rather than more mountainous alpine valleys. The road markings and reflector-post style fit Switzerland well, and the broad agricultural plain is especially consistent with western/central Swiss farming areas such as Vaud or Fribourg. My best approximate guess is near Payerne in the canton of Vaud.\",\n  \"evidence\": [\n    \"Right-hand driving road layout\",\n    \"European-style white roadside delineator posts with black panels\",\n    \"Separate paved bicycle path running alongside the road\",\n    \"Very tidy road engineering and markings typical of Switzerland\",\n    \"Flat cultivated farmland with distant mountain views consistent with the Swiss Plateau\",\n    \"Tree-lined rural secondary road common in western Swiss agricultural regions\"\n  ]\n}",
+    "evidence_spans": [
+      "Right-hand driving road layout",
+      "European-style white roadside delineator posts with black panels",
+      "Separate paved bicycle path running alongside the road",
+      "Very tidy road engineering and markings typical of Switzerland",
+      "Flat cultivated farmland with distant mountain views consistent with the Swiss Plateau",
+      "Tree-lined rural secondary road common in western Swiss agricultural regions"
+    ],
+    "confidence": 0.62
+  },
+  "error": null
+}

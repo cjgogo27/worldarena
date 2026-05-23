@@ -1,0 +1,104 @@
+{
+  "game_id": "sFHfIZ209HMmIVTP",
+  "round": 1,
+  "sample_id": "georc::sFHfIZ209HMmIVTP::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "is",
+    "predicted_region": "europe",
+    "predicted_address": "Route 62, Patreksfjörður, Westfjords, Iceland",
+    "predicted_lat": 65.59783,
+    "predicted_lng": -23.99596,
+    "reasoning_text": "```json\n{\n  \"country\": \"Iceland\",\n  \"country_code\": \"is\",\n  \"region\": \"Europe\",\n  \"city\": \"Patreksfjörður\",\n  \"province_or_state\": \"Westfjords\",\n  \"address\": \"Route 62, Patreksfjörður, Westfjords, Iceland\",\n  \"confidence\": 0.88,\n  \"reasoning\": \"The yellow reflective road delineator posts (vegaslá) are strongly characteristic of Iceland, more so than the Faroe Islands or Norway which use different marker styles. The treeless subarctic landscape with grassland meadows, steep bare-rock mountains, and a coastal fjord with basaltic cliffs matches Iceland's Westfjords region perfectly. The road construction—asphalt with wide gravel shoulders and no painted center markings—is typical of rural Icelandic roads, particularly secondary routes. The dispersed low settlement visible in the distance along the fjord is consistent with small Icelandic fishing villages. The specific geometry of the fjord opening and the village layout visible ahead corresponds to approaching Patreksfjörður from the south on Route 62 (Vestfjarðarvegur), the main road serving this part of the Westfjords.\",\n  \"evidence\": [\"Yellow reflective vegaslá road delineators distinctive to Iceland\", \"Treeless subarctic grassland and bare-rock mountain terrain\", \"Wide gravel shoulders with no center road markings typical of Icelandic rural roads\", \"Coastal fjord with basaltic cliff formations\", \"Small dispersed settlement along fjord shore characteristic of Icelandic fishing villages\", \"Overcast maritime climate lighting conditions\"]\n}\n```",
+    "evidence_spans": [
+      "Yellow reflective vegaslá road delineators distinctive to Iceland",
+      "Treeless subarctic grassland and bare-rock mountain terrain",
+      "Wide gravel shoulders with no center road markings typical of Icelandic rural roads",
+      "Coastal fjord with basaltic cliff formations",
+      "Small dispersed settlement along fjord shore characteristic of Icelandic fishing villages",
+      "Overcast maritime climate lighting conditions"
+    ],
+    "confidence": 0.88,
+    "country_top3": [
+      "is",
+      "no"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"is\",\"fo\",\"no\"],\"reason\":\"The yellow reflective road delineator posts (vegaslá) are strongly characteristic of Iceland and distinct from neighboring Nordic countries. The treeless subarctic coastal fjord landscape with basaltic cliffs, grassland meadows, and steep bare-rock mountains matches Iceland's Westfjords region. The settlement pattern and road construction style are consistent with Icelandic rural infrastructure. Faroe Islands (fo) is second due to similar subarctic fjord landscapes but different road marker styles. Norway (no) is third due to shared Nordic coastal geography but different vegetation patterns and road infrastructure standards.\"}\n```",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 1.0,
+        "pred_country": "is",
+        "geo_country": "is",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.88,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Route 62, Patreksfjörður, Westfjords, Iceland"
+      },
+      {
+        "temperature": 0.13,
+        "score": 1.0,
+        "pred_country": "is",
+        "geo_country": "is",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.88,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Þjóðvegur 62 (Route 62), Patreksfjörður, Westfjords, Iceland"
+      },
+      {
+        "temperature": 0.16,
+        "score": 1.0,
+        "pred_country": "is",
+        "geo_country": "is",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.88,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Vestfjarðarvegur (Route 60/62 junction approach), Patreksfjörður, Westfjords, Iceland"
+      }
+    ],
+    "selected_candidate_score": 1.0,
+    "base_prediction_summary": {
+      "predicted_country": "is",
+      "predicted_region": "europe",
+      "confidence": 0.85
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"Iceland\",\n  \"country_code\": \"is\",\n  \"region\": \"Europe\",\n  \"city\": \"Patreksfjörður\",\n  \"province_or_state\": \"Westfjords\",\n  \"address\": \"Route 62 approaching Patreksfjörður, Westfjords, Iceland\",\n  \"confidence\": 0.85,\n  \"reasoning\": \"The yellow reflective road delineator posts ",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "is"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

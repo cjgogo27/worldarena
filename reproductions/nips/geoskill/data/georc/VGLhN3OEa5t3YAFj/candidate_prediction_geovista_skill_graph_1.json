@@ -1,0 +1,720 @@
+{
+  "game_id": "VGLhN3OEa5t3YAFj",
+  "round": 1,
+  "sample_id": "georc::VGLhN3OEa5t3YAFj::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "cl",
+    "predicted_region": "south_america",
+    "predicted_address": "Peri-urban hillside neighborhood on the outskirts of Antofagasta, Antofagasta Region, Chile",
+    "predicted_lat": -23.65094,
+    "predicted_lng": -70.39752,
+    "reasoning_text": "{\n  \"country\": \"Chile\",\n  \"country_code\": \"cl\",\n  \"region\": \"South America\",\n  \"city\": \"Antofagasta\",\n  \"province_or_state\": \"Antofagasta Region\",\n  \"address\": \"Peri-urban hillside neighborhood on the outskirts of Antofagasta, Antofagasta Region, Chile\",\n  \"confidence\": 0.74,\n  \"reasoning\": \"Applying the ordered skills in sequence: Skill 1 suggests a tropical urban park edge, but the scene is clearly not tropical because it is extremely dry, treeless, and barren. Skill 2 suggests an Ecuadorian city, yet the hyper-arid landscape and coastal-desert urban fringe do not fit Ecuador well. Skill 3 suggests the Chihuahuan Desert, but that desert is in North America and conflicts with the South America base region; I keep only the arid-desert cue, not the named region. Skill 4 suggests an Andean hilly town, which partially matches because the terrain is hilly and western South American. Skill 5 suggests a remote southern Argentina or Chile location from minimal infrastructure, but the road is actually paved with curbs, sidewalks, and municipal lighting, so this works better as an urban fringe in Chile than a remote rural road. Skill 6 suggesting Australia/New Zealand is contradicted by the South American urban style. Skill 7 suggesting Córdoba, Argentina is contradicted by the absolute lack of vegetation and the Atacama-like desert setting. Skill 8 suggesting Belgium is incompatible with the landscape. Skill 9, a non-city-center or peripheral location, does fit well because the area appears to be on the outskirts of development. Skill 10 suggesting dense vegetation in Southeast Asia is directly contradicted by the image. Skill 11 suggests Puerto Natales-like aridness, but Puerto Natales is much farther south and does not match this stark desert hillside urban environment; the note about road lines also does not fit. Skill 12 suggests hilly Andes terrain, which remains broadly compatible. Composing the linked skills, the strongest usable combination is the Andean hilly cue from Skill 4, the Chile possibility from Skill 5, and the outskirts cue from Skill 9. Visual evidence then narrows this to northern Chile rather than southern Chile or Argentina: the completely barren hills, Atacama-style dryness, planned curbs and sidewalks, blue fenced sports court, and newer municipal streetlights strongly match a peri-urban expansion zone of Antofagasta. Therefore the best consistent location guess is the outskirts of Antofagasta in the Antofagasta Region of Chile.\",\n  \"evidence\": [\n    \"Extremely arid, treeless desert hills consistent with the Atacama Desert\",\n    \"Peri-urban paved road with concrete curbs and narrow sidewalks\",\n    \"Modern municipal streetlights indicating planned urban expansion\",\n    \"Large blue metal-mesh fenced sports court common in Chilean neighborhood developments\",\n    \"Sparse development at the city edge rather than dense urban core\",\n    \"Unfinished cinderblock structure with exposed rebar, common in western South American outskirts\",\n    \"Barren coastal-desert terrain fits northern Chile much better than Ecuador, Colombia, or Argentina\"\n  ]\n}",
+    "evidence_spans": [
+      "Extremely arid, treeless desert hills consistent with the Atacama Desert",
+      "Peri-urban paved road with concrete curbs and narrow sidewalks",
+      "Modern municipal streetlights indicating planned urban expansion",
+      "Large blue metal-mesh fenced sports court common in Chilean neighborhood developments",
+      "Sparse development at the city edge rather than dense urban core",
+      "Unfinished cinderblock structure with exposed rebar, common in western South American outskirts",
+      "Barren coastal-desert terrain fits northern Chile much better than Ecuador, Colombia, or Argentina"
+    ],
+    "confidence": 0.74,
+    "base_prediction_summary": {
+      "predicted_country": "cl",
+      "predicted_region": "south_america",
+      "confidence": 0.62
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The area looks like it could be near the edge of an urban park or preserve in a tropical city.",
+        "region_hint": "asia",
+        "confidence": 0.55,
+        "visual_cues": [
+          "area",
+          "could",
+          "like",
+          "looks"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 4,
+        "score": 0.8688400387763977,
+        "bm25_score": 31.716819763183594,
+        "semantic_score": 0.4352871775627136
+      },
+      {
+        "skill_text": "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 3,
+        "score": 0.8532499074935913,
+        "bm25_score": 30.433670043945312,
+        "semantic_score": 0.4407321810722351
+      },
+      {
+        "skill_text": "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.8328295946121216,
+        "bm25_score": 29.490806579589844,
+        "semantic_score": 0.43420886993408203
+      },
+      {
+        "skill_text": "The steep street and hilly terrain suggest an Andean town, which matches the geography of central Colombia.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "terrain"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 3,
+        "score": 0.7875872850418091,
+        "bm25_score": 23.99178695678711,
+        "semantic_score": 0.4828672409057617
+      },
+      {
+        "skill_text": "The road is unpaved and straight with minimal infrastructure, indicating a remote location typical of southern Argentina or Chile.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 5,
+        "score": 0.7774935364723206,
+        "bm25_score": 20.0294189453125,
+        "semantic_score": 0.544350266456604
+      },
+      {
+        "skill_text": "The lack of visible road shoulder and the narrow pavement further suggests rural Australia rather than New Zealand, which often has different road finishes and wider shoulders.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 5,
+        "score": 0.7720370292663574,
+        "bm25_score": 27.364748001098633,
+        "semantic_score": 0.4021868109703064
+      },
+      {
+        "skill_text": "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+        "region_hint": "south_america",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 4,
+        "score": 0.7478809356689453,
+        "bm25_score": 20.578819274902344,
+        "semantic_score": 0.49941742420196533
+      },
+      {
+        "skill_text": "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 5,
+        "score": 0.7368662357330322,
+        "bm25_score": 26.99115753173828,
+        "semantic_score": 0.3678109049797058
+      },
+      {
+        "skill_text": "The absence of visible road signs or urban infrastructure suggests a rural location rather than a city center.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 4,
+        "score": 0.7355990409851074,
+        "bm25_score": 26.555404663085938,
+        "semantic_score": 0.3743879199028015
+      },
+      {
+        "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 4,
+        "score": 0.7316368222236633,
+        "bm25_score": 17.946544647216797,
+        "semantic_score": 0.5290634632110596
+      },
+      {
+        "skill_text": "The aridness and dirt road coverage leads to the area around Puerto Natales as similar landscapes south of Puerto Natales normally has triple solid road lines on paved roads",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 5,
+        "score": 0.7278546094894409,
+        "bm25_score": 21.64961814880371,
+        "semantic_score": 0.4560890793800354
+      },
+      {
+        "skill_text": "The terrain is hilly with rich greenery, suggesting a location in the Andes region of South America.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "terrain"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 3,
+        "score": 0.7188138961791992,
+        "bm25_score": 17.101442337036133,
+        "semantic_score": 0.529650092124939
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The area looks like it could be near the edge of an urban park or preserve in a tropical city.",
+          "region_hint": "asia",
+          "confidence": 0.55,
+          "score": 0.8688400387763977,
+          "visual_cues": [
+            "area",
+            "could",
+            "like",
+            "looks"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.8532499074935913,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.8328295946121216,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The steep street and hilly terrain suggest an Andean town, which matches the geography of central Colombia.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7875872850418091,
+          "visual_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road is unpaved and straight with minimal infrastructure, indicating a remote location typical of southern Argentina or Chile.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7774935364723206,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The lack of visible road shoulder and the narrow pavement further suggests rural Australia rather than New Zealand, which often has different road finishes and wider shoulders.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7720370292663574,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+          "region_hint": "south_america",
+          "confidence": 0.75,
+          "score": 0.7478809356689453,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7368662357330322,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The absence of visible road signs or urban infrastructure suggests a rural location rather than a city center.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7355990409851074,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7316368222236633,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The aridness and dirt road coverage leads to the area around Puerto Natales as similar landscapes south of Puerto Natales normally has triple solid road lines on paved roads",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7278546094894409,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The terrain is hilly with rich greenery, suggesting a location in the Andes region of South America.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7188138961791992,
+          "visual_cues": [
+            "terrain"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The area looks like it could be near the edge of an urban park or preserve in a tropical city.",
+        "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+        "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+        "The steep street and hilly terrain suggest an Andean town, which matches the geography of central Colombia.",
+        "The road is unpaved and straight with minimal infrastructure, indicating a remote location typical of southern Argentina or Chile.",
+        "The lack of visible road shoulder and the narrow pavement further suggests rural Australia rather than New Zealand, which often has different road finishes and wider shoulders.",
+        "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+        "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+        "The absence of visible road signs or urban infrastructure suggests a rural location rather than a city center.",
+        "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "The aridness and dirt road coverage leads to the area around Puerto Natales as similar landscapes south of Puerto Natales normally has triple solid road lines on paved roads",
+        "The terrain is hilly with rich greenery, suggesting a location in the Andes region of South America."
+      ],
+      "summary": "nodes=12, edges=42, base_region=south_america, top_skill_region=south_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Chile\",\n  \"country_code\": \"cl\",\n  \"region\": \"South America\",\n  \"city\": \"Antofagasta\",\n  \"province_or_state\": \"Antofagasta Region\",\n  \"address\": \"Peri-urban hillside neighborhood on the outskirts of Antofagasta, Antofagasta Region, Chile\",\n  \"confidence\": 0.62,\n  \"reasoning\": \"The sce",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 42,
+        "graph_summary": "nodes=12, edges=42, base_region=south_america, top_skill_region=south_america"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "cl"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

@@ -1,0 +1,25 @@
+{
+  "game_id": "AVKTblAzBqaYrcKe",
+  "round": 1,
+  "sample_id": "georc::AVKTblAzBqaYrcKe::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "us",
+    "predicted_region": "north_america",
+    "predicted_address": "Residential street in Attleboro, Massachusetts, United States",
+    "predicted_lat": 41.931653,
+    "predicted_lng": -71.294503,
+    "reasoning_text": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"city\": \"Attleboro\",\n  \"province_or_state\": \"Massachusetts\",\n  \"address\": \"Residential street in Attleboro, Massachusetts, United States\",\n  \"confidence\": 0.62,\n  \"reasoning\": \"The scene shows right-hand driving with a double yellow centerline and white edge lines, which strongly fits the United States. The detached wood-frame houses with clapboard siding, front porches, lawns, overhead utility lines, and dense deciduous trees suggest a northeastern suburban/small-town environment. The road width, sidewalk style, and overall residential layout look especially typical of southern New England. Based on the architecture and vegetation, Massachusetts is the most likely state, and Attleboro is a plausible locality matching this kind of residential streetscape.\",\n  \"evidence\": [\n    \"Double yellow centerline and white edge lines typical of US roads\",\n    \"Right-hand driving road layout\",\n    \"Yellow fire hydrant and suburban utility infrastructure common in the United States\",\n    \"Wood-frame clapboard houses with New England-style appearance\",\n    \"Dense deciduous vegetation indicating a temperate northeastern climate\",\n    \"Residential streetscape consistent with southern New England suburbs\"\n  ]\n}",
+    "evidence_spans": [
+      "Double yellow centerline and white edge lines typical of US roads",
+      "Right-hand driving road layout",
+      "Yellow fire hydrant and suburban utility infrastructure common in the United States",
+      "Wood-frame clapboard houses with New England-style appearance",
+      "Dense deciduous vegetation indicating a temperate northeastern climate",
+      "Residential streetscape consistent with southern New England suburbs"
+    ],
+    "confidence": 0.62
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a solid yellow centerline and white edge lines, consistent with Brazilian highway standards for two-lane rural roads.",
+    "White reflective posts (catenárias) line both sides of the road, commonly used in Brazil to mark road edges in low-visibility areas.",
+    "The landscape shows open grasslands with scattered trees and a distant pine plantation, typical of southern Brazil’s rural regions like Rio Grande do Sul."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a solid yellow centerline and white edge lines, consistent with Brazilian highway standards for two-lane rural roads.\",\n    \"White reflective posts (catenárias) line both sides of the road, commonly used in Brazil to mark road edges in low-visibility areas.\",\n    \"The landscape shows open grasslands with scattered trees and a distant pine plantation, typical of southern Brazil’s rural regions like Rio Grande do Sul.\",\n    \"No visible"
+}

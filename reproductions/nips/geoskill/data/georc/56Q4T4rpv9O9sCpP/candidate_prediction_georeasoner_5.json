@@ -1,0 +1,11 @@
+{
+  "country": "Botswana",
+  "country_code": "bw",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a solid yellow line on the left and dashed white center line, consistent with right-hand traffic systems used in Botswana.",
+    "Sparse acacia-like trees and dry grassland vegetation are characteristic of the Kalahari Desert region in Botswana.",
+    "Absence of urban infrastructure, signage, or buildings indicates a remote rural area typical of Botswana’s interior highways."
+  ],
+  "raw_output": "{\n  \"country\": \"Botswana\",\n  \"country_code\": \"bw\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a solid yellow line on the left and dashed white center line, consistent with right-hand traffic systems used in Botswana.\",\n    \"Sparse acacia-like trees and dry grassland vegetation are characteristic of the Kalahari Desert region in Botswana.\",\n    \"Absence of urban infrastructure, signage, or buildings indicates a remote rural area typical of Botswana’s interior highways.\",\n    \"Overhead power lines and utility poles follow a linear pattern"
+}

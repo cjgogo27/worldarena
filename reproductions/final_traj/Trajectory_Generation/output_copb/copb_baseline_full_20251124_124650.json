@@ -1,0 +1,2127 @@
+[
+  {
+    "user_id": "30232307_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "19:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30232307_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Male\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 14.84 miles\n- Work State: California\n- Driver on Travel Day: No\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Sales or service\n- Primary Activity: Working",
+      "anchors": "1. You wake up around 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You commute 14.84 miles to work.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "08:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "19:00",
+          "reasoning": "Return home and unwind after work"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "19:00",
+          "end_time": "24:00",
+          "reasoning": "End the day with rest"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30232307_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30232307_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Female\n- Race: White\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 4.51 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Sales or service\n- Primary Activity: Working",
+      "anchors": "1. You start your workday at 9 AM.  \n2. Your working hours typically end at 5 PM.  \n3. You unwind in the evening and go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours according to profile"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home to unwind after work"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30509411_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "18:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "18:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30509411_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Female\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 3.34 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You commute approximately 3 miles to work and return home afterwards.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "08:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "09:00",
+          "reasoning": "Commute to work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "18:00",
+          "reasoning": "Commute back home"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "18:00",
+          "end_time": "24:00",
+          "reasoning": "Rest and prepare for the next day"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30509411_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "16:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "16:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30509411_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Male\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 16.06 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Manufacturing, construction, maintenance, or farming\n- Primary Activity: Working",
+      "anchors": "1. You wake up around 6 AM to prepare for work.  \n2. Your working hours are from 8 AM to 4 PM in a manufacturing setting.  \n3. You go to bed around 10 PM to ensure a good night's rest.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "08:00",
+          "reasoning": "Need rest before starting the day"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "reasoning": "Regular full-time work hours in a manufacturing setting"
+        },
+        {
+          "intention": "go home",
+          "start_time": "16:00",
+          "end_time": "24:00",
+          "reasoning": "Return home to relax and prepare for the next day"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40232114_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "23:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40232114_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Female\n- Race: White\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 2.53 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours as a professional in California"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "23:00",
+          "reasoning": "Spend time at home after work"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "Wind down and rest for the next day"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40232114_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "10:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "10:00",
+        "end_time": "15:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "15:00",
+        "end_time": "19:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:00",
+        "end_time": "23:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40232114_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Male\n- Race: White\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 15.71 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Part-time\n- Occupation: Sales or service\n- Primary Activity: Working",
+      "anchors": "1. You wake up around 8 AM.  \n2. Your part-time work schedule varies, often including shifts starting mid-morning or early afternoon.  \n3. You typically go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "10:00",
+          "reasoning": "Need rest before the day starts"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "10:00",
+          "end_time": "15:00",
+          "reasoning": "Part-time work shift as a sales or service employee"
+        },
+        {
+          "intention": "go home",
+          "start_time": "15:00",
+          "end_time": "19:00",
+          "reasoning": "Return home after work to unwind and rest"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "19:00",
+          "end_time": "23:00",
+          "reasoning": "Relax and enjoy some personal time after work"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "Need rest to maintain a healthy sleep schedule"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40486809_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "13:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "13:00",
+        "end_time": "23:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40486809_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Female\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 1.56 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Part-time\n- Occupation: Clerical or administrative support\n- Primary Activity: Retired",
+      "anchors": "1. You wake up around 8 AM.\n2. You work part-time hours in clerical or administrative support.\n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Maintain regular sleep schedule by waking up around 8 AM."
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "13:00",
+          "reasoning": "Work part-time in clerical or administrative support."
+        },
+        {
+          "intention": "go home",
+          "start_time": "13:00",
+          "end_time": "23:00",
+          "reasoning": "Return home for personal activities and leisure after work."
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "Go to bed around 11 PM to maintain a consistent sleep schedule."
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40486809_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "06:00",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "16:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "16:00",
+        "end_time": "22:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "22:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40486809_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Male\n- Race: American Indian or Alaska Native\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 26.53 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Manufacturing, construction, maintenance, or farming\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 6 AM.  \n2. Your working hours are from 8 AM to 4 PM.  \n3. You commute 26.53 miles to work each day.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:00",
+          "reasoning": "Need rest before starting the day"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "06:00",
+          "end_time": "08:00",
+          "reasoning": "Commute to work, which is 26.53 miles away"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "reasoning": "Regular full-time work hours in manufacturing, construction, maintenance, or farming"
+        },
+        {
+          "intention": "go home",
+          "start_time": "16:00",
+          "end_time": "22:00",
+          "reasoning": "Commute back home after work"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "22:00",
+          "end_time": "24:00",
+          "reasoning": "Prepare for the next workday with adequate rest"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40500779_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "06:30",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "22:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "22:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40500779_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Male\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 24.96 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 6:30 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You commute approximately 25 miles to work.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Sleep to recharge for the next workday"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "06:30",
+          "end_time": "17:00",
+          "reasoning": "Includes commuting and full-time work hours"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "22:00",
+          "reasoning": "Return home for rest and personal time"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "22:00",
+          "end_time": "24:00",
+          "reasoning": "Wind down and sleep for the next day"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40500779_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "service",
+        "start_time": "06:30",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "19:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40500779_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Female\n- Race: Asian\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 24.54 miles\n- Work State: California\n- Driver on Travel Day: No\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 6:30 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You commute 24.54 miles to work in California.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Need rest before waking up to start the day"
+        },
+        {
+          "intention": "handle the trivialities of life",
+          "start_time": "06:30",
+          "end_time": "09:00",
+          "reasoning": "Prepare for the day and commute to work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours as a professional in California"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "19:00",
+          "reasoning": "Commuting back home after work"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "19:00",
+          "end_time": "24:00",
+          "reasoning": "Early rest in preparation for the next working day"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30061599_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30061599_1\n- Age Range: Appropriate skip\n- Hispanic: Yes, Hispanic or Latino\n- Relationship: Self\n- Gender: Female\n- Race: Multiple responses selected\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 4.08 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Clerical or administrative support\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home and rest"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30061599_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "16:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "16:00",
+        "end_time": "22:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "22:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30061599_2\n- Age Range: Appropriate skip\n- Hispanic: Yes, Hispanic or Latino\n- Relationship: Parent\n- Gender: Female\n- Race: White\n- Education: Less than a high school graduate\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 3.59 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Manufacturing, construction, maintenance, or farming\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 6:30 AM.  \n2. Your working hours are from 8 AM to 4 PM.  \n3. You go to bed around 10 PM.",
+      "intentions": [
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "reasoning": "Regular full-time work hours in manufacturing, construction, maintenance, or farming"
+        },
+        {
+          "intention": "go home",
+          "start_time": "16:00",
+          "end_time": "22:00",
+          "reasoning": "Return home after work to rest and complete daily personal tasks"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "22:00",
+          "end_time": "24:00",
+          "reasoning": "Regular sleep schedule to wake up early for next workday"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40180215_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "23:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40180215_1\n- Age Range: Appropriate skip\n- Hispanic: Yes, Hispanic or Latino\n- Relationship: Self\n- Gender: Male\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 2.40 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before starting the day"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours as a professional, managerial, or technical employee"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "23:00",
+          "reasoning": "Return home to relax after work"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "Go to sleep to ensure sufficient rest for the next day"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40180215_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40180215_2\n- Age Range: Appropriate skip\n- Hispanic: Yes, Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Female\n- Race: White\n- Education: High school graduate or GED\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 5.49 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home and spend the rest of the evening resting or handling trivialities"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40558140_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40558140_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Male\n- Race: Asian\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 15.40 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before work."
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours for a professional, managerial, or technical occupation."
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home after work to relax and prepare for the next day."
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40558140_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "23:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40558140_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Female\n- Race: Asian\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 5.93 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "23:00",
+          "reasoning": "Return home and unwind after work"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "End the day and prepare for the next"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30201218_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "23:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30201218_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Male\n- Race: White\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 10.44 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 6:30 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before the day begins"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours as per schedule"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "23:00",
+          "reasoning": "Return home after work and unwind"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "Prepare for the next day by getting a good night's sleep"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30201218_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "23:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30201218_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Female\n- Race: White\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 19.67 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up around 6:30 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before starting the day; sleep until the usual wake-up time"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours as a professional, managerial, or technical employee"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "23:00",
+          "reasoning": "Return home after work to relax and unwind"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "Prepare for sleep to ensure enough rest for the next day"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30366725_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "07:00",
+        "end_time": "13:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "13:00",
+        "end_time": "18:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "18:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30366725_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Female\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 3.86 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Part-time\n- Occupation: Sales or service\n- Primary Activity: Working",
+      "anchors": "1. You work part-time in sales or service, typically in the afternoons.\n2. You drive 3.86 miles to work in California.\n3. You spend your free mornings or evenings at home.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "07:00",
+          "reasoning": "Need rest before the day starts"
+        },
+        {
+          "intention": "go home",
+          "start_time": "07:00",
+          "end_time": "13:00",
+          "reasoning": "Spend the free morning at home before part-time work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "13:00",
+          "end_time": "18:00",
+          "reasoning": "Part-time work in sales or service typically scheduled in the afternoons"
+        },
+        {
+          "intention": "go home",
+          "start_time": "18:00",
+          "end_time": "24:00",
+          "reasoning": "Return home to relax and spend the evening at home"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30366725_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "06:30",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30366725_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Male\n- Race: White\n- Education: High school graduate or GED\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 26.02 miles\n- Work State: California\n- Driver on Travel Day: No\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Sales or service\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 6:30 AM to get ready for your workday.  \n2. Your working hours are from 9 AM to 5 PM in sales or service.  \n3. You commute approximately 26 miles to and from work in California.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Need rest before starting the day"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "06:30",
+          "end_time": "17:00",
+          "reasoning": "Commute to work and complete full-time work hours in sales or service"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home after work and unwind for the evening"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40458112_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "23:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40458112_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Female\n- Race: White\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 7.43 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up around 6:30 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest to start the day refreshed"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours in a professional, managerial, or technical capacity"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "23:00",
+          "reasoning": "Returning home after work to relax and unwind"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "Prepare for the next day with adequate sleep"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40458112_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40458112_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Male\n- Race: White\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 2.69 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You drive to work, as it's only 2.69 miles away.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home to rest and relax after work"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40501274_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "11:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "11:00",
+        "end_time": "15:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "15:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40501274_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Female\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 5.49 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Part-time\n- Occupation: Clerical or administrative support\n- Primary Activity: Working",
+      "anchors": "1. You start your part-time work in the late morning.  \n2. You drive 5.49 miles to your workplace in California.  \n3. You enjoy flexible afternoons due to your part-time schedule.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "11:00",
+          "reasoning": "Allow for sufficient rest before starting the day's activities, including part-time work."
+        },
+        {
+          "intention": "go to work",
+          "start_time": "11:00",
+          "end_time": "15:00",
+          "reasoning": "Scheduled part-time work in clerical or administrative support, which begins in the late morning."
+        },
+        {
+          "intention": "go home",
+          "start_time": "15:00",
+          "end_time": "24:00",
+          "reasoning": "After completing part-time work, return home to enjoy flexible afternoons."
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40501274_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40501274_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Male\n- Race: White\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 2.44 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours in a professional, managerial, or technical occupation"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home and rest after the workday"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40501274_3",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "23:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40501274_3\n- Age Range: Appropriate skip\n- Hispanic: Yes, Hispanic or Latino\n- Relationship: Child\n- Gender: Female\n- Race: Black or African American\n- Education: High school graduate or GED\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 6.61 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "23:00",
+          "reasoning": "Return home and engage in leisure activities or rest"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "Go to bed to prepare for the next day of work"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30276739_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30276739_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Male\n- Race: White\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 15.94 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 6:30 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before the day begins"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours as a professional in California"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home and rest after work"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30276739_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30276739_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Female\n- Race: White\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 5.34 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home and unwind after the workday"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40599871_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "13:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "13:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40599871_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Female\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 13.03 miles\n- Work State: California\n- Driver on Travel Day: No\n- Work From Home: No\n- Work Schedule: Part-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Retired",
+      "anchors": "1. You wake up around 8 AM.  \n2. You work part-time with flexible hours.  \n3. You often spend time at home when not working.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before the day begins according to usual wake-up time."
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "13:00",
+          "reasoning": "Part-time work hours scheduled for a Professional, managerial, or technical role."
+        },
+        {
+          "intention": "go home",
+          "start_time": "13:00",
+          "end_time": "24:00",
+          "reasoning": "Spend time at home engaging in primary activity of retirement and part-time work."
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40599871_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "13:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "13:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40599871_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Male\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 13.03 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Part-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Retired",
+      "anchors": "1. You wake up around 8 AM.  \n2. You work part-time hours during the day.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Following regular sleep pattern to start the day rested."
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "13:00",
+          "reasoning": "Work part-time hours as per the employment status and occupation."
+        },
+        {
+          "intention": "go home",
+          "start_time": "13:00",
+          "end_time": "24:00",
+          "reasoning": "Return home after work and spend the rest of the day at home, as per typical routine."
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30326941_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "16:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "16:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30326941_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Female\n- Race: White\n- Education: High school graduate or GED\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 5.20 miles\n- Work State: California\n- Driver on Travel Day: No\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Manufacturing, construction, maintenance, or farming\n- Primary Activity: Working",
+      "anchors": "1. You wake up around 6:30 AM.  \n2. Your working hours are typically from 8 AM to 4 PM.  \n3. You unwind in the evening and go to bed around 10 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "08:00",
+          "reasoning": "Need rest before starting the day"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "reasoning": "Regular full-time work hours in manufacturing, construction, maintenance, or farming"
+        },
+        {
+          "intention": "go home",
+          "start_time": "16:00",
+          "end_time": "24:00",
+          "reasoning": "Return home, unwind for the evening, and prepare for the next day"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30326941_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "16:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "16:00",
+        "end_time": "22:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30326941_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Female\n- Race: White\n- Education: High school graduate or GED\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 5.20 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Manufacturing, construction, maintenance, or farming\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 6:30 AM.  \n2. Your working hours are from 8 AM to 4 PM.  \n3. You go to bed around 10:30 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "08:00",
+          "reasoning": "Need rest for the next day"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "16:00",
+          "reasoning": "Working full-time hours as per schedule"
+        },
+        {
+          "intention": "go home",
+          "start_time": "16:00",
+          "end_time": "22:30",
+          "reasoning": "Spend time at home after work"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "22:30",
+          "end_time": "24:00",
+          "reasoning": "Rest for the next day"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30409204_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "23:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30409204_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Male\n- Race: Asian\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 12.84 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up around 6:30 AM.\n2. Your working hours are from 9 AM to 5 PM.\n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Consistent with daily sleep schedule to wake up at 6:30 AM"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours as per profile"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "23:00",
+          "reasoning": "Return home after work to rest and relax"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "End of day, preparing for rest consistent with bedtime routine"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30409204_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 30409204_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Female\n- Race: Asian\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 5.03 miles\n- Work State: California\n- Driver on Travel Day: No\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 6:30 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before starting the day"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home and rest"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40225261_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "22:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40225261_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Male\n- Race: White\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 17.25 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up around 6:30 AM for your workday.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need to rest and recharge for the workday"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours at my job"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "22:30",
+          "reasoning": "Return home to relax and engage in evening activities"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "22:30",
+          "end_time": "24:00",
+          "reasoning": "Prepare for the next day's activities with a good night’s sleep"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40225261_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "18:30"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "18:30",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40225261_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Female\n- Race: White\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 29.89 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up around 6:30 AM to prepare for your day.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You commute 29.89 miles to work, typically returning home around 6:30 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before starting the day"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work schedule as a professional"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "18:30",
+          "reasoning": "Commute back home after work"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "18:30",
+          "end_time": "24:00",
+          "reasoning": "Relax and unwind after work hours"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40560229_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40560229_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Male\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 0.00 miles\n- Work State: California\n- Driver on Travel Day: No\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Sales or service\n- Primary Activity: Working",
+      "anchors": "1. You have flexible work hours typical of a sales or service role.  \n2. You commute to nearby locations but start your workday from home since you have no travel distance.  \n3. You likely participate in occasional in-person work-related activities within California.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "08:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours in a sales or service role"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home and rest after work"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40560229_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "13:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "13:30",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40560229_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Female\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 4.61 miles\n- Work State: California\n- Driver on Travel Day: No\n- Work From Home: No\n- Work Schedule: Part-time\n- Occupation: Sales or service\n- Primary Activity: Working",
+      "anchors": "1. You work part-time in sales or service.  \n2. Your commute to work is 4.61 miles.  \n3. You spend your free time at home or doing personal activities.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before starting the day"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "13:30",
+          "reasoning": "Part-time work schedule in sales or service"
+        },
+        {
+          "intention": "go home",
+          "start_time": "13:30",
+          "end_time": "24:00",
+          "reasoning": "Return home after work and spend remaining day at home"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40593280_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40593280_1\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Self\n- Gender: Female\n- Race: White\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 0.63 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 7 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before work to start the day refreshed."
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work schedule as a professional."
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home after work, relax, and prepare for the next day."
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40593280_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "23:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40593280_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Spouse/Unmarried partner\n- Gender: Male\n- Race: White\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 0.63 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Professional, managerial, or technical\n- Primary Activity: Working",
+      "anchors": "1. You wake up around 7:30 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before starting the day"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours as a professional"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "23:00",
+          "reasoning": "Return home and have personal time"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "End the day with a good night's rest"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40636614_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40636614_1\n- Age Range: Appropriate skip\n- Hispanic: Yes, Hispanic or Latino\n- Relationship: Self\n- Gender: Female\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 11.19 miles\n- Work State: California\n- Driver on Travel Day: Yes\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Clerical or administrative support\n- Primary Activity: Working",
+      "anchors": "1. You wake up around 7 AM.\n2. Your working hours are from 9 AM to 5 PM.\n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours as an employed individual"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "24:00",
+          "reasoning": "Return home to relax and unwind after a workday"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40636614_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "23:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your complete profile is as follows:\n\nUser Information (California NHTS 2017 Data - Complete Profile):\n- User ID: 40636614_2\n- Age Range: Appropriate skip\n- Hispanic: No, Not Hispanic or Latino\n- Relationship: Non-relative\n- Gender: Female\n- Race: White\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Traveled Abroad: No\n- Distance to Work: 5.93 miles\n- Work State: California\n- Driver on Travel Day: No\n- Work From Home: No\n- Work Schedule: Full-time\n- Occupation: Clerical or administrative support\n- Primary Activity: Working",
+      "anchors": "1. You wake up at 6:30 AM.  \n2. Your working hours are from 9 AM to 5 PM.  \n3. You go to bed around 11 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "09:00",
+          "reasoning": "Need rest before starting the day and work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular full-time work hours as a clerical or administrative support employee"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "23:00",
+          "reasoning": "Return home from work and unwind after the day"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "Go to bed to rest and recharge for the next day"
+        }
+      ],
+      "day": "Monday"
+    }
+  }
+]

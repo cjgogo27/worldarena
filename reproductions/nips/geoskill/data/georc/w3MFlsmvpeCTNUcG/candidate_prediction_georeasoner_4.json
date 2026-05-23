@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of orange triangular flags strung across the road is typical of rural Indian villages during festivals or local events.",
+    "The vehicle on the right side of the road is a three-wheeled auto-rickshaw, commonly used in India for short-distance transport.",
+    "The architecture features simple plastered walls with tiled roofs, consistent with rural housing styles in northern or central India."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of orange triangular flags strung across the road is typical of rural Indian villages during festivals or local events.\",\n    \"The vehicle on the right side of the road is a three-wheeled auto-rickshaw, commonly used in India for short-distance transport.\",\n    \"The architecture features simple plastered walls with tiled roofs, consistent with rural housing styles in northern or central India.\",\n    \"Utility poles and overhead wires are standard infrastructure in Indian"
+}

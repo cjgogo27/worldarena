@@ -1,0 +1,828 @@
+{
+  "game_id": "GbfNQanBbRoPIoek",
+  "round": 1,
+  "sample_id": "georc::GbfNQanBbRoPIoek::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "th",
+    "predicted_region": "asia",
+    "predicted_lat": 13.7563,
+    "predicted_lng": 100.5018,
+    "reasoning_text": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"lat\": 13.7563,\n  \"lng\": 100.5018,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to Thailand. The combination of the specific concrete drainage ditches (often called 'klong' or side drains in Thai residential areas), the style of the white boundary walls, and the dense tropical vegetation including papaya trees is characteristic of Thai suburban or rural residential lanes. The reddish-brown metal fence on the left is a common style for residential gates in Thailand. The overall atmosphere and infrastructure match typical Thai neighborhoods.\",\n  \"evidence\": [\n    \"Concrete drainage ditches running along both sides of the road\",\n    \"Dense tropical vegetation including papaya trees\",\n    \"White boundary walls typical of Thai residential properties\",\n    \"Reddish-brown metal fence/gate style common in Thailand\",\n    \"Narrow paved alleyway typical of Thai residential areas\"\n  ]\n}",
+    "evidence_spans": [
+      "Concrete drainage ditches running along both sides of the road",
+      "Dense tropical vegetation including papaya trees",
+      "White boundary walls typical of Thai residential properties",
+      "Reddish-brown metal fence/gate style common in Thailand",
+      "Narrow paved alleyway typical of Thai residential areas"
+    ],
+    "confidence": 0.85,
+    "geovista_observation": {
+      "observations": [
+        "Narrow, paved residential alleyway or lane.",
+        "Dense tropical/subtropical vegetation, including large-leafed trees and flowering vines.",
+        "Papaya tree visible on the left side.",
+        "White flowering vines (possibly Jasmine or similar) on the left fence.",
+        "Concrete drainage ditches running along both sides of the road.",
+        "White painted walls/fences on the right side.",
+        "Reddish-brown metal fence/gate on the left side.",
+        "Overcast sky, diffuse lighting.",
+        "No visible traffic or pedestrians.",
+        "Road surface appears to be concrete or asphalt, slightly worn.",
+        "Utility poles or wires not clearly visible, but implied by the residential setting.",
+        "General atmosphere suggests a quiet, possibly rural or semi-rural residential area.",
+        "No clear road markings or signs visible.",
+        "Vegetation appears lush and well-established, indicating a warm climate with adequate rainfall.",
+        "The architecture of the fences and walls is simple and functional.",
+        "A blue barrel is visible on the left side further down the road.",
+        "A white bench or structure is visible on the right side further down the road.",
+        "The road curves slightly to the right in the distance."
+      ],
+      "hard_clues": [
+        "Papaya tree (indicates tropical/subtropical climate)",
+        "Concrete drainage ditches (common in Southeast Asia, South Asia, parts of Latin America)",
+        "White flowering vines (common in warm climates)",
+        "Lush, dense greenery (indicates warm, humid climate)",
+        "Simple concrete/metal fencing (common in developing countries)",
+        "Narrow residential lane (common in older or less developed urban/rural areas)"
+      ],
+      "ambiguous_clues": [
+        "Specific type of white flowering vine (could be Jasmine, Gardenia, etc.)",
+        "Exact type of tree on the right (could be various tropical species)",
+        "Material of the road surface (concrete or asphalt)",
+        "Specific architectural style of the fences (could be found in many tropical regions)",
+        "Presence of a blue barrel (common item, not location-specific)",
+        "Presence of a white bench (common item, not location-specific)"
+      ],
+      "possible_scripts": [
+        "Thai",
+        "Vietnamese",
+        "Indonesian",
+        "Malay",
+        "Filipino",
+        "Hindi",
+        "Bengali",
+        "Spanish (Latin America)",
+        "Portuguese (Brazil)"
+      ],
+      "driving_side": "unknown"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Thailand",
+        "Vietnam",
+        "Cambodia",
+        "Laos",
+        "Malaysia"
+      ],
+      "zoom_boxes": [
+        [
+          300,
+          450,
+          450,
+          650
+        ],
+        [
+          550,
+          450,
+          700,
+          650
+        ]
+      ],
+      "verification_queries": [
+        "Identify the specific type of white flowering vine on the left fence.",
+        "Determine the material and style of the reddish-brown metal fence on the left.",
+        "Analyze the construction style of the concrete drainage ditches.",
+        "Check for any faint text or symbols on the blue barrel in the distance.",
+        "Examine the white structure on the right for any identifying features."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "th",
+      "predicted_region": "asia",
+      "predicted_lat": 13.7563,
+      "predicted_lng": 100.5018,
+      "confidence": 0.85
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "th",
+      "predicted_region": "asia",
+      "predicted_lat": 13.7563,
+      "predicted_lng": 100.5018,
+      "confidence": 0.85
+    },
+    "base_prediction_summary": {
+      "predicted_country": "th",
+      "predicted_region": "asia",
+      "predicted_lat": 13.7563,
+      "predicted_lng": 100.5018,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.85,
+    "skill_boost_aggressive_confidence": 0.85,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7989279448986054,
+          "visual_cues": [
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7733242303133011,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7373396247625351,
+          "visual_cues": [
+            "architecture",
+            "roof",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "Vegetation along the path is dense and scrubby, with small trees and shrubs common in Indian and Southeast Asian rural landscapes.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7026693582534791,
+          "visual_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6967428147792817,
+          "visual_cues": [
+            "driving",
+            "road",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The presence of lush, tropical vegetation including palms and dense undergrowth matches what is found in subtropical climates, particularly in South and Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6740226566791535,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6576749056577683,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6475079655647278,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "Dense tropical vegetation including coconut, palm and broadleaf trees indicates a humid climate typical of South or Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6336583077907563,
+          "visual_cues": [
+            "climate",
+            "road",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The surrounding hilly landscape, with steep roadside cuts and dense forest, suggests a location away from the coast and near the mountains typical of northern Vietnam.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6335436403751373,
+          "visual_cues": [
+            "coast",
+            "mountains",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.4962088763713837,
+          "visual_cues": [
+            "bollard",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "Considering the size of the road and the infrastructure, it suggests proximity to a major city; this is likely near Bangkok, Thailand.",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.4564558982849121,
+          "visual_cues": [
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+        "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+        "Vegetation along the path is dense and scrubby, with small trees and shrubs common in Indian and Southeast Asian rural landscapes.",
+        "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "The presence of lush, tropical vegetation including palms and dense undergrowth matches what is found in subtropical climates, particularly in South and Southeast Asia.",
+        "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+        "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+        "Dense tropical vegetation including coconut, palm and broadleaf trees indicates a humid climate typical of South or Southeast Asia.",
+        "The surrounding hilly landscape, with steep roadside cuts and dense forest, suggests a location away from the coast and near the mountains typical of northern Vietnam.",
+        "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+        "Considering the size of the road and the infrastructure, it suggests proximity to a major city; this is likely near Bangkok, Thailand."
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

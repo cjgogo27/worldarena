@@ -1,0 +1,11 @@
+{
+  "country": "Italy",
+  "country_code": "it",
+  "city": "",
+  "reasoning_chain": [
+    "The Alfa Romeo car on the right is a strong indicator of Italy, as it is a major Italian manufacturer and commonly seen there.",
+    "The architecture of the buildings, with their balconies and color palette, is typical of Italian residential areas.",
+    "The street layout and the presence of a white van and other vehicles suggest a European setting, consistent with Italy."
+  ],
+  "raw_output": "{\n  \"country\": \"Italy\",\n  \"country_code\": \"it\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The Alfa Romeo car on the right is a strong indicator of Italy, as it is a major Italian manufacturer and commonly seen there.\",\n    \"The architecture of the buildings, with their balconies and color palette, is typical of Italian residential areas.\",\n    \"The street layout and the presence of a white van and other vehicles suggest a European setting, consistent with Italy.\",\n    \"The overcast sky and the type of vegetation, including olive trees, are"
+}

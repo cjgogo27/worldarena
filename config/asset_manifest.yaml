@@ -1,0 +1,21 @@
+# Asset manifest for backbone models
+# Paths are relative to project root /data/alice/cjtest
+
+models:
+  # Qwen3.5-9B vision-language model (priority)
+  qwen3.5-9b:
+    path: styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/models/Qwen3.5-9B
+    type: vl_model
+    feature_dim: 4096
+    
+  # BAGEL-7B-MoT multimodal model
+  bagel-7b-mot:
+    path: styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/models/BAGEL-7B-MoT
+    type: vl_model
+    feature_dim: 3584
+   
+  # CLIP ViT-Large for image features
+  clip-vit-large-patch14:
+    path: styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/models/clip-vit-large-patch14
+    type: vision_model
+    feature_dim: 768

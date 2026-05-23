@@ -1,0 +1,968 @@
+{
+  "game_id": "6ypQOh9cOoE7WaWH",
+  "round": 1,
+  "sample_id": "georc::6ypQOh9cOoE7WaWH::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "hr",
+    "predicted_region": "europe",
+    "predicted_lat": 43.5081,
+    "predicted_lng": 16.4402,
+    "reasoning_text": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"region\": \"Europe\",\n  \"lat\": 43.5081,\n  \"lng\": 16.4402,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The visual evidence strongly supports the baseline prediction of Croatia, specifically the Dalmatian hinterland. Key indicators include: (1) The white stucco house with a red-tiled roof is classic Dalmatian architecture. (2) The terrain is karstic—limestone hills with scrubby, drought-resistant vegetation typical of the Mediterranean coast and hinterland. (3) The narrow asphalt road with a concrete curb on the left and no shoulder markings matches rural Croatian backroads. (4) The vegetation includes olive-like trees and dense green shrubs consistent with Mediterranean climate zones. (5) The road surface appears light-colored and slightly worn, common in southern Europe’s former Yugoslav regions. (6) No German, Scandinavian, or Eastern Bloc features (e.g., specific reflectors, bus shelters, or patchwork repairs) are visible to contradict this. The combination of architecture, terrain, vegetation, and road design overwhelmingly points to rural Croatia.\",\n  \"evidence\": [\n    \"White stucco house with red-tiled roof (classic Dalmatian architecture)\",\n    \"Karst terrain with limestone hills and scrubby Mediterranean vegetation\",\n    \"Narrow asphalt road with concrete curb on left, no shoulder markings\",\n    \"Light-colored, slightly worn road surface typical of southern Europe\",\n    \"Dense green shrubs and olive-like trees indicating Mediterranean climate\",\n    \"Absence of German/Scandinavian/Eastern Bloc road features (reflectors, bus stops, patchwork)\"\n  ]\n}",
+    "evidence_spans": [
+      "White stucco house with red-tiled roof (classic Dalmatian architecture)",
+      "Karst terrain with limestone hills and scrubby Mediterranean vegetation",
+      "Narrow asphalt road with concrete curb on left, no shoulder markings",
+      "Light-colored, slightly worn road surface typical of southern Europe",
+      "Dense green shrubs and olive-like trees indicating Mediterranean climate",
+      "Absence of German/Scandinavian/Eastern Bloc road features (reflectors, bus stops, patchwork)"
+    ],
+    "confidence": 0.92,
+    "retrieved_skills": [
+      {
+        "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 5,
+        "score": 0.6800321638584137,
+        "bm25_score": 30.300119400024414,
+        "semantic_score": 0.44980865716934204
+      },
+      {
+        "skill_text": "The architecture of the whitewashed stone house with light-colored trim and wrought iron railings is characteristic of Mediterranean regions, particularly southern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 2,
+        "score": 0.6955492585897446,
+        "bm25_score": 38.23455810546875,
+        "semantic_score": 0.4331647753715515
+      },
+      {
+        "skill_text": "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building",
+          "fence"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 4,
+        "score": 0.69479758143425,
+        "bm25_score": 34.23516845703125,
+        "semantic_score": 0.408835232257843
+      },
+      {
+        "skill_text": "The lone house has simple rectangular architecture with a red-tiled roof, a design frequently seen in rural Croatia, Bosnia and Herzegovina, and Montenegro.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof",
+          "sign"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 1,
+        "score": 0.7018154621124268,
+        "bm25_score": 28.877948760986328,
+        "semantic_score": 0.5037314891815186
+      },
+      {
+        "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 3,
+        "score": 0.7850599855184556,
+        "bm25_score": 41.55624771118164,
+        "semantic_score": 0.5055218935012817
+      },
+      {
+        "skill_text": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 5,
+        "score": 0.7420057117938996,
+        "bm25_score": 36.87957000732422,
+        "semantic_score": 0.4897870421409607
+      },
+      {
+        "skill_text": "The road is narrow, unmarked, and well-maintained; such rural backroads are characteristic of Scandinavia, especially outside of major urban centers.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 2,
+        "score": 0.6937301576137542,
+        "bm25_score": 34.454002380371094,
+        "semantic_score": 0.4783456027507782
+      },
+      {
+        "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 1,
+        "score": 0.7726707220077516,
+        "bm25_score": 36.6133918762207,
+        "semantic_score": 0.5821056365966797
+      },
+      {
+        "skill_text": "The bus stop shelter on the right with faded paint and a concrete structure is typical of rural Ukraine, Russia, or Belarus.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "right",
+          "shelter",
+          "stop",
+          "with"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 1,
+        "score": 0.7285371899604798,
+        "bm25_score": 38.84574890136719,
+        "semantic_score": 0.42563390731811523
+      },
+      {
+        "skill_text": "The terrain includes rolling hills and mountainous features in the background, characteristic of central or northern Norway.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "terrain"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 1,
+        "score": 0.7243178963661194,
+        "bm25_score": 38.76812744140625,
+        "semantic_score": 0.35070526599884033
+      },
+      {
+        "skill_text": "The road is narrow, and the asphalt has a patchwork of repairs, common in rural areas of former Eastern Bloc countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 3,
+        "score": 0.78533593416214,
+        "bm25_score": 47.59545135498047,
+        "semantic_score": 0.48135629296302795
+      },
+      {
+        "skill_text": "The presence of a small red reflector on the road post is more typical in Germany than in the Czech Republic.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 3,
+        "score": 0.6999929845333099,
+        "bm25_score": 44.805484771728516,
+        "semantic_score": 0.35738521814346313
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "hr",
+      "predicted_region": "europe",
+      "predicted_lat": 43.5081,
+      "predicted_lng": 16.4402,
+      "reasoning_text": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"region\": \"Europe\",\n  \"lat\": 43.5081,\n  \"lng\": 16.4402,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to the Dalmatian hinterland of Croatia. The key indicators are the specific combination of the white stucco house with a red tiled roof (classic Dalmatian architecture), the karst terrain (limestone hills with scrubby vegetation), and the narrow, winding asphalt road with a concrete curb on the left. The vegetation is typical of the Mediterranean climate zone. The road appears to be a local access road in a rural area. Based on the landscape and architectural style, this is likely in the region near Split or Sinj, possibly on a road leading towards the coast or through the Dalmatian hinterland. The specific coordinates are an educated guess based on the general appearance of such roads in this region.\",\n  \"evidence\": [\n    \"White house with red tiled roof: Strong indicator of Southern European, specifically Croatian, architecture.\",\n    \"Karst terrain with scrubby vegetation: Typical of the Dalmatian hinterland.\",\n    \"Narrow asphalt road with concrete curb: Common in rural Croatian roads.\",\n    \"Dense green deciduous trees and shrubs: Consistent with Mediterranean climate.\",\n    \"Rolling hills in the background: Characteristic of the Dalmatian landscape.\"\n  ]\n}",
+      "evidence_spans": [
+        "White house with red tiled roof: Strong indicator of Southern European, specifically Croatian, architecture.",
+        "Karst terrain with scrubby vegetation: Typical of the Dalmatian hinterland.",
+        "Narrow asphalt road with concrete curb: Common in rural Croatian roads.",
+        "Dense green deciduous trees and shrubs: Consistent with Mediterranean climate.",
+        "Rolling hills in the background: Characteristic of the Dalmatian landscape."
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "Narrow, two-lane asphalt road winding through a hilly, vegetated landscape.",
+          "Road surface is worn with visible cracks and loose gravel on the edges.",
+          "Concrete curb/gutter runs along the left side of the road.",
+          "Dense green deciduous trees and shrubs line the left embankment.",
+          "Right side features a downward slope with scrubby vegetation and scattered trees.",
+          "A single white house with a red tiled roof is visible on the right hillside.",
+          "Background shows rolling hills with sparse vegetation, typical of karst or Mediterranean terrain.",
+          "Sky is clear and blue, indicating a sunny day.",
+          "No road markings (center lines or edge lines) are visible.",
+          "No traffic signs or utility poles are visible in the immediate vicinity.",
+          "Shadows are cast to the left, suggesting the sun is to the right (East/South-East if morning, or West/South-West if afternoon)."
+        ],
+        "hard_clues": [
+          "Red tiled roof on the white house: Strong indicator of Southern European architecture (e.g., Croatia, Italy, Greece, Slovenia).",
+          "Vegetation type: Mix of dense green scrub and trees on rocky-looking hills suggests a Mediterranean climate (dry summers, wet winters).",
+          "Terrain: Hilly, likely karst topography common in the Dinaric Alps region.",
+          "Road infrastructure: Narrow, unmarked rural road with concrete curbs is typical of older European village access roads."
+        ],
+        "ambiguous_clues": [
+          "Specific country: The landscape and architecture could fit Croatia, Bosnia and Herzegovina, Montenegro, Slovenia, or parts of Italy/Greece.",
+          "Time of day: Shadows indicate sun position but without cardinal direction, exact time is unknown.",
+          "Road condition: Worn surface could imply low traffic volume or lack of recent maintenance, common in rural areas across Southern Europe."
+        ],
+        "possible_scripts": [
+          "Rural road in Dalmatia, Croatia (e.g., near Split, Makarska, or inland towards Sinj).",
+          "Road in Herzegovina, Bosnia and Herzegovina (similar terrain and architecture).",
+          "Road in Montenegro (coastal hinterland or northern mountains).",
+          "Road in Istria or Kvarner region, Croatia.",
+          "Road in Southern Italy (Calabria, Basilicata, Sicily) or Greece (Peloponnese, mainland)."
+        ],
+        "driving_side": "right"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "Croatia",
+          "Slovenia",
+          "Italy",
+          "Montenegro"
+        ],
+        "zoom_boxes": [
+          [
+            715,
+            480,
+            790,
+            550
+          ],
+          [
+            0,
+            550,
+            450,
+            1000
+          ]
+        ],
+        "verification_queries": [
+          "Identify the specific location of the white house with the red roof on the right hillside.",
+          "Analyze the vegetation and terrain on the left embankment for regional plant species.",
+          "Check for any faint road markings or signs that might be obscured by the low resolution."
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "hr",
+      "predicted_region": "europe",
+      "predicted_lat": 43.5081,
+      "predicted_lng": 16.4402,
+      "confidence": 0.92
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "hr",
+      "predicted_region": "europe",
+      "predicted_lat": 43.5081,
+      "predicted_lng": 16.4402,
+      "confidence": 0.92
+    },
+    "base_prediction_summary": {
+      "predicted_country": "hr",
+      "predicted_region": "europe",
+      "predicted_lat": 43.5081,
+      "predicted_lng": 16.4402,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.92,
+    "skill_boost_aggressive_confidence": 0.92,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road is narrow, and the asphalt has a patchwork of repairs, common in rural areas of former Eastern Bloc countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.78533593416214,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7850599855184556,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7726707220077516,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.7420057117938996,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The bus stop shelter on the right with faded paint and a concrete structure is typical of rural Ukraine, Russia, or Belarus.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7285371899604798,
+          "visual_cues": [
+            "right",
+            "shelter",
+            "stop",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The terrain includes rolling hills and mountainous features in the background, characteristic of central or northern Norway.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7243178963661194,
+          "visual_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The lone house has simple rectangular architecture with a red-tiled roof, a design frequently seen in rural Croatia, Bosnia and Herzegovina, and Montenegro.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7018154621124268,
+          "visual_cues": [
+            "architecture",
+            "roof",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The presence of a small red reflector on the road post is more typical in Germany than in the Czech Republic.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6999929845333099,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The architecture of the whitewashed stone house with light-colored trim and wrought iron railings is characteristic of Mediterranean regions, particularly southern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6955492585897446,
+          "visual_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.69479758143425,
+          "visual_cues": [
+            "architecture",
+            "building",
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road is narrow, unmarked, and well-maintained; such rural backroads are characteristic of Scandinavia, especially outside of major urban centers.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6937301576137542,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6800321638584137,
+          "visual_cues": [
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road is narrow, and the asphalt has a patchwork of repairs, common in rural areas of former Eastern Bloc countries.",
+        "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+        "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+        "The bus stop shelter on the right with faded paint and a concrete structure is typical of rural Ukraine, Russia, or Belarus.",
+        "The terrain includes rolling hills and mountainous features in the background, characteristic of central or northern Norway.",
+        "The lone house has simple rectangular architecture with a red-tiled roof, a design frequently seen in rural Croatia, Bosnia and Herzegovina, and Montenegro.",
+        "The presence of a small red reflector on the road post is more typical in Germany than in the Czech Republic.",
+        "The architecture of the whitewashed stone house with light-colored trim and wrought iron railings is characteristic of Mediterranean regions, particularly southern Europe.",
+        "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+        "The road is narrow, unmarked, and well-maintained; such rural backroads are characteristic of Scandinavia, especially outside of major urban centers.",
+        "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe."
+      ],
+      "summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

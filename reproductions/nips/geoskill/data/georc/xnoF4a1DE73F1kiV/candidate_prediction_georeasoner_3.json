@@ -1,0 +1,11 @@
+{
+  "country": "Laos",
+  "country_code": "la",
+  "city": "Vientiane",
+  "reasoning_chain": [
+    "The sign on the left displays Lao script and a phone number starting with '020', which is the area code for Vientiane, Laos.",
+    "Vehicles are driving on the left side of the road, consistent with traffic laws in Laos.",
+    "The vegetation includes tropical trees like palm trees and flowering trees, typical of the Southeast Asian climate."
+  ],
+  "raw_output": "{\n  \"country\": \"Laos\",\n  \"country_code\": \"la\",\n  \"city\": \"Vientiane\",\n  \"reasoning_chain\": [\n    \"The sign on the left displays Lao script and a phone number starting with '020', which is the area code for Vientiane, Laos.\",\n    \"Vehicles are driving on the left side of the road, consistent with traffic laws in Laos.\",\n    \"The vegetation includes tropical trees like palm trees and flowering trees, typical of the Southeast Asian climate.\",\n    \"The architecture and road infrastructure, including utility poles and"
+}

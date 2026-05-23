@@ -1,0 +1,779 @@
+{
+  "game_id": "9lNwy1vjD53PTSwt",
+  "round": 1,
+  "sample_id": "georc::9lNwy1vjD53PTSwt::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ru",
+    "predicted_region": "europe",
+    "predicted_lat": 56.842,
+    "predicted_lng": 47.915,
+    "reasoning_text": "{\n  \"country\": \"Russia\",\n  \"country_code\": \"ru\",\n  \"region\": \"Europe\",\n  \"lat\": 56.842,\n  \"lng\": 47.915,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The visual evidence strongly points to a rural village in Russia. The key indicators are the specific design of the bus stop shelter (a simple wooden structure with a roof, typical of the 'avtobusnaya ostanovka' found throughout Russia), the style of the utility poles (wooden, with cross-arms), and the architecture of the houses (single-story, modest, with pitched roofs). The vegetation and terrain are consistent with the temperate climate of European Russia. The lack of any other specific identifying features makes it difficult to pinpoint the exact village, but the overall aesthetic is unmistakably Russian.\",\n  \"evidence\": [\n    \"Bus stop shelter design: The simple, open-sided wooden structure is a classic 'avtobusnaya ostanovka' found throughout Russia.\",\n    \"Roadside vegetation and terrain: Flat, grassy verges with specific types of trees (likely birch or aspen) are common in rural Russia.\",\n    \"Architecture: The single-story houses with pitched roofs and simple construction are typical of Russian villages.\",\n    \"Utility poles: The wooden utility poles with cross-arms are a common sight in rural Russia.\",\n    \"Road surface: The worn asphalt road with a dirt/gravel shoulder is characteristic of rural roads in Russia.\"\n  ]\n}",
+    "evidence_spans": [
+      "Bus stop shelter design: The simple, open-sided wooden structure is a classic 'avtobusnaya ostanovka' found throughout Russia.",
+      "Roadside vegetation and terrain: Flat, grassy verges with specific types of trees (likely birch or aspen) are common in rural Russia.",
+      "Architecture: The single-story houses with pitched roofs and simple construction are typical of Russian villages.",
+      "Utility poles: The wooden utility poles with cross-arms are a common sight in rural Russia.",
+      "Road surface: The worn asphalt road with a dirt/gravel shoulder is characteristic of rural roads in Russia."
+    ],
+    "confidence": 0.92,
+    "geovista_observation": {
+      "observations": [
+        "The image depicts a rural road scene with a mix of paved and unpaved surfaces.",
+        "The road surface is asphalt but appears worn, with a dirt/gravel shoulder on the right.",
+        "There is a small, rustic bus stop shelter on the right side of the road.",
+        "The architecture consists of single-story, modest houses with pitched roofs, typical of Eastern European villages.",
+        "Vegetation is lush and green, indicating a temperate climate during late spring or summer.",
+        "Utility poles are wooden and run along the left side of the road.",
+        "There are no visible license plates or clear text on signs.",
+        "The sky is bright with scattered clouds.",
+        "The overall aesthetic is very characteristic of rural Russia or neighboring post-Soviet states."
+      ],
+      "hard_clues": [
+        "Bus stop shelter design: The simple, open-sided wooden structure is a classic 'avtobusnaya ostanovka' found throughout Russia.",
+        "Roadside vegetation and terrain: Flat, grassy verges with specific types of trees (likely birch or similar deciduous trees common in the region).",
+        "House construction: The white-washed brick or plaster house with a simple tiled roof on the right is a very common style for rural Russian homes (dachas or village houses).",
+        "Utility pole placement: The poles are on the left, which is standard for roads in countries that drive on the right.",
+        "Lack of modern infrastructure: The absence of streetlights, clear lane markings, or modern signage points to a remote, low-traffic area."
+      ],
+      "ambiguous_clues": [
+        "Specific location: Without text on signs or a visible landmark, pinpointing the exact village is impossible based solely on this image.",
+        "Country: While strongly suggestive of Russia, similar rural landscapes and architecture exist in Belarus, Ukraine, and parts of Kazakhstan.",
+        "Season: While green, it could be late spring or early autumn; the exact date cannot be determined."
+      ],
+      "possible_scripts": [
+        "Cyrillic (Russian, Ukrainian, Belarusian)"
+      ],
+      "driving_side": "right"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Russia",
+        "Belarus",
+        "Ukraine",
+        "Kazakhstan"
+      ],
+      "zoom_boxes": [
+        [
+          590,
+          460,
+          670,
+          560
+        ],
+        [
+          800,
+          340,
+          999,
+          600
+        ]
+      ],
+      "verification_queries": [
+        "Identify the specific design of the bus stop shelter to confirm if it matches the standard Russian 'avtobusnaya ostanovka' style.",
+        "Examine the house on the right for any visible text, numbers, or architectural details that might indicate a specific region or country.",
+        "Check the utility poles for any markings or inscriptions that could provide location clues.",
+        "Analyze the vegetation and terrain for any unique features that might help pinpoint the exact location within the candidate countries."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "ru",
+      "predicted_region": "europe",
+      "predicted_lat": 56.842,
+      "predicted_lng": 47.915,
+      "confidence": 0.92
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "ru",
+      "predicted_region": "europe",
+      "predicted_lat": 56.842,
+      "predicted_lng": 47.915,
+      "confidence": 0.92
+    },
+    "base_prediction_summary": {
+      "predicted_country": "ru",
+      "predicted_region": "europe",
+      "predicted_lat": 56.842,
+      "predicted_lng": 47.915,
+      "confidence": 0.92
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.92,
+    "skill_boost_boost_confidence": 0.92,
+    "skill_boost_aggressive_confidence": 0.92,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The bus stop shelter on the right with faded paint and a concrete structure is typical of rural Ukraine, Russia, or Belarus.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8302831709384919,
+          "visual_cues": [
+            "right",
+            "shelter",
+            "stop",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7848779886960984,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6910689890384674,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "Given the architecture, utility setup, and vegetation, this location matches smaller Ukrainian cities or towns.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6390924215316773,
+          "visual_cues": [
+            "architecture",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The utility poles are standard concrete types often found in the Balkans, particularly in Bulgaria and nearby countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6218652546405793,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6190256237983705,
+          "visual_cues": [
+            "architecture",
+            "building",
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The environment and mix of infrastructure, with small shops and residential houses along a main road, is typical of towns or villages near large cities in Bulgaria.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6147726267576218,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The narrow, worn, cracked road with no center line is typical of rural roads in post-Soviet countries such as the Baltic states, Belarus, or Russia.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6045039504766465,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.569083747267723,
+          "visual_cues": [
+            "architecture",
+            "cyrillic",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The architecture of the apartment buildings is typical of Eastern European post-socialist countries with utilitarian, block-style construction and balconies.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.38805450797081,
+          "visual_cues": [
+            "architecture",
+            "building"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The style of the houses with sloped tin or asbestos roofs and simple, functional fences is common in post-Soviet countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.3790983140468598,
+          "visual_cues": [
+            "fence",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The architecture of the houses in the distance, particularly the red-tiled roofs and low-rise, wide structures, is very common in Southern or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.370302426815033,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "building"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "fence"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The bus stop shelter on the right with faded paint and a concrete structure is typical of rural Ukraine, Russia, or Belarus.",
+        "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+        "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+        "Given the architecture, utility setup, and vegetation, this location matches smaller Ukrainian cities or towns.",
+        "The utility poles are standard concrete types often found in the Balkans, particularly in Bulgaria and nearby countries.",
+        "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+        "The environment and mix of infrastructure, with small shops and residential houses along a main road, is typical of towns or villages near large cities in Bulgaria.",
+        "The narrow, worn, cracked road with no center line is typical of rural roads in post-Soviet countries such as the Baltic states, Belarus, or Russia.",
+        "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+        "The architecture of the apartment buildings is typical of Eastern European post-socialist countries with utilitarian, block-style construction and balconies.",
+        "The style of the houses with sloped tin or asbestos roofs and simple, functional fences is common in post-Soviet countries.",
+        "The architecture of the houses in the distance, particularly the red-tiled roofs and low-rise, wide structures, is very common in Southern or Eastern Europe."
+      ],
+      "summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

@@ -1,0 +1,106 @@
+{
+  "game_id": "qOTM2e7p8dcC02Fz",
+  "round": 1,
+  "sample_id": "georc::qOTM2e7p8dcC02Fz::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ph",
+    "predicted_region": "asia",
+    "predicted_address": "Barangay Lambug Road, Badian, Cebu, Philippines",
+    "predicted_lat": 9.85,
+    "predicted_lng": 123.43333,
+    "reasoning_text": "```json\n{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Badian\",\n  \"province_or_state\": \"Cebu\",\n  \"address\": \"Barangay Lambug Road, Badian, Cebu, Philippines\",\n  \"confidence\": 0.68,\n  \"reasoning\": \"The narrow elevated concrete barangay road with open drainage ditch is characteristic of DPWH-funded farm-to-market roads in Cebu Province. The rolling terrain with banana plantations and lush year-round vegetation matches the western Cebu municipality pattern, particularly the Badian-Barili agricultural zone. The simple wooden utility poles with single-wire suspension and absence of paved shoulders align with Cebu Electric Cooperative (CEBECO) rural electrification standards. The motorcycle-centric transport and road width (approximately 3 meters) indicate a secondary barangay road rather than a national highway. The overcast conditions and dense vegetation without dry-season stress suggest the windward eastern slope of Cebu's central cordillera, where orographic rainfall maintains consistent humidity. Badian municipality contains numerous such barangay roads connecting coastal barangays to the national highway, with Lambug being a representative inland agricultural barangay exhibiting these exact road and vegetation characteristics.\",\n  \"evidence\": [\"Elevated concrete barangay road with side drainage ditch\", \"Wooden utility poles with simple wire suspension\", \"Banana plants and dense tropical vegetation\", \"Motorcycle as primary visible transport\", \"Rolling agricultural terrain\", \"Overcast humid climate indicators\", \"Narrow road width (~3m) without shoulder markings\"]\n}\n```",
+    "evidence_spans": [
+      "Elevated concrete barangay road with side drainage ditch",
+      "Wooden utility poles with simple wire suspension",
+      "Banana plants and dense tropical vegetation",
+      "Motorcycle as primary visible transport",
+      "Rolling agricultural terrain",
+      "Overcast humid climate indicators",
+      "Narrow road width (~3m) without shoulder markings"
+    ],
+    "confidence": 0.68,
+    "country_top3": [
+      "ph",
+      "id",
+      "vn"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"ph\",\"id\",\"vn\"],\"reason\":\"The narrow elevated concrete road with open side drainage ditch, wooden utility poles with simple wire suspension, dense tropical vegetation including banana plants, and motorcycle as primary rural transport are highly characteristic of the Philippines. The road construction style matches Filipino barangay roads built under DPWH programs. Indonesia and Vietnam share some tropical rural features but differ in typical road construction (Indonesia often has more dirt/gravel rural roads, Vietnam more compacted earth or asphalt with different drainage).\"}\n```",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9300000000000002,
+        "pred_country": "ph",
+        "geo_country": "ph",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.68,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Barangay Lambug Road, Badian, Cebu, Philippines"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.9300000000000002,
+        "pred_country": "ph",
+        "geo_country": "ph",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.68,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Barangay Balugo Road, Dumaguete, Negros Oriental, Philippines"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.9300000000000002,
+        "pred_country": "ph",
+        "geo_country": "ph",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.68,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Barangay Road, Bogo, Cebu, Philippines"
+      }
+    ],
+    "selected_candidate_score": 0.9300000000000002,
+    "base_prediction_summary": {
+      "predicted_country": "ph",
+      "predicted_region": "asia",
+      "confidence": 0.72
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"region\": \"Southeast Asia\",\n  \"city\": null,\n  \"province_or_state\": \"Cebu or Negros Oriental\",\n  \"address\": \"Rural barangay road, Central Visayas, Philippines\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The combination of concrete rural road",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "ph"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

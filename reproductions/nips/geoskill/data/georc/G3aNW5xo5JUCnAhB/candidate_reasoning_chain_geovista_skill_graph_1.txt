@@ -1,0 +1,19 @@
+Very narrow paved rural lane with no centerline markings
+Concrete roadside drainage or irrigation gutter with metal grates
+Japanese-style detached houses with sloped roofs and simple facades
+Agricultural plots directly adjacent to homes in a flat plain
+Utility poles with dense overhead wiring typical of Japan
+Rural shed and greenhouse-like farm structures
+Low-density settlement pattern in an open cultivated landscape
+Overall flat Kanto-like agricultural terrain consistent with Ibaraki
+Applying the ordered skill graph strictly: Skill 1 is the strongest starting point, as the narrow concrete road with a sharp edge and shallow drainage canal is highly typical of rural Japan.
+From Skill 1, the linked supporting skills that remain visually consistent are Skill 2, Skill 3, Skill 4, Skill 6, and Skill 8.
+Skill 2 supports Japan through the detached rural houses with sloped roofs and Japanese residential proportions.
+Skill 3 matches the shed-like agricultural outbuildings and simple utilitarian rural construction commonly seen in Japan.
+Skill 4 is supported by the cultivated plots, orderly agricultural divisions, and peri-urban farming layout.
+Skill 8 is strongly consistent with the tall utility poles and dense overhead power-line configuration typical in Japan.
+Skill 6 contributes rural low-density settlement structure and open land, though the flatter plain here fits mainland lowland Japan better than Hokkaido specifically.
+The alternative linked skills suggesting Thailand, Bangladesh, or India are not consistent with the visible house forms, drainage design, field layout, and pole infrastructure, so they are rejected in the final synthesis.
+The very flat agricultural landscape with scattered detached homes is especially characteristic of the Kanto plain.
+Within that setting, Tsukuba in Ibaraki Prefecture is a strong match because it combines broad flat farmland, rural residential lanes, and this exact style of roadside drainage and utility infrastructure.
+Conclusion: likely location is Tsukuba, Ibaraki Prefecture, Japan

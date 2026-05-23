@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The gas price sign displays prices in Brazilian Reais (R$) with fuel types labeled in Portuguese (ETANOL, GASOLINA, DIESEL), confirming Brazil.",
+    "The road has double yellow center lines and white edge lines, consistent with Brazilian highway standards for two-way traffic.",
+    "Vegetation is open savanna-like grassland with scattered trees, typical of the Cerrado biome found in central Brazil."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The gas price sign displays prices in Brazilian Reais (R$) with fuel types labeled in Portuguese (ETANOL, GASOLINA, DIESEL), confirming Brazil.\",\n    \"The road has double yellow center lines and white edge lines, consistent with Brazilian highway standards for two-way traffic.\",\n    \"Vegetation is open savanna-like grassland with scattered trees, typical of the Cerrado biome found in central Brazil.\",\n    \"The"
+}

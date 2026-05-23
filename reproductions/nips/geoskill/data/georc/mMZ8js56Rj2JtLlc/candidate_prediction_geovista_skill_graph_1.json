@@ -1,0 +1,107 @@
+{
+  "game_id": "mMZ8js56Rj2JtLlc",
+  "round": 1,
+  "sample_id": "georc::mMZ8js56Rj2JtLlc::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "id",
+    "predicted_region": "asia",
+    "predicted_address": "Jalan Raya Sambas, Sejangkung, Sambas, West Kalimantan, Indonesia",
+    "predicted_lat": 1.43333,
+    "predicted_lng": 109.35,
+    "reasoning_text": "```json\n{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Sambas\",\n  \"province_or_state\": \"West Kalimantan\",\n  \"address\": \"Jalan Raya Sambas, Sejangkung, Sambas, West Kalimantan, Indonesia\",\n  \"confidence\": 0.78,\n  \"reasoning\": \"The 'EZD BAROKAH' cigarette billboard is definitive Indonesian evidence - 'Barokah' is Indonesian/Malay for 'blessing' and this specific branding matches Indonesian tobacco marketing. The left-side motorcycle riding with helmet confirms left-hand traffic, consistent with Indonesia. The tropical rural architecture with corrugated metal roofs, open-air market structures (warung), utility pole configuration, and sandy soil composition are characteristic of Indonesian Borneo (Kalimantan). The 'Penta+' sign suggests a local business or service point common in rural Indonesian towns. The road appears to be a main connecting road (Jalan Raya) between settlements rather than a city street. Based on the vegetation density, rural character, and the Sambas region being known for similar roadside settlements with tobacco advertising, this location is most consistent with the Sambas regency area in West Kalimantan, specifically along Jalan Raya Sambas connecting to Sejangkung district.\",\n  \"evidence\": [\"EZD BAROKAH cigarette billboard with Indonesian language\", \"Left-hand traffic with motorcycle rider on left side\", \"Tropical rural architecture with corrugated metal roofs\", \"Open-air market structures (warung)\", \"Penta+ business sign\", \"Sandy soil and tropical vegetation\", \"Utility pole configuration typical of rural Indonesia\", \"Rural road marking style with yellow center line\"]\n}\n```",
+    "evidence_spans": [
+      "EZD BAROKAH cigarette billboard with Indonesian language",
+      "Left-hand traffic with motorcycle rider on left side",
+      "Tropical rural architecture with corrugated metal roofs",
+      "Open-air market structures (warung)",
+      "Penta+ business sign",
+      "Sandy soil and tropical vegetation",
+      "Utility pole configuration typical of rural Indonesia",
+      "Rural road marking style with yellow center line"
+    ],
+    "confidence": 0.78,
+    "country_top3": [
+      "id",
+      "my",
+      "ph"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"id\",\"my\",\"ph\"],\"reason\":\"Primary evidence is the 'EZD BAROKAH' billboard - 'Barokah' is distinctly Indonesian/Malay terminology for 'blessing,' and this cigarette brand advertising format matches Indonesian tobacco marketing regulations and style. Left-side motorcycle riding confirms left-hand traffic, consistent with Indonesia, Malaysia, and Philippines. The rural roadside shop architecture with corrugated metal roofs, tropical vegetation, and general infrastructure style are characteristic of Indonesian Borneo (Kalimantan). The 'Penta+' sign appears to be a local Indonesian retail/service brand. While Malaysia shares Malay language and left-side driving, the specific 'Barokah' branding and overall commercial aesthetic are more definitively Indonesian. Philippines is a distant third due to geographic proximity and some visual similarities, but language and branding differ.\"}\n```",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.8850000000000001,
+        "pred_country": "id",
+        "geo_country": "id",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.78,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Jalan Raya Sambas, Sejangkung, Sambas, West Kalimantan, Indonesia"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.8850000000000001,
+        "pred_country": "id",
+        "geo_country": "id",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.78,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Jalan Raya Sambas, Sebawi, Sambas, West Kalimantan, Indonesia"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.8850000000000001,
+        "pred_country": "id",
+        "geo_country": "id",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.78,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Jalan Raya Sambas-Paloh, Sebubus, Sambas Regency, West Kalimantan, Indonesia"
+      }
+    ],
+    "selected_candidate_score": 0.8850000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "id",
+      "predicted_region": "asia",
+      "confidence": 0.82
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"region\": \"Southeast Asia\",\n  \"city\": null,\n  \"province_or_state\": \"West Kalimantan\",\n  \"address\": \"Rural road in West Kalimantan, Indonesia, near Pontianak or Sambas region, along Jalan Raya connecting villages with EZD Barokah cigarette",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "id"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

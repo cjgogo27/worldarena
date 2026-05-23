@@ -1,0 +1,72 @@
+[
+    {
+        "challenge": "1NJsXTxIF9GGMDxC",
+        "round": 1,
+        "precision": 0.4041666666666666,
+        "recall": 1.0,
+        "f1": 0.5756676557863502
+    },
+    {
+        "challenge": "2xnQdwiCve2rHWVt",
+        "round": 1,
+        "precision": 1.012820512820513,
+        "recall": 0.8333333333333334,
+        "f1": 0.9143518518518521
+    },
+    {
+        "challenge": "3I4ZtihbhZy5qZzQ",
+        "round": 1,
+        "precision": 1.1,
+        "recall": 0.8615384615384615,
+        "f1": 0.9662745098039215
+    },
+    {
+        "challenge": "3OuVMcpGjmm0tVfG",
+        "round": 1,
+        "precision": 0.29583333333333334,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "3uP6lYo9pzx5Q0km",
+        "round": 1,
+        "precision": 1.0076923076923077,
+        "recall": 0.9166666666666667,
+        "f1": 0.9600266489007329
+    },
+    {
+        "challenge": "4UvmdTHySo6AXW4M",
+        "round": 1,
+        "precision": 1.2363636363636363,
+        "recall": 0.9285714285714285,
+        "f1": 1.0605878824235153
+    },
+    {
+        "challenge": "56Q4T4rpv9O9sCpP",
+        "round": 1,
+        "precision": 0.45499999999999996,
+        "recall": 0.8,
+        "f1": 0.5800796812749004
+    },
+    {
+        "challenge": "5GS2RPgTrf85UZM5",
+        "round": 1,
+        "precision": 0.9692307692307692,
+        "recall": 0.8397435897435896,
+        "f1": 0.8998528048846972
+    },
+    {
+        "challenge": "5bPlIRT7eGN79a2E",
+        "round": 1,
+        "precision": 0.8833333333333333,
+        "recall": 0.8333333333333335,
+        "f1": 0.8576051779935276
+    },
+    {
+        "challenge": "5l0GTCFZI877KxkV",
+        "round": 1,
+        "precision": 0.45,
+        "recall": 0.7678571428571429,
+        "f1": 0.5674486803519062
+    }
+]

@@ -1,0 +1,11 @@
+{
+  "country": "South Africa",
+  "country_code": "za",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt with dashed white center line, consistent with South African rural roads.",
+    "Vegetation is dry, scrubby, and sparse, typical of the Karoo or semi-arid regions in South Africa.",
+    "Utility poles are wooden and spaced irregularly, common in remote areas of South Africa."
+  ],
+  "raw_output": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt with dashed white center line, consistent with South African rural roads.\",\n    \"Vegetation is dry, scrubby, and sparse, typical of the Karoo or semi-arid regions in South Africa.\",\n    \"Utility poles are wooden and spaced irregularly, common in remote areas of South Africa.\",\n    \"No signage or urban features are visible, indicating a remote, non-urban location typical of South"
+}

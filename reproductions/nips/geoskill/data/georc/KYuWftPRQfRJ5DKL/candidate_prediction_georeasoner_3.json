@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a solid yellow centerline and white edge lines, consistent with US two-lane highways where traffic drives on the right.",
+    "The presence of a saguaro cactus on the left embankment strongly indicates a desert environment typical of the American Southwest, particularly Arizona or New Mexico.",
+    "Utility poles with overhead wires are spaced regularly along the roadside, common in rural US infrastructure."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a solid yellow centerline and white edge lines, consistent with US two-lane highways where traffic drives on the right.\",\n    \"The presence of a saguaro cactus on the left embankment strongly indicates a desert environment typical of the American Southwest, particularly Arizona or New Mexico.\",\n    \"Utility poles with overhead wires are spaced regularly along the roadside, common in rural US infrastructure.\",\n    \"The vehicle ahead is a large"
+}

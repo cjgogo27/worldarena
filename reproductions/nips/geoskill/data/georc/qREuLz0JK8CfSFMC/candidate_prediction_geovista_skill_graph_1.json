@@ -1,0 +1,105 @@
+{
+  "game_id": "qREuLz0JK8CfSFMC",
+  "round": 1,
+  "sample_id": "georc::qREuLz0JK8CfSFMC::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "jp",
+    "predicted_region": "asia",
+    "predicted_address": "Prefectural Road 77, Yakushima, Kagoshima Prefecture, Japan",
+    "predicted_lat": 31.59694444,
+    "predicted_lng": 130.55722222,
+    "reasoning_text": "```json\n{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"East Asia\",\n  \"city\": \"Yakushima\",\n  \"province_or_state\": \"Kagoshima Prefecture\",\n  \"address\": \"Prefectural Road 77, Yakushima, Kagoshima Prefecture, Japan\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The left-hand driving configuration with guardrail on the left and sidewalk/utility infrastructure on the right immediately narrows candidates to Japan, UK, Australia, or New Zealand. The wooden fence style with horizontal rails and reddish-brown treatment is distinctly Japanese, commonly seen in rural Japanese roadways. The dense evergreen coniferous vegetation on the left appears to be Cryptomeria japonica (sugi/cedar), which is endemic to and extensively planted throughout Japan. The utility pole with multiple power lines arranged in a specific vertical configuration matches Japanese electrical infrastructure standards. The coastal mountain terrain with lush subtropical-to-temperate forest and the specific road characteristics (narrow prefectural road, metal guardrail, concrete sidewalk with wooden fence) are highly consistent with Yakushima Island in Kagoshima Prefecture, a UNESCO World Heritage site known for its ancient cedar forests and mountainous coastal roads. The bright sunlight and vegetation density suggest a southern Japanese island location rather than mainland Honshu.\",\n  \"evidence\": [\"Left-hand driving with left-side guardrail and right-side sidewalk infrastructure\", \"Distinctive Japanese-style horizontal wooden fence with reddish-brown treatment\", \"Dense Cryptomeria japonica (sugi cedar) forest endemic to Japan\", \"Japanese standard utility pole with vertical multi-line power configuration\", \"Narrow paved prefectural road with coastal mountain terrain\", \"Subtropical-temperate lush green vegetation under bright sunlight suggesting southern Japan island\"]\n}\n```",
+    "evidence_spans": [
+      "Left-hand driving with left-side guardrail and right-side sidewalk infrastructure",
+      "Distinctive Japanese-style horizontal wooden fence with reddish-brown treatment",
+      "Dense Cryptomeria japonica (sugi cedar) forest endemic to Japan",
+      "Japanese standard utility pole with vertical multi-line power configuration",
+      "Narrow paved prefectural road with coastal mountain terrain",
+      "Subtropical-temperate lush green vegetation under bright sunlight suggesting southern Japan island"
+    ],
+    "confidence": 0.72,
+    "country_top3": [
+      "jp",
+      "au",
+      "nz"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"jp\",\"au\",\"nz\"],\"reason\":\"Primary indicators strongly point to Japan: left-hand driving with guardrail on left (vehicle side), distinctive reddish-brown treated wooden fence with horizontal rails typical of Japanese rural roads, dense sugi cedar forest vegetation common in Japan's mountainous coastal regions, and utility pole infrastructure style. The road marking style (solid white edge lines, dashed center) and overall rural prefectural road aesthetic are characteristically Japanese. Australia and New Zealand appear as distant alternatives due to left-hand driving and similar vegetation possibilities, but lack the specific wooden fence treatment and cedar forest composition seen here.\"}\n```",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9600000000000001,
+        "pred_country": "jp",
+        "geo_country": "jp",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Prefectural Road 77, Yakushima, Kagoshima Prefecture, Japan"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.9600000000000001,
+        "pred_country": "jp",
+        "geo_country": "jp",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Prefectural Road 77, Yakushima, Kagoshima Prefecture, Japan"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.9475000000000001,
+        "pred_country": "jp",
+        "geo_country": "jp",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.75,
+        "refined_vague_address": true,
+        "repaired_country_mismatch": false,
+        "address": "Irozaki Misaki Road, Cape Irozaki, Shimoda, Shizuoka Prefecture, Japan"
+      }
+    ],
+    "selected_candidate_score": 0.9600000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "jp",
+      "predicted_region": "asia",
+      "confidence": 0.87
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\"country\": \"Japan\", \"country_code\": \"jp\", \"region\": \"East Asia\", \"city\": \"\", \"province_or_state\": \"\", \"address\": \"Rural prefectural road in Japan, likely Honshu or Kyushu region with sugi cedar forest and coastal mountain terrain\", \"confidence\": 0.87, \"reasoning\": \"The left-hand driving configurati",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "jp"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

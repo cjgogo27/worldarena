@@ -1,0 +1,160 @@
+{
+  "method": "external_geovista_skill_graph",
+  "rollout_idx": 1,
+  "timestamp": "20260401_120555",
+  "num_records": 50,
+  "num_failed_records": 49,
+  "edge_count": 30,
+  "edges": [
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "Overhead utility pole construction and wiring style matches South Korean standards, with horizontal crossarms and wire arrangements distinctive from those seen in Japan or China.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "The buildings use corrugated metal sheets, which are common in tropical, developing regions, particularly in Southeast Asia and Central America.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "The utility poles are concrete and the wires are above ground, which is typical construction in several Asian countries, particularly India, Sri Lanka, Bangladesh, and Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Overhead utility pole construction and wiring style matches South Korean standards, with horizontal crossarms and wire arrangements distinctive from those seen in Japan or China.",
+      "skill_b": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Overhead utility pole construction and wiring style matches South Korean standards, with horizontal crossarms and wire arrangements distinctive from those seen in Japan or China.",
+      "skill_b": "The buildings use corrugated metal sheets, which are common in tropical, developing regions, particularly in Southeast Asia and Central America.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Overhead utility pole construction and wiring style matches South Korean standards, with horizontal crossarms and wire arrangements distinctive from those seen in Japan or China.",
+      "skill_b": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Overhead utility pole construction and wiring style matches South Korean standards, with horizontal crossarms and wire arrangements distinctive from those seen in Japan or China.",
+      "skill_b": "The utility poles are concrete and the wires are above ground, which is typical construction in several Asian countries, particularly India, Sri Lanka, Bangladesh, and Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+      "skill_b": "The buildings use corrugated metal sheets, which are common in tropical, developing regions, particularly in Southeast Asia and Central America.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+      "skill_b": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+      "skill_b": "The utility poles are concrete and the wires are above ground, which is typical construction in several Asian countries, particularly India, Sri Lanka, Bangladesh, and Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The buildings use corrugated metal sheets, which are common in tropical, developing regions, particularly in Southeast Asia and Central America.",
+      "skill_b": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The buildings use corrugated metal sheets, which are common in tropical, developing regions, particularly in Southeast Asia and Central America.",
+      "skill_b": "The utility poles are concrete and the wires are above ground, which is typical construction in several Asian countries, particularly India, Sri Lanka, Bangladesh, and Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+      "skill_b": "The utility poles are concrete and the wires are above ground, which is typical construction in several Asian countries, particularly India, Sri Lanka, Bangladesh, and Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The architecture consists of unfinished concrete block houses and metal roofing, which is typical for less urbanized or suburban areas in Latin America.",
+      "skill_b": "The architecture of the house to the left with its modern construction and tan color is prevalent in newer suburbs around Argentine cities.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The architecture consists of unfinished concrete block houses and metal roofing, which is typical for less urbanized or suburban areas in Latin America.",
+      "skill_b": "The fencing style (simple wire with wooden posts) and muddy ditch are common in rural Argentine and Chilean ranching areas.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The architecture consists of unfinished concrete block houses and metal roofing, which is typical for less urbanized or suburban areas in Latin America.",
+      "skill_b": "The houses are simple, cement block structures with some corrugated metal, typical of rural or peri-urban areas in Uruguay.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The architecture consists of unfinished concrete block houses and metal roofing, which is typical for less urbanized or suburban areas in Latin America.",
+      "skill_b": "The terrain is hilly with rich greenery, suggesting a location in the Andes region of South America.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The architecture consists of unfinished concrete block houses and metal roofing, which is typical for less urbanized or suburban areas in Latin America.",
+      "skill_b": "The use of concrete poles for electrical wiring and fencing style is consistent with infrastructure seen in the Argentine countryside.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The architecture of the house to the left with its modern construction and tan color is prevalent in newer suburbs around Argentine cities.",
+      "skill_b": "The fencing style (simple wire with wooden posts) and muddy ditch are common in rural Argentine and Chilean ranching areas.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The architecture of the house to the left with its modern construction and tan color is prevalent in newer suburbs around Argentine cities.",
+      "skill_b": "The houses are simple, cement block structures with some corrugated metal, typical of rural or peri-urban areas in Uruguay.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The architecture of the house to the left with its modern construction and tan color is prevalent in newer suburbs around Argentine cities.",
+      "skill_b": "The terrain is hilly with rich greenery, suggesting a location in the Andes region of South America.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The architecture of the house to the left with its modern construction and tan color is prevalent in newer suburbs around Argentine cities.",
+      "skill_b": "The use of concrete poles for electrical wiring and fencing style is consistent with infrastructure seen in the Argentine countryside.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The fencing style (simple wire with wooden posts) and muddy ditch are common in rural Argentine and Chilean ranching areas.",
+      "skill_b": "The houses are simple, cement block structures with some corrugated metal, typical of rural or peri-urban areas in Uruguay.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The fencing style (simple wire with wooden posts) and muddy ditch are common in rural Argentine and Chilean ranching areas.",
+      "skill_b": "The terrain is hilly with rich greenery, suggesting a location in the Andes region of South America.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The fencing style (simple wire with wooden posts) and muddy ditch are common in rural Argentine and Chilean ranching areas.",
+      "skill_b": "The use of concrete poles for electrical wiring and fencing style is consistent with infrastructure seen in the Argentine countryside.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The houses are simple, cement block structures with some corrugated metal, typical of rural or peri-urban areas in Uruguay.",
+      "skill_b": "The terrain is hilly with rich greenery, suggesting a location in the Andes region of South America.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The houses are simple, cement block structures with some corrugated metal, typical of rural or peri-urban areas in Uruguay.",
+      "skill_b": "The use of concrete poles for electrical wiring and fencing style is consistent with infrastructure seen in the Argentine countryside.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The terrain is hilly with rich greenery, suggesting a location in the Andes region of South America.",
+      "skill_b": "The use of concrete poles for electrical wiring and fencing style is consistent with infrastructure seen in the Argentine countryside.",
+      "co_occurrence": 1
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+Faded concrete rural bus stop shelter on the right
+Flat green lowland village landscape
+Narrow paved road with sandy shoulders and almost no markings
+Detached single-story houses with sloped roofs
+Simple wooden/metal fences
+Post-Soviet style utility poles and overhead wires
+Right-hand traffic road layout
+Sparse rural settlement pattern typical of Belarus/Ukraine/Russia
+Applying the ordered skills strictly: (1) the faded concrete bus stop shelter on the right is a strong ex-Soviet cue and is typical of rural Belarus, Ukraine, or Russia.
+(2) The green, fertile lowland landscape and village architecture could point toward central or eastern Ukraine, so Ukraine is a serious comparator.
+(3) Although the narrow paved road could superficially resemble some Belgian village roads, the total scene clearly lacks Western European road engineering, signage, and housing style, so this branch is rejected.
+(4) Bulgaria is also inconsistent because the settlement pattern, bus stop type, and post-Soviet utility infrastructure do not fit well.
+(5) The narrow, unmarked road does fit rural Ukraine, reinforcing the Belarus/Ukraine/Russia cluster.
+(6) Right-hand traffic supports that same regional set but is not decisive.
+Composing linked skills from the graph: from skill 1 and 2, skill 12 is strongly supported because the sloped roofs, simple fences, detached houses, and utility poles are characteristic of post-Soviet villages.
+From skill 3 to skill 8, the road surface reads as a simple narrow rural asphalt road rather than a more engineered Western European road.
+Considering all linked cues together, the scene is best placed in a flat post-Soviet village environment.
+Between Ukraine, Russia, and Belarus, the tidy roadside verges, grassy drainage edges, subdued village layout, and overall visual feel align slightly better with rural Belarus.
+Within Belarus, the broad flat lowland appearance is consistent with Gomel Region.
+Therefore the best single consistent guess is a rural village road in Gomel Region, Belarus.
+Conclusion: likely location is Unknown rural village, Gomel Region, Belarus

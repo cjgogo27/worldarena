@@ -1,0 +1,54 @@
+{
+  "user_id": "30447113_2",
+  "input_demographics": {
+    "sex": "female",
+    "age": 40,
+    "age_range": "18-64 years old",
+    "race": "Asian",
+    "enrolled_in_school": false,
+    "employed": true,
+    "occupation": "Professional, managerial, or technical",
+    "marital_status": "married",
+    "primary_activity": "Working"
+  },
+  "raw_output": "| Place Visited           | Arrival Time    | Departure Time  | Location Type |\n|-------------------------|-----------------|-----------------|---------------|\n| Home                    | 07:00 AM        | 07:30 AM        | 1              |\n| Work                    | 07:30 AM        | 17:00 PM        | 3              |\n| Grocery Store          | 17:15 PM        | 17:45 PM        | 11             |\n| Home                    | 17:45 PM        | 18:00 PM        | 1              |",
+  "schedule": [
+    {
+      "activity": "home",
+      "start_time": "07:00",
+      "end_time": "07:30"
+    },
+    {
+      "activity": "work",
+      "start_time": "07:30",
+      "end_time": "29:00"
+    },
+    {
+      "activity": "shopping",
+      "start_time": "29:15",
+      "end_time": "29:45"
+    },
+    {
+      "activity": "home",
+      "start_time": "29:45",
+      "end_time": "30:00"
+    }
+  ],
+  "ground_truth": [
+    {
+      "activity": "home",
+      "start_time": "00:00",
+      "end_time": "09:30"
+    },
+    {
+      "activity": "work",
+      "start_time": "09:30",
+      "end_time": "19:05"
+    },
+    {
+      "activity": "home",
+      "start_time": "19:05",
+      "end_time": "24:00"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with no passing, consistent with US rural roads.",
+    "White house with vinyl siding and satellite dish is typical of mid-20th century American suburban/rural architecture.",
+    "Overhead utility poles with multiple wires are common in US rural areas, especially in the Northeast or Midwest."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with no passing, consistent with US rural roads.\",\n    \"White house with vinyl siding and satellite dish is typical of mid-20th century American suburban/rural architecture.\",\n    \"Overhead utility poles with multiple wires are common in US rural areas, especially in the Northeast or Midwest.\",\n    \"Lush green deciduous trees and well-maintained grass suggest temperate climate, likely summer, matching"
+}

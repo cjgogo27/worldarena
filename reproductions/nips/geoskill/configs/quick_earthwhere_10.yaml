@@ -1,0 +1,41 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/quick_table_earthwhere_10
+main_agent:
+  base_url: https://api.siliconflow.cn/v1/chat/completions
+  api_key: sk-mivnpzvibksbsypfzysmebcvfcnsvtciyssnvbjypusieskr
+  model: Qwen/Qwen2.5-VL-72B-Instruct
+  max_tokens: 700
+  max_image_side: 768
+  retries: 1
+  backoff_seconds: 0.2
+llm_large:
+  base_url: https://api.siliconflow.cn/v1/chat/completions
+  api_key: sk-mivnpzvibksbsypfzysmebcvfcnsvtciyssnvbjypusieskr
+  model: Qwen/Qwen2.5-VL-72B-Instruct
+  max_tokens: 700
+  max_image_side: 768
+  retries: 1
+  backoff_seconds: 0.2
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  min_score: 0.15
+training_free:
+  enable_failure_recovery: false
+  enable_skill_fusion: false
+  rollout_rounds: 1
+  search_evolution:
+    enabled: false
+    provider: brave
+    api_key: ''
+    max_cases: 3
+    queries_per_case: 2
+    results_per_query: 2
+    timeout_seconds: 8.0
+    context_char_budget: 2000
+datasets:
+  - name: earthwhere
+    data_root: data/earthwhere
+    manifest_jsonl: data/earthwhere/manifest.jsonl
+    dataset_version: earthwhere_v1

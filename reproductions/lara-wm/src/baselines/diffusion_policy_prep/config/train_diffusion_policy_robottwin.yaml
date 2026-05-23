@@ -1,0 +1,48 @@
+name: train_diffusion_policy_robottwin
+
+defaults:
+  - /diffusion_policy:train_diffusion_unet_lowdim_workspace
+  - _self_
+
+dataset:
+  _target_: diffusion_policy.dataset.robomimic_replay_lowdim_dataset.RoboMimicLowdimDataset
+
+  _partial_: True
+  zarr_path: ???
+  horizon: 8
+  pad_before: 0
+  pad_after: 4
+  state_key: data/state
+  action_key: data/action
+  seed: 42
+  val_ratio: 0.0
+
+policy:
+  _target_: diffusion_policy.policy.diffusion_unet_lowdim_policy.DiffusionUnetLowdimPolicy
+  _partial_: True
+
+  obs_dim: null
+  action_dim: null
+  horizon: null
+  num_diffusion_steps: 100
+  obs_encoder_groupnorm: False
+  obs_encoder_pretrained: null
+  predict_epsilon: True
+
+  conditional_obs_encoder: True
+  n_layer: 3
+  hidden_dim: 256
+  n_head: 4
+  mlp_expand_ratio: 4
+
+  transformer:
+    n_layer: 4
+    n_head: 4
+    n_emb: 256
+    resid_dropout: 0.0
+    proj_dropout: 0.0
+
+workspace:
+  experiment_name: diffusion_policy_robottwin
+  log_dir: ./logs/diffusion_policy_robottwin
+  checkpoint_dir: ./checkpoints/diffusion_policy_robottwin

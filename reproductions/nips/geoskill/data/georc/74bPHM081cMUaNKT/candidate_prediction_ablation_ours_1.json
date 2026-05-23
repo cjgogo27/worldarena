@@ -1,0 +1,965 @@
+{
+  "game_id": "74bPHM081cMUaNKT",
+  "round": 1,
+  "sample_id": "georc::74bPHM081cMUaNKT::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "cn",
+    "predicted_region": "asia",
+    "predicted_lat": 40.7589,
+    "predicted_lng": 111.7632,
+    "reasoning_text": "{\n  \"country\": \"China\",\n  \"country_code\": \"cn\",\n  \"region\": \"Asia\",\n  \"lat\": 40.7589,\n  \"lng\": 111.7632,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The visual evidence strongly supports the baseline prediction of Northern China, specifically the Inner Mongolia Autonomous Region. The landscape is a flat, arid steppe with sandy soil, characteristic of the Ordos Plateau or areas surrounding the Yellow River bend. The vegetation consists of young, planted saplings (likely poplar or willow) used for windbreaks, a common practice in China's 'Green Great Wall' projects to combat desertification. The utility poles and the style of the truck (a heavy-duty flatbed common in Chinese construction/logistics) further confirm this. The terrain is extremely flat and open, typical of Central Asian steppes found in Inner Mongolia. The presence of low green grass on sandy terrain aligns with semi-arid regions of Eastern Mongolia or Northern China. There are no signs of subtropical vegetation, mountainous terrain, or South Asian flora, contradicting Skills 1, 8, 9, and 10. The road appears to be a newly paved or concrete-lined channel or access road, not an unpaved dirt road as suggested by Skill 11, though the surrounding area is unpaved. The overall scene matches the ecological and infrastructural patterns of arid Northern China.\",\n  \"evidence\": [\n    \"Flat, arid steppe landscape with sandy soil\",\n    \"Young, recently planted saplings arranged in rows for windbreaks\",\n    \"Heavy-duty flatbed truck typical of Chinese construction/logistics\",\n    \"Long lines of utility poles indicating sparse, long-distance infrastructure\",\n    \"Low green grass growing on sandy terrain, typical of semi-arid zones\",\n    \"Absence of subtropical or tropical vegetation\",\n    \"Concrete-lined channel or road structure suggesting water management or new infrastructure\"\n  ]\n}",
+    "evidence_spans": [
+      "Flat, arid steppe landscape with sandy soil",
+      "Young, recently planted saplings arranged in rows for windbreaks",
+      "Heavy-duty flatbed truck typical of Chinese construction/logistics",
+      "Long lines of utility poles indicating sparse, long-distance infrastructure",
+      "Low green grass growing on sandy terrain, typical of semi-arid zones",
+      "Absence of subtropical or tropical vegetation",
+      "Concrete-lined channel or road structure suggesting water management or new infrastructure"
+    ],
+    "confidence": 0.92,
+    "retrieved_skills": [
+      {
+        "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "driving",
+          "road",
+          "terrain"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.6613487720489503,
+        "bm25_score": 21.501972198486328,
+        "semantic_score": 0.4448814392089844
+      },
+      {
+        "skill_text": "There is some low green grass growing out of the sandy terrain, which is most commonly found in Eastern parts of Mongolia; the general flatness of the landscape also makes Eastern Mongolia very likely",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "terrain"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 1,
+        "score": 0.4717912822961808,
+        "bm25_score": 29.393844604492188,
+        "semantic_score": 0.5771502256393433
+      },
+      {
+        "skill_text": "The landscape is dry and arid, with minimal vegetation and the climate feels like a desert; combined with the Google car with a whole tent on the roof and a snorkel, this has to be Mongolia",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "car",
+          "climate",
+          "roof",
+          "vegetation"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 1,
+        "score": 0.8357520580291748,
+        "bm25_score": 30.434656143188477,
+        "semantic_score": 0.6225716471672058
+      },
+      {
+        "skill_text": "The vegetation is sparse and includes young, recently planted trees, indicating reforestation or landscaping efforts in a dry, continental climate.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "trees",
+          "vegetation"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 1,
+        "score": 0.7438227832317352,
+        "bm25_score": 30.029050827026367,
+        "semantic_score": 0.4160761535167694
+      },
+      {
+        "skill_text": "The landscape is extremely flat and open, suggesting a region with vast steppe or plains, which is typical of Central Asia or Eastern Europe.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "extremely",
+          "flat",
+          "landscape",
+          "open"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 1,
+        "score": 0.4661198675632477,
+        "bm25_score": 31.460006713867188,
+        "semantic_score": 0.531308114528656
+      },
+      {
+        "skill_text": "The presence of long lines of utility poles points to infrastructure built for long distances in a sparsely inhabited region.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 1,
+        "score": 0.6548826277256012,
+        "bm25_score": 30.713104248046875,
+        "semantic_score": 0.24226322770118713
+      },
+      {
+        "skill_text": "The typically hilly terrain suggests a location on the outskirts or in the rural parts rather than dense metropolitan areas.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "terrain"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 2,
+        "score": 0.6647893935441971,
+        "bm25_score": 21.94195556640625,
+        "semantic_score": 0.42800581455230713
+      },
+      {
+        "skill_text": "The vegetation consists of subtropical trees and the soil is dry with scattered debris typical of South Asian environments.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "soil",
+          "trees",
+          "vegetation"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 2,
+        "score": 0.7307833373546602,
+        "bm25_score": 26.48832893371582,
+        "semantic_score": 0.4788230359554291
+      },
+      {
+        "skill_text": "The mild jungly landscape with a lack of palms points to more northern areas in South east Asia, like Northern Thailand",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "jungly",
+          "landscape",
+          "mild",
+          "with"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.4320663332939148,
+        "bm25_score": 33.217716217041016,
+        "semantic_score": 0.4283963143825531
+      },
+      {
+        "skill_text": "The weeds on the side of the road (that have a fan-like shape) are commonly found near and in the state of Terrangnu",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 2,
+        "score": 0.6760610252618791,
+        "bm25_score": 24.647613525390625,
+        "semantic_score": 0.40266355872154236
+      },
+      {
+        "skill_text": "The road is unpaved and made of compacted dirt, suggesting a rural agricultural area in a developing country.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 5,
+        "score": 0.6875056952238083,
+        "bm25_score": 17.01404571533203,
+        "semantic_score": 0.5045607089996338
+      },
+      {
+        "skill_text": "The surrounding vegetation is sparse, with dry grasses and small bushes, typical of interior or arid zones.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "vegetation"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 5,
+        "score": 0.7113727807998658,
+        "bm25_score": 29.410411834716797,
+        "semantic_score": 0.39700961112976074
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "cn",
+      "predicted_region": "asia",
+      "predicted_lat": 40.7589,
+      "predicted_lng": 111.7632,
+      "reasoning_text": "{\n  \"country\": \"China\",\n  \"country_code\": \"cn\",\n  \"region\": \"Asia\",\n  \"lat\": 40.7589,\n  \"lng\": 111.7632,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to Northern China, specifically the Inner Mongolia Autonomous Region. The landscape is a flat, arid steppe with sandy soil, characteristic of the Ordos Plateau or areas surrounding the Yellow River bend. The vegetation consists of young, planted saplings (likely poplar or willow) used for windbreaks, a common practice in this region to combat desertification. The vehicles, particularly the white flatbed truck (resembling a FAW or Dongfeng cab) and the blue-and-white tanker trucks, are standard commercial fleets in China. The concrete path appears to be a temporary construction road or a specific industrial access way, often found near coal mines or industrial parks in Inner Mongolia. The utility poles and the vast, flat horizon are consistent with the geography of the Ordos region. The specific combination of arid soil, young windbreak trees, and industrial trucking suggests a location near a mining or industrial zone in Inner Mongolia, such as near Dongsheng or Yulin.\",\n  \"evidence\": [\n    \"Arid, flat landscape with sandy soil and sparse vegetation typical of Northern China/Inner Mongolia.\",\n    \"White flatbed truck with cab design consistent with Chinese manufacturers (FAW/Dongfeng).\",\n    \"Blue-and-white tanker trucks indicating industrial logistics common in Chinese mining regions.\",\n    \"Rows of young saplings planted as windbreaks, a common reforestation effort in arid Northern China.\",\n    \"Concrete path suggesting temporary industrial access or construction in a remote area.\",\n    \"Utility poles with overhead wires running parallel to the road, typical of rural Chinese infrastructure.\",\n    \"Hazy sky and bright sunlight consistent with spring/summer in the Ordos region.\"\n  ]\n}",
+      "evidence_spans": [
+        "Arid, flat landscape with sandy soil and sparse vegetation typical of Northern China/Inner Mongolia.",
+        "White flatbed truck with cab design consistent with Chinese manufacturers (FAW/Dongfeng).",
+        "Blue-and-white tanker trucks indicating industrial logistics common in Chinese mining regions.",
+        "Rows of young saplings planted as windbreaks, a common reforestation effort in arid Northern China.",
+        "Concrete path suggesting temporary industrial access or construction in a remote area.",
+        "Utility poles with overhead wires running parallel to the road, typical of rural Chinese infrastructure.",
+        "Hazy sky and bright sunlight consistent with spring/summer in the Ordos region."
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "Wide, flat, arid landscape with sparse vegetation and distant green fields suggesting irrigation or seasonal growth.",
+          "Unpaved dirt road on left, paved concrete path in center (possibly temporary or construction-related), and sandy terrain on right.",
+          "White flatbed truck parked on left side of road; appears to be Chinese-made (e.g., FAW, Dongfeng) based on cab design.",
+          "Blue-and-white tanker trucks visible behind flatbed — common in industrial/logistics zones in China.",
+          "Young saplings planted in rows along right edge of concrete path — suggests recent landscaping or windbreak installation.",
+          "Utility poles with overhead wires running parallel to road — typical of rural/industrial infrastructure in northern China.",
+          "No visible license plates readable, but vehicle styles and arrangement suggest Chinese commercial fleet.",
+          "Sky is hazy with scattered clouds — consistent with spring/summer in arid regions of Northwest or North China.",
+          "No pedestrians, no traffic signs, no buildings nearby — isolated industrial or agricultural zone.",
+          "Concrete path has black protective covering at foreground — possibly for curing or protection during construction."
+        ],
+        "hard_clues": [
+          "Vehicle types (Chinese commercial trucks) strongly indicate China.",
+          "Flat, arid terrain with irrigated green patches matches Inner Mongolia, Xinjiang, or Gansu provinces.",
+          "Row-planted saplings + utility poles + concrete path = state-led infrastructure project (common in China’s rural development).",
+          "Absence of Western-style signage or vehicles rules out most non-Chinese locations."
+        ],
+        "ambiguous_clues": [
+          "Exact province cannot be determined without more geographic markers (mountains, rivers, specific signage).",
+          "Season unclear — could be spring (saplings just planted) or early summer (green fields).",
+          "Purpose of concrete path unknown — temporary access? Pipeline corridor? New road under construction?"
+        ],
+        "possible_scripts": [
+          "Industrial logistics hub near coal/oil/gas extraction site in Inner Mongolia (e.g., Ordos, Ejin Banner).",
+          "Agricultural expansion zone in Xinjiang (cotton fields, water pipelines, tree windbreaks).",
+          "New highway or railway construction corridor in Gansu or Ningxia, with temporary access roads.",
+          "Desertification control project (tree planting + infrastructure) in Loess Plateau or Hexi Corridor."
+        ],
+        "driving_side": "right"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "China"
+        ],
+        "zoom_boxes": [
+          [
+            45,
+            520,
+            380,
+            660
+          ],
+          [
+            500,
+            520,
+            800,
+            980
+          ]
+        ],
+        "verification_queries": [
+          "Identify the make and model of the white flatbed truck cab to confirm if it is a Chinese brand (e.g., FAW, Dongfeng, Sinotruk).",
+          "Analyze the blue and white tanker trucks in the background for any visible logos or text.",
+          "Examine the utility poles and overhead wires for specific design features common in Chinese rural infrastructure.",
+          "Check the saplings and soil type for clues regarding the specific region (e.g., Northwest China arid zones)."
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "cn",
+      "predicted_region": "asia",
+      "predicted_lat": 40.7589,
+      "predicted_lng": 111.7632,
+      "confidence": 0.92
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "cn",
+      "predicted_region": "asia",
+      "predicted_lat": 40.7589,
+      "predicted_lng": 111.7632,
+      "confidence": 0.92
+    },
+    "base_prediction_summary": {
+      "predicted_country": "cn",
+      "predicted_region": "asia",
+      "predicted_lat": 40.7589,
+      "predicted_lng": 111.7632,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.92,
+    "skill_boost_aggressive_confidence": 0.92,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The landscape is dry and arid, with minimal vegetation and the climate feels like a desert; combined with the Google car with a whole tent on the roof and a snorkel, this has to be Mongolia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8357520580291748,
+          "visual_cues": [
+            "car",
+            "climate",
+            "roof",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The vegetation is sparse and includes young, recently planted trees, indicating reforestation or landscaping efforts in a dry, continental climate.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7438227832317352,
+          "visual_cues": [
+            "climate",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The vegetation consists of subtropical trees and the soil is dry with scattered debris typical of South Asian environments.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7307833373546602,
+          "visual_cues": [
+            "soil",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The surrounding vegetation is sparse, with dry grasses and small bushes, typical of interior or arid zones.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7113727807998658,
+          "visual_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road is unpaved and made of compacted dirt, suggesting a rural agricultural area in a developing country.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6875056952238083,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The weeds on the side of the road (that have a fan-like shape) are commonly found near and in the state of Terrangnu",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6760610252618791,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The typically hilly terrain suggests a location on the outskirts or in the rural parts rather than dense metropolitan areas.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6647893935441971,
+          "visual_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6613487720489503,
+          "visual_cues": [
+            "driving",
+            "road",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The presence of long lines of utility poles points to infrastructure built for long distances in a sparsely inhabited region.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6548826277256012,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "There is some low green grass growing out of the sandy terrain, which is most commonly found in Eastern parts of Mongolia; the general flatness of the landscape also makes Eastern Mongolia very likely",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.4717912822961808,
+          "visual_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The landscape is extremely flat and open, suggesting a region with vast steppe or plains, which is typical of Central Asia or Eastern Europe.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.4661198675632477,
+          "visual_cues": [
+            "extremely",
+            "flat",
+            "landscape",
+            "open"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The mild jungly landscape with a lack of palms points to more northern areas in South east Asia, like Northern Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.4320663332939148,
+          "visual_cues": [
+            "jungly",
+            "landscape",
+            "mild",
+            "with"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "landscape"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The landscape is dry and arid, with minimal vegetation and the climate feels like a desert; combined with the Google car with a whole tent on the roof and a snorkel, this has to be Mongolia",
+        "The vegetation is sparse and includes young, recently planted trees, indicating reforestation or landscaping efforts in a dry, continental climate.",
+        "The vegetation consists of subtropical trees and the soil is dry with scattered debris typical of South Asian environments.",
+        "The surrounding vegetation is sparse, with dry grasses and small bushes, typical of interior or arid zones.",
+        "The road is unpaved and made of compacted dirt, suggesting a rural agricultural area in a developing country.",
+        "The weeds on the side of the road (that have a fan-like shape) are commonly found near and in the state of Terrangnu",
+        "The typically hilly terrain suggests a location on the outskirts or in the rural parts rather than dense metropolitan areas.",
+        "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "The presence of long lines of utility poles points to infrastructure built for long distances in a sparsely inhabited region.",
+        "There is some low green grass growing out of the sandy terrain, which is most commonly found in Eastern parts of Mongolia; the general flatness of the landscape also makes Eastern Mongolia very likely",
+        "The landscape is extremely flat and open, suggesting a region with vast steppe or plains, which is typical of Central Asia or Eastern Europe.",
+        "The mild jungly landscape with a lack of palms points to more northern areas in South east Asia, like Northern Thailand"
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

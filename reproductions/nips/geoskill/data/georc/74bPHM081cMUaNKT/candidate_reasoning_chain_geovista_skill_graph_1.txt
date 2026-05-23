@@ -1,0 +1,11 @@
+narrow paved road with minimal markings
+sparse roadside vegetation
+rural or service-road layout
+graph-linked support toward Southeast Asia
+most specific downstream skill indicates Vietnamese signage
+Applying the skill graph strictly in order: Skill 1 first suggests a dry desert-like roadside with sparse bushes and grass tufts.
+From Skill 1, linked cue composition leads to Skill 2, which interprets the narrow paved asphalt road as consistent with Indonesian-style local roads.
+Skill 2 then strongly supports several Asia-focused linked skills through region_support edges: Skill 4 points to rural Vietnam, Skills 6 to 9 support a broader Southeast Asian developing-rural-road interpretation, Skill 10 suggests Bangladesh, and Skill 11 provides the most specific downstream cue by identifying a shop sign as Vietnamese.
+Among the linked conclusions, Skill 11 is the most location-specific and reinforces Skill 4, so the final consistent graph-based guess is Vietnam.
+Because several graph skills conflict with one another, confidence is limited.
+Conclusion: likely location is Vietnam

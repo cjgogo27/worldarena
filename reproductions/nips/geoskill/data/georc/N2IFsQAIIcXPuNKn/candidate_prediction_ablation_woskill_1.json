@@ -1,0 +1,25 @@
+{
+  "game_id": "N2IFsQAIIcXPuNKn",
+  "round": 1,
+  "sample_id": "georc::N2IFsQAIIcXPuNKn::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "hr",
+    "predicted_region": "europe",
+    "predicted_address": "Rural road in karst scrubland near Šibenik, Šibenik-Knin County, Croatia",
+    "predicted_lat": 43.91666667,
+    "predicted_lng": 15.85,
+    "reasoning_text": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"region\": \"Southern Europe\",\n  \"city\": \"near Šibenik\",\n  \"province_or_state\": \"Šibenik-Knin County\",\n  \"address\": \"Rural road in karst scrubland near Šibenik, Šibenik-Knin County, Croatia\",\n  \"confidence\": 0.43,\n  \"reasoning\": \"The scene shows a narrow paved rural road with European-style white edge lines and a faint center line, suggesting right-hand driving in Europe. The landscape is dry, rocky, and covered with low scrub and small deciduous trees, which is characteristic of karst Mediterranean terrain. The pale road shoulders and surrounding limestone-like soil strongly suggest the Adriatic hinterland. Among countries with this appearance, Croatia fits well, especially inland Dalmatia around Šibenik or similar areas where roads pass through low rolling karst hills with sparse vegetation. There are no strong urban or language clues, so this is an approximate best guess rather than a precise identification.\",\n  \"evidence\": [\n    \"Narrow two-lane rural road with European white edge markings\",\n    \"Right-hand driving road layout\",\n    \"Dry karst-like terrain with pale rocky shoulders\",\n    \"Mediterranean scrub and low rolling hills\",\n    \"Sparse rural environment typical of Adriatic hinterland landscapes\",\n    \"Visual similarity to inland Dalmatia in Croatia\"\n  ]\n}",
+    "evidence_spans": [
+      "Narrow two-lane rural road with European white edge markings",
+      "Right-hand driving road layout",
+      "Dry karst-like terrain with pale rocky shoulders",
+      "Mediterranean scrub and low rolling hills",
+      "Sparse rural environment typical of Adriatic hinterland landscapes",
+      "Visual similarity to inland Dalmatia in Croatia"
+    ],
+    "confidence": 0.43
+  },
+  "error": null
+}

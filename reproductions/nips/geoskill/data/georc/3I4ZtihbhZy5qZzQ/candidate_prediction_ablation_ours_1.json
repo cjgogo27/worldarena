@@ -1,0 +1,874 @@
+{
+  "game_id": "3I4ZtihbhZy5qZzQ",
+  "round": 1,
+  "sample_id": "georc::3I4ZtihbhZy5qZzQ::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "bd",
+    "predicted_region": "asia",
+    "predicted_lat": 23.05,
+    "predicted_lng": 90.35,
+    "reasoning_text": "{\n  \"country\": \"Bangladesh\",\n  \"country_code\": \"bd\",\n  \"region\": \"South Asia\",\n  \"lat\": 23.05,\n  \"lng\": 90.35,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to a rural, deltaic region in South Asia. The combination of a narrow paved road running directly alongside a calm waterway (river or canal) is characteristic of Bangladesh's geography. The vegetation, specifically the coconut palms mixed with dense tropical foliage, fits the climate of the Ganges-Brahmaputra delta. The specific dried plant stalks in the bottom right corner resemble the dried inflorescence of the Palmyra palm (Tala), which is common in Bangladesh and often used for thatching or fuel. The overhead power lines and the small structure with a green roof are consistent with rural infrastructure in the region. The lack of clear signage and the general 'look and feel' of the road and embankment align with Google Street View imagery from rural Bangladesh.\",\n  \"evidence\": [\n    \"Narrow paved road alongside a calm waterway (river/canal)\",\n    \"Tropical vegetation including coconut palms and dense foliage\",\n    \"Flat terrain typical of a delta region\",\n    \"Dried plant stalks (likely Palmyra palm) in bottom right corner\",\n    \"Overhead power lines running parallel to the road\",\n    \"Small structure with green roof in distance\",\n    \"No visible license plates or clear signage\"\n  ]\n}",
+    "evidence_spans": [
+      "Narrow paved road alongside a calm waterway (river/canal)",
+      "Tropical vegetation including coconut palms and dense foliage",
+      "Flat terrain typical of a delta region",
+      "Dried plant stalks (likely Palmyra palm) in bottom right corner",
+      "Overhead power lines running parallel to the road",
+      "Small structure with green roof in distance",
+      "No visible license plates or clear signage"
+    ],
+    "confidence": 0.85,
+    "geovista_observation": {
+      "observations": [
+        "The image displays a narrow, paved rural road running alongside a body of water (likely a river or canal) on the left.",
+        "Vegetation is lush and tropical, featuring prominent coconut palm trees and dense green foliage, suggesting a tropical climate.",
+        "The road surface is asphalt but appears somewhat worn, with no painted lane markings.",
+        "Overhead power lines run parallel to the road on the right side.",
+        "A small structure with a green roof is visible in the distance on the right side of the road.",
+        "The lighting suggests early morning or late afternoon, with long shadows cast across the road.",
+        "The terrain is flat, typical of a delta or coastal plain region.",
+        "There are no visible license plates or clear signage with text.",
+        "The road edge on the right is bordered by vegetation and what appears to be a small drainage ditch or embankment.",
+        "The water on the left is calm and reflects the sky and trees."
+      ],
+      "hard_clues": [
+        "Tropical vegetation including coconut palms indicates a location within the tropics (likely Southeast Asia, South Asia, or parts of Latin America).",
+        "The narrow, single-lane rural road infrastructure is characteristic of developing nations in Asia.",
+        "The specific combination of a river/canal on the left and dense tropical vegetation is highly characteristic of the Mekong Delta region in Vietnam or similar riverine areas in Thailand or Cambodia."
+      ],
+      "ambiguous_clues": [
+        "No specific language on signs to confirm the country.",
+        "No license plates visible to determine the country of registration.",
+        "The road is narrow and unmarked, making it difficult to determine the driving side definitively from the road layout alone, though the position of the camera suggests a right-hand traffic context (common in Asia).",
+        "The small green-roofed structure is generic and could be found in many tropical rural areas."
+      ],
+      "possible_scripts": [
+        "Vietnamese (Latin script with diacritics)",
+        "Thai script",
+        "Khmer script",
+        "Burmese script"
+      ],
+      "driving_side": "right"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Bangladesh",
+        "India",
+        "Thailand",
+        "Vietnam",
+        "Indonesia"
+      ],
+      "zoom_boxes": [
+        [
+          460,
+          460,
+          540,
+          530
+        ],
+        [
+          830,
+          850,
+          920,
+          990
+        ]
+      ],
+      "verification_queries": [
+        "Search for rural roads alongside canals or rivers in Bangladesh with coconut palms.",
+        "Identify the specific type of dried plant stalks visible in the bottom right corner.",
+        "Look for small structures with green roofs along rural waterways in South Asia.",
+        "Check for overhead power line configurations on rural roads in tropical delta regions."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "bd",
+      "predicted_region": "asia",
+      "predicted_lat": 23.05,
+      "predicted_lng": 90.35,
+      "confidence": 0.85
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "bd",
+      "predicted_region": "asia",
+      "predicted_lat": 23.05,
+      "predicted_lng": 90.35,
+      "confidence": 0.85
+    },
+    "base_prediction_summary": {
+      "predicted_country": "bd",
+      "predicted_region": "asia",
+      "predicted_lat": 23.05,
+      "predicted_lng": 90.35,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.85,
+    "skill_boost_aggressive_confidence": 0.85,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The presence of dense coconut palms and tropical vegetation suggests a humid tropical climate, typical of coastal South Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8453711330890656,
+          "visual_cues": [
+            "climate",
+            "coast",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "Dense tropical vegetation including coconut, palm and broadleaf trees indicates a humid climate typical of South or Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7756228744983673,
+          "visual_cues": [
+            "climate",
+            "road",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The presence of lush, tropical vegetation including palms and dense undergrowth matches what is found in subtropical climates, particularly in South and Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7516696840524675,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "There are coconut palms, banana plants, and other lush green tropical vegetation, suggesting tropical or subtropical climate most likely in South or Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.6962419092655183,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The vegetation consists of subtropical trees and the soil is dry with scattered debris typical of South Asian environments.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6715623199939729,
+          "visual_cues": [
+            "soil",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6711274027824402,
+          "visual_cues": [
+            "architecture",
+            "roof",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "Vegetation along the path is dense and scrubby, with small trees and shrubs common in Indian and Southeast Asian rural landscapes.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6630387336015702,
+          "visual_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "There are tropical plants visible, including banana trees and coconut palms, indicating a humid, equatorial climate likely in Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.6438143253326416,
+          "visual_cues": [
+            "climate",
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6324228197336197,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The surrounding hilly landscape, with steep roadside cuts and dense forest, suggests a location away from the coast and near the mountains typical of northern Vietnam.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6177163183689118,
+          "visual_cues": [
+            "coast",
+            "mountains",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The vegetation includes a mixture of broadleaf evergreens and pine, characteristic of the Japanese countryside and climate zones.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6076157659292222,
+          "visual_cues": [
+            "climate",
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The mix of paved and dirt roads, small fields with boundary plants, and style of the electric wiring above all point to rural settings in India, rather than neighboring countries like Bangladesh or Nepal.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.5854665696620942,
+          "visual_cues": [
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "coast"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The presence of dense coconut palms and tropical vegetation suggests a humid tropical climate, typical of coastal South Asia.",
+        "Dense tropical vegetation including coconut, palm and broadleaf trees indicates a humid climate typical of South or Southeast Asia.",
+        "The presence of lush, tropical vegetation including palms and dense undergrowth matches what is found in subtropical climates, particularly in South and Southeast Asia.",
+        "There are coconut palms, banana plants, and other lush green tropical vegetation, suggesting tropical or subtropical climate most likely in South or Southeast Asia.",
+        "The vegetation consists of subtropical trees and the soil is dry with scattered debris typical of South Asian environments.",
+        "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+        "Vegetation along the path is dense and scrubby, with small trees and shrubs common in Indian and Southeast Asian rural landscapes.",
+        "There are tropical plants visible, including banana trees and coconut palms, indicating a humid, equatorial climate likely in Southeast Asia.",
+        "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "The surrounding hilly landscape, with steep roadside cuts and dense forest, suggests a location away from the coast and near the mountains typical of northern Vietnam.",
+        "The vegetation includes a mixture of broadleaf evergreens and pine, characteristic of the Japanese countryside and climate zones.",
+        "The mix of paved and dirt roads, small fields with boundary plants, and style of the electric wiring above all point to rural settings in India, rather than neighboring countries like Bangladesh or Nepal."
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Jordan",
+  "country_code": "jo",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of Arabic script on signs (e.g., 'LLAGE' with Arabic text above) indicates a Middle Eastern country where Arabic is official.",
+    "Vehicles drive on the right side of the road, consistent with Jordan and other Arab nations.",
+    "Beige stone architecture and flat terrain are typical of urban areas in Jordan, especially Amman or surrounding cities."
+  ],
+  "raw_output": "{\n  \"country\": \"Jordan\",\n  \"country_code\": \"jo\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of Arabic script on signs (e.g., 'LLAGE' with Arabic text above) indicates a Middle Eastern country where Arabic is official.\",\n    \"Vehicles drive on the right side of the road, consistent with Jordan and other Arab nations.\",\n    \"Beige stone architecture and flat terrain are typical of urban areas in Jordan, especially Amman or surrounding cities.\",\n    \"The yellow school bus design and utility pole style match those commonly found"
+}

@@ -1,0 +1,12 @@
+{
+  "country": "Canada",
+  "country_code": "ca",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow center line and white edge lines, consistent with Canadian two-lane rural highways.",
+    "Flat, expansive green agricultural fields under a wide sky are typical of the Canadian Prairies.",
+    "No visible utility poles, buildings, or signage suggest remote rural location common in provinces like Saskatchewan or Manitoba.",
+    "Vegetation and terrain indicate temperate grassland climate, matching central Canada’s agricultural belt."
+  ],
+  "raw_output": "{\n  \"country\": \"Canada\",\n  \"country_code\": \"ca\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow center line and white edge lines, consistent with Canadian two-lane rural highways.\",\n    \"Flat, expansive green agricultural fields under a wide sky are typical of the Canadian Prairies.\",\n    \"No visible utility poles, buildings, or signage suggest remote rural location common in provinces like Saskatchewan or Manitoba.\",\n    \"Vegetation and terrain indicate temperate grassland climate, matching central Canada’s agricultural belt.\"\n  ]"
+}

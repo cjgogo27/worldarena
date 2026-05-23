@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-03-29T04:40:55.234335+00:00",
+  "benchmark_dir": "benchmark/bagel_content_style_benchmark",
+  "style_prompts": "resources/styles/style_prompts_40_v1.json",
+  "clip_model_dir": "models/clip-vit-large-patch14",
+  "vlm_model_dir": "models/Qwen3.5-9B",
+  "prompt_template_id": "style_transfer_40_v1",
+  "delta_min": 0.02,
+  "vlm_weight": 0.7,
+  "split_content_ids": {
+    "train": [
+      "content_0001",
+      "content_0004",
+      "content_0006",
+      "content_0008",
+      "content_0010"
+    ],
+    "val": [],
+    "test": [
+      "content_0016"
+    ]
+  },
+  "split_leakage_detected": false,
+  "style_count": 40,
+  "content_count": 6,
+  "groups_total": 83,
+  "groups_by_split": {
+    "train": 70,
+    "val": 0,
+    "test": 13
+  },
+  "expanded_pairs": 249,
+  "ratio_stats": {
+    "target_1_3": 83,
+    "fallback_1_2": 0,
+    "fallback_1_1": 0,
+    "failed_groups": 157
+  },
+  "files": {
+    "preference_pairs": "results/pair_benchmark_build/preference_pairs.json",
+    "pair_manifest": "results/pair_benchmark_build/pair_manifest.json",
+    "pair_quality_report": "results/pair_benchmark_build/pair_quality_report.txt",
+    "pair_build_failures": "results/pair_benchmark_build/pair_build_failures.jsonl"
+  }
+}

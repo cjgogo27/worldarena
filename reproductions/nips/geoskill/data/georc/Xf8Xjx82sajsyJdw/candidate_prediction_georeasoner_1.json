@@ -1,0 +1,11 @@
+{
+  "country": "Mauritania",
+  "country_code": "mr",
+  "city": "",
+  "reasoning_chain": [
+    "The architecture features unfinished cinder block buildings with flat roofs, typical of Sahelian construction in Mauritania.",
+    "Vehicles drive on the right side of the road, consistent with left-hand traffic countries like Mauritania (note: correction — Mauritania drives on the right; this matches).",
+    "Sparse vegetation and arid terrain under a clear blue sky indicate a hot, dry climate common in northern West Africa."
+  ],
+  "raw_output": "{\n  \"country\": \"Mauritania\",\n  \"country_code\": \"mr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The architecture features unfinished cinder block buildings with flat roofs, typical of Sahelian construction in Mauritania.\",\n    \"Vehicles drive on the right side of the road, consistent with left-hand traffic countries like Mauritania (note: correction — Mauritania drives on the right; this matches).\",\n    \"Sparse vegetation and arid terrain under a clear blue sky indicate a hot, dry climate common in northern West Africa.\",\n    \"Utility"
+}

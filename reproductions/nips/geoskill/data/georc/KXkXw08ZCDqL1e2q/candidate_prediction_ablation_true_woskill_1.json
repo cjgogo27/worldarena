@@ -1,0 +1,34 @@
+{
+  "game_id": "KXkXw08ZCDqL1e2q",
+  "round": 1,
+  "sample_id": "georc::KXkXw08ZCDqL1e2q::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "cz",
+    "predicted_region": "europe",
+    "predicted_address": "Hodkovická ulice, Liberec XXIII-Doubí, Liberec Region, Czech Republic",
+    "predicted_lat": 50.76666667,
+    "predicted_lng": 15.06666667,
+    "reasoning_text": "```json\n{\n  \"country\": \"Czech Republic\",\n  \"country_code\": \"cz\",\n  \"region\": \"Central Europe\",\n  \"city\": \"Liberec\",\n  \"province_or_state\": \"Liberec Region\",\n  \"address\": \"Hodkovická ulice, Liberec XXIII-Doubí, Liberec Region, Czech Republic\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows a rural/suburban road with distinct Central European architecture. The house style with gabled roofs, pastel-colored facades, and wooden picket fences is characteristic of Czech rural areas. The road marking style (solid center line with dashed segments) and the utility pole design with multiple cross-arms are typical of Czech infrastructure. The vegetation and climate indicators (mixed deciduous trees, green grass, overcast sky) match the Liberec region's temperate climate. The driving side appears to be right-hand traffic. The overall scene matches the outskirts of Liberec, specifically the Doubí district, which has this type of residential development along main roads. The blue car and general road condition are consistent with Czech road standards.\",\n  \"evidence\": [\"Pastel-colored gabled houses typical of Czech rural architecture\", \"Wooden picket fences common in Czech countryside\", \"Czech-style road markings with solid/dashed white lines\", \"Multi-crossarm utility poles characteristic of Czech infrastructure\", \"Right-hand traffic orientation\", \"Temperate vegetation matching Liberec region climate\", \"Rural-suburban transition zone typical of Czech district outskirts\"]\n}\n```",
+    "evidence_spans": [
+      "Pastel-colored gabled houses typical of Czech rural architecture",
+      "Wooden picket fences common in Czech countryside",
+      "Czech-style road markings with solid/dashed white lines",
+      "Multi-crossarm utility poles characteristic of Czech infrastructure",
+      "Right-hand traffic orientation",
+      "Temperate vegetation matching Liberec region climate",
+      "Rural-suburban transition zone typical of Czech district outskirts"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "cz",
+      "pl",
+      "sk"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"cz\",\"pl\",\"sk\"],\"reason\":\"Architecture shows Central European rural housing with gabled roofs, pastel-colored plaster facades, and wooden picket fences typical of Czech Republic. Road markings (white dashed center line), utility pole style, and vegetation (mixed deciduous/coniferous) match Czech rural areas. Driving on right side of road. The house style with small attic windows and satellite dish placement is distinctly Czech rather than Polish or Slovak, though those are close regional matches.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8775000000000001
+  },
+  "error": null
+}

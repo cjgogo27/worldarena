@@ -1,0 +1,12 @@
+{
+  "country": "Morocco",
+  "country_code": "ma",
+  "city": "",
+  "reasoning_chain": [
+    "The road sign displays Arabic script alongside French ('CLINIQUE'), indicating a bilingual region typical of Morocco.",
+    "White-washed walls and dense cypress trees are characteristic of Moroccan suburban or semi-urban landscapes.",
+    "Vehicles drive on the right side of the road, consistent with Moroccan traffic laws.",
+    "The climate appears arid to semi-arid with sparse vegetation beyond the immediate roadside, matching Morocco’s interior regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Morocco\",\n  \"country_code\": \"ma\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road sign displays Arabic script alongside French ('CLINIQUE'), indicating a bilingual region typical of Morocco.\",\n    \"White-washed walls and dense cypress trees are characteristic of Moroccan suburban or semi-urban landscapes.\",\n    \"Vehicles drive on the right side of the road, consistent with Moroccan traffic laws.\",\n    \"The climate appears arid to semi-arid with sparse vegetation beyond the immediate roadside, matching Morocco’s interior regions.\""
+}

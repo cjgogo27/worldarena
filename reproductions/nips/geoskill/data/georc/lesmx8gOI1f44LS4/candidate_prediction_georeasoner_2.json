@@ -1,0 +1,11 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "Red soil and sparse acacia-like vegetation indicate arid Australian outback environment.",
+    "Road markings (dashed white center line, solid shoulder lines) and right-hand traffic align with Australian road standards.",
+    "Solar-powered streetlights and remote roadhouse signage ('Stuarts Well Roadhouse') are typical of remote Australian highways."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Red soil and sparse acacia-like vegetation indicate arid Australian outback environment.\",\n    \"Road markings (dashed white center line, solid shoulder lines) and right-hand traffic align with Australian road standards.\",\n    \"Solar-powered streetlights and remote roadhouse signage ('Stuarts Well Roadhouse') are typical of remote Australian highways.\",\n    \"Gas station canopy and vehicle types (4WDs, campervans) match Australian roadhouse culture and"
+}

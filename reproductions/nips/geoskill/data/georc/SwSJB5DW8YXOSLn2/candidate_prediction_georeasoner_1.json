@@ -1,0 +1,10 @@
+{
+  "country": "United Kingdom",
+  "country_code": "gb",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved gravel road flanked by dense heathland and scrub vegetation is characteristic of rural southern England, particularly areas like the South Downs or Hampshire.",
+    "Absence of any road markings, signage, or vehicles suggests a minor public footpath or bridleway rather than a main road, common in UK countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved gravel road flanked by dense heathland and scrub vegetation is characteristic of rural southern England, particularly areas like the South Downs or Hampshire.\",\n    \"Absence of any road markings, signage, or vehicles suggests a minor public footpath or bridleway rather than a main road, common in UK countryside.\",\n    \"Vegetation includes gorse, brambles, and deciduous trees with autumnal tones, consistent with temper"
+}

@@ -1,0 +1,24 @@
+{
+  "game_id": "NqhvwHTYOTtGmZgm",
+  "round": 1,
+  "sample_id": "georc::NqhvwHTYOTtGmZgm::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "is",
+    "predicted_region": "europe",
+    "predicted_address": "Snaefellsjokull area, near Olafsvik, Western Region, Iceland",
+    "predicted_lat": 64.89416667,
+    "predicted_lng": -23.71083333,
+    "reasoning_text": "{\n  \"country\": \"Iceland\",\n  \"country_code\": \"is\",\n  \"region\": \"Northern Europe\",\n  \"city\": \"Ólafsvík\",\n  \"province_or_state\": \"Western Region\",\n  \"address\": \"Snaefellsjokull area, near Olafsvik, Western Region, Iceland\",\n  \"confidence\": 0.46,\n  \"reasoning\": \"The landscape is treeless, barren, and volcanic, with dark gravelly ground and sparse moss, which strongly suggests Iceland. Snow patches on nearby mountains and a broad icy or oceanic horizon fit an exposed North Atlantic volcanic setting. The simple viewing platform and rough track resemble tourist-accessible viewpoints in Icelandic national park or highland areas rather than a settled town. I considered Antarctica or other subpolar islands, but the terrain and the likelihood of street-view-style coverage point more convincingly to Iceland. The most plausible approximate location is a remote viewpoint around the Snaefellsjokull peninsula, near Olafsvik.\",\n  \"evidence\": [\n    \"Dark volcanic gravel and rocky barren ground\",\n    \"Treeless subpolar landscape with sparse moss\",\n    \"Snow-covered mountains nearby\",\n    \"Large icy or ocean-facing horizon typical of Icelandic coastal/highland vistas\",\n    \"Remote tourist platform and rough track consistent with Icelandic scenic viewpoints\"\n  ]\n}",
+    "evidence_spans": [
+      "Dark volcanic gravel and rocky barren ground",
+      "Treeless subpolar landscape with sparse moss",
+      "Snow-covered mountains nearby",
+      "Large icy or ocean-facing horizon typical of Icelandic coastal/highland vistas",
+      "Remote tourist platform and rough track consistent with Icelandic scenic viewpoints"
+    ],
+    "confidence": 0.46
+  },
+  "error": null
+}

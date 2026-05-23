@@ -1,0 +1,25 @@
+{
+  "game_id": "5GS2RPgTrf85UZM5",
+  "round": 1,
+  "sample_id": "georc::5GS2RPgTrf85UZM5::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "mk",
+    "predicted_region": "europe",
+    "predicted_address": "Suburban roadside area in Tetovo, Polog Region, North Macedonia",
+    "predicted_lat": 42.0,
+    "predicted_lng": 20.96666667,
+    "reasoning_text": "{\n  \"country\": \"North Macedonia\",\n  \"country_code\": \"mk\",\n  \"region\": \"Southeast Europe\",\n  \"city\": \"Tetovo\",\n  \"province_or_state\": \"Polog Region\",\n  \"address\": \"Suburban roadside area in Tetovo, Polog Region, North Macedonia\",\n  \"confidence\": 0.48,\n  \"reasoning\": \"The scene suggests the Balkans: right-side driving, European road markings, concrete utility poles, and low-rise houses with red tile roofs. The broad road, painted tree trunks, and semi-urban development are consistent with former Yugoslav countries. The mountainous backdrop and valley-like setting fit western North Macedonia particularly well. Among plausible options such as Serbia, Kosovo, and Bulgaria, North Macedonia best matches the combination of road style, architecture, and terrain. Tetovo is a reasonable locality guess because it sits in a populated valley with visible mountains close by and has many suburban stretches like this.\",\n  \"evidence\": [\n    \"Vehicles are driving on the right\",\n    \"European-style white lane markings and road layout\",\n    \"Concrete roadside utility poles typical in the Balkans\",\n    \"Red clay tile roofs on low-rise homes\",\n    \"Mountainous landscape close to a semi-urban settlement\",\n    \"General former Yugoslav visual character with painted tree trunks and roadside design\"\n  ]\n}",
+    "evidence_spans": [
+      "Vehicles are driving on the right",
+      "European-style white lane markings and road layout",
+      "Concrete roadside utility poles typical in the Balkans",
+      "Red clay tile roofs on low-rise homes",
+      "Mountainous landscape close to a semi-urban settlement",
+      "General former Yugoslav visual character with painted tree trunks and roadside design"
+    ],
+    "confidence": 0.48
+  },
+  "error": null
+}

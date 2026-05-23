@@ -1,0 +1,810 @@
+{
+  "game_id": "N2IFsQAIIcXPuNKn",
+  "round": 1,
+  "sample_id": "georc::N2IFsQAIIcXPuNKn::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "hr",
+    "predicted_region": "europe",
+    "predicted_lat": 44.185,
+    "predicted_lng": 16.425,
+    "reasoning_text": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"region\": \"Europe\",\n  \"lat\": 44.185,\n  \"lng\": 16.425,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to the Mediterranean region of Croatia, specifically the Dalmatian hinterland or the Karst region. The vegetation is a classic 'garrigue' or 'maquis' landscape—low, scrubby bushes and small trees typical of the dry, rocky limestone terrain found in this area. The road surface is light grey, dusty asphalt with a solid white edge line and a faded center line, which is characteristic of secondary rural roads (often county roads) in Croatia. The terrain is hilly and undulating, consistent with the topography of the Dalmatian hinterland. The bright blue sky and high sun angle suggest a Mediterranean climate. While similar landscapes exist in Italy, Slovenia, and Greece, the specific combination of the road markings, the texture of the scrub, and the overall 'feel' of the landscape is highly indicative of Croatia. The coordinates provided are in the vicinity of the Dalmatian hinterland, an area known for this exact type of scenery.\",\n  \"evidence\": [\n    \"Mediterranean maquis/garrigue vegetation (dense, low-lying scrub and small trees).\",\n    \"Hilly, undulating terrain typical of the Dalmatian hinterland or Karst region.\",\n    \"Paved two-lane road with a solid white edge line and a faded center line, consistent with Croatian rural roads.\",\n    \"Light grey, dry, and dusty asphalt road surface.\",\n    \"Bright blue sky with high, thin cirrus clouds, indicating a Mediterranean climate.\",\n    \"Absence of buildings or other vehicles, suggesting a remote, rural location.\"\n  ]\n}",
+    "evidence_spans": [
+      "Mediterranean maquis/garrigue vegetation (dense, low-lying scrub and small trees).",
+      "Hilly, undulating terrain typical of the Dalmatian hinterland or Karst region.",
+      "Paved two-lane road with a solid white edge line and a faded center line, consistent with Croatian rural roads.",
+      "Light grey, dry, and dusty asphalt road surface.",
+      "Bright blue sky with high, thin cirrus clouds, indicating a Mediterranean climate.",
+      "Absence of buildings or other vehicles, suggesting a remote, rural location."
+    ],
+    "confidence": 0.85,
+    "geovista_observation": {
+      "observations": [
+        "Paved two-lane road with a solid white line on the right edge and a faint, worn center line.",
+        "Vegetation consists of dense, low-lying scrub, bushes, and small trees with yellowish-green foliage, typical of a Mediterranean maquis or garrigue landscape.",
+        "Terrain is hilly and undulating, with the road curving gently uphill towards the horizon.",
+        "The sky is bright blue with high, thin cirrus clouds, indicating fair weather.",
+        "The road surface is light grey asphalt, appearing dry and dusty.",
+        "No buildings, traffic signs, or other vehicles are visible in the immediate vicinity.",
+        "The lighting suggests a high sun angle, casting short shadows to the left of the vegetation.",
+        "The overall color palette is dominated by earthy greens, browns, and the blue of the sky."
+      ],
+      "hard_clues": [
+        "Road markings: Solid white edge line and faded center line are consistent with European rural roads.",
+        "Vegetation type: The specific mix of scrub and small trees strongly suggests a Mediterranean climate zone (Southern Europe, North Africa, or similar).",
+        "Lack of infrastructure: The remote nature of the road suggests it is a secondary or tertiary route, likely in a protected area or rural region."
+      ],
+      "ambiguous_clues": [
+        "The specific species of the vegetation are not identifiable from this distance, making it difficult to pinpoint a specific country.",
+        "The road surface is generic and does not provide a unique identifier.",
+        "The lack of any text or distinct man-made structures makes definitive identification impossible without external data."
+      ],
+      "possible_scripts": [
+        "Mediterranean Europe (e.g., Southern France, Italy, Spain, Greece, Croatia)",
+        "North Africa (e.g., coastal regions of Morocco, Algeria, Tunisia)",
+        "California, USA (similar chaparral landscape)"
+      ],
+      "driving_side": "right"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Croatia",
+        "Slovenia",
+        "Italy",
+        "Greece",
+        "Spain"
+      ],
+      "zoom_boxes": [
+        [
+          0,
+          0,
+          1000,
+          1000
+        ]
+      ],
+      "verification_queries": [
+        "Search for Google Street View imagery of rural roads in Croatia (Istria or Dalmatia) and Slovenia (Karst region) featuring maquis/garrigue vegetation.",
+        "Verify if the road surface texture and faded center line markings match typical secondary roads in the Mediterranean region.",
+        "Check for similar landscape features (hilly, scrubland) in protected nature parks in Southern Europe."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "hr",
+      "predicted_region": "europe",
+      "predicted_lat": 44.185,
+      "predicted_lng": 16.425,
+      "confidence": 0.85
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "hr",
+      "predicted_region": "europe",
+      "predicted_lat": 44.185,
+      "predicted_lng": 16.425,
+      "confidence": 0.85
+    },
+    "base_prediction_summary": {
+      "predicted_country": "hr",
+      "predicted_region": "europe",
+      "predicted_lat": 44.185,
+      "predicted_lng": 16.425,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.85,
+    "skill_boost_aggressive_confidence": 0.85,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8585648626089096,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7612653434276582,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The dry, hilly terrain with sparse vegetation and olive trees is typical of the Mediterranean climate found in Greece, southern Italy, and coastal Spain.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7526569902896882,
+          "visual_cues": [
+            "climate",
+            "coast",
+            "terrain",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The narrow, worn, cracked road with no center line is typical of rural roads in post-Soviet countries such as the Baltic states, Belarus, or Russia.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7415215015411377,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7382010847330094,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7284552723169326,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road is narrow and edged with rough grass, suggesting a minor road, often found in southern France, northern Spain, Italy, or Portugal.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7035712867975236,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.6939248919487,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6927949100732804,
+          "visual_cues": [
+            "highway",
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The vegetation is dense, temperate, and deciduous, suggesting a region with significant rainfall and moderate temperatures, typical of Central or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6853468328714372,
+          "visual_cues": [
+            "sign",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6808996081352234,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "Vegetation includes Mediterranean scrub, olive-like trees, and hilly terrain with semi-arid undergrowth, typical of southern Spain.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6572862386703491,
+          "visual_cues": [
+            "terrain",
+            "trees",
+            "vegetation"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "terrain",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+        "The dry, hilly terrain with sparse vegetation and olive trees is typical of the Mediterranean climate found in Greece, southern Italy, and coastal Spain.",
+        "The narrow, worn, cracked road with no center line is typical of rural roads in post-Soviet countries such as the Baltic states, Belarus, or Russia.",
+        "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+        "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "The road is narrow and edged with rough grass, suggesting a minor road, often found in southern France, northern Spain, Italy, or Portugal.",
+        "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+        "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+        "The vegetation is dense, temperate, and deciduous, suggesting a region with significant rainfall and moderate temperatures, typical of Central or Eastern Europe.",
+        "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+        "Vegetation includes Mediterranean scrub, olive-like trees, and hilly terrain with semi-arid undergrowth, typical of southern Spain."
+      ],
+      "summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

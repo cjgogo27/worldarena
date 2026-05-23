@@ -1,0 +1,138 @@
+[
+  {
+    "user_id": "30298497_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:00",
+        "reason": "It's late at night, and it's typical to sleep during these hours."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:00",
+        "end_time": "08:00",
+        "reason": "Starting the day with a meal at home before heading to work is a common routine."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "10:30",
+        "reason": "As a full-time professional with a graduate degree, starting the workday in the morning aligns with typical work hours and the user's primary activity."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "10:30",
+        "end_time": "12:30",
+        "reason": "A midday exercise session fits well with a professional's schedule, providing a break from work and promoting health and wellness."
+      },
+      {
+        "activity": "work",
+        "start_time": "12:30",
+        "end_time": "15:00",
+        "reason": "As a full-time professional with a primary activity of working, it is realistic to return to work after a midday exercise session."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:00",
+        "end_time": "17:00",
+        "reason": "After a full workday, it's a good time to run errands or do some shopping before heading home."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After a busy day of work, exercise, and shopping, dining out provides a chance to unwind and enjoy a meal with a partner, fitting the social and cultural lifestyle of a professional in California."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's a good time to visit friends or family, especially given the user's relationship status and cultural background, which may emphasize family connections."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After a busy evening of shopping, dining out, and socializing, it's realistic for the user to spend the remaining time at home for leisure or winding down before bed."
+      },
+      {
+        "activity": "dropoff_pickup",
+        "start_time": "23:30",
+        "end_time": "23:50",
+        "reason": "A quick late-night pickup of a family member or partner, fitting within the remaining time before the day ends."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:50",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "30298497_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:00",
+        "reason": "It is the middle of the night, a typical time for sleeping."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "07:00",
+        "end_time": "09:00",
+        "reason": "Starting the day with exercise is a healthy routine and fits well with the time of day. It also provides energy and focus for the rest of the day."
+      },
+      {
+        "activity": "home",
+        "start_time": "09:00",
+        "end_time": "11:00",
+        "reason": "After exercising, it's a good time to have breakfast and relax at home before starting other activities."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "The user might need to run errands or shop for groceries or other necessities during the late morning hours."
+      },
+      {
+        "activity": "work",
+        "start_time": "13:00",
+        "end_time": "15:00",
+        "reason": "As the user works part-time and has already engaged in exercise and shopping, it's reasonable to allocate some time for work-related activities in the afternoon."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "15:00",
+        "end_time": "17:00",
+        "reason": "After finishing work, engaging in physical activity like going to the gym or playing sports is a healthy way to unwind and maintain fitness."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After exercising, it is common to have a meal. Dining out is a social and leisure activity that fits the time of day and provides an opportunity to relax and enjoy a meal outside the home."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's a good time to visit friends or family, especially in the evening when social gatherings are common."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After a busy evening of exercise, dining out, and socializing, it's realistic to spend the remaining time at home for leisure activities before winding down for the night."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  }
+]

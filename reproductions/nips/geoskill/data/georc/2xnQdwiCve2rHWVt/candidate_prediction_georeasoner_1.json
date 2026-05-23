@@ -1,0 +1,13 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The road is divided with vehicles driving on the left, consistent with India’s traffic rules.",
+    "Utility poles and overhead wires are typical of rural Indian highways, especially in states like Maharashtra or Karnataka.",
+    "Vegetation includes dry grass and scattered trees under a clear sky, suggesting a semi-arid or tropical savanna climate common in central India.",
+    "The combination of left-hand traffic, utility infrastructure, and vegetation patterns strongly points to a rural highway in India. The absence of urban signage or multilingual text further supports a non-metropolitan location within the country."
+  ],
+  "reasoning": "The combination of left-hand traffic, utility infrastructure, and vegetation patterns strongly points to a rural highway in India. The absence of urban signage or multilingual text further supports a non-metropolitan location within the country.",
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is divided with vehicles driving on the left, consistent with India’s traffic rules.\",\n    \"Utility poles and overhead wires are typical of rural Indian highways, especially in states like Maharashtra or Karnataka.\",\n    \"Vegetation includes dry grass and scattered trees under a clear sky, suggesting a semi-arid or tropical savanna climate common in central India.\"\n  ],\n  \"reasoning\": \"The combination of left-hand traffic, utility infrastructure, and vegetation patterns strongly points to a rural highway in India. The absence of urban signage or multilingual text further supports a non-metropolitan location within the country.\"\n}"
+}

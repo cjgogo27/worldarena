@@ -1,0 +1,24 @@
+{
+  "game_id": "KZ2f6LqzJRyChcg8",
+  "round": 1,
+  "image_path": "/data/alice/cjtest/NIPS/geoskill/data/georc/KZ2f6LqzJRyChcg8/KZ2f6LqzJRyChcg8_1.png",
+  "ground_truth_country": "ad",
+  "ground_truth_lat": 42.546186181162476,
+  "ground_truth_lng": 1.508177145315149,
+  "expert_chain": "Entry not found",
+  "sample_id": "georc::KZ2f6LqzJRyChcg8::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "unknown",
+    "predicted_region": "unknown",
+    "predicted_lat": NaN,
+    "predicted_lng": NaN,
+    "reasoning_text": "ERROR: VLM query failed after retries: HTTPSConnectionPool(host='api.mytokenland.com', port=443): Read timed out. (read timeout=60)",
+    "evidence_spans": [],
+    "confidence": 0.0
+  },
+  "error": "VLM query failed after retries: HTTPSConnectionPool(host='api.mytokenland.com', port=443): Read timed out. (read timeout=60)",
+  "error_type": "RuntimeError",
+  "retry_attempts": 2
+}

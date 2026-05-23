@@ -1,0 +1,10 @@
+{
+  "country": "Ecuador",
+  "country_code": "ec",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of concrete block houses with unfinished facades and corrugated metal roofs is typical of informal settlements in Andean cities like Quito or Cuenca.",
+    "Overhead electrical wires strung between wooden poles without standardized spacing or modern infrastructure suggest a developing urban area common in Ecuador’s highlands."
+  ],
+  "raw_output": "{\n  \"country\": \"Ecuador\",\n  \"country_code\": \"ec\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of concrete block houses with unfinished facades and corrugated metal roofs is typical of informal settlements in Andean cities like Quito or Cuenca.\",\n    \"Overhead electrical wires strung between wooden poles without standardized spacing or modern infrastructure suggest a developing urban area common in Ecuador’s highlands.\",\n    \"The steep, grassy terrain with scattered vegetation and distant mountainous backdrop aligns with the Andean topography found in central Ecuador"
+}

@@ -1,0 +1,25 @@
+{
+  "game_id": "8Uo6ejwXYqmp9av3",
+  "round": 1,
+  "sample_id": "georc::8Uo6ejwXYqmp9av3::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "th",
+    "predicted_region": "asia",
+    "predicted_address": "Rural village lane on the outskirts of Khon Kaen, Khon Kaen Province, Thailand",
+    "predicted_lat": 16.0,
+    "predicted_lng": 103.0,
+    "reasoning_text": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Khon Kaen\",\n  \"province_or_state\": \"Khon Kaen Province\",\n  \"address\": \"Rural village lane on the outskirts of Khon Kaen, Khon Kaen Province, Thailand\",\n  \"confidence\": 0.42,\n  \"reasoning\": \"The scene shows a rural tropical village with a very narrow poured-concrete lane, low masonry walls, simple single-story houses with corrugated metal roofs, and dry agricultural land beside homes. This combination is very typical of mainland Southeast Asia. The utility pole and long streetlight arm, the style of village road paving, and the general residential-agricultural layout are especially consistent with rural Thailand. The landscape appears flat and seasonally dry, which fits northeastern Thailand well. There are no readable signs or plates to confirm a precise locality, so the final location is an approximate guess in rural Khon Kaen Province.\",\n  \"evidence\": [\n    \"Narrow poured-concrete village road common in rural Thailand\",\n    \"Tropical vegetation with a dry-season appearance\",\n    \"Single-story homes with corrugated metal roofing\",\n    \"Flat agricultural terrain beside residential plots\",\n    \"Utility pole and streetlight style consistent with Thai rural infrastructure\",\n    \"Overall village layout resembles northeastern Thailand\"\n  ]\n}",
+    "evidence_spans": [
+      "Narrow poured-concrete village road common in rural Thailand",
+      "Tropical vegetation with a dry-season appearance",
+      "Single-story homes with corrugated metal roofing",
+      "Flat agricultural terrain beside residential plots",
+      "Utility pole and streetlight style consistent with Thai rural infrastructure",
+      "Overall village layout resembles northeastern Thailand"
+    ],
+    "confidence": 0.42
+  },
+  "error": null
+}

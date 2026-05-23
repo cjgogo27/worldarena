@@ -1,0 +1,12 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "The white-washed buildings with red-tiled roofs and the church bell tower are characteristic of rural Portuguese architecture.",
+    "The cobblestone sidewalk and narrow road layout are typical of small Portuguese towns.",
+    "The presence of a utility pole with overhead wires and the style of street lighting match Portuguese infrastructure.",
+    "The vegetation, including the large tree and surrounding greenery, is consistent with the Mediterranean climate of Portugal."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The white-washed buildings with red-tiled roofs and the church bell tower are characteristic of rural Portuguese architecture.\",\n    \"The cobblestone sidewalk and narrow road layout are typical of small Portuguese towns.\",\n    \"The presence of a utility pole with overhead wires and the style of street lighting match Portuguese infrastructure.\",\n    \"The vegetation, including the large tree and surrounding greenery, is consistent with the Mediterranean climate of Portugal.\"\n  ]\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Mexico",
+  "country_code": "mx",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved, narrow road with no center line or markings is typical of rural backroads in Mexico’s Yucatán Peninsula.",
+    "Lush tropical vegetation, including dense green foliage and scattered trees, aligns with the humid subtropical climate of southern Mexico.",
+    "Absence of utility poles, signage, or vehicles suggests a remote, non-urbanized area common in regions like Campeche or Quintana Roo."
+  ],
+  "raw_output": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved, narrow road with no center line or markings is typical of rural backroads in Mexico’s Yucatán Peninsula.\",\n    \"Lush tropical vegetation, including dense green foliage and scattered trees, aligns with the humid subtropical climate of southern Mexico.\",\n    \"Absence of utility poles, signage, or vehicles suggests a remote, non-urbanized area common in regions like Campeche or Quintana Roo.\",\n    \"The terrain is"
+}

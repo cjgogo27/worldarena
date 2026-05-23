@@ -1,0 +1,11 @@
+{
+  "country": "South Africa",
+  "country_code": "za",
+  "city": "",
+  "reasoning_chain": [
+    "The white pickup truck driving on the left side of the road indicates left-hand traffic, consistent with South Africa.",
+    "The reddish-brown soil and sparse vegetation are typical of semi-arid regions in South Africa, particularly in provinces like Limpopo or Mpumalanga.",
+    "The simple, low-rise buildings with metal fencing and lack of urban infrastructure suggest a rural or peri-urban settlement common in South African townships or rural areas."
+  ],
+  "raw_output": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The white pickup truck driving on the left side of the road indicates left-hand traffic, consistent with South Africa.\",\n    \"The reddish-brown soil and sparse vegetation are typical of semi-arid regions in South Africa, particularly in provinces like Limpopo or Mpumalanga.\",\n    \"The simple, low-rise buildings with metal fencing and lack of urban infrastructure suggest a rural or peri-urban settlement common in South African townships or rural areas.\","
+}

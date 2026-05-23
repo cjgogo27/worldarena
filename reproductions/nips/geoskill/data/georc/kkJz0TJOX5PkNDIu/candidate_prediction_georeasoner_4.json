@@ -1,0 +1,11 @@
+{
+  "country": "Costa Rica",
+  "country_code": "cr",
+  "city": "",
+  "reasoning_chain": [
+    "The vehicle is a Chevrolet Silverado, common in Central America, and drives on the right side of the road, consistent with Costa Rican traffic laws.",
+    "The yellow building with red trim and satellite dish reflects typical residential architecture in Costa Rican towns, especially in rural or semi-urban areas.",
+    "Vegetation includes lush green trees and tropical plants, indicating a warm, humid climate typical of Costa Rica’s lowland regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Costa Rica\",\n  \"country_code\": \"cr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The vehicle is a Chevrolet Silverado, common in Central America, and drives on the right side of the road, consistent with Costa Rican traffic laws.\",\n    \"The yellow building with red trim and satellite dish reflects typical residential architecture in Costa Rican towns, especially in rural or semi-urban areas.\",\n    \"Vegetation includes lush green trees and tropical plants, indicating a warm, humid climate typical of Costa Rica’s lowland regions.\","
+}

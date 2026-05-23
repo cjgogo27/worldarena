@@ -1,0 +1,794 @@
+{
+  "game_id": "JnTw9kl2nWPFaoUg",
+  "round": 1,
+  "sample_id": "georc::JnTw9kl2nWPFaoUg::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "sa",
+    "predicted_region": "asia",
+    "predicted_lat": 24.7136,
+    "predicted_lng": 46.6753,
+    "reasoning_text": "{\n  \"country\": \"Saudi Arabia\",\n  \"country_code\": \"sa\",\n  \"region\": \"Middle East\",\n  \"lat\": 24.7136,\n  \"lng\": 46.6753,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to the Arabian Peninsula. The combination of date palms, arid flat terrain, and the specific style of the low concrete block wall (often used for perimeter fencing in rural or semi-rural areas) is characteristic of Saudi Arabia. The unpaved gravel road and the white pickup/SUV are ubiquitous in rural Saudi regions. The hazy, bright sun and lack of infrastructure suggest a location on the outskirts of a city or in a rural agricultural zone. While UAE and Oman are candidates, the specific 'desert fringe' aesthetic with this type of wall construction is most prevalent in the Riyadh region or similar central/eastern Saudi areas. The coordinates point to a rural area near Riyadh, consistent with the visual cues.\",\n  \"evidence\": [\n    \"Date palms and arid vegetation typical of Middle East\",\n    \"Unpaved gravel/dirt road surface\",\n    \"Low concrete block wall with red-painted top edge\",\n    \"White SUV/pickup truck common in rural Saudi Arabia\",\n    \"Flat, dusty terrain stretching to horizon\",\n    \"Hazy sky indicating hot, dry climate\",\n    \"Absence of paved road markings or urban infrastructure\"\n  ]\n}",
+    "evidence_spans": [
+      "Date palms and arid vegetation typical of Middle East",
+      "Unpaved gravel/dirt road surface",
+      "Low concrete block wall with red-painted top edge",
+      "White SUV/pickup truck common in rural Saudi Arabia",
+      "Flat, dusty terrain stretching to horizon",
+      "Hazy sky indicating hot, dry climate",
+      "Absence of paved road markings or urban infrastructure"
+    ],
+    "confidence": 0.85,
+    "geovista_observation": {
+      "observations": [
+        "Vehicle hood visible in foreground — white, likely SUV or pickup truck.",
+        "Road surface is unpaved gravel/dirt, not asphalt.",
+        "Left side: low concrete block wall with red-painted top edge; behind it, palm trees and other greenery.",
+        "Right side: vast open flat terrain, possibly desert or arid plain, stretching to horizon.",
+        "Sun is low on horizon (either sunrise or sunset), creating strong glare and long shadows.",
+        "Vegetation includes date palms and shrubs — typical of arid/Middle Eastern climates.",
+        "No visible road markings, traffic signs, or lane dividers.",
+        "No other vehicles or people visible.",
+        "Utility poles or wires not clearly visible.",
+        "License plates not visible — vehicle front view only.",
+        "Architecture: simple, functional structures behind wall — possibly residential or agricultural outbuildings.",
+        "Terrain is flat, dry, dusty — consistent with desert fringe or semi-arid region.",
+        "Sky is hazy, suggesting heat, dust, or pollution common in hot climates."
+      ],
+      "hard_clues": [
+        "Unpaved gravel road with no markings — suggests rural or underdeveloped area.",
+        "Date palms and arid vegetation — strongly indicates Middle East, North Africa, or similar climate zone.",
+        "Low concrete block wall with red trim — common construction style in Gulf countries (e.g., Saudi Arabia, UAE, Qatar).",
+        "Flat, expansive desert-like terrain — rules out mountainous or coastal urban areas.",
+        "Sun position and atmospheric haze — consistent with high-latitude desert regions during morning/evening."
+      ],
+      "ambiguous_clues": [
+        "Driving side cannot be determined from this image alone — no traffic, no steering wheel visible, no road signs indicating direction.",
+        "Exact country cannot be pinpointed without more specific signage or landmarks.",
+        "Time of day ambiguous — could be sunrise or sunset depending on orientation.",
+        "Vehicle type unclear — white hood could belong to many models used globally."
+      ],
+      "possible_scripts": [
+        "Rural outskirts of a Gulf city (e.g., Riyadh, Doha, Abu Dhabi) where development meets desert.",
+        "Agricultural or peri-urban zone in an arid country (e.g., southern Iraq, eastern Saudi Arabia, northern Oman).",
+        "Desert highway access road or construction zone in a developing infrastructure project.",
+        "Private property or farm entrance near a settlement in a hot, dry region."
+      ],
+      "driving_side": "unknown"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Saudi Arabia",
+        "United Arab Emirates",
+        "Oman",
+        "Kuwait",
+        "Qatar",
+        "Bahrain",
+        "Iraq",
+        "Jordan",
+        "Egypt",
+        "Iran"
+      ],
+      "zoom_boxes": [
+        [
+          0,
+          200,
+          400,
+          600
+        ],
+        [
+          400,
+          300,
+          1000,
+          700
+        ]
+      ],
+      "verification_queries": [
+        "Search for unpaved gravel roads with date palms and low concrete walls in rural Saudi Arabia",
+        "Find images of desert fringe areas with similar vegetation and architecture in UAE or Oman",
+        "Look for sunrise/sunset scenes over flat arid plains with no road markings in Middle East",
+        "Identify regions where white SUVs/pickups are common on unpaved rural roads near palm groves",
+        "Check for hazy sky conditions over dry terrain in Gulf countries during early morning or late afternoon"
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "sa",
+      "predicted_region": "asia",
+      "predicted_lat": 24.7136,
+      "predicted_lng": 46.6753,
+      "confidence": 0.9
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "sa",
+      "predicted_region": "asia",
+      "predicted_lat": 24.7136,
+      "predicted_lng": 46.6753,
+      "confidence": 0.9
+    },
+    "base_prediction_summary": {
+      "predicted_country": "sa",
+      "predicted_region": "asia",
+      "predicted_lat": 24.7136,
+      "predicted_lng": 46.6753,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.9,
+    "skill_boost_aggressive_confidence": 0.9,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "There are no visible road signs or language, but the slight haze in the air, possibly from humidity, is characteristic of Northern and Eastern India.",
+          "region_hint": "asia",
+          "confidence": 0.55,
+          "score": 0.7360775649547577,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The landscape is dry and arid, with minimal vegetation and the climate feels like a desert; combined with the Google car with a whole tent on the roof and a snorkel, this has to be Mongolia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7341930955648424,
+          "visual_cues": [
+            "car",
+            "climate",
+            "roof",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6827545791864396,
+          "visual_cues": [
+            "driving",
+            "road",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The vegetation, with small, drought-tolerant shrubs, and the overall semi-arid appearance of the environment are consistent with the climate of Amman, Jordan.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6674220055341721,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The vegetation consists of subtropical trees and the soil is dry with scattered debris typical of South Asian environments.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6580276310443879,
+          "visual_cues": [
+            "soil",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The general landscape and soil usability match the Marwar region of Rajasthan, specifically near the city of Jodhpur, where this type of terrain is prevalent.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6575963020324708,
+          "visual_cues": [
+            "soil",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The surrounding hilly landscape, with steep roadside cuts and dense forest, suggests a location away from the coast and near the mountains typical of northern Vietnam.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6308910638093949,
+          "visual_cues": [
+            "coast",
+            "mountains",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.5041591703891755,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The combination of left-hand drive, concrete square poles, and a dry yet tropical landscape makes Thailand the most likely country",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.4717414200305939,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "This location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.45543655753135687,
+          "visual_cues": [
+            "South",
+            "This",
+            "location",
+            "typical"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The mild jungly landscape with a lack of palms points to more northern areas in South east Asia, like Northern Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.45174468457698824,
+          "visual_cues": [
+            "jungly",
+            "landscape",
+            "mild",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The overall environment and infrastructure resemble the outskirts of Aktau or Astana (now Nur-Sultan) in Kazakhstan.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.4491791218519211,
+          "visual_cues": [
+            "environment",
+            "infrastructure",
+            "overall",
+            "resemble"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "soil"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "There are no visible road signs or language, but the slight haze in the air, possibly from humidity, is characteristic of Northern and Eastern India.",
+        "The landscape is dry and arid, with minimal vegetation and the climate feels like a desert; combined with the Google car with a whole tent on the roof and a snorkel, this has to be Mongolia",
+        "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "The vegetation, with small, drought-tolerant shrubs, and the overall semi-arid appearance of the environment are consistent with the climate of Amman, Jordan.",
+        "The vegetation consists of subtropical trees and the soil is dry with scattered debris typical of South Asian environments.",
+        "The general landscape and soil usability match the Marwar region of Rajasthan, specifically near the city of Jodhpur, where this type of terrain is prevalent.",
+        "The surrounding hilly landscape, with steep roadside cuts and dense forest, suggests a location away from the coast and near the mountains typical of northern Vietnam.",
+        "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "The combination of left-hand drive, concrete square poles, and a dry yet tropical landscape makes Thailand the most likely country",
+        "This location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible",
+        "The mild jungly landscape with a lack of palms points to more northern areas in South east Asia, like Northern Thailand",
+        "The overall environment and infrastructure resemble the outskirts of Aktau or Astana (now Nur-Sultan) in Kazakhstan."
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

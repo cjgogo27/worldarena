@@ -1,0 +1,11 @@
+{
+  "country": "Russia",
+  "country_code": "ru",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved, gravel road with no center line or markings is typical of rural residential areas in Russia, especially outside major cities.",
+    "Vehicles are parked on the right side of the road, consistent with right-hand traffic rules used in Russia.",
+    "The architecture—brick houses with red-tiled roofs, metal fences, and utility poles with overhead wires—is common in suburban or village settings across Russia."
+  ],
+  "raw_output": "{\n  \"country\": \"Russia\",\n  \"country_code\": \"ru\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved, gravel road with no center line or markings is typical of rural residential areas in Russia, especially outside major cities.\",\n    \"Vehicles are parked on the right side of the road, consistent with right-hand traffic rules used in Russia.\",\n    \"The architecture—brick houses with red-tiled roofs, metal fences, and utility poles with overhead wires—is common in suburban or village settings across Russia.\",\n    \"Vegetation includes conifer"
+}

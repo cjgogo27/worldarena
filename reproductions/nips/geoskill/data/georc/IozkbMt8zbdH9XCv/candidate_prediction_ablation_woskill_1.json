@@ -1,0 +1,25 @@
+{
+  "game_id": "IozkbMt8zbdH9XCv",
+  "round": 1,
+  "sample_id": "georc::IozkbMt8zbdH9XCv::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "sk",
+    "predicted_region": "europe",
+    "predicted_address": "Residential outskirts of Košice, Košice Region, Slovakia",
+    "predicted_lat": 49.00166667,
+    "predicted_lng": 21.23944444,
+    "reasoning_text": "{\n  \"country\": \"Slovakia\",\n  \"country_code\": \"sk\",\n  \"region\": \"Central Europe\",\n  \"city\": \"Košice\",\n  \"province_or_state\": \"Košice Region\",\n  \"address\": \"Residential outskirts of Košice, Košice Region, Slovakia\",\n  \"confidence\": 0.33,\n  \"reasoning\": \"The scene shows a quiet residential lane in a flat to gently rolling Central/Eastern European setting. The detached homes with plaster and brick facades, metal roofs, enclosed gardens, and brick-and-metal fencing are very typical of Slovak suburban villages and small towns. The narrow paved road without center markings, overhead utility lines, and white-painted lower tree trunks also fit this region. The overall streetscape looks more like Slovakia than Western Europe or the Balkans, and the housing style is especially common around eastern Slovak cities such as Košice. Because there are no readable signs or unique landmarks, this is an approximate best guess rather than a precise identification.\",\n  \"evidence\": [\n    \"Detached Central European houses with plaster/brick facades and metal roofs\",\n    \"Brick-and-metal garden fencing common in Slovakia and nearby countries\",\n    \"Narrow local road without lane markings, typical of village/suburban streets\",\n    \"Overhead utility lines and roadside reflectors consistent with Central/Eastern Europe\",\n    \"White-painted tree trunks and tidy residential gardens suggest this region\",\n    \"Flat residential environment resembling eastern Slovak outskirts\"\n  ]\n}",
+    "evidence_spans": [
+      "Detached Central European houses with plaster/brick facades and metal roofs",
+      "Brick-and-metal garden fencing common in Slovakia and nearby countries",
+      "Narrow local road without lane markings, typical of village/suburban streets",
+      "Overhead utility lines and roadside reflectors consistent with Central/Eastern Europe",
+      "White-painted tree trunks and tidy residential gardens suggest this region",
+      "Flat residential environment resembling eastern Slovak outskirts"
+    ],
+    "confidence": 0.33
+  },
+  "error": null
+}

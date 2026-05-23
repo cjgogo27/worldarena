@@ -1,0 +1,767 @@
+{
+  "game_id": "KqjXykSvjIJYNXY8",
+  "round": 1,
+  "sample_id": "georc::KqjXykSvjIJYNXY8::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ke",
+    "predicted_region": "africa",
+    "predicted_lat": -1.2921,
+    "predicted_lng": 36.8219,
+    "reasoning_text": "{\n  \"country\": \"Kenya\",\n  \"country_code\": \"ke\",\n  \"region\": \"Eastern Africa\",\n  \"lat\": -1.2921,\n  \"lng\": 36.8219,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to Kenya. The most definitive clue is the license plate on the silver minivan (Toyota Probox), which is white with black text and features the Kenyan flag and 'K' country code visible on the left side. The driving side is left, consistent with Kenya. The architecture (concrete buildings with corrugated iron roofs), the reddish laterite soil, and the tropical vegetation are all characteristic of Kenyan towns. The sign fragment 'Studio' is common in Kenyan business names. While Tanzania and Uganda share similar features, the specific license plate design is unique to Kenya.\",\n  \"evidence\": [\n    \"White license plate with black text and Kenyan flag on silver minivan\",\n    \"Left-hand traffic indicated by motorcycle rider position\",\n    \"Reddish-brown laterite soil road surface\",\n    \"Concrete buildings with corrugated metal roofs\",\n    \"Tropical vegetation and overcast sky\",\n    \"Sign fragment 'Studio' on building facade\"\n  ]\n}",
+    "evidence_spans": [
+      "White license plate with black text and Kenyan flag on silver minivan",
+      "Left-hand traffic indicated by motorcycle rider position",
+      "Reddish-brown laterite soil road surface",
+      "Concrete buildings with corrugated metal roofs",
+      "Tropical vegetation and overcast sky",
+      "Sign fragment 'Studio' on building facade"
+    ],
+    "confidence": 0.85,
+    "geovista_observation": {
+      "observations": [
+        "The road surface is reddish-brown dirt or laterite soil, typical of tropical regions.",
+        "The architecture features a mix of concrete buildings with corrugated metal roofs and simple, functional designs.",
+        "The building on the left is a multi-story structure with a balcony featuring red metal railings.",
+        "A silver minivan is parked on the left side of the road.",
+        "A person on a motorcycle is visible in the foreground on the right.",
+        "Pedestrians are walking in the middle of the road.",
+        "Utility poles are wooden with overhead wires.",
+        "The sky is overcast with scattered clouds.",
+        "Vegetation appears green and lush, suggesting a tropical or subtropical climate."
+      ],
+      "hard_clues": [
+        "The license plate on the silver minivan is partially visible and appears to be white with black text, consistent with Kenyan plates.",
+        "The motorcycle rider is positioned on the left side of the road, suggesting left-hand traffic.",
+        "The sign on the building on the left includes the word 'Studio' and some text that appears to be in Swahili or a similar language.",
+        "The overall scene, including the road condition, architecture, and vegetation, is highly characteristic of rural or semi-urban areas in East Africa, particularly Kenya."
+      ],
+      "ambiguous_clues": [
+        "The specific text on the signs is not entirely clear due to image resolution.",
+        "The exact location within the country cannot be determined from the image alone."
+      ],
+      "possible_scripts": [
+        "Swahili",
+        "English"
+      ],
+      "driving_side": "left"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Kenya",
+        "Tanzania",
+        "Uganda",
+        "Rwanda"
+      ],
+      "zoom_boxes": [
+        [
+          0,
+          100,
+          150,
+          350
+        ],
+        [
+          630,
+          780,
+          740,
+          990
+        ]
+      ],
+      "verification_queries": [
+        "Read the full text on the sign above the ground floor entrance on the left building to identify the business name and language.",
+        "Zoom in on the license plate of the silver minivan to read the registration number and confirm the country code (e.g., K for Kenya).",
+        "Examine the motorcycle rider's position relative to the road center and any visible road markings to confirm left-hand traffic.",
+        "Look for any street signs, shop names, or vehicle license plates in the background that contain Swahili words or specific regional identifiers."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "ke",
+      "predicted_region": "africa",
+      "predicted_lat": -1.2921,
+      "predicted_lng": 36.8219,
+      "confidence": 0.85
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "ke",
+      "predicted_region": "africa",
+      "predicted_lat": -1.2921,
+      "predicted_lng": 36.8219,
+      "confidence": 0.85
+    },
+    "base_prediction_summary": {
+      "predicted_country": "ke",
+      "predicted_region": "africa",
+      "predicted_lat": -1.2921,
+      "predicted_lng": 36.8219,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.85,
+    "skill_boost_aggressive_confidence": 0.85,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The car is following us on the left side of the road and there is a solid yellow single line in the middle, which all Western African countries have",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7675536245107651,
+          "visual_cues": [
+            "car",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The wooden poles with two cross parts and a spam of small insulators on the top is also unique to South Africa",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.666788274049759,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The road markings feature a yellow outer line and a white dashed center line, which are typical of southern African countries like Botswana, Namibia, and South Africa.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.6655326247215272,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "There is a small corrugated metal sign on the left, which matches local improvised fencing materials used in Kenya.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.4864883899688721,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The landscape features gently rolling hills and distant scattered homes with tin roofs, typical of the Kenyan countryside outside larger cities.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.4696680545806885,
+          "visual_cues": [
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The car blur appears to be driving on the left side and the chevron is placed for left-hand side drive as well, supporting South Africa as the most likely location",
+          "region_hint": "africa",
+          "confidence": 0.75,
+          "score": 0.4614136040210724,
+          "visual_cues": [
+            "car",
+            "chevron",
+            "driving"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The vehicle is driving on the left side of the road, indicating left-hand traffic, which narrows it down to countries like Namibia, Botswana, South Africa, and a few others in the region.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.4432471513748169,
+          "visual_cues": [
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The road has a yellow center line and white edge lines, which are common in several African countries, particularly in Kenya.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.441916573047638,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "Based on flora, infrastructure, and road markings, the location is most likely in Kenya, near the outskirts of Nairobi or in the Rift Valley region.",
+          "region_hint": "africa",
+          "confidence": 0.75,
+          "score": 0.4394991219043732,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "Given the tropical environment and road condition, this is likely somewhere in rural Uganda, near the city of Kampala.",
+          "region_hint": "africa",
+          "confidence": 0.75,
+          "score": 0.4102844893932343,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The soil is light brown and somewhat rocky, matching the Rift Valley or highlands environment found in Kenya.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.39730063080787664,
+          "visual_cues": [
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "However, Uganda will not have this coverage outside of the capital city and Rwanda will have more tropical vegetation, leading to Kenya being the most logical guess",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.39716625511646275,
+          "visual_cues": [
+            "vegetation"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "car"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "driving"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The car is following us on the left side of the road and there is a solid yellow single line in the middle, which all Western African countries have",
+        "The wooden poles with two cross parts and a spam of small insulators on the top is also unique to South Africa",
+        "The road markings feature a yellow outer line and a white dashed center line, which are typical of southern African countries like Botswana, Namibia, and South Africa.",
+        "There is a small corrugated metal sign on the left, which matches local improvised fencing materials used in Kenya.",
+        "The landscape features gently rolling hills and distant scattered homes with tin roofs, typical of the Kenyan countryside outside larger cities.",
+        "The car blur appears to be driving on the left side and the chevron is placed for left-hand side drive as well, supporting South Africa as the most likely location",
+        "The vehicle is driving on the left side of the road, indicating left-hand traffic, which narrows it down to countries like Namibia, Botswana, South Africa, and a few others in the region.",
+        "The road has a yellow center line and white edge lines, which are common in several African countries, particularly in Kenya.",
+        "Based on flora, infrastructure, and road markings, the location is most likely in Kenya, near the outskirts of Nairobi or in the Rift Valley region.",
+        "Given the tropical environment and road condition, this is likely somewhere in rural Uganda, near the city of Kampala.",
+        "The soil is light brown and somewhat rocky, matching the Rift Valley or highlands environment found in Kenya.",
+        "However, Uganda will not have this coverage outside of the capital city and Rwanda will have more tropical vegetation, leading to Kenya being the most logical guess"
+      ],
+      "summary": "nodes=12, edges=66, base_region=africa, top_skill_region=africa"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=africa, top_skill_region=africa"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

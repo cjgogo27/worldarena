@@ -1,0 +1,24 @@
+{
+  "game_id": "HVBiwFr2gEcM1dze",
+  "round": 1,
+  "sample_id": "georc::HVBiwFr2gEcM1dze::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "es",
+    "predicted_region": "europe",
+    "predicted_address": "Rural road near Santiago de Compostela, Galicia, Spain",
+    "predicted_lat": 42.8,
+    "predicted_lng": -7.9,
+    "reasoning_text": "{\n  \"country\": \"Spain\",\n  \"country_code\": \"es\",\n  \"region\": \"Southern Europe\",\n  \"city\": \"Santiago de Compostela\",\n  \"province_or_state\": \"Galicia\",\n  \"address\": \"Rural road near Santiago de Compostela, Galicia, Spain\",\n  \"confidence\": 0.62,\n  \"reasoning\": \"The road uses right-hand driving with European-style white edge and center lines. The landscape is humid, green, and temperate, with extensive eucalyptus plantations that are especially common in northwestern Iberia. The narrow paved rural road, hedgerows, and rolling terrain strongly resemble Galicia more than most other parts of Spain. Northern Portugal is also possible, but the overall road marking style and countryside feel fit rural Galicia best. With no readable signs or unique landmarks, the best approximate guess is a rural area near Santiago de Compostela in Galicia.\",\n  \"evidence\": [\n    \"Right-hand traffic road layout\",\n    \"European-style white center and edge lines\",\n    \"Abundant eucalyptus trees typical of northwestern Iberia\",\n    \"Humid green rural landscape consistent with Galicia\",\n    \"Narrow secondary road with hedges and rolling terrain\"\n  ]\n}",
+    "evidence_spans": [
+      "Right-hand traffic road layout",
+      "European-style white center and edge lines",
+      "Abundant eucalyptus trees typical of northwestern Iberia",
+      "Humid green rural landscape consistent with Galicia",
+      "Narrow secondary road with hedges and rolling terrain"
+    ],
+    "confidence": 0.62
+  },
+  "error": null
+}

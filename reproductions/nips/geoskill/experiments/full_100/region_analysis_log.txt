@@ -1,0 +1,136 @@
+=== Cross-region analysis ===
+results_dir: /data/alice/cjtest/geoskill/experiments/full_100
+
+=== country_accuracy (method x region) ===
+method                     europe          asia north_america south_america        africa       oceania
+-------------------------------------------------------------------------------------------------------
+cot_vlm                     0.314         0.515         0.455         0.500         0.200         1.000
+direct_vlm                  0.400         0.576         0.455         0.571         0.600         1.000
+geocot                      0.429         0.606         0.545         0.643         0.600         1.000
+georeasoner                 0.429         0.485         0.545         0.571         0.600         1.000
+gre_multistage              0.371         0.576         0.545         0.643         0.200         1.000
+img2loc_rag                 0.314         0.545         0.636         0.571         0.400         1.000
+skill_conditioned           0.371         0.424         0.545         0.571         0.400         1.000
+
+=== region_accuracy (method x region) ===
+method                     europe          asia north_america south_america        africa       oceania
+-------------------------------------------------------------------------------------------------------
+cot_vlm                     0.714         0.848         0.545         0.571         0.600         1.000
+direct_vlm                  0.886         0.848         0.545         0.714         1.000         1.000
+geocot                      0.914         0.909         0.727         0.786         1.000         1.000
+georeasoner                 0.914         0.909         0.636         0.786         1.000         1.000
+gre_multistage              0.914         0.939         0.818         0.786         1.000         1.000
+img2loc_rag                 0.886         0.879         0.818         0.714         1.000         1.000
+skill_conditioned           0.857         0.909         0.636         0.714         1.000         1.000
+
+=== distance_error_km_mean (method x region) ===
+method                     europe          asia north_america south_america        africa       oceania
+-------------------------------------------------------------------------------------------------------
+cot_vlm                    1411.5        1290.8        5902.4        3688.5        1240.8         508.2
+direct_vlm                 1129.2        1547.6        4978.5        3661.6         677.3         508.2
+geocot                     1130.8        1575.2        5471.9        3417.3         940.6         505.8
+georeasoner                1189.1        1858.6        4361.7        3444.3         737.9         508.2
+gre_multistage             1268.0        1220.8        2750.4        3672.6        1463.4         365.4
+img2loc_rag                1583.0        1785.6        4839.4        4224.3        1667.2         508.2
+skill_conditioned          1781.7        1801.5        5706.9        4301.8        1581.2         508.2
+
+=== distance_error_km_median (method x region) ===
+method                     europe          asia north_america south_america        africa       oceania
+-------------------------------------------------------------------------------------------------------
+cot_vlm                     435.6         731.5        1069.6         860.5        1397.1         508.2
+direct_vlm                  372.4         808.5         789.1        1141.8         285.0         508.2
+geocot                      352.4         671.6         943.1        1080.6         675.3         505.8
+georeasoner                 351.3         741.7         789.1        1092.8         675.3         508.2
+gre_multistage              392.8         502.9         770.8        1167.0        1397.1         365.4
+img2loc_rag                 645.1         894.3         789.1        1167.6        1397.1         508.2
+skill_conditioned           502.9        1172.7         913.1         941.1        1397.1         508.2
+
+=== valid_coordinate_rate (method x region) ===
+method                     europe          asia north_america south_america        africa       oceania
+-------------------------------------------------------------------------------------------------------
+cot_vlm                     0.743         0.848         0.909         0.714         0.600         1.000
+direct_vlm                  0.971         0.939         0.818         0.929         1.000         1.000
+geocot                      0.971         0.970         1.000         1.000         1.000         1.000
+georeasoner                 1.000         1.000         1.000         1.000         1.000         1.000
+gre_multistage              1.000         1.000         1.000         1.000         1.000         1.000
+img2loc_rag                 1.000         1.000         1.000         1.000         1.000         1.000
+skill_conditioned           1.000         1.000         1.000         1.000         1.000         1.000
+
+=== sample_count (method x region) ===
+method                     europe          asia north_america south_america        africa       oceania
+-------------------------------------------------------------------------------------------------------
+cot_vlm                        35            33            11            14             5             1
+direct_vlm                     35            33            11            14             5             1
+geocot                         35            33            11            14             5             1
+georeasoner                    35            33            11            14             5             1
+gre_multistage                 35            33            11            14             5             1
+img2loc_rag                    35            33            11            14             5             1
+skill_conditioned              35            33            11            14             5             1
+
+=== Best / Worst methods per region ===
+
+[europe]
+  country_accuracy           best: geocot, georeasoner | worst: cot_vlm, img2loc_rag
+  region_accuracy            best: geocot, georeasoner, gre_multistage | worst: cot_vlm
+  distance_error_km_mean     best: direct_vlm | worst: skill_conditioned
+  distance_error_km_median   best: georeasoner | worst: img2loc_rag
+  valid_coordinate_rate      best: georeasoner, gre_multistage, skill_conditioned, img2loc_rag | worst: cot_vlm
+
+[asia]
+  country_accuracy           best: geocot | worst: skill_conditioned
+  region_accuracy            best: gre_multistage | worst: direct_vlm, cot_vlm
+  distance_error_km_mean     best: gre_multistage | worst: georeasoner
+  distance_error_km_median   best: gre_multistage | worst: skill_conditioned
+  valid_coordinate_rate      best: georeasoner, gre_multistage, skill_conditioned, img2loc_rag | worst: cot_vlm
+
+[north_america]
+  country_accuracy           best: img2loc_rag | worst: direct_vlm, cot_vlm
+  region_accuracy            best: gre_multistage, img2loc_rag | worst: direct_vlm, cot_vlm
+  distance_error_km_mean     best: gre_multistage | worst: cot_vlm
+  distance_error_km_median   best: gre_multistage | worst: cot_vlm
+  valid_coordinate_rate      best: geocot, georeasoner, gre_multistage, skill_conditioned, img2loc_rag | worst: direct_vlm
+
+[south_america]
+  country_accuracy           best: geocot, gre_multistage | worst: cot_vlm
+  region_accuracy            best: geocot, georeasoner, gre_multistage | worst: cot_vlm
+  distance_error_km_mean     best: geocot | worst: skill_conditioned
+  distance_error_km_median   best: cot_vlm | worst: img2loc_rag
+  valid_coordinate_rate      best: geocot, georeasoner, gre_multistage, skill_conditioned, img2loc_rag | worst: cot_vlm
+
+[africa]
+  country_accuracy           best: direct_vlm, geocot, georeasoner | worst: cot_vlm, gre_multistage
+  region_accuracy            best: direct_vlm, geocot, georeasoner, gre_multistage, skill_conditioned, img2loc_rag | worst: cot_vlm
+  distance_error_km_mean     best: direct_vlm | worst: img2loc_rag
+  distance_error_km_median   best: direct_vlm | worst: cot_vlm, gre_multistage, skill_conditioned, img2loc_rag
+  valid_coordinate_rate      best: direct_vlm, geocot, georeasoner, gre_multistage, skill_conditioned, img2loc_rag | worst: cot_vlm
+
+[oceania]
+  country_accuracy           best: direct_vlm, cot_vlm, geocot, georeasoner, gre_multistage, skill_conditioned, img2loc_rag | worst: direct_vlm, cot_vlm, geocot, georeasoner, gre_multistage, skill_conditioned, img2loc_rag
+  region_accuracy            best: direct_vlm, cot_vlm, geocot, georeasoner, gre_multistage, skill_conditioned, img2loc_rag | worst: direct_vlm, cot_vlm, geocot, georeasoner, gre_multistage, skill_conditioned, img2loc_rag
+  distance_error_km_mean     best: gre_multistage | worst: direct_vlm, cot_vlm, georeasoner, skill_conditioned, img2loc_rag
+  distance_error_km_median   best: gre_multistage | worst: direct_vlm, cot_vlm, georeasoner, skill_conditioned, img2loc_rag
+  valid_coordinate_rate      best: direct_vlm, cot_vlm, geocot, georeasoner, gre_multistage, skill_conditioned, img2loc_rag | worst: direct_vlm, cot_vlm, geocot, georeasoner, gre_multistage, skill_conditioned, img2loc_rag
+
+=== Generalization gap by method (max region_acc - min region_acc, lower is better) ===
+method                         gap     min_acc     max_acc
+----------------------------------------------------------
+gre_multistage               0.214       0.786       1.000
+geocot                       0.273       0.727       1.000
+img2loc_rag                  0.286       0.714       1.000
+georeasoner                  0.364       0.636       1.000
+skill_conditioned            0.364       0.636       1.000
+cot_vlm                      0.455       0.545       1.000
+direct_vlm                   0.455       0.545       1.000
+
+=== Leave-one-region-out region_accuracy ===
+method             exclude:europeexclude:  asiaexclude:north_amerexclude:south_amerexclude:africaexclude:oceania
+----------------------------------------------------------------------------------------------------------------
+cot_vlm                     0.708         0.642         0.730         0.733         0.716         0.707
+direct_vlm                  0.769         0.791         0.843         0.826         0.800         0.808
+geocot                      0.862         0.866         0.899         0.895         0.874         0.879
+georeasoner                 0.831         0.836         0.888         0.872         0.853         0.859
+gre_multistage              0.892         0.881         0.910         0.919         0.895         0.899
+img2loc_rag                 0.831         0.836         0.854         0.872         0.842         0.848
+skill_conditioned           0.815         0.791         0.854         0.849         0.821         0.828
+
+Saved analysis JSON to: /data/alice/cjtest/geoskill/experiments/full_100/region_analysis.json

@@ -1,0 +1,836 @@
+{
+  "game_id": "9NNxopqtafH8pTbN",
+  "round": 1,
+  "sample_id": "georc::9NNxopqtafH8pTbN::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "au",
+    "predicted_region": "oceania",
+    "predicted_address": "Rural road on Kangaroo Island, between Penneshaw and Kingscote, South Australia, Australia",
+    "predicted_lat": -30.0,
+    "predicted_lng": 135.0,
+    "reasoning_text": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"region\": \"Oceania\",\n  \"city\": \"Kangaroo Island\",\n  \"province_or_state\": \"South Australia\",\n  \"address\": \"Rural road on Kangaroo Island, between Penneshaw and Kingscote, South Australia, Australia\",\n  \"confidence\": 0.82,\n  \"reasoning\": \"Applying the skill graph in order: Skill 1 identifies the double solid white center line as a strong Australia/New Zealand cue. Skill 2 refines this by noting that the exact style, fading, and overall rural presentation fit rural Australia better than New Zealand. Skill 3 then links the road quality, dry pasture, coastal scrub, and windswept trees to Kangaroo Island in South Australia. Through the graph connection from Skills 1 and 2 to Skill 5, the narrow sealed pavement and minimal shoulder further support rural Australia over New Zealand. Composing these linked cues leads to Skill 12's Australia conclusion and a Kangaroo Island placement. The landscape appears especially consistent with the open rural roads on the eastern half of Kangaroo Island, so the best single textual guess is a rural road between Penneshaw and Kingscote.\",\n  \"evidence\": [\n    \"Double solid white center lines\",\n    \"Left-side driving context consistent with Australia\",\n    \"Narrow rural sealed road with almost no shoulder\",\n    \"Dry yellow-brown pasture and rolling hills\",\n    \"Dense coastal scrub and windswept trees\",\n    \"Sparse roadside infrastructure typical of Kangaroo Island rural roads\"\n  ]\n}",
+    "evidence_spans": [
+      "Double solid white center lines",
+      "Left-side driving context consistent with Australia",
+      "Narrow rural sealed road with almost no shoulder",
+      "Dry yellow-brown pasture and rolling hills",
+      "Dense coastal scrub and windswept trees",
+      "Sparse roadside infrastructure typical of Kangaroo Island rural roads"
+    ],
+    "confidence": 0.82,
+    "base_prediction_summary": {
+      "predicted_country": "au",
+      "predicted_region": "oceania",
+      "confidence": 0.72
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The road markings feature a double solid white center line, which is characteristic of Australia and New Zealand.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 1,
+        "score": 0.9263663291931152,
+        "bm25_score": 42.852142333984375,
+        "semantic_score": 0.6774606704711914
+      },
+      {
+        "skill_text": "The road lane markings feature double center lines, which are common in Australia and New Zealand, but the exact style and visibility are more typical of rural Australia.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 5,
+        "score": 0.885460376739502,
+        "bm25_score": 38.87348937988281,
+        "semantic_score": 0.6820157766342163
+      },
+      {
+        "skill_text": "The overall road quality and vegetation resemble those found on Kangaroo Island, South Australia.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 1,
+        "score": 0.8811972737312317,
+        "bm25_score": 34.6357536315918,
+        "semantic_score": 0.7489786744117737
+      },
+      {
+        "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 4,
+        "score": 0.8334475755691528,
+        "bm25_score": 45.43022155761719,
+        "semantic_score": 0.4857972264289856
+      },
+      {
+        "skill_text": "The lack of visible road shoulder and the narrow pavement further suggests rural Australia rather than New Zealand, which often has different road finishes and wider shoulders.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 5,
+        "score": 0.7879945039749146,
+        "bm25_score": 31.08248519897461,
+        "semantic_score": 0.663497805595398
+      },
+      {
+        "skill_text": "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 4,
+        "score": 0.78767991065979,
+        "bm25_score": 42.545074462890625,
+        "semantic_score": 0.463652640581131
+      },
+      {
+        "skill_text": "The road markings display double yellow center lines with white edge lines, a common style in South American countries such as Argentina.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 4,
+        "score": 0.7669557929039001,
+        "bm25_score": 39.4210319519043,
+        "semantic_score": 0.4852358102798462
+      },
+      {
+        "skill_text": "With a rolling grassy landscape, a variety of low shrubbery and vegetation fit for more coastal regions in Australia, especially the area of Tasmania",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "coast",
+          "vegetation"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 1,
+        "score": 0.7651477456092834,
+        "bm25_score": 30.6792049407959,
+        "semantic_score": 0.6344096064567566
+      },
+      {
+        "skill_text": "The road is relatively narrow, with worn asphalt and no visible lane markings, which is characteristic of rural or secondary roads in developing countries.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 1,
+        "score": 0.7606325149536133,
+        "bm25_score": 33.068485260009766,
+        "semantic_score": 0.5857223272323608
+      },
+      {
+        "skill_text": "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings",
+          "sidewalk"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 4,
+        "score": 0.7550473213195801,
+        "bm25_score": 37.10393524169922,
+        "semantic_score": 0.5067154765129089
+      },
+      {
+        "skill_text": "The road markings feature a yellow outer line and a white dashed center line, which are typical of southern African countries like Botswana, Namibia, and South Africa.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 5,
+        "score": 0.7487240433692932,
+        "bm25_score": 33.03909683227539,
+        "semantic_score": 0.5674159526824951
+      },
+      {
+        "skill_text": "Based on the above evidence, the country is Australia, and the most likely location is Kangaroo Island, near Kingscote.",
+        "region_hint": "oceania",
+        "confidence": 0.75,
+        "visual_cues": [
+          "Based",
+          "above",
+          "country",
+          "evidence"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 1,
+        "score": 0.7361864447593689,
+        "bm25_score": 36.33967971801758,
+        "semantic_score": 0.49020329117774963
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road markings feature a double solid white center line, which is characteristic of Australia and New Zealand.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.9263663291931152,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road lane markings feature double center lines, which are common in Australia and New Zealand, but the exact style and visibility are more typical of rural Australia.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.885460376739502,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The overall road quality and vegetation resemble those found on Kangaroo Island, South Australia.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.8811972737312317,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.8334475755691528,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The lack of visible road shoulder and the narrow pavement further suggests rural Australia rather than New Zealand, which often has different road finishes and wider shoulders.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7879945039749146,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.78767991065979,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road markings display double yellow center lines with white edge lines, a common style in South American countries such as Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7669557929039001,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "With a rolling grassy landscape, a variety of low shrubbery and vegetation fit for more coastal regions in Australia, especially the area of Tasmania",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.7651477456092834,
+          "visual_cues": [
+            "coast",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The road is relatively narrow, with worn asphalt and no visible lane markings, which is characteristic of rural or secondary roads in developing countries.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7606325149536133,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7550473213195801,
+          "visual_cues": [
+            "road",
+            "road markings",
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road markings feature a yellow outer line and a white dashed center line, which are typical of southern African countries like Botswana, Namibia, and South Africa.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7487240433692932,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "Based on the above evidence, the country is Australia, and the most likely location is Kangaroo Island, near Kingscote.",
+          "region_hint": "oceania",
+          "confidence": 0.75,
+          "score": 0.7361864447593689,
+          "visual_cues": [
+            "Based",
+            "above",
+            "country",
+            "evidence"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road markings feature a double solid white center line, which is characteristic of Australia and New Zealand.",
+        "The road lane markings feature double center lines, which are common in Australia and New Zealand, but the exact style and visibility are more typical of rural Australia.",
+        "The overall road quality and vegetation resemble those found on Kangaroo Island, South Australia.",
+        "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+        "The lack of visible road shoulder and the narrow pavement further suggests rural Australia rather than New Zealand, which often has different road finishes and wider shoulders.",
+        "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+        "The road markings display double yellow center lines with white edge lines, a common style in South American countries such as Argentina.",
+        "With a rolling grassy landscape, a variety of low shrubbery and vegetation fit for more coastal regions in Australia, especially the area of Tasmania",
+        "The road is relatively narrow, with worn asphalt and no visible lane markings, which is characteristic of rural or secondary roads in developing countries.",
+        "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+        "The road markings feature a yellow outer line and a white dashed center line, which are typical of southern African countries like Botswana, Namibia, and South Africa.",
+        "Based on the above evidence, the country is Australia, and the most likely location is Kangaroo Island, near Kingscote."
+      ],
+      "summary": "nodes=12, edges=50, base_region=oceania, top_skill_region=oceania"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"region\": \"Oceania\",\n  \"city\": \"Kangaroo Island\",\n  \"province_or_state\": \"South Australia\",\n  \"address\": \"Rural road on Kangaroo Island, near Penneshaw, South Australia, Australia\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The vehicle positioning an",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 50,
+        "graph_summary": "nodes=12, edges=50, base_region=oceania, top_skill_region=oceania"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "au"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

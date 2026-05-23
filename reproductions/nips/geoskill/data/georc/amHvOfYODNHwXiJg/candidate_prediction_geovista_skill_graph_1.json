@@ -1,0 +1,104 @@
+{
+  "game_id": "amHvOfYODNHwXiJg",
+  "round": 1,
+  "sample_id": "georc::amHvOfYODNHwXiJg::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "dk",
+    "predicted_region": "europe",
+    "predicted_address": "Karlamagnusarbreyt, Hoyvik, Torshavn, Faroe Islands, Denmark",
+    "predicted_lat": 62.00973,
+    "predicted_lng": -6.77164,
+    "reasoning_text": "{\n  \"country\": \"Denmark\",\n  \"country_code\": \"dk\",\n  \"region\": \"Northern Europe\",\n  \"city\": \"Torshavn\",\n  \"province_or_state\": \"Faroe Islands\",\n  \"address\": \"Karlamagnusarbreyt, Hoyvik, Torshavn, Faroe Islands, Denmark\",\n  \"confidence\": 0.52,\n  \"reasoning\": \"The scene shows a North Atlantic Nordic residential area: right-side driving, a blue European-style pedestrian crossing sign, modern timber-clad low-rise apartments, neat curb-separated road edges, and cool maritime vegetation on gently hilly terrain. The built environment strongly matches suburban Torshavn, especially newer housing in Hoyvik. Although the visual fit is most characteristic of the Faroe Islands, to keep the result within the required top-country shortlist I place it under Denmark, which is the sovereign state associated with the Faroe Islands. The road layout and modern residential character best fit a residential stretch of Karlamagnusarbreyt in Hoyvik, Torshavn.\",\n  \"evidence\": [\n    \"Blue Nordic/European pedestrian crossing sign\",\n    \"Right-side driving on a narrow suburban paved road\",\n    \"Modern low-rise apartment block with horizontal wooden cladding\",\n    \"Cool maritime vegetation and gentle hilly terrain\",\n    \"Planned residential suburb consistent with Hoyvik in Torshavn\",\n    \"Sparse utility infrastructure and clean Scandinavian-style streetscape\"\n  ]\n}",
+    "evidence_spans": [
+      "Blue Nordic/European pedestrian crossing sign",
+      "Right-side driving on a narrow suburban paved road",
+      "Modern low-rise apartment block with horizontal wooden cladding",
+      "Cool maritime vegetation and gentle hilly terrain",
+      "Planned residential suburb consistent with Hoyvik in Torshavn",
+      "Sparse utility infrastructure and clean Scandinavian-style streetscape"
+    ],
+    "confidence": 0.52,
+    "country_top3": [
+      "dk",
+      "is"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"fo\",\"dk\",\"is\"],\"reason\":\"Strong Nordic cues: right-side driving, blue European pedestrian crossing sign, modern wooden-clad low-rise housing, cool maritime vegetation, and hilly treeless suburban setting. The combination most strongly fits the Faroe Islands; Denmark is a secondary Nordic match due to signage/architecture links, and Iceland is a weaker alternative because of similar North Atlantic suburban landscapes.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.6825,
+        "pred_country": "dk",
+        "geo_country": "unknown",
+        "country_consistency": 0.75,
+        "address_specificity": 0.45,
+        "confidence": 0.52,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": true,
+        "address": "Karlamagnusarbreyt, Hoyvik, Torshavn, Faroe Islands, Denmark"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.65,
+        "pred_country": "is",
+        "geo_country": "is",
+        "country_consistency": 0.85,
+        "address_specificity": 0.45,
+        "confidence": 0.37,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": true,
+        "address": "Urriðaholtsstræti, Urriðaholt, Garðabær, Capital Region, Iceland"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.6275000000000001,
+        "pred_country": "is",
+        "geo_country": "is",
+        "country_consistency": 0.85,
+        "address_specificity": 0.45,
+        "confidence": 0.28,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": true,
+        "address": "Gvendargeisli, Grafarholt, Reykjavik, Capital Region, Iceland"
+      }
+    ],
+    "selected_candidate_score": 0.6825,
+    "base_prediction_summary": {
+      "predicted_country": "unknown",
+      "predicted_region": "unknown",
+      "confidence": 0.56
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Faroe Islands\",\n  \"country_code\": \"fo\",\n  \"region\": \"Northern Europe\",\n  \"city\": \"Torshavn\",\n  \"province_or_state\": \"Streymoy\",\n  \"address\": \"Residential suburb in Hoyvik, Torshavn, Streymoy, Faroe Islands\",\n  \"confidence\": 0.56,\n  \"reasoning\": \"The scene is clearly Nordic: modern lo",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "dk"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

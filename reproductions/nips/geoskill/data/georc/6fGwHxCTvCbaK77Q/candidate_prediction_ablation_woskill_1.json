@@ -1,0 +1,24 @@
+{
+  "game_id": "6fGwHxCTvCbaK77Q",
+  "round": 1,
+  "sample_id": "georc::6fGwHxCTvCbaK77Q::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "br",
+    "predicted_region": "south_america",
+    "predicted_address": "Unpaved rural road near Novo Progresso, Pará, Brazil",
+    "predicted_lat": -7.14694,
+    "predicted_lng": -55.3819,
+    "reasoning_text": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"city\": \"Novo Progresso\",\n  \"province_or_state\": \"Pará\",\n  \"address\": \"Unpaved rural road near Novo Progresso, Pará, Brazil\",\n  \"confidence\": 0.34,\n  \"reasoning\": \"The scene shows a wide reddish laterite dirt road cutting through humid tropical vegetation in a very flat to gently rolling landscape. This combination is strongly characteristic of the Amazon frontier region, where many rural roads are unpaved and the soil is distinctly red. The dense green vegetation, scattered taller trees, and overall climate cues suggest a hot, wet tropical environment rather than a dry savanna. Among countries with this look and common street-view-style coverage on remote roads, Brazil is the strongest fit, especially northern states in the Amazon basin such as Pará or Rondônia. I do not see readable signs, lane markings, utility infrastructure, or buildings that would allow a precise town identification, so this is an approximate regional guess. I place it near Novo Progresso in Pará because that area has many long red-earth roads through partially cleared Amazon forest with similar terrain.\",\n  \"evidence\": [\n    \"Wide unpaved road made of reddish laterite soil\",\n    \"Dense humid tropical vegetation consistent with Amazon rainforest margins\",\n    \"Flat to gently rolling lowland terrain\",\n    \"Roadside appears like a forest-clearance frontier landscape common in northern Brazil\",\n    \"Lack of urban infrastructure suggests a remote rural Amazon location\"\n  ]\n}",
+    "evidence_spans": [
+      "Wide unpaved road made of reddish laterite soil",
+      "Dense humid tropical vegetation consistent with Amazon rainforest margins",
+      "Flat to gently rolling lowland terrain",
+      "Roadside appears like a forest-clearance frontier landscape common in northern Brazil",
+      "Lack of urban infrastructure suggests a remote rural Amazon location"
+    ],
+    "confidence": 0.34
+  },
+  "error": null
+}

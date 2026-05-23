@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a double yellow center line, indicating two-way traffic with no passing allowed, common in Brazil’s rural highways.",
+    "Vegetation includes scattered palm trees and open grasslands typical of the Cerrado biome found in central Brazil.",
+    "No visible signage, buildings, or urban infrastructure suggests a remote rural area, consistent with Brazilian federal highways like BR-163."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a double yellow center line, indicating two-way traffic with no passing allowed, common in Brazil’s rural highways.\",\n    \"Vegetation includes scattered palm trees and open grasslands typical of the Cerrado biome found in central Brazil.\",\n    \"No visible signage, buildings, or urban infrastructure suggests a remote rural area, consistent with Brazilian federal highways like BR-163.\",\n    \"The clear blue sky and flat terrain are characteristic"
+}

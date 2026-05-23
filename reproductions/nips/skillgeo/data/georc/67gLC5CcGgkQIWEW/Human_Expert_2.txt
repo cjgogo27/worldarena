@@ -1,0 +1,49 @@
+Round 1
+
+The shadows are pointing North, indicating the image is in the Northern Hemisphere
+The metal roofed buildings with thick window trims can be found in Central and Eastern Europe
+The concrete utility pole in the distance with a brown metal top can be found in Eastern Europe
+The long antenna black-colored Google car with a red brakelight can be found in Russia
+The antenna looks to have 7 prominent ridges on the right side which is most commonly found in Western Russia
+Conclusion:
+This location is most likely in Russia (though there is a chance it could be in Ukraine, as the greenness of the image fits well for there rather than Western Russia)
+
+Round 2
+
+There is cyrillic on the sign to the left of the road indicating we are in Eastern Europe
+The blue-colored Google car with a short antenna can be found in Bulgaria
+The think, round concrete utility poles with small hooks at the top are also found in Bulgaria
+The hilly topography fits best for central Bulgaria
+Conclusion:
+This location is definitely in Bulgaria in a hilly area in the middle portion of the country
+
+Round 3
+
+The shadows are pointing north, indicating the image is in the Northern Hemisphere
+The short white license plates would indicate Europe
+The concrete utility poles with very tall holes that go all the way down and white-painted bottoms are indicative of Romania
+The flatter landscape is more indicative of south and east Romania
+The fake tiled roofs are more indicative of eastern Romania
+Conclusion:
+This location is definitely in Romania and likely in the southeast around Bucharest
+
+Round 4
+
+There is Hangul script on the signs around the road which indicate the image is in South Korea
+GS25 is a supermarket chain in South Korea
+The environment feels urban so this image is likely in or around a larger city
+The road is a main thoroughfare that is divided
+The political poster on the building on the right mentions in Korean that the politician is running for Ganghwa which contains the islands off the coast of Incheon
+
+Conclusion:
+This location is definitely in South Korea in Ganghwa on a main divided road
+
+Round 5
+
+The palm trees and banana trees indicate the image is in a tropical location
+The concrete roads can be commonly found in Thailand, Indonesia, and the Philippines
+The Google car with the exposed white front through the blur can be found in Thailand and the Philippines
+The octagonal metal utility pole with a single insulator on the top can be found in the Philippines
+There appears to be a banana tree plantation to the right of the road which is most common in central and south Mindanao
+Conclusion:
+This location is definitely in the Philippines in the south. It is most likely on Mindanao; however, if the insulator on the top of the pole has a thick stem (which is hidden from view), it could also be in Bohol.

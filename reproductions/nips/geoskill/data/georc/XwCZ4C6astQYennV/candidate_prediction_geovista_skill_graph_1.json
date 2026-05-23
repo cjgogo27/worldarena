@@ -1,0 +1,104 @@
+{
+  "game_id": "XwCZ4C6astQYennV",
+  "round": 1,
+  "sample_id": "georc::XwCZ4C6astQYennV::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "do",
+    "predicted_region": "north_america",
+    "predicted_address": "Carretera Consuelo–La Higuera at the CAEI access road, Consuelo, San Pedro de Macorís, Dominican Republic",
+    "predicted_lat": 18.58446,
+    "predicted_lng": -69.2571,
+    "reasoning_text": "{\n  \"country\": \"Dominican Republic\",\n  \"country_code\": \"do\",\n  \"region\": \"Caribbean\",\n  \"city\": \"Consuelo\",\n  \"province_or_state\": \"San Pedro de Macorís\",\n  \"address\": \"Carretera Consuelo–La Higuera at the CAEI access road, Consuelo, San Pedro de Macorís, Dominican Republic\",\n  \"confidence\": 0.67,\n  \"reasoning\": \"With no task-specific skills provided in the graph, I rely directly on the visual evidence. The road is a narrow two-lane paved rural road with faded double yellow center lines and right-hand traffic, matching the Dominican Republic. The landscape is very flat, tropical, and dominated by extensive sugarcane fields with a drainage canal beside the road, which is especially characteristic of the sugar-growing plains around Consuelo in San Pedro de Macorís province. The blue-and-white roadside sign appears to reference CAEI, a major sugar enterprise associated with this area, reinforcing the Consuelo identification. Based on the sugar estate setting and the likely estate access signage, the best specific guess is along the Consuelo–La Higuera road at a CAEI access point in Consuelo.\",\n  \"evidence\": [\n    \"Right-hand traffic on a rural Caribbean road\",\n    \"Faded double yellow center lines typical of secondary Dominican roads\",\n    \"Extensive sugarcane fields on flat lowland terrain\",\n    \"Drainage canal running parallel to the road, common in cane estates\",\n    \"Blue-and-white roadside sign that appears to reference CAEI sugar operations\",\n    \"Utility poles and road condition consistent with rural eastern Dominican Republic\"\n  ]\n}",
+    "evidence_spans": [
+      "Right-hand traffic on a rural Caribbean road",
+      "Faded double yellow center lines typical of secondary Dominican roads",
+      "Extensive sugarcane fields on flat lowland terrain",
+      "Drainage canal running parallel to the road, common in cane estates",
+      "Blue-and-white roadside sign that appears to reference CAEI sugar operations",
+      "Utility poles and road condition consistent with rural eastern Dominican Republic"
+    ],
+    "confidence": 0.67,
+    "country_top3": [
+      "do",
+      "cu"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"do\",\"cu\",\"pr\"],\"reason\":\"Flat tropical sugarcane landscape with drainage canal, right-hand driving, faded double-yellow center lines, Spanish-language roadside sign, and utility/road style strongly fit the Dominican Republic. Similar agricultural lowland scenes can occur in Cuba and Puerto Rico, but the overall road environment best matches the Dominican Republic.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9275000000000001,
+        "pred_country": "do",
+        "geo_country": "do",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.67,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Carretera Consuelo–La Higuera at the CAEI access road, Consuelo, San Pedro de Macorís, Dominican Republic"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.8500000000000001,
+        "pred_country": "do",
+        "geo_country": "do",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.64,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Carretera Consuelo–Batey Azul, Batey Azul, Consuelo, San Pedro de Macorís, Dominican Republic"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.8575,
+        "pred_country": "do",
+        "geo_country": "do",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.67,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Carretera Consuelo–Batey Angelina, Consuelo, San Pedro de Macorís, Dominican Republic"
+      }
+    ],
+    "selected_candidate_score": 0.9275000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "do",
+      "predicted_region": "north_america",
+      "confidence": 0.67
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Dominican Republic\",\n  \"country_code\": \"do\",\n  \"region\": \"Caribbean\",\n  \"city\": \"Consuelo\",\n  \"province_or_state\": \"San Pedro de Macorís\",\n  \"address\": \"Rural sugarcane road near Consuelo, San Pedro de Macorís, Dominican Republic\",\n  \"confidence\": 0.67,\n  \"reasoning\": \"The scene stro",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "do"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

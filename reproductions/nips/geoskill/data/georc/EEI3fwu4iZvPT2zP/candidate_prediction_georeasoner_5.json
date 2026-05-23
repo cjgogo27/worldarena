@@ -1,0 +1,11 @@
+{
+  "country": "Poland",
+  "country_code": "pl",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single dashed white centerline and solid white edges, consistent with rural Polish roads under standard EU markings.",
+    "Utility poles are wooden and spaced regularly, typical of rural infrastructure in Poland.",
+    "Vegetation includes dense coniferous trees and mixed deciduous shrubs, common in temperate Central European climates."
+  ],
+  "raw_output": "{\n  \"country\": \"Poland\",\n  \"country_code\": \"pl\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single dashed white centerline and solid white edges, consistent with rural Polish roads under standard EU markings.\",\n    \"Utility poles are wooden and spaced regularly, typical of rural infrastructure in Poland.\",\n    \"Vegetation includes dense coniferous trees and mixed deciduous shrubs, common in temperate Central European climates.\",\n    \"No visible signage or language text is present, but the overall rural setting and road design strongly align with"
+}

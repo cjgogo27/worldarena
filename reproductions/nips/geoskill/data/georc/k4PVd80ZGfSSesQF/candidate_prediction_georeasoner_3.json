@@ -1,0 +1,11 @@
+{
+  "country": "Kenya",
+  "country_code": "ke",
+  "city": "",
+  "reasoning_chain": [
+    "Red lateritic soil and acacia-like scrub vegetation are characteristic of East African savanna ecosystems, particularly in Kenya.",
+    "The unpaved dirt road with deep tire ruts suggests remote rural infrastructure common in Kenya’s national parks or conservancy areas.",
+    "Absence of paved roads, utility poles, or man-made structures indicates a wilderness zone, consistent with locations like Maasai Mara or Amboseli."
+  ],
+  "raw_output": "{\n  \"country\": \"Kenya\",\n  \"country_code\": \"ke\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Red lateritic soil and acacia-like scrub vegetation are characteristic of East African savanna ecosystems, particularly in Kenya.\",\n    \"The unpaved dirt road with deep tire ruts suggests remote rural infrastructure common in Kenya’s national parks or conservancy areas.\",\n    \"Absence of paved roads, utility poles, or man-made structures indicates a wilderness zone, consistent with locations like Maasai Mara or Amboseli.\",\n    \"Wide open horizon with distant hills"
+}

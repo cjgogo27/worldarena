@@ -1,0 +1,955 @@
+{
+  "game_id": "QTmrnxW99iiyS2xS",
+  "round": 1,
+  "sample_id": "georc::QTmrnxW99iiyS2xS::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "nl",
+    "predicted_region": "europe",
+    "predicted_lat": 52.3845,
+    "predicted_lng": 4.892,
+    "reasoning_text": "{\n  \"country\": \"Netherlands\",\n  \"country_code\": \"nl\",\n  \"region\": \"Europe\",\n  \"lat\": 52.3845,\n  \"lng\": 4.8920,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The visual evidence overwhelmingly supports the Netherlands. The terrain is perfectly flat, characteristic of Dutch polder landscapes. The vegetation includes tall reeds/marsh grass, common in Dutch water management areas. The architecture features detached houses with steep, dark gabled roofs, typical of modern Dutch suburban developments. The path is a paved cycle path, a hallmark of Dutch infrastructure. The drainage ditches alongside the fields and the style of fencing point towards Dutch or northern German countries, but the specific combination of flat terrain, reed beds, and housing style is distinctly Dutch. The sky and lighting suggest a temperate climate with significant rainfall, consistent with the Netherlands.\",\n  \"evidence\": [\n    \"Perfectly flat terrain characteristic of polder landscapes\",\n    \"Tall reeds/marsh grass common in Dutch water management areas\",\n    \"Detached houses with steep, dark gabled roofs typical of modern Dutch suburbs\",\n    \"Paved cycle path, a hallmark of Dutch infrastructure\",\n    \"Drainage ditches alongside fields\",\n    \"Temperate climate with significant rainfall indicated by vegetation and sky\"\n  ]\n}",
+    "evidence_spans": [
+      "Perfectly flat terrain characteristic of polder landscapes",
+      "Tall reeds/marsh grass common in Dutch water management areas",
+      "Detached houses with steep, dark gabled roofs typical of modern Dutch suburbs",
+      "Paved cycle path, a hallmark of Dutch infrastructure",
+      "Drainage ditches alongside fields",
+      "Temperate climate with significant rainfall indicated by vegetation and sky"
+    ],
+    "confidence": 0.92,
+    "retrieved_skills": [
+      {
+        "skill_text": "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "soil"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 3,
+        "score": 0.635445699095726,
+        "bm25_score": 22.220355987548828,
+        "semantic_score": 0.46941953897476196
+      },
+      {
+        "skill_text": "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building",
+          "fence"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 4,
+        "score": 0.6283441245555879,
+        "bm25_score": 25.211267471313477,
+        "semantic_score": 0.35353490710258484
+      },
+      {
+        "skill_text": "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "vegetation"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 1,
+        "score": 0.6605782717466355,
+        "bm25_score": 23.004453659057617,
+        "semantic_score": 0.3483509123325348
+      },
+      {
+        "skill_text": "The environment and mix of infrastructure, with small shops and residential houses along a main road, is typical of towns or villages near large cities in Bulgaria.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.6150972664356231,
+        "bm25_score": 23.64689064025879,
+        "semantic_score": 0.3540160059928894
+      },
+      {
+        "skill_text": "The vegetation is dense, temperate, and deciduous, suggesting a region with significant rainfall and moderate temperatures, typical of Central or Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign",
+          "vegetation"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 5,
+        "score": 0.5934638679027557,
+        "bm25_score": 18.4151611328125,
+        "semantic_score": 0.4091693162918091
+      },
+      {
+        "skill_text": "Based on the vegetation, building style, and overall neighborhood appearance, this location is typical of suburban areas around cities like Orléans or Tours.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building",
+          "vegetation"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 3,
+        "score": 0.63651222884655,
+        "bm25_score": 16.867435455322266,
+        "semantic_score": 0.4122631251811981
+      },
+      {
+        "skill_text": "The architecture of the houses in the distance, particularly the red-tiled roofs and low-rise, wide structures, is very common in Southern or Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.625864738225937,
+        "bm25_score": 27.010591506958008,
+        "semantic_score": 0.36514586210250854
+      },
+      {
+        "skill_text": "The houses have plastered exteriors in a pale pink-beige tone with brown shutters and sloped, tiled roofs, typical of suburban French architecture.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 3,
+        "score": 0.6637244105339051,
+        "bm25_score": 27.15155601501465,
+        "semantic_score": 0.38369351625442505
+      },
+      {
+        "skill_text": "The street layout and the presence of a detached single-family home structure in a tidy residential neighborhood further point toward France.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "detached",
+          "layout",
+          "presence",
+          "street"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 3,
+        "score": 0.6653288066387177,
+        "bm25_score": 23.92452621459961,
+        "semantic_score": 0.34995341300964355
+      },
+      {
+        "skill_text": "The road is narrow and edged with rough grass, suggesting a minor road, often found in southern France, northern Spain, Italy, or Portugal.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 5,
+        "score": 0.6082730740308762,
+        "bm25_score": 20.95315170288086,
+        "semantic_score": 0.4079912006855011
+      },
+      {
+        "skill_text": "The terrain includes rolling hills and mountainous features in the background, characteristic of central or northern Norway.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "terrain"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 1,
+        "score": 0.6876302868127824,
+        "bm25_score": 34.34828186035156,
+        "semantic_score": 0.4024721384048462
+      },
+      {
+        "skill_text": "Presence of drainage ditches alongside fields and the style of fencing points towards Dutch or northern German countryside.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "Presence",
+          "alongside",
+          "ditches",
+          "drainage"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 1,
+        "score": 0.7278535783290864,
+        "bm25_score": 28.844642639160156,
+        "semantic_score": 0.5560545921325684
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "nl",
+      "predicted_region": "europe",
+      "predicted_lat": 52.3845,
+      "predicted_lng": 4.892,
+      "reasoning_text": "{\n  \"country\": \"Netherlands\",\n  \"country_code\": \"nl\",\n  \"region\": \"Europe\",\n  \"lat\": 52.3845,\n  \"lng\": 4.8920,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to the Netherlands. The terrain is perfectly flat, characteristic of polder landscapes. The vegetation includes tall reeds/marsh grass, common in Dutch water management areas. The architecture features detached houses with steep, dark gabled roofs, typical of modern Dutch suburban developments. The path is a paved asphalt cycle path or service road, flanked by grassy verges and a reddish-brown paved strip (likely a drain or secondary path), which aligns with Dutch infrastructure design. The grid-like paving on the right side resembles permeable drainage systems often used in Dutch residential areas. No other country matches this combination of flat polder land, specific housing style, and infrastructure details as closely as the Netherlands.\",\n  \"evidence\": [\n    \"Flat, polder-like terrain with no elevation changes\",\n    \"Tall reeds and marsh grass along the path, indicating low-lying, water-managed land\",\n    \"Detached single-family houses with steep, dark gabled roofs, typical of Northern European (specifically Dutch) architecture\",\n    \"Paved asphalt path with grassy verges and reddish-brown paved strip (likely a drain or secondary path)\",\n    \"Grid-like permeable paving on the right side, consistent with Dutch drainage standards\",\n    \"Lush green vegetation suggesting temperate climate and spring/summer season\",\n    \"Absence of hills or mountains, reinforcing the polder landscape hypothesis\"\n  ]\n}",
+      "evidence_spans": [
+        "Flat, polder-like terrain with no elevation changes",
+        "Tall reeds and marsh grass along the path, indicating low-lying, water-managed land",
+        "Detached single-family houses with steep, dark gabled roofs, typical of Northern European (specifically Dutch) architecture",
+        "Paved asphalt path with grassy verges and reddish-brown paved strip (likely a drain or secondary path)",
+        "Grid-like permeable paving on the right side, consistent with Dutch drainage standards",
+        "Lush green vegetation suggesting temperate climate and spring/summer season",
+        "Absence of hills or mountains, reinforcing the polder landscape hypothesis"
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "The image depicts a paved asphalt path, likely a dedicated bicycle path or a minor service road, running straight through a flat, open landscape.",
+          "On both sides of the path, there are grassy verges and tall reeds or marsh grass, indicating a low-lying, possibly reclaimed land area (polder).",
+          "In the background, there is a row of detached single-family houses. The architecture features steep, dark gabled roofs, typical of Northern European design.",
+          "The houses are set back from the path, separated by the vegetation.",
+          "The sky is partly cloudy with blue patches, suggesting a temperate climate.",
+          "There are no visible street signs, license plates, or distinct landmarks in the immediate foreground.",
+          "The vegetation is lush and green, indicating a season of growth (spring or summer).",
+          "The terrain is extremely flat with no visible hills or elevation changes.",
+          "There is a reddish-brown paved strip running perpendicular to the main path on the left, possibly a drainage ditch cover or a secondary path.",
+          "On the right side, there is a textured, grid-like paving pattern at the edge of the grass, likely a permeable surface for drainage or a specific type of curb.",
+          "The overall aesthetic is very clean, orderly, and modern, characteristic of planned suburban developments in the Netherlands or Belgium."
+        ],
+        "hard_clues": [
+          "Architecture: The specific style of the houses (steep gabled roofs, brick construction, modern layout) is highly characteristic of the Netherlands.",
+          "Topography: The extreme flatness of the land combined with the presence of reeds/marsh grass strongly suggests a polder landscape.",
+          "Infrastructure: The dedicated, well-maintained asphalt path separated from the houses by a wide green buffer is a hallmark of Dutch urban planning (fietspad).",
+          "Vegetation: The type of tall reeds is common in Dutch water management systems and ditches."
+        ],
+        "ambiguous_clues": [
+          "Specific Location: Without street signs or house numbers, pinpointing the exact street is impossible based solely on this image.",
+          "Country: While strongly indicative of the Netherlands, similar landscapes and architecture could theoretically exist in parts of Belgium or Northern Germany, though less likely to this specific degree of uniformity.",
+          "Path Type: It is unclear if this is a public road for cars or a dedicated bicycle path, though the width and lack of markings suggest the latter."
+        ],
+        "possible_scripts": [
+          "The image was taken in a residential area in the Netherlands, likely in a polder region such as Flevoland (e.g., Almere, Lelystad) or the Randstad area (e.g., outskirts of Amsterdam, Utrecht, or The Hague).",
+          "The location is a modern housing development built on reclaimed land.",
+          "The path is a bicycle path connecting neighborhoods or leading to a nearby town center."
+        ],
+        "driving_side": "right"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "Netherlands",
+          "Belgium",
+          "Denmark",
+          "Germany"
+        ],
+        "zoom_boxes": [
+          [
+            620,
+            470,
+            990,
+            560
+          ],
+          [
+            180,
+            470,
+            450,
+            550
+          ]
+        ],
+        "verification_queries": [
+          "Identify the specific architectural style of the houses in the background, focusing on the roof pitch and brickwork.",
+          "Analyze the grid-like paving pattern on the right side of the path to determine if it matches specific Dutch or Belgian drainage standards.",
+          "Search for residential developments in flat, polder-like areas in the Netherlands that feature this specific combination of dark gabled roofs and reed-lined paths."
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "nl",
+      "predicted_region": "europe",
+      "predicted_lat": 52.3845,
+      "predicted_lng": 4.892,
+      "confidence": 0.92
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "nl",
+      "predicted_region": "europe",
+      "predicted_lat": 52.3845,
+      "predicted_lng": 4.892,
+      "confidence": 0.92
+    },
+    "base_prediction_summary": {
+      "predicted_country": "nl",
+      "predicted_region": "europe",
+      "predicted_lat": 52.3845,
+      "predicted_lng": 4.892,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.92,
+    "skill_boost_aggressive_confidence": 0.92,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "Presence of drainage ditches alongside fields and the style of fencing points towards Dutch or northern German countryside.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7278535783290864,
+          "visual_cues": [
+            "Presence",
+            "alongside",
+            "ditches",
+            "drainage"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The terrain includes rolling hills and mountainous features in the background, characteristic of central or northern Norway.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6876302868127824,
+          "visual_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The street layout and the presence of a detached single-family home structure in a tidy residential neighborhood further point toward France.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6653288066387177,
+          "visual_cues": [
+            "detached",
+            "layout",
+            "presence",
+            "street"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The houses have plastered exteriors in a pale pink-beige tone with brown shutters and sloped, tiled roofs, typical of suburban French architecture.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6637244105339051,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6605782717466355,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "Based on the vegetation, building style, and overall neighborhood appearance, this location is typical of suburban areas around cities like Orléans or Tours.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.63651222884655,
+          "visual_cues": [
+            "building",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.635445699095726,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6283441245555879,
+          "visual_cues": [
+            "architecture",
+            "building",
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The architecture of the houses in the distance, particularly the red-tiled roofs and low-rise, wide structures, is very common in Southern or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.625864738225937,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The environment and mix of infrastructure, with small shops and residential houses along a main road, is typical of towns or villages near large cities in Bulgaria.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6150972664356231,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road is narrow and edged with rough grass, suggesting a minor road, often found in southern France, northern Spain, Italy, or Portugal.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6082730740308762,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The vegetation is dense, temperate, and deciduous, suggesting a region with significant rainfall and moderate temperatures, typical of Central or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.5934638679027557,
+          "visual_cues": [
+            "sign",
+            "vegetation"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "Presence of drainage ditches alongside fields and the style of fencing points towards Dutch or northern German countryside.",
+        "The terrain includes rolling hills and mountainous features in the background, characteristic of central or northern Norway.",
+        "The street layout and the presence of a detached single-family home structure in a tidy residential neighborhood further point toward France.",
+        "The houses have plastered exteriors in a pale pink-beige tone with brown shutters and sloped, tiled roofs, typical of suburban French architecture.",
+        "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+        "Based on the vegetation, building style, and overall neighborhood appearance, this location is typical of suburban areas around cities like Orléans or Tours.",
+        "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+        "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+        "The architecture of the houses in the distance, particularly the red-tiled roofs and low-rise, wide structures, is very common in Southern or Eastern Europe.",
+        "The environment and mix of infrastructure, with small shops and residential houses along a main road, is typical of towns or villages near large cities in Bulgaria.",
+        "The road is narrow and edged with rough grass, suggesting a minor road, often found in southern France, northern Spain, Italy, or Portugal.",
+        "The vegetation is dense, temperate, and deciduous, suggesting a region with significant rainfall and moderate temperatures, typical of Central or Eastern Europe."
+      ],
+      "summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

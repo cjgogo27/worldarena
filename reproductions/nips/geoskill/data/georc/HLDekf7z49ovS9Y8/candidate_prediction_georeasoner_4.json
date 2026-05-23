@@ -1,0 +1,12 @@
+{
+  "country": "Tunisia",
+  "country_code": "tn",
+  "city": "",
+  "reasoning_chain": [
+    "The Tunisian flag is visible on the building, directly indicating the country.",
+    "The UIB (Union Internationale de Banques) sign with Arabic script confirms a Tunisian location.",
+    "Cars are driving on the right side of the road, consistent with Tunisia’s traffic rules.",
+    "White-washed buildings and lush green trees suggest a Mediterranean climate typical of coastal Tunisia."
+  ],
+  "raw_output": "{\n  \"country\": \"Tunisia\",\n  \"country_code\": \"tn\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The Tunisian flag is visible on the building, directly indicating the country.\",\n    \"The UIB (Union Internationale de Banques) sign with Arabic script confirms a Tunisian location.\",\n    \"Cars are driving on the right side of the road, consistent with Tunisia’s traffic rules.\",\n    \"White-washed buildings and lush green trees suggest a Mediterranean climate typical of coastal Tunisia.\"\n  ]\n}"
+}

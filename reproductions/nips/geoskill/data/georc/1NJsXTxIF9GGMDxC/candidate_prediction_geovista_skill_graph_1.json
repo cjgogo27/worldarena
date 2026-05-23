@@ -1,0 +1,791 @@
+{
+  "game_id": "1NJsXTxIF9GGMDxC",
+  "round": 1,
+  "sample_id": "georc::1NJsXTxIF9GGMDxC::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "kg",
+    "predicted_region": "asia",
+    "predicted_address": "rural roadside near Osh, Osh Region, Kyrgyzstan",
+    "predicted_lat": 40.53,
+    "predicted_lng": 72.8,
+    "reasoning_text": "{\n  \"country\": \"Kyrgyzstan\",\n  \"country_code\": \"kg\",\n  \"region\": \"Central Asia\",\n  \"city\": \"Osh\",\n  \"province_or_state\": \"Osh Region\",\n  \"address\": \"rural roadside near Osh, Osh Region, Kyrgyzstan\",\n  \"confidence\": 0.68,\n  \"reasoning\": \"Applying the ordered skills in sequence: (1) the green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan. (2) With Cyrillic on the gas station sign and fall coverage, this is most likely Kyrgyzstan, though Russia or Ukraine are weaker alternatives. (3) The gas station sign shows Cyrillic script, indicating a country using this alphabet in the former Soviet sphere. (4) The visible word 'АЗС' is the standard Russian abbreviation for a gas station and strongly supports a post-Soviet location. I then compose linked supporting cues from the graph: (6) the fuel prices appear in a format like 45.00, 40.00, 35.00, which fits Kyrgyz fuel pricing better than Kazakhstan, Uzbekistan, or Tajikistan. (8) The deciduous roadside trees and continental seasonal look fit Central Asia and the broader ex-Soviet interior. (11) The white-painted bases of the trees are a common ex-Soviet roadside practice and are especially familiar in Kyrgyzstan. Considering these linked cues together, I reject the contradictory lower-priority alternatives pointing to Thailand, Ukraine, or Kazakhstan because they conflict with the stronger fuel-sign and pricing evidence. Following the final graph conclusion, (12) the best consistent estimate is Osh, Kyrgyzstan, specifically a rural roadside on the outskirts of Osh in Osh Region.\",\n  \"evidence\": [\n    \"Green roadside fuel price board\",\n    \"Cyrillic text on the sign\",\n    \"The word 'АЗС' indicating a gas station\",\n    \"Fuel prices appearing around 35.00 to 45.00\",\n    \"White-painted bottoms of roadside trees\",\n    \"Rural ex-Soviet road and fencing style\",\n    \"Deciduous trees and dry continental autumn landscape\"\n  ]\n}",
+    "evidence_spans": [
+      "Green roadside fuel price board",
+      "Cyrillic text on the sign",
+      "The word 'АЗС' indicating a gas station",
+      "Fuel prices appearing around 35.00 to 45.00",
+      "White-painted bottoms of roadside trees",
+      "Rural ex-Soviet road and fencing style",
+      "Deciduous trees and dry continental autumn landscape"
+    ],
+    "confidence": 0.68,
+    "base_prediction_summary": {
+      "predicted_country": "kg",
+      "predicted_region": "asia",
+      "confidence": 0.68
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.9589653015136719,
+        "bm25_score": 40.78165054321289,
+        "semantic_score": 0.6629592180252075
+      },
+      {
+        "skill_text": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "cyrillic",
+          "sign"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.7559692859649658,
+        "bm25_score": 20.87769889831543,
+        "semantic_score": 0.7257235050201416
+      },
+      {
+        "skill_text": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "cyrillic",
+          "script",
+          "sign"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.6848529577255249,
+        "bm25_score": 21.63928985595703,
+        "semantic_score": 0.6026660203933716
+      },
+      {
+        "skill_text": "The word \"АЗС\" stands for \"gas station\" in Russian, prevalent in post-Soviet states.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "Russian",
+          "stands",
+          "station",
+          "word"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.6656631231307983,
+        "bm25_score": 22.98143196105957,
+        "semantic_score": 0.5481453537940979
+      },
+      {
+        "skill_text": "No obvious Cyrillic text is visible, but the overall infrastructural and architectural style aligns more closely with Ukrainian villages.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "cyrillic"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 1,
+        "score": 0.5628302097320557,
+        "bm25_score": 21.098093032836914,
+        "semantic_score": 0.42617595195770264
+      },
+      {
+        "skill_text": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+        "region_hint": "asia",
+        "confidence": 0.55,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.5588418841362,
+        "bm25_score": 14.750977516174316,
+        "semantic_score": 0.5391020774841309
+      },
+      {
+        "skill_text": "No visible signage or text is present, but the other clues point clearly towards Thailand.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 1,
+        "score": 0.5573469996452332,
+        "bm25_score": 23.297147750854492,
+        "semantic_score": 0.3765506446361542
+      },
+      {
+        "skill_text": "The landscape shows deciduous trees typical of temperate to continental climates, often found in Kazakhstan, Uzbekistan, Kyrgyzstan or Russia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "trees"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.5572229027748108,
+        "bm25_score": 26.39116668701172,
+        "semantic_score": 0.3183392286300659
+      },
+      {
+        "skill_text": "No explicit Cyrillic signage is visible, but the overall style and infrastructure strongly suggest the region.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "cyrillic",
+          "sign"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 1,
+        "score": 0.5400298833847046,
+        "bm25_score": 15.947039604187012,
+        "semantic_score": 0.48789867758750916
+      },
+      {
+        "skill_text": "Combining all the clues, this most likely places the location in Kazakhstan, likely near Astana.",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "Combining",
+          "clues",
+          "most",
+          "this"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 1,
+        "score": 0.535563051700592,
+        "bm25_score": 18.202930450439453,
+        "semantic_score": 0.43876218795776367
+      },
+      {
+        "skill_text": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.5317567586898804,
+        "bm25_score": 20.77825164794922,
+        "semantic_score": 0.3846457004547119
+      },
+      {
+        "skill_text": "Therefore, the best estimate is Osh, Kyrgyzstan.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "Kyrgyzstan",
+          "Therefore",
+          "best",
+          "estimate"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.5280304551124573,
+        "bm25_score": 17.5472469329834,
+        "semantic_score": 0.4395367205142975
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.9589653015136719,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.7559692859649658,
+          "visual_cues": [
+            "cyrillic",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6848529577255249,
+          "visual_cues": [
+            "cyrillic",
+            "script",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The word \"АЗС\" stands for \"gas station\" in Russian, prevalent in post-Soviet states.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6656631231307983,
+          "visual_cues": [
+            "Russian",
+            "stands",
+            "station",
+            "word"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "No obvious Cyrillic text is visible, but the overall infrastructural and architectural style aligns more closely with Ukrainian villages.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.5628302097320557,
+          "visual_cues": [
+            "cyrillic"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+          "region_hint": "asia",
+          "confidence": 0.55,
+          "score": 0.5588418841362,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "No visible signage or text is present, but the other clues point clearly towards Thailand.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.5573469996452332,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The landscape shows deciduous trees typical of temperate to continental climates, often found in Kazakhstan, Uzbekistan, Kyrgyzstan or Russia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.5572229027748108,
+          "visual_cues": [
+            "climate",
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "No explicit Cyrillic signage is visible, but the overall style and infrastructure strongly suggest the region.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.5400298833847046,
+          "visual_cues": [
+            "cyrillic",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "Combining all the clues, this most likely places the location in Kazakhstan, likely near Astana.",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.535563051700592,
+          "visual_cues": [
+            "Combining",
+            "clues",
+            "most",
+            "this"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.5317567586898804,
+          "visual_cues": [
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "Therefore, the best estimate is Osh, Kyrgyzstan.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.5280304551124573,
+          "visual_cues": [
+            "Kyrgyzstan",
+            "Therefore",
+            "best",
+            "estimate"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "cyrillic",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "cyrillic"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "cyrillic",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "cyrillic"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "cyrillic",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "cyrillic"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+        "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+        "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+        "The word \"АЗС\" stands for \"gas station\" in Russian, prevalent in post-Soviet states.",
+        "No obvious Cyrillic text is visible, but the overall infrastructural and architectural style aligns more closely with Ukrainian villages.",
+        "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+        "No visible signage or text is present, but the other clues point clearly towards Thailand.",
+        "The landscape shows deciduous trees typical of temperate to continental climates, often found in Kazakhstan, Uzbekistan, Kyrgyzstan or Russia.",
+        "No explicit Cyrillic signage is visible, but the overall style and infrastructure strongly suggest the region.",
+        "Combining all the clues, this most likely places the location in Kazakhstan, likely near Astana.",
+        "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+        "Therefore, the best estimate is Osh, Kyrgyzstan."
+      ],
+      "summary": "nodes=12, edges=53, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Kyrgyzstan\",\n  \"country_code\": \"kg\",\n  \"region\": \"Central Asia\",\n  \"city\": \"Osh\",\n  \"province_or_state\": \"Osh Region\",\n  \"address\": \"rural roadside near Osh, Osh Region, Kyrgyzstan\",\n  \"confidence\": 0.68,\n  \"reasoning\": \"The strongest clue is the green roadside fuel board with clearl",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 53,
+        "graph_summary": "nodes=12, edges=53, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "kg"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

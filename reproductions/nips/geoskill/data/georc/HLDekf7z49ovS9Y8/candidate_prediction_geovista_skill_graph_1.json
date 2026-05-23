@@ -1,0 +1,737 @@
+{
+  "game_id": "HLDekf7z49ovS9Y8",
+  "round": 1,
+  "sample_id": "georc::HLDekf7z49ovS9Y8::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ar",
+    "predicted_region": "south_america",
+    "predicted_address": "Rural road near El Calafate, Santa Cruz Province, Argentina",
+    "predicted_lat": -41.0,
+    "predicted_lng": -68.0,
+    "reasoning_text": "{\n  \"country\": \"Argentina\",\n  \"country_code\": \"ar\",\n  \"region\": \"South America\",\n  \"city\": \"El Calafate\",\n  \"province_or_state\": \"Santa Cruz Province\",\n  \"address\": \"Rural road near El Calafate, Santa Cruz Province, Argentina\",\n  \"confidence\": 0.34,\n  \"reasoning\": \"Applying the ordered skill graph strictly: (1) the highest-priority skill states the image is most likely taken in Argentina near El Calafate, Santa Cruz Province, so this becomes the primary anchor. (2) The next skill supports an isolated-road interpretation with no strong habitation, vehicles, or road markings, reinforcing a rural Patagonian-style placement. Following linked skills from this anchor, (7) the unpaved straight road with minimal infrastructure is treated as typical of southern Argentina or Chile, and (9) the wide sandy shoulder is taken as matching rural Argentine road construction. Via the cue-composition link, (12) utility poles and fencing indicate developed rural infrastructure and agricultural land rather than a dense urban core. Lower-priority skills suggesting Ecuador, Colombia, or generic Andean settings are inconsistent with the top-priority Argentina chain, so the final guess remains anchored to El Calafate in Santa Cruz Province.\",\n  \"evidence\": [\n    \"Unpaved straight road\",\n    \"Minimal lane markings and limited transport infrastructure\",\n    \"Wide sandy dirt surface and shoulder\",\n    \"Utility poles and overhead wires along the roadside\",\n    \"Sparse roadside development relative to a dense city center\",\n    \"Fenced or walled roadside properties suggesting edge-of-settlement or agricultural transition\"\n  ]\n}",
+    "evidence_spans": [
+      "Unpaved straight road",
+      "Minimal lane markings and limited transport infrastructure",
+      "Wide sandy dirt surface and shoulder",
+      "Utility poles and overhead wires along the roadside",
+      "Sparse roadside development relative to a dense city center",
+      "Fenced or walled roadside properties suggesting edge-of-settlement or agricultural transition"
+    ],
+    "confidence": 0.34,
+    "base_prediction_summary": {
+      "predicted_country": "bo",
+      "predicted_region": "south_america",
+      "confidence": 0.69
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "Based on all evidence, this image is most likely taken in Argentina, near El Calafate, Santa Cruz Province.",
+        "region_hint": "south_america",
+        "confidence": 0.75,
+        "visual_cues": [
+          "Based",
+          "evidence",
+          "image",
+          "this"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 5,
+        "score": 0.9268738031387329,
+        "bm25_score": 38.10227966308594,
+        "semantic_score": 0.4774385988712311
+      },
+      {
+        "skill_text": "There are no signs of habitation, other vehicles, or road markings, which is typical for the isolated roads around El Calafate, Santa Cruz Province, Argentina.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings",
+          "sign"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 5,
+        "score": 0.8770745396614075,
+        "bm25_score": 35.953025817871094,
+        "semantic_score": 0.45191821455955505
+      },
+      {
+        "skill_text": "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 3,
+        "score": 0.7452263832092285,
+        "bm25_score": 20.97908592224121,
+        "semantic_score": 0.5283162593841553
+      },
+      {
+        "skill_text": "The combination of barren terrain, reddish soil, and plateau landforms strongly suggests northern New Mexico near Santa Fe or surrounding rural areas.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "soil",
+          "terrain"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 4,
+        "score": 0.7217283248901367,
+        "bm25_score": 26.560056686401367,
+        "semantic_score": 0.41400039196014404
+      },
+      {
+        "skill_text": "The distant urban area has a mix of low-rise buildings with flat roofs and some orange tile roofing, consistent with Andean urban development.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building",
+          "roof"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 3,
+        "score": 0.7035767436027527,
+        "bm25_score": 21.53188133239746,
+        "semantic_score": 0.47052448987960815
+      },
+      {
+        "skill_text": "The architecture of the buildings, with whitewashed walls, red brick lower facades, and wooden balconies, is characteristic of colonial towns in Colombia.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 3,
+        "score": 0.6826828718185425,
+        "bm25_score": 17.233797073364258,
+        "semantic_score": 0.5124859809875488
+      },
+      {
+        "skill_text": "The road is unpaved and straight with minimal infrastructure, indicating a remote location typical of southern Argentina or Chile.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 5,
+        "score": 0.680230975151062,
+        "bm25_score": 16.01900863647461,
+        "semantic_score": 0.5284268260002136
+      },
+      {
+        "skill_text": "The mountains in the background are lush and steep, further indicating an Andean location.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "mountains"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 4,
+        "score": 0.6774125099182129,
+        "bm25_score": 23.02574920654297,
+        "semantic_score": 0.4164387881755829
+      },
+      {
+        "skill_text": "The dirt shoulder is wide and sandy rather than gravel, which matches rural Argentine road construction.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 4,
+        "score": 0.6764340400695801,
+        "bm25_score": 19.045774459838867,
+        "semantic_score": 0.4770021438598633
+      },
+      {
+        "skill_text": "The steep street and hilly terrain suggest an Andean town, which matches the geography of central Colombia.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "terrain"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 3,
+        "score": 0.6759157776832581,
+        "bm25_score": 16.96832275390625,
+        "semantic_score": 0.5086058378219604
+      },
+      {
+        "skill_text": "Overhead electric wires and simple concrete utility posts are characteristic of infrastructure in Ecuador.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "Overhead",
+          "electric",
+          "simple",
+          "wires"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 3,
+        "score": 0.6631040573120117,
+        "bm25_score": 24.546573638916016,
+        "semantic_score": 0.3759455978870392
+      },
+      {
+        "skill_text": "The utility poles reveal a developed rural infrastructure, and the road fencing suggests agricultural land rather than purely pastoral.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles",
+          "road"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 3,
+        "score": 0.662041962146759,
+        "bm25_score": 23.092287063598633,
+        "semantic_score": 0.3972429037094116
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "Based on all evidence, this image is most likely taken in Argentina, near El Calafate, Santa Cruz Province.",
+          "region_hint": "south_america",
+          "confidence": 0.75,
+          "score": 0.9268738031387329,
+          "visual_cues": [
+            "Based",
+            "evidence",
+            "image",
+            "this"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "There are no signs of habitation, other vehicles, or road markings, which is typical for the isolated roads around El Calafate, Santa Cruz Province, Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.8770745396614075,
+          "visual_cues": [
+            "road",
+            "road markings",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7452263832092285,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The combination of barren terrain, reddish soil, and plateau landforms strongly suggests northern New Mexico near Santa Fe or surrounding rural areas.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7217283248901367,
+          "visual_cues": [
+            "soil",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The distant urban area has a mix of low-rise buildings with flat roofs and some orange tile roofing, consistent with Andean urban development.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7035767436027527,
+          "visual_cues": [
+            "building",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The architecture of the buildings, with whitewashed walls, red brick lower facades, and wooden balconies, is characteristic of colonial towns in Colombia.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6826828718185425,
+          "visual_cues": [
+            "architecture",
+            "building"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road is unpaved and straight with minimal infrastructure, indicating a remote location typical of southern Argentina or Chile.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.680230975151062,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The mountains in the background are lush and steep, further indicating an Andean location.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6774125099182129,
+          "visual_cues": [
+            "mountains"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The dirt shoulder is wide and sandy rather than gravel, which matches rural Argentine road construction.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6764340400695801,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The steep street and hilly terrain suggest an Andean town, which matches the geography of central Colombia.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6759157776832581,
+          "visual_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "Overhead electric wires and simple concrete utility posts are characteristic of infrastructure in Ecuador.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6631040573120117,
+          "visual_cues": [
+            "Overhead",
+            "electric",
+            "simple",
+            "wires"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The utility poles reveal a developed rural infrastructure, and the road fencing suggests agricultural land rather than purely pastoral.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.662041962146759,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "Based on all evidence, this image is most likely taken in Argentina, near El Calafate, Santa Cruz Province.",
+        "There are no signs of habitation, other vehicles, or road markings, which is typical for the isolated roads around El Calafate, Santa Cruz Province, Argentina.",
+        "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+        "The combination of barren terrain, reddish soil, and plateau landforms strongly suggests northern New Mexico near Santa Fe or surrounding rural areas.",
+        "The distant urban area has a mix of low-rise buildings with flat roofs and some orange tile roofing, consistent with Andean urban development.",
+        "The architecture of the buildings, with whitewashed walls, red brick lower facades, and wooden balconies, is characteristic of colonial towns in Colombia.",
+        "The road is unpaved and straight with minimal infrastructure, indicating a remote location typical of southern Argentina or Chile.",
+        "The mountains in the background are lush and steep, further indicating an Andean location.",
+        "The dirt shoulder is wide and sandy rather than gravel, which matches rural Argentine road construction.",
+        "The steep street and hilly terrain suggest an Andean town, which matches the geography of central Colombia.",
+        "Overhead electric wires and simple concrete utility posts are characteristic of infrastructure in Ecuador.",
+        "The utility poles reveal a developed rural infrastructure, and the road fencing suggests agricultural land rather than purely pastoral."
+      ],
+      "summary": "nodes=12, edges=49, base_region=south_america, top_skill_region=south_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Bolivia\",\n  \"country_code\": \"bo\",\n  \"region\": \"South America\",\n  \"city\": \"Santa Cruz de la Sierra\",\n  \"province_or_state\": \"Santa Cruz Department\",\n  \"address\": \"Peri-urban outskirts of Santa Cruz de la Sierra, Santa Cruz Department, Bolivia\",\n  \"confidence\": 0.69,\n  \"reasoning\": \"Th",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 49,
+        "graph_summary": "nodes=12, edges=49, base_region=south_america, top_skill_region=south_america"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "ar"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

@@ -1,0 +1,787 @@
+{
+  "game_id": "G3aNW5xo5JUCnAhB",
+  "round": 1,
+  "sample_id": "georc::G3aNW5xo5JUCnAhB::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "jp",
+    "predicted_region": "asia",
+    "predicted_address": "Rural lane near farmland in Tsukuba, Ibaraki Prefecture, Japan",
+    "predicted_lat": 36.23333333,
+    "predicted_lng": 140.28333333,
+    "reasoning_text": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"East Asia\",\n  \"city\": \"Tsukuba\",\n  \"province_or_state\": \"Ibaraki Prefecture\",\n  \"address\": \"Rural lane near farmland in Tsukuba, Ibaraki Prefecture, Japan\",\n  \"confidence\": 0.82,\n  \"reasoning\": \"Applying the ordered skill graph strictly: Skill 1 is the strongest starting point, as the narrow concrete road with a sharp edge and shallow drainage canal is highly typical of rural Japan. From Skill 1, the linked supporting skills that remain visually consistent are Skill 2, Skill 3, Skill 4, Skill 6, and Skill 8. Skill 2 supports Japan through the detached rural houses with sloped roofs and Japanese residential proportions. Skill 3 matches the shed-like agricultural outbuildings and simple utilitarian rural construction commonly seen in Japan. Skill 4 is supported by the cultivated plots, orderly agricultural divisions, and peri-urban farming layout. Skill 8 is strongly consistent with the tall utility poles and dense overhead power-line configuration typical in Japan. Skill 6 contributes rural low-density settlement structure and open land, though the flatter plain here fits mainland lowland Japan better than Hokkaido specifically. The alternative linked skills suggesting Thailand, Bangladesh, or India are not consistent with the visible house forms, drainage design, field layout, and pole infrastructure, so they are rejected in the final synthesis. The very flat agricultural landscape with scattered detached homes is especially characteristic of the Kanto plain. Within that setting, Tsukuba in Ibaraki Prefecture is a strong match because it combines broad flat farmland, rural residential lanes, and this exact style of roadside drainage and utility infrastructure.\",\n  \"evidence\": [\n    \"Very narrow paved rural lane with no centerline markings\",\n    \"Concrete roadside drainage or irrigation gutter with metal grates\",\n    \"Japanese-style detached houses with sloped roofs and simple facades\",\n    \"Agricultural plots directly adjacent to homes in a flat plain\",\n    \"Utility poles with dense overhead wiring typical of Japan\",\n    \"Rural shed and greenhouse-like farm structures\",\n    \"Low-density settlement pattern in an open cultivated landscape\",\n    \"Overall flat Kanto-like agricultural terrain consistent with Ibaraki\"\n  ]\n}",
+    "evidence_spans": [
+      "Very narrow paved rural lane with no centerline markings",
+      "Concrete roadside drainage or irrigation gutter with metal grates",
+      "Japanese-style detached houses with sloped roofs and simple facades",
+      "Agricultural plots directly adjacent to homes in a flat plain",
+      "Utility poles with dense overhead wiring typical of Japan",
+      "Rural shed and greenhouse-like farm structures",
+      "Low-density settlement pattern in an open cultivated landscape",
+      "Overall flat Kanto-like agricultural terrain consistent with Ibaraki"
+    ],
+    "confidence": 0.82,
+    "base_prediction_summary": {
+      "predicted_country": "jp",
+      "predicted_region": "asia",
+      "confidence": 0.76
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The narrow concrete road with a sharp edge and shallow canal is typical of rural infrastructure in Japan.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 4,
+        "score": 0.8966147899627686,
+        "bm25_score": 35.5490837097168,
+        "semantic_score": 0.6316837072372437
+      },
+      {
+        "skill_text": "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "roof"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 4,
+        "score": 0.852882981300354,
+        "bm25_score": 30.378311157226562,
+        "semantic_score": 0.6616122722625732
+      },
+      {
+        "skill_text": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "sign"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 4,
+        "score": 0.8373979926109314,
+        "bm25_score": 35.89625930786133,
+        "semantic_score": 0.5359344482421875
+      },
+      {
+        "skill_text": "The vegetation, field type, and clear divisions of agricultural plots are typical of Japanese rural and peri-urban areas.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "vegetation"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 4,
+        "score": 0.8126943707466125,
+        "bm25_score": 25.907272338867188,
+        "semantic_score": 0.6839091777801514
+      },
+      {
+        "skill_text": "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 1,
+        "score": 0.7834535837173462,
+        "bm25_score": 36.700199127197266,
+        "semantic_score": 0.4396669864654541
+      },
+      {
+        "skill_text": "The abundance of overhead power lines and the specific ordering of smaller houses suggest a lower-population density rural village, which is common on Hokkaido.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "abundance",
+          "lines",
+          "overhead",
+          "power"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 4,
+        "score": 0.7812042236328125,
+        "bm25_score": 28.00590705871582,
+        "semantic_score": 0.597498893737793
+      },
+      {
+        "skill_text": "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 1,
+        "score": 0.7796388864517212,
+        "bm25_score": 35.93889236450195,
+        "semantic_score": 0.44803106784820557
+      },
+      {
+        "skill_text": "The power lines and their specific configuration are consistent with those found in Japan.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lines",
+          "power",
+          "specific",
+          "their"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 2,
+        "score": 0.7653634548187256,
+        "bm25_score": 31.3386173248291,
+        "semantic_score": 0.5118069648742676
+      },
+      {
+        "skill_text": "The presence and design of the utility pole and the streetlight are consistent with infrastructure found in Thailand.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "sign"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 1,
+        "score": 0.7584706544876099,
+        "bm25_score": 36.55728530883789,
+        "semantic_score": 0.4046376943588257
+      },
+      {
+        "skill_text": "The lack of lane markings and the informal roadside commerce are consistent with smaller towns in Bangladesh.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 2,
+        "score": 0.7580350041389465,
+        "bm25_score": 40.666297912597656,
+        "semantic_score": 0.32778429985046387
+      },
+      {
+        "skill_text": "The mix of paved and dirt roads, small fields with boundary plants, and style of the electric wiring above all point to rural settings in India, rather than neighboring countries like Bangladesh or Nepal.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 2,
+        "score": 0.7517958283424377,
+        "bm25_score": 30.228670120239258,
+        "semantic_score": 0.5119267106056213
+      },
+      {
+        "skill_text": "The road is narrow with simple asphalt and minimal lane markings, typical of rural or suburban regions in developing countries.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.7489140033721924,
+        "bm25_score": 35.17744445800781,
+        "semantic_score": 0.4158116281032562
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The narrow concrete road with a sharp edge and shallow canal is typical of rural infrastructure in Japan.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8966147899627686,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.852882981300354,
+          "visual_cues": [
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8373979926109314,
+          "visual_cues": [
+            "architecture",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The vegetation, field type, and clear divisions of agricultural plots are typical of Japanese rural and peri-urban areas.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8126943707466125,
+          "visual_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7834535837173462,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The abundance of overhead power lines and the specific ordering of smaller houses suggest a lower-population density rural village, which is common on Hokkaido.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7812042236328125,
+          "visual_cues": [
+            "abundance",
+            "lines",
+            "overhead",
+            "power"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7796388864517212,
+          "visual_cues": [
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The power lines and their specific configuration are consistent with those found in Japan.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7653634548187256,
+          "visual_cues": [
+            "lines",
+            "power",
+            "specific",
+            "their"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The presence and design of the utility pole and the streetlight are consistent with infrastructure found in Thailand.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7584706544876099,
+          "visual_cues": [
+            "pole",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The lack of lane markings and the informal roadside commerce are consistent with smaller towns in Bangladesh.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7580350041389465,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The mix of paved and dirt roads, small fields with boundary plants, and style of the electric wiring above all point to rural settings in India, rather than neighboring countries like Bangladesh or Nepal.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7517958283424377,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The road is narrow with simple asphalt and minimal lane markings, typical of rural or suburban regions in developing countries.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7489140033721924,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lines",
+            "power"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The narrow concrete road with a sharp edge and shallow canal is typical of rural infrastructure in Japan.",
+        "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+        "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+        "The vegetation, field type, and clear divisions of agricultural plots are typical of Japanese rural and peri-urban areas.",
+        "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+        "The abundance of overhead power lines and the specific ordering of smaller houses suggest a lower-population density rural village, which is common on Hokkaido.",
+        "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+        "The power lines and their specific configuration are consistent with those found in Japan.",
+        "The presence and design of the utility pole and the streetlight are consistent with infrastructure found in Thailand.",
+        "The lack of lane markings and the informal roadside commerce are consistent with smaller towns in Bangladesh.",
+        "The mix of paved and dirt roads, small fields with boundary plants, and style of the electric wiring above all point to rural settings in India, rather than neighboring countries like Bangladesh or Nepal.",
+        "The road is narrow with simple asphalt and minimal lane markings, typical of rural or suburban regions in developing countries."
+      ],
+      "summary": "nodes=12, edges=55, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"East Asia\",\n  \"city\": \"Tsukuba\",\n  \"province_or_state\": \"Ibaraki Prefecture\",\n  \"address\": \"Rural lane near farmland in Tsukuba, Ibaraki Prefecture, Japan\",\n  \"confidence\": 0.76,\n  \"reasoning\": \"The scene is most consistent with rural Japa",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 55,
+        "graph_summary": "nodes=12, edges=55, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "jp"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

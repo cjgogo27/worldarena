@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The red clay soil and sparse vegetation are characteristic of the Cerrado biome, common in central Brazil.",
+    "The unpaved dirt road with tire tracks suggests a rural or semi-rural area typical of interior Brazilian regions.",
+    "The architecture—simple brick houses with tiled roofs—is consistent with rural housing styles found across Brazil."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The red clay soil and sparse vegetation are characteristic of the Cerrado biome, common in central Brazil.\",\n    \"The unpaved dirt road with tire tracks suggests a rural or semi-rural area typical of interior Brazilian regions.\",\n    \"The architecture—simple brick houses with tiled roofs—is consistent with rural housing styles found across Brazil.\",\n    \"The presence of a water tank on a concrete structure (left) is common in areas without municipal water access,"
+}

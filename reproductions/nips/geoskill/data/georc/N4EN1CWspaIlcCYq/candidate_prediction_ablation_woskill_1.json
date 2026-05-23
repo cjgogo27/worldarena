@@ -1,0 +1,25 @@
+{
+  "game_id": "N4EN1CWspaIlcCYq",
+  "round": 1,
+  "sample_id": "georc::N4EN1CWspaIlcCYq::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ls",
+    "predicted_region": "africa",
+    "predicted_address": "Rural outskirts of Maseru, Maseru District, Lesotho",
+    "predicted_lat": -4.32194444,
+    "predicted_lng": 15.31194444,
+    "reasoning_text": "{\n  \"country\": \"Lesotho\",\n  \"country_code\": \"ls\",\n  \"region\": \"Southern Africa\",\n  \"city\": \"Maseru\",\n  \"province_or_state\": \"Maseru District\",\n  \"address\": \"Rural outskirts of Maseru, Maseru District, Lesotho\",\n  \"confidence\": 0.56,\n  \"reasoning\": \"The scene shows a rural settlement on a broad, dry highland plain with low mountains visible in the distance, which is consistent with Lesotho's landscape. The housing style—single-story masonry homes with corrugated roofs, boundary walls, and modest village layout—fits southern African peri-urban settlements. The road is an unmarked light-colored paved/gravel surface common in Lesotho's outskirts. Utility poles and general infrastructure also resemble Lesotho and nearby South Africa, but the open plateau setting and village character point more strongly to Lesotho, especially around the Maseru lowlands where many street-view-covered roads look similar. Because there are no readable signs or explicit national markers, this is an informed best guess rather than a certain identification.\",\n  \"evidence\": [\n    \"Open highland/plain landscape with distant low mountains\",\n    \"Southern African-style single-story masonry houses with corrugated roofs\",\n    \"Peri-urban village layout with boundary walls and sparse roadside development\",\n    \"Light-colored unmarked rural road typical of Lesotho outskirts\",\n    \"Utility poles and infrastructure consistent with Lesotho/South Africa region\",\n    \"Overall dry grassy environment matches Lesotho lowlands near Maseru\"\n  ]\n}",
+    "evidence_spans": [
+      "Open highland/plain landscape with distant low mountains",
+      "Southern African-style single-story masonry houses with corrugated roofs",
+      "Peri-urban village layout with boundary walls and sparse roadside development",
+      "Light-colored unmarked rural road typical of Lesotho outskirts",
+      "Utility poles and infrastructure consistent with Lesotho/South Africa region",
+      "Overall dry grassy environment matches Lesotho lowlands near Maseru"
+    ],
+    "confidence": 0.56
+  },
+  "error": null
+}

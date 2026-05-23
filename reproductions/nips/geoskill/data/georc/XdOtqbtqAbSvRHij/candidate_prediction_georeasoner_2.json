@@ -1,0 +1,10 @@
+{
+  "country": "Chile",
+  "country_code": "cl",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved, gravel road with no center markings and vehicles driving on the right side is typical of rural Chilean roads in southern regions.",
+    "The presence of corrugated metal houses, simple wooden fences, and overgrown vegetation suggests a remote, semi-rural settlement common in Patagonia or Los Lagos regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Chile\",\n  \"country_code\": \"cl\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved, gravel road with no center markings and vehicles driving on the right side is typical of rural Chilean roads in southern regions.\",\n    \"The presence of corrugated metal houses, simple wooden fences, and overgrown vegetation suggests a remote, semi-rural settlement common in Patagonia or Los Lagos regions.\",\n    \"Dense evergreen forests and misty mountains in the background are characteristic of southern Chile’s temperate rainforest and"
+}

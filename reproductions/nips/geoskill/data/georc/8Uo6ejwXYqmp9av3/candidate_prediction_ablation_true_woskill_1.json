@@ -1,0 +1,33 @@
+{
+  "game_id": "8Uo6ejwXYqmp9av3",
+  "round": 1,
+  "sample_id": "georc::8Uo6ejwXYqmp9av3::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "th",
+    "predicted_region": "asia",
+    "predicted_address": "Rural road in Dan Khun Thot District, Nakhon Ratchasima Province, Thailand",
+    "predicted_lat": 14.97222222,
+    "predicted_lng": 102.1,
+    "reasoning_text": "```json\n{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Nakhon Ratchasima\",\n  \"province_or_state\": \"Nakhon Ratchasima Province\",\n  \"address\": \"Rural road in Dan Khun Thot District, Nakhon Ratchasima Province, Thailand\",\n  \"confidence\": 0.65,\n  \"reasoning\": \"The image shows a rural concrete road with utility poles featuring multiple wires, typical of Thai rural infrastructure. The vegetation includes dry-season deciduous trees and scrubland common in Thailand's northeast (Isan) region. The building style with metal roofs on stilts and the concrete perimeter walls are characteristic of Thai rural housing. The dry, harvested field suggests rice or cassava farming, common in this region. The utility pole design with street lamp attachment matches Thai rural electrification standards. The overall landscape and infrastructure are most consistent with Thailand's northeastern provinces rather than Laos or Cambodia, which have similar but distinguishable rural development patterns.\",\n  \"evidence\": [\"Concrete utility pole with street lamp and multiple wire attachments typical of Thailand\", \"Metal roof rural buildings on raised foundations\", \"Dry harvested agricultural field with deciduous vegetation\", \"Concrete block perimeter walls common in Thai rural properties\", \"Narrow paved rural road with drainage ditches\", \"Isan region dry season landscape with scattered trees\"]\n}\n```",
+    "evidence_spans": [
+      "Concrete utility pole with street lamp and multiple wire attachments typical of Thailand",
+      "Metal roof rural buildings on raised foundations",
+      "Dry harvested agricultural field with deciduous vegetation",
+      "Concrete block perimeter walls common in Thai rural properties",
+      "Narrow paved rural road with drainage ditches",
+      "Isan region dry season landscape with scattered trees"
+    ],
+    "confidence": 0.65,
+    "country_top3": [
+      "th",
+      "la",
+      "kh"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"th\",\"la\",\"kh\"],\"reason\":\"Tropical/subtropical rural setting with concrete utility pole, simple street lamp design, dry harvested field, and wooden stilt-style structures with metal roofs. Vegetation includes acacia-like trees and dense tropical undergrowth. Road is narrow concrete rural path. These features are highly characteristic of Southeast Asian rural areas, particularly Thailand, Laos, or Cambodia. The utility pole design and overall infrastructure style most strongly suggests Thailand.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.6505000000000001
+  },
+  "error": null
+}

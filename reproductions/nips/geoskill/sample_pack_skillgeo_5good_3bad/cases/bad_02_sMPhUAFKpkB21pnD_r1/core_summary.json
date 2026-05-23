@@ -1,0 +1,25 @@
+{
+  "selection_group": "bad",
+  "selection_rank": 2,
+  "distance_km": 17849.327817,
+  "retrieved_skill_count": 0,
+  "sample_id": "georc::sMPhUAFKpkB21pnD::round1",
+  "game_id": "sMPhUAFKpkB21pnD",
+  "round": "1",
+  "image_source": "/data/alice/cjtest/NIPS/geoskill/data/georc/sMPhUAFKpkB21pnD/sMPhUAFKpkB21pnD_1.png",
+  "ground_truth": {
+    "country": "co",
+    "lat": 9.051514737337179,
+    "lng": -75.74462623986078
+  },
+  "prediction": {
+    "predicted_country": "vn",
+    "predicted_region": "asia",
+    "predicted_address": "Duong So 864, Dao Thanh Commune, My Tho, Tien Giang Province, Vietnam",
+    "predicted_lat": 10.324365,
+    "predicted_lng": 106.2485216,
+    "confidence": 0.58,
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  }
+}

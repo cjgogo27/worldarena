@@ -1,0 +1,32 @@
+{
+  "game_id": "QhbT3Koc9Mxo6EdL",
+  "round": 1,
+  "sample_id": "georc::QhbT3Koc9Mxo6EdL::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ru",
+    "predicted_region": "europe",
+    "predicted_address": "M13 Highway, Klintsy, Bryansk Oblast, Russia",
+    "predicted_lat": 52.95,
+    "predicted_lng": 33.4,
+    "reasoning_text": "```json\n{\n  \"country\": \"Russia\",\n  \"country_code\": \"ru\",\n  \"region\": \"Europe\",\n  \"city\": \"Klintsy\",\n  \"province_or_state\": \"Bryansk Oblast\",\n  \"address\": \"M13 Highway, Klintsy, Bryansk Oblast, Russia\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The truck has 'КЛИНЦЫ' written on its crane arm, which is the name of a city in Russia. Klintsy is located in Bryansk Oblast. The flat terrain, dry grasslands, power lines, and road style are consistent with western Russia. The highway appears to be a major regional road connecting to Klintsy. The M13 (also known as A240) is a federal highway passing near Klintsy in Bryansk Oblast.\",\n  \"evidence\": [\"Truck crane arm labeled 'КЛИНЦЫ' in Cyrillic\", \"Flat agricultural landscape with dry grass\", \"Russian-style highway with dashed white markings\", \"Soviet-era KAMAZ truck typical of Russia\", \"Power transmission lines in open steppe-like terrain\"]\n}\n```",
+    "evidence_spans": [
+      "Truck crane arm labeled 'КЛИНЦЫ' in Cyrillic",
+      "Flat agricultural landscape with dry grass",
+      "Russian-style highway with dashed white markings",
+      "Soviet-era KAMAZ truck typical of Russia",
+      "Power transmission lines in open steppe-like terrain"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "ru",
+      "kz",
+      "ua"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"ru\",\"kz\",\"ua\"],\"reason\":\"The truck has Cyrillic text 'КЛИНЦЫ' (Klintsy, a Russian city), the vehicle is a KamAZ (Russian manufacturer), the flat steppe landscape with power lines and road style matches southern Russia or nearby post-Soviet states, and the driving side is right-hand traffic consistent with all three countries.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9675000000000001
+  },
+  "error": null
+}

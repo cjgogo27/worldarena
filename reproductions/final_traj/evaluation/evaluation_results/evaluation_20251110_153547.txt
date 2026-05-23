@@ -1,0 +1,40 @@
+================================================================================
+Trajectory Evaluation Report
+================================================================================
+
+Time: 2025-11-10 15:35:47
+Generated File: E:\FrankYcj\FinalTraj\Trajectory_Generation_multi_agent\output_trajectories\all_trajectories_20251110_135603.json
+Original File: E:\FrankYcj\FinalTraj\California\processed_data\all_user_schedules.json
+Users: 2
+Timesteps: 96 (15min each)
+
+Metrics:
+--------------------------------------------------------------------------------
+accuracy            : 0.723958
+f1-score            : 0.188706
+edit_dist           : 0.276042
+bleu_score          : 0.723958
+data_jsd            : 0.832555
+macro_int           : 0.767762
+micro_int           : 0.832555
+act_type            : 0.312257
+uni_act_type        : 0.480955
+traj_len            : 0.832555
+macro_hour          : 0.721679
+micro_hour          : 0.721679
+
+================================================================================
+
+User Trajectories:
+================================================================================
+
+User 1: 30007884_1
+Match Rate: 77.08%
+Generated: 00:00-07:30: home; 07:30-08:30: education; 08:30-17:15: work; 17:15-17:45: home; 17:45-18:45: exercise; 18:45-19:15: home; 19:15-20:45: dine_out; 20:45-21:00: home; 21:00-22:30: socialize; 22:30-24:00: home
+Original:  00:00-08:30: home; 08:30-11:30: work; 11:30-11:45: dine_out; 11:45-17:00: work; 17:00-24:00: home
+--------------------------------------------------------------------------------
+User 2: 30007884_2
+Match Rate: 67.71%
+Generated: 00:00-07:30: home; 07:30-08:30: education; 08:30-17:15: work; 17:15-18:15: service; 18:15-19:15: shopping; 19:15-19:30: unknown; 19:30-20:30: exercise; 20:30-20:45: unknown; 20:45-22:00: dine_out; 22:00-22:15: unknown; 22:15-23:30: socialize; 23:30-24:00: home
+Original:  00:00-07:45: home; 07:45-16:45: work; 16:45-24:00: home
+--------------------------------------------------------------------------------

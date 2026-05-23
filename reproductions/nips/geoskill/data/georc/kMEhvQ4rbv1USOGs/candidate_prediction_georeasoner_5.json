@@ -1,0 +1,11 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "The dirt road with no markings and overgrown vegetation suggests a rural or remote area, common in Australia’s outback or regional zones.",
+    "Tall eucalyptus trees dominate the landscape, which are native to Australia and strongly indicate an Australian location.",
+    "The bright blue sky with scattered cumulus clouds is typical of Australia’s subtropical or temperate inland climates."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The dirt road with no markings and overgrown vegetation suggests a rural or remote area, common in Australia’s outback or regional zones.\",\n    \"Tall eucalyptus trees dominate the landscape, which are native to Australia and strongly indicate an Australian location.\",\n    \"The bright blue sky with scattered cumulus clouds is typical of Australia’s subtropical or temperate inland climates.\",\n    \"No man-made structures, signs, or vehicles are visible"
+}

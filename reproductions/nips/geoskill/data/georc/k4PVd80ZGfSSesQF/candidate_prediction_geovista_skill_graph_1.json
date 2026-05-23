@@ -1,0 +1,105 @@
+{
+  "game_id": "k4PVd80ZGfSSesQF",
+  "round": 1,
+  "sample_id": "georc::k4PVd80ZGfSSesQF::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "tz",
+    "predicted_region": "africa",
+    "predicted_address": "Chalinze-Bagamoyo Road, Bagamoyo District, Pwani Region, Tanzania",
+    "predicted_lat": -6.44222,
+    "predicted_lng": 38.90422,
+    "reasoning_text": "```json\n{\n  \"country\": \"Tanzania\",\n  \"country_code\": \"tz\",\n  \"region\": \"East Africa\",\n  \"city\": \"Bagamoyo\",\n  \"province_or_state\": \"Pwani Region\",\n  \"address\": \"Chalinze-Bagamoyo Road, Bagamoyo District, Pwani Region, Tanzania\",\n  \"confidence\": 0.68,\n  \"reasoning\": \"The vegetation pattern shows classic East African coastal savanna with tall spreading trees (Acacia/Albizia species), mixed understory scrub, and dry grass typical of Tanzania's coastal belt. The light-colored sandy-gravel road surface matches lateritic soils common in the Pwani Region. The wooden utility pole with simple crossarm and single-phase overhead lines is characteristic of TANESCO's rural electrification infrastructure. The bright blue sky with scattered cumulus indicates tropical climate with dry season conditions. The flat terrain and road condition suggest a secondary road in the coastal hinterland rather than highland areas. Bagamoyo District in Pwani Region fits this profile as a historically significant coastal area with extensive rural road networks connecting to the interior, matching the visual characteristics of roads leading toward or from Bagamoyo town.\",\n  \"evidence\": [\"East African coastal savanna vegetation with Acacia/Albizia canopy trees\", \"Light sandy-gravel lateritic road surface\", \"TANESCO-style wooden utility pole with single-phase lines\", \"Tropical dry season sky conditions\", \"Flat coastal plain terrain\", \"Rural secondary road infrastructure\"]\n}\n```",
+    "evidence_spans": [
+      "East African coastal savanna vegetation with Acacia/Albizia canopy trees",
+      "Light sandy-gravel lateritic road surface",
+      "TANESCO-style wooden utility pole with single-phase lines",
+      "Tropical dry season sky conditions",
+      "Flat coastal plain terrain",
+      "Rural secondary road infrastructure"
+    ],
+    "confidence": 0.68,
+    "country_top3": [
+      "tz",
+      "ke",
+      "mz"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"tz\",\"ke\",\"mz\"],\"reason\":\"The vegetation shows classic East African coastal savanna with tall spreading Acacia/Albizia-type trees, dry grass understory, and sandy-gravel lateritic road surface typical of Tanzania's coastal belt. The wooden utility pole with simple cross-arm construction and power line configuration matches Tanzanian rural infrastructure patterns. While Kenya and Mozambique share similar coastal savanna ecosystems, the specific combination of tree morphology, road composition, and utility pole design strongly favors Tanzania. The bright clear sky with scattered cumulus and overall aridity level align with eastern Tanzania's climate rather than wetter Kenyan coast or drier northern Mozambique.\"}\n```",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9300000000000002,
+        "pred_country": "tz",
+        "geo_country": "tz",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.68,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Chalinze-Bagamoyo Road, Bagamoyo District, Pwani Region, Tanzania"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.9225000000000001,
+        "pred_country": "tz",
+        "geo_country": "tz",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.65,
+        "refined_vague_address": true,
+        "repaired_country_mismatch": false,
+        "address": "Dunda Road, Bagamoyo, Pwani Region, Tanzania"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.9300000000000002,
+        "pred_country": "tz",
+        "geo_country": "tz",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.68,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Chalinze-Bagamoyo Road, Bagamoyo District, Pwani Region, Tanzania"
+      }
+    ],
+    "selected_candidate_score": 0.9300000000000002,
+    "base_prediction_summary": {
+      "predicted_country": "tz",
+      "predicted_region": "africa",
+      "confidence": 0.72
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"Tanzania\",\n  \"country_code\": \"tz\",\n  \"region\": \"East Africa\",\n  \"city\": \"unknown\",\n  \"province_or_state\": \"unknown\",\n  \"address\": \"rural gravel road, coastal or eastern Tanzania, East African savanna\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The vegetation pattern shows classic",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "tz"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

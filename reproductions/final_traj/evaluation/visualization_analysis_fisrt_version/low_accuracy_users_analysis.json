@@ -1,0 +1,382 @@
+[
+  {
+    "user_id": "30326941_1",
+    "accuracy": 0.3020833333333333,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "Yes",
+      "work_schedule": "Full-time",
+      "occupation": "Manufacturing, construction, maintenance, or farming",
+      "education": "High school graduate or GED",
+      "relationship": "Self",
+      "work_from_home": "No",
+      "distance_to_work_miles": 5.2,
+      "driver_on_travel_day": "No"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-00:45: work; 00:45-14:50: home; 14:50-15:01: shopping; 15:01-24:00: work",
+      "generated": "00:00-07:00: home; 07:00-16:00: work; 16:00-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "夜班/非标准工作时间",
+        "detail": "真实工作时间: [('00:00', '00:45'), ('15:01', '24:00')], 工作时间表: Full-time",
+        "severity": "high"
+      },
+      {
+        "type": "工作开始时间差异大",
+        "detail": "真实: 00:00, 生成: 07:00, 差异: 420分钟",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "user_id": "30326941_2",
+    "accuracy": 0.3020833333333333,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "Yes",
+      "work_schedule": "Full-time",
+      "occupation": "Manufacturing, construction, maintenance, or farming",
+      "education": "High school graduate or GED",
+      "relationship": "Spouse/Unmarried partner",
+      "work_from_home": "No",
+      "distance_to_work_miles": 5.2,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-00:45: work; 00:45-14:50: home; 14:50-15:01: shopping; 15:01-24:00: work",
+      "generated": "00:00-07:00: home; 07:00-16:00: work; 16:00-17:30: service; 17:30-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "夜班/非标准工作时间",
+        "detail": "真实工作时间: [('00:00', '00:45'), ('15:01', '24:00')], 工作时间表: Full-time",
+        "severity": "high"
+      },
+      {
+        "type": "工作开始时间差异大",
+        "detail": "真实: 00:00, 生成: 07:00, 差异: 420分钟",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "user_id": "30509411_1",
+    "accuracy": 0.3645833333333333,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "Yes",
+      "work_schedule": "Full-time",
+      "occupation": "Professional, managerial, or technical",
+      "education": "Some college or associates degree",
+      "relationship": "Self",
+      "work_from_home": "No",
+      "distance_to_work_miles": 3.34,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-14:30: home; 14:30-23:45: work; 23:45-24:00: home",
+      "generated": "00:00-07:00: home; 07:00-16:00: work; 16:00-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "工作开始时间差异大",
+        "detail": "真实: 14:30, 生成: 07:00, 差异: 450分钟",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "user_id": "40501274_3",
+    "accuracy": 0.4479166666666667,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "Yes",
+      "work_schedule": "Full-time",
+      "occupation": "Professional, managerial, or technical",
+      "education": "High school graduate or GED",
+      "relationship": "Child",
+      "work_from_home": "No",
+      "distance_to_work_miles": 6.61,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-16:12: home; 16:12-17:31: exercise; 17:31-18:27: home; 18:27-20:45: socialize; 20:45-24:00: home",
+      "generated": "00:00-07:00: home; 07:00-16:00: work; 16:00-18:00: service; 18:00-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "错误生成工作",
+        "detail": "就业状态: Yes, 但真实轨迹无工作活动",
+        "severity": "high"
+      },
+      {
+        "type": "缺失exercise活动",
+        "detail": "真实轨迹有exercise,但生成轨迹没有",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "user_id": "30409204_1",
+    "accuracy": 0.5104166666666666,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Male",
+      "employment_status": "Yes",
+      "work_schedule": "Full-time",
+      "occupation": "Professional, managerial, or technical",
+      "education": "Graduate degree or professional degree",
+      "relationship": "Self",
+      "work_from_home": "No",
+      "distance_to_work_miles": 12.84,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-15:45: home; 15:45-18:45: socialize; 18:45-24:00: home",
+      "generated": "00:00-07:00: home; 07:00-16:00: work; 16:00-18:00: service; 18:00-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "错误生成工作",
+        "detail": "就业状态: Yes, 但真实轨迹无工作活动",
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "user_id": "30409204_2",
+    "accuracy": 0.53125,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "Yes",
+      "work_schedule": "Full-time",
+      "occupation": "Professional, managerial, or technical",
+      "education": "Graduate degree or professional degree",
+      "relationship": "Spouse/Unmarried partner",
+      "work_from_home": "No",
+      "distance_to_work_miles": 5.03,
+      "driver_on_travel_day": "No"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-15:45: home; 15:45-18:45: socialize; 18:45-24:00: home",
+      "generated": "00:00-07:30: home; 07:30-16:00: work; 16:00-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "错误生成工作",
+        "detail": "就业状态: Yes, 但真实轨迹无工作活动",
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "user_id": "40560229_1",
+    "accuracy": 0.5625,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Male",
+      "employment_status": "Yes",
+      "work_schedule": "Full-time",
+      "occupation": "Sales or service",
+      "education": "Some college or associates degree",
+      "relationship": "Self",
+      "work_from_home": "No",
+      "distance_to_work_miles": 0.0,
+      "driver_on_travel_day": "No"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-11:15: home; 11:15-12:20: exercise; 12:20-24:00: home",
+      "generated": "00:00-07:00: home; 07:00-16:00: work; 16:00-17:30: service; 17:30-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "错误生成工作",
+        "detail": "就业状态: Yes, 但真实轨迹无工作活动",
+        "severity": "high"
+      },
+      {
+        "type": "缺失exercise活动",
+        "detail": "真实轨迹有exercise,但生成轨迹没有",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "user_id": "30232307_2",
+    "accuracy": 0.5625,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "Yes",
+      "work_schedule": "Full-time",
+      "occupation": "Sales or service",
+      "education": "Bachelor's degree",
+      "relationship": "Spouse/Unmarried partner",
+      "work_from_home": "No",
+      "distance_to_work_miles": 4.51,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-13:00: home; 13:00-13:35: shopping; 13:35-14:05: service; 14:05-14:35: shopping; 14:35-15:30: shopping; 15:30-24:00: home",
+      "generated": "00:00-07:00: home; 07:00-16:00: work; 16:00-17:30: service; 17:30-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "错误生成工作",
+        "detail": "就业状态: Yes, 但真实轨迹无工作活动",
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "user_id": "30366725_1",
+    "accuracy": 0.6041666666666666,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "Yes",
+      "work_schedule": "Part-time",
+      "occupation": "Sales or service",
+      "education": "Some college or associates degree",
+      "relationship": "Self",
+      "work_from_home": "No",
+      "distance_to_work_miles": 3.86,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-09:15: home; 09:15-09:35: shopping; 09:35-10:15: shopping; 10:15-11:00: home; 11:00-11:40: exercise; 11:40-24:00: home",
+      "generated": "00:00-07:30: home; 07:30-15:30: work; 15:30-17:00: service; 17:00-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "错误生成工作",
+        "detail": "就业状态: Yes, 但真实轨迹无工作活动",
+        "severity": "high"
+      },
+      {
+        "type": "缺失exercise活动",
+        "detail": "真实轨迹有exercise,但生成轨迹没有",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "user_id": "40225261_2",
+    "accuracy": 0.625,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "Yes",
+      "work_schedule": "Full-time",
+      "occupation": "Professional, managerial, or technical",
+      "education": "Bachelor's degree",
+      "relationship": "Spouse/Unmarried partner",
+      "work_from_home": "No",
+      "distance_to_work_miles": 29.89,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-10:25: home; 10:25-12:20: exercise; 12:20-24:00: home",
+      "generated": "00:00-07:00: home; 07:00-16:00: work; 16:00-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "错误生成工作",
+        "detail": "就业状态: Yes, 但真实轨迹无工作活动",
+        "severity": "high"
+      },
+      {
+        "type": "缺失exercise活动",
+        "detail": "真实轨迹有exercise,但生成轨迹没有",
+        "severity": "low"
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+policy_name: chunked_policy
+device: cuda
+model_path: experiments/rollout_ckpts/chunked_policy.pt
+action_horizon: 2
+chunk_size: 8
+state_dim: 16
+action_dim: 16

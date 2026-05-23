@@ -1,0 +1,12 @@
+{
+  "country": "Mexico",
+  "country_code": "mx",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow center line, indicating two-way traffic with right-hand driving, consistent with Mexico.",
+    "Utility poles are wooden and spaced regularly, typical of rural Mexican infrastructure.",
+    "Vegetation is sparse and dry, with scattered green shrubs, suggesting an arid or semi-arid climate common in northern Mexico.",
+    "Distant mountains and flat terrain align with the geography of states like Sonora or Chihuahua."
+  ],
+  "raw_output": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow center line, indicating two-way traffic with right-hand driving, consistent with Mexico.\",\n    \"Utility poles are wooden and spaced regularly, typical of rural Mexican infrastructure.\",\n    \"Vegetation is sparse and dry, with scattered green shrubs, suggesting an arid or semi-arid climate common in northern Mexico.\",\n    \"Distant mountains and flat terrain align with the geography of states like Sonora or Chihuahua.\""
+}

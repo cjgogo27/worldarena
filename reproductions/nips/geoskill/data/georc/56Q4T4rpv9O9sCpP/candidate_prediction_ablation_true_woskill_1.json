@@ -1,0 +1,33 @@
+{
+  "game_id": "56Q4T4rpv9O9sCpP",
+  "round": 1,
+  "sample_id": "georc::56Q4T4rpv9O9sCpP::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ch",
+    "predicted_region": "europe",
+    "predicted_address": "Eichholzstrasse, Bad Ragaz, St. Gallen, Switzerland",
+    "predicted_lat": 47.0,
+    "predicted_lng": 9.5,
+    "reasoning_text": "```json\n{\n  \"country\": \"Switzerland\",\n  \"country_code\": \"ch\",\n  \"region\": \"Europe\",\n  \"city\": \"Bad Ragaz\",\n  \"province_or_state\": \"St. Gallen\",\n  \"address\": \"Eichholzstrasse, Bad Ragaz, St. Gallen, Switzerland\",\n  \"confidence\": 0.85,\n  \"reasoning\": \"The blue street sign clearly shows 'Eichholzstrasse' which is a specific street name. The red directional signs point to 'Bad Ragaz' and other destinations, indicating this is in or near Bad Ragaz. The German language on signs ('strasse' = street) and the Alpine mountain backdrop with the architectural style are consistent with eastern Switzerland. Bad Ragaz is a well-known spa town in the canton of St. Gallen. The industrial/commercial buildings and road layout match Swiss suburban areas.\",\n  \"evidence\": [\"Blue street sign reading 'Eichholzstrasse'\", \"Red directional signs pointing to 'Bad Ragaz'\", \"German language on all signage\", \"Alpine mountain landscape in background\", \"Swiss-style commercial buildings\", \"Road markings and infrastructure typical of Switzerland\"]\n}\n```",
+    "evidence_spans": [
+      "Blue street sign reading 'Eichholzstrasse'",
+      "Red directional signs pointing to 'Bad Ragaz'",
+      "German language on all signage",
+      "Alpine mountain landscape in background",
+      "Swiss-style commercial buildings",
+      "Road markings and infrastructure typical of Switzerland"
+    ],
+    "confidence": 0.85,
+    "country_top3": [
+      "ch",
+      "at",
+      "de"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"ch\",\"at\",\"de\"],\"reason\":\"German language on road signs ('Eichstrasse'), red/white directional signage typical of Switzerland, alpine mountain terrain, European architecture style, and right-hand driving. The 'Eichstrasse' street name and specific sign design strongly indicate Switzerland over Austria or Germany.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9725000000000001
+  },
+  "error": null
+}

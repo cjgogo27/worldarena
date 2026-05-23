@@ -1,0 +1,11 @@
+{
+  "country": "Netherlands",
+  "country_code": "nl",
+  "city": "",
+  "reasoning_chain": [
+    "The street sign on the right reads 'Ricoutsvorst', which is a Dutch place name, indicating location in the Netherlands.",
+    "Cars are parked on both sides of the road with no center line, consistent with Dutch residential streets where parking is common on both sides.",
+    "The architecture features traditional Dutch gabled houses with white facades and dark tiled roofs, typical of Dutch suburban neighborhoods."
+  ],
+  "raw_output": "{\n  \"country\": \"Netherlands\",\n  \"country_code\": \"nl\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The street sign on the right reads 'Ricoutsvorst', which is a Dutch place name, indicating location in the Netherlands.\",\n    \"Cars are parked on both sides of the road with no center line, consistent with Dutch residential streets where parking is common on both sides.\",\n    \"The architecture features traditional Dutch gabled houses with white facades and dark tiled roofs, typical of Dutch suburban neighborhoods.\",\n    \"The cobblestone road surface and"
+}

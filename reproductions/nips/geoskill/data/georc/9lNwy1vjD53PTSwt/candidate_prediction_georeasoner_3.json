@@ -1,0 +1,11 @@
+{
+  "country": "Spain",
+  "country_code": "es",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of palm trees and Mediterranean-style architecture with stucco walls and tiled roofs strongly suggests a warm, coastal region in Spain.",
+    "Road markings include yellow lines on both sides of the road, which is typical for residential streets in Spain to indicate no parking or restricted zones.",
+    "Vehicles are driving on the right side of the road, consistent with traffic rules in Spain and most of Europe."
+  ],
+  "raw_output": "{\n  \"country\": \"Spain\",\n  \"country_code\": \"es\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of palm trees and Mediterranean-style architecture with stucco walls and tiled roofs strongly suggests a warm, coastal region in Spain.\",\n    \"Road markings include yellow lines on both sides of the road, which is typical for residential streets in Spain to indicate no parking or restricted zones.\",\n    \"Vehicles are driving on the right side of the road, consistent with traffic rules in Spain and most of Europe.\",\n    \"The construction site with concrete blocks"
+}

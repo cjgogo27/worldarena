@@ -1,0 +1,14 @@
+backbone:
+  preferred_model_name: qwen3.5-9b
+  runtime_strategy: cached-shared-clip
+  shared_encoder_name: clip-vit-large-patch14
+  cache_dir: /data/alice/cjtest/lara-wm/processed/backbone_cache/clip-vit-large-patch14
+  device: cuda
+  dtype: float16
+  normalize_features: true
+
+backbone_models:
+  primary_path: /data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/models/Qwen3.5-9B
+  alternate_path: /data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/models/BAGEL-7B-MoT
+  fallback_path: /data/alice/cjtest/FinalTraj/FinalTraj_arr/finetune/models/Qwen3-8B/Qwen/Qwen3-8B
+  shared_encoder_path: /data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/models/clip-vit-large-patch14

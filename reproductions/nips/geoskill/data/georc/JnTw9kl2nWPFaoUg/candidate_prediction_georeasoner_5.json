@@ -1,0 +1,11 @@
+{
+  "country": "Kenya",
+  "country_code": "ke",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of 'MUKI CAFE' with Coca-Cola branding and Swahili-style signage suggests East Africa, particularly Kenya.",
+    "Vehicles drive on the left side of the road, consistent with former British colonies like Kenya.",
+    "The white minibus with 'Merry Regist Co.' and 'Tailors & Sewers' text in English and Swahili is typical of Kenyan public transport."
+  ],
+  "raw_output": "{\n  \"country\": \"Kenya\",\n  \"country_code\": \"ke\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of 'MUKI CAFE' with Coca-Cola branding and Swahili-style signage suggests East Africa, particularly Kenya.\",\n    \"Vehicles drive on the left side of the road, consistent with former British colonies like Kenya.\",\n    \"The white minibus with 'Merry Regist Co.' and 'Tailors & Sewers' text in English and Swahili is typical of Kenyan public transport.\",\n    \"Utility poles"
+}

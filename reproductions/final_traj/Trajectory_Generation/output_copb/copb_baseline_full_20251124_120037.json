@@ -1,0 +1,123 @@
+[
+  {
+    "user_id": "40261962_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "05:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "05:30",
+        "end_time": "18:30"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:30",
+        "end_time": "19:30"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "22:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "22:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your basic information is as follows:\nGender: Female; \nEducation: Graduate degree or professional degree; \nAge: Appropriate skip; \nEmployment: Yes; \nOccupation: Professional, managerial, or technical; \nWork Schedule: Full-time; \nPrimary Activity: Working; \nWork from Home: No; Distance to Work: 88.6 miles; Can Drive: Yes;",
+      "anchors": "1. You usually wake up around 5:30 AM to allow time for your commute.  \n2. Your working hours are generally from 9 AM to 6 PM, but may extend due to your professional role.  \n3. You prefer to unwind around 10 PM with quiet reading or relaxation before bed.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "05:30",
+          "reasoning": "Need adequate rest to wake up and prepare for a long commute to work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "05:30",
+          "end_time": "18:30",
+          "reasoning": "Include commute time and working hours; commute starts early due to distance"
+        },
+        {
+          "intention": "eat",
+          "start_time": "18:30",
+          "end_time": "19:30",
+          "reasoning": "Have dinner after returning from work to refuel and relax"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "19:30",
+          "end_time": "22:00",
+          "reasoning": "Spend time unwinding with quiet reading or relaxation before bed"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40517846_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "08:00",
+        "end_time": "08:15"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:15",
+        "end_time": "18:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "18:00",
+        "end_time": "20:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:00",
+        "end_time": "21:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "21:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your basic information is as follows:\nGender: Male; \nEducation: Bachelor's degree; \nAge: Appropriate skip; \nEmployment: Yes; \nOccupation: Professional, managerial, or technical; \nWork Schedule: Full-time; \nPrimary Activity: Working; \nWork from Home: No; Distance to Work: 7.6 miles; Can Drive: Yes;",
+      "anchors": "1. You typically start your day by leaving for work at 8:15 AM to reach your office comfortably by 9 AM.  \n2. Your working hours are generally from 9 AM to 6 PM, with occasional late evenings due to extended meetings or deadlines.  \n3. You habitually relax and unwind by watching TV or reading for an hour after dinner, around 8 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "08:00",
+          "reasoning": "Ensuring adequate rest before the workday."
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:15",
+          "end_time": "18:00",
+          "reasoning": "Need to leave on time to reach office by 9 AM and fulfill regular work hours."
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "20:00",
+          "end_time": "21:00",
+          "reasoning": "Routine activity for relaxation by watching TV or reading after dinner."
+        }
+      ],
+      "day": "Monday"
+    }
+  }
+]

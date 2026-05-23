@@ -1,0 +1,50 @@
+policy_name: latent_no_refine
+task_name: null
+task_config: null
+ckpt_setting: null
+seed: null
+instruction_type: unseen
+
+# LatentNoRefine-specific config
+latent_dim: 1536  # Default from Qwen backbone
+action_dim: 7
+hidden_dim: 512
+num_layers: 3
+dropout: 0.1
+learning_rate: 1.0e-4
+
+# World model config (for training signal only, not used at inference)
+world_model:
+  latent_dim: 1536
+  action_dim: 7
+  hidden_dim: 512
+  num_layers: 3
+  dropout: 0.1
+
+# Action decoder (direct latent → action)
+action_decoder:
+  latent_dim: 1536
+  action_dim: 7
+  hidden_dim: 512
+  num_layers: 2
+  dropout: 0.1
+
+# Backbone config
+backbone:
+  model_path: null
+  device: "cuda"
+  dtype: "float16"
+  freeze: false
+
+# Training config (for fit() method)
+training:
+  batch_size: 32
+  epochs: 100
+  lambda_action: 1.0
+  lambda_world_model: 0.5
+
+# Missing checkpoint documentation
+# To run evaluation with a trained checkpoint:
+#   1. Train: baseline.fit(episodes, save_path=<path>)
+#   2. Set model_path in usr_args or here
+# Without checkpoint: uses random weights (for code path verification only)

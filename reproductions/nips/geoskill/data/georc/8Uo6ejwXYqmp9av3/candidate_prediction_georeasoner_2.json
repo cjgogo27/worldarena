@@ -1,0 +1,11 @@
+{
+  "country": "Norway",
+  "country_code": "no",
+  "city": "",
+  "reasoning_chain": [
+    "The white vans display Norwegian text ('MURMESTER', 'Jan R. Hansen & Sønn A/S') and phone number format (916 84 068), indicating a Norwegian business.",
+    "Vehicles are driving on the right side of the road, consistent with Norway’s traffic rules.",
+    "The architecture includes typical Scandinavian-style buildings with pitched roofs and wooden siding, common in rural Norway."
+  ],
+  "raw_output": "{\n  \"country\": \"Norway\",\n  \"country_code\": \"no\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The white vans display Norwegian text ('MURMESTER', 'Jan R. Hansen & Sønn A/S') and phone number format (916 84 068), indicating a Norwegian business.\",\n    \"Vehicles are driving on the right side of the road, consistent with Norway’s traffic rules.\",\n    \"The architecture includes typical Scandinavian-style buildings with pitched roofs and wooden siding, common in rural Norway.\",\n    \""
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Mexico",
+  "country_code": "mx",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of palm trees and dry grass suggests a warm, arid or semi-arid climate typical of northern or central Mexico.",
+    "The road is unpaved or poorly maintained with visible cracks and no lane markings, common in rural or developing areas of Mexico.",
+    "Utility poles are wooden and spaced irregularly, consistent with infrastructure in many Mexican towns and countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of palm trees and dry grass suggests a warm, arid or semi-arid climate typical of northern or central Mexico.\",\n    \"The road is unpaved or poorly maintained with visible cracks and no lane markings, common in rural or developing areas of Mexico.\",\n    \"Utility poles are wooden and spaced irregularly, consistent with infrastructure in many Mexican towns and countryside.\",\n    \"A motorcycle with riders wearing casual clothing and a car parked on the side"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "South Korea",
+  "country_code": "kr",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of Korean characters (e.g., '경동택배') on the trucks and signs confirms the location is in South Korea.",
+    "The vehicles are driving on the right side of the road, consistent with South Korean traffic laws.",
+    "The architecture includes modern multi-story buildings and industrial-style structures typical of South Korean urban or semi-urban areas."
+  ],
+  "raw_output": "{\n  \"country\": \"South Korea\",\n  \"country_code\": \"kr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of Korean characters (e.g., '경동택배') on the trucks and signs confirms the location is in South Korea.\",\n    \"The vehicles are driving on the right side of the road, consistent with South Korean traffic laws.\",\n    \"The architecture includes modern multi-story buildings and industrial-style structures typical of South Korean urban or semi-urban areas.\",\n    \"The vegetation consists of evergreen trees and deciduous trees, suggesting a"
+}

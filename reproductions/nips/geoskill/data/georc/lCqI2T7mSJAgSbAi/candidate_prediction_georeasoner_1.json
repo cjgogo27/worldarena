@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of a single-lane asphalt road with no center line and cars parked on the right side suggests right-hand traffic, consistent with the United States.",
+    "The architecture of the houses—single-story brick and vinyl-sided homes with front porches—is typical of suburban American residential design.",
+    "Fall foliage and deciduous trees indicate a temperate climate zone, common in many U.S. states like Pennsylvania, Ohio, or New York."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of a single-lane asphalt road with no center line and cars parked on the right side suggests right-hand traffic, consistent with the United States.\",\n    \"The architecture of the houses—single-story brick and vinyl-sided homes with front porches—is typical of suburban American residential design.\",\n    \"Fall foliage and deciduous trees indicate a temperate climate zone, common in many U.S. states like Pennsylvania, Ohio, or New York.\","
+}

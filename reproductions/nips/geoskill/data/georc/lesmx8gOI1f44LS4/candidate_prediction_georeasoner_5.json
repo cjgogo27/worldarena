@@ -1,0 +1,11 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, cracked concrete road with no center line or markings is typical of rural roads in Southeast Asia, particularly Thailand.",
+    "Vegetation includes dense tropical greenery, bamboo clusters, and scattered trees consistent with Thailand’s monsoon-influenced climate.",
+    "Rustic wooden fences and corrugated metal sheets along the roadside are common in Thai rural areas for boundary demarcation."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, cracked concrete road with no center line or markings is typical of rural roads in Southeast Asia, particularly Thailand.\",\n    \"Vegetation includes dense tropical greenery, bamboo clusters, and scattered trees consistent with Thailand’s monsoon-influenced climate.\",\n    \"Rustic wooden fences and corrugated metal sheets along the roadside are common in Thai rural areas for boundary demarcation.\",\n    \"Absence of paved infrastructure, signage"
+}

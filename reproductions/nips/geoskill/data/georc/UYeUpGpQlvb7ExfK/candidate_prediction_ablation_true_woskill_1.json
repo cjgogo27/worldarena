@@ -1,0 +1,34 @@
+{
+  "game_id": "UYeUpGpQlvb7ExfK",
+  "round": 1,
+  "sample_id": "georc::UYeUpGpQlvb7ExfK::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ph",
+    "predicted_region": "asia",
+    "predicted_address": "Sitio Kalubihan, Barangay Talamban, Cebu City, Cebu, Philippines",
+    "predicted_lat": 10.28167889,
+    "predicted_lng": 123.90434,
+    "reasoning_text": "```json\n{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Cebu City\",\n  \"province_or_state\": \"Cebu\",\n  \"address\": \"Sitio Kalubihan, Barangay Talamban, Cebu City, Cebu, Philippines\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows several distinctive features pointing to the Philippines: concrete residential construction with metal roofing, dense overhead utility wiring characteristic of Filipino urban areas, tropical vegetation including palm trees, and the overall street layout typical of Philippine residential neighborhoods. The architectural style with concrete walls, metal gates, and clothes drying on fences is very common in Cebu City suburbs. The road appears to be a narrow barangay road rather than a main highway. The vegetation and climate indicators suggest a tropical location consistent with the Philippines. Based on the density, building style, and road characteristics, this appears to be a residential area in northern Cebu City, likely in the Talamban area which has many similar neighborhoods.\",\n  \"evidence\": [\"Concrete houses with metal roofing typical of Philippines\", \"Dense overhead electrical/telecom wiring\", \"Tropical palm vegetation and climate\", \"Metal fence gates with clothes hanging\", \"Narrow barangay road layout\", \"Unfinished concrete construction style\", \"Bright tropical sunlight and sky conditions\"]\n}\n```",
+    "evidence_spans": [
+      "Concrete houses with metal roofing typical of Philippines",
+      "Dense overhead electrical/telecom wiring",
+      "Tropical palm vegetation and climate",
+      "Metal fence gates with clothes hanging",
+      "Narrow barangay road layout",
+      "Unfinished concrete construction style",
+      "Bright tropical sunlight and sky conditions"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "ph",
+      "id",
+      "th"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"ph\",\"id\",\"th\"],\"reason\":\"Tropical vegetation with palm trees and dense greenery, concrete residential street with modest single-story homes, overhead power lines, corrugated metal and concrete roofing, bamboo/wood fencing, and architectural style typical of Southeast Asian residential areas. The bright sunny climate with scattered clouds and overall infrastructure pattern strongly suggests Philippines, with Indonesia and Thailand as secondary possibilities due to similar tropical residential characteristics.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8775000000000001
+  },
+  "error": null
+}

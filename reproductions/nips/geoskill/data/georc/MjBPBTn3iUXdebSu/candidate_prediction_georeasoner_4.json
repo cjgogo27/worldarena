@@ -1,0 +1,12 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with no passing, consistent with Australian road rules.",
+    "Vegetation includes eucalyptus-like trees and shrubs typical of Australian rural landscapes.",
+    "Utility poles are wooden and spaced widely, common in remote Australian regions.",
+    "Flat terrain and open sky suggest a rural or outback setting, not urban Australia."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with no passing, consistent with Australian road rules.\",\n    \"Vegetation includes eucalyptus-like trees and shrubs typical of Australian rural landscapes.\",\n    \"Utility poles are wooden and spaced widely, common in remote Australian regions.\",\n    \"Flat terrain and open sky suggest a rural or outback setting, not urban Australia.\"\n  ]\n}"
+}

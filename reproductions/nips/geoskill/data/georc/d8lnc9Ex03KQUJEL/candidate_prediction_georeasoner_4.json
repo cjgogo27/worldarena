@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The stop sign is octagonal and red with white lettering, consistent with US traffic signage standards.",
+    "The road is a narrow, unpaved or gravel path flanked by dense deciduous forest, typical of rural US backroads or park trails.",
+    "No visible utility poles, streetlights, or man-made structures suggest a remote, non-urbanized area common in the eastern or midwestern US."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The stop sign is octagonal and red with white lettering, consistent with US traffic signage standards.\",\n    \"The road is a narrow, unpaved or gravel path flanked by dense deciduous forest, typical of rural US backroads or park trails.\",\n    \"No visible utility poles, streetlights, or man-made structures suggest a remote, non-urbanized area common in the eastern or midwestern US.\",\n    \"Vegetation includes"
+}

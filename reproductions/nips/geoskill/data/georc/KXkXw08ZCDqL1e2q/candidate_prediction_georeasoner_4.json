@@ -1,0 +1,11 @@
+{
+  "country": "Sri Lanka",
+  "country_code": "lk",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved dirt road with no markings and narrow width is typical of rural areas in Sri Lanka, especially in the central or southern highlands.",
+    "Dense tropical vegetation including coconut palms and broadleaf trees strongly indicates a tropical climate consistent with Sri Lanka’s geography.",
+    "Absence of paved roads, traffic signs, or vehicles suggests a remote village setting common in Sri Lankan countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Sri Lanka\",\n  \"country_code\": \"lk\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved dirt road with no markings and narrow width is typical of rural areas in Sri Lanka, especially in the central or southern highlands.\",\n    \"Dense tropical vegetation including coconut palms and broadleaf trees strongly indicates a tropical climate consistent with Sri Lanka’s geography.\",\n    \"Absence of paved roads, traffic signs, or vehicles suggests a remote village setting common in Sri Lankan countryside.\",\n    \"Overhead utility wires running along the"
+}

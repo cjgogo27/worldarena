@@ -1,0 +1,11 @@
+{
+  "country": "Philippines",
+  "country_code": "ph",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a solid orange centerline, which is standard in the Philippines for two-way roads to indicate no passing.",
+    "Utility poles are concrete and spaced widely, typical of rural Philippine infrastructure, with overhead wires running parallel to the road.",
+    "Vegetation includes coconut palms and lush greenery, consistent with tropical climates found in the Philippines."
+  ],
+  "raw_output": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a solid orange centerline, which is standard in the Philippines for two-way roads to indicate no passing.\",\n    \"Utility poles are concrete and spaced widely, typical of rural Philippine infrastructure, with overhead wires running parallel to the road.\",\n    \"Vegetation includes coconut palms and lush greenery, consistent with tropical climates found in the Philippines.\",\n    \"The blue building with a corrugated metal roof and red fence resembles common residential"
+}

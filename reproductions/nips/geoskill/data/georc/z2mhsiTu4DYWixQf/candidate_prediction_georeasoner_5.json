@@ -1,0 +1,12 @@
+{
+  "country": "Syria",
+  "country_code": "sy",
+  "city": "",
+  "reasoning_chain": [
+    "The blue sign with Arabic script and a car logo indicates a local automotive service, common in Syria.",
+    "The vehicle is driving on the right side of the road, consistent with Syrian traffic laws.",
+    "The architecture features simple concrete buildings and flat roofs typical of Syrian urban areas.",
+    "The terrain is arid with sparse vegetation, matching the climate of northern Syria."
+  ],
+  "raw_output": "{\n  \"country\": \"Syria\",\n  \"country_code\": \"sy\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The blue sign with Arabic script and a car logo indicates a local automotive service, common in Syria.\",\n    \"The vehicle is driving on the right side of the road, consistent with Syrian traffic laws.\",\n    \"The architecture features simple concrete buildings and flat roofs typical of Syrian urban areas.\",\n    \"The terrain is arid with sparse vegetation, matching the climate of northern Syria.\"\n  ]\n}"
+}

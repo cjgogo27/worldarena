@@ -1,0 +1,24 @@
+{
+  "game_id": "6ypQOh9cOoE7WaWH",
+  "round": 1,
+  "sample_id": "georc::6ypQOh9cOoE7WaWH::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "me",
+    "predicted_region": "europe",
+    "predicted_address": "Rural road in the karst hills near Nikšić, Montenegro",
+    "predicted_lat": 42.77777778,
+    "predicted_lng": 18.95,
+    "reasoning_text": "{\n  \"country\": \"Montenegro\",\n  \"country_code\": \"me\",\n  \"region\": \"Southeast Europe\",\n  \"city\": \"Nikšić\",\n  \"province_or_state\": \"Nikšić Municipality\",\n  \"address\": \"Rural road in the karst hills near Nikšić, Montenegro\",\n  \"confidence\": 0.42,\n  \"reasoning\": \"The scene shows a narrow paved rural road through rocky, scrub-covered hills typical of the Dinaric karst landscape in the western Balkans. The vegetation is Mediterranean to sub-Mediterranean, and the white house with a red tile roof is common in former Yugoslav countries. The road construction, limestone terrain, sparse settlement pattern, and overall dry mountainous environment fit Montenegro well, especially inland areas around Nikšić or similar karst regions. Croatia, Bosnia and Herzegovina, and southern Croatia are plausible alternatives, but Montenegro is the best single guess based on the combination of terrain and road style.\",\n  \"evidence\": [\n    \"Rocky limestone hills with karst-like terrain\",\n    \"Narrow unmarked rural paved road common in the Balkans\",\n    \"Mediterranean/sub-Mediterranean scrub vegetation\",\n    \"White plaster house with red tile roof in ex-Yugoslav architectural style\",\n    \"Sparse settlement in a dry mountainous landscape\"\n  ]\n}",
+    "evidence_spans": [
+      "Rocky limestone hills with karst-like terrain",
+      "Narrow unmarked rural paved road common in the Balkans",
+      "Mediterranean/sub-Mediterranean scrub vegetation",
+      "White plaster house with red tile roof in ex-Yugoslav architectural style",
+      "Sparse settlement in a dry mountainous landscape"
+    ],
+    "confidence": 0.42
+  },
+  "error": null
+}

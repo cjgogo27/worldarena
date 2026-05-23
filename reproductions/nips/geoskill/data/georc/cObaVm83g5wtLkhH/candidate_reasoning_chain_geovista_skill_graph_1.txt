@@ -1,0 +1,14 @@
+Narrow light-beige unpaved road
+Extremely dense tropical roadside vegetation
+Slightly hilly humid landscape
+Concrete utility poles with simple crossarms
+Multiple overhead distribution lines
+Shallow roadside drainage channel
+Overall rural Caribbean appearance consistent with eastern Jamaica
+With no task-specific skills listed in the graph, I rely directly on the provided base observation and visible scene details.
+First, the environment is strongly tropical: dense lush vegetation, humid appearance, and slightly hilly terrain fit the Caribbean well.
+Second, the road is a pale unpaved dirt surface with a narrow width and shallow roadside drainage, which matches rural Jamaican road construction more closely than a larger urbanized setting.
+Third, the utility poles are concrete with simple crossarms and multiple overhead wires, a common pattern on Jamaican rural roads.
+Fourth, among the shortlist of Jamaica, Trinidad and Tobago, and the Dominican Republic, Jamaica fits best because the road form, vegetation density, and utility infrastructure align well with rural eastern Jamaica.
+Finally, using the supplied locality hint of being near Port Antonio in Portland Parish, the best specific guess is a rural road in the Fairy Hill community east of Port Antonio, so I choose Fairy Hill Road as the most consistent address-level candidate.
+Conclusion: likely location is Port Antonio, Portland Parish, Jamaica

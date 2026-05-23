@@ -1,0 +1,11 @@
+{
+  "country": "Iceland",
+  "country_code": "is",
+  "city": "",
+  "reasoning_chain": [
+    "The barren, volcanic terrain with sparse vegetation and dark gravel is characteristic of Iceland’s highlands.",
+    "The wooden viewing platform and lack of urban infrastructure suggest a remote natural site, common in Iceland’s protected areas.",
+    "Distant snow-capped mountains and low-hanging clouds indicate a subarctic climate typical of Iceland’s interior regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Iceland\",\n  \"country_code\": \"is\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The barren, volcanic terrain with sparse vegetation and dark gravel is characteristic of Iceland’s highlands.\",\n    \"The wooden viewing platform and lack of urban infrastructure suggest a remote natural site, common in Iceland’s protected areas.\",\n    \"Distant snow-capped mountains and low-hanging clouds indicate a subarctic climate typical of Iceland’s interior regions.\",\n    \"No visible road signs, vehicles, or language cues are present, but the landscape strongly align"
+}

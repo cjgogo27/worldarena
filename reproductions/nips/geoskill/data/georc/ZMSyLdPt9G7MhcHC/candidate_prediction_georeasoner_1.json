@@ -1,0 +1,11 @@
+{
+  "country": "Argentina",
+  "country_code": "ar",
+  "city": "",
+  "reasoning_chain": [
+    "The truck is driving on the left side of the road, consistent with left-hand traffic countries like Argentina.",
+    "Utility poles and overhead wires are typical of rural or semi-urban areas in Argentina, especially in provinces like Entre Ríos or Santa Fe.",
+    "The architecture—simple corrugated metal roofs, brick walls, and basic fencing—is common in working-class neighborhoods across Argentina."
+  ],
+  "raw_output": "{\n  \"country\": \"Argentina\",\n  \"country_code\": \"ar\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The truck is driving on the left side of the road, consistent with left-hand traffic countries like Argentina.\",\n    \"Utility poles and overhead wires are typical of rural or semi-urban areas in Argentina, especially in provinces like Entre Ríos or Santa Fe.\",\n    \"The architecture—simple corrugated metal roofs, brick walls, and basic fencing—is common in working-class neighborhoods across Argentina.\",\n    \"The overcast sky and flat terrain with sparse vegetation"
+}

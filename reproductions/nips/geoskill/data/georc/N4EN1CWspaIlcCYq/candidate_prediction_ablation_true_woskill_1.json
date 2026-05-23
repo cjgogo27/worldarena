@@ -1,0 +1,35 @@
+{
+  "game_id": "N4EN1CWspaIlcCYq",
+  "round": 1,
+  "sample_id": "georc::N4EN1CWspaIlcCYq::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "bg",
+    "predicted_region": "europe",
+    "predicted_address": "Road to Venets, Karnobat, Burgas Province, Bulgaria",
+    "predicted_lat": 42.5,
+    "predicted_lng": 27.25,
+    "reasoning_text": "```json\n{\n  \"country\": \"Bulgaria\",\n  \"country_code\": \"bg\",\n  \"region\": \"Southeast Europe\",\n  \"city\": \"Karnobat\",\n  \"province_or_state\": \"Burgas Province\",\n  \"address\": \"Road to Venets, Karnobat, Burgas Province, Bulgaria\",\n  \"confidence\": 0.65,\n  \"reasoning\": \"The image shows a rural Bulgarian scene with characteristic features: unpaved/gravel road typical of Bulgarian village infrastructure, low-rise houses with red-tiled roofs, agricultural buildings with metal roofing, and utility poles with multiple power lines. The flat terrain with distant low hills, the vegetation type (dry grass, scattered trees), and the general architectural style match rural Bulgaria. The soil color and wall construction using local materials are consistent with the Karnobat region in Burgas Province. The car visible appears to be an older model common in rural Bulgaria. The road layout suggests a village access road rather than a main highway. Given the shortlist options (Bulgaria, Romania, Serbia), Bulgaria is most likely due to the specific combination of roof styles, building materials, and infrastructure appearance which align more closely with Bulgarian rural architecture than Romanian or Serbian equivalents.\",\n  \"evidence\": [\"Red-tiled roofs on rural houses\", \"Metal-roofed agricultural buildings\", \"Gravel/unpaved rural road\", \"Utility poles with multiple power lines\", \"Earthen/Adobe wall construction\", \"Flat agricultural terrain with distant hills\", \"Dry grass vegetation typical of Balkan summer\", \"Older model car parked near house\"]\n}\n```",
+    "evidence_spans": [
+      "Red-tiled roofs on rural houses",
+      "Metal-roofed agricultural buildings",
+      "Gravel/unpaved rural road",
+      "Utility poles with multiple power lines",
+      "Earthen/Adobe wall construction",
+      "Flat agricultural terrain with distant hills",
+      "Dry grass vegetation typical of Balkan summer",
+      "Older model car parked near house"
+    ],
+    "confidence": 0.65,
+    "country_top3": [
+      "bg",
+      "ro",
+      "rs"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"bg\",\"ro\",\"rs\"],\"reason\":\"Rural gravel road with low-rise houses featuring red tile roofs, utility poles with multiple wires, open agricultural fields, and dry climate vegetation with scattered trees. Architecture and infrastructure style matches Balkan/Eastern European rural areas, particularly Bulgaria. The flat terrain, house construction materials (stucco/plaster walls), and road conditions are characteristic of Bulgarian countryside.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9225000000000001
+  },
+  "error": null
+}

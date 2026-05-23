@@ -1,0 +1,34 @@
+{
+  "game_id": "9NNxopqtafH8pTbN",
+  "round": 1,
+  "sample_id": "georc::9NNxopqtafH8pTbN::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "au",
+    "predicted_region": "oceania",
+    "predicted_address": "North Coast Road, Kingscote, South Australia, Australia",
+    "predicted_lat": -35.6589085,
+    "predicted_lng": 137.5865557,
+    "reasoning_text": "```json\n{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"region\": \"Oceania\",\n  \"city\": \"Kingscote\",\n  \"province_or_state\": \"South Australia\",\n  \"address\": \"North Coast Road, Kingscote, South Australia, Australia\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows a rural road with distinct Australian characteristics: left-hand driving (evident from vehicle position), dry golden-brown grasslands typical of Australian Mediterranean climate zones, distinctive wind-shaped trees (likely cypress or similar), and rolling hills in the background. The road marking style with double white lines is Australian standard. The vegetation and dry landscape strongly suggest South Australia, particularly Kangaroo Island or nearby coastal areas. The specific combination of coastal vegetation, dry farmland, and road infrastructure points to Kangaroo Island's North Coast Road near Kingscote, which matches this terrain profile exactly.\",\n  \"evidence\": [\"Left-hand driving traffic\", \"Australian standard double white line road markings\", \"Dry golden grassland typical of South Australian Mediterranean climate\", \"Wind-sculpted coastal trees characteristic of Kangaroo Island\", \"Power pole infrastructure matching Australian rural standards\", \"Vehicle style consistent with Australian market\", \"Rolling coastal hills with sparse vegetation\"]\n}\n```",
+    "evidence_spans": [
+      "Left-hand driving traffic",
+      "Australian standard double white line road markings",
+      "Dry golden grassland typical of South Australian Mediterranean climate",
+      "Wind-sculpted coastal trees characteristic of Kangaroo Island",
+      "Power pole infrastructure matching Australian rural standards",
+      "Vehicle style consistent with Australian market",
+      "Rolling coastal hills with sparse vegetation"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "au",
+      "nz",
+      "za"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"au\",\"nz\",\"za\"],\"reason\":\"Left-hand driving evident from car position on left side of road. Dry golden grasslands with scattered evergreen trees (likely Monterey cypress/macrocarpa) and rolling coastal hills strongly resemble southeastern Australia (Tasmania/Victoria/South Australia) or New Zealand. Road style with unsealed shoulders and double white center lines matches Australian rural roads. The vegetation and landscape are slightly more consistent with Australia than NZ, though South Africa's Western Cape has some similarities; the tree types and overall pastoral aesthetic point most strongly to Australia.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9475000000000001
+  },
+  "error": null
+}

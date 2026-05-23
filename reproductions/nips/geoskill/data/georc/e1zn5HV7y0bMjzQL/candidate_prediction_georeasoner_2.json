@@ -1,0 +1,11 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "The architecture features terracotta-tiled roofs and stucco walls typical of rural Portuguese countryside.",
+    "The road layout and absence of center lines suggest a low-traffic rural road common in Portugal’s interior regions.",
+    "Vegetation includes scrubland and olive-like trees consistent with Mediterranean climates found in central or northern Portugal."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The architecture features terracotta-tiled roofs and stucco walls typical of rural Portuguese countryside.\",\n    \"The road layout and absence of center lines suggest a low-traffic rural road common in Portugal’s interior regions.\",\n    \"Vegetation includes scrubland and olive-like trees consistent with Mediterranean climates found in central or northern Portugal.\",\n    \"No visible signage or vehicles provide direct linguistic or brand clues, but the overall aesthetic strongly aligns with"
+}

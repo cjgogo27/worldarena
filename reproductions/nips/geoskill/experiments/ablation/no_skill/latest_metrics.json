@@ -1,0 +1,16 @@
+{
+  "country_accuracy": 0.32,
+  "region_accuracy": 0.58,
+  "distance_error_km_mean": 2616.9235045560713,
+  "distance_error_km_median": 838.2215065485793,
+  "valid_coordinate_rate": 0.72,
+  "hallucination_rate": 0.01,
+  "evidence_f1": 0.004670790300126906,
+  "within_25km_rate": 0.041666666666666664,
+  "within_150km_rate": 0.16666666666666666,
+  "within_750km_rate": 0.4444444444444444,
+  "within_2500km_rate": 0.8055555555555556,
+  "elapsed_seconds": 3174.573166847229,
+  "num_samples": 100,
+  "num_errors": 28
+}

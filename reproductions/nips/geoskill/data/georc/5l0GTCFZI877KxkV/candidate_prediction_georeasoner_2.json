@@ -1,0 +1,11 @@
+{
+  "country": "Malaysia",
+  "country_code": "my",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt with a single dashed white centerline, consistent with rural roads in Malaysia.",
+    "Vegetation is dense tropical rainforest with broadleaf evergreens, typical of Peninsular Malaysia’s interior regions.",
+    "No visible signage, utility poles, or buildings suggest a remote, non-urbanized area common in Malaysian state forests."
+  ],
+  "raw_output": "{\n  \"country\": \"Malaysia\",\n  \"country_code\": \"my\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt with a single dashed white centerline, consistent with rural roads in Malaysia.\",\n    \"Vegetation is dense tropical rainforest with broadleaf evergreens, typical of Peninsular Malaysia’s interior regions.\",\n    \"No visible signage, utility poles, or buildings suggest a remote, non-urbanized area common in Malaysian state forests.\",\n    \"A motorcyclist is seen ahead, which is a common"
+}

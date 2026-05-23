@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road is cracked asphalt with no center line, typical of rural US roads in arid regions.",
+    "Utility poles are wooden and spaced widely, consistent with rural infrastructure in the American West.",
+    "Vegetation includes drought-tolerant trees and dry grass, suggesting a semi-arid climate common in states like Colorado or New Mexico."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is cracked asphalt with no center line, typical of rural US roads in arid regions.\",\n    \"Utility poles are wooden and spaced widely, consistent with rural infrastructure in the American West.\",\n    \"Vegetation includes drought-tolerant trees and dry grass, suggesting a semi-arid climate common in states like Colorado or New Mexico.\",\n    \"Vehicles parked on the left side of the road (from viewer’s perspective) indicate right"
+}

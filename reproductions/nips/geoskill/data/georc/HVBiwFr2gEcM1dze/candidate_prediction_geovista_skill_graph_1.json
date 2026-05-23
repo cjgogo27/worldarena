@@ -1,0 +1,746 @@
+{
+  "game_id": "HVBiwFr2gEcM1dze",
+  "round": 1,
+  "sample_id": "georc::HVBiwFr2gEcM1dze::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "es",
+    "predicted_region": "europe",
+    "predicted_address": "Rural secondary road near Vilalba, Lugo, Galicia, Spain",
+    "predicted_lat": 42.8,
+    "predicted_lng": -7.9,
+    "reasoning_text": "{\n  \"country\": \"Spain\",\n  \"country_code\": \"es\",\n  \"region\": \"Southern Europe\",\n  \"city\": \"Vilalba\",\n  \"province_or_state\": \"Galicia\",\n  \"address\": \"Rural secondary road near Vilalba, Lugo, Galicia, Spain\",\n  \"confidence\": 0.68,\n  \"reasoning\": \"Applying the ordered skills strictly: (1) the double solid white center line initially suggests the Australia/New Zealand pattern from the skill graph, but this is not decisive on its own. (2) The eucalyptus and temperate grass also open South American possibilities such as Uruguay or southern Brazil/Argentina. (3) The roadside infrastructure, especially the white edge lines and overall lane-marking style, matches Spanish road design better than the overseas alternatives, so this becomes the strongest anchor. (4) The South American double-yellow interpretation does not fit the visible center marking, which is white, so Argentina becomes less consistent. (5) The narrow minor-road form fits northern Spain or Portugal well. (6), (8), and (11) again raise Australia because of eucalyptus, but vegetation alone is weaker here than the road engineering cues. Using the graph links from skill 3, the Spanish-road interpretation supports skill 5 and especially skill 7: the hilly, green Atlantic landscape with eucalyptus and mixed woodland is very compatible with northern Spain, particularly Galicia. Skill 9 is less convincing because the road does not look Central/Eastern European. Skill 10 points to northern Portugal, which is geographically close and climatically similar, but the road-marking style and the overall rural Atlantic-Iberian feel are more consistent with northwest Spain. Combining the ordered skills and the strongest linked supports, the best single consistent guess is rural Galicia near Vilalba in Lugo province.\",\n  \"evidence\": [\n    \"Double solid white center line\",\n    \"White edge lines and European-style paved secondary road\",\n    \"Dense eucalyptus plantation along the roadside\",\n    \"Humid green, lightly hilly Atlantic landscape\",\n    \"Narrow rural road with grassy verges and embankments\",\n    \"Overall infrastructure fits northern Spain better than Australia or South America\"\n  ]\n}",
+    "evidence_spans": [
+      "Double solid white center line",
+      "White edge lines and European-style paved secondary road",
+      "Dense eucalyptus plantation along the roadside",
+      "Humid green, lightly hilly Atlantic landscape",
+      "Narrow rural road with grassy verges and embankments",
+      "Overall infrastructure fits northern Spain better than Australia or South America"
+    ],
+    "confidence": 0.68,
+    "base_prediction_summary": {
+      "predicted_country": "es",
+      "predicted_region": "europe",
+      "confidence": 0.47
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The road markings feature a double solid white center line, which is characteristic of Australia and New Zealand.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 1,
+        "score": 0.8275119066238403,
+        "bm25_score": 38.18366241455078,
+        "semantic_score": 0.3821496069431305
+      },
+      {
+        "skill_text": "The vegetation consists of eucalyptus trees and temperate grasses, which are abundant in Uruguay and parts of southern Brazil and Argentina.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees",
+          "vegetation"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 5,
+        "score": 0.7898792028427124,
+        "bm25_score": 23.025943756103516,
+        "semantic_score": 0.5862154364585876
+      },
+      {
+        "skill_text": "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "highway",
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 5,
+        "score": 0.7897742986679077,
+        "bm25_score": 30.377723693847656,
+        "semantic_score": 0.4639503061771393
+      },
+      {
+        "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 4,
+        "score": 0.7878137826919556,
+        "bm25_score": 32.12440490722656,
+        "semantic_score": 0.4324461817741394
+      },
+      {
+        "skill_text": "The road is narrow and edged with rough grass, suggesting a minor road, often found in southern France, northern Spain, Italy, or Portugal.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 5,
+        "score": 0.7874671220779419,
+        "bm25_score": 29.258228302001953,
+        "semantic_score": 0.4796209931373596
+      },
+      {
+        "skill_text": "The presence of eucalyptus trees is a strong clue, as they are native and predominant in Australia, especially in South Australia and Victoria.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 2,
+        "score": 0.7832966446876526,
+        "bm25_score": 21.634607315063477,
+        "semantic_score": 0.6009781360626221
+      },
+      {
+        "skill_text": "The hilly nature and also the abundance of furs and pine trees lean the location more towards Northern Spain, and possibly as far west as Galicia",
+        "region_hint": "europe",
+        "confidence": 0.55,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 5,
+        "score": 0.7820231914520264,
+        "bm25_score": 23.08548355102539,
+        "semantic_score": 0.5752597451210022
+      },
+      {
+        "skill_text": "The presence of eucalyptus trees dominating the forest indicates an Australian environment, as these trees are indigenous to Australia.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 5,
+        "score": 0.7804208397865295,
+        "bm25_score": 22.91796112060547,
+        "semantic_score": 0.5760098695755005
+      },
+      {
+        "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.7607659101486206,
+        "bm25_score": 28.685949325561523,
+        "semantic_score": 0.45525333285331726
+      },
+      {
+        "skill_text": "Based on the combination of climate, vegetation, geography, and road style, my guess is Portugal, near the city of Porto in northern Portugal.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 5,
+        "score": 0.7572371959686279,
+        "bm25_score": 28.437286376953125,
+        "semantic_score": 0.45490747690200806
+      },
+      {
+        "skill_text": "The presence of eucalyptus trees is characteristic of Australia.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 2,
+        "score": 0.7557495832443237,
+        "bm25_score": 19.722618103027344,
+        "semantic_score": 0.597793459892273
+      },
+      {
+        "skill_text": "The road markings display double yellow center lines with white edge lines, a common style in South American countries such as Argentina.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 4,
+        "score": 0.7556418180465698,
+        "bm25_score": 30.01251983642578,
+        "semantic_score": 0.42671486735343933
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road markings feature a double solid white center line, which is characteristic of Australia and New Zealand.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.8275119066238403,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The vegetation consists of eucalyptus trees and temperate grasses, which are abundant in Uruguay and parts of southern Brazil and Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7898792028427124,
+          "visual_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7897742986679077,
+          "visual_cues": [
+            "highway",
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7878137826919556,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road is narrow and edged with rough grass, suggesting a minor road, often found in southern France, northern Spain, Italy, or Portugal.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7874671220779419,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The presence of eucalyptus trees is a strong clue, as they are native and predominant in Australia, especially in South Australia and Victoria.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.7832966446876526,
+          "visual_cues": [
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The hilly nature and also the abundance of furs and pine trees lean the location more towards Northern Spain, and possibly as far west as Galicia",
+          "region_hint": "europe",
+          "confidence": 0.55,
+          "score": 0.7820231914520264,
+          "visual_cues": [
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The presence of eucalyptus trees dominating the forest indicates an Australian environment, as these trees are indigenous to Australia.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7804208397865295,
+          "visual_cues": [
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7607659101486206,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "Based on the combination of climate, vegetation, geography, and road style, my guess is Portugal, near the city of Porto in northern Portugal.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7572371959686279,
+          "visual_cues": [
+            "climate",
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The presence of eucalyptus trees is characteristic of Australia.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.7557495832443237,
+          "visual_cues": [
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The road markings display double yellow center lines with white edge lines, a common style in South American countries such as Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7556418180465698,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road markings feature a double solid white center line, which is characteristic of Australia and New Zealand.",
+        "The vegetation consists of eucalyptus trees and temperate grasses, which are abundant in Uruguay and parts of southern Brazil and Argentina.",
+        "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+        "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+        "The road is narrow and edged with rough grass, suggesting a minor road, often found in southern France, northern Spain, Italy, or Portugal.",
+        "The presence of eucalyptus trees is a strong clue, as they are native and predominant in Australia, especially in South Australia and Victoria.",
+        "The hilly nature and also the abundance of furs and pine trees lean the location more towards Northern Spain, and possibly as far west as Galicia",
+        "The presence of eucalyptus trees dominating the forest indicates an Australian environment, as these trees are indigenous to Australia.",
+        "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "Based on the combination of climate, vegetation, geography, and road style, my guess is Portugal, near the city of Porto in northern Portugal.",
+        "The presence of eucalyptus trees is characteristic of Australia.",
+        "The road markings display double yellow center lines with white edge lines, a common style in South American countries such as Argentina."
+      ],
+      "summary": "nodes=12, edges=44, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Spain\",\n  \"country_code\": \"es\",\n  \"region\": \"Southern Europe\",\n  \"city\": \"Vilalba\",\n  \"province_or_state\": \"Galicia\",\n  \"address\": \"Rural secondary road near Vilalba, Lugo, Galicia, Spain\",\n  \"confidence\": 0.47,\n  \"reasoning\": \"The scene shows a narrow two-lane rural paved road with ",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 44,
+        "graph_summary": "nodes=12, edges=44, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "es"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

@@ -1,0 +1,107 @@
+{
+  "game_id": "bwyAndeFczBo5Gzj",
+  "round": 1,
+  "sample_id": "georc::bwyAndeFczBo5Gzj::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "us",
+    "predicted_region": "north_america",
+    "predicted_address": "Rock Eagle Road, Eatonton, Georgia, United States",
+    "predicted_lat": 33.3268,
+    "predicted_lng": -83.3885,
+    "reasoning_text": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"city\": \"Eatonton\",\n  \"province_or_state\": \"Georgia\",\n  \"address\": \"Rock Eagle Road, Eatonton, Georgia, United States\",\n  \"confidence\": 0.47,\n  \"reasoning\": \"I first use the highest-confidence visual cues from the scene itself. The road has double solid yellow center lines, no edge lines, and right-hand driving, which is standard for rural roads in the United States. The roadway is narrow asphalt with grassy shoulders, shallow ditching, and a simple utility line, all of which fit a lightly trafficked county-road environment rather than a major highway. I then link vegetation and climate cues: the mix of pines with leafless deciduous trees suggests the southeastern United States in winter or early spring. The terrain is gently rolling and heavily forested, consistent with central Georgia. Using the provided base observation that points to Eatonton and the Oconee National Forest area, I choose a specific road that matches that wooded rural setting: Rock Eagle Road in Eatonton, Georgia. This is a consistent single-location guess that fits the road style, forest cover, and regional context.\",\n  \"evidence\": [\n    \"Double solid yellow center lines typical of U.S. two-lane rural roads\",\n    \"Right-hand driving road geometry\",\n    \"Narrow paved road without edge lines, common on county roads in the southeastern United States\",\n    \"Mixed pine and deciduous woodland consistent with central Georgia\",\n    \"Winter or early spring appearance with leafless hardwoods and evergreen pines\",\n    \"Grassy shoulder and shallow drainage profile typical of rural Georgia roads\",\n    \"Sparse roadside utility line matching a lightly developed forested corridor\",\n    \"Overall landscape fits the Eatonton and Oconee National Forest vicinity\"\n  ]\n}",
+    "evidence_spans": [
+      "Double solid yellow center lines typical of U.S. two-lane rural roads",
+      "Right-hand driving road geometry",
+      "Narrow paved road without edge lines, common on county roads in the southeastern United States",
+      "Mixed pine and deciduous woodland consistent with central Georgia",
+      "Winter or early spring appearance with leafless hardwoods and evergreen pines",
+      "Grassy shoulder and shallow drainage profile typical of rural Georgia roads",
+      "Sparse roadside utility line matching a lightly developed forested corridor",
+      "Overall landscape fits the Eatonton and Oconee National Forest vicinity"
+    ],
+    "confidence": 0.47,
+    "country_top3": [
+      "us",
+      "ca",
+      "au"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"us\",\"ca\",\"au\"],\"reason\":\"Road features strongly fit the United States: right-hand driving, double solid yellow centerline on a narrow rural paved road, no edge lines, grassy shoulders, and overhead utility line. The mixed pine/deciduous forest and overall road environment are especially consistent with the southeastern US. Canada is a distant second because of similar North American markings, while Australia is a much weaker fallback due to rural two-lane roads but is less consistent with vegetation, road style, and utility setup.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.8650000000000001,
+        "pred_country": "us",
+        "geo_country": "us",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.42,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Oconee Springs Road, Eatonton, Georgia, United States"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.8775000000000001,
+        "pred_country": "us",
+        "geo_country": "us",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.47,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Rock Eagle Road, Eatonton, Georgia, United States"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.8650000000000001,
+        "pred_country": "us",
+        "geo_country": "us",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.42,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Murder Creek Church Road, Eatonton, Georgia, United States"
+      }
+    ],
+    "selected_candidate_score": 0.8775000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "us",
+      "predicted_region": "north_america",
+      "confidence": 0.58
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"city\": \"Eatonton\",\n  \"province_or_state\": \"Georgia\",\n  \"address\": \"Rural forest road near Oconee National Forest, Eatonton, Georgia, USA\",\n  \"confidence\": 0.58,\n  \"reasoning\": \"The road markings strongly indicate",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "us"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

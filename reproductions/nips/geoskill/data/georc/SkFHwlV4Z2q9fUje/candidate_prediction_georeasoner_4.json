@@ -1,0 +1,11 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with white dashed center lines and solid white edge lines, consistent with Australian rural road standards.",
+    "The arid, red-earthed landscape with sparse scrub vegetation is characteristic of Australia’s Outback regions, particularly in Western Australia or the Northern Territory.",
+    "No utility poles, buildings, or signage are visible, indicating a remote, sparsely populated area typical of Australian outback highways."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with white dashed center lines and solid white edge lines, consistent with Australian rural road standards.\",\n    \"The arid, red-earthed landscape with sparse scrub vegetation is characteristic of Australia’s Outback regions, particularly in Western Australia or the Northern Territory.\",\n    \"No utility poles, buildings, or signage are visible, indicating a remote, sparsely populated area typical of Australian outback highways.\",\n    \""
+}

@@ -1,0 +1,33 @@
+{
+  "external_geovista": {
+    "country_accuracy": 0.0,
+    "continent_accuracy": 0.0,
+    "country_known_rate": 1.0,
+    "continent_known_rate": 1.0,
+    "distance_error_km_median": 20037.0,
+    "distance_error_km_mean_valid_only": NaN,
+    "distance_error_km_mean_penalized": 20037.0,
+    "distance_error_km_std_penalized": 0.0,
+    "valid_coordinate_rate": 0.0,
+    "coverage_rate": 0.0,
+    "total_samples": 20.0,
+    "valid_predictions": 0.0,
+    "Acc@10km": 0.0,
+    "Acc@25km": 0.0,
+    "Acc@200km": 0.0,
+    "Acc@750km": 0.0,
+    "Acc@2000km": 0.0,
+    "elapsed_seconds": 84.38728713989258,
+    "num_samples": 20,
+    "num_errors": 0
+  },
+  "_meta": {
+    "last_updated_utc": "2026-04-01T16:40:22.543610+00:00",
+    "methods_in_last_run": [
+      "external_geovista"
+    ],
+    "num_methods_total_in_summary": 1,
+    "main_agent_model": "qwen3.5-plus",
+    "skill_update_model": "qwen3.5-plus"
+  }
+}

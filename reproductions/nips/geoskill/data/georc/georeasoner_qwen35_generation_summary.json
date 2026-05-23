@@ -1,0 +1,627 @@
+[
+  {
+    "challenge": "2xnQdwiCve2rHWVt",
+    "round": 1,
+    "status": "skipped_existing"
+  },
+  {
+    "challenge": "2xnQdwiCve2rHWVt",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "2xnQdwiCve2rHWVt",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "2xnQdwiCve2rHWVt",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "2xnQdwiCve2rHWVt",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "4UvmdTHySo6AXW4M",
+    "round": 1,
+    "status": "skipped_existing"
+  },
+  {
+    "challenge": "4UvmdTHySo6AXW4M",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "4UvmdTHySo6AXW4M",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "4UvmdTHySo6AXW4M",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "4UvmdTHySo6AXW4M",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "5l0GTCFZI877KxkV",
+    "round": 1,
+    "status": "skipped_existing"
+  },
+  {
+    "challenge": "5l0GTCFZI877KxkV",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "5l0GTCFZI877KxkV",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "5l0GTCFZI877KxkV",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "5l0GTCFZI877KxkV",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "74bPHM081cMUaNKT",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "74bPHM081cMUaNKT",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "74bPHM081cMUaNKT",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "74bPHM081cMUaNKT",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "74bPHM081cMUaNKT",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "9lNwy1vjD53PTSwt",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "9lNwy1vjD53PTSwt",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "9lNwy1vjD53PTSwt",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "9lNwy1vjD53PTSwt",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "9lNwy1vjD53PTSwt",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "EEI3fwu4iZvPT2zP",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "EEI3fwu4iZvPT2zP",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "EEI3fwu4iZvPT2zP",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "EEI3fwu4iZvPT2zP",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "EEI3fwu4iZvPT2zP",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "HLDekf7z49ovS9Y8",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "HLDekf7z49ovS9Y8",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "HLDekf7z49ovS9Y8",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "HLDekf7z49ovS9Y8",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "HLDekf7z49ovS9Y8",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "JfPkjboMSjCsG1Qu",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "JfPkjboMSjCsG1Qu",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "JfPkjboMSjCsG1Qu",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "JfPkjboMSjCsG1Qu",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "JfPkjboMSjCsG1Qu",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "KXkXw08ZCDqL1e2q",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "KXkXw08ZCDqL1e2q",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "KXkXw08ZCDqL1e2q",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "KXkXw08ZCDqL1e2q",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "KXkXw08ZCDqL1e2q",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "Lz6IDBZmUTr5oPdV",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "Lz6IDBZmUTr5oPdV",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "Lz6IDBZmUTr5oPdV",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "Lz6IDBZmUTr5oPdV",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "Lz6IDBZmUTr5oPdV",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "No9HbFZyTOwfaU8s",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "No9HbFZyTOwfaU8s",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "No9HbFZyTOwfaU8s",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "No9HbFZyTOwfaU8s",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "No9HbFZyTOwfaU8s",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "STQGgl6Uh9muExNb",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "STQGgl6Uh9muExNb",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "STQGgl6Uh9muExNb",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "STQGgl6Uh9muExNb",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "STQGgl6Uh9muExNb",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "VGLhN3OEa5t3YAFj",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "VGLhN3OEa5t3YAFj",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "VGLhN3OEa5t3YAFj",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "VGLhN3OEa5t3YAFj",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "VGLhN3OEa5t3YAFj",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "XdOtqbtqAbSvRHij",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "XdOtqbtqAbSvRHij",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "XdOtqbtqAbSvRHij",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "XdOtqbtqAbSvRHij",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "XdOtqbtqAbSvRHij",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "YlXQJ8JIXvcRXwF5",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "YlXQJ8JIXvcRXwF5",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "YlXQJ8JIXvcRXwF5",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "YlXQJ8JIXvcRXwF5",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "YlXQJ8JIXvcRXwF5",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "amHvOfYODNHwXiJg",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "amHvOfYODNHwXiJg",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "amHvOfYODNHwXiJg",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "amHvOfYODNHwXiJg",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "amHvOfYODNHwXiJg",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "d8lnc9Ex03KQUJEL",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "d8lnc9Ex03KQUJEL",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "d8lnc9Ex03KQUJEL",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "d8lnc9Ex03KQUJEL",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "d8lnc9Ex03KQUJEL",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "f7TDBGoaR3hv0dVw",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "f7TDBGoaR3hv0dVw",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "f7TDBGoaR3hv0dVw",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "f7TDBGoaR3hv0dVw",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "f7TDBGoaR3hv0dVw",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "kkJz0TJOX5PkNDIu",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "kkJz0TJOX5PkNDIu",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "kkJz0TJOX5PkNDIu",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "kkJz0TJOX5PkNDIu",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "kkJz0TJOX5PkNDIu",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "lesmx8gOI1f44LS4",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "lesmx8gOI1f44LS4",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "lesmx8gOI1f44LS4",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "lesmx8gOI1f44LS4",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "lesmx8gOI1f44LS4",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "oUaCVxfbGe5Aj0AA",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "oUaCVxfbGe5Aj0AA",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "oUaCVxfbGe5Aj0AA",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "oUaCVxfbGe5Aj0AA",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "oUaCVxfbGe5Aj0AA",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "qPJtxO4pQJtlqpth",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "qPJtxO4pQJtlqpth",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "qPJtxO4pQJtlqpth",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "qPJtxO4pQJtlqpth",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "qPJtxO4pQJtlqpth",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "sMPhUAFKpkB21pnD",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "sMPhUAFKpkB21pnD",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "sMPhUAFKpkB21pnD",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "sMPhUAFKpkB21pnD",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "sMPhUAFKpkB21pnD",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "uluG1Pbks9IwTjsA",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "uluG1Pbks9IwTjsA",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "uluG1Pbks9IwTjsA",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "uluG1Pbks9IwTjsA",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "uluG1Pbks9IwTjsA",
+    "round": 5,
+    "status": "generated"
+  },
+  {
+    "challenge": "xnoF4a1DE73F1kiV",
+    "round": 1,
+    "status": "generated"
+  },
+  {
+    "challenge": "xnoF4a1DE73F1kiV",
+    "round": 2,
+    "status": "generated"
+  },
+  {
+    "challenge": "xnoF4a1DE73F1kiV",
+    "round": 3,
+    "status": "generated"
+  },
+  {
+    "challenge": "xnoF4a1DE73F1kiV",
+    "round": 4,
+    "status": "generated"
+  },
+  {
+    "challenge": "xnoF4a1DE73F1kiV",
+    "round": 5,
+    "status": "generated"
+  }
+]

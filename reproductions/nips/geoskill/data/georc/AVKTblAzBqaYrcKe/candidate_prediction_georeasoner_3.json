@@ -1,0 +1,11 @@
+{
+  "country": "Norway",
+  "country_code": "no",
+  "city": "",
+  "reasoning_chain": [
+    "The white wooden houses with steep slate roofs and brick accents are characteristic of traditional Norwegian coastal architecture.",
+    "The cobblestone street and narrow, winding road layout are typical of historic Norwegian towns like Bergen or Stavanger.",
+    "The silver station wagon parked on the right side of the road indicates right-hand traffic, consistent with Norway."
+  ],
+  "raw_output": "{\n  \"country\": \"Norway\",\n  \"country_code\": \"no\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The white wooden houses with steep slate roofs and brick accents are characteristic of traditional Norwegian coastal architecture.\",\n    \"The cobblestone street and narrow, winding road layout are typical of historic Norwegian towns like Bergen or Stavanger.\",\n    \"The silver station wagon parked on the right side of the road indicates right-hand traffic, consistent with Norway.\",\n    \"The clear blue sky, green vegetation, and lack of snow suggest a temperate maritime climate common in"
+}

@@ -1,0 +1,1019 @@
+{
+  "game_id": "KTKKKeKESyntpGnS",
+  "round": 1,
+  "sample_id": "georc::KTKKKeKESyntpGnS::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "de",
+    "predicted_region": "europe",
+    "predicted_lat": 52.45,
+    "predicted_lng": 13.5,
+    "reasoning_text": "{\n  \"country\": \"Germany\",\n  \"country_code\": \"de\",\n  \"region\": \"Europe\",\n  \"lat\": 52.45,\n  \"lng\": 13.5,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The visual evidence strongly supports Germany. Key indicators include: (1) White roadside marker posts (blaze posts) on the right side — these are characteristic of German rural roads (Richtungszeichen), typically white with a red reflector on the back; (2) Road markings: wide solid white edge lines and dashed center line match German rural road standards (Richtlinien für die Anlage von Landstraßen); (3) The presence of a paved bicycle path running parallel to the road is common in German countryside infrastructure; (4) Vegetation and flat agricultural landscape are consistent with northern/eastern German regions like Brandenburg or Mecklenburg-Vorpommern; (5) No conflicting cues from other European countries — e.g., no Spanish guardrails, no Polish/Baltic single dashed line dominance, no Australian delineators. Baseline reasoning was correct and reinforced by multiple independent visual cues.\",\n  \"evidence\": [\n    \"White roadside marker posts (blaze posts) on right side of road\",\n    \"Wide solid white edge lines and dashed center line matching German rural road standards\",\n    \"Paved bicycle path adjacent to roadway\",\n    \"Flat agricultural fields with row crops typical of northern Germany\",\n    \"Tree-lined road with mature deciduous trees common in German countryside\"\n  ]\n}",
+    "evidence_spans": [
+      "White roadside marker posts (blaze posts) on right side of road",
+      "Wide solid white edge lines and dashed center line matching German rural road standards",
+      "Paved bicycle path adjacent to roadway",
+      "Flat agricultural fields with row crops typical of northern Germany",
+      "Tree-lined road with mature deciduous trees common in German countryside"
+    ],
+    "confidence": 0.92,
+    "retrieved_skills": [
+      {
+        "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.7473092019557953,
+        "bm25_score": 38.10149002075195,
+        "semantic_score": 0.7230830788612366
+      },
+      {
+        "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 5,
+        "score": 0.6982598423957825,
+        "bm25_score": 32.830501556396484,
+        "semantic_score": 0.5900195837020874
+      },
+      {
+        "skill_text": "The curve road signs with black chevrons on a white rectangular background are commonly used in southern European countries, especially Spain and Portugal.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "chevron",
+          "road",
+          "sign"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 5,
+        "score": 0.6922370970249176,
+        "bm25_score": 36.70188522338867,
+        "semantic_score": 0.6314920783042908
+      },
+      {
+        "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 3,
+        "score": 0.7875456631183624,
+        "bm25_score": 47.353633880615234,
+        "semantic_score": 0.6311237215995789
+      },
+      {
+        "skill_text": "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 3,
+        "score": 0.7395181387662888,
+        "bm25_score": 32.27497863769531,
+        "semantic_score": 0.5446200370788574
+      },
+      {
+        "skill_text": "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "highway",
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 5,
+        "score": 0.7102226078510285,
+        "bm25_score": 35.21234893798828,
+        "semantic_score": 0.5722997188568115
+      },
+      {
+        "skill_text": "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles",
+          "road",
+          "sign"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 2,
+        "score": 0.6895686864852906,
+        "bm25_score": 34.04206085205078,
+        "semantic_score": 0.6114907264709473
+      },
+      {
+        "skill_text": "Narrow, winding paved road without lane markings commonly found in rural parts of countries like the Netherlands, Germany, or Belgium.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 1,
+        "score": 0.6231686383485795,
+        "bm25_score": 23.870718002319336,
+        "semantic_score": 0.5964970588684082
+      },
+      {
+        "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 1,
+        "score": 0.6310907572507859,
+        "bm25_score": 27.587160110473633,
+        "semantic_score": 0.5382711291313171
+      },
+      {
+        "skill_text": "The lane markings are a single dashed line, which is a style frequently seen in Poland and the Baltic countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 3,
+        "score": 0.6750196427106858,
+        "bm25_score": 28.372203826904297,
+        "semantic_score": 0.6744840741157532
+      },
+      {
+        "skill_text": "The STOP sign visible in the distance uses the international red octagon with white letters, common in France.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 3,
+        "score": 0.676527562737465,
+        "bm25_score": 44.08489990234375,
+        "semantic_score": 0.49145442247390747
+      },
+      {
+        "skill_text": "The white reflective roadside posts are typical Australian road infrastructure seen in forested areas.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 5,
+        "score": 0.6979927837848664,
+        "bm25_score": 46.68335723876953,
+        "semantic_score": 0.4851081371307373
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "de",
+      "predicted_region": "europe",
+      "predicted_lat": 52.45,
+      "predicted_lng": 13.5,
+      "reasoning_text": "{\n  \"country\": \"Germany\",\n  \"country_code\": \"de\",\n  \"region\": \"Europe\",\n  \"lat\": 52.45,\n  \"lng\": 13.5,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to Germany. The key indicators are the white roadside marker posts (blaze posts) on the right side of the road, which are characteristic of German rural roads (often white with a red reflector on the back, though only the white front is visible here). The road markings, specifically the white chevron/hatched markings on the shoulder, are also consistent with German road design standards (Richtlinien für die Anlage von Straßen - RAS). The flat terrain and agricultural landscape are typical of northern Germany, particularly Brandenburg or Mecklenburg-Vorpommern. The presence of a dedicated cycle path alongside the road is common in Germany. The overall scene, including the tree-lined path and the style of the road, aligns with typical German countryside roads.\",\n  \"evidence\": [\n    \"White roadside marker posts (blaze posts) on the right side of the road, typical of Germany.\",\n    \"White chevron/hatched markings on the road shoulder, consistent with German road design.\",\n    \"Flat agricultural landscape with young crops in rows, typical of northern Germany.\",\n    \"Dedicated cycle path running parallel to the road, common in Germany.\",\n    \"Tree-lined path between the road and the cycle path, a common feature in German rural areas.\"\n  ]\n}",
+      "evidence_spans": [
+        "White roadside marker posts (blaze posts) on the right side of the road, typical of Germany.",
+        "White chevron/hatched markings on the road shoulder, consistent with German road design.",
+        "Flat agricultural landscape with young crops in rows, typical of northern Germany.",
+        "Dedicated cycle path running parallel to the road, common in Germany.",
+        "Tree-lined path between the road and the cycle path, a common feature in German rural areas."
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "Paved asphalt road with white edge lines and white chevron markings (hatched area) on the right shoulder.",
+          "Narrow paved path (likely a cycle path or sidewalk) running parallel to the road on the left side.",
+          "Row of deciduous trees planted along the boundary between the path and the road.",
+          "Large agricultural field on the left with young crops planted in distinct rows.",
+          "Flat terrain extending to the horizon.",
+          "Blue sky with scattered white clouds.",
+          "White roadside marker posts (blaze posts) visible on the right side of the road.",
+          "A cyclist is visible in the distance on the path.",
+          "No visible traffic signs or license plates.",
+          "Grass verges on both sides of the road and path."
+        ],
+        "hard_clues": [
+          "White chevron markings on the road shoulder are typical of European road design (e.g., Germany, France, Netherlands).",
+          "White roadside marker posts (blaze posts) are standard in many European countries, particularly Germany (white posts with red reflectors, though color is hard to confirm, the shape is distinct).",
+          "The separation of the cycle path from the main road by a tree line and grass verge is a common infrastructure design in Germany (Radweg).",
+          "The flat, open agricultural landscape is characteristic of regions like Northern Germany, the Netherlands, or Northern France."
+        ],
+        "ambiguous_clues": [
+          "The specific type of crop in the field is not identifiable.",
+          "The exact species of the trees is not clear.",
+          "The weather conditions are generic for temperate climates.",
+          "The cyclist's clothing does not provide specific regional indicators."
+        ],
+        "possible_scripts": [
+          "Latin (European context implied by road markings and infrastructure)",
+          "German (high probability based on road design and landscape)",
+          "French (possible based on landscape and road markings)"
+        ],
+        "driving_side": "right"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "Germany",
+          "Netherlands",
+          "France"
+        ],
+        "zoom_boxes": [
+          [
+            580,
+            570,
+            600,
+            620
+          ],
+          [
+            880,
+            580,
+            900,
+            620
+          ]
+        ],
+        "verification_queries": [
+          "Identify the specific design of the white roadside marker posts (blaze posts) visible on the right side of the road.",
+          "Analyze the road markings, specifically the white chevron/hatched markings on the shoulder, to determine the country of origin."
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "de",
+      "predicted_region": "europe",
+      "predicted_lat": 52.45,
+      "predicted_lng": 13.5,
+      "confidence": 0.92
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "de",
+      "predicted_region": "europe",
+      "predicted_lat": 52.45,
+      "predicted_lng": 13.5,
+      "confidence": 0.92
+    },
+    "base_prediction_summary": {
+      "predicted_country": "de",
+      "predicted_region": "europe",
+      "predicted_lat": 52.45,
+      "predicted_lng": 13.5,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.92,
+    "skill_boost_aggressive_confidence": 0.92,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7875456631183624,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7473092019557953,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7395181387662888,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7102226078510285,
+          "visual_cues": [
+            "highway",
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6982598423957825,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The white reflective roadside posts are typical Australian road infrastructure seen in forested areas.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6979927837848664,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The curve road signs with black chevrons on a white rectangular background are commonly used in southern European countries, especially Spain and Portugal.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6922370970249176,
+          "visual_cues": [
+            "chevron",
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6895686864852906,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The STOP sign visible in the distance uses the international red octagon with white letters, common in France.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.676527562737465,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The lane markings are a single dashed line, which is a style frequently seen in Poland and the Baltic countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6750196427106858,
+          "visual_cues": [
+            "lane markings"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6310907572507859,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "Narrow, winding paved road without lane markings commonly found in rural parts of countries like the Netherlands, Germany, or Belgium.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6231686383485795,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+        "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+        "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+        "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "The white reflective roadside posts are typical Australian road infrastructure seen in forested areas.",
+        "The curve road signs with black chevrons on a white rectangular background are commonly used in southern European countries, especially Spain and Portugal.",
+        "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+        "The STOP sign visible in the distance uses the international red octagon with white letters, common in France.",
+        "The lane markings are a single dashed line, which is a style frequently seen in Poland and the Baltic countries.",
+        "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "Narrow, winding paved road without lane markings commonly found in rural parts of countries like the Netherlands, Germany, or Belgium."
+      ],
+      "summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

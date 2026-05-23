@@ -1,0 +1,79 @@
+{
+  "user_id": "30447113_4",
+  "input_demographics": {
+    "sex": "male",
+    "age": 40,
+    "age_range": "18-64 years old",
+    "race": "Asian",
+    "enrolled_in_school": true,
+    "employed": false,
+    "occupation": "Sales or service",
+    "marital_status": "never married",
+    "primary_activity": "Going to school"
+  },
+  "raw_output": "| Place Visited           | Arrival Time    | Departure Time  | Location Type |\n|-------------------------|-----------------|-----------------|---------------|\n| Home                    | 07:00 AM        | 07:30 AM        | 1              |\n| School                  | 07:30 AM        | 12:30 PM        | 8              |\n| Subway Station          | 12:30 PM        | 12:35 PM        | 7              |\n| Library                 | 12:35 PM        | 01:30 PM        | 14             |\n| Subway Station          | 01:30 PM        | 01:35 PM        | 7              |\n| Grocery Store           | 01:35 PM        | 02:15 PM        | 11             |\n| Subway Station          | 02:15 PM        | 02:20 PM        | 7              |\n| Restaurant              | 02:20 PM        | 03:00 PM        | 13             |\n| Subway Station          | 03:00 PM        | 03:05 PM        | 7              |\n| Home                    | 03:05 PM        | 06:00 PM        | 1              |",
+  "schedule": [
+    {
+      "activity": "home",
+      "start_time": "07:00",
+      "end_time": "07:30"
+    },
+    {
+      "activity": "education",
+      "start_time": "07:30",
+      "end_time": "12:30"
+    },
+    {
+      "activity": "service",
+      "start_time": "12:30",
+      "end_time": "12:35"
+    },
+    {
+      "activity": "service",
+      "start_time": "12:35",
+      "end_time": "13:30"
+    },
+    {
+      "activity": "service",
+      "start_time": "13:30",
+      "end_time": "13:35"
+    },
+    {
+      "activity": "shopping",
+      "start_time": "13:35",
+      "end_time": "14:15"
+    },
+    {
+      "activity": "service",
+      "start_time": "14:15",
+      "end_time": "14:20"
+    },
+    {
+      "activity": "dine_out",
+      "start_time": "14:20",
+      "end_time": "15:00"
+    },
+    {
+      "activity": "service",
+      "start_time": "15:00",
+      "end_time": "15:05"
+    },
+    {
+      "activity": "home",
+      "start_time": "15:05",
+      "end_time": "18:00"
+    }
+  ],
+  "ground_truth": [
+    {
+      "activity": "home",
+      "start_time": "00:00",
+      "end_time": "16:40"
+    },
+    {
+      "activity": "home",
+      "start_time": "16:40",
+      "end_time": "24:00"
+    }
+  ]
+}

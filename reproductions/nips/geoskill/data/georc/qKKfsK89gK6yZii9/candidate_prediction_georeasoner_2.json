@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "Right-hand traffic and American-style road markings (double yellow center line, white lane dividers) indicate a U.S. location.",
+    "Brick commercial buildings with flat roofs and satellite dishes on top are typical of small-town American downtowns.",
+    "White pickup trucks and SUVs parked along the street are common in the U.S., especially in suburban or small-town settings."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Right-hand traffic and American-style road markings (double yellow center line, white lane dividers) indicate a U.S. location.\",\n    \"Brick commercial buildings with flat roofs and satellite dishes on top are typical of small-town American downtowns.\",\n    \"White pickup trucks and SUVs parked along the street are common in the U.S., especially in suburban or small-town settings.\",\n    \"The clear blue sky, scattered clouds, and mature decid"
+}

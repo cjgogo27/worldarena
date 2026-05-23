@@ -1,0 +1,13 @@
+```json
+{
+  "country": "Ukraine",
+  "country_code": "ua",
+  "region": "Europe",
+  "city": "Lviv",
+  "province_or_state": "Lviv Oblast",
+  "address": "Rural road in the hills near Lviv, Lviv Oblast, Ukraine",
+  "confidence": 0.65,
+  "reasoning": "The initial assessment of Ukraine/Lviv Oblast is well-supported by multiple converging factors. The wooden utility poles with multiple cross-arms and radial insulator arrangements are characteristic of Eastern European rural infrastructure, particularly in Ukraine. The narrow paved road with worn asphalt, dirt shoulders, and absence of road markings matches typical secondary roads in rural Lviv Oblast. The reddish gravel soil noted in the local details is consistent with the podzolic and brown forest soils found in western Ukraine. The temperate deciduous vegetation with yellowing birch leaves indicates late autumn in a continental climate zone with pronounced seasons, which fits Lviv Oblast perfectly. The gently rolling hilly terrain visible in the background aligns with the Podillian Upland and foothill regions near Lviv. The overcast, cool, damp conditions are typical for this region in October-November. While no definitive signage or license plates are visible to confirm with higher precision, the combination of infrastructure style, soil type, vegetation, topography, and climate strongly points to rural Lviv Oblast rather than other regions of Ukraine or neighboring countries like Poland or Slovakia, which tend to have somewhat better-maintained rural roads and different utility pole designs.",
+  "evidence": ["wooden utility poles with multiple cross-arms and radial insulators typical of Ukraine", "narrow worn asphalt road with dirt shoulders and no markings", "reddish gravel soil consistent with western Ukrainian podzolic soils", "temperate deciduous forest with yellowing birch leaves indicating late autumn continental climate", "gently rolling hilly terrain matching Podillian Upland near Lviv", "overcast damp cool weather typical of Lviv Oblast in autumn", "wooden fence with vertical slats and concrete posts common in rural Ukraine"]
+}
+```

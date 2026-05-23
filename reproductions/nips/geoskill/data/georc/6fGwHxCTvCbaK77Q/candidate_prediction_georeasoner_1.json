@@ -1,0 +1,12 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The reddish-brown lateritic soil and vegetation are characteristic of the Brazilian Cerrado biome.",
+    "The unpaved dirt road with no markings or signs suggests a rural area in a developing country like Brazil.",
+    "The dense tropical vegetation and scattered trees are typical of the Brazilian countryside.",
+    "The absence of any infrastructure or urban elements points to a remote rural location in Brazil."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The reddish-brown lateritic soil and vegetation are characteristic of the Brazilian Cerrado biome.\",\n    \"The unpaved dirt road with no markings or signs suggests a rural area in a developing country like Brazil.\",\n    \"The dense tropical vegetation and scattered trees are typical of the Brazilian countryside.\",\n    \"The absence of any infrastructure or urban elements points to a remote rural location in Brazil.\"\n  ]\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Iceland",
+  "country_code": "is",
+  "city": "",
+  "reasoning_chain": [
+    "The road has no center line and yellow reflective posts on both sides, typical of Icelandic rural roads (F-roads or low-numbered highways).",
+    "The landscape features flat grassy plains, distant fjords, and barren hills — characteristic of Iceland’s coastal lowlands.",
+    "Buildings in the distance are simple, low-rise structures with flat roofs, consistent with Icelandic rural settlements."
+  ],
+  "raw_output": "{\n  \"country\": \"Iceland\",\n  \"country_code\": \"is\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has no center line and yellow reflective posts on both sides, typical of Icelandic rural roads (F-roads or low-numbered highways).\",\n    \"The landscape features flat grassy plains, distant fjords, and barren hills — characteristic of Iceland’s coastal lowlands.\",\n    \"Buildings in the distance are simple, low-rise structures with flat roofs, consistent with Icelandic rural settlements.\",\n    \"Overcast sky and lack of trees suggest"
+}

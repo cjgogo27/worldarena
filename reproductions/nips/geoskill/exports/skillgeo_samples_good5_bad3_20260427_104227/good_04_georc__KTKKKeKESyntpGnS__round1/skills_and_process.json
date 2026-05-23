@@ -1,0 +1,189 @@
+{
+  "retrieved_skills": [
+    {
+      "skill_text": "The street sign is in German, so this leads to potentially Western Austria, Switzerland, Liechtenstein, or Southern Germany; however, the mountains in Southern Germany are not as jagged which rules out Germany",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "mountains",
+        "sign"
+      ],
+      "source_game_id": "56Q4T4rpv9O9sCpP",
+      "source_round": 1,
+      "score": 0.7211873531341553,
+      "bm25_score": 17.221759796142578,
+      "semantic_score": 0.4753972887992859
+    },
+    {
+      "skill_text": "Yellow center line with unbroken white outer lines is only found in Norway in the Nordic countries; the latitude of the location is hard to tell but could be as far south as Trondheim to as far north as Narvik",
+      "region_hint": "europe",
+      "confidence": 0.55,
+      "visual_cues": [
+        "Yellow",
+        "center",
+        "line",
+        "with"
+      ],
+      "source_game_id": "5l0GTCFZI877KxkV",
+      "source_round": 5,
+      "score": 0.67878258228302,
+      "bm25_score": 26.639373779296875,
+      "semantic_score": 0.3287012577056885
+    },
+    {
+      "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "road",
+        "road markings"
+      ],
+      "source_game_id": "5GS2RPgTrf85UZM5",
+      "source_round": 1,
+      "score": 0.9007858633995056,
+      "bm25_score": 35.34504318237305,
+      "semantic_score": 0.42765310406684875
+    },
+    {
+      "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "road"
+      ],
+      "source_game_id": "3uP6lYo9pzx5Q0km",
+      "source_round": 5,
+      "score": 0.6969196200370789,
+      "bm25_score": 26.20819091796875,
+      "semantic_score": 0.34996116161346436
+    },
+    {
+      "skill_text": "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "climate",
+        "vegetation"
+      ],
+      "source_game_id": "3uP6lYo9pzx5Q0km",
+      "source_round": 1,
+      "score": 0.7118656635284424,
+      "bm25_score": 21.423480987548828,
+      "semantic_score": 0.41856643557548523
+    },
+    {
+      "skill_text": "The curve road signs with black chevrons on a white rectangular background are commonly used in southern European countries, especially Spain and Portugal.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "chevron",
+        "road",
+        "sign"
+      ],
+      "source_game_id": "9NNxopqtafH8pTbN",
+      "source_round": 5,
+      "score": 0.6683386564254761,
+      "bm25_score": 25.68324089050293,
+      "semantic_score": 0.3303501009941101
+    },
+    {
+      "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "road"
+      ],
+      "source_game_id": "3uP6lYo9pzx5Q0km",
+      "source_round": 3,
+      "score": 0.7095340490341187,
+      "bm25_score": 25.370506286621094,
+      "semantic_score": 0.3709501326084137
+    },
+    {
+      "skill_text": "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "road"
+      ],
+      "source_game_id": "6fGwHxCTvCbaK77Q",
+      "source_round": 3,
+      "score": 0.8185713291168213,
+      "bm25_score": 36.785335540771484,
+      "semantic_score": 0.33721354603767395
+    },
+    {
+      "skill_text": "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "highway",
+        "lane markings",
+        "road"
+      ],
+      "source_game_id": "9NNxopqtafH8pTbN",
+      "source_round": 5,
+      "score": 0.6930251717567444,
+      "bm25_score": 29.057071685791016,
+      "semantic_score": 0.31360679864883423
+    },
+    {
+      "skill_text": "The vegetation, including coniferous and deciduous trees, is consistent with a temperate climate found in southeastern Europe.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "climate",
+        "trees",
+        "vegetation"
+      ],
+      "source_game_id": "1NJsXTxIF9GGMDxC",
+      "source_round": 3,
+      "score": 0.6606159210205078,
+      "bm25_score": 32.697166442871094,
+      "semantic_score": 0.24252089858055115
+    }
+  ],
+  "expert_chain": "Entry not found",
+  "evidence_spans": [
+    "white road delineators with black tops characteristic of Austria/Germany",
+    "diagonal chevron/hatching road markings and dashed zigzag speed reduction markings",
+    "flat agricultural landscape with mixed forest typical of Lower Austria",
+    "German-language European road sign context",
+    "black chevron curve warning signs on white rectangular backgrounds",
+    "narrow rural road with white center line and edge markings",
+    "late autumn/early spring vegetation without snow"
+  ],
+  "stage1_prediction": {
+    "predicted_country": "at",
+    "predicted_region": "europe",
+    "predicted_address": "Rural road near Gänserndorf, Lower Austria, Austria",
+    "predicted_lat": 48.33333,
+    "predicted_lng": 15.41667,
+    "reasoning_text": "```json\n{\n  \"country\": \"Austria\",\n  \"country_code\": \"at\",\n  \"region\": \"Europe\",\n  \"city\": \"\",\n  \"province_or_state\": \"Lower Austria\",\n  \"address\": \"Rural road near Gänserndorf, Lower Austria, Austria\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"STEP 1 - HEMISPHERE & CLIMATE ZONE: The sun appears to be in the southern sky (shadows falling north), indicating Northern Hemisphere. The lush green vegetation, mature deciduous trees, and agricultural fields suggest temperate climate with sufficient rainfall - consistent with Central European summer. STEP 2 - CONTINENT NARROWING: Driving on the right side of the road (evident from road markings and perspective), combined with the high-quality asphalt road, dedicated cycling path, and European-style road markings (white dashed lines, chevron markings) points to continental Europe. The flat agricultural landscape with distant low hills is characteristic of the North European Plain. STEP 3 - COUNTRY IDENTIFICATION: The road infrastructure quality, specific style of road markings (wide white chevrons indicating priority/yield situations), and the distinctive white posts with black stripes (km markers/common in German-speaking countries) strongly suggest Austria or Germany. The cycling path separated by grass strip is very typical of Austrian rural roads. The tree-lined road with regularly spaced trees is a classic feature of Austrian/Bavarian landscape management. The absence of speed limit signs in km/h visible and the specific pole design lean toward Austria. STEP 4 - REGION WITHIN COUNTRY: The extremely flat terrain with distant low hills on the horizon, combined with intensive agriculture (row crops, likely maize/corn), matches the Weinviertel or Marchfeld region of Lower Austria - the agricultural heartland north of Vienna. This area is known for its flat-to-gently-rolling terrain and extensive farming. STEP 5 - FINAL LOCATION TEXT: Based on the flat agricultural landscape, road infrastructure style, and regional characteristics, this appears to be in Lower Austria (Niederösterreich), likely in the Gänserndorf district or similar rural area north of Vienna.\",\n  \"evidence\": [\"Right-hand traffic with European road markings\", \"White chevron road markings\", \"White posts with black stripes (km markers)\", \"Dedicated asphalt cycling path with grass separation\", \"Regularly spaced trees along road (Austrian/Bavarian style)\", \"Flat intensive agricultural landscape with row crops\", \"Temperate climate with lush green vegetation\", \"High-quality road infrastructure\", \"Distant low hills on horizon characteristic of North European Plain edge\"]\n}\n```",
+    "evidence_spans": [
+      "Right-hand traffic with European road markings",
+      "White chevron road markings",
+      "White posts with black stripes (km markers)",
+      "Dedicated asphalt cycling path with grass separation",
+      "Regularly spaced trees along road (Austrian/Bavarian style)",
+      "Flat intensive agricultural landscape with row crops",
+      "Temperate climate with lush green vegetation",
+      "High-quality road infrastructure",
+      "Distant low hills on horizon characteristic of North European Plain edge"
+    ],
+    "confidence": 0.75
+  },
+  "local_analysis": {
+    "pole_type": "not visible",
+    "road_markings": "white center line with diagonal chevron/hatching pattern, white edge lines, dashed white lines forming zigzag/chevron markings suggesting pedestrian crossing or speed reduction zone",
+    "bollards": "small white posts with black tops (delineators) along road edge",
+    "signs": "not clearly visible - possible distant sign on right side",
+    "vehicles": "single distant vehicle, too far for make/model identification, appears dark colored",
+    "architecture": "no buildings visible - rural agricultural landscape only",
+    "script_type": "none visible",
+    "implied_country": "Germany or Austria",
+    "implied_region": "Central European rural plains, likely northern Germany or eastern Austria based on road marking style and agricultural patterns"
+  },
+  "geocot_region": "europe",
+  "active_region": "europe"
+}

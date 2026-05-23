@@ -1,0 +1,38 @@
+Round 1
+Reasoning
+This landscape is typical of regions around the Alps Mountains, due to the grand, exposed snow-capped mountains mixed in with a lot of alpine architecture (buildings made out of wood)
+The street sign is in German, so this leads to potentially Western Austria, Switzerland, Liechtenstein, or Southern Germany; however, the mountains in Southern Germany are not as jagged which rules out Germany
+The roadside mirror with a white alternating striped pattern is also common in Alpine countries
+The jagged mountains and street signs are commonly found in Western Austria
+Conclusion
+This location is potentially in Western Austria but can be in Switzerland or Liechtenstein
+
+Round 2
+Reasoning
+This greasy landscape with few trees is most common in South Africa and Australia and the sun being in the north confirms that we will be in the southern hemisphere
+Generation 2 coverage (low-quality coverage) is also common in South Africa and Australia as they were one of the earliest coverage coverage
+The wooden electricity pole with small insulators on top of the support bar is unique to South Africa; however, this rolling grassy landscape has to be along the southern part of South Africa and potentially in West Cape all the way to western parts of East Cape
+Conclusion
+This location is 100% in South Africa, with the possibility of being in West Cape but could be also in the western part of East Cape
+Round 3
+Reasoning
+This location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible 
+This landscape most resembles Southern India and Sri Lanka because of the tuk-tuk (rickshaw) that is following the car, which is most common in those countries; however, with the higher quality camera, this can never be found in India
+The abundance of coconut palms leans the location towards the coast, but which side is ambiguous and hard to tell
+Conclusion
+This location is 100% in Sri Lanka, possibly on a coastal jungle road
+
+Round 4
+Reasoning
+The bollards (street posts with reflectors) on the side of the road are unique to Australia, but possibly found in countries in Europe but this climate can never be Europe
+This landscape is very flat with tall yellow grass and an abundance of eucalyptus trees which further reinforces somewhere inland in Australia, possibly the outback
+The short reflectors on the Australian bollards are most commonly found in South Australia and Queensland, but with this dry inland landscape, South Australia is not possible
+Conclusion
+This location is 100% in Australia, likely to be in the outback area of Queensland but other states are possible
+
+Round 5
+Reasoning
+This landscape is typical of the Northeastern provinces of South Africa: a dry arid landscape that is not quite desert-like and an abundance of low shrubs and trees that have lost their leaves
+Solid yellow outer road lines also is only found in Southern Africa and the alternating perpendicular insulator wooden pole is unique to Northeastern provinces of Southern Africa
+Conclusion
+This location is 100% in South Africa, highly likely to be in the Northeastern region of the country

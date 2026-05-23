@@ -1,0 +1,24 @@
+{
+  "game_id": "Lz6IDBZmUTr5oPdV",
+  "round": 1,
+  "sample_id": "georc::Lz6IDBZmUTr5oPdV::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "hu",
+    "predicted_region": "europe",
+    "predicted_address": "Forest road in the Gemenc/Kiskunság lowland area, Bács-Kiskun, Hungary",
+    "predicted_lat": 46.17972222,
+    "predicted_lng": 18.95305556,
+    "reasoning_text": "{\n  \"country\": \"Hungary\",\n  \"country_code\": \"hu\",\n  \"region\": \"Central Europe\",\n  \"city\": \"Gemenc\",\n  \"province_or_state\": \"Bács-Kiskun\",\n  \"address\": \"Forest road in the Gemenc/Kiskunság lowland area, Bács-Kiskun, Hungary\",\n  \"confidence\": 0.31,\n  \"reasoning\": \"The image shows a very flat landscape with a long, straight, narrow asphalt road running through dense deciduous woodland. There are no lane markings, which is common on minor forest access roads in Central and Eastern Europe. The forest composition, flat terrain, and road style fit the Pannonian Basin well, especially Hungary, where Street View often includes isolated rural and forest roads. I considered neighboring countries such as Croatia, Serbia, and Romania, but the overall look of the road and lowland forest feels most consistent with Hungary. With no readable signs or unique infrastructure, this remains a low-confidence best guess.\",\n  \"evidence\": [\n    \"Flat lowland terrain\",\n    \"Long straight narrow asphalt road without centerline\",\n    \"Dense deciduous forest on both sides\",\n    \"Road quality and style consistent with minor Central/Eastern European forest roads\",\n    \"Vegetation and landscape resemble the Pannonian Basin\"\n  ]\n}",
+    "evidence_spans": [
+      "Flat lowland terrain",
+      "Long straight narrow asphalt road without centerline",
+      "Dense deciduous forest on both sides",
+      "Road quality and style consistent with minor Central/Eastern European forest roads",
+      "Vegetation and landscape resemble the Pannonian Basin"
+    ],
+    "confidence": 0.31
+  },
+  "error": null
+}

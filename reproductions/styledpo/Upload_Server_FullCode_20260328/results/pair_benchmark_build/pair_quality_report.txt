@@ -1,0 +1,15 @@
+Preference Pair Benchmark Quality Report
+generated_at: 2026-03-29T04:40:55.234335+00:00
+benchmark_dir: benchmark/bagel_content_style_benchmark
+style_count: 40
+content_count: 6
+groups_total: 83
+groups_by_split: {'train': 70, 'val': 0, 'test': 13}
+expanded_pairs: 249
+delta_min: 0.02
+avg_margin: 0.030828
+split_leakage_detected: False
+ratio_1_3: 83
+fallback_1_2: 0
+fallback_1_1: 0
+failed_groups: 157

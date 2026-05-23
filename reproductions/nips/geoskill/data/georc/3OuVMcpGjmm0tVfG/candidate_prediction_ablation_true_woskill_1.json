@@ -1,0 +1,32 @@
+{
+  "game_id": "3OuVMcpGjmm0tVfG",
+  "round": 1,
+  "sample_id": "georc::3OuVMcpGjmm0tVfG::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "gt",
+    "predicted_region": "north_america",
+    "predicted_address": "Calle al Lago Petén Itzá, Flores, Petén, Guatemala",
+    "predicted_lat": 16.9,
+    "predicted_lng": -89.9,
+    "reasoning_text": "```json\n{\n  \"country\": \"Guatemala\",\n  \"country_code\": \"gt\",\n  \"region\": \"Central America\",\n  \"city\": \"Flores\",\n  \"province_or_state\": \"Petén\",\n  \"address\": \"Calle al Lago Petén Itzá, Flores, Petén, Guatemala\",\n  \"confidence\": 0.55,\n  \"reasoning\": \"The image shows a tropical rural dirt road with dense vegetation including banana plants and tall deciduous trees, under a bright sunny sky with scattered clouds. The limestone rock wall on the right and the general karstic flat terrain are characteristic of the Petén Basin in northern Guatemala. The vegetation and soil type are consistent with the lowland tropical forest around Flores/Santa Elena, near Lake Petén Itzá. The scene lacks the heavier mountainous terrain typical of much of Honduras or the drier thorn-scrub more common in parts of Mexico's Yucatán. The rural settlement pattern with simple fencing and tropical fruit trees points strongly to Guatemala's Petén Department. I narrowed to Flores as the nearest major municipality.\",\n  \"evidence\": [\"tropical lowland vegetation with banana plants\", \"limestone rock wall (karstic geology)\", \"flat rural dirt road in tropical forest\", \"settlement pattern consistent with Petén Basin\", \"bright sunny climate with scattered clouds typical of northern Guatemala lowlands\"]\n}\n```",
+    "evidence_spans": [
+      "tropical lowland vegetation with banana plants",
+      "limestone rock wall (karstic geology)",
+      "flat rural dirt road in tropical forest",
+      "settlement pattern consistent with Petén Basin",
+      "bright sunny climate with scattered clouds typical of northern Guatemala lowlands"
+    ],
+    "confidence": 0.55,
+    "country_top3": [
+      "mx",
+      "gt",
+      "hn"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"mx\",\"gt\",\"hn\"],\"reason\":\"Tropical dry forest vegetation with banana plants and deciduous trees, unpaved rural road with stone wall construction style, and overall landscape characteristics typical of Mesoamerica. The combination of limestone-rich stone walls, tropical flora, and rural settlement pattern strongly suggests Yucatan Peninsula or similar karst regions of Mexico, Guatemala, or Honduras.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.695
+  },
+  "error": null
+}

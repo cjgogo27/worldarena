@@ -1,0 +1,670 @@
+{
+  "game_id": "HF1MKwIFNCNb4FdM",
+  "round": 1,
+  "sample_id": "georc::HF1MKwIFNCNb4FdM::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "hr",
+    "predicted_region": "europe",
+    "predicted_address": "Rural gravel road near Jastrebarsko, Zagreb County, Croatia",
+    "predicted_lat": 45.67194444,
+    "predicted_lng": 15.65111111,
+    "reasoning_text": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"region\": \"Southeast Europe\",\n  \"city\": \"Jastrebarsko\",\n  \"province_or_state\": \"Zagreb County\",\n  \"address\": \"Rural gravel road near Jastrebarsko, Zagreb County, Croatia\",\n  \"confidence\": 0.48,\n  \"reasoning\": \"Applying the ordered skill graph strictly: (1) the rough, light-colored rural road is most compatible with southern Europe and especially former Yugoslav landscapes, which places the scene broadly in the western Balkans. From skill 1, the strongest linked regional supports are (5) the simple detached rectangular house with a red-tiled roof, which is commonly seen in rural Croatia/Bosnia and Herzegovina/Montenegro, and (9) the gently hilly terrain with pale rocky or limestone-like gravel, which fits western Balkan inland landscapes. Skill (4) offers another southeastern European hill-and-vegetation match, but the house form and yard layout align better with Croatia than Bulgaria. Skill (2) suggests Ukraine from road narrowness, but that is less consistent with the red-tiled ex-Yugoslav house style, fencing, stacked lumber in a farmyard setting, and the overall western Balkan feel. Lower-priority alternatives pointing to Indonesia, the US, or South Africa are inconsistent with the visible architecture, vegetation, and infrastructure. Combining the highest-priority road cue with the linked architectural and terrain cues yields the best single location guess as inland Croatia, specifically the rural outskirts of Jastrebarsko in Zagreb County.\",\n  \"evidence\": [\n    \"Narrow pale gravel road with no lane markings\",\n    \"Detached single-story house with low red/orange tiled roof\",\n    \"Low wire fencing around a semi-rural property\",\n    \"Stacks of processed lumber in the yard\",\n    \"Gently rolling wooded inland terrain\",\n    \"Utility poles and sparse rural roadside infrastructure\",\n    \"Overall ex-Yugoslav rural landscape character\"\n  ]\n}",
+    "evidence_spans": [
+      "Narrow pale gravel road with no lane markings",
+      "Detached single-story house with low red/orange tiled roof",
+      "Low wire fencing around a semi-rural property",
+      "Stacks of processed lumber in the yard",
+      "Gently rolling wooded inland terrain",
+      "Utility poles and sparse rural roadside infrastructure",
+      "Overall ex-Yugoslav rural landscape character"
+    ],
+    "confidence": 0.48,
+    "base_prediction_summary": {
+      "predicted_country": "hr",
+      "predicted_region": "europe",
+      "confidence": 0.48
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 1,
+        "score": 0.8894048929214478,
+        "bm25_score": 26.797897338867188,
+        "semantic_score": 0.6915000677108765
+      },
+      {
+        "skill_text": "Road surface is relatively narrow and unmarked, which fits rural or suburban infrastructure in Ukraine.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 1,
+        "score": 0.743250846862793,
+        "bm25_score": 27.065589904785156,
+        "semantic_score": 0.4875754415988922
+      },
+      {
+        "skill_text": "The loose gravel pedestrian path with geometric concrete insets is a feature seen in Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "gravel",
+          "loose",
+          "path",
+          "pedestrian"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.7418384552001953,
+        "bm25_score": 34.408782958984375,
+        "semantic_score": 0.34063291549682617
+      },
+      {
+        "skill_text": "The vegetation type and gently rolling hills with sparse trees match the landscape often seen in northern and central Bulgaria.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees",
+          "vegetation"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 2,
+        "score": 0.7406719923019409,
+        "bm25_score": 25.762649536132812,
+        "semantic_score": 0.5098026394844055
+      },
+      {
+        "skill_text": "The lone house has simple rectangular architecture with a red-tiled roof, a design frequently seen in rural Croatia, Bosnia and Herzegovina, and Montenegro.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof",
+          "sign"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 1,
+        "score": 0.7241261005401611,
+        "bm25_score": 22.735626220703125,
+        "semantic_score": 0.5470967292785645
+      },
+      {
+        "skill_text": "The sidewalk design, with rectangular tiles and the low stone curb, is often seen across Bulgarian towns.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sidewalk",
+          "sign"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 2,
+        "score": 0.7213526964187622,
+        "bm25_score": 24.933834075927734,
+        "semantic_score": 0.4999144673347473
+      },
+      {
+        "skill_text": "The road and roadside infrastructure, including the weathered asphalt and power poles, match rural areas in the US.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles",
+          "road"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 4,
+        "score": 0.7173587083816528,
+        "bm25_score": 27.38538932800293,
+        "semantic_score": 0.4460696280002594
+      },
+      {
+        "skill_text": "The architecture style, with the house coloring and the tiled roof, is typical for rural Bulgarian towns.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 2,
+        "score": 0.7142828702926636,
+        "bm25_score": 22.47715187072754,
+        "semantic_score": 0.5388235449790955
+      },
+      {
+        "skill_text": "The terrain is hilly with rocky soil visible in some places, which fits with the karst landscapes found in the Western Balkans.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "soil",
+          "terrain"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 1,
+        "score": 0.7071177959442139,
+        "bm25_score": 18.584299087524414,
+        "semantic_score": 0.6059666275978088
+      },
+      {
+        "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.706627368927002,
+        "bm25_score": 25.98232650756836,
+        "semantic_score": 0.4591941833496094
+      },
+      {
+        "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 5,
+        "score": 0.705352783203125,
+        "bm25_score": 27.916593551635742,
+        "semantic_score": 0.4192614257335663
+      },
+      {
+        "skill_text": "The farmhouse architecture in the distance is low and dispersed, fitting South African rural building styles more closely than Argentinian.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 3,
+        "score": 0.6863099336624146,
+        "bm25_score": 27.502090454101562,
+        "semantic_score": 0.4015664756298065
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8894048929214478,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "Road surface is relatively narrow and unmarked, which fits rural or suburban infrastructure in Ukraine.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.743250846862793,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The loose gravel pedestrian path with geometric concrete insets is a feature seen in Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7418384552001953,
+          "visual_cues": [
+            "gravel",
+            "loose",
+            "path",
+            "pedestrian"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The vegetation type and gently rolling hills with sparse trees match the landscape often seen in northern and central Bulgaria.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7406719923019409,
+          "visual_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The lone house has simple rectangular architecture with a red-tiled roof, a design frequently seen in rural Croatia, Bosnia and Herzegovina, and Montenegro.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7241261005401611,
+          "visual_cues": [
+            "architecture",
+            "roof",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The sidewalk design, with rectangular tiles and the low stone curb, is often seen across Bulgarian towns.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7213526964187622,
+          "visual_cues": [
+            "sidewalk",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road and roadside infrastructure, including the weathered asphalt and power poles, match rural areas in the US.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7173587083816528,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The architecture style, with the house coloring and the tiled roof, is typical for rural Bulgarian towns.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7142828702926636,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The terrain is hilly with rocky soil visible in some places, which fits with the karst landscapes found in the Western Balkans.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7071177959442139,
+          "visual_cues": [
+            "soil",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.706627368927002,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.705352783203125,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The farmhouse architecture in the distance is low and dispersed, fitting South African rural building styles more closely than Argentinian.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.6863099336624146,
+          "visual_cues": [
+            "architecture",
+            "building"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "Road surface is relatively narrow and unmarked, which fits rural or suburban infrastructure in Ukraine.",
+        "The loose gravel pedestrian path with geometric concrete insets is a feature seen in Indonesia.",
+        "The vegetation type and gently rolling hills with sparse trees match the landscape often seen in northern and central Bulgaria.",
+        "The lone house has simple rectangular architecture with a red-tiled roof, a design frequently seen in rural Croatia, Bosnia and Herzegovina, and Montenegro.",
+        "The sidewalk design, with rectangular tiles and the low stone curb, is often seen across Bulgarian towns.",
+        "The road and roadside infrastructure, including the weathered asphalt and power poles, match rural areas in the US.",
+        "The architecture style, with the house coloring and the tiled roof, is typical for rural Bulgarian towns.",
+        "The terrain is hilly with rocky soil visible in some places, which fits with the karst landscapes found in the Western Balkans.",
+        "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "The farmhouse architecture in the distance is low and dispersed, fitting South African rural building styles more closely than Argentinian."
+      ],
+      "summary": "nodes=12, edges=38, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"region\": \"Southeast Europe\",\n  \"city\": \"Jastrebarsko\",\n  \"province_or_state\": \"Zagreb County\",\n  \"address\": \"Rural gravel road near Jastrebarsko, Zagreb County, Croatia\",\n  \"confidence\": 0.48,\n  \"reasoning\": \"The scene shows a narrow pale gravel r",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 38,
+        "graph_summary": "nodes=12, edges=38, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "hr"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

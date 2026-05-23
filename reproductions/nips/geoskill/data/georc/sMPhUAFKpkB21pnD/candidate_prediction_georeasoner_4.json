@@ -1,0 +1,11 @@
+{
+  "country": "Canada",
+  "country_code": "ca",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved gravel road with no markings or center line is typical of remote rural roads in northern Canada.",
+    "Dense coniferous forest (spruce/fir) and open grassy clearings are characteristic of boreal forest regions found across Canada.",
+    "Absence of any infrastructure like utility poles, signs, or buildings suggests a wilderness area common in Canadian provinces like Quebec, Ontario, or British Columbia."
+  ],
+  "raw_output": "{\n  \"country\": \"Canada\",\n  \"country_code\": \"ca\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved gravel road with no markings or center line is typical of remote rural roads in northern Canada.\",\n    \"Dense coniferous forest (spruce/fir) and open grassy clearings are characteristic of boreal forest regions found across Canada.\",\n    \"Absence of any infrastructure like utility poles, signs, or buildings suggests a wilderness area common in Canadian provinces like Quebec, Ontario, or British Columbia.\",\n    \"The wide, straight"
+}

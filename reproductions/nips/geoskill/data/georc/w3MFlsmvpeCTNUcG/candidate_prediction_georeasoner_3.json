@@ -1,0 +1,11 @@
+{
+  "country": "United Kingdom",
+  "country_code": "gb",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unmarked asphalt path flanked by dense hedgerows and open fields is typical of rural British countryside, especially in England.",
+    "The wooden fence posts on the right side are commonly used in UK agricultural land demarcation.",
+    "The absence of road markings, traffic signs, or vehicles aligns with low-traffic rural paths common in the UK."
+  ],
+  "raw_output": "{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unmarked asphalt path flanked by dense hedgerows and open fields is typical of rural British countryside, especially in England.\",\n    \"The wooden fence posts on the right side are commonly used in UK agricultural land demarcation.\",\n    \"The absence of road markings, traffic signs, or vehicles aligns with low-traffic rural paths common in the UK.\",\n    \"The vegetation—tall grasses, wildflowers, and"
+}

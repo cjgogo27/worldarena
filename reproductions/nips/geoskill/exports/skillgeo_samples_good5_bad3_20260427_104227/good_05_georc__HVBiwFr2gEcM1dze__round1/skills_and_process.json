@@ -1,0 +1,194 @@
+{
+  "retrieved_skills": [
+    {
+      "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "road",
+        "road markings"
+      ],
+      "source_game_id": "5GS2RPgTrf85UZM5",
+      "source_round": 1,
+      "score": 0.7342320680618286,
+      "bm25_score": 27.84174156188965,
+      "semantic_score": 0.3444945514202118
+    },
+    {
+      "skill_text": "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "climate",
+        "vegetation"
+      ],
+      "source_game_id": "3uP6lYo9pzx5Q0km",
+      "source_round": 1,
+      "score": 0.9283652901649475,
+      "bm25_score": 33.45549774169922,
+      "semantic_score": 0.4657992124557495
+    },
+    {
+      "skill_text": "Vegetation consists of temperate deciduous trees, grasses, and the presence of mountains in the distance suggests a location in the Balkans or a similar region.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "mountains",
+        "trees",
+        "vegetation"
+      ],
+      "source_game_id": "5GS2RPgTrf85UZM5",
+      "source_round": 1,
+      "score": 0.7855537533760071,
+      "bm25_score": 31.631595611572266,
+      "semantic_score": 0.34453943371772766
+    },
+    {
+      "skill_text": "However, since the sun is to the south, this location should be in the Northern Hemisphere, making considerations of Southern Africa and South America unlikely",
+      "region_hint": "europe",
+      "confidence": 0.75,
+      "visual_cues": [
+        "However",
+        "since",
+        "south",
+        "this"
+      ],
+      "source_game_id": "2xnQdwiCve2rHWVt",
+      "source_round": 5,
+      "score": 0.698920488357544,
+      "bm25_score": 28.087656021118164,
+      "semantic_score": 0.30483314394950867
+    },
+    {
+      "skill_text": "The dry, hilly terrain with sparse vegetation and olive trees is typical of the Mediterranean climate found in Greece, southern Italy, and coastal Spain.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "climate",
+        "coast",
+        "terrain",
+        "trees",
+        "vegetation"
+      ],
+      "source_game_id": "9lNwy1vjD53PTSwt",
+      "source_round": 2,
+      "score": 0.738940954208374,
+      "bm25_score": 24.98067855834961,
+      "semantic_score": 0.38906359672546387
+    },
+    {
+      "skill_text": "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "road"
+      ],
+      "source_game_id": "6fGwHxCTvCbaK77Q",
+      "source_round": 3,
+      "score": 0.7194674015045166,
+      "bm25_score": 36.954010009765625,
+      "semantic_score": 0.2027844786643982
+    },
+    {
+      "skill_text": "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "highway",
+        "lane markings",
+        "road"
+      ],
+      "source_game_id": "9NNxopqtafH8pTbN",
+      "source_round": 5,
+      "score": 0.7340618371963501,
+      "bm25_score": 29.569570541381836,
+      "semantic_score": 0.32032307982444763
+    },
+    {
+      "skill_text": "The overcast, cool weather and slightly yellowing foliage indicate a region with pronounced seasons, likely early autumn in a temperate zone.",
+      "region_hint": "europe",
+      "confidence": 0.75,
+      "visual_cues": [
+        "cool",
+        "overcast",
+        "slightly",
+        "weather"
+      ],
+      "source_game_id": "5l0GTCFZI877KxkV",
+      "source_round": 3,
+      "score": 0.7370305061340332,
+      "bm25_score": 21.902311325073242,
+      "semantic_score": 0.42985624074935913
+    },
+    {
+      "skill_text": "The vegetation, including coniferous and deciduous trees, is consistent with a temperate climate found in southeastern Europe.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "climate",
+        "trees",
+        "vegetation"
+      ],
+      "source_game_id": "1NJsXTxIF9GGMDxC",
+      "source_round": 3,
+      "score": 0.7545796632766724,
+      "bm25_score": 29.155115127563477,
+      "semantic_score": 0.34714001417160034
+    },
+    {
+      "skill_text": "The vegetation, including neatly trimmed and managed bushes and lawns, fits the temperate maritime climate of the Netherlands.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "climate",
+        "vegetation"
+      ],
+      "source_game_id": "9NNxopqtafH8pTbN",
+      "source_round": 2,
+      "score": 0.6930497884750366,
+      "bm25_score": 20.411937713623047,
+      "semantic_score": 0.4054104685783386
+    }
+  ],
+  "expert_chain": "Entry not found",
+  "evidence_spans": [
+    "Double solid white center lines and solid white edge lines typical of Spanish rural roads",
+    "Rolling green-yellow hills with temperate deciduous vegetation and pastures matching Galicia",
+    "Overcast, cool climate with seasonal foliage transition indicating oceanic temperate zone",
+    "Northern Hemisphere sun position confirming European latitude",
+    "Absence of Mediterranean vegetation (olives, dry scrub) ruling out southern/central Spain",
+    "Rural secondary road character consistent with A Coruña province near Arzúa",
+    "Guard rail and road width matching Spanish highway infrastructure standards"
+  ],
+  "stage1_prediction": {
+    "predicted_country": "es",
+    "predicted_region": "europe",
+    "predicted_address": "Rural road near Arzúa, Galicia, Spain",
+    "predicted_lat": 42.8,
+    "predicted_lng": -7.9,
+    "reasoning_text": "```json\n{\n  \"country\": \"Spain\",\n  \"country_code\": \"es\",\n  \"region\": \"Europe\",\n  \"city\": \"\",\n  \"province_or_state\": \"Galicia\",\n  \"address\": \"Rural road near Arzúa, Galicia, Spain\",\n  \"confidence\": 0.65,\n  \"reasoning\": \"STEP 1 - HEMISPHERE & CLIMATE ZONE: The sun appears to be in the southern sky with shadows cast northward, indicating the Northern Hemisphere. The vegetation shows a mix of evergreen and deciduous trees with some leafless trees, suggesting late autumn or winter in a temperate oceanic climate with mild, wet conditions. STEP 2 - CONTINENT NARROWING: The road is paved but narrow, typical of rural Europe. The dense eucalyptus plantations on the left are a strong indicator - eucalyptus is extremely common in northwestern Spain and Portugal, where it was extensively planted for paper pulp. The rolling green hills, stone walls/hedgerows, and pastoral landscape fit Atlantic Europe. STEP 3 - COUNTRY IDENTIFICATION: The road marking pattern (double solid yellow/white center line with edge lines) and overall rural road style is consistent with Spain. Eucalyptus monoculture is particularly dominant in Galicia, Spain more so than Portugal. The hedge management and field patterns also suggest Spain's Galicia region. STEP 4 - REGION WITHIN COUNTRY: The combination of extensive eucalyptus forests, rolling terrain, rural road character, and Atlantic climate strongly points to Galicia in northwestern Spain. The area around Arzúa or similar inland Galician municipalities is known for this exact landscape. STEP 5 - FINAL LOCATION TEXT: Given the strong eucalyptus presence and rural Galician character, I estimate a location on a rural road in the interior of Galicia, possibly near Arzúa along a regional road.\",\n  \"evidence\": [\n    \"Extensive eucalyptus tree plantations on left side of road\",\n    \"Rolling green hills with pastoral agriculture\",\n    \"Narrow paved rural road with double center line\",\n    \"Deciduous trees losing leaves suggesting mild wet Atlantic winter\",\n    \"Managed hedgerows and stone walls typical of Galicia\",\n    \"Northern Hemisphere sun position with southern sun angle\",\n    \"No visible signs or vehicles to confirm driving side\"\n  ]\n}\n```",
+    "evidence_spans": [
+      "Extensive eucalyptus tree plantations on left side of road",
+      "Rolling green hills with pastoral agriculture",
+      "Narrow paved rural road with double center line",
+      "Deciduous trees losing leaves suggesting mild wet Atlantic winter",
+      "Managed hedgerows and stone walls typical of Galicia",
+      "Northern Hemisphere sun position with southern sun angle",
+      "No visible signs or vehicles to confirm driving side"
+    ],
+    "confidence": 0.65
+  },
+  "local_analysis": {
+    "pole_type": "none visible",
+    "road_markings": "double solid white center lines, single solid white edge lines",
+    "bollards": "none visible",
+    "signs": "none visible",
+    "vehicles": "none visible",
+    "architecture": "none visible",
+    "script_type": "none visible",
+    "implied_country": "Spain or Portugal",
+    "implied_region": "Galicia or northern Portugal"
+  },
+  "geocot_region": "europe",
+  "active_region": "europe"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Indonesia",
+  "country_code": "id",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unpaved rural road flanked by lush tropical vegetation including coconut palms and banana plants is characteristic of rural Indonesia.",
+    "Utility poles with overhead wires are common in Indonesian countryside infrastructure, and their design matches local standards.",
+    "The absence of road markings, signage, or vehicles suggests a remote, non-urbanized area typical of outer islands or rural Java."
+  ],
+  "raw_output": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unpaved rural road flanked by lush tropical vegetation including coconut palms and banana plants is characteristic of rural Indonesia.\",\n    \"Utility poles with overhead wires are common in Indonesian countryside infrastructure, and their design matches local standards.\",\n    \"The absence of road markings, signage, or vehicles suggests a remote, non-urbanized area typical of outer islands or rural Java.\",\n    \"The architecture visible behind the fence — simple concrete structures with tiled roofs"
+}

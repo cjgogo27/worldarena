@@ -1,0 +1,178 @@
+{
+  "retrieved_skills": [
+    {
+      "skill_text": "The wooden electricity pole with small insulators on top of the support bar is unique to South Africa; however, this rolling grassy landscape has to be along the southern part of South Africa and potentially in West Cape all the way to western parts of East Cape",
+      "region_hint": "africa",
+      "confidence": 0.65,
+      "visual_cues": [
+        "pole"
+      ],
+      "source_game_id": "56Q4T4rpv9O9sCpP",
+      "source_round": 2,
+      "score": 0.6692808866500854,
+      "bm25_score": 22.449453353881836,
+      "semantic_score": 0.40216386318206787
+    },
+    {
+      "skill_text": "The landscape is dry, but not the dryness associated with desert biomes; there is low brownish/yellowish shrubbery next to the road and several stretches of low hills, most indicative of South Africa",
+      "region_hint": "africa",
+      "confidence": 0.65,
+      "visual_cues": [
+        "road"
+      ],
+      "source_game_id": "74bPHM081cMUaNKT",
+      "source_round": 2,
+      "score": 0.5784855484962463,
+      "bm25_score": 13.112261772155762,
+      "semantic_score": 0.46026337146759033
+    },
+    {
+      "skill_text": "Solid yellow outer road lines also is only found in Southern Africa and the alternating perpendicular insulator wooden pole is unique to Northeastern provinces of Southern Africa",
+      "region_hint": "africa",
+      "confidence": 0.65,
+      "visual_cues": [
+        "pole",
+        "road"
+      ],
+      "source_game_id": "56Q4T4rpv9O9sCpP",
+      "source_round": 5,
+      "score": 0.6376234292984009,
+      "bm25_score": 18.061620712280273,
+      "semantic_score": 0.4423539638519287
+    },
+    {
+      "skill_text": "The landscape is rather open with rolling hills and an abundance of subtropical African vegetation, most commonly seen in Western African countries of Rwanda, Uganda, and Kenya",
+      "region_hint": "africa",
+      "confidence": 0.65,
+      "visual_cues": [
+        "vegetation"
+      ],
+      "source_game_id": "74bPHM081cMUaNKT",
+      "source_round": 4,
+      "score": 0.6274523735046387,
+      "bm25_score": 8.474217414855957,
+      "semantic_score": 0.5992295742034912
+    },
+    {
+      "skill_text": "This greasy landscape with few trees is most common in South Africa and Australia and the sun being in the north confirms that we will be in the southern hemisphere",
+      "region_hint": "africa",
+      "confidence": 0.65,
+      "visual_cues": [
+        "trees"
+      ],
+      "source_game_id": "56Q4T4rpv9O9sCpP",
+      "source_round": 2,
+      "score": 0.6996253728866577,
+      "bm25_score": 22.82902717590332,
+      "semantic_score": 0.43100011348724365
+    },
+    {
+      "skill_text": "However, Uganda will not have this coverage outside of the capital city and Rwanda will have more tropical vegetation, leading to Kenya being the most logical guess",
+      "region_hint": "africa",
+      "confidence": 0.65,
+      "visual_cues": [
+        "vegetation"
+      ],
+      "source_game_id": "74bPHM081cMUaNKT",
+      "source_round": 4,
+      "score": 0.6736500263214111,
+      "bm25_score": 12.576969146728516,
+      "semantic_score": 0.5810775756835938
+    },
+    {
+      "skill_text": "The road is paved but appears to be of middling quality, with a faded white dashed center line and no shoulder markings, suggesting rural or remote areas.",
+      "region_hint": "africa",
+      "confidence": 0.65,
+      "visual_cues": [
+        "road"
+      ],
+      "source_game_id": "74bPHM081cMUaNKT",
+      "source_round": 2,
+      "score": 0.5818085074424744,
+      "bm25_score": 21.52060317993164,
+      "semantic_score": 0.31612876057624817
+    },
+    {
+      "skill_text": "Given the tropical environment and road condition, this is likely somewhere in rural Uganda, near the city of Kampala.",
+      "region_hint": "africa",
+      "confidence": 0.75,
+      "visual_cues": [
+        "road"
+      ],
+      "source_game_id": "6fGwHxCTvCbaK77Q",
+      "source_round": 1,
+      "score": 0.6736239790916443,
+      "bm25_score": 14.754136085510254,
+      "semantic_score": 0.5427192449569702
+    },
+    {
+      "skill_text": "Brownish sandy dirt roads in a stone gated community is very common in poorer countries in South America and Africa",
+      "region_hint": "africa",
+      "confidence": 0.65,
+      "visual_cues": [
+        "road"
+      ],
+      "source_game_id": "AVKTblAzBqaYrcKe",
+      "source_round": 2,
+      "score": 0.609365701675415,
+      "bm25_score": 19.375762939453125,
+      "semantic_score": 0.3861433267593384
+    },
+    {
+      "skill_text": "The wooden poles with two cross parts and a spam of small insulators on the top is also unique to South Africa",
+      "region_hint": "africa",
+      "confidence": 0.65,
+      "visual_cues": [
+        "pole",
+        "poles"
+      ],
+      "source_game_id": "74bPHM081cMUaNKT",
+      "source_round": 2,
+      "score": 0.6617242097854614,
+      "bm25_score": 23.354591369628906,
+      "semantic_score": 0.3773843050003052
+    }
+  ],
+  "expert_chain": "Entry not found",
+  "evidence_spans": [
+    "wooden utility pole with multiple cross-arms and small insulators",
+    "unpaved dirt road with informal drainage",
+    "rolling hills with subtropical vegetation",
+    "dry brownish grass indicating tropical highland climate",
+    "informal stone/concrete curbs and wooden fencing",
+    "no formal road signs or markings",
+    "sun position indicating equatorial latitude"
+  ],
+  "stage1_prediction": {
+    "predicted_country": "rw",
+    "predicted_region": "africa",
+    "predicted_address": "Kigali, Rwanda",
+    "predicted_lat": -1.94995,
+    "predicted_lng": 30.05885,
+    "reasoning_text": "```json\n{\n  \"country\": \"Rwanda\",\n  \"country_code\": \"rw\",\n  \"region\": \"East Africa\",\n  \"city\": \"Kigali\",\n  \"province_or_state\": \"Kigali Province\",\n  \"address\": \"Kigali, Rwanda\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"STEP 1 - HEMISPHERE & CLIMATE ZONE: The sun appears high with short shadows suggesting near-equatorial position, consistent with tropical climate. The vegetation (lush green trees, banana-like plants), hilly terrain, and dry-season dusty roads point to tropical highland climate. STEP 2 - CONTINENT NARROWING: Driving side cannot be definitively determined from this still image, but the rural African settlement pattern, earthen road construction, and architectural style strongly indicate sub-Saharan Africa. The hilly 'land of a thousand hills' topography is particularly characteristic. STEP 3 - COUNTRY IDENTIFICATION: The combination of extremely hilly terrain, simple brick and concrete construction with corrugated metal roofs, narrow dirt roads, and the specific vegetation pattern strongly suggests Rwanda. The settlement density on hillsides and construction materials match Rwandan rural/peri-urban areas around Kigali. The utility pole with multiple wires is consistent with Rwandan infrastructure. STEP 4 - REGION WITHIN COUNTRY: The hilly topography and relatively dense settlement on slopes is typical of the Kigali area or surrounding provinces. The dry, dusty conditions and specific building style with plastered brick columns is commonly seen in Rwandan hillside communities. STEP 5 - FINAL LOCATION TEXT: Given the strong Rwandan characteristics but lack of specific landmarks, I estimate this is in the Kigali area.\",\n  \"evidence\": [\"tropical highland vegetation with lush trees\", \"hilly 'thousand hills' terrain\", \"simple brick and concrete houses with corrugated roofs\", \"narrow unpaved earthen road\", \"utility poles with overhead wires\", \"dry-season dusty conditions\", \"dense hillside settlement pattern typical of Rwanda\", \"sub-Saharan African architectural style\"]\n}\n```",
+    "evidence_spans": [
+      "tropical highland vegetation with lush trees",
+      "hilly 'thousand hills' terrain",
+      "simple brick and concrete houses with corrugated roofs",
+      "narrow unpaved earthen road",
+      "utility poles with overhead wires",
+      "dry-season dusty conditions",
+      "dense hillside settlement pattern typical of Rwanda",
+      "sub-Saharan African architectural style"
+    ],
+    "confidence": 0.6
+  },
+  "local_analysis": {
+    "pole_type": "wooden utility pole with multiple cross-arms, approximately 3-4 insulators visible, standard rural configuration",
+    "road_markings": "unpaved dirt road, no painted markings, informal drainage channels along edges",
+    "bollards": "none visible; informal stone and concrete curbs, wooden fence on left side",
+    "signs": "no road signs visible in frame",
+    "vehicles": "no vehicles visible in frame",
+    "architecture": "single-story residential, painted concrete/block walls with exposed brick columns, corrugated metal roofs, veranda/porch structures, unfinished concrete steps",
+    "script_type": "no visible text or signage",
+    "implied_country": "Rwanda or Burundi",
+    "implied_region": "Kigali or surrounding hills, Rwanda"
+  },
+  "geocot_region": "africa",
+  "active_region": "africa"
+}

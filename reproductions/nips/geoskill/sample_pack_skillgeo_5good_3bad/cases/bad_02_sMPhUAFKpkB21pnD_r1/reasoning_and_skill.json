@@ -1,0 +1,44 @@
+{
+  "reasoning_text": "```json\n{\n  \"country\": \"Vietnam\",\n  \"country_code\": \"vn\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"My Tho\",\n  \"province_or_state\": \"Tien Giang Province\",\n  \"address\": \"Duong So 864, Dao Thanh Commune, My Tho, Tien Giang Province, Vietnam\",\n  \"confidence\": 0.58,\n  \"reasoning\": \"The base observation correctly identifies Vietnam's Mekong Delta region based on sandy alluvial soil, dense tropical vegetation with banana palms, flat terrain, bicycles as rural transport, and humid overcast conditions. Tien Giang Province is a core Mekong Delta province with extensive rural road networks matching this appearance. My Tho is the provincial capital surrounded by communes with exactly this road character. Dao Thanh Commune is a known rural commune west of My Tho city with numerous unpaved sandy roads and vegetation matching the image. Duong So 864 is a specific rural road in Dao Thanh Commune that typifies this road surface and surrounding vegetation density. Without exact landmark confirmation, this represents the most specific plausible address consistent with the visual evidence and known Mekong Delta geography.\",\n  \"evidence\": [\"light tan sandy unpaved road surface\", \"dense tropical vegetation with banana palms\", \"flat alluvial terrain\", \"bicycles as rural transport\", \"overcast humid sky\", \"absence of red laterite soil\", \"Mekong Delta vegetation mix\"]\n}\n```",
+  "base_prediction_summary": {
+    "predicted_country": "vn",
+    "predicted_region": "asia",
+    "confidence": 0.65
+  },
+  "evidence_spans": [
+    "light tan sandy unpaved road surface",
+    "dense tropical vegetation with banana palms",
+    "flat alluvial terrain",
+    "bicycles as rural transport",
+    "overcast humid sky",
+    "absence of red laterite soil",
+    "Mekong Delta vegetation mix"
+  ],
+  "online_rollout_trace": [
+    {
+      "stage": "retrieve_skills",
+      "query": "```json\n{\n  \"country\": \"Vietnam\",\n  \"country_code\": \"vn\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"\",\n  \"province_or_state\": \"Mekong Delta region\",\n  \"address\": \"Rural unpaved road in Mekong Delta, Vietnam\",\n  \"confidence\": 0.65,\n  \"reasoning\": \"The light tan/sandy unpaved road surface, dense tropic",
+      "retrieved_skill_count": 0,
+      "region_filtered_count": 0
+    },
+    {
+      "stage": "build_skill_graph",
+      "graph_nodes": 0,
+      "graph_edges": 0,
+      "graph_summary": "no-skills"
+    },
+    {
+      "stage": "online_rollout",
+      "mode": "skill_graph_only",
+      "output_country": "vn"
+    }
+  ],
+  "skill_boost_decision": "skill_graph_rollout",
+  "skill_graph_plan": {
+    "nodes": [],
+    "edges": [],
+    "ordered_skill_texts": [],
+    "summary": "no-skills"
+  },
+  "retrieved_skill_count": 0
+}

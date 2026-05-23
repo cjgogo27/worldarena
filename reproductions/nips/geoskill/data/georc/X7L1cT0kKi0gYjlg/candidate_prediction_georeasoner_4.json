@@ -1,0 +1,12 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unmarked and lacks center lines, typical of rural Australian country roads.",
+    "Vegetation includes eucalyptus trees and dry grassland, characteristic of Australian inland regions.",
+    "No visible traffic or vehicles, consistent with low-density rural areas in Australia.",
+    "Sky and lighting suggest a temperate climate zone common in southern Australia."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unmarked and lacks center lines, typical of rural Australian country roads.\",\n    \"Vegetation includes eucalyptus trees and dry grassland, characteristic of Australian inland regions.\",\n    \"No visible traffic or vehicles, consistent with low-density rural areas in Australia.\",\n    \"Sky and lighting suggest a temperate climate zone common in southern Australia.\"\n  ]\n}"
+}

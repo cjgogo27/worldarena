@@ -1,0 +1,24 @@
+{
+  "game_id": "9oZfZYQEl9GWjZPu",
+  "round": 1,
+  "sample_id": "georc::9oZfZYQEl9GWjZPu::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "bz",
+    "predicted_region": "north_america",
+    "predicted_address": "Rural road near Orange Walk, Orange Walk District, Belize",
+    "predicted_lat": 17.06666667,
+    "predicted_lng": -88.7,
+    "reasoning_text": "{\n  \"country\": \"Belize\",\n  \"country_code\": \"bz\",\n  \"region\": \"Central America\",\n  \"city\": \"Orange Walk\",\n  \"province_or_state\": \"Orange Walk District\",\n  \"address\": \"Rural road near Orange Walk, Orange Walk District, Belize\",\n  \"confidence\": 0.37,\n  \"reasoning\": \"The scene shows a very flat, tropical lowland landscape with scattered palms, pasture/farmland, roadside drainage, and a narrow unmarked paved road. This strongly suggests the Caribbean lowlands of Central America or the Guianas. The rural road style and vegetation fit Belize well, especially the flatter northern districts. There are no strong urban clues, road signs, or readable markings, so this is a best-fit guess rather than a certain identification. Among plausible options, northern Belize around Orange Walk matches the flat agricultural setting and road appearance most closely.\",\n  \"evidence\": [\n    \"Flat tropical landscape with palms and open pasture\",\n    \"Narrow rural paved road without centerline markings\",\n    \"Roadside drainage and fenced agricultural plots\",\n    \"Low-density settlement pattern typical of rural lowlands\",\n    \"Vegetation and terrain consistent with northern Belize\"\n  ]\n}",
+    "evidence_spans": [
+      "Flat tropical landscape with palms and open pasture",
+      "Narrow rural paved road without centerline markings",
+      "Roadside drainage and fenced agricultural plots",
+      "Low-density settlement pattern typical of rural lowlands",
+      "Vegetation and terrain consistent with northern Belize"
+    ],
+    "confidence": 0.37
+  },
+  "error": null
+}

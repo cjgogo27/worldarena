@@ -1,0 +1,12 @@
+{
+  "country": "Czech Republic",
+  "country_code": "cz",
+  "city": "",
+  "reasoning_chain": [
+    "Road markings and vehicle position indicate right-hand traffic, consistent with Czech Republic.",
+    "Green metal fence and simple white building architecture are typical of rural Czech villages.",
+    "Vegetation includes deciduous trees and grassy areas, matching temperate continental climate of Central Europe.",
+    "No visible signage or language text, but overall scene aligns with Czech rural infrastructure and layout."
+  ],
+  "raw_output": "{\n  \"country\": \"Czech Republic\",\n  \"country_code\": \"cz\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Road markings and vehicle position indicate right-hand traffic, consistent with Czech Republic.\",\n    \"Green metal fence and simple white building architecture are typical of rural Czech villages.\",\n    \"Vegetation includes deciduous trees and grassy areas, matching temperate continental climate of Central Europe.\",\n    \"No visible signage or language text, but overall scene aligns with Czech rural infrastructure and layout.\"\n  ]\n}"
+}

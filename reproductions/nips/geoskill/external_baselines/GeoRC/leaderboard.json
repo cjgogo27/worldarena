@@ -1,0 +1,17 @@
+[
+  { "category": "Human Expert", "model": "Human Expert #1", "precision": null, "recall": null, "f1": null, "country_acc": 96.67 },
+  { "category": "Human Expert", "model": "Human Expert #2", "precision": null, "recall": null, "f1": null, "country_acc": 90.00 },
+  { "category": "Human Expert", "model": "Human Expert #3 (Best Expert)", "precision": null, "recall": null, "f1": null, "country_acc": 97.33 },
+  { "category": "Human Expert", "model": "Human Expert Average", "precision": 53.21, "recall": 61.82, "f1": 53.92, "country_acc": null },
+  { "category": "Baseline", "model": "Random Hallucinated", "precision": 2.82, "recall": 3.90, "f1": 2.42, "country_acc": null },
+  { "category": "Baseline", "model": "Hallucinated", "precision": 33.50, "recall": 17.59, "f1": 18.48, "country_acc": null },
+  { "category": "Open-weight VLM", "model": "Llama-3.2-11B-Vision-Instruct", "precision": 30.20, "recall": 30.72, "f1": 25.86, "country_acc": 58.40 },
+  { "category": "Open-weight VLM", "model": "Qwen2.5-VL-7B-Instruct", "precision": 29.06, "recall": 44.22, "f1": 31.63, "country_acc": 69.40 },
+  { "category": "Open-weight VLM", "model": "Qwen3-VL-8B-Instruct", "precision": 35.54, "recall": 22.17, "f1": 23.81, "country_acc": 64.40 },
+  { "category": "Open-weight VLM", "model": "Gemma-3-12b-it", "precision": 38.20, "recall": 32.77, "f1": 31.21, "country_acc": 64.00 },
+  { "category": "Proprietary VLM", "model": "GPT-5", "precision": 51.10, "recall": 38.62, "f1": 40.56, "country_acc": 88.40 },
+  { "category": "Proprietary VLM", "model": "GPT-4.1", "precision": 48.10, "recall": 43.37, "f1": 42.30, "country_acc": 77.80 },
+  { "category": "Proprietary VLM", "model": "Gemini-3-Pro", "precision": 61.31, "recall": 35.55, "f1": 40.98, "country_acc": 90.40 },
+  { "category": "Proprietary VLM", "model": "Gemini-2.5-Pro", "precision": 50.89, "recall": 40.22, "f1": 41.51, "country_acc": 91.20 },
+  { "category": "Proprietary VLM", "model": "Gemini-2.5-Flash", "precision": 49.96, "recall": 40.70, "f1": 41.30, "country_acc": 88.00 }
+]

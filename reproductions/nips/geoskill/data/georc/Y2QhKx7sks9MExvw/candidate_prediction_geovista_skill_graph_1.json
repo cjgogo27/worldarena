@@ -1,0 +1,105 @@
+{
+  "game_id": "Y2QhKx7sks9MExvw",
+  "round": 1,
+  "sample_id": "georc::Y2QhKx7sks9MExvw::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "it",
+    "predicted_region": "europe",
+    "predicted_address": "Via di San Domenico & Via delle Forbici, Florence, Tuscany, Italy",
+    "predicted_lat": 43.77925,
+    "predicted_lng": 11.24626,
+    "reasoning_text": "{\n  \"country\": \"Italy\",\n  \"country_code\": \"it\",\n  \"region\": \"Southern Europe\",\n  \"city\": \"Florence\",\n  \"province_or_state\": \"Tuscany\",\n  \"address\": \"Via di San Domenico & Via delle Forbici, Florence, Tuscany, Italy\",\n  \"confidence\": 0.45,\n  \"reasoning\": \"No task-specific skills were provided, so I rely on the base observation summary and visible scene cues. First, the roadway setup indicates right-hand driving, fitting Italy. Second, the roadside signage style, especially the yellow rectangular notice, is consistent with Italian municipal or roadworks signage. Third, the houses, shutters, stucco walls, hedges, and gated villa-style residences match a residential Tuscan urban/suburban environment. Fourth, the dense greenery and mature trees fit the leafy hillside neighborhoods around Florence. Within the given Florence/Tuscany hypothesis, this scene most plausibly matches a quiet villa-lined street in the northeastern hillside residential zone, so I choose the intersection of Via di San Domenico and Via delle Forbici as my best single candidate.\",\n  \"evidence\": [\n    \"Right-hand traffic road layout\",\n    \"Yellow rectangular roadside notice typical of Italy\",\n    \"Stucco villa architecture with shutters and tiled roofs\",\n    \"Perimeter walls, hedges, and gated residential properties\",\n    \"Leafy, temperate Mediterranean vegetation\",\n    \"Quiet upscale suburban street character consistent with Florence hillside neighborhoods\"\n  ]\n}",
+    "evidence_spans": [
+      "Right-hand traffic road layout",
+      "Yellow rectangular roadside notice typical of Italy",
+      "Stucco villa architecture with shutters and tiled roofs",
+      "Perimeter walls, hedges, and gated residential properties",
+      "Leafy, temperate Mediterranean vegetation",
+      "Quiet upscale suburban street character consistent with Florence hillside neighborhoods"
+    ],
+    "confidence": 0.45,
+    "country_top3": [
+      "it",
+      "fr",
+      "si"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"it\",\"fr\",\"si\"],\"reason\":\"Right-hand driving, European road-sign style, Mediterranean vegetation, and suburban stucco/tile-roof housing strongly fit Italy best; southern France and Slovenia are weaker lookalikes.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.775,
+        "pred_country": "it",
+        "geo_country": "it",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.34,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Via Desiderio da Settignano & Via del Rossellino, Settignano, Florence, Tuscany, Italy"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.78,
+        "pred_country": "it",
+        "geo_country": "it",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.36,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Via del Salviatino & Via del Palmerino, Florence, Tuscany, Italy"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.8025000000000001,
+        "pred_country": "it",
+        "geo_country": "it",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.45,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Via di San Domenico & Via delle Forbici, Florence, Tuscany, Italy"
+      }
+    ],
+    "selected_candidate_score": 0.8025000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "it",
+      "predicted_region": "europe",
+      "confidence": 0.58
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Italy\",\n  \"country_code\": \"it\",\n  \"region\": \"Southern Europe\",\n  \"city\": \"Florence\",\n  \"province_or_state\": \"Tuscany\",\n  \"address\": \"Residential suburb of Florence, Tuscany, Italy\",\n  \"confidence\": 0.58,\n  \"reasoning\": \"The street scene is most consistent with Italy. First, traffic b",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "it"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

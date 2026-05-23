@@ -1,0 +1,11 @@
+{
+  "country": "Philippines",
+  "country_code": "ph",
+  "city": "",
+  "reasoning_chain": [
+    "The white van driving on the left side of the road indicates left-hand traffic, consistent with Philippines.",
+    "The tropical vegetation including papaya trees and dense green foliage is typical of Philippine rural areas.",
+    "The simple concrete road, unpaved shoulders, and modest architecture (blue corrugated roof, stilted building) match rural Philippine infrastructure."
+  ],
+  "raw_output": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The white van driving on the left side of the road indicates left-hand traffic, consistent with Philippines.\",\n    \"The tropical vegetation including papaya trees and dense green foliage is typical of Philippine rural areas.\",\n    \"The simple concrete road, unpaved shoulders, and modest architecture (blue corrugated roof, stilted building) match rural Philippine infrastructure.\",\n    \"No visible signage or language, but the overall environment strongly aligns with Philippine geography"
+}

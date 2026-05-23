@@ -1,0 +1,11 @@
+{
+  "country": "United Arab Emirates",
+  "country_code": "ae",
+  "city": "",
+  "reasoning_chain": [
+    "The arid, rocky terrain with sparse desert vegetation (e.g., acacia-like trees) is characteristic of the UAE’s interior regions.",
+    "Modern beige-colored buildings with flat roofs and large windows reflect typical Gulf architecture adapted to hot climates.",
+    "Road markings include yellow center lines and curb paint consistent with UAE road standards; no left-hand traffic indicators are visible."
+  ],
+  "raw_output": "{\n  \"country\": \"United Arab Emirates\",\n  \"country_code\": \"ae\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The arid, rocky terrain with sparse desert vegetation (e.g., acacia-like trees) is characteristic of the UAE’s interior regions.\",\n    \"Modern beige-colored buildings with flat roofs and large windows reflect typical Gulf architecture adapted to hot climates.\",\n    \"Road markings include yellow center lines and curb paint consistent with UAE road standards; no left-hand traffic indicators are visible.\",\n    \"No Arabic signage is legible, but the absence of European"
+}

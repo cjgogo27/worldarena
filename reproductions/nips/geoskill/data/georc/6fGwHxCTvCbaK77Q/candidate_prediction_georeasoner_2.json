@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single dashed white centerline, typical of rural Indian roads where two-way traffic is common but not strictly enforced.",
+    "Vegetation includes palm trees and dense green shrubs, consistent with tropical or subtropical climates found in parts of India.",
+    "No visible signage, vehicles, or architecture that would indicate a specific city or urban area, suggesting a rural setting."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single dashed white centerline, typical of rural Indian roads where two-way traffic is common but not strictly enforced.\",\n    \"Vegetation includes palm trees and dense green shrubs, consistent with tropical or subtropical climates found in parts of India.\",\n    \"No visible signage, vehicles, or architecture that would indicate a specific city or urban area, suggesting a rural setting.\",\n    \"The overall landscape and road condition are characteristic of less"
+}

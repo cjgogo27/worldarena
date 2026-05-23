@@ -1,0 +1,802 @@
+{
+  "game_id": "N4EN1CWspaIlcCYq",
+  "round": 1,
+  "sample_id": "georc::N4EN1CWspaIlcCYq::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ls",
+    "predicted_region": "africa",
+    "predicted_address": "Peri-urban roadside area on the outskirts of Maseru, Maseru District, Lesotho",
+    "predicted_lat": -29.31,
+    "predicted_lng": 27.48,
+    "reasoning_text": "{\n  \"country\": \"Lesotho\",\n  \"country_code\": \"ls\",\n  \"region\": \"Southern Africa\",\n  \"city\": \"Maseru\",\n  \"province_or_state\": \"Maseru District\",\n  \"address\": \"Peri-urban roadside area on the outskirts of Maseru, Maseru District, Lesotho\",\n  \"confidence\": 0.58,\n  \"reasoning\": \"Applying the ordered skills first: skill 1 places the scene in arid Southern Africa, especially Botswana or South Africa, which fits the dry grass, open roadside, and low shrubbery. Skill 2 adds flat grassy terrain that can resemble Botswana outside cities. Skill 3 notes reddish soil and a dry climate suggestive of the Botswana border zone. Skill 4 observes a pale gravelly road surface common in Botswana-like environments. Following linked skills, skill 6 and skill 12 reinforce Southern Africa from the road-edge coloring pattern and overall road style, and skill 7 plus skill 10 support the regional utility-pole style seen here. Skill 9 indicates left-side driving, again consistent with Southern Africa. I discount skill 5 because the architecture, road environment, and utility setup do not match Senegal, and skill 8 conflicts with the stronger Southern Africa evidence. After composing the supported skills, the result is a Southern African peri-urban location with Botswana/South Africa-like roadside features. However, the actual built environment here is more consistent with Lesotho's Maseru fringe: fenced compounds, simple single-story homes, broad open verges, and distant highland terrain rather than typical Botswana town layouts. The best consistent guess is therefore the outskirts of Maseru in Lesotho.\",\n  \"evidence\": [\n    \"Dry-season grass and sparse shrubbery in a semi-arid Southern African setting\",\n    \"Flat to gently open terrain with distant hills\",\n    \"Light gravelly paved road with Southern African roadside appearance\",\n    \"Left-side driving context implied by regional road setup\",\n    \"Wooden utility poles with multiple insulators typical of Southern Africa\",\n    \"Low-density fenced residential compounds\",\n    \"Simple single-story houses common on Maseru's peri-urban fringe\",\n    \"Overall roadside environment fits Lesotho/South Africa border-region settlement patterns\"\n  ]\n}",
+    "evidence_spans": [
+      "Dry-season grass and sparse shrubbery in a semi-arid Southern African setting",
+      "Flat to gently open terrain with distant hills",
+      "Light gravelly paved road with Southern African roadside appearance",
+      "Left-side driving context implied by regional road setup",
+      "Wooden utility poles with multiple insulators typical of Southern Africa",
+      "Low-density fenced residential compounds",
+      "Simple single-story houses common on Maseru's peri-urban fringe",
+      "Overall roadside environment fits Lesotho/South Africa border-region settlement patterns"
+    ],
+    "confidence": 0.58,
+    "base_prediction_summary": {
+      "predicted_country": "ls",
+      "predicted_region": "africa",
+      "confidence": 0.43
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The arid and deserted landscape with low African shrubbery, points this towards Botswana or South Africa",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "arid",
+          "deserted",
+          "landscape",
+          "with"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 5,
+        "score": 0.9714319705963135,
+        "bm25_score": 39.08073043823242,
+        "semantic_score": 0.631355345249176
+      },
+      {
+        "skill_text": "The landscape is flat with grasses and thornbush, which is typical for Botswana outside cities.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "flat",
+          "grasses",
+          "landscape",
+          "with"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 5,
+        "score": 0.8586714267730713,
+        "bm25_score": 28.034282684326172,
+        "semantic_score": 0.6697099208831787
+      },
+      {
+        "skill_text": "Reddish soil and the desolate climate of the round likely point to the border with Botswana",
+        "region_hint": "africa",
+        "confidence": 0.75,
+        "visual_cues": [
+          "climate",
+          "soil"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 5,
+        "score": 0.8102563619613647,
+        "bm25_score": 29.41348648071289,
+        "semantic_score": 0.5810191631317139
+      },
+      {
+        "skill_text": "The whitish sand and gravely road is more commonly found in Botswana",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 5,
+        "score": 0.7861294746398926,
+        "bm25_score": 26.796466827392578,
+        "semantic_score": 0.5935792922973633
+      },
+      {
+        "skill_text": "Based on the rural appearance and the specific architectural style, this is likely on the outskirts of Saint-Louis, Senegal.",
+        "region_hint": "africa",
+        "confidence": 0.75,
+        "visual_cues": [
+          "Based",
+          "appearance",
+          "rural",
+          "specific"
+        ],
+        "source_game_id": "AVKTblAzBqaYrcKe",
+        "source_round": 2,
+        "score": 0.7668823003768921,
+        "bm25_score": 28.965251922607422,
+        "semantic_score": 0.5304858684539795
+      },
+      {
+        "skill_text": "Solid yellow outer road lines also is only found in Southern Africa and the alternating perpendicular insulator wooden pole is unique to Northeastern provinces of Southern Africa",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "road"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 5,
+        "score": 0.7181962728500366,
+        "bm25_score": 27.98894691467285,
+        "semantic_score": 0.4818914532661438
+      },
+      {
+        "skill_text": "The wooden poles with two cross parts and a spam of small insulators on the top is also unique to South Africa",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 2,
+        "score": 0.7038394808769226,
+        "bm25_score": 30.395042419433594,
+        "semantic_score": 0.4212874174118042
+      },
+      {
+        "skill_text": "However, since the sun is to the south, this location should be in the Northern Hemisphere, making considerations of Southern Africa and South America unlikely",
+        "region_hint": "europe",
+        "confidence": 0.75,
+        "visual_cues": [
+          "However",
+          "since",
+          "south",
+          "this"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 5,
+        "score": 0.7022882699966431,
+        "bm25_score": 28.6787166595459,
+        "semantic_score": 0.44868582487106323
+      },
+      {
+        "skill_text": "The car blur appears to be driving on the left side and the chevron is placed for left-hand side drive as well, supporting South Africa as the most likely location",
+        "region_hint": "africa",
+        "confidence": 0.75,
+        "visual_cues": [
+          "car",
+          "chevron",
+          "driving"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 2,
+        "score": 0.696312665939331,
+        "bm25_score": 28.465457916259766,
+        "semantic_score": 0.44432634115219116
+      },
+      {
+        "skill_text": "Wooden tall electricity poles evenly space on the side of the road is also characteristic of Botswana",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles",
+          "road"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 5,
+        "score": 0.6945908665657043,
+        "bm25_score": 25.272262573242188,
+        "semantic_score": 0.49686363339424133
+      },
+      {
+        "skill_text": "The style and quality of road paving, as well as the presence of simple fencing, align closely with Botswana's infrastructure outside major cities.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 5,
+        "score": 0.6907992959022522,
+        "bm25_score": 17.0617733001709,
+        "semantic_score": 0.6328033804893494
+      },
+      {
+        "skill_text": "With the faded yellow outer lines and white inner lines, this points to countries in Southern Africa",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "With",
+          "faded",
+          "outer",
+          "yellow"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 5,
+        "score": 0.6900289058685303,
+        "bm25_score": 26.318161010742188,
+        "semantic_score": 0.4727737307548523
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The arid and deserted landscape with low African shrubbery, points this towards Botswana or South Africa",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.9714319705963135,
+          "visual_cues": [
+            "arid",
+            "deserted",
+            "landscape",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The landscape is flat with grasses and thornbush, which is typical for Botswana outside cities.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.8586714267730713,
+          "visual_cues": [
+            "flat",
+            "grasses",
+            "landscape",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "Reddish soil and the desolate climate of the round likely point to the border with Botswana",
+          "region_hint": "africa",
+          "confidence": 0.75,
+          "score": 0.8102563619613647,
+          "visual_cues": [
+            "climate",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The whitish sand and gravely road is more commonly found in Botswana",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7861294746398926,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "Based on the rural appearance and the specific architectural style, this is likely on the outskirts of Saint-Louis, Senegal.",
+          "region_hint": "africa",
+          "confidence": 0.75,
+          "score": 0.7668823003768921,
+          "visual_cues": [
+            "Based",
+            "appearance",
+            "rural",
+            "specific"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "Solid yellow outer road lines also is only found in Southern Africa and the alternating perpendicular insulator wooden pole is unique to Northeastern provinces of Southern Africa",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7181962728500366,
+          "visual_cues": [
+            "pole",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The wooden poles with two cross parts and a spam of small insulators on the top is also unique to South Africa",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7038394808769226,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "However, since the sun is to the south, this location should be in the Northern Hemisphere, making considerations of Southern Africa and South America unlikely",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.7022882699966431,
+          "visual_cues": [
+            "However",
+            "since",
+            "south",
+            "this"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The car blur appears to be driving on the left side and the chevron is placed for left-hand side drive as well, supporting South Africa as the most likely location",
+          "region_hint": "africa",
+          "confidence": 0.75,
+          "score": 0.696312665939331,
+          "visual_cues": [
+            "car",
+            "chevron",
+            "driving"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "Wooden tall electricity poles evenly space on the side of the road is also characteristic of Botswana",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.6945908665657043,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The style and quality of road paving, as well as the presence of simple fencing, align closely with Botswana's infrastructure outside major cities.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.6907992959022522,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "With the faded yellow outer lines and white inner lines, this points to countries in Southern Africa",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.6900289058685303,
+          "visual_cues": [
+            "With",
+            "faded",
+            "outer",
+            "yellow"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "landscape",
+            "with"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The arid and deserted landscape with low African shrubbery, points this towards Botswana or South Africa",
+        "The landscape is flat with grasses and thornbush, which is typical for Botswana outside cities.",
+        "Reddish soil and the desolate climate of the round likely point to the border with Botswana",
+        "The whitish sand and gravely road is more commonly found in Botswana",
+        "Based on the rural appearance and the specific architectural style, this is likely on the outskirts of Saint-Louis, Senegal.",
+        "Solid yellow outer road lines also is only found in Southern Africa and the alternating perpendicular insulator wooden pole is unique to Northeastern provinces of Southern Africa",
+        "The wooden poles with two cross parts and a spam of small insulators on the top is also unique to South Africa",
+        "However, since the sun is to the south, this location should be in the Northern Hemisphere, making considerations of Southern Africa and South America unlikely",
+        "The car blur appears to be driving on the left side and the chevron is placed for left-hand side drive as well, supporting South Africa as the most likely location",
+        "Wooden tall electricity poles evenly space on the side of the road is also characteristic of Botswana",
+        "The style and quality of road paving, as well as the presence of simple fencing, align closely with Botswana's infrastructure outside major cities.",
+        "With the faded yellow outer lines and white inner lines, this points to countries in Southern Africa"
+      ],
+      "summary": "nodes=12, edges=55, base_region=africa, top_skill_region=africa"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Lesotho\",\n  \"country_code\": \"ls\",\n  \"region\": \"Southern Africa\",\n  \"city\": \"Maseru\",\n  \"province_or_state\": \"Maseru District\",\n  \"address\": \"Peri-urban roadside area on the outskirts of Maseru, Maseru District, Lesotho\",\n  \"confidence\": 0.43,\n  \"reasoning\": \"The scene fits southern A",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 55,
+        "graph_summary": "nodes=12, edges=55, base_region=africa, top_skill_region=africa"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "ls"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

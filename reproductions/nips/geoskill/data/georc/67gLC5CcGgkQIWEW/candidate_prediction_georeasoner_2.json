@@ -1,0 +1,10 @@
+{
+  "country": "North Macedonia",
+  "country_code": "mk",
+  "city": "",
+  "reasoning_chain": [
+    "The Cyrillic sign 'ВХОД ВРАТАТА Е АВТОМАТ' (Entrance, the gate is automatic) indicates a Slavic-speaking country, narrowing to North Macedonia, Serbia, Bulgaria, or Russia.",
+    "The road is a two-lane asphalt road with dashed white center lines, consistent with rural roads in the Balkans, and vehicles are driving on the right side."
+  ],
+  "raw_output": "{\n  \"country\": \"North Macedonia\",\n  \"country_code\": \"mk\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The Cyrillic sign 'ВХОД ВРАТАТА Е АВТОМАТ' (Entrance, the gate is automatic) indicates a Slavic-speaking country, narrowing to North Macedonia, Serbia, Bulgaria, or Russia.\",\n    \"The road is a two-lane asphalt road with dashed white center lines, consistent with rural roads in the Balkans, and vehicles are driving on the right side.\",\n    \"The architecture features simple, functional buildings"
+}

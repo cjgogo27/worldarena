@@ -1,0 +1,105 @@
+{
+  "game_id": "kkQArBREMnrdoW0R",
+  "round": 1,
+  "sample_id": "georc::kkQArBREMnrdoW0R::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ph",
+    "predicted_region": "asia",
+    "predicted_address": "Danao-Buenavista Road, Danao, Bohol, Philippines",
+    "predicted_lat": 9.55421,
+    "predicted_lng": 123.75648,
+    "reasoning_text": "{\"country\":\"Philippines\",\"country_code\":\"ph\",\"region\":\"Southeast Asia\",\"city\":\"Danao\",\"province_or_state\":\"Bohol\",\"address\":\"Danao-Buenavista Road, Danao, Bohol, Philippines\",\"confidence\":0.72,\"reasoning\":\"The image shows a rural concrete paved road with distinctive rectangular concrete barrier blocks lining both sides, a hallmark of Philippine rural road construction commonly referred to as 'Bohol barriers' due to their prevalence in Bohol province. The tropical dry forest vegetation with scattered trees and shrubland, the concrete pavement style with visible construction joints, and the right-hand drive road crown all point to the central Philippines. The rolling terrain and specific barrier design are most consistent with Bohol's interior municipal roads rather than Cebu. The road appears to be a secondary provincial road connecting interior municipalities. Based on the barrier style, terrain, and vegetation patterns, this is most likely a road in the municipality of Danao, Bohol, which is known for similar rural road infrastructure and karst hill landscapes.\",\"evidence\":[\"Rectangular concrete barrier blocks ('Bohol barriers') along both road edges\",\"Rural concrete pavement with visible construction joints\",\"Tropical dry forest vegetation with scattered trees and shrubland\",\"Right-hand drive road crown and lane positioning\",\"Rolling karst-like terrain typical of interior Bohol\",\"Clear blue sky with scattered cumulus clouds consistent with central Philippines dry season\"]}",
+    "evidence_spans": [
+      "Rectangular concrete barrier blocks ('Bohol barriers') along both road edges",
+      "Rural concrete pavement with visible construction joints",
+      "Tropical dry forest vegetation with scattered trees and shrubland",
+      "Right-hand drive road crown and lane positioning",
+      "Rolling karst-like terrain typical of interior Bohol",
+      "Clear blue sky with scattered cumulus clouds consistent with central Philippines dry season"
+    ],
+    "confidence": 0.72,
+    "country_top3": [
+      "ph",
+      "id",
+      "th"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"ph\",\"id\",\"th\"],\"reason\":\"The distinctive rectangular concrete barrier blocks ('Bohol barriers') lining both sides of a rural concrete road are a hallmark of Philippine rural road construction, particularly in Bohol province. The tropical dry forest vegetation with scattered trees, clear blue sky with scattered cumulus clouds, and right-hand driving orientation (evident from road centerline placement and barrier positioning) strongly indicate the Philippines. Secondary candidates Indonesia and Thailand share tropical climates but lack this specific barrier style and road construction pattern.\"}\n```",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9400000000000001,
+        "pred_country": "ph",
+        "geo_country": "ph",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Danao-Buenavista Road, Danao, Bohol, Philippines"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.9400000000000001,
+        "pred_country": "ph",
+        "geo_country": "ph",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Danao-Buenavista Road, Danao, Bohol, Philippines"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.9400000000000001,
+        "pred_country": "ph",
+        "geo_country": "ph",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Danao-Pilar Road, Danao, Bohol, Philippines"
+      }
+    ],
+    "selected_candidate_score": 0.9400000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "ph",
+      "predicted_region": "asia",
+      "confidence": 0.78
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"region\": \"Southeast Asia\",\n  \"city\": null,\n  \"province_or_state\": \"Bohol or Cebu\",\n  \"address\": \"Rural concrete road with barrier blocks, likely Bohol or Cebu province, Philippines\",\n  \"confidence\": 0.78,\n  \"reasoning\": \"The image show",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "ph"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

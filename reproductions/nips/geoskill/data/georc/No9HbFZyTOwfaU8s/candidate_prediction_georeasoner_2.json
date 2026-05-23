@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a solid white line on the right edge and dashed center line, consistent with Japanese right-hand traffic conventions.",
+    "Utility poles are slender metal structures with overhead wires, typical of rural Japanese infrastructure.",
+    "Vegetation includes deciduous trees without leaves and evergreen conifers, suggesting early spring in a temperate mountainous region common in Japan."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a solid white line on the right edge and dashed center line, consistent with Japanese right-hand traffic conventions.\",\n    \"Utility poles are slender metal structures with overhead wires, typical of rural Japanese infrastructure.\",\n    \"Vegetation includes deciduous trees without leaves and evergreen conifers, suggesting early spring in a temperate mountainous region common in Japan.\",\n    \"The terrain is hilly with sparse settlement and no visible signage or vehicles,"
+}

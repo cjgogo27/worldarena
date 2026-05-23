@@ -1,0 +1,11 @@
+{
+  "country": "China",
+  "country_code": "cn",
+  "city": "",
+  "reasoning_chain": [
+    "The architecture features modern multi-story residential buildings with glass balconies and air conditioning units, typical of urban development in coastal China.",
+    "Vegetation includes tropical plants like banana trees, suggesting a warm, humid climate consistent with southern or eastern China.",
+    "Construction materials and debris on the roadside, along with stacked wooden planks and tarps, indicate ongoing development common in rapidly urbanizing Chinese regions."
+  ],
+  "raw_output": "{\n  \"country\": \"China\",\n  \"country_code\": \"cn\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The architecture features modern multi-story residential buildings with glass balconies and air conditioning units, typical of urban development in coastal China.\",\n    \"Vegetation includes tropical plants like banana trees, suggesting a warm, humid climate consistent with southern or eastern China.\",\n    \"Construction materials and debris on the roadside, along with stacked wooden planks and tarps, indicate ongoing development common in rapidly urbanizing Chinese regions.\",\n    \"The absence of visible road signs or"
+}

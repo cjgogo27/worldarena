@@ -1,0 +1,11 @@
+{
+  "country": "Greece",
+  "country_code": "gr",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of a water tank on stilts is common in Mediterranean regions like Greece due to water scarcity and infrastructure design.",
+    "The stone walls and terraced landscape suggest hilly terrain typical of Greek islands or mainland coastal areas.",
+    "The vegetation, including large leafy trees and grapevines, aligns with Mediterranean flora found in Greece."
+  ],
+  "raw_output": "{\n  \"country\": \"Greece\",\n  \"country_code\": \"gr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of a water tank on stilts is common in Mediterranean regions like Greece due to water scarcity and infrastructure design.\",\n    \"The stone walls and terraced landscape suggest hilly terrain typical of Greek islands or mainland coastal areas.\",\n    \"The vegetation, including large leafy trees and grapevines, aligns with Mediterranean flora found in Greece.\",\n    \"The road layout and lack of modern signage or English text point to a rural or semi"
+}

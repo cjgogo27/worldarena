@@ -1,0 +1,24 @@
+{
+  "game_id": "QTmrnxW99iiyS2xS",
+  "round": 1,
+  "sample_id": "georc::QTmrnxW99iiyS2xS::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "nl",
+    "predicted_region": "europe",
+    "predicted_address": "Residential area near De Koog, Texel, North Holland, Netherlands",
+    "predicted_lat": 53.1241727,
+    "predicted_lng": 4.810761,
+    "reasoning_text": "{\n  \"country\": \"Netherlands\",\n  \"country_code\": \"nl\",\n  \"region\": \"Western Europe\",\n  \"city\": \"De Koog\",\n  \"province_or_state\": \"North Holland\",\n  \"address\": \"Residential area near De Koog, Texel, North Holland, Netherlands\",\n  \"confidence\": 0.63,\n  \"reasoning\": \"The scene shows a very flat, low-lying landscape with lush grass and reeds, which strongly suggests a coastal or polder environment in the Netherlands. The narrow asphalt road and the red paved crossing path resemble Dutch cycling and local access infrastructure. The detached houses have steep dark roofs and modern brick-and-cladding styles commonly seen in Dutch suburban and island residential developments. The overall terrain and vegetation feel like a North Sea coastal settlement, and the combination of reeds, flatness, and housing style fits the Dutch Wadden island area well. A plausible approximate location is on Texel, near De Koog, where similar modern residential zones exist in a dune/polder setting.\",\n  \"evidence\": [\n    \"Extremely flat terrain typical of Dutch lowlands\",\n    \"Red paved side path consistent with Dutch bike/pedestrian infrastructure\",\n    \"Reeds and grassy drainage-like edges suggesting wet coastal or polder landscape\",\n    \"Modern detached homes with steep dark roofs common in the Netherlands\",\n    \"Well-maintained suburban layout resembling Dutch residential planning\"\n  ]\n}",
+    "evidence_spans": [
+      "Extremely flat terrain typical of Dutch lowlands",
+      "Red paved side path consistent with Dutch bike/pedestrian infrastructure",
+      "Reeds and grassy drainage-like edges suggesting wet coastal or polder landscape",
+      "Modern detached homes with steep dark roofs common in the Netherlands",
+      "Well-maintained suburban layout resembling Dutch residential planning"
+    ],
+    "confidence": 0.63
+  },
+  "error": null
+}

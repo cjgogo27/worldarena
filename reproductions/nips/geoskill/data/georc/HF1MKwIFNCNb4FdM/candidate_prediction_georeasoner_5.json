@@ -1,0 +1,11 @@
+{
+  "country": "Indonesia",
+  "country_code": "id",
+  "city": "",
+  "reasoning_chain": [
+    "The scooter parked on the left side of the narrow concrete road suggests right-hand traffic, consistent with Indonesia’s driving side.",
+    "The lush tropical vegetation, including flowering vines and dense greenery, indicates a humid subtropical or equatorial climate typical of Indonesia.",
+    "The weathered stone wall and simple rural infrastructure align with common roadside architecture in Indonesian villages or semi-urban areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The scooter parked on the left side of the narrow concrete road suggests right-hand traffic, consistent with Indonesia’s driving side.\",\n    \"The lush tropical vegetation, including flowering vines and dense greenery, indicates a humid subtropical or equatorial climate typical of Indonesia.\",\n    \"The weathered stone wall and simple rural infrastructure align with common roadside architecture in Indonesian villages or semi-urban areas.\",\n    \"No visible signage or language is present, but the overall"
+}

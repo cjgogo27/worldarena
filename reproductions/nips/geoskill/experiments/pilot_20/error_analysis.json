@@ -1,0 +1,750 @@
+{
+  "results_dir": "/data/alice/cjtest/geoskill/experiments/pilot_20",
+  "methods": [
+    "direct_vlm",
+    "cot_vlm",
+    "georeasoner",
+    "geocot"
+  ],
+  "per_method": {
+    "direct_vlm": {
+      "summary": {
+        "num_samples": 3,
+        "country_accuracy": 0.3333333333333333,
+        "region_accuracy": 1.0,
+        "median_distance_km": 467.3497590882761,
+        "mean_distance_km": 881.3914959423582
+      },
+      "country_confusion": {
+        "matrix_pred_x_gt": {
+          "uz": {
+            "kg": 1
+          },
+          "th": {
+            "th": 1
+          },
+          "in": {
+            "bd": 1
+          }
+        },
+        "top_confused_pairs": [
+          {
+            "ground_truth_country": "kg",
+            "predicted_country": "uz",
+            "count": 1
+          },
+          {
+            "ground_truth_country": "bd",
+            "predicted_country": "in",
+            "count": 1
+          }
+        ]
+      },
+      "region_confusion": {
+        "region_order": [
+          "africa",
+          "asia",
+          "europe",
+          "north_america",
+          "south_america",
+          "oceania"
+        ],
+        "matrix_pred_x_gt": {
+          "africa": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "asia": {
+            "africa": 0,
+            "asia": 3,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "europe": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "north_america": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "south_america": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "oceania": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          }
+        },
+        "top_confused_pairs": []
+      },
+      "distance_error_distribution": {
+        "num_valid_distances": 3,
+        "histogram": [
+          {
+            "range_km": "[0,25)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[25,100)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[100,250)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[250,500)",
+            "count": 2,
+            "rate": 0.6666666666666666
+          },
+          {
+            "range_km": "[500,1000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[1000,2500)",
+            "count": 1,
+            "rate": 0.3333333333333333
+          },
+          {
+            "range_km": "[2500,5000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[5000,10000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[10000,20000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[20000,inf)",
+            "count": 0,
+            "rate": 0.0
+          }
+        ],
+        "percentiles_km": {
+          "p25": 366.17808486184515,
+          "p50": 467.3497590882761,
+          "p75": 1189.5840385958304,
+          "p90": 1622.924606300363,
+          "p95": 1767.3714622018736
+        }
+      },
+      "hallucination_analysis": {
+        "hallucination_rate": 0.0,
+        "num_hallucinations": 0,
+        "num_samples": 3,
+        "examples": []
+      },
+      "confidence_calibration": {
+        "bins": [
+          {
+            "bin": "[0.00,0.50)",
+            "count": 0,
+            "accuracy": null
+          },
+          {
+            "bin": "[0.50,0.70)",
+            "count": 0,
+            "accuracy": null
+          },
+          {
+            "bin": "[0.70,0.85)",
+            "count": 3,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "bin": "[0.85,1.00]",
+            "count": 0,
+            "accuracy": null
+          }
+        ]
+      }
+    },
+    "cot_vlm": {
+      "summary": {
+        "num_samples": 3,
+        "country_accuracy": 0.3333333333333333,
+        "region_accuracy": 1.0,
+        "median_distance_km": 467.3497590882761,
+        "mean_distance_km": 879.7924521357218
+      },
+      "country_confusion": {
+        "matrix_pred_x_gt": {
+          "uz": {
+            "kg": 1
+          },
+          "th": {
+            "th": 1
+          },
+          "in": {
+            "bd": 1
+          }
+        },
+        "top_confused_pairs": [
+          {
+            "ground_truth_country": "kg",
+            "predicted_country": "uz",
+            "count": 1
+          },
+          {
+            "ground_truth_country": "bd",
+            "predicted_country": "in",
+            "count": 1
+          }
+        ]
+      },
+      "region_confusion": {
+        "region_order": [
+          "africa",
+          "asia",
+          "europe",
+          "north_america",
+          "south_america",
+          "oceania"
+        ],
+        "matrix_pred_x_gt": {
+          "africa": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "asia": {
+            "africa": 0,
+            "asia": 3,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "europe": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "north_america": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "south_america": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "oceania": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          }
+        },
+        "top_confused_pairs": []
+      },
+      "distance_error_distribution": {
+        "num_valid_distances": 3,
+        "histogram": [
+          {
+            "range_km": "[0,25)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[25,100)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[100,250)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[250,500)",
+            "count": 2,
+            "rate": 0.6666666666666666
+          },
+          {
+            "range_km": "[500,1000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[1000,2500)",
+            "count": 1,
+            "rate": 0.3333333333333333
+          },
+          {
+            "range_km": "[2500,5000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[5000,10000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[10000,20000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[20000,inf)",
+            "count": 0,
+            "rate": 0.0
+          }
+        ],
+        "percentiles_km": {
+          "p25": 366.17808486184515,
+          "p50": 467.3497590882761,
+          "p75": 1187.1854728858757,
+          "p90": 1619.0869011644354,
+          "p95": 1763.054043923955
+        }
+      },
+      "hallucination_analysis": {
+        "hallucination_rate": 0.0,
+        "num_hallucinations": 0,
+        "num_samples": 3,
+        "examples": []
+      },
+      "confidence_calibration": {
+        "bins": [
+          {
+            "bin": "[0.00,0.50)",
+            "count": 0,
+            "accuracy": null
+          },
+          {
+            "bin": "[0.50,0.70)",
+            "count": 0,
+            "accuracy": null
+          },
+          {
+            "bin": "[0.70,0.85)",
+            "count": 3,
+            "accuracy": 0.3333333333333333
+          },
+          {
+            "bin": "[0.85,1.00]",
+            "count": 0,
+            "accuracy": null
+          }
+        ]
+      }
+    },
+    "georeasoner": {
+      "summary": {
+        "num_samples": 2,
+        "country_accuracy": 0.5,
+        "region_accuracy": 1.0,
+        "median_distance_km": 503.3646397707637,
+        "mean_distance_km": 503.3646397707637
+      },
+      "country_confusion": {
+        "matrix_pred_x_gt": {
+          "uz": {
+            "kg": 1
+          },
+          "th": {
+            "th": 1
+          }
+        },
+        "top_confused_pairs": [
+          {
+            "ground_truth_country": "kg",
+            "predicted_country": "uz",
+            "count": 1
+          }
+        ]
+      },
+      "region_confusion": {
+        "region_order": [
+          "africa",
+          "asia",
+          "europe",
+          "north_america",
+          "south_america",
+          "oceania"
+        ],
+        "matrix_pred_x_gt": {
+          "africa": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "asia": {
+            "africa": 0,
+            "asia": 2,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "europe": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "north_america": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "south_america": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "oceania": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          }
+        },
+        "top_confused_pairs": []
+      },
+      "distance_error_distribution": {
+        "num_valid_distances": 2,
+        "histogram": [
+          {
+            "range_km": "[0,25)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[25,100)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[100,250)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[250,500)",
+            "count": 1,
+            "rate": 0.5
+          },
+          {
+            "range_km": "[500,1000)",
+            "count": 1,
+            "rate": 0.5
+          },
+          {
+            "range_km": "[1000,2500)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[2500,5000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[5000,10000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[10000,20000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[20000,inf)",
+            "count": 0,
+            "rate": 0.0
+          }
+        ],
+        "percentiles_km": {
+          "p25": 384.1855252030889,
+          "p50": 503.3646397707637,
+          "p75": 622.5437543384385,
+          "p90": 694.0512230790432,
+          "p95": 717.8870459925782
+        }
+      },
+      "hallucination_analysis": {
+        "hallucination_rate": 0.0,
+        "num_hallucinations": 0,
+        "num_samples": 2,
+        "examples": []
+      },
+      "confidence_calibration": {
+        "bins": [
+          {
+            "bin": "[0.00,0.50)",
+            "count": 0,
+            "accuracy": null
+          },
+          {
+            "bin": "[0.50,0.70)",
+            "count": 0,
+            "accuracy": null
+          },
+          {
+            "bin": "[0.70,0.85)",
+            "count": 2,
+            "accuracy": 0.5
+          },
+          {
+            "bin": "[0.85,1.00]",
+            "count": 0,
+            "accuracy": null
+          }
+        ]
+      }
+    },
+    "geocot": {
+      "summary": {
+        "num_samples": 2,
+        "country_accuracy": 0.5,
+        "region_accuracy": 1.0,
+        "median_distance_km": 1805.6843776404319,
+        "mean_distance_km": 1805.6843776404319
+      },
+      "country_confusion": {
+        "matrix_pred_x_gt": {
+          "tr": {
+            "kg": 1
+          },
+          "th": {
+            "th": 1
+          }
+        },
+        "top_confused_pairs": [
+          {
+            "ground_truth_country": "kg",
+            "predicted_country": "tr",
+            "count": 1
+          }
+        ]
+      },
+      "region_confusion": {
+        "region_order": [
+          "africa",
+          "asia",
+          "europe",
+          "north_america",
+          "south_america",
+          "oceania"
+        ],
+        "matrix_pred_x_gt": {
+          "africa": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "asia": {
+            "africa": 0,
+            "asia": 2,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "europe": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "north_america": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "south_america": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          },
+          "oceania": {
+            "africa": 0,
+            "asia": 0,
+            "europe": 0,
+            "north_america": 0,
+            "south_america": 0,
+            "oceania": 0
+          }
+        },
+        "top_confused_pairs": []
+      },
+      "distance_error_distribution": {
+        "num_valid_distances": 2,
+        "histogram": [
+          {
+            "range_km": "[0,25)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[25,100)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[100,250)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[250,500)",
+            "count": 1,
+            "rate": 0.5
+          },
+          {
+            "range_km": "[500,1000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[1000,2500)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[2500,5000)",
+            "count": 1,
+            "rate": 0.5
+          },
+          {
+            "range_km": "[5000,10000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[10000,20000)",
+            "count": 0,
+            "rate": 0.0
+          },
+          {
+            "range_km": "[20000,inf)",
+            "count": 0,
+            "rate": 0.0
+          }
+        ],
+        "percentiles_km": {
+          "p25": 1035.345394137923,
+          "p50": 1805.6843776404319,
+          "p75": 2576.0233611429408,
+          "p90": 3038.226751244446,
+          "p95": 3192.2945479449477
+        }
+      },
+      "hallucination_analysis": {
+        "hallucination_rate": 0.0,
+        "num_hallucinations": 0,
+        "num_samples": 2,
+        "examples": []
+      },
+      "confidence_calibration": {
+        "bins": [
+          {
+            "bin": "[0.00,0.50)",
+            "count": 0,
+            "accuracy": null
+          },
+          {
+            "bin": "[0.50,0.70)",
+            "count": 0,
+            "accuracy": null
+          },
+          {
+            "bin": "[0.70,0.85)",
+            "count": 1,
+            "accuracy": 0.0
+          },
+          {
+            "bin": "[0.85,1.00]",
+            "count": 1,
+            "accuracy": 1.0
+          }
+        ]
+      }
+    }
+  },
+  "case_studies": {
+    "worst_skill_conditioned": [],
+    "best_skill_conditioned_correct_country": [],
+    "skill_conditioned_biggest_wins_vs_direct_vlm": [],
+    "skill_conditioned_biggest_losses_vs_direct_vlm": []
+  },
+  "skill_retrieval_analysis": {}
+}

@@ -1,0 +1,89 @@
+{
+  "user_id": "40209546_2",
+  "input_demographics": {
+    "sex": "male",
+    "age": 40,
+    "age_range": "18-64 years old",
+    "race": "Asian",
+    "enrolled_in_school": false,
+    "employed": true,
+    "occupation": "Sales or service",
+    "marital_status": "never married",
+    "primary_activity": "Working"
+  },
+  "raw_output": "| Place Visited           | Arrival Time    | Departure Time  | Location Type |\n|-------------------------|-----------------|-----------------|---------------|\n| Home                   | 07:00 AM        | 07:30 AM        | 1              |\n| Office                 | 07:30 AM        | 12:00 PM        | 3              |\n| Subway Station         | 12:00 PM        | 12:15 PM        | 7              |\n| Client Meeting          | 12:15 PM        | 01:30 PM        | 4              |\n| Restaurant             | 01:30 PM        | 02:15 PM        | 13             |\n| Gas Station            | 02:15 PM        | 02:25 PM        | 11             |\n| Home                   | 02:25 PM        | 03:00 PM        | 1              |\n| Home                   | 03:00 PM        | 06:00 PM        | 1              |\n| Home                   | 06:00 PM        | 07:00 PM        | 1              |\n| Home                   | 07:00 PM        | 08:00 PM        | 1              |\n| Home                   | 08:00 PM        | 10:00 PM        | 1              |",
+  "schedule": [
+    {
+      "activity": "home",
+      "start_time": "07:00",
+      "end_time": "07:30"
+    },
+    {
+      "activity": "work",
+      "start_time": "07:30",
+      "end_time": "12:00"
+    },
+    {
+      "activity": "service",
+      "start_time": "12:00",
+      "end_time": "12:15"
+    },
+    {
+      "activity": "work",
+      "start_time": "12:15",
+      "end_time": "13:30"
+    },
+    {
+      "activity": "dine_out",
+      "start_time": "13:30",
+      "end_time": "14:15"
+    },
+    {
+      "activity": "shopping",
+      "start_time": "14:15",
+      "end_time": "14:25"
+    },
+    {
+      "activity": "home",
+      "start_time": "14:25",
+      "end_time": "15:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "15:00",
+      "end_time": "18:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "18:00",
+      "end_time": "19:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "19:00",
+      "end_time": "20:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "20:00",
+      "end_time": "22:00"
+    }
+  ],
+  "ground_truth": [
+    {
+      "activity": "home",
+      "start_time": "00:00",
+      "end_time": "10:00"
+    },
+    {
+      "activity": "work",
+      "start_time": "10:00",
+      "end_time": "20:30"
+    },
+    {
+      "activity": "home",
+      "start_time": "20:30",
+      "end_time": "24:00"
+    }
+  ]
+}

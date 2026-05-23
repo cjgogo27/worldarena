@@ -1,0 +1,11 @@
+{
+  "country": "Germany",
+  "country_code": "de",
+  "city": "",
+  "reasoning_chain": [
+    "The road features white edge lines and reflective posts with orange-red reflectors, consistent with German rural road standards.",
+    "Vegetation includes mixed deciduous and coniferous trees typical of temperate European forests, especially in central Germany.",
+    "No visible signage or architecture is present, but the absence of right-hand traffic indicators and the road layout suggest left-hand driving, aligning with Germany."
+  ],
+  "raw_output": "{\n  \"country\": \"Germany\",\n  \"country_code\": \"de\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features white edge lines and reflective posts with orange-red reflectors, consistent with German rural road standards.\",\n    \"Vegetation includes mixed deciduous and coniferous trees typical of temperate European forests, especially in central Germany.\",\n    \"No visible signage or architecture is present, but the absence of right-hand traffic indicators and the road layout suggest left-hand driving, aligning with Germany.\",\n    \"The open grassy verge and lack of"
+}

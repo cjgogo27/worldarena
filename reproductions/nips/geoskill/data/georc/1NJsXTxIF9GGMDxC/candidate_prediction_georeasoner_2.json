@@ -1,0 +1,13 @@
+{
+  "country": "Singapore",
+  "country_code": "sg",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt road with no center line, bordered by a metal guardrail on the left and a concrete drainage ditch on the right — typical of rural or semi-rural roads in Singapore’s nature reserves.",
+    "Dense tropical vegetation including ferns and broadleaf trees lines both sides of the road, consistent with Singapore’s lush, humid climate and protected forest areas like Bukit Timah or MacRitchie.",
+    "The yellow chevron sign on the left indicates a sharp curve ahead — commonly used in Singapore’s winding forest roads to warn drivers, and its design matches local traffic signage standards.",
+    "The combination of narrow two-lane road, tropical flora, drainage infrastructure, and standardized road signage strongly points to a rural or nature reserve road within Singapore. The absence of urban elements and presence of dense greenery further supports this being a non-urban location in a tropical island nation with high biodiversity."
+  ],
+  "reasoning": "The combination of narrow two-lane road, tropical flora, drainage infrastructure, and standardized road signage strongly points to a rural or nature reserve road within Singapore. The absence of urban elements and presence of dense greenery further supports this being a non-urban location in a tropical island nation with high biodiversity.",
+  "raw_output": "{\n  \"country\": \"Singapore\",\n  \"country_code\": \"sg\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt road with no center line, bordered by a metal guardrail on the left and a concrete drainage ditch on the right — typical of rural or semi-rural roads in Singapore’s nature reserves.\",\n    \"Dense tropical vegetation including ferns and broadleaf trees lines both sides of the road, consistent with Singapore’s lush, humid climate and protected forest areas like Bukit Timah or MacRitchie.\",\n    \"The yellow chevron sign on the left indicates a sharp curve ahead — commonly used in Singapore’s winding forest roads to warn drivers, and its design matches local traffic signage standards.\"\n  ],\n  \"reasoning\": \"The combination of narrow two-lane road, tropical flora, drainage infrastructure, and standardized road signage strongly points to a rural or nature reserve road within Singapore. The absence of urban elements and presence of dense greenery further supports this being a non-urban location in a tropical island nation with high biodiversity.\"\n}"
+}

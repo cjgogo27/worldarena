@@ -1,0 +1,11 @@
+{
+  "country": "Indonesia",
+  "country_code": "id",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unpaved rural road with no center line and a single motorcycle suggests a low-traffic area common in rural Indonesia.",
+    "The dense tropical vegetation, including banana plants and broadleaf trees, is consistent with Indonesia’s equatorial climate.",
+    "Concrete utility poles with overhead wires are typical infrastructure in Indonesian countryside areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unpaved rural road with no center line and a single motorcycle suggests a low-traffic area common in rural Indonesia.\",\n    \"The dense tropical vegetation, including banana plants and broadleaf trees, is consistent with Indonesia’s equatorial climate.\",\n    \"Concrete utility poles with overhead wires are typical infrastructure in Indonesian countryside areas.\",\n    \"The overcast sky and lush greenery indicate a humid, tropical environment typical of islands like Sumatra or Java"
+}

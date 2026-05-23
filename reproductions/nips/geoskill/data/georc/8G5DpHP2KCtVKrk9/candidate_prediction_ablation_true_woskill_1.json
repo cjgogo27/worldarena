@@ -1,0 +1,34 @@
+{
+  "game_id": "8G5DpHP2KCtVKrk9",
+  "round": 1,
+  "sample_id": "georc::8G5DpHP2KCtVKrk9::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "br",
+    "predicted_region": "south_america",
+    "predicted_address": "Avenida Beira Mar Norte, Centro, Florianópolis, Santa Catarina, Brazil",
+    "predicted_lat": -30.03305556,
+    "predicted_lng": -51.23,
+    "reasoning_text": "```json\n{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"city\": \"Florianópolis\",\n  \"province_or_state\": \"Santa Catarina\",\n  \"address\": \"Avenida Beira Mar Norte, Centro, Florianópolis, Santa Catarina, Brazil\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows a coastal avenue with a distinctive pink/salmon colored historic building on the right, palm trees, and a waterfront on the left. The architecture, vegetation (palm trees, subtropical climate), road layout, and utility pole infrastructure are consistent with southern Brazil. The driving side is right-hand, matching Brazil. The specific combination of a historic waterfront avenue with this type of colonial/republican-era building strongly suggests Florianópolis, specifically the Beira Mar Norte avenue along the downtown waterfront. The building style and setting are characteristic of Florianópolis's Centro district. Uruguay and Argentina were considered but the tropical/subtropical vegetation and specific architectural style point more strongly to Brazilian coastal cities, particularly Florianópolis in Santa Catarina state.\",\n  \"evidence\": [\"Right-hand driving traffic\", \"Subtropical coastal vegetation with palm trees\", \"Pink/salmon historic republican-era building with green shutters\", \"Waterfront avenue with grassy median\", \"Overhead utility wires on wooden poles\", \"Brazilian-style street layout and curb design\", \"Cloudy subtropical sky\"]\n}\n```",
+    "evidence_spans": [
+      "Right-hand driving traffic",
+      "Subtropical coastal vegetation with palm trees",
+      "Pink/salmon historic republican-era building with green shutters",
+      "Waterfront avenue with grassy median",
+      "Overhead utility wires on wooden poles",
+      "Brazilian-style street layout and curb design",
+      "Cloudy subtropical sky"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "br",
+      "uy",
+      "ar"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"br\",\"uy\",\"ar\"],\"reason\":\"The coral-colored colonial-style building with green shutters, palm trees, overhead power lines, right-hand driving, and coastal waterfront setting are characteristic of Brazil. The architecture resembles historic Brazilian port cities. Uruguay and Argentina share similar colonial influences but the specific building style, vegetation density, and street layout are most consistent with Brazil.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8775000000000001
+  },
+  "error": null
+}

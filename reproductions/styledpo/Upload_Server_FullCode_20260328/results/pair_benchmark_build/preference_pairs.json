@@ -1,0 +1,3737 @@
+[
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Action Painting|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Action Painting",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Action_Painting.png",
+      "score": 0.8648087497800588,
+      "seed": "Action Painting_content_0001",
+      "source_style": "Action Painting",
+      "clip_score": 0.5493624992668629,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cool_Tone.png",
+        "score": 0.8308754120022059,
+        "seed": "Cool Tone_content_0001",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5528610460460186,
+        "vlm_score": 0.950024425983429
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cinematic.png",
+        "score": 0.834300034865737,
+        "seed": "Cinematic_content_0001",
+        "source_style": "Cinematic",
+        "clip_score": 0.5512468405067921,
+        "vlm_score": 0.9556085467338562
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Anime.png",
+        "score": 0.8352815721184015,
+        "seed": "Anime_content_0001",
+        "source_style": "Anime",
+        "clip_score": 0.5508371107280254,
+        "vlm_score": 0.9571863412857056
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|African Tribal Art|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "African Tribal Art",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an African Tribal Art style with geometric motifs, earthy palettes, and symbolic patterning while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/African_Tribal_Art.png",
+      "score": 0.8702029839158059,
+      "seed": "African Tribal Art_content_0001",
+      "source_style": "African Tribal Art",
+      "clip_score": 0.5673432797193527,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cinematic.png",
+        "score": 0.8358327068388463,
+        "seed": "Cinematic_content_0001",
+        "source_style": "Cinematic",
+        "clip_score": 0.5674538537859917,
+        "vlm_score": 0.9508522152900696
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Crayon_Texture.png",
+        "score": 0.8376857653260231,
+        "seed": "Crayon Texture_content_0001",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5695144385099411,
+        "vlm_score": 0.9526163339614868
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cool_Tone.png",
+        "score": 0.837929866462946,
+        "seed": "Cool Tone_content_0001",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5700652524828911,
+        "vlm_score": 0.9527289867401123
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Anime|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Anime",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an Anime style with clean line art, stylized shading, and vivid color blocks while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Anime.png",
+      "score": 0.868860037624836,
+      "seed": "Anime_content_0001",
+      "source_style": "Anime",
+      "clip_score": 0.5628667920827866,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Action_Painting.png",
+        "score": 0.8391873814165591,
+        "seed": "Action Painting_content_0001",
+        "source_style": "Action Painting",
+        "clip_score": 0.5638564750552177,
+        "vlm_score": 0.9571863412857056
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Crayon_Texture.png",
+        "score": 0.8393674455583096,
+        "seed": "Crayon Texture_content_0001",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5669591799378395,
+        "vlm_score": 0.9561138451099396
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cubism.png",
+        "score": 0.8400930598378181,
+        "seed": "Cubism_content_0001",
+        "source_style": "Cubism",
+        "clip_score": 0.5657812803983688,
+        "vlm_score": 0.9576552510261536
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Black and White|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Black and White",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Black and White style with strong tonal contrast and grayscale rendering while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Black_and_White.png",
+      "score": 0.8691423334181309,
+      "seed": "Black and White_content_0001",
+      "source_style": "Black and White",
+      "clip_score": 0.5638077780604362,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cubism.png",
+        "score": 0.8430059790611267,
+        "seed": "Cubism_content_0001",
+        "source_style": "Cubism",
+        "clip_score": 0.5636386871337891,
+        "vlm_score": 0.9627348184585571
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Action_Painting.png",
+        "score": 0.8432488441467285,
+        "seed": "Action Painting_content_0001",
+        "source_style": "Action Painting",
+        "clip_score": 0.5637965202331543,
+        "vlm_score": 0.9630141258239746
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Chinese_Ink_Painting.png",
+        "score": 0.843869673833251,
+        "seed": "Chinese Ink Painting_content_0001",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5622477121651173,
+        "vlm_score": 0.9645648002624512
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Candy Pastel|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Candy Pastel",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Candy Pastel style with soft pastel tones, gentle highlights, and dreamy color transitions while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Candy_Pastel.png",
+      "score": 0.8603175360709429,
+      "seed": "Candy Pastel_content_0001",
+      "source_style": "Candy Pastel",
+      "clip_score": 0.5343917869031429,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cubism.png",
+        "score": 0.8284473322331904,
+        "seed": "Cubism_content_0001",
+        "source_style": "Cubism",
+        "clip_score": 0.53557039052248,
+        "vlm_score": 0.9539660215377808
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Action_Painting.png",
+        "score": 0.8297326695173979,
+        "seed": "Action Painting_content_0001",
+        "source_style": "Action Painting",
+        "clip_score": 0.5325708724558353,
+        "vlm_score": 0.9570877254009247
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Chinese_Ink_Painting.png",
+        "score": 0.8300415817648172,
+        "seed": "Chinese Ink Painting_content_0001",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.534714799374342,
+        "vlm_score": 0.9566102027893066
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Cartoon|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Cartoon",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cartoon style with simplified shapes, bold outlines, and stylized shading while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cartoon.png",
+      "score": 0.8680411636829376,
+      "seed": "Cartoon_content_0001",
+      "source_style": "Cartoon",
+      "clip_score": 0.5601372122764587,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Chinese_Ink_Painting.png",
+        "score": 0.8401042256504296,
+        "seed": "Chinese Ink Painting_content_0001",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5604549758136272,
+        "vlm_score": 0.9599539041519165
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Action_Painting.png",
+        "score": 0.8416878491640091,
+        "seed": "Action Painting_content_0001",
+        "source_style": "Action Painting",
+        "clip_score": 0.5612172484397888,
+        "vlm_score": 0.9618895351886749
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cinematic.png",
+        "score": 0.8424263335764408,
+        "seed": "Cinematic_content_0001",
+        "source_style": "Cinematic",
+        "clip_score": 0.5602203533053398,
+        "vlm_score": 0.963371753692627
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Children's book Illustration|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Children's book Illustration",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Children's book Illustration style with playful forms, warm colors, and storybook texture while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Children_s_book_Illustration.png",
+      "score": 0.8653906159102916,
+      "seed": "Children's book Illustration_content_0001",
+      "source_style": "Children's book Illustration",
+      "clip_score": 0.5513020530343056,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cool_Tone.png",
+        "score": 0.837349285185337,
+        "seed": "Cool Tone_content_0001",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5534128695726395,
+        "vlm_score": 0.9590363204479218
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cubism.png",
+        "score": 0.8378268003463745,
+        "seed": "Cubism_content_0001",
+        "source_style": "Cubism",
+        "clip_score": 0.5536569952964783,
+        "vlm_score": 0.9596138596534729
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Chinese_Ink_Painting.png",
+        "score": 0.838098469376564,
+        "seed": "Chinese Ink Painting_content_0001",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5532854795455933,
+        "vlm_score": 0.9601611793041229
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Chinese Ink Painting|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Chinese Ink Painting",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Chinese Ink Painting style with ink wash gradients, calligraphic strokes, and minimal color while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Chinese_Ink_Painting.png",
+      "score": 0.8656443394720554,
+      "seed": "Chinese Ink Painting_content_0001",
+      "source_style": "Chinese Ink Painting",
+      "clip_score": 0.5521477982401848,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cool_Tone.png",
+        "score": 0.8317039098590613,
+        "seed": "Cool Tone_content_0001",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5514010079205036,
+        "vlm_score": 0.9518337249755859
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cinematic.png",
+        "score": 0.8317427806556225,
+        "seed": "Cinematic_content_0001",
+        "source_style": "Cinematic",
+        "clip_score": 0.5513695254921913,
+        "vlm_score": 0.9519027471542358
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Crayon_Texture.png",
+        "score": 0.8347681678831578,
+        "seed": "Crayon Texture_content_0001",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5526815578341484,
+        "vlm_score": 0.9556624293327332
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Cinematic|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Cinematic",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cinematic style with filmic lighting, dramatic contrast, and mood-focused color grading while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cinematic.png",
+      "score": 0.8685340441763401,
+      "seed": "Cinematic_content_0001",
+      "source_style": "Cinematic",
+      "clip_score": 0.561780147254467,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/African_Tribal_Art.png",
+        "score": 0.8335661508142949,
+        "seed": "African Tribal Art_content_0001",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.559898667037487,
+        "vlm_score": 0.9508522152900696
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Chinese_Ink_Painting.png",
+        "score": 0.8350545197725296,
+        "seed": "Chinese Ink Painting_content_0001",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5624086558818817,
+        "vlm_score": 0.9519027471542358
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Crayon_Texture.png",
+        "score": 0.8356267243623733,
+        "seed": "Crayon Texture_content_0001",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5626535415649414,
+        "vlm_score": 0.9526152312755585
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Comic|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Comic",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Comic style with panel-like boldness, clear contour lines, and punchy color separation while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Comic.png",
+      "score": 0.8694879092276097,
+      "seed": "Comic_content_0001",
+      "source_style": "Comic",
+      "clip_score": 0.5649596974253654,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/African_Tribal_Art.png",
+        "score": 0.841348834335804,
+        "seed": "African Tribal Art_content_0001",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5662408918142319,
+        "vlm_score": 0.9592522382736206
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Chinese_Ink_Painting.png",
+        "score": 0.8426668211817742,
+        "seed": "Chinese Ink Painting_content_0001",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5659231394529343,
+        "vlm_score": 0.9612712562084198
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Dreamlike_Ethereal.png",
+        "score": 0.8428335830569268,
+        "seed": "Dreamlike Ethereal_content_0001",
+        "source_style": "Dreamlike Ethereal",
+        "clip_score": 0.5651891380548477,
+        "vlm_score": 0.9618240594863892
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Cool Tone|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Cool Tone",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cool Tone style with blue-cyan dominant grading and crisp atmospheric lighting while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cool_Tone.png",
+      "score": 0.8712261013686657,
+      "seed": "Cool Tone_content_0001",
+      "source_style": "Cool Tone",
+      "clip_score": 0.5707536712288857,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cubism.png",
+        "score": 0.8360145807266235,
+        "seed": "Cubism_content_0001",
+        "source_style": "Cubism",
+        "clip_score": 0.5720185935497284,
+        "vlm_score": 0.94915571808815
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Action_Painting.png",
+        "score": 0.8369994774460793,
+        "seed": "Action Painting_content_0001",
+        "source_style": "Action Painting",
+        "clip_score": 0.5732745975255966,
+        "vlm_score": 0.950024425983429
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/African_Tribal_Art.png",
+        "score": 0.8383793376386166,
+        "seed": "African Tribal Art_content_0001",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5715634897351265,
+        "vlm_score": 0.9527289867401123
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Crayon Texture|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Crayon Texture",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Crayon Texture style with waxy grain, hand-drawn strokes, and textured fills while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Crayon_Texture.png",
+      "score": 0.8742012657225132,
+      "seed": "Crayon Texture_content_0001",
+      "source_style": "Crayon Texture",
+      "clip_score": 0.5806708857417107,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cubism.png",
+        "score": 0.8394433721899986,
+        "seed": "Cubism_content_0001",
+        "source_style": "Cubism",
+        "clip_score": 0.57986880838871,
+        "vlm_score": 0.9506896138191223
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cinematic.png",
+        "score": 0.8396314859390258,
+        "seed": "Cinematic_content_0001",
+        "source_style": "Cinematic",
+        "clip_score": 0.5760027468204498,
+        "vlm_score": 0.9526152312755585
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/African_Tribal_Art.png",
+        "score": 0.839789779484272,
+        "seed": "African Tribal Art_content_0001",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5765278190374374,
+        "vlm_score": 0.9526163339614868
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Cubism|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Cubism",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cubism style with fragmented planes, abstract geometric decomposition, and multi-perspective forms while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cubism.png",
+      "score": 0.8740866973996162,
+      "seed": "Cubism_content_0001",
+      "source_style": "Cubism",
+      "clip_score": 0.5802889913320541,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cool_Tone.png",
+        "score": 0.8385593421757221,
+        "seed": "Cool Tone_content_0001",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5805011317133904,
+        "vlm_score": 0.94915571808815
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Crayon_Texture.png",
+        "score": 0.8399793043732644,
+        "seed": "Crayon Texture_content_0001",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5816552489995956,
+        "vlm_score": 0.9506896138191223
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Candy_Pastel.png",
+        "score": 0.841466810554266,
+        "seed": "Candy Pastel_content_0001",
+        "source_style": "Candy Pastel",
+        "clip_score": 0.5789686515927315,
+        "vlm_score": 0.9539660215377808
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0001|Dreamlike Ethereal|style_transfer_40_v1",
+    "content_id": "content_0001",
+    "style_id": "Dreamlike Ethereal",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Dreamlike Ethereal style with misty glow, soft transitions, and surreal ambience while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Dreamlike_Ethereal.png",
+      "score": 0.8635184038430452,
+      "seed": "Dreamlike Ethereal_content_0001",
+      "source_style": "Dreamlike Ethereal",
+      "clip_score": 0.5450613461434841,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Crayon_Texture.png",
+        "score": 0.8355314787477255,
+        "seed": "Crayon Texture_content_0001",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5489486642181873,
+        "vlm_score": 0.9583526849746704
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Cubism.png",
+        "score": 0.8360638145357371,
+        "seed": "Cubism_content_0001",
+        "source_style": "Cubism",
+        "clip_score": 0.5490585677325726,
+        "vlm_score": 0.9590660631656647
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0001/Action_Painting.png",
+        "score": 0.8364707436412573,
+        "seed": "Action Painting_content_0001",
+        "source_style": "Action Painting",
+        "clip_score": 0.5492116995155811,
+        "vlm_score": 0.9595817625522614
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Action Painting|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Action Painting",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Action_Painting.png",
+      "score": 0.8660394869744777,
+      "seed": "Action Painting_content_0004",
+      "source_style": "Action Painting",
+      "clip_score": 0.5534649565815926,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cool_Tone.png",
+        "score": 0.8305256631225348,
+        "seed": "Cool Tone_content_0004",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5516952164471149,
+        "vlm_score": 0.950024425983429
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cinematic.png",
+        "score": 0.8344817791134118,
+        "seed": "Cinematic_content_0004",
+        "source_style": "Cinematic",
+        "clip_score": 0.5518526546657085,
+        "vlm_score": 0.9556085467338562
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Anime.png",
+        "score": 0.8352967925369739,
+        "seed": "Anime_content_0004",
+        "source_style": "Anime",
+        "clip_score": 0.5508878454566002,
+        "vlm_score": 0.9571863412857056
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|African Tribal Art|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "African Tribal Art",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an African Tribal Art style with geometric motifs, earthy palettes, and symbolic patterning while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/African_Tribal_Art.png",
+      "score": 0.8700506076216697,
+      "seed": "African Tribal Art_content_0004",
+      "source_style": "African Tribal Art",
+      "clip_score": 0.5668353587388992,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cinematic.png",
+        "score": 0.8365333423018455,
+        "seed": "Cinematic_content_0004",
+        "source_style": "Cinematic",
+        "clip_score": 0.5697893053293228,
+        "vlm_score": 0.9508522152900696
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cool_Tone.png",
+        "score": 0.8373652301728726,
+        "seed": "Cool Tone_content_0004",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5681831315159798,
+        "vlm_score": 0.9527289867401123
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Crayon_Texture.png",
+        "score": 0.838787167519331,
+        "seed": "Crayon Texture_content_0004",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5731857791543007,
+        "vlm_score": 0.9526163339614868
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Anime|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Anime",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an Anime style with clean line art, stylized shading, and vivid color blocks while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Anime.png",
+      "score": 0.8679223652929067,
+      "seed": "Anime_content_0004",
+      "source_style": "Anime",
+      "clip_score": 0.5597412176430225,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Crayon_Texture.png",
+        "score": 0.8387445740401744,
+        "seed": "Crayon Texture_content_0004",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5648829415440559,
+        "vlm_score": 0.9561138451099396
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Action_Painting.png",
+        "score": 0.8393562801182269,
+        "seed": "Action Painting_content_0004",
+        "source_style": "Action Painting",
+        "clip_score": 0.5644194707274437,
+        "vlm_score": 0.9571863412857056
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cubism.png",
+        "score": 0.8403087317943573,
+        "seed": "Cubism_content_0004",
+        "source_style": "Cubism",
+        "clip_score": 0.566500186920166,
+        "vlm_score": 0.9576552510261536
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Black and White|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Black and White",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Black and White style with strong tonal contrast and grayscale rendering while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Black_and_White.png",
+      "score": 0.8682653248310088,
+      "seed": "Black and White_content_0004",
+      "source_style": "Black and White",
+      "clip_score": 0.560884416103363,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Action_Painting.png",
+        "score": 0.8426999557763337,
+        "seed": "Action Painting_content_0004",
+        "source_style": "Action Painting",
+        "clip_score": 0.5619668923318386,
+        "vlm_score": 0.9630141258239746
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cubism.png",
+        "score": 0.8432148315012455,
+        "seed": "Cubism_content_0004",
+        "source_style": "Cubism",
+        "clip_score": 0.564334861934185,
+        "vlm_score": 0.9627348184585571
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Chinese_Ink_Painting.png",
+        "score": 0.8444738157093524,
+        "seed": "Chinese Ink Painting_content_0004",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5642615184187889,
+        "vlm_score": 0.9645648002624512
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Candy Pastel|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Candy Pastel",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Candy Pastel style with soft pastel tones, gentle highlights, and dreamy color transitions while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Candy_Pastel.png",
+      "score": 0.8600973524153233,
+      "seed": "Candy Pastel_content_0004",
+      "source_style": "Candy Pastel",
+      "clip_score": 0.5336578413844109,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cubism.png",
+        "score": 0.8287588126957416,
+        "seed": "Cubism_content_0004",
+        "source_style": "Cubism",
+        "clip_score": 0.5366086587309837,
+        "vlm_score": 0.9539660215377808
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Action_Painting.png",
+        "score": 0.8299134850502015,
+        "seed": "Action Painting_content_0004",
+        "source_style": "Action Painting",
+        "clip_score": 0.5331735908985138,
+        "vlm_score": 0.9570877254009247
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cinematic.png",
+        "score": 0.8300819754600525,
+        "seed": "Cinematic_content_0004",
+        "source_style": "Cinematic",
+        "clip_score": 0.5299310386180878,
+        "vlm_score": 0.9587180912494659
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Cartoon|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Cartoon",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cartoon style with simplified shapes, bold outlines, and stylized shading while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cartoon.png",
+      "score": 0.8684002567082643,
+      "seed": "Cartoon_content_0004",
+      "source_style": "Cartoon",
+      "clip_score": 0.5613341890275478,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Chinese_Ink_Painting.png",
+        "score": 0.8406678952276706,
+        "seed": "Chinese Ink Painting_content_0004",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5623338744044304,
+        "vlm_score": 0.9599539041519165
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Action_Painting.png",
+        "score": 0.8411121957004071,
+        "seed": "Action Painting_content_0004",
+        "source_style": "Action Painting",
+        "clip_score": 0.5592984035611153,
+        "vlm_score": 0.9618895351886749
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cinematic.png",
+        "score": 0.8428827036172151,
+        "seed": "Cinematic_content_0004",
+        "source_style": "Cinematic",
+        "clip_score": 0.5617415867745876,
+        "vlm_score": 0.963371753692627
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Children's book Illustration|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Children's book Illustration",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Children's book Illustration style with playful forms, warm colors, and storybook texture while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Children_s_book_Illustration.png",
+      "score": 0.8658441662788391,
+      "seed": "Children's book Illustration_content_0004",
+      "source_style": "Children's book Illustration",
+      "clip_score": 0.5528138875961304,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cool_Tone.png",
+        "score": 0.8362997524440288,
+        "seed": "Cool Tone_content_0004",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5499144271016121,
+        "vlm_score": 0.9590363204479218
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Action_Painting.png",
+        "score": 0.8376125685870648,
+        "seed": "Action Painting_content_0004",
+        "source_style": "Action Painting",
+        "clip_score": 0.5518002286553383,
+        "vlm_score": 0.9601035714149475
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cubism.png",
+        "score": 0.8380937952548265,
+        "seed": "Cubism_content_0004",
+        "source_style": "Cubism",
+        "clip_score": 0.5545469783246517,
+        "vlm_score": 0.9596138596534729
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Chinese Ink Painting|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Chinese Ink Painting",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Chinese Ink Painting style with ink wash gradients, calligraphic strokes, and minimal color while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Chinese_Ink_Painting.png",
+      "score": 0.8657000310719013,
+      "seed": "Chinese Ink Painting_content_0004",
+      "source_style": "Chinese Ink Painting",
+      "clip_score": 0.5523334369063377,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cool_Tone.png",
+        "score": 0.8315537407994271,
+        "seed": "Cool Tone_content_0004",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5509004443883896,
+        "vlm_score": 0.9518337249755859
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cinematic.png",
+        "score": 0.8316063523292542,
+        "seed": "Cinematic_content_0004",
+        "source_style": "Cinematic",
+        "clip_score": 0.5509147644042969,
+        "vlm_score": 0.9519027471542358
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cubism.png",
+        "score": 0.8341338273137808,
+        "seed": "Cubism_content_0004",
+        "source_style": "Cubism",
+        "clip_score": 0.5532158203423023,
+        "vlm_score": 0.9545272588729858
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Cinematic|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Cinematic",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cinematic style with filmic lighting, dramatic contrast, and mood-focused color grading while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cinematic.png",
+      "score": 0.8673665959388017,
+      "seed": "Cinematic_content_0004",
+      "source_style": "Cinematic",
+      "clip_score": 0.5578886531293392,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/African_Tribal_Art.png",
+        "score": 0.833971843868494,
+        "seed": "African Tribal Art_content_0004",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5612509772181511,
+        "vlm_score": 0.9508522152900696
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Crayon_Texture.png",
+        "score": 0.8347158562391996,
+        "seed": "Crayon Texture_content_0004",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5596173144876957,
+        "vlm_score": 0.9526152312755585
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Chinese_Ink_Painting.png",
+        "score": 0.834920908883214,
+        "seed": "Chinese Ink Painting_content_0004",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5619632862508297,
+        "vlm_score": 0.9519027471542358
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Comic|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Comic",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Comic style with panel-like boldness, clear contour lines, and punchy color separation while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Comic.png",
+      "score": 0.8702685259282589,
+      "seed": "Comic_content_0004",
+      "source_style": "Comic",
+      "clip_score": 0.5675617530941963,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/African_Tribal_Art.png",
+        "score": 0.8417882092297077,
+        "seed": "African Tribal Art_content_0004",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.567705474793911,
+        "vlm_score": 0.9592522382736206
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Chinese_Ink_Painting.png",
+        "score": 0.843450028449297,
+        "seed": "Chinese Ink Painting_content_0004",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.568533830344677,
+        "vlm_score": 0.9612712562084198
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Dreamlike_Ethereal.png",
+        "score": 0.8435149781405926,
+        "seed": "Dreamlike Ethereal_content_0004",
+        "source_style": "Dreamlike Ethereal",
+        "clip_score": 0.5674604550004005,
+        "vlm_score": 0.9618240594863892
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Cool Tone|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Cool Tone",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cool Tone style with blue-cyan dominant grading and crisp atmospheric lighting while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cool_Tone.png",
+      "score": 0.87144133746624,
+      "seed": "Cool Tone_content_0004",
+      "source_style": "Cool Tone",
+      "clip_score": 0.5714711248874664,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Action_Painting.png",
+        "score": 0.8356513008475304,
+        "seed": "Action Painting_content_0004",
+        "source_style": "Action Painting",
+        "clip_score": 0.5687806755304337,
+        "vlm_score": 0.950024425983429
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cubism.png",
+        "score": 0.8362023912370204,
+        "seed": "Cubism_content_0004",
+        "source_style": "Cubism",
+        "clip_score": 0.5726446285843849,
+        "vlm_score": 0.94915571808815
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Chinese_Ink_Painting.png",
+        "score": 0.8379698149859905,
+        "seed": "Chinese Ink Painting_content_0004",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5722873583436012,
+        "vlm_score": 0.9518337249755859
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Crayon Texture|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Crayon Texture",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Crayon Texture style with waxy grain, hand-drawn strokes, and textured fills while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Crayon_Texture.png",
+      "score": 0.8736364014446736,
+      "seed": "Crayon Texture_content_0004",
+      "source_style": "Crayon Texture",
+      "clip_score": 0.5787880048155785,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cubism.png",
+        "score": 0.8393725216388703,
+        "seed": "Cubism_content_0004",
+        "source_style": "Cubism",
+        "clip_score": 0.5796326398849487,
+        "vlm_score": 0.9506896138191223
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/African_Tribal_Art.png",
+        "score": 0.8402294360101223,
+        "seed": "African Tribal Art_content_0004",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5779933407902718,
+        "vlm_score": 0.9526163339614868
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cinematic.png",
+        "score": 0.8410440891981125,
+        "seed": "Cinematic_content_0004",
+        "source_style": "Cinematic",
+        "clip_score": 0.5807114243507385,
+        "vlm_score": 0.9526152312755585
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Cubism|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Cubism",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cubism style with fragmented planes, abstract geometric decomposition, and multi-perspective forms while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cubism.png",
+      "score": 0.8741981811821461,
+      "seed": "Cubism_content_0004",
+      "source_style": "Cubism",
+      "clip_score": 0.5806606039404869,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cool_Tone.png",
+        "score": 0.8383752688765526,
+        "seed": "Cool Tone_content_0004",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5798875540494919,
+        "vlm_score": 0.94915571808815
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Crayon_Texture.png",
+        "score": 0.8404953837394715,
+        "seed": "Crayon Texture_content_0004",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5833755135536194,
+        "vlm_score": 0.9506896138191223
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Candy_Pastel.png",
+        "score": 0.8413116313517093,
+        "seed": "Candy Pastel_content_0004",
+        "source_style": "Candy Pastel",
+        "clip_score": 0.5784513875842094,
+        "vlm_score": 0.9539660215377808
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0004|Dreamlike Ethereal|style_transfer_40_v1",
+    "content_id": "content_0004",
+    "style_id": "Dreamlike Ethereal",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Dreamlike Ethereal style with misty glow, soft transitions, and surreal ambience while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Dreamlike_Ethereal.png",
+      "score": 0.8635387249290942,
+      "seed": "Dreamlike Ethereal_content_0004",
+      "source_style": "Dreamlike Ethereal",
+      "clip_score": 0.545129083096981,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Crayon_Texture.png",
+        "score": 0.83540696837008,
+        "seed": "Crayon Texture_content_0004",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5485336296260357,
+        "vlm_score": 0.9583526849746704
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Action_Painting.png",
+        "score": 0.8356754206120968,
+        "seed": "Action Painting_content_0004",
+        "source_style": "Action Painting",
+        "clip_score": 0.5465606227517128,
+        "vlm_score": 0.9595817625522614
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0004/Cubism.png",
+        "score": 0.8362093053758144,
+        "seed": "Cubism_content_0004",
+        "source_style": "Cubism",
+        "clip_score": 0.5495435371994972,
+        "vlm_score": 0.9590660631656647
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Action Painting|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Action Painting",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Action_Painting.png",
+      "score": 0.8652348689734936,
+      "seed": "Action Painting_content_0006",
+      "source_style": "Action Painting",
+      "clip_score": 0.5507828965783119,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cool_Tone.png",
+        "score": 0.8310417033731938,
+        "seed": "Cool Tone_content_0006",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5534153506159782,
+        "vlm_score": 0.950024425983429
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cinematic.png",
+        "score": 0.8341731205582619,
+        "seed": "Cinematic_content_0006",
+        "source_style": "Cinematic",
+        "clip_score": 0.5508237928152084,
+        "vlm_score": 0.9556085467338562
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Anime.png",
+        "score": 0.8353525143116711,
+        "seed": "Anime_content_0006",
+        "source_style": "Anime",
+        "clip_score": 0.5510735847055912,
+        "vlm_score": 0.9571863412857056
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|African Tribal Art|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "African Tribal Art",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an African Tribal Art style with geometric motifs, earthy palettes, and symbolic patterning while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/African_Tribal_Art.png",
+      "score": 0.8707705058157444,
+      "seed": "African Tribal Art_content_0006",
+      "source_style": "African Tribal Art",
+      "clip_score": 0.5692350193858147,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cinematic.png",
+        "score": 0.8363044045865535,
+        "seed": "Cinematic_content_0006",
+        "source_style": "Cinematic",
+        "clip_score": 0.5690261796116829,
+        "vlm_score": 0.9508522152900696
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Crayon_Texture.png",
+        "score": 0.8375357896089555,
+        "seed": "Crayon Texture_content_0006",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5690145194530487,
+        "vlm_score": 0.9526163339614868
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cool_Tone.png",
+        "score": 0.8381970435380937,
+        "seed": "Cool Tone_content_0006",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5709558427333832,
+        "vlm_score": 0.9527289867401123
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Anime|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Anime",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an Anime style with clean line art, stylized shading, and vivid color blocks while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Anime.png",
+      "score": 0.8694729201495648,
+      "seed": "Anime_content_0006",
+      "source_style": "Anime",
+      "clip_score": 0.5649097338318825,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Crayon_Texture.png",
+        "score": 0.8386652655899525,
+        "seed": "Crayon Texture_content_0006",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5646185800433159,
+        "vlm_score": 0.9561138451099396
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Action_Painting.png",
+        "score": 0.8390477210283279,
+        "seed": "Action Painting_content_0006",
+        "source_style": "Action Painting",
+        "clip_score": 0.5633909404277802,
+        "vlm_score": 0.9571863412857056
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cubism.png",
+        "score": 0.8392804846167564,
+        "seed": "Cubism_content_0006",
+        "source_style": "Cubism",
+        "clip_score": 0.5630726963281631,
+        "vlm_score": 0.9576552510261536
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Black and White|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Black and White",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Black and White style with strong tonal contrast and grayscale rendering while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Black_and_White.png",
+      "score": 0.8689867630600929,
+      "seed": "Black and White_content_0006",
+      "source_style": "Black and White",
+      "clip_score": 0.5632892102003098,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cubism.png",
+        "score": 0.8421857360750438,
+        "seed": "Cubism_content_0006",
+        "source_style": "Cubism",
+        "clip_score": 0.5609045438468456,
+        "vlm_score": 0.9627348184585571
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Action_Painting.png",
+        "score": 0.8431061483919621,
+        "seed": "Action Painting_content_0006",
+        "source_style": "Action Painting",
+        "clip_score": 0.5633208677172661,
+        "vlm_score": 0.9630141258239746
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Chinese_Ink_Painting.png",
+        "score": 0.8444201089441776,
+        "seed": "Chinese Ink Painting_content_0006",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.564082495868206,
+        "vlm_score": 0.9645648002624512
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Candy Pastel|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Candy Pastel",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Candy Pastel style with soft pastel tones, gentle highlights, and dreamy color transitions while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Candy_Pastel.png",
+      "score": 0.8602909464389086,
+      "seed": "Candy Pastel_content_0006",
+      "source_style": "Candy Pastel",
+      "clip_score": 0.5343031547963619,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cubism.png",
+        "score": 0.8281020279973745,
+        "seed": "Cubism_content_0006",
+        "source_style": "Cubism",
+        "clip_score": 0.5344193764030933,
+        "vlm_score": 0.9539660215377808
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Chinese_Ink_Painting.png",
+        "score": 0.8285843677818775,
+        "seed": "Chinese Ink Painting_content_0006",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5298574194312096,
+        "vlm_score": 0.9566102027893066
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Action_Painting.png",
+        "score": 0.8294256191700697,
+        "seed": "Action Painting_content_0006",
+        "source_style": "Action Painting",
+        "clip_score": 0.5315473712980747,
+        "vlm_score": 0.9570877254009247
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Cartoon|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Cartoon",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cartoon style with simplified shapes, bold outlines, and stylized shading while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cartoon.png",
+      "score": 0.8671850249171257,
+      "seed": "Cartoon_content_0006",
+      "source_style": "Cartoon",
+      "clip_score": 0.557283416390419,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Chinese_Ink_Painting.png",
+        "score": 0.8399750415235757,
+        "seed": "Chinese Ink Painting_content_0006",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5600243620574474,
+        "vlm_score": 0.9599539041519165
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Action_Painting.png",
+        "score": 0.8415123868733645,
+        "seed": "Action Painting_content_0006",
+        "source_style": "Action Painting",
+        "clip_score": 0.56063237413764,
+        "vlm_score": 0.9618895351886749
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cinematic.png",
+        "score": 0.8423179723322392,
+        "seed": "Cinematic_content_0006",
+        "source_style": "Cinematic",
+        "clip_score": 0.559859149158001,
+        "vlm_score": 0.963371753692627
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Children's book Illustration|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Children's book Illustration",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Children's book Illustration style with playful forms, warm colors, and storybook texture while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Children_s_book_Illustration.png",
+      "score": 0.8662492301315069,
+      "seed": "Children's book Illustration_content_0006",
+      "source_style": "Children's book Illustration",
+      "clip_score": 0.5541641004383564,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cool_Tone.png",
+        "score": 0.8369402036070823,
+        "seed": "Cool Tone_content_0006",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5520492643117905,
+        "vlm_score": 0.9590363204479218
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cubism.png",
+        "score": 0.8370837301015853,
+        "seed": "Cubism_content_0006",
+        "source_style": "Cubism",
+        "clip_score": 0.5511800944805145,
+        "vlm_score": 0.9596138596534729
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Chinese_Ink_Painting.png",
+        "score": 0.837118698656559,
+        "seed": "Chinese Ink Painting_content_0006",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5500195771455765,
+        "vlm_score": 0.9601611793041229
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Chinese Ink Painting|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Chinese Ink Painting",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Chinese Ink Painting style with ink wash gradients, calligraphic strokes, and minimal color while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Chinese_Ink_Painting.png",
+      "score": 0.8654007479548453,
+      "seed": "Chinese Ink Painting_content_0006",
+      "source_style": "Chinese Ink Painting",
+      "clip_score": 0.5513358265161514,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cinematic.png",
+        "score": 0.8315244879573583,
+        "seed": "Cinematic_content_0006",
+        "source_style": "Cinematic",
+        "clip_score": 0.5506418831646442,
+        "vlm_score": 0.9519027471542358
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cool_Tone.png",
+        "score": 0.8318712025880814,
+        "seed": "Cool Tone_content_0006",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5519586503505707,
+        "vlm_score": 0.9518337249755859
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cubism.png",
+        "score": 0.8336676560342312,
+        "seed": "Cubism_content_0006",
+        "source_style": "Cubism",
+        "clip_score": 0.551661916077137,
+        "vlm_score": 0.9545272588729858
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Cinematic|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Cinematic",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cinematic style with filmic lighting, dramatic contrast, and mood-focused color grading while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cinematic.png",
+      "score": 0.8682470198720693,
+      "seed": "Cinematic_content_0006",
+      "source_style": "Cinematic",
+      "clip_score": 0.5608233995735645,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/African_Tribal_Art.png",
+        "score": 0.8343410331755876,
+        "seed": "African Tribal Art_content_0006",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5624816082417965,
+        "vlm_score": 0.9508522152900696
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Chinese_Ink_Painting.png",
+        "score": 0.8347190815955401,
+        "seed": "Chinese Ink Painting_content_0006",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5612905286252499,
+        "vlm_score": 0.9519027471542358
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cubism.png",
+        "score": 0.8361037332564591,
+        "seed": "Cubism_content_0006",
+        "source_style": "Cubism",
+        "clip_score": 0.5605225525796413,
+        "vlm_score": 0.954209953546524
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Comic|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Comic",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Comic style with panel-like boldness, clear contour lines, and punchy color separation while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Comic.png",
+      "score": 0.8696932099759579,
+      "seed": "Comic_content_0006",
+      "source_style": "Comic",
+      "clip_score": 0.5656440332531929,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/African_Tribal_Art.png",
+        "score": 0.8418311759829521,
+        "seed": "African Tribal Art_content_0006",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5678486973047256,
+        "vlm_score": 0.9592522382736206
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cubism.png",
+        "score": 0.8429580837488174,
+        "seed": "Cubism_content_0006",
+        "source_style": "Cubism",
+        "clip_score": 0.5659728348255157,
+        "vlm_score": 0.9616660475730896
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Chinese_Ink_Painting.png",
+        "score": 0.8430306784808635,
+        "seed": "Chinese Ink Painting_content_0006",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5671359971165657,
+        "vlm_score": 0.9612712562084198
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Cool Tone|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Cool Tone",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cool Tone style with blue-cyan dominant grading and crisp atmospheric lighting while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cool_Tone.png",
+      "score": 0.8717273525893688,
+      "seed": "Cool Tone_content_0006",
+      "source_style": "Cool Tone",
+      "clip_score": 0.5724245086312294,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cubism.png",
+        "score": 0.8359377823770047,
+        "seed": "Cubism_content_0006",
+        "source_style": "Cubism",
+        "clip_score": 0.5717625990509987,
+        "vlm_score": 0.94915571808815
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Action_Painting.png",
+        "score": 0.8361386336386204,
+        "seed": "Action Painting_content_0006",
+        "source_style": "Action Painting",
+        "clip_score": 0.5704051181674004,
+        "vlm_score": 0.950024425983429
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Chinese_Ink_Painting.png",
+        "score": 0.8377789981663227,
+        "seed": "Chinese Ink Painting_content_0006",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5716513022780418,
+        "vlm_score": 0.9518337249755859
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Crayon Texture|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Crayon Texture",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Crayon Texture style with waxy grain, hand-drawn strokes, and textured fills while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Crayon_Texture.png",
+      "score": 0.8737201198935509,
+      "seed": "Crayon Texture_content_0006",
+      "source_style": "Crayon Texture",
+      "clip_score": 0.5790670663118362,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cubism.png",
+        "score": 0.8383912108838558,
+        "seed": "Cubism_content_0006",
+        "source_style": "Cubism",
+        "clip_score": 0.5763616040349007,
+        "vlm_score": 0.9506896138191223
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cinematic.png",
+        "score": 0.8395332120358944,
+        "seed": "Cinematic_content_0006",
+        "source_style": "Cinematic",
+        "clip_score": 0.5756751671433449,
+        "vlm_score": 0.9526152312755585
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/African_Tribal_Art.png",
+        "score": 0.8403929859399796,
+        "seed": "African Tribal Art_content_0006",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5785385072231293,
+        "vlm_score": 0.9526163339614868
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Cubism|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Cubism",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cubism style with fragmented planes, abstract geometric decomposition, and multi-perspective forms while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cubism.png",
+      "score": 0.8726546615362167,
+      "seed": "Cubism_content_0006",
+      "source_style": "Cubism",
+      "clip_score": 0.5755155384540558,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cool_Tone.png",
+        "score": 0.8385646641254425,
+        "seed": "Cool Tone_content_0006",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5805188715457916,
+        "vlm_score": 0.94915571808815
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Crayon_Texture.png",
+        "score": 0.8397664643824101,
+        "seed": "Crayon Texture_content_0006",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5809457823634148,
+        "vlm_score": 0.9506896138191223
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Chinese_Ink_Painting.png",
+        "score": 0.8416340425610542,
+        "seed": "Chinese Ink Painting_content_0006",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5782165378332138,
+        "vlm_score": 0.9545272588729858
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0006|Dreamlike Ethereal|style_transfer_40_v1",
+    "content_id": "content_0006",
+    "style_id": "Dreamlike Ethereal",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Dreamlike Ethereal style with misty glow, soft transitions, and surreal ambience while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Dreamlike_Ethereal.png",
+      "score": 0.8639075409621,
+      "seed": "Dreamlike Ethereal_content_0006",
+      "source_style": "Dreamlike Ethereal",
+      "clip_score": 0.5463584698736668,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Action_Painting.png",
+        "score": 0.835526754707098,
+        "seed": "Action Painting_content_0006",
+        "source_style": "Action Painting",
+        "clip_score": 0.5460650697350502,
+        "vlm_score": 0.9595817625522614
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Crayon_Texture.png",
+        "score": 0.835859151929617,
+        "seed": "Crayon Texture_content_0006",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5500409081578255,
+        "vlm_score": 0.9583526849746704
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0006/Cubism.png",
+        "score": 0.8361161980777978,
+        "seed": "Cubism_content_0006",
+        "source_style": "Cubism",
+        "clip_score": 0.5492331795394421,
+        "vlm_score": 0.9590660631656647
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Action Painting|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Action Painting",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Action_Painting.png",
+      "score": 0.8655813913792372,
+      "seed": "Action Painting_content_0008",
+      "source_style": "Action Painting",
+      "clip_score": 0.5519379712641239,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cool_Tone.png",
+        "score": 0.8310546204447746,
+        "seed": "Cool Tone_content_0008",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5534584075212479,
+        "vlm_score": 0.950024425983429
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cinematic.png",
+        "score": 0.8344460520893335,
+        "seed": "Cinematic_content_0008",
+        "source_style": "Cinematic",
+        "clip_score": 0.5517335645854473,
+        "vlm_score": 0.9556085467338562
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Anime.png",
+        "score": 0.8358032114803791,
+        "seed": "Anime_content_0008",
+        "source_style": "Anime",
+        "clip_score": 0.552575908601284,
+        "vlm_score": 0.9571863412857056
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|African Tribal Art|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "African Tribal Art",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an African Tribal Art style with geometric motifs, earthy palettes, and symbolic patterning while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/African_Tribal_Art.png",
+      "score": 0.8708951190114022,
+      "seed": "African Tribal Art_content_0008",
+      "source_style": "African Tribal Art",
+      "clip_score": 0.5696503967046738,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cinematic.png",
+        "score": 0.8355936750769615,
+        "seed": "Cinematic_content_0008",
+        "source_style": "Cinematic",
+        "clip_score": 0.566657081246376,
+        "vlm_score": 0.9508522152900696
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Crayon_Texture.png",
+        "score": 0.8374116592109204,
+        "seed": "Crayon Texture_content_0008",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5686007514595985,
+        "vlm_score": 0.9526163339614868
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cool_Tone.png",
+        "score": 0.8379371821880341,
+        "seed": "Cool Tone_content_0008",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5700896382331848,
+        "vlm_score": 0.9527289867401123
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Anime|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Anime",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an Anime style with clean line art, stylized shading, and vivid color blocks while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Anime.png",
+      "score": 0.8688773065805435,
+      "seed": "Anime_content_0008",
+      "source_style": "Anime",
+      "clip_score": 0.5629243552684784,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Crayon_Texture.png",
+        "score": 0.8379929173737763,
+        "seed": "Crayon Texture_content_0008",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5623774193227291,
+        "vlm_score": 0.9561138451099396
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Action_Painting.png",
+        "score": 0.8390514470636844,
+        "seed": "Action Painting_content_0008",
+        "source_style": "Action Painting",
+        "clip_score": 0.5634033605456352,
+        "vlm_score": 0.9571863412857056
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cubism.png",
+        "score": 0.8400419503450394,
+        "seed": "Cubism_content_0008",
+        "source_style": "Cubism",
+        "clip_score": 0.5656109154224396,
+        "vlm_score": 0.9576552510261536
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Black and White|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Black and White",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Black and White style with strong tonal contrast and grayscale rendering while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Black_and_White.png",
+      "score": 0.8689707301557064,
+      "seed": "Black and White_content_0008",
+      "source_style": "Black and White",
+      "clip_score": 0.563235767185688,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Action_Painting.png",
+        "score": 0.8417374271899462,
+        "seed": "Action Painting_content_0008",
+        "source_style": "Action Painting",
+        "clip_score": 0.5587584637105465,
+        "vlm_score": 0.9630141258239746
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cubism.png",
+        "score": 0.8428652882575989,
+        "seed": "Cubism_content_0008",
+        "source_style": "Cubism",
+        "clip_score": 0.5631697177886963,
+        "vlm_score": 0.9627348184585571
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Chinese_Ink_Painting.png",
+        "score": 0.8433249540627001,
+        "seed": "Chinese Ink Painting_content_0008",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5604319795966148,
+        "vlm_score": 0.9645648002624512
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Candy Pastel|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Candy Pastel",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Candy Pastel style with soft pastel tones, gentle highlights, and dreamy color transitions while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Candy_Pastel.png",
+      "score": 0.8614407122135161,
+      "seed": "Candy Pastel_content_0008",
+      "source_style": "Candy Pastel",
+      "clip_score": 0.5381357073783875,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cubism.png",
+        "score": 0.828850919753313,
+        "seed": "Cubism_content_0008",
+        "source_style": "Cubism",
+        "clip_score": 0.5369156822562218,
+        "vlm_score": 0.9539660215377808
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Action_Painting.png",
+        "score": 0.8301569245755673,
+        "seed": "Action Painting_content_0008",
+        "source_style": "Action Painting",
+        "clip_score": 0.5339850559830666,
+        "vlm_score": 0.9570877254009247
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Chinese_Ink_Painting.png",
+        "score": 0.8306187450885772,
+        "seed": "Chinese Ink Painting_content_0008",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5366386771202087,
+        "vlm_score": 0.9566102027893066
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Cartoon|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Cartoon",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cartoon style with simplified shapes, bold outlines, and stylized shading while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cartoon.png",
+      "score": 0.8682798847556115,
+      "seed": "Cartoon_content_0008",
+      "source_style": "Cartoon",
+      "clip_score": 0.5609329491853714,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Chinese_Ink_Painting.png",
+        "score": 0.8402091793715953,
+        "seed": "Chinese Ink Painting_content_0008",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5608048215508461,
+        "vlm_score": 0.9599539041519165
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Action_Painting.png",
+        "score": 0.8411920048296451,
+        "seed": "Action Painting_content_0008",
+        "source_style": "Action Painting",
+        "clip_score": 0.559564433991909,
+        "vlm_score": 0.9618895351886749
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cinematic.png",
+        "score": 0.842647797986865,
+        "seed": "Cinematic_content_0008",
+        "source_style": "Cinematic",
+        "clip_score": 0.5609585680067539,
+        "vlm_score": 0.963371753692627
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Children's book Illustration|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Children's book Illustration",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Children's book Illustration style with playful forms, warm colors, and storybook texture while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Children_s_book_Illustration.png",
+      "score": 0.864679653942585,
+      "seed": "Children's book Illustration_content_0008",
+      "source_style": "Children's book Illustration",
+      "clip_score": 0.5489321798086166,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cubism.png",
+        "score": 0.837549614161253,
+        "seed": "Cubism_content_0008",
+        "source_style": "Cubism",
+        "clip_score": 0.5527330413460732,
+        "vlm_score": 0.9596138596534729
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Action_Painting.png",
+        "score": 0.8377180118113756,
+        "seed": "Action Painting_content_0008",
+        "source_style": "Action Painting",
+        "clip_score": 0.5521517060697079,
+        "vlm_score": 0.9601035714149475
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cool_Tone.png",
+        "score": 0.8377302818000316,
+        "seed": "Cool Tone_content_0008",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5546828582882881,
+        "vlm_score": 0.9590363204479218
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Chinese Ink Painting|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Chinese Ink Painting",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Chinese Ink Painting style with ink wash gradients, calligraphic strokes, and minimal color while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Chinese_Ink_Painting.png",
+      "score": 0.8651939664036035,
+      "seed": "Chinese Ink Painting_content_0008",
+      "source_style": "Chinese Ink Painting",
+      "clip_score": 0.5506465546786785,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cinematic.png",
+        "score": 0.8320946719497442,
+        "seed": "Cinematic_content_0008",
+        "source_style": "Cinematic",
+        "clip_score": 0.5525424964725971,
+        "vlm_score": 0.9519027471542358
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cool_Tone.png",
+        "score": 0.8327511806041002,
+        "seed": "Cool Tone_content_0008",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5548919104039669,
+        "vlm_score": 0.9518337249755859
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cubism.png",
+        "score": 0.834558315947652,
+        "seed": "Cubism_content_0008",
+        "source_style": "Cubism",
+        "clip_score": 0.5546307824552059,
+        "vlm_score": 0.9545272588729858
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Cinematic|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Cinematic",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cinematic style with filmic lighting, dramatic contrast, and mood-focused color grading while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cinematic.png",
+      "score": 0.8684265926480292,
+      "seed": "Cinematic_content_0008",
+      "source_style": "Cinematic",
+      "clip_score": 0.5614219754934311,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/African_Tribal_Art.png",
+        "score": 0.8342419367283582,
+        "seed": "African Tribal Art_content_0008",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5621512867510319,
+        "vlm_score": 0.9508522152900696
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Chinese_Ink_Painting.png",
+        "score": 0.8344916146248579,
+        "seed": "Chinese Ink Painting_content_0008",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5605323053896427,
+        "vlm_score": 0.9519027471542358
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Crayon_Texture.png",
+        "score": 0.8353388607501984,
+        "seed": "Crayon Texture_content_0008",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5616939961910248,
+        "vlm_score": 0.9526152312755585
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Comic|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Comic",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Comic style with panel-like boldness, clear contour lines, and punchy color separation while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Comic.png",
+      "score": 0.8703950703144073,
+      "seed": "Comic_content_0008",
+      "source_style": "Comic",
+      "clip_score": 0.5679835677146912,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/African_Tribal_Art.png",
+        "score": 0.8423477694392204,
+        "seed": "African Tribal Art_content_0008",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5695706754922867,
+        "vlm_score": 0.9592522382736206
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Dreamlike_Ethereal.png",
+        "score": 0.84296083599329,
+        "seed": "Dreamlike Ethereal_content_0008",
+        "source_style": "Dreamlike Ethereal",
+        "clip_score": 0.5656133145093918,
+        "vlm_score": 0.9618240594863892
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Chinese_Ink_Painting.png",
+        "score": 0.8431283041834832,
+        "seed": "Chinese Ink Painting_content_0008",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5674614161252975,
+        "vlm_score": 0.9612712562084198
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Cool Tone|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Cool Tone",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cool Tone style with blue-cyan dominant grading and crisp atmospheric lighting while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cool_Tone.png",
+      "score": 0.8725160405039787,
+      "seed": "Cool Tone_content_0008",
+      "source_style": "Cool Tone",
+      "clip_score": 0.5750534683465958,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Action_Painting.png",
+        "score": 0.8351948335766792,
+        "seed": "Action Painting_content_0008",
+        "source_style": "Action Painting",
+        "clip_score": 0.5672591179609299,
+        "vlm_score": 0.950024425983429
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cubism.png",
+        "score": 0.8355565667152405,
+        "seed": "Cubism_content_0008",
+        "source_style": "Cubism",
+        "clip_score": 0.5704918801784515,
+        "vlm_score": 0.94915571808815
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Chinese_Ink_Painting.png",
+        "score": 0.8380448430776597,
+        "seed": "Chinese Ink Painting_content_0008",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5725374519824982,
+        "vlm_score": 0.9518337249755859
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Crayon Texture|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Crayon Texture",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Crayon Texture style with waxy grain, hand-drawn strokes, and textured fills while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Crayon_Texture.png",
+      "score": 0.8746799908578395,
+      "seed": "Crayon Texture_content_0008",
+      "source_style": "Crayon Texture",
+      "clip_score": 0.5822666361927986,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cubism.png",
+        "score": 0.8396162293851376,
+        "seed": "Cubism_content_0008",
+        "source_style": "Cubism",
+        "clip_score": 0.5804449990391731,
+        "vlm_score": 0.9506896138191223
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cinematic.png",
+        "score": 0.840942969918251,
+        "seed": "Cinematic_content_0008",
+        "source_style": "Cinematic",
+        "clip_score": 0.5803743600845337,
+        "vlm_score": 0.9526152312755585
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/African_Tribal_Art.png",
+        "score": 0.8414865672588349,
+        "seed": "African Tribal Art_content_0008",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5821837782859802,
+        "vlm_score": 0.9526163339614868
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Cubism|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Cubism",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cubism style with fragmented planes, abstract geometric decomposition, and multi-perspective forms while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cubism.png",
+      "score": 0.8738584481179714,
+      "seed": "Cubism_content_0008",
+      "source_style": "Cubism",
+      "clip_score": 0.5795281603932381,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cool_Tone.png",
+        "score": 0.8388678185641766,
+        "seed": "Cool Tone_content_0008",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5815293863415718,
+        "vlm_score": 0.94915571808815
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Crayon_Texture.png",
+        "score": 0.8391750887036324,
+        "seed": "Crayon Texture_content_0008",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5789745301008224,
+        "vlm_score": 0.9506896138191223
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Chinese_Ink_Painting.png",
+        "score": 0.8416537456214428,
+        "seed": "Chinese Ink Painting_content_0008",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5782822147011757,
+        "vlm_score": 0.9545272588729858
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0008|Dreamlike Ethereal|style_transfer_40_v1",
+    "content_id": "content_0008",
+    "style_id": "Dreamlike Ethereal",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Dreamlike Ethereal style with misty glow, soft transitions, and surreal ambience while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Dreamlike_Ethereal.png",
+      "score": 0.8638087842613458,
+      "seed": "Dreamlike Ethereal_content_0008",
+      "source_style": "Dreamlike Ethereal",
+      "clip_score": 0.5460292808711529,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Crayon_Texture.png",
+        "score": 0.8356952767819166,
+        "seed": "Crayon Texture_content_0008",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5494946576654911,
+        "vlm_score": 0.9583526849746704
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Action_Painting.png",
+        "score": 0.8359504856169224,
+        "seed": "Action Painting_content_0008",
+        "source_style": "Action Painting",
+        "clip_score": 0.5474775061011314,
+        "vlm_score": 0.9595817625522614
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0008/Cubism.png",
+        "score": 0.8360101480036974,
+        "seed": "Cubism_content_0008",
+        "source_style": "Cubism",
+        "clip_score": 0.5488796792924404,
+        "vlm_score": 0.9590660631656647
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Action Painting|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Action Painting",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Action_Painting.png",
+      "score": 0.8649110402911901,
+      "seed": "Action Painting_content_0010",
+      "source_style": "Action Painting",
+      "clip_score": 0.5497034676373005,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cool_Tone.png",
+        "score": 0.831774590164423,
+        "seed": "Cool Tone_content_0010",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5558583065867424,
+        "vlm_score": 0.950024425983429
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cinematic.png",
+        "score": 0.8342545613646507,
+        "seed": "Cinematic_content_0010",
+        "source_style": "Cinematic",
+        "clip_score": 0.551095262169838,
+        "vlm_score": 0.9556085467338562
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Candy_Pastel.png",
+        "score": 0.834691547602415,
+        "seed": "Candy Pastel_content_0010",
+        "source_style": "Candy Pastel",
+        "clip_score": 0.5491004660725594,
+        "vlm_score": 0.9570877254009247
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|African Tribal Art|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "African Tribal Art",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an African Tribal Art style with geometric motifs, earthy palettes, and symbolic patterning while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/African_Tribal_Art.png",
+      "score": 0.8699876047670841,
+      "seed": "African Tribal Art_content_0010",
+      "source_style": "African Tribal Art",
+      "clip_score": 0.5666253492236137,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cinematic.png",
+        "score": 0.8351893410086632,
+        "seed": "Cinematic_content_0010",
+        "source_style": "Cinematic",
+        "clip_score": 0.5653093010187149,
+        "vlm_score": 0.9508522152900696
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Crayon_Texture.png",
+        "score": 0.8367818832397461,
+        "seed": "Crayon Texture_content_0010",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5665014982223511,
+        "vlm_score": 0.9526163339614868
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cool_Tone.png",
+        "score": 0.8375688813626767,
+        "seed": "Cool Tone_content_0010",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5688619688153267,
+        "vlm_score": 0.9527289867401123
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Anime|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Anime",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an Anime style with clean line art, stylized shading, and vivid color blocks while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Anime.png",
+      "score": 0.8690051227807999,
+      "seed": "Anime_content_0010",
+      "source_style": "Anime",
+      "clip_score": 0.5633504092693329,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Action_Painting.png",
+        "score": 0.8373903416097164,
+        "seed": "Action Painting_content_0010",
+        "source_style": "Action Painting",
+        "clip_score": 0.5578663423657417,
+        "vlm_score": 0.9571863412857056
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Crayon_Texture.png",
+        "score": 0.8377918232232332,
+        "seed": "Crayon Texture_content_0010",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5617071054875851,
+        "vlm_score": 0.9561138451099396
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cubism.png",
+        "score": 0.8390675384551286,
+        "seed": "Cubism_content_0010",
+        "source_style": "Cubism",
+        "clip_score": 0.5623628757894039,
+        "vlm_score": 0.9576552510261536
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Black and White|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Black and White",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Black and White style with strong tonal contrast and grayscale rendering while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Black_and_White.png",
+      "score": 0.8686666995286941,
+      "seed": "Black and White_content_0010",
+      "source_style": "Black and White",
+      "clip_score": 0.5622223317623138,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Action_Painting.png",
+        "score": 0.8421403139829635,
+        "seed": "Action Painting_content_0010",
+        "source_style": "Action Painting",
+        "clip_score": 0.5601014196872711,
+        "vlm_score": 0.9630141258239746
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cubism.png",
+        "score": 0.8422551918774843,
+        "seed": "Cubism_content_0010",
+        "source_style": "Cubism",
+        "clip_score": 0.5611360631883144,
+        "vlm_score": 0.9627348184585571
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Chinese_Ink_Painting.png",
+        "score": 0.8445163510739803,
+        "seed": "Chinese Ink Painting_content_0010",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5644033029675484,
+        "vlm_score": 0.9645648002624512
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Candy Pastel|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Candy Pastel",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Candy Pastel style with soft pastel tones, gentle highlights, and dreamy color transitions while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Candy_Pastel.png",
+      "score": 0.8602050922811031,
+      "seed": "Candy Pastel_content_0010",
+      "source_style": "Candy Pastel",
+      "clip_score": 0.5340169742703438,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cubism.png",
+        "score": 0.8277183838188648,
+        "seed": "Cubism_content_0010",
+        "source_style": "Cubism",
+        "clip_score": 0.5331405624747276,
+        "vlm_score": 0.9539660215377808
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Action_Painting.png",
+        "score": 0.8284365121275187,
+        "seed": "Action Painting_content_0010",
+        "source_style": "Action Painting",
+        "clip_score": 0.5282503478229046,
+        "vlm_score": 0.9570877254009247
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Chinese_Ink_Painting.png",
+        "score": 0.8297908645123243,
+        "seed": "Chinese Ink Painting_content_0010",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5338790751993656,
+        "vlm_score": 0.9566102027893066
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Cartoon|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Cartoon",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cartoon style with simplified shapes, bold outlines, and stylized shading while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cartoon.png",
+      "score": 0.8683744091540575,
+      "seed": "Cartoon_content_0010",
+      "source_style": "Cartoon",
+      "clip_score": 0.561248030513525,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Action_Painting.png",
+        "score": 0.8400771982967854,
+        "seed": "Action Painting_content_0010",
+        "source_style": "Action Painting",
+        "clip_score": 0.5558484122157097,
+        "vlm_score": 0.9618895351886749
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Chinese_Ink_Painting.png",
+        "score": 0.8405823327600955,
+        "seed": "Chinese Ink Painting_content_0010",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5620486661791801,
+        "vlm_score": 0.9599539041519165
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cinematic.png",
+        "score": 0.8421333279460668,
+        "seed": "Cinematic_content_0010",
+        "source_style": "Cinematic",
+        "clip_score": 0.55924366787076,
+        "vlm_score": 0.963371753692627
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Children's book Illustration|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Children's book Illustration",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Children's book Illustration style with playful forms, warm colors, and storybook texture while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Children_s_book_Illustration.png",
+      "score": 0.8650726221501828,
+      "seed": "Children's book Illustration_content_0010",
+      "source_style": "Children's book Illustration",
+      "clip_score": 0.5502420738339424,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Action_Painting.png",
+        "score": 0.8364812139421702,
+        "seed": "Action Painting_content_0010",
+        "source_style": "Action Painting",
+        "clip_score": 0.5480290465056896,
+        "vlm_score": 0.9601035714149475
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cubism.png",
+        "score": 0.837229923903942,
+        "seed": "Cubism_content_0010",
+        "source_style": "Cubism",
+        "clip_score": 0.5516674071550369,
+        "vlm_score": 0.9596138596534729
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cool_Tone.png",
+        "score": 0.8373709853738546,
+        "seed": "Cool Tone_content_0010",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5534852035343647,
+        "vlm_score": 0.9590363204479218
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Chinese Ink Painting|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Chinese Ink Painting",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Chinese Ink Painting style with ink wash gradients, calligraphic strokes, and minimal color while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Chinese_Ink_Painting.png",
+      "score": 0.8653956539928913,
+      "seed": "Chinese Ink Painting_content_0010",
+      "source_style": "Chinese Ink Painting",
+      "clip_score": 0.551318846642971,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cinematic.png",
+        "score": 0.8317694596946239,
+        "seed": "Cinematic_content_0010",
+        "source_style": "Cinematic",
+        "clip_score": 0.5514584556221962,
+        "vlm_score": 0.9519027471542358
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cool_Tone.png",
+        "score": 0.8328842863440513,
+        "seed": "Cool Tone_content_0010",
+        "source_style": "Cool Tone",
+        "clip_score": 0.555335596203804,
+        "vlm_score": 0.9518337249755859
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cubism.png",
+        "score": 0.8330355141311885,
+        "seed": "Cubism_content_0010",
+        "source_style": "Cubism",
+        "clip_score": 0.5495547764003277,
+        "vlm_score": 0.9545272588729858
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Cinematic|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Cinematic",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cinematic style with filmic lighting, dramatic contrast, and mood-focused color grading while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cinematic.png",
+      "score": 0.8680482145398856,
+      "seed": "Cinematic_content_0010",
+      "source_style": "Cinematic",
+      "clip_score": 0.5601607151329517,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/African_Tribal_Art.png",
+        "score": 0.83354861587286,
+        "seed": "African Tribal Art_content_0010",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5598402172327042,
+        "vlm_score": 0.9508522152900696
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Chinese_Ink_Painting.png",
+        "score": 0.8344242498278618,
+        "seed": "Chinese Ink Painting_content_0010",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5603077560663223,
+        "vlm_score": 0.9519027471542358
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Crayon_Texture.png",
+        "score": 0.8351080264896154,
+        "seed": "Crayon Texture_content_0010",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5609245486557484,
+        "vlm_score": 0.9526152312755585
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Comic|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Comic",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Comic style with panel-like boldness, clear contour lines, and punchy color separation while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Comic.png",
+      "score": 0.8704072162508965,
+      "seed": "Comic_content_0010",
+      "source_style": "Comic",
+      "clip_score": 0.5680240541696548,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/African_Tribal_Art.png",
+        "score": 0.8409470774233341,
+        "seed": "African Tribal Art_content_0010",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.564901702105999,
+        "vlm_score": 0.9592522382736206
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cubism.png",
+        "score": 0.8432706616818905,
+        "seed": "Cubism_content_0010",
+        "source_style": "Cubism",
+        "clip_score": 0.5670147612690926,
+        "vlm_score": 0.9616660475730896
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Dreamlike_Ethereal.png",
+        "score": 0.8434753999114037,
+        "seed": "Dreamlike Ethereal_content_0010",
+        "source_style": "Dreamlike Ethereal",
+        "clip_score": 0.5673285275697708,
+        "vlm_score": 0.9618240594863892
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Cool Tone|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Cool Tone",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cool Tone style with blue-cyan dominant grading and crisp atmospheric lighting while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cool_Tone.png",
+      "score": 0.8719460353255272,
+      "seed": "Cool Tone_content_0010",
+      "source_style": "Cool Tone",
+      "clip_score": 0.5731534510850906,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Action_Painting.png",
+        "score": 0.835030284523964,
+        "seed": "Action Painting_content_0010",
+        "source_style": "Action Painting",
+        "clip_score": 0.5667106211185455,
+        "vlm_score": 0.950024425983429
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cubism.png",
+        "score": 0.8362127289175987,
+        "seed": "Cubism_content_0010",
+        "source_style": "Cubism",
+        "clip_score": 0.5726790875196457,
+        "vlm_score": 0.94915571808815
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/African_Tribal_Art.png",
+        "score": 0.8377995669841767,
+        "seed": "African Tribal Art_content_0010",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5696309208869934,
+        "vlm_score": 0.9527289867401123
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Crayon Texture|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Crayon Texture",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Crayon Texture style with waxy grain, hand-drawn strokes, and textured fills while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Crayon_Texture.png",
+      "score": 0.873364818841219,
+      "seed": "Crayon Texture_content_0010",
+      "source_style": "Crayon Texture",
+      "clip_score": 0.5778827294707298,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cubism.png",
+        "score": 0.8385832816362382,
+        "seed": "Cubism_content_0010",
+        "source_style": "Cubism",
+        "clip_score": 0.5770018398761749,
+        "vlm_score": 0.9506896138191223
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/African_Tribal_Art.png",
+        "score": 0.8386679366230965,
+        "seed": "African Tribal Art_content_0010",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.572788342833519,
+        "vlm_score": 0.9526163339614868
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cinematic.png",
+        "score": 0.840467257797718,
+        "seed": "Cinematic_content_0010",
+        "source_style": "Cinematic",
+        "clip_score": 0.5787886530160904,
+        "vlm_score": 0.9526152312755585
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Cubism|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Cubism",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cubism style with fragmented planes, abstract geometric decomposition, and multi-perspective forms while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cubism.png",
+      "score": 0.8736456170678139,
+      "seed": "Cubism_content_0010",
+      "source_style": "Cubism",
+      "clip_score": 0.5788187235593796,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cool_Tone.png",
+        "score": 0.8385142832994461,
+        "seed": "Cool Tone_content_0010",
+        "source_style": "Cool Tone",
+        "clip_score": 0.580350935459137,
+        "vlm_score": 0.94915571808815
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Crayon_Texture.png",
+        "score": 0.8388020470738411,
+        "seed": "Crayon Texture_content_0010",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5777310580015182,
+        "vlm_score": 0.9506896138191223
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Candy_Pastel.png",
+        "score": 0.8411854356527328,
+        "seed": "Candy Pastel_content_0010",
+        "source_style": "Candy Pastel",
+        "clip_score": 0.5780307352542877,
+        "vlm_score": 0.9539660215377808
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "train",
+    "group_id": "train|content_0010|Dreamlike Ethereal|style_transfer_40_v1",
+    "content_id": "content_0010",
+    "style_id": "Dreamlike Ethereal",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Dreamlike Ethereal style with misty glow, soft transitions, and surreal ambience while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Dreamlike_Ethereal.png",
+      "score": 0.8644618194550275,
+      "seed": "Dreamlike Ethereal_content_0010",
+      "source_style": "Dreamlike Ethereal",
+      "clip_score": 0.5482060648500919,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Action_Painting.png",
+        "score": 0.8350048281252385,
+        "seed": "Action Painting_content_0010",
+        "source_style": "Action Painting",
+        "clip_score": 0.5443253144621849,
+        "vlm_score": 0.9595817625522614
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Cubism.png",
+        "score": 0.8353635903447867,
+        "seed": "Cubism_content_0010",
+        "source_style": "Cubism",
+        "clip_score": 0.5467244870960712,
+        "vlm_score": 0.9590660631656647
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0010/Crayon_Texture.png",
+        "score": 0.8354867741465568,
+        "seed": "Crayon Texture_content_0010",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5487996488809586,
+        "vlm_score": 0.9583526849746704
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|Action Painting|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "Action Painting",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Action_Painting.png",
+      "score": 0.8653474021703005,
+      "seed": "Action Painting_content_0016",
+      "source_style": "Action Painting",
+      "clip_score": 0.551158007234335,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cool_Tone.png",
+        "score": 0.8303063601255417,
+        "seed": "Cool Tone_content_0016",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5509642064571381,
+        "vlm_score": 0.950024425983429
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cinematic.png",
+        "score": 0.8345175027847289,
+        "seed": "Cinematic_content_0016",
+        "source_style": "Cinematic",
+        "clip_score": 0.5519717335700989,
+        "vlm_score": 0.9556085467338562
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Candy_Pastel.png",
+        "score": 0.8348989751189948,
+        "seed": "Candy Pastel_content_0016",
+        "source_style": "Candy Pastel",
+        "clip_score": 0.5497918911278248,
+        "vlm_score": 0.9570877254009247
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|African Tribal Art|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "African Tribal Art",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an African Tribal Art style with geometric motifs, earthy palettes, and symbolic patterning while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/African_Tribal_Art.png",
+      "score": 0.8696715623140335,
+      "seed": "African Tribal Art_content_0016",
+      "source_style": "African Tribal Art",
+      "clip_score": 0.5655718743801117,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cinematic.png",
+        "score": 0.8360254749655723,
+        "seed": "Cinematic_content_0016",
+        "source_style": "Cinematic",
+        "clip_score": 0.5680964142084122,
+        "vlm_score": 0.9508522152900696
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Crayon_Texture.png",
+        "score": 0.8370188832283021,
+        "seed": "Crayon Texture_content_0016",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5672914981842041,
+        "vlm_score": 0.9526163339614868
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cool_Tone.png",
+        "score": 0.8374531485140324,
+        "seed": "Cool Tone_content_0016",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5684761926531792,
+        "vlm_score": 0.9527289867401123
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|Anime|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "Anime",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply an Anime style with clean line art, stylized shading, and vivid color blocks while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Anime.png",
+      "score": 0.8690800905227661,
+      "seed": "Anime_content_0016",
+      "source_style": "Anime",
+      "clip_score": 0.5636003017425537,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Crayon_Texture.png",
+        "score": 0.8375502578914165,
+        "seed": "Crayon Texture_content_0016",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5609018877148628,
+        "vlm_score": 0.9561138451099396
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Action_Painting.png",
+        "score": 0.838372453674674,
+        "seed": "Action Painting_content_0016",
+        "source_style": "Action Painting",
+        "clip_score": 0.5611400492489338,
+        "vlm_score": 0.9571863412857056
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cubism.png",
+        "score": 0.8406528480350971,
+        "seed": "Cubism_content_0016",
+        "source_style": "Cubism",
+        "clip_score": 0.5676472410559654,
+        "vlm_score": 0.9576552510261536
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|Black and White|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "Black and White",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Black and White style with strong tonal contrast and grayscale rendering while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Black_and_White.png",
+      "score": 0.8687918357551098,
+      "seed": "Black and White_content_0016",
+      "source_style": "Black and White",
+      "clip_score": 0.5626394525170326,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Action_Painting.png",
+        "score": 0.8427326776087284,
+        "seed": "Action Painting_content_0016",
+        "source_style": "Action Painting",
+        "clip_score": 0.5620759651064873,
+        "vlm_score": 0.9630141258239746
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cubism.png",
+        "score": 0.8435971960425377,
+        "seed": "Cubism_content_0016",
+        "source_style": "Cubism",
+        "clip_score": 0.565609410405159,
+        "vlm_score": 0.9627348184585571
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Chinese_Ink_Painting.png",
+        "score": 0.8438432317227125,
+        "seed": "Chinese Ink Painting_content_0016",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5621595717966557,
+        "vlm_score": 0.9645648002624512
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|Candy Pastel|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "Candy Pastel",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Candy Pastel style with soft pastel tones, gentle highlights, and dreamy color transitions while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Candy_Pastel.png",
+      "score": 0.8595516212284564,
+      "seed": "Candy Pastel_content_0016",
+      "source_style": "Candy Pastel",
+      "clip_score": 0.5318387374281883,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cubism.png",
+        "score": 0.8288036994636059,
+        "seed": "Cubism_content_0016",
+        "source_style": "Cubism",
+        "clip_score": 0.5367582812905312,
+        "vlm_score": 0.9539660215377808
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Chinese_Ink_Painting.png",
+        "score": 0.830637764185667,
+        "seed": "Chinese Ink Painting_content_0016",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.536702074110508,
+        "vlm_score": 0.9566102027893066
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Action_Painting.png",
+        "score": 0.830661840364337,
+        "seed": "Action Painting_content_0016",
+        "source_style": "Action Painting",
+        "clip_score": 0.535668108612299,
+        "vlm_score": 0.9570877254009247
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|Cartoon|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "Cartoon",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cartoon style with simplified shapes, bold outlines, and stylized shading while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cartoon.png",
+      "score": 0.8683397829532623,
+      "seed": "Cartoon_content_0016",
+      "source_style": "Cartoon",
+      "clip_score": 0.5611326098442078,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Chinese_Ink_Painting.png",
+        "score": 0.840307568386197,
+        "seed": "Chinese Ink Painting_content_0016",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5611327849328518,
+        "vlm_score": 0.9599539041519165
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Action_Painting.png",
+        "score": 0.8410548467189074,
+        "seed": "Action Painting_content_0016",
+        "source_style": "Action Painting",
+        "clip_score": 0.5591072402894497,
+        "vlm_score": 0.9618895351886749
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cinematic.png",
+        "score": 0.8419937804341315,
+        "seed": "Cinematic_content_0016",
+        "source_style": "Cinematic",
+        "clip_score": 0.5587785094976425,
+        "vlm_score": 0.963371753692627
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|Children's book Illustration|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "Children's book Illustration",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Children's book Illustration style with playful forms, warm colors, and storybook texture while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Children_s_book_Illustration.png",
+      "score": 0.8660791333764791,
+      "seed": "Children's book Illustration_content_0016",
+      "source_style": "Children's book Illustration",
+      "clip_score": 0.5535971112549305,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cool_Tone.png",
+        "score": 0.837440003082156,
+        "seed": "Cool Tone_content_0016",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5537152625620365,
+        "vlm_score": 0.9590363204479218
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Action_Painting.png",
+        "score": 0.8378058228641749,
+        "seed": "Action Painting_content_0016",
+        "source_style": "Action Painting",
+        "clip_score": 0.5524444095790386,
+        "vlm_score": 0.9601035714149475
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cubism.png",
+        "score": 0.83821140229702,
+        "seed": "Cubism_content_0016",
+        "source_style": "Cubism",
+        "clip_score": 0.5549390017986298,
+        "vlm_score": 0.9596138596534729
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|Chinese Ink Painting|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "Chinese Ink Painting",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Chinese Ink Painting style with ink wash gradients, calligraphic strokes, and minimal color while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Chinese_Ink_Painting.png",
+      "score": 0.8656801301985979,
+      "seed": "Chinese Ink Painting_content_0016",
+      "source_style": "Chinese Ink Painting",
+      "clip_score": 0.552267100661993,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cinematic.png",
+        "score": 0.8314733393490314,
+        "seed": "Cinematic_content_0016",
+        "source_style": "Cinematic",
+        "clip_score": 0.5504713878035545,
+        "vlm_score": 0.9519027471542358
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cool_Tone.png",
+        "score": 0.8320728600025178,
+        "seed": "Cool Tone_content_0016",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5526308417320251,
+        "vlm_score": 0.9518337249755859
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Crayon_Texture.png",
+        "score": 0.8339494202286005,
+        "seed": "Crayon Texture_content_0016",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5499523989856243,
+        "vlm_score": 0.9556624293327332
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|Cinematic|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "Cinematic",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cinematic style with filmic lighting, dramatic contrast, and mood-focused color grading while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cinematic.png",
+      "score": 0.867789489775896,
+      "seed": "Cinematic_content_0016",
+      "source_style": "Cinematic",
+      "clip_score": 0.5592982992529869,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/African_Tribal_Art.png",
+        "score": 0.8340343236923218,
+        "seed": "African Tribal Art_content_0016",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5614592432975769,
+        "vlm_score": 0.9508522152900696
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Chinese_Ink_Painting.png",
+        "score": 0.8347813691943884,
+        "seed": "Chinese Ink Painting_content_0016",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5614981539547443,
+        "vlm_score": 0.9519027471542358
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Crayon_Texture.png",
+        "score": 0.8347918309271335,
+        "seed": "Crayon Texture_content_0016",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5598705634474754,
+        "vlm_score": 0.9526152312755585
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|Comic|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "Comic",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Comic style with panel-like boldness, clear contour lines, and punchy color separation while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Comic.png",
+      "score": 0.8694741494953633,
+      "seed": "Comic_content_0016",
+      "source_style": "Comic",
+      "clip_score": 0.5649138316512108,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/African_Tribal_Art.png",
+        "score": 0.8413075059652328,
+        "seed": "African Tribal Art_content_0016",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5661031305789948,
+        "vlm_score": 0.9592522382736206
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cool_Tone.png",
+        "score": 0.8433924004435539,
+        "seed": "Cool Tone_content_0016",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5656946748495102,
+        "vlm_score": 0.9624057114124298
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Chinese_Ink_Painting.png",
+        "score": 0.8434431843459607,
+        "seed": "Chinese Ink Painting_content_0016",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5685110166668892,
+        "vlm_score": 0.9612712562084198
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|Cool Tone|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "Cool Tone",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cool Tone style with blue-cyan dominant grading and crisp atmospheric lighting while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cool_Tone.png",
+      "score": 0.8719757050275803,
+      "seed": "Cool Tone_content_0016",
+      "source_style": "Cool Tone",
+      "clip_score": 0.5732523500919342,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Action_Painting.png",
+        "score": 0.8365896604955196,
+        "seed": "Action Painting_content_0016",
+        "source_style": "Action Painting",
+        "clip_score": 0.5719085410237312,
+        "vlm_score": 0.950024425983429
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cubism.png",
+        "score": 0.8369284361600876,
+        "seed": "Cubism_content_0016",
+        "source_style": "Cubism",
+        "clip_score": 0.5750647783279419,
+        "vlm_score": 0.94915571808815
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Chinese_Ink_Painting.png",
+        "score": 0.8379463121294976,
+        "seed": "Chinese Ink Painting_content_0016",
+        "source_style": "Chinese Ink Painting",
+        "clip_score": 0.5722090154886246,
+        "vlm_score": 0.9518337249755859
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|Crayon Texture|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "Crayon Texture",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Crayon Texture style with waxy grain, hand-drawn strokes, and textured fills while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Crayon_Texture.png",
+      "score": 0.8735397569835186,
+      "seed": "Crayon Texture_content_0016",
+      "source_style": "Crayon Texture",
+      "clip_score": 0.5784658566117287,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cubism.png",
+        "score": 0.8395256914198399,
+        "seed": "Cubism_content_0016",
+        "source_style": "Cubism",
+        "clip_score": 0.5801432058215141,
+        "vlm_score": 0.9506896138191223
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/African_Tribal_Art.png",
+        "score": 0.8399241358041764,
+        "seed": "African Tribal Art_content_0016",
+        "source_style": "African Tribal Art",
+        "clip_score": 0.5769756734371185,
+        "vlm_score": 0.9526163339614868
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cinematic.png",
+        "score": 0.8403992883861064,
+        "seed": "Cinematic_content_0016",
+        "source_style": "Cinematic",
+        "clip_score": 0.5785620883107185,
+        "vlm_score": 0.9526152312755585
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  },
+  {
+    "schema_version": "1.0",
+    "split": "test",
+    "group_id": "test|content_0016|Cubism|style_transfer_40_v1",
+    "content_id": "content_0016",
+    "style_id": "Cubism",
+    "prompt_template_id": "style_transfer_40_v1",
+    "prompt": "Apply a Cubism style with fragmented planes, abstract geometric decomposition, and multi-perspective forms while preserving the original scene structure.",
+    "chosen": {
+      "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cubism.png",
+      "score": 0.8741939477622509,
+      "seed": "Cubism_content_0016",
+      "source_style": "Cubism",
+      "clip_score": 0.5806464925408363,
+      "vlm_score": 1.0
+    },
+    "rejected_list": [
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Cool_Tone.png",
+        "score": 0.8380491189658642,
+        "seed": "Cool Tone_content_0016",
+        "source_style": "Cool Tone",
+        "clip_score": 0.5788003876805305,
+        "vlm_score": 0.94915571808815
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Crayon_Texture.png",
+        "score": 0.8393435202538968,
+        "seed": "Crayon Texture_content_0016",
+        "source_style": "Crayon Texture",
+        "clip_score": 0.5795359686017036,
+        "vlm_score": 0.9506896138191223
+      },
+      {
+        "image_path": "benchmark/bagel_content_style_benchmark/content_0016/Candy_Pastel.png",
+        "score": 0.8413794554769992,
+        "seed": "Candy Pastel_content_0016",
+        "source_style": "Candy Pastel",
+        "clip_score": 0.5786774680018425,
+        "vlm_score": 0.9539660215377808
+      }
+    ],
+    "pair_weight": 0.3333333333333333,
+    "group_negatives": 3
+  }
+]

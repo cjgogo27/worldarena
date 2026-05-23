@@ -1,0 +1,10 @@
+{
+  "country": "Dominican Republic",
+  "country_code": "do",
+  "city": "",
+  "reasoning_chain": [
+    "The green sign contains Spanish text including 'PROYECTO: INDUSTRIA DE LA CONSTRUCCION' and 'MINISTERIO DE AMBIENTE', indicating a Spanish-speaking country with environmental regulations typical of the Dominican Republic.",
+    "The car is driving on the right side of the road, consistent with traffic laws in the Dominican Republic and other Caribbean nations."
+  ],
+  "raw_output": "{\n  \"country\": \"Dominican Republic\",\n  \"country_code\": \"do\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The green sign contains Spanish text including 'PROYECTO: INDUSTRIA DE LA CONSTRUCCION' and 'MINISTERIO DE AMBIENTE', indicating a Spanish-speaking country with environmental regulations typical of the Dominican Republic.\",\n    \"The car is driving on the right side of the road, consistent with traffic laws in the Dominican Republic and other Caribbean nations.\",\n    \"Vegetation includes mango trees and tropical foliage, along with dry leaf litter on"
+}

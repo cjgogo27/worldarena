@@ -1,0 +1,12 @@
+{
+  "country": "France",
+  "country_code": "fr",
+  "city": "Nice",
+  "reasoning_chain": [
+    "The street sign reads 'le Port' in French, indicating a French-speaking location.",
+    "Cars are parked on the right side of the road, consistent with right-hand traffic in France.",
+    "The architecture features balconies with wrought iron railings and shuttered windows, typical of Mediterranean French coastal cities.",
+    "The presence of palm trees and the bright, sunny climate suggest a southern European location, specifically the French Riviera."
+  ],
+  "raw_output": "{\n  \"country\": \"France\",\n  \"country_code\": \"fr\",\n  \"city\": \"Nice\",\n  \"reasoning_chain\": [\n    \"The street sign reads 'le Port' in French, indicating a French-speaking location.\",\n    \"Cars are parked on the right side of the road, consistent with right-hand traffic in France.\",\n    \"The architecture features balconies with wrought iron railings and shuttered windows, typical of Mediterranean French coastal cities.\",\n    \"The presence of palm trees and the bright, sunny climate suggest a southern European location, specifically the French Riviera.\""
+}

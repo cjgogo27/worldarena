@@ -1,0 +1,11 @@
+{
+  "country": "Indonesia",
+  "country_code": "id",
+  "city": "",
+  "reasoning_chain": [
+    "The sign on the green house reads 'DIKONTRAKAN' with a phone number, which is Indonesian for 'For Rent', indicating the language and likely location in Indonesia.",
+    "The architecture features tiled roofs and simple concrete structures common in rural or semi-urban areas of Indonesia.",
+    "Vegetation includes papaya trees and lush greenery typical of tropical climates found in Indonesia."
+  ],
+  "raw_output": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The sign on the green house reads 'DIKONTRAKAN' with a phone number, which is Indonesian for 'For Rent', indicating the language and likely location in Indonesia.\",\n    \"The architecture features tiled roofs and simple concrete structures common in rural or semi-urban areas of Indonesia.\",\n    \"Vegetation includes papaya trees and lush greenery typical of tropical climates found in Indonesia.\",\n    \"Utility poles with overhead wires are standard infrastructure in"
+}

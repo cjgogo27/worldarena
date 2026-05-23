@@ -1,0 +1,28 @@
+model_name: wan_public_test10_t1_seedvr
+data:
+  gt_path: /data/alice/cjtest/model_repros/worldarena_wan_public/private_gt_unavailable
+  val_base: /data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1_seedvr
+data_action_following:
+  gt_path: /data/alice/cjtest/model_repros/worldarena_wan_public/private_gt_unavailable
+  val_base: /data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1_seedvr
+save_path: /data/alice/cjtest/model_repros/worldarena_wan_public/metrics_output_test10_t1_seedvr
+save_path_action_following: /data/alice/cjtest/model_repros/worldarena_wan_public/metrics_output_action_following_test10_t1_seedvr
+ckpt:
+  aesthetic_quality:
+    clip: ViT-L/14
+    aesthetic_head: /data/alice/cjtest/model_repros/WorldArena/video_quality/models/aesthetic_model/emb_reader/sa_0_4_vit_l_14_linear.pth
+  background_consistency:
+    clip: ViT-B/32
+    raft: /data/alice/cjtest/model_repros/WorldArena/video_quality/models/raft_model/models/raft-things.pth
+  dynamic_degree:
+    raft: /data/alice/cjtest/model_repros/WorldArena/video_quality/models/raft_model/models/raft-things.pth
+  flow_score:
+    raft: /data/alice/cjtest/model_repros/WorldArena/video_quality/models/raft_model/models/raft-things.pth
+  image_quality:
+    musiq: /data/alice/cjtest/model_repros/WorldArena/video_quality/models/pyiqa_model/musiq_spaq_ckpt-358bb6af.pth
+  subject_consistency:
+    repo: /data/alice/cjtest/model_repros/WorldArena/video_quality/models/dino_model/facebookresearch_dino_main
+    weight: /data/alice/cjtest/model_repros/WorldArena/video_quality/models/dino_model/dino_vitbase16_pretrain.pth
+    model: dino_vitb16
+    raft: /data/alice/cjtest/model_repros/WorldArena/video_quality/models/raft_model/models/raft-things.pth
+  vlm_model: Qwen/Qwen3-VL-8B-Instruct

@@ -1,0 +1,10 @@
+{
+  "country": "France",
+  "country_code": "fr",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a narrow, two-lane asphalt road with no center line, typical of rural French roads in mountainous or hilly regions.",
+    "Vegetation shows autumnal colors (yellowing leaves) mixed with evergreens, consistent with temperate continental climate zones found in central/eastern France."
+  ],
+  "raw_output": "{\n  \"country\": \"France\",\n  \"country_code\": \"fr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a narrow, two-lane asphalt road with no center line, typical of rural French roads in mountainous or hilly regions.\",\n    \"Vegetation shows autumnal colors (yellowing leaves) mixed with evergreens, consistent with temperate continental climate zones found in central/eastern France.\",\n    \"Terrain features a steep rocky embankment on the left and open grassy slope on the right, suggesting a valley road common in"
+}

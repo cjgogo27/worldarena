@@ -1,0 +1,13 @@
+Broad waterfront boulevard beside calm water
+Pastel pink colonial/neoclassical corner building
+Balconies and facade style associated with Portuguese colonial urbanism
+Right-hand traffic and Brazilian-style lane markings
+Dense overhead electrical wiring on concrete poles
+Tropical palms and humid coastal vegetation
+Storefront text appears to be in Portuguese
+Applying the ordered skill graph strictly: first, the river/waterfront road with urban buildings matches a coastal Brazilian city setup.
+Second, the pastel-colored colonial building with balconies fits Portuguese colonial architecture.
+Third, combining the apparent Portuguese-language context, tropical climate, and colonial style leads to Salvador, Brazil as the primary location guess.
+Following linked supporting skills, the road and street design are consistent with historic centers of Brazilian cities, the dense overhead wiring and concrete utility poles are typical in Brazil, and the storefront text appears Portuguese rather than Spanish.
+Although some lower-priority skills suggest alternative countries or regions, they conflict with the higher-priority Brazil-to-Salvador chain, so the final consistent guess is Salvador, Bahia, Brazil.
+Conclusion: likely location is Salvador, Bahia, Brazil

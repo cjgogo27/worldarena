@@ -1,0 +1,24 @@
+{
+  "game_id": "SkFHwlV4Z2q9fUje",
+  "round": 1,
+  "sample_id": "georc::SkFHwlV4Z2q9fUje::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "mx",
+    "predicted_region": "north_america",
+    "predicted_address": "Peri-urban arterial road in Gomez Palacio, Durango, Mexico",
+    "predicted_lat": 25.56111111,
+    "predicted_lng": -103.49833333,
+    "reasoning_text": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"region\": \"North America\",\n  \"city\": \"Gomez Palacio\",\n  \"province_or_state\": \"Durango\",\n  \"address\": \"Peri-urban arterial road in Gomez Palacio, Durango, Mexico\",\n  \"confidence\": 0.62,\n  \"reasoning\": \"The storefront sign reads 'ROSTICERIA RAMIREZ,' which is clearly Spanish and strongly points to Latin America. The road design, curb style, building materials, and vehicles are highly consistent with Mexico. The environment is very dry, flat, and dusty, suggesting the Mexican high plateau or north-central desert fringe rather than tropical regions. The broad divided roadway and semi-industrial roadside development fit the outskirts of a medium-sized northern Mexican city. Based on the arid landscape and urban form, Gomez Palacio in Durango is my best approximate guess.\",\n  \"evidence\": [\n    \"Spanish-language business sign: 'ROSTICERIA RAMIREZ'\",\n    \"Road infrastructure and curb/median style typical of Mexico\",\n    \"Arid, dusty, flat landscape consistent with north-central Mexico\",\n    \"Concrete block commercial buildings common in Mexican urban outskirts\",\n    \"Vehicle mix and general streetscape match Mexico\"\n  ]\n}",
+    "evidence_spans": [
+      "Spanish-language business sign: 'ROSTICERIA RAMIREZ'",
+      "Road infrastructure and curb/median style typical of Mexico",
+      "Arid, dusty, flat landscape consistent with north-central Mexico",
+      "Concrete block commercial buildings common in Mexican urban outskirts",
+      "Vehicle mix and general streetscape match Mexico"
+    ],
+    "confidence": 0.62
+  },
+  "error": null
+}

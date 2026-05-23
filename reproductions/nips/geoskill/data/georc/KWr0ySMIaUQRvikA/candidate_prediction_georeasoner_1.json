@@ -1,0 +1,11 @@
+{
+  "country": "Philippines",
+  "country_code": "ph",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt with a faded yellow center line, typical of rural Philippine provincial roads.",
+    "Motorcycles are the primary mode of transport, and riders wear helmets consistent with local traffic norms in the Philippines.",
+    "Vegetation includes coconut palms and dense tropical foliage, characteristic of the Philippine archipelago."
+  ],
+  "raw_output": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt with a faded yellow center line, typical of rural Philippine provincial roads.\",\n    \"Motorcycles are the primary mode of transport, and riders wear helmets consistent with local traffic norms in the Philippines.\",\n    \"Vegetation includes coconut palms and dense tropical foliage, characteristic of the Philippine archipelago.\",\n    \"Utility poles and overhead wires are common in Philippine rural infrastructure, and the general architecture (concrete walls"
+}

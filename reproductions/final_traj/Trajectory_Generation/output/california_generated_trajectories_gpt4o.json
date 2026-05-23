@@ -1,0 +1,52 @@
+[
+  {
+    "user_id": "30002756_2",
+    "user_info": {
+      "user_id": "30002756_2",
+      "age_range": "Appropriate skip",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Spouse/Unmarried partner",
+      "gender": "Male",
+      "race": "White",
+      "education": "Some college or associates degree",
+      "employment_status": "Appropriate skip",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": 2.0,
+      "work_state": "Not specified",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "Appropriate skip",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "primary_activity": "Retired"
+    },
+    "reasoning": "Since the user is retired, the trajectory includes various activities to represent an active lifestyle, such as exercising and socializing, allowing for health maintenance and community connection. Given the profile specifics, including the user's race, education, and driver status, the day includes shopping and dining out, fitting the profile of a retired individual with sufficient mobility. Main activities include being at home and exercise, typical for someone retired, while also incorporating flexibility for social and personal errands.",
+    "trajectory": "0:00-7:00 home, 7:00-7:45 exercise, 7:45-8:30 home, 8:30-9:15 dine_out, 9:15-11:00 home, 11:00-12:00 shopping, 12:00-13:30 socialize, 13:30-15:00 home, 15:00-15:45 service, 15:45-17:00 home, 17:00-17:45 medical, 17:45-18:30 home, 18:30-19:45 dine_out, 19:45-21:30 socialize, 21:30-24:00 home",
+    "raw_result": "Since the user is retired, the trajectory includes various activities to represent an active lifestyle, such as exercising and socializing, allowing for health maintenance and community connection. Given the profile specifics, including the user's race, education, and driver status, the day includes shopping and dining out, fitting the profile of a retired individual with sufficient mobility. Main activities include being at home and exercise, typical for someone retired, while also incorporating flexibility for social and personal errands.\n\n0:00-7:00 home, 7:00-7:45 exercise, 7:45-8:30 home, 8:30-9:15 dine_out, 9:15-11:00 home, 11:00-12:00 shopping, 12:00-13:30 socialize, 13:30-15:00 home, 15:00-15:45 service, 15:45-17:00 home, 17:00-17:45 medical, 17:45-18:30 home, 18:30-19:45 dine_out, 19:45-21:30 socialize, 21:30-24:00 home",
+    "generation_time": "2025-10-21T11:51:19.178279"
+  },
+  {
+    "user_id": "30002945_1",
+    "user_info": {
+      "user_id": "30002945_1",
+      "age_range": "Appropriate skip",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Self",
+      "gender": "Female",
+      "race": "White",
+      "education": "Some college or associates degree",
+      "employment_status": "Yes",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": 12.13,
+      "work_state": "California",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "No",
+      "work_schedule": "Full-time",
+      "occupation": "Clerical or administrative support",
+      "primary_activity": "Working"
+    },
+    "reasoning": "The trajectory fits the user's profile, as she is a full-time clerical worker in California living 12.13 miles from her workplace. She drives to work, likely early to avoid traffic. Her day includes time for personal fitness, shopping after work, and relaxation at home. The routine reflects a solo, working professional's lifestyle with daily necessities like exercise and shopping.",
+    "trajectory": "0:00-6:15 home, 6:15-7:00 exercise, 7:00-7:45 home, 7:45-8:30 work, 8:30-17:00 work, 17:00-17:45 home, 17:45-18:30 shopping, 18:30-19:15 dine_out, 19:15-24:00 home",
+    "raw_result": "The trajectory fits the user's profile, as she is a full-time clerical worker in California living 12.13 miles from her workplace. She drives to work, likely early to avoid traffic. Her day includes time for personal fitness, shopping after work, and relaxation at home. The routine reflects a solo, working professional's lifestyle with daily necessities like exercise and shopping.\n\n0:00-6:15 home, 6:15-7:00 exercise, 7:00-7:45 home, 7:45-8:30 work, 8:30-17:00 work, 17:00-17:45 home, 17:45-18:30 shopping, 18:30-19:15 dine_out, 19:15-24:00 home",
+    "generation_time": "2025-10-21T11:51:24.109025"
+  }
+]

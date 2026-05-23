@@ -1,0 +1,11 @@
+{
+  "country": "France",
+  "country_code": "fr",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved and cracked with no center line, typical of rural French country roads in agricultural regions.",
+    "Sunflower fields on the left and harvested grain fields on the right are characteristic of major farming zones in central or western France.",
+    "No visible signage, vehicles, or infrastructure suggests a remote rural area, consistent with less populated departments in France."
+  ],
+  "raw_output": "{\n  \"country\": \"France\",\n  \"country_code\": \"fr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved and cracked with no center line, typical of rural French country roads in agricultural regions.\",\n    \"Sunflower fields on the left and harvested grain fields on the right are characteristic of major farming zones in central or western France.\",\n    \"No visible signage, vehicles, or infrastructure suggests a remote rural area, consistent with less populated departments in France.\",\n    \"The flat terrain and clear blue sky align with the climate and topography of"
+}

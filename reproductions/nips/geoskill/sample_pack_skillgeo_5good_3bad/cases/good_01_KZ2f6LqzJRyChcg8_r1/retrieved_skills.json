@@ -1,0 +1,172 @@
+[
+  {
+    "skill_text": "The compact urban layout fits Andorra la Vella, the capital city, which is set within tight Pyrenean valleys.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "compact",
+      "fits",
+      "layout",
+      "urban"
+    ],
+    "source_game_id": "74bPHM081cMUaNKT",
+    "source_round": 3,
+    "score": 0.9340143799781799,
+    "bm25_score": 43.05120849609375,
+    "semantic_score": 0.5393080711364746
+  },
+  {
+    "skill_text": "The signage is not common in Spain and France and the plate is not a typical European license plate with the blue strip on the left, leading to Andorra being the most likely",
+    "region_hint": "europe",
+    "confidence": 0.75,
+    "visual_cues": [
+      "license plate",
+      "sign"
+    ],
+    "source_game_id": "74bPHM081cMUaNKT",
+    "source_round": 3,
+    "score": 0.8424637913703918,
+    "bm25_score": 29.67146873474121,
+    "semantic_score": 0.6302564144134521
+  },
+  {
+    "skill_text": "The overall evidence points to Andorra la Vella, Andorra.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "Andorra",
+      "evidence",
+      "overall",
+      "points"
+    ],
+    "source_game_id": "74bPHM081cMUaNKT",
+    "source_round": 3,
+    "score": 0.8348066806793213,
+    "bm25_score": 34.362422943115234,
+    "semantic_score": 0.5417362451553345
+  },
+  {
+    "skill_text": "A business sign reads \"Andorra\", which indicates the country is Andorra.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "sign"
+    ],
+    "source_game_id": "74bPHM081cMUaNKT",
+    "source_round": 3,
+    "score": 0.798534095287323,
+    "bm25_score": 25.70450782775879,
+    "semantic_score": 0.6333091259002686
+  },
+  {
+    "skill_text": "The presence of multiple languages (Catalan, Spanish) on shopfronts further supports Andorra as the location.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "Catalan",
+      "languages",
+      "multiple",
+      "presence"
+    ],
+    "source_game_id": "74bPHM081cMUaNKT",
+    "source_round": 3,
+    "score": 0.7961235046386719,
+    "bm25_score": 26.833683013916016,
+    "semantic_score": 0.6111928224563599
+  },
+  {
+    "skill_text": "The terrain is mountainous and forested, indicating a location in or near the Pyrenees.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "terrain"
+    ],
+    "source_game_id": "74bPHM081cMUaNKT",
+    "source_round": 3,
+    "score": 0.7142904996871948,
+    "bm25_score": 25.772924423217773,
+    "semantic_score": 0.5121663808822632
+  },
+  {
+    "skill_text": "Street markings use the English word \"STOP\", which is common in many European countries including Spain, France, and microstates like Andorra.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "English",
+      "Street",
+      "markings",
+      "word"
+    ],
+    "source_game_id": "74bPHM081cMUaNKT",
+    "source_round": 3,
+    "score": 0.6898651719093323,
+    "bm25_score": 18.866722106933594,
+    "semantic_score": 0.5916342735290527
+  },
+  {
+    "skill_text": "The style of roadside fencing, with white stucco walls, is common in Greek rural areas, especially on islands and in Crete.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "9lNwy1vjD53PTSwt",
+    "source_round": 2,
+    "score": 0.6606476306915283,
+    "bm25_score": 30.899234771728516,
+    "semantic_score": 0.35093337297439575
+  },
+  {
+    "skill_text": "No exit signage is also not in the design for typical Romanian signs, leading the best guess to be in Serbia",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "sign"
+    ],
+    "source_game_id": "1NJsXTxIF9GGMDxC",
+    "source_round": 3,
+    "score": 0.6524778008460999,
+    "bm25_score": 23.288494110107422,
+    "semantic_score": 0.46521496772766113
+  },
+  {
+    "skill_text": "This location is particularly distinct due to the exposed rocky mountain in the background and the abundance of grey brick architecture, commonly found in the countries surrounding the Pyrenees like Northern Spain, Andorra, and Southern France",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "architecture"
+    ],
+    "source_game_id": "74bPHM081cMUaNKT",
+    "source_round": 3,
+    "score": 0.6506569385528564,
+    "bm25_score": 23.028257369995117,
+    "semantic_score": 0.4669266939163208
+  },
+  {
+    "skill_text": "There is a blue and white road sign on the right that appears to use English wave-style signage, which is seen frequently in rural Canada, especially the Prairies.",
+    "region_hint": "north_america",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "sign"
+    ],
+    "source_game_id": "3I4ZtihbhZy5qZzQ",
+    "source_round": 3,
+    "score": 0.6340181231498718,
+    "bm25_score": 26.42892074584961,
+    "semantic_score": 0.38695937395095825
+  },
+  {
+    "skill_text": "The street signs use German language, suggesting a German-speaking region.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "sign"
+    ],
+    "source_game_id": "56Q4T4rpv9O9sCpP",
+    "source_round": 1,
+    "score": 0.6316742300987244,
+    "bm25_score": 21.312274932861328,
+    "semantic_score": 0.4682755172252655
+  }
+]

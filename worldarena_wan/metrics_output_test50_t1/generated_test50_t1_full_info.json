@@ -1,0 +1,402 @@
+[
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode1/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode10/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode100/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode1000/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode101/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode102/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode103/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode104/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode105/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode106/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode107/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode108/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode109/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode11/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode110/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode111/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode112/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode113/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode114/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode115/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode116/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode117/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode118/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode119/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode12/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode120/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode121/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode122/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode123/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode124/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode125/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode126/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode127/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode128/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode129/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode13/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode130/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode131/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode132/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode133/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode134/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode135/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode136/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode137/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode138/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode139/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode14/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode140/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode141/1/video"
+        ]
+    },
+    {
+        "dimension": [
+            "dynamic_degree"
+        ],
+        "video_list": [
+            "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test50_t1/fixed_scene_task/episode142/1/video"
+        ]
+    }
+]

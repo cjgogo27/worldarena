@@ -1,0 +1,653 @@
+{
+  "game_id": "MjBPBTn3iUXdebSu",
+  "round": 1,
+  "sample_id": "georc::MjBPBTn3iUXdebSu::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "br",
+    "predicted_region": "south_america",
+    "predicted_address": "Residential street in Braganca, Para, Brazil",
+    "predicted_lat": -23.55,
+    "predicted_lng": -46.63333333,
+    "reasoning_text": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"city\": \"Braganca\",\n  \"province_or_state\": \"Para\",\n  \"address\": \"Residential street in Braganca, Para, Brazil\",\n  \"confidence\": 0.66,\n  \"reasoning\": \"Applying the ordered skill graph strictly: (1) the house shapes, simple masonry, and red tile roofs are common in rural or small-town Brazil. (2) The white-painted homes with exposed brick elements and modest facades also fit rural Brazilian towns. (3) Although the red tile roofs and door/window style can overlap with Boyaca or Cundinamarca in Colombia, this is a weaker overlap cue rather than a decisive match. (4) The narrow paved street, drainage edge, and residential street layout are compatible with Brazilian urban design, especially older or modest neighborhoods. (5) The lack of clear English, Cyrillic, or Asian scripts narrows the scene to Latin America, but the absence of obvious Spanish signage does not strongly support a Spanish-speaking country here. Composing linked skills through the graph, skills 1 and 2 support skill 12: the lack of visible Spanish text makes Brazil more likely than neighboring Spanish-speaking countries. This resolves the Colombia ambiguity from skill 3. The flat terrain, humid tropical vegetation, palms, banana plants, barred windows, plaster walls, and open drainage fit northern Brazil well. Within Brazil, the lush equatorial lowland setting and small-town residential character are most consistent with Para, and Braganca is the best fit from the provided regional context.\",\n  \"evidence\": [\n    \"Single-story white plaster homes\",\n    \"Red clay tile roofs\",\n    \"Simple rural/small-town masonry architecture\",\n    \"Barred windows and metal doors\",\n    \"Narrow paved residential street\",\n    \"Open roadside drainage\",\n    \"Dense tropical vegetation including palms and banana plants\",\n    \"Flat lowland terrain\",\n    \"No clear Spanish-language signage visible\",\n    \"Overall streetscape consistent with northern Brazil, especially Para\"\n  ]\n}",
+    "evidence_spans": [
+      "Single-story white plaster homes",
+      "Red clay tile roofs",
+      "Simple rural/small-town masonry architecture",
+      "Barred windows and metal doors",
+      "Narrow paved residential street",
+      "Open roadside drainage",
+      "Dense tropical vegetation including palms and banana plants",
+      "Flat lowland terrain",
+      "No clear Spanish-language signage visible",
+      "Overall streetscape consistent with northern Brazil, especially Para"
+    ],
+    "confidence": 0.66,
+    "base_prediction_summary": {
+      "predicted_country": "br",
+      "predicted_region": "south_america",
+      "confidence": 0.66
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The architecture, including the shape and style of the houses and use of red brick, is common in rural or small-town Brazil.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture"
+        ],
+        "source_game_id": "AVKTblAzBqaYrcKe",
+        "source_round": 5,
+        "score": 0.9164493680000305,
+        "bm25_score": 30.986452102661133,
+        "semantic_score": 0.6653937101364136
+      },
+      {
+        "skill_text": "The architecture is simple, with painted white homes and exposed brick, typical of rural towns in Brazil.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 4,
+        "score": 0.8465339541435242,
+        "bm25_score": 24.014280319213867,
+        "semantic_score": 0.7053537368774414
+      },
+      {
+        "skill_text": "The red tile roofs and the style of the doors and windows fit with towns in Boyacá or Cundinamarca departments in Colombia.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "roof"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 3,
+        "score": 0.8217854499816895,
+        "bm25_score": 28.559768676757812,
+        "semantic_score": 0.5877447724342346
+      },
+      {
+        "skill_text": "The road and street design are found in historic centers of Brazilian cities.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 1,
+        "score": 0.8205066919326782,
+        "bm25_score": 23.909276962280273,
+        "semantic_score": 0.6734433174133301
+      },
+      {
+        "skill_text": "The absence of English, Cyrillic, or Asian characters and street signage suggests a Spanish-speaking country.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "cyrillic",
+          "sign"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 4,
+        "score": 0.7678989171981812,
+        "bm25_score": 29.14189338684082,
+        "semantic_score": 0.506658136844635
+      },
+      {
+        "skill_text": "Overall, the combination of landscape, climate, and road quality closely matches what is found in rural parts of the Caribbean, specifically in Cuba.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "car",
+          "climate",
+          "road"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 1,
+        "score": 0.7525923252105713,
+        "bm25_score": 27.69896697998047,
+        "semantic_score": 0.5138380527496338
+      },
+      {
+        "skill_text": "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 3,
+        "score": 0.7498371601104736,
+        "bm25_score": 23.142658233642578,
+        "semantic_score": 0.5958453416824341
+      },
+      {
+        "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 4,
+        "score": 0.7473627328872681,
+        "bm25_score": 24.382993698120117,
+        "semantic_score": 0.5693233013153076
+      },
+      {
+        "skill_text": "The steep street and hilly terrain suggest an Andean town, which matches the geography of central Colombia.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "terrain"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 3,
+        "score": 0.7439369559288025,
+        "bm25_score": 29.97633934020996,
+        "semantic_score": 0.4597880244255066
+      },
+      {
+        "skill_text": "The presence of lush, tropical vegetation including palms and dense undergrowth matches what is found in subtropical climates, particularly in South and Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "vegetation"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 2,
+        "score": 0.7344170808792114,
+        "bm25_score": 34.64924621582031,
+        "semantic_score": 0.3596104681491852
+      },
+      {
+        "skill_text": "The presence of dense coconut palms and tropical vegetation suggests a humid tropical climate, typical of coastal South Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "coast",
+          "vegetation"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 3,
+        "score": 0.7339699268341064,
+        "bm25_score": 34.337623596191406,
+        "semantic_score": 0.3648824393749237
+      },
+      {
+        "skill_text": "The lack of any visible Spanish text or signage makes Brazil more likely than neighboring countries.",
+        "region_hint": "south_america",
+        "confidence": 0.75,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 2,
+        "score": 0.731497049331665,
+        "bm25_score": 22.48031997680664,
+        "semantic_score": 0.584412157535553
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The architecture, including the shape and style of the houses and use of red brick, is common in rural or small-town Brazil.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.9164493680000305,
+          "visual_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The architecture is simple, with painted white homes and exposed brick, typical of rural towns in Brazil.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.8465339541435242,
+          "visual_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The red tile roofs and the style of the doors and windows fit with towns in Boyacá or Cundinamarca departments in Colombia.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.8217854499816895,
+          "visual_cues": [
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The road and street design are found in historic centers of Brazilian cities.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.8205066919326782,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The absence of English, Cyrillic, or Asian characters and street signage suggests a Spanish-speaking country.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7678989171981812,
+          "visual_cues": [
+            "cyrillic",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "Overall, the combination of landscape, climate, and road quality closely matches what is found in rural parts of the Caribbean, specifically in Cuba.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7525923252105713,
+          "visual_cues": [
+            "car",
+            "climate",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7498371601104736,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7473627328872681,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The steep street and hilly terrain suggest an Andean town, which matches the geography of central Colombia.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7439369559288025,
+          "visual_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The presence of lush, tropical vegetation including palms and dense undergrowth matches what is found in subtropical climates, particularly in South and Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7344170808792114,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The presence of dense coconut palms and tropical vegetation suggests a humid tropical climate, typical of coastal South Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7339699268341064,
+          "visual_cues": [
+            "climate",
+            "coast",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The lack of any visible Spanish text or signage makes Brazil more likely than neighboring countries.",
+          "region_hint": "south_america",
+          "confidence": 0.75,
+          "score": 0.731497049331665,
+          "visual_cues": [
+            "sign"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The architecture, including the shape and style of the houses and use of red brick, is common in rural or small-town Brazil.",
+        "The architecture is simple, with painted white homes and exposed brick, typical of rural towns in Brazil.",
+        "The red tile roofs and the style of the doors and windows fit with towns in Boyacá or Cundinamarca departments in Colombia.",
+        "The road and street design are found in historic centers of Brazilian cities.",
+        "The absence of English, Cyrillic, or Asian characters and street signage suggests a Spanish-speaking country.",
+        "Overall, the combination of landscape, climate, and road quality closely matches what is found in rural parts of the Caribbean, specifically in Cuba.",
+        "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+        "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "The steep street and hilly terrain suggest an Andean town, which matches the geography of central Colombia.",
+        "The presence of lush, tropical vegetation including palms and dense undergrowth matches what is found in subtropical climates, particularly in South and Southeast Asia.",
+        "The presence of dense coconut palms and tropical vegetation suggests a humid tropical climate, typical of coastal South Asia.",
+        "The lack of any visible Spanish text or signage makes Brazil more likely than neighboring countries."
+      ],
+      "summary": "nodes=12, edges=36, base_region=south_america, top_skill_region=south_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"city\": \"Braganca\",\n  \"province_or_state\": \"Para\",\n  \"address\": \"Residential street in Braganca, Para, Brazil\",\n  \"confidence\": 0.66,\n  \"reasoning\": \"The scene strongly suggests tropical lowland Brazil: single-story whit",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 36,
+        "graph_summary": "nodes=12, edges=36, base_region=south_america, top_skill_region=south_america"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "br"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

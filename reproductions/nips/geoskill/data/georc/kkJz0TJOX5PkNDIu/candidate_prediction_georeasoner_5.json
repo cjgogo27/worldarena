@@ -1,0 +1,12 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "Traffic drives on the left, consistent with Australian road rules.",
+    "Street sign reads 'CLAVERTON ST' in English, indicating an English-speaking country.",
+    "Vegetation includes banana plants and eucalyptus-like trees, typical of subtropical Australian regions.",
+    "Utility poles and road infrastructure match Australian suburban design standards."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Traffic drives on the left, consistent with Australian road rules.\",\n    \"Street sign reads 'CLAVERTON ST' in English, indicating an English-speaking country.\",\n    \"Vegetation includes banana plants and eucalyptus-like trees, typical of subtropical Australian regions.\",\n    \"Utility poles and road infrastructure match Australian suburban design standards.\"\n  ]\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Croatia",
+  "country_code": "hr",
+  "city": "",
+  "reasoning_chain": [
+    "The yellow directional sign with black text reading 'Gospodine' is in Croatian, indicating location within Croatia.",
+    "Road markings show right-hand traffic (car on left lane), consistent with European countries including Croatia.",
+    "Rocky cliffside with wire mesh stabilization and Mediterranean vegetation (oak, shrubs) aligns with Dalmatian coastal hinterland terrain."
+  ],
+  "raw_output": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The yellow directional sign with black text reading 'Gospodine' is in Croatian, indicating location within Croatia.\",\n    \"Road markings show right-hand traffic (car on left lane), consistent with European countries including Croatia.\",\n    \"Rocky cliffside with wire mesh stabilization and Mediterranean vegetation (oak, shrubs) aligns with Dalmatian coastal hinterland terrain.\",\n    \"Absence of urban infrastructure and presence of rural highway suggest"
+}

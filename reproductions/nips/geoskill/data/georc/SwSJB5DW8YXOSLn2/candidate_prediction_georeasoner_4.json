@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a narrow, two-lane asphalt path with no center line or shoulder markings, typical of rural US backroads.",
+    "Utility poles on the left side are wooden and spaced regularly, consistent with rural electrification infrastructure in the eastern US.",
+    "Vegetation includes dense deciduous trees and undergrowth, suggesting a temperate climate zone common in the Appalachian or Northeastern US."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a narrow, two-lane asphalt path with no center line or shoulder markings, typical of rural US backroads.\",\n    \"Utility poles on the left side are wooden and spaced regularly, consistent with rural electrification infrastructure in the eastern US.\",\n    \"Vegetation includes dense deciduous trees and undergrowth, suggesting a temperate climate zone common in the Appalachian or Northeastern US.\",\n    \"No visible signage, vehicles, or"
+}

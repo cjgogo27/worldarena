@@ -1,0 +1,959 @@
+{
+  "game_id": "5l0GTCFZI877KxkV",
+  "round": 1,
+  "sample_id": "georc::5l0GTCFZI877KxkV::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "gt",
+    "predicted_region": "north_america",
+    "predicted_lat": 15.525,
+    "predicted_lng": -90.75,
+    "reasoning_text": "{\n  \"country\": \"Guatemala\",\n  \"country_code\": \"gt\",\n  \"region\": \"Central America\",\n  \"lat\": 15.525,\n  \"lng\": -90.75,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The visual evidence strongly supports a location in Guatemala, specifically in the Pacific lowlands or foothills. The architecture features single-story stucco houses painted in vibrant pastel colors (notably the purple building), which is highly characteristic of Guatemalan towns. The red corrugated metal roofs are common in this region. The yellow curb markings and the style of the concrete sidewalks with sloped access points are typical for small Guatemalan municipalities. The vegetation includes lush greenery and trees consistent with a tropical or subtropical climate, and the presence of a papaya tree (as noted in Skill 3) further supports a Central American location. The road markings, including the single dashed yellow centerline, are consistent with local standards. The overall scene, including the utility poles and the general layout of the town, aligns with rural or semi-rural settings in Guatemala. The baseline prediction of Guatemala is accurate and well-supported by the visual cues.\",\n  \"evidence\": [\n    \"Vibrant pastel-colored buildings, especially the purple one\",\n    \"Red corrugated metal roofs\",\n    \"Yellow curb markings and concrete sidewalks with sloped access points\",\n    \"Lush green vegetation and presence of a papaya tree\",\n    \"Single-story stucco architecture\",\n    \"Utility poles and road layout typical of Guatemalan towns\"\n  ]\n}",
+    "evidence_spans": [
+      "Vibrant pastel-colored buildings, especially the purple one",
+      "Red corrugated metal roofs",
+      "Yellow curb markings and concrete sidewalks with sloped access points",
+      "Lush green vegetation and presence of a papaya tree",
+      "Single-story stucco architecture",
+      "Utility poles and road layout typical of Guatemalan towns"
+    ],
+    "confidence": 0.92,
+    "retrieved_skills": [
+      {
+        "skill_text": "Hydro pole design and the fact that the address signage is blue with white numerals (seen on the curb with \"164\") matches the standard used in many Canadian provinces, especially Nova Scotia.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "sign"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 2,
+        "score": 0.7143089681863786,
+        "bm25_score": 30.241924285888672,
+        "semantic_score": 0.35116294026374817
+      },
+      {
+        "skill_text": "The condition of the road and sidewalk as well as the electric pole style matches rural settings in Mexico, especially Yucatán, Campeche, or Tabasco.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "road",
+          "sidewalk"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 1,
+        "score": 0.7737135350704194,
+        "bm25_score": 31.203466415405273,
+        "semantic_score": 0.4757422208786011
+      },
+      {
+        "skill_text": "The vegetation includes a solitary papaya tree, walls with barbed wire, and lush greenery in the distance, characteristic of tropical climates.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "vegetation"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 5,
+        "score": 0.7474801778793335,
+        "bm25_score": 30.17315673828125,
+        "semantic_score": 0.4780515432357788
+      },
+      {
+        "skill_text": "The sidewalk and curb construction style, with its painted edge and sloped access points, is typical for small towns in southern Mexico.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sidewalk"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 1,
+        "score": 0.6801465541124344,
+        "bm25_score": 21.829574584960938,
+        "semantic_score": 0.4304804801940918
+      },
+      {
+        "skill_text": "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.6780755937099456,
+        "bm25_score": 24.47953987121582,
+        "semantic_score": 0.3910612463951111
+      },
+      {
+        "skill_text": "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.7122765600681304,
+        "bm25_score": 29.25542640686035,
+        "semantic_score": 0.43262779712677
+      },
+      {
+        "skill_text": "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 1,
+        "score": 0.7201065182685853,
+        "bm25_score": 26.431493759155273,
+        "semantic_score": 0.4020336866378784
+      },
+      {
+        "skill_text": "The climate appears temperate, with green grass and blue skies, fitting regions like southern Alberta, Saskatchewan, or Manitoba.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 2,
+        "score": 0.6846311211585998,
+        "bm25_score": 26.06284523010254,
+        "semantic_score": 0.4259302616119385
+      },
+      {
+        "skill_text": "The architecture features flat-roofed, single-story houses with pastel colors, common in rural Mexico and Central America.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 1,
+        "score": 0.7581175267696381,
+        "bm25_score": 25.959402084350586,
+        "semantic_score": 0.5222558975219727
+      },
+      {
+        "skill_text": "The dryness of the climate with yellow shrubbery is common along the regions of the US and Mexico border",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.44895623326301576,
+        "bm25_score": 32.93698501586914,
+        "semantic_score": 0.46879255771636963
+      },
+      {
+        "skill_text": "The sky is clear and the lighting is very intense, supporting a location in central or northern Mexico.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "clear",
+          "intense",
+          "lighting",
+          "very"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 5,
+        "score": 0.7776896685361863,
+        "bm25_score": 28.90021514892578,
+        "semantic_score": 0.5193081498146057
+      },
+      {
+        "skill_text": "The soil appears light-colored and somewhat sandy, indicating tropical or subtropical lowland terrain.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "soil",
+          "terrain"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 1,
+        "score": 0.6929279297590256,
+        "bm25_score": 19.956262588500977,
+        "semantic_score": 0.481971800327301
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "gt",
+      "predicted_region": "north_america",
+      "predicted_lat": 15.525,
+      "predicted_lng": -90.75,
+      "reasoning_text": "{\n  \"country\": \"Guatemala\",\n  \"country_code\": \"gt\",\n  \"region\": \"Central America\",\n  \"lat\": 15.525,\n  \"lng\": -90.75,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to a rural or semi-rural town in the Guatemalan highlands or Pacific foothills. The combination of the specific architectural style (stucco, single-story, vibrant pastel colors like the purple building), the red corrugated metal roofs, and the yellow curb markings is highly characteristic of Guatemalan municipalities. The vegetation (lush, tropical/subtropical) and the bright blue sky with altocumulus clouds fit the climate of the region. The lack of heavy traffic and the simple road infrastructure suggest a smaller town. The 'hard clue' of yellow curb paint is common in Latin America, but the specific aesthetic aligns best with Guatemala. The zoom boxes likely target the purple building and the street view perspective to confirm the location via Google Street View search for similar scenes in Guatemalan towns.\",\n  \"evidence\": [\n    \"Yellow curb markings on both sides of the road\",\n    \"Low-rise residential/commercial buildings painted in pastel colors (pink, purple)\",\n    \"Red corrugated metal roofs on left-side structures\",\n    \"Purple building with white roll-up garage door and barred windows\",\n    \"Motorcycle parked under awning of purple building\",\n    \"Dark-colored sedan parked facing away from camera on right side of road\",\n    \"Overhead utility wires strung between wooden poles along both sides\",\n    \"Lush green trees and vegetation visible behind buildings and along horizon\",\n    \"Sky is bright blue with scattered altocumulus clouds — suggests tropical or subtropical climate\",\n    \"No visible street signs, traffic lights, or directional signage\",\n    \"Road surface appears worn but maintained; no lane dividers\",\n    \"Sidewalks are narrow concrete strips adjacent to curbs\",\n    \"No pedestrians visible; quiet, low-traffic environment\"\n  ]\n}",
+      "evidence_spans": [
+        "Yellow curb markings on both sides of the road",
+        "Low-rise residential/commercial buildings painted in pastel colors (pink, purple)",
+        "Red corrugated metal roofs on left-side structures",
+        "Purple building with white roll-up garage door and barred windows",
+        "Motorcycle parked under awning of purple building",
+        "Dark-colored sedan parked facing away from camera on right side of road",
+        "Overhead utility wires strung between wooden poles along both sides",
+        "Lush green trees and vegetation visible behind buildings and along horizon",
+        "Sky is bright blue with scattered altocumulus clouds — suggests tropical or subtropical climate",
+        "No visible street signs, traffic lights, or directional signage",
+        "Road surface appears worn but maintained; no lane dividers",
+        "Sidewalks are narrow concrete strips adjacent to curbs",
+        "No pedestrians visible; quiet, low-traffic environment"
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "Single-lane paved road with yellow curb markings on both sides",
+          "Low-rise residential/commercial buildings (1 story), painted in pastel colors (pink, purple)",
+          "Red corrugated metal roofs common on left-side structures",
+          "Purple building on right has white roll-up garage door and barred windows",
+          "Motorcycle parked under awning of purple building",
+          "Dark-colored sedan parked facing away from camera on right side of road",
+          "Overhead utility wires strung between wooden poles along both sides",
+          "Lush green trees and vegetation visible behind buildings and along horizon",
+          "Sky is bright blue with scattered altocumulus clouds — suggests tropical or subtropical climate",
+          "No visible street signs, traffic lights, or directional signage",
+          "Road surface appears worn but maintained; no lane dividers",
+          "Sidewalks are narrow concrete strips adjacent to curbs",
+          "No pedestrians visible; quiet, low-traffic environment"
+        ],
+        "hard_clues": [
+          "Yellow curb paint — commonly used in Latin America for no-parking zones",
+          "Roll-up metal garage doors and barred windows — typical of Central American towns",
+          "Corrugated metal roofing + pastel stucco walls — architectural style prevalent in Guatemala, Honduras, El Salvador",
+          "Motorcycle as primary personal transport — consistent with rural/semi-urban Latin America",
+          "Vegetation: dense broadleaf trees suggest tropical highland or lowland region",
+          "Cloud pattern (altocumulus) + bright sun — indicates mid-latitude tropical zone, likely Central America",
+          "Absence of European/North American infrastructure (e.g., standardized signage, wide sidewalks, multiple lanes)"
+        ],
+        "ambiguous_clues": [
+          "License plate on sedan not legible — cannot confirm country",
+          "No visible language on signs — could be Spanish-speaking region but not definitive",
+          "Utility pole design generic — doesn’t uniquely identify country",
+          "Road width and condition could match many developing regions globally",
+          "Purple building color unusual — may be local preference rather than regional indicator"
+        ],
+        "possible_scripts": [
+          "Spanish (most likely — architecture, vegetation, infrastructure strongly suggest Central America)",
+          "Possibly Mayan languages spoken locally if in Guatemala (e.g., K’iche’, Q’eqchi’)",
+          "Portuguese unlikely — architecture and vegetation less typical of Brazil’s interior",
+          "English very unlikely — no colonial British/French/American infrastructure cues"
+        ],
+        "driving_side": "right"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "Guatemala",
+          "Honduras",
+          "El Salvador",
+          "Nicaragua"
+        ],
+        "zoom_boxes": [
+          [
+            520,
+            550,
+            570,
+            620
+          ],
+          [
+            0,
+            450,
+            290,
+            750
+          ]
+        ],
+        "verification_queries": [
+          "Search for street view of 'Calle Principal' in rural Guatemala towns",
+          "Search for street view of 'Calle Principal' in rural Honduras towns",
+          "Search for street view of 'Calle Principal' in rural El Salvador towns",
+          "Search for street view of 'Calle Principal' in rural Nicaragua towns"
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "gt",
+      "predicted_region": "north_america",
+      "predicted_lat": 15.525,
+      "predicted_lng": -90.75,
+      "confidence": 0.92
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "gt",
+      "predicted_region": "north_america",
+      "predicted_lat": 15.525,
+      "predicted_lng": -90.75,
+      "confidence": 0.92
+    },
+    "base_prediction_summary": {
+      "predicted_country": "gt",
+      "predicted_region": "north_america",
+      "predicted_lat": 15.525,
+      "predicted_lng": -90.75,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.92,
+    "skill_boost_aggressive_confidence": 0.92,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The sky is clear and the lighting is very intense, supporting a location in central or northern Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7776896685361863,
+          "visual_cues": [
+            "clear",
+            "intense",
+            "lighting",
+            "very"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The condition of the road and sidewalk as well as the electric pole style matches rural settings in Mexico, especially Yucatán, Campeche, or Tabasco.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7737135350704194,
+          "visual_cues": [
+            "pole",
+            "road",
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The architecture features flat-roofed, single-story houses with pastel colors, common in rural Mexico and Central America.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7581175267696381,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The vegetation includes a solitary papaya tree, walls with barbed wire, and lush greenery in the distance, characteristic of tropical climates.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7474801778793335,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7201065182685853,
+          "visual_cues": [
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "Hydro pole design and the fact that the address signage is blue with white numerals (seen on the curb with \"164\") matches the standard used in many Canadian provinces, especially Nova Scotia.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7143089681863786,
+          "visual_cues": [
+            "pole",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7122765600681304,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The soil appears light-colored and somewhat sandy, indicating tropical or subtropical lowland terrain.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6929279297590256,
+          "visual_cues": [
+            "soil",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The climate appears temperate, with green grass and blue skies, fitting regions like southern Alberta, Saskatchewan, or Manitoba.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6846311211585998,
+          "visual_cues": [
+            "climate"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The sidewalk and curb construction style, with its painted edge and sloped access points, is typical for small towns in southern Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6801465541124344,
+          "visual_cues": [
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6780755937099456,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The dryness of the climate with yellow shrubbery is common along the regions of the US and Mexico border",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.44895623326301576,
+          "visual_cues": [
+            "climate"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sidewalk"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The sky is clear and the lighting is very intense, supporting a location in central or northern Mexico.",
+        "The condition of the road and sidewalk as well as the electric pole style matches rural settings in Mexico, especially Yucatán, Campeche, or Tabasco.",
+        "The architecture features flat-roofed, single-story houses with pastel colors, common in rural Mexico and Central America.",
+        "The vegetation includes a solitary papaya tree, walls with barbed wire, and lush greenery in the distance, characteristic of tropical climates.",
+        "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+        "Hydro pole design and the fact that the address signage is blue with white numerals (seen on the curb with \"164\") matches the standard used in many Canadian provinces, especially Nova Scotia.",
+        "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+        "The soil appears light-colored and somewhat sandy, indicating tropical or subtropical lowland terrain.",
+        "The climate appears temperate, with green grass and blue skies, fitting regions like southern Alberta, Saskatchewan, or Manitoba.",
+        "The sidewalk and curb construction style, with its painted edge and sloped access points, is typical for small towns in southern Mexico.",
+        "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+        "The dryness of the climate with yellow shrubbery is common along the regions of the US and Mexico border"
+      ],
+      "summary": "nodes=12, edges=66, base_region=north_america, top_skill_region=north_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=north_america, top_skill_region=north_america"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

@@ -1,0 +1,16 @@
+High-quality rural European road with right-hand driving
+Separate paved cycle path running parallel to the road
+White roadside delineator posts with black rectangular panels typical of central Europe
+Broad white chevron/island road markings and precise edge lines consistent with Swiss engineering
+Very flat, expansive farmland matching the Swiss Plateau
+Tree-lined roadside avenue common on well-maintained Swiss rural roads
+Open agricultural landscape fitting the Broye plain near Avenches and Payerne
+Following the ordered skill graph strictly: Skill 1 suggests a narrow rural southern European road, but this is only a weak fit because the road here is well-engineered and not especially southern in character.
+Skill 2 suggests rural Eastern Europe from road condition and missing lane markings, but that conflicts with the very high pavement quality and formal roadside treatment.
+Skill 3 is the strongest applicable high-priority cue: the road design and signage style are consistent with Swiss road infrastructure.
+Composing through the graph, Skill 5 supports a continental European setting from the lane treatment and edge lines, while Skill 8 also supports central European rural infrastructure through the white delineator posts with black panels.
+Skills 4, 6, 7, 9, 10, 11, and 12 do not match the visible scene as well as the Swiss interpretation.
+The flat agricultural plain, immaculate pavement, separated paved cycle path, avenue trees, and Swiss-style rural engineering strongly indicate the Swiss Plateau rather than mountainous Switzerland.
+Within Switzerland, this very flat open farmland is especially consistent with the Broye plain around Avenches and Payerne in canton Vaud.
+Therefore the best consistent location guess is the rural road between Avenches and Payerne near Avenches, Vaud, Switzerland.
+Conclusion: likely location is Avenches, Vaud, Switzerland

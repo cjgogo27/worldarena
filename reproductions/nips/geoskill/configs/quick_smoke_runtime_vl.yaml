@@ -1,0 +1,28 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/quick_smoke
+main_agent:
+  base_url: https://api.siliconflow.cn/v1/chat/completions
+  api_key: ''
+  model: Qwen/Qwen2.5-VL-72B-Instruct
+  max_tokens: 700
+  max_image_side: 768
+  retries: 1
+  backoff_seconds: 0.2
+  request_timeout_seconds: 35
+llm_large:
+  base_url: https://api.nuwaflux.com/v1
+  api_key: ''
+  model: gpt-5.2
+  max_tokens: 700
+  max_image_side: 768
+  retries: 1
+  backoff_seconds: 0.2
+  request_timeout_seconds: 35
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  min_score: 0.15
+dataset:
+  game_ids:
+  - 1NJsXTxIF9GGMDxC

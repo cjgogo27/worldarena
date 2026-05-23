@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow center line, indicating two-way traffic with right-hand driving, consistent with US road standards.",
+    "Utility poles and overhead wires are typical of suburban American infrastructure, especially in California.",
+    "The architecture—single-story homes with tiled roofs and stucco exteriors—is characteristic of Southern California residential areas."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow center line, indicating two-way traffic with right-hand driving, consistent with US road standards.\",\n    \"Utility poles and overhead wires are typical of suburban American infrastructure, especially in California.\",\n    \"The architecture—single-story homes with tiled roofs and stucco exteriors—is characteristic of Southern California residential areas.\",\n    \"Vegetation includes drought-tolerant plants and trees like eucalyptus or oak,"
+}

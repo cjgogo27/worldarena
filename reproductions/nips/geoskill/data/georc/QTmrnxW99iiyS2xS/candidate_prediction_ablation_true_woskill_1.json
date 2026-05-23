@@ -1,0 +1,33 @@
+{
+  "game_id": "QTmrnxW99iiyS2xS",
+  "round": 1,
+  "sample_id": "georc::QTmrnxW99iiyS2xS::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "nl",
+    "predicted_region": "europe",
+    "predicted_address": "Oostvaardersdiep, Almere, Flevoland, Netherlands",
+    "predicted_lat": 52.36666667,
+    "predicted_lng": 5.21666667,
+    "reasoning_text": "```json\n{\n  \"country\": \"Netherlands\",\n  \"country_code\": \"nl\",\n  \"region\": \"Western Europe\",\n  \"city\": \"Almere\",\n  \"province_or_state\": \"Flevoland\",\n  \"address\": \"Oostvaardersdiep, Almere, Flevoland, Netherlands\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows a modern Dutch residential neighborhood with characteristic architecture: uniform modern detached houses with dark pitched roofs, large windows, and spacious green buffers between roads and homes. The flat terrain, wide cycling paths alongside the road, and lush green vegetation are typical of Dutch polder landscapes, particularly in newer planned cities. The road layout with a narrow asphalt road, red-brown cycling paths, and drainage grates matches Dutch infrastructure standards. Almere, a planned city built on reclaimed land in Flevoland, is known for exactly this type of modern suburban development with extensive green spaces and water-adjacent neighborhoods. The name 'Oostvaardersdiep' refers to a waterway and surrounding residential area in Almere's newer districts.\",\n  \"evidence\": [\"Modern detached houses with dark pitched roofs typical of Dutch suburban architecture\", \"Flat terrain with extensive green buffers and cycling infrastructure\", \"Red-brown paved cycling paths parallel to the main road\", \"Drainage grate visible at road edge, characteristic of Dutch water management\", \"Planned suburban layout consistent with Almere's polder development\", \"Lush green vegetation and open sky typical of Flevoland's reclaimed landscape\"]\n}\n```",
+    "evidence_spans": [
+      "Modern detached houses with dark pitched roofs typical of Dutch suburban architecture",
+      "Flat terrain with extensive green buffers and cycling infrastructure",
+      "Red-brown paved cycling paths parallel to the main road",
+      "Drainage grate visible at road edge, characteristic of Dutch water management",
+      "Planned suburban layout consistent with Almere's polder development",
+      "Lush green vegetation and open sky typical of Flevoland's reclaimed landscape"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "nl",
+      "be",
+      "de"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"nl\",\"be\",\"de\"],\"reason\":\"Architecture shows modern suburban Dutch-style houses with dark gabled roofs, flat terrain with drainage ditches/verges, bicycle path alongside road, and lush green vegetation typical of Netherlands polder landscape. Street design with brick-paved side paths and specific drainage grate pattern strongly indicates Netherlands.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8775000000000001
+  },
+  "error": null
+}

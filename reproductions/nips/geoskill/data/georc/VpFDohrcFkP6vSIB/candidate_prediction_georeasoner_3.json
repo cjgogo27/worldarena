@@ -1,0 +1,11 @@
+{
+  "country": "Netherlands",
+  "country_code": "nl",
+  "city": "",
+  "reasoning_chain": [
+    "The road is narrow with no center line, typical of Dutch residential streets designed for low-speed traffic.",
+    "Houses feature brick facades and sloped roofs with skylights, common in Dutch suburban architecture.",
+    "Vegetation includes dense hedges and hydrangeas, consistent with temperate maritime climate and Dutch gardening styles."
+  ],
+  "raw_output": "{\n  \"country\": \"Netherlands\",\n  \"country_code\": \"nl\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is narrow with no center line, typical of Dutch residential streets designed for low-speed traffic.\",\n    \"Houses feature brick facades and sloped roofs with skylights, common in Dutch suburban architecture.\",\n    \"Vegetation includes dense hedges and hydrangeas, consistent with temperate maritime climate and Dutch gardening styles.\",\n    \"No visible signage or language text, but the overall urban design and vehicle type (small hatchback)"
+}

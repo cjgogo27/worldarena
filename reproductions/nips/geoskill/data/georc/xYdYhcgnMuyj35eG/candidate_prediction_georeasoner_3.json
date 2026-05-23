@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with a faded yellow center line, typical of rural Brazilian federal or state roads.",
+    "Vegetation consists of dry grassland and scattered acacia-like trees, consistent with the Cerrado biome found in central Brazil.",
+    "Utility poles are wooden and spaced regularly along the right side, common in rural infrastructure across Brazil."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with a faded yellow center line, typical of rural Brazilian federal or state roads.\",\n    \"Vegetation consists of dry grassland and scattered acacia-like trees, consistent with the Cerrado biome found in central Brazil.\",\n    \"Utility poles are wooden and spaced regularly along the right side, common in rural infrastructure across Brazil.\",\n    \"No visible signage, vehicles, or urban features suggest a remote rural"
+}

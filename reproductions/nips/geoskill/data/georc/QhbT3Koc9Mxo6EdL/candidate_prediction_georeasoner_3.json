@@ -1,0 +1,11 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane highway with white center line and right-hand traffic, consistent with Nordic countries including Finland.",
+    "Vegetation shows mixed coniferous and deciduous trees typical of boreal forest zones found in Finland.",
+    "No visible urban infrastructure or signage suggests a rural or semi-rural location common in Finnish countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane highway with white center line and right-hand traffic, consistent with Nordic countries including Finland.\",\n    \"Vegetation shows mixed coniferous and deciduous trees typical of boreal forest zones found in Finland.\",\n    \"No visible urban infrastructure or signage suggests a rural or semi-rural location common in Finnish countryside.\",\n    \"The terrain features gentle rolling hills and open sky, matching the landscape of eastern or northern Finland"
+}

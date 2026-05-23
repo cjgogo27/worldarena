@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The reddish-brown laterite soil and dry scrub vegetation are characteristic of arid or semi-arid regions in central or western India.",
+    "The unpaved dirt road with no lane markings and the presence of scattered construction debris suggest a rural or developing area common in Indian countryside.",
+    "The simple concrete fence posts and lack of formal infrastructure align with typical rural settings in states like Rajasthan or Madhya Pradesh."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The reddish-brown laterite soil and dry scrub vegetation are characteristic of arid or semi-arid regions in central or western India.\",\n    \"The unpaved dirt road with no lane markings and the presence of scattered construction debris suggest a rural or developing area common in Indian countryside.\",\n    \"The simple concrete fence posts and lack of formal infrastructure align with typical rural settings in states like Rajasthan or Madhya Pradesh.\",\n    \"The clear blue sky with"
+}

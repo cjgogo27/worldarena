@@ -1,0 +1,11 @@
+{
+  "country": "Belgium",
+  "country_code": "be",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow paved path with red and white markings is typical of Belgian cycle paths or shared-use trails in rural areas.",
+    "The dense hedgerows lining both sides of the path are characteristic of Belgian countryside landscaping and agricultural boundaries.",
+    "The architecture of the houses in the background, including the gabled roofs and brick construction, aligns with traditional Belgian rural housing styles."
+  ],
+  "raw_output": "{\n  \"country\": \"Belgium\",\n  \"country_code\": \"be\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow paved path with red and white markings is typical of Belgian cycle paths or shared-use trails in rural areas.\",\n    \"The dense hedgerows lining both sides of the path are characteristic of Belgian countryside landscaping and agricultural boundaries.\",\n    \"The architecture of the houses in the background, including the gabled roofs and brick construction, aligns with traditional Belgian rural housing styles.\",\n    \"The presence of solar panels on the roof suggests modern European energy"
+}

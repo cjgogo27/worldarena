@@ -1,0 +1,10 @@
+{
+  "country": "Bangladesh",
+  "country_code": "bd",
+  "city": "",
+  "reasoning_chain": [
+    "The Bengali script on shop signs (e.g., 'সানিয়া') confirms location in Bangladesh or West Bengal, India; combined with vehicle types and street layout, Bangladesh is more likely.",
+    "Green auto-rickshaws are iconic to Bangladesh’s urban transport, especially in rural/semi-urban areas like this."
+  ],
+  "raw_output": "{\n  \"country\": \"Bangladesh\",\n  \"country_code\": \"bd\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The Bengali script on shop signs (e.g., 'সানিয়া') confirms location in Bangladesh or West Bengal, India; combined with vehicle types and street layout, Bangladesh is more likely.\",\n    \"Green auto-rickshaws are iconic to Bangladesh’s urban transport, especially in rural/semi-urban areas like this.\",\n    \"Overhead electrical wires strung between poles without standardized spacing or modern infrastructure suggest a developing South Asian context, consistent"
+}

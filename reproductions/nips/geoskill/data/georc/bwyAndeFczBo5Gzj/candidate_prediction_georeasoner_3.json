@@ -1,0 +1,11 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "The road is narrow, unmarked, and lacks center lines, typical of rural Portuguese country roads.",
+    "Wind turbines are densely clustered on rolling hills, consistent with Portugal’s major wind farm regions in the north and center.",
+    "Vegetation includes dry grasses and scattered trees, matching the Mediterranean climate of central Portugal."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is narrow, unmarked, and lacks center lines, typical of rural Portuguese country roads.\",\n    \"Wind turbines are densely clustered on rolling hills, consistent with Portugal’s major wind farm regions in the north and center.\",\n    \"Vegetation includes dry grasses and scattered trees, matching the Mediterranean climate of central Portugal.\",\n    \"No visible signage or vehicles, but the terrain and infrastructure align with remote areas in districts like Viseu"
+}

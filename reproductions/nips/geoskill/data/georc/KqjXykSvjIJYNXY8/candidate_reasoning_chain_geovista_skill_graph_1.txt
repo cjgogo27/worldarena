@@ -1,0 +1,15 @@
+unfinished concrete block buildings with metal railings
+corrugated metal roofing on roadside structures
+red laterite unpaved road typical of tropical Central/West Africa
+dense overhead utility wiring
+lush tropical vegetation
+mixed residential and small commercial storefront street
+Francophone-influenced urban form suggested by curbing and building frontage
+Applying the ordered skill graph strictly: Skill 1 fits best first, because the scene shows simple concrete block construction and metal roofing typical of peri-urban West/Central African streets.
+From Skill 1, the strongest linked support is Skill 9, which matches the dense lush tropical vegetation and humid climate.
+Next, Skill 2 partially fits because the street edge and building alignment suggest some French-style urban planning influence, which is compatible with a Francophone country.
+From Skill 2, the linked composition to Skill 9 again supports a tropical setting.
+The later ordered skills pointing to Colombia, ex-Soviet Europe, Bosnia, Southeast Asia, Latin America, Bangladesh, Vietnam, South Africa, and Indonesia are weaker because their broader regional architectural patterns conflict with the clearly tropical African streetscape and Francophone-style urban character.
+Combining the strongest compatible graph cues yields a Francophone tropical African urban/peri-urban location, and among plausible candidates this is most consistent with Cameroon.
+Within Cameroon, the red dirt commercial neighborhood street, dense wiring, mixed low-rise concrete shop-housing blocks, and hilly western-city feel best match Bafoussam in the West Region.
+Conclusion: likely location is Bafoussam, West Region, Cameroon

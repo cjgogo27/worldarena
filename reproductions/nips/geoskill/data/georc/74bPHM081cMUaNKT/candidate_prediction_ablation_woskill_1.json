@@ -1,0 +1,25 @@
+{
+  "game_id": "74bPHM081cMUaNKT",
+  "round": 1,
+  "sample_id": "georc::74bPHM081cMUaNKT::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "qa",
+    "predicted_region": "asia",
+    "predicted_address": "Industrial/agricultural outskirts west of Doha, Qatar",
+    "predicted_lat": 25.5,
+    "predicted_lng": 51.25,
+    "reasoning_text": "{\n  \"country\": \"Qatar\",\n  \"country_code\": \"qa\",\n  \"region\": \"Middle East\",\n  \"city\": \"Doha\",\n  \"province_or_state\": \"Doha Municipality\",\n  \"address\": \"Industrial/agricultural outskirts west of Doha, Qatar\",\n  \"confidence\": 0.38,\n  \"reasoning\": \"The landscape is extremely flat, dry, and sparsely vegetated, which fits the Arabian Peninsula. The sandy roadside, newly planted saplings, simple utility poles, and industrial vehicles suggest a Gulf-country peri-urban or industrial-agricultural zone rather than a dense city center. The road is paved but minimally marked, and the environment looks like the outer areas of a wealthy desert state with ongoing development. Among likely candidates such as Saudi Arabia, Kuwait, UAE, and Qatar, Qatar is the best fit because of its notably flat terrain, common roadside planting projects, and industrial desert outskirts around Doha.\",\n  \"evidence\": [\n    \"Extremely flat desert terrain with sandy shoulders\",\n    \"Sparse vegetation and newly planted roadside trees\",\n    \"Industrial yard with tanker and flatbed trucks common in Gulf states\",\n    \"Simple paved road with minimal markings in a dry open landscape\",\n    \"Utility poles and infrastructure consistent with developing desert outskirts\",\n    \"Overall appearance strongly suggests an Arabian Peninsula environment\"\n  ]\n}",
+    "evidence_spans": [
+      "Extremely flat desert terrain with sandy shoulders",
+      "Sparse vegetation and newly planted roadside trees",
+      "Industrial yard with tanker and flatbed trucks common in Gulf states",
+      "Simple paved road with minimal markings in a dry open landscape",
+      "Utility poles and infrastructure consistent with developing desert outskirts",
+      "Overall appearance strongly suggests an Arabian Peninsula environment"
+    ],
+    "confidence": 0.38
+  },
+  "error": null
+}

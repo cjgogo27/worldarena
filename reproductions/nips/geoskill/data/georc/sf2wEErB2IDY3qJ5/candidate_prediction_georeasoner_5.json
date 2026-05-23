@@ -1,0 +1,10 @@
+{
+  "country": "New Zealand",
+  "country_code": "nz",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt with no center line, typical of rural NZ roads in less populated areas.",
+    "Vegetation includes native trees like kauri and pohutukawa, along with lush ferns and dense undergrowth, characteristic of New Zealand’s temperate rainforest zones."
+  ],
+  "raw_output": "{\n  \"country\": \"New Zealand\",\n  \"country_code\": \"nz\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt with no center line, typical of rural NZ roads in less populated areas.\",\n    \"Vegetation includes native trees like kauri and pohutukawa, along with lush ferns and dense undergrowth, characteristic of New Zealand’s temperate rainforest zones.\",\n    \"The terrain is hilly and winding, consistent with the North Island’s rural landscapes, especially around regions like Taranaki or Haw"
+}

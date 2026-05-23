@@ -1,0 +1,34 @@
+{
+  "game_id": "JfPkjboMSjCsG1Qu",
+  "round": 1,
+  "sample_id": "georc::JfPkjboMSjCsG1Qu::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "id",
+    "predicted_region": "asia",
+    "predicted_address": "Jalan Sultan Hasanuddin, Makassar, South Sulawesi, Indonesia",
+    "predicted_lat": -3.75,
+    "predicted_lng": 120.0,
+    "reasoning_text": "```json\n{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Makassar\",\n  \"province_or_state\": \"South Sulawesi\",\n  \"address\": \"Jalan Sultan Hasanuddin, Makassar, South Sulawesi, Indonesia\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The street sign visible on the left side of the image clearly reads 'JL. SULTAN HASANUDDIN' which is a major road in Makassar, South Sulawesi, Indonesia. The architectural style with elevated wooden houses on stilts, tropical vegetation, utility pole infrastructure, and motorcycle-dominated traffic are all consistent with Indonesian urban areas. The driving side (left side of road) confirms Indonesia. The white multi-story building with ornate balcony design and the general street layout match typical Makassar residential-commercial mixed areas. Sultan Hasanuddin is a historically significant name in South Sulawesi (a famous Bugis-Makassar sultan), and this road name is distinctive to Makassar city.\",\n  \"evidence\": [\"Street sign 'JL. SULTAN HASANUDDIN' visible on left side\", \"Left-hand driving traffic with motorcycles\", \"Elevated wooden stilt house architecture typical of Sulawesi\", \"Tropical vegetation and climate indicators\", \"Utility pole and wire infrastructure typical of Indonesian cities\", \"Mixed residential-commercial building styles\", \"White SUV and motorcycle traffic composition typical of Indonesia\"]\n}\n```",
+    "evidence_spans": [
+      "Street sign 'JL. SULTAN HASANUDDIN' visible on left side",
+      "Left-hand driving traffic with motorcycles",
+      "Elevated wooden stilt house architecture typical of Sulawesi",
+      "Tropical vegetation and climate indicators",
+      "Utility pole and wire infrastructure typical of Indonesian cities",
+      "Mixed residential-commercial building styles",
+      "White SUV and motorcycle traffic composition typical of Indonesia"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "id",
+      "ph",
+      "my"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"id\",\"ph\",\"my\"],\"reason\":\"The scene shows left-hand driving (motorcycles on left side of road), tropical vegetation, dense overhead power lines, stilted wooden houses with corrugated metal roofs, and a white multi-story building with Islamic architectural elements (arched windows, decorative balcony). The street sign 'JL. SY. HASANUDDIN' uses Indonesian abbreviation 'Jl.' for Jalan (street). These features strongly indicate Indonesia, with Philippines and Malaysia as secondary possibilities due to similar Southeast Asian tropical urban characteristics.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8775000000000001
+  },
+  "error": null
+}

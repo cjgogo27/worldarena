@@ -1,0 +1,11 @@
+{
+  "country": "Netherlands",
+  "country_code": "nl",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, straight asphalt path with no center line and grassy verges is typical of Dutch rural cycle paths or small local roads.",
+    "The flat, open agricultural landscape with large fields and distant tree lines matches the polder terrain common in the Netherlands.",
+    "The presence of a center-pivot irrigation system in the field indicates intensive agriculture, which is highly characteristic of Dutch farming practices."
+  ],
+  "raw_output": "{\n  \"country\": \"Netherlands\",\n  \"country_code\": \"nl\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, straight asphalt path with no center line and grassy verges is typical of Dutch rural cycle paths or small local roads.\",\n    \"The flat, open agricultural landscape with large fields and distant tree lines matches the polder terrain common in the Netherlands.\",\n    \"The presence of a center-pivot irrigation system in the field indicates intensive agriculture, which is highly characteristic of Dutch farming practices.\",\n    \"The overcast sky with wispy cir"
+}

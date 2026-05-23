@@ -1,0 +1,75 @@
+Round 1
+
+Reasoning:
+The asphalt road with the orange center lines and the dotted white outer lines are found in Norway
+The appear to be spruce trees on the right of the road which would be more common south of Trondheim
+The mountains and the river on the right is indicative of the area around the coastal fjords between Bergen and Trondheim
+Conclusion:
+This location is definitely in southern Norway, somewhere between Bergen and Trondheim
+
+Round 2
+
+Reasoning:
+The thin road with no lines on it is indicative of Europe
+The tall pine tree on the right with a reddish bark appears to be a Scots pine, which would confirm Europe
+Black tiled roofs, as seen on the houses around the road, are much more common in Central Europe than other parts of Europe
+The ferns on the right of the road feel more northern within Europe in Scandinavia; however, the road pole with the hooks on the top feel more befitting of eastern Europe (former Soviet countries)
+Conclusion:
+This location is definitely in Europe, but could be any of Bulgaria, Czechia, Slovakia, Austria, southern Norway, or southern Sweden
+
+Round 3
+
+Reasoning:
+The white bollard to the right of the road with the black stripe containing two orange stripes can be found in Czechia and Slovakia
+The outer white lines are more indicative of Czechia than Slovakia
+Conclusion:
+This location is definitely in Czechia, though difficult to narrow down further
+
+Round 4
+
+Reasoning:
+The tropical vegetation surrounding a road lines with concrete blocks is indicative of tropical parts of Asia, such as Thailand, Malaysia, Philippines, and Indonesia
+The banana trees would fit best for Philippines and Indonesia
+The non-concrete road, as well as the bike on the right of the road that appears to be pointed for left-side driving would indicate Indonesia over the Philippines
+Conclusion:
+This location is likely in Indonesia, though it could also be on Mindanao in the Philippines
+
+Round 5
+
+Reasoning:
+The grainy pavement with a single white center line along with the forested hills fit for Eastern Europe
+The medium quality image (Gen 3) would fit for countries like Croatia, Serbia, Albania, Montenegro, and North Macedonia
+The antenna of the car can be seen at the bottom of the image and would rule out Serbia (antenna combined with the presence of hills) and North Macedonia
+The A-type guardrails that are rounded would rule out Croatia
+The rusted guardrails fit more for Montenegro
+Conclusion:
+This location is definitely in Montengro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

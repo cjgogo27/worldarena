@@ -1,0 +1,21 @@
+Banana plants and palm-like tropical vegetation
+Narrow pale gravel/limestone rural road
+Dry rocky roadside with loose stone edging
+Scattered rural homesteads with simple tin-roof architecture
+Lush tropical greenery combined with seasonally dry ground
+Settlement pattern typical of dispersed rural barangays
+Applying the ordered skill graph strictly: (1) the bright but slightly hazy tropical conditions and worn light road surface fit a high-rainfall tropical setting.
+(2) Coconut/banana-type vegetation places the scene in tropical South or Southeast Asia.
+(3) The dense green vegetation supports a tropical rainforest or monsoonal tropical climate.
+(4) The gravelly, imperfectly paved rural road indicates a rural tropical area rather than an urban center.
+(5) The dry, rocky ground could weakly resemble parts of Central America or northern South America, but this is outweighed by later Asia-specific cues and the given country-level evidence.
+(6) Banana and palm vegetation specifically support Southeast Asia.
+(7) Tropical plants and humid-looking greenery further reinforce Southeast Asia.
+(8) The Uganda branch triggered from skill 1 is not consistent with the stronger Southeast Asian vegetation/settlement pattern, so it is rejected.
+(9) The very narrow lane is consistent with a rural tropical access road; in the Philippine context this resembles a barangay road.
+(10) Tin-roof rural architecture and tropical vegetation narrow the possibilities to Malaysia, Indonesia, the Philippines, or Thailand.
+(11) Some dry grass and scattered trees could resemble dry-season Thailand, but this is only a partial fit.
+(12) The Thailand hypothesis is weakened because the scene lacks strong Thai-specific road or utility-pole evidence, while the pale limestone-like surface and rural homestead pattern fit the central Philippines well.
+Composing linked skills through the graph, skills 2, 3, 6, and 7 consistently reinforce a Southeast Asian tropical setting, while skills 4 and 9 reinforce a rural narrow secondary road.
+With the base observation already pointing to the Philippines and the visual cues matching limestone-derived dry tropical rural terrain common in Bohol, the best single consistent guess is a rural barangay road near Carmen, Bohol.
+Conclusion: likely location is Carmen, Bohol, Philippines

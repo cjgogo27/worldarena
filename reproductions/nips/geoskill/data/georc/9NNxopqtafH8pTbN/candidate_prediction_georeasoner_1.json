@@ -1,0 +1,12 @@
+{
+  "country": "New Zealand",
+  "country_code": "nz",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with no overtaking, common in rural NZ roads.",
+    "Vegetation includes wind-swept trees and shrubs typical of coastal or exposed inland areas in New Zealand.",
+    "Dry grassland and rolling hills suggest a temperate climate zone consistent with regions like Canterbury or Otago.",
+    "Utility poles and road layout match standard rural infrastructure found across New Zealand’s countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"New Zealand\",\n  \"country_code\": \"nz\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with no overtaking, common in rural NZ roads.\",\n    \"Vegetation includes wind-swept trees and shrubs typical of coastal or exposed inland areas in New Zealand.\",\n    \"Dry grassland and rolling hills suggest a temperate climate zone consistent with regions like Canterbury or Otago.\",\n    \"Utility poles and road layout match standard rural infrastructure found across New Zealand’s countryside.\"\n  ]"
+}

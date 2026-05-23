@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with right-hand driving, consistent with US road standards.",
+    "Sparse desert vegetation and arid terrain suggest a location in the American Southwest, such as Arizona or New Mexico.",
+    "Lack of urban infrastructure, signage, or buildings points to a remote rural highway rather than a city environment."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with right-hand driving, consistent with US road standards.\",\n    \"Sparse desert vegetation and arid terrain suggest a location in the American Southwest, such as Arizona or New Mexico.\",\n    \"Lack of urban infrastructure, signage, or buildings points to a remote rural highway rather than a city environment.\",\n    \"Rocky, layered cliff formations along the roadside are characteristic of geological features found in regions like the Four"
+}

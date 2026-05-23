@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a yellow center line and white edge lines, consistent with US two-lane rural roads where traffic drives on the right.",
+    "Utility poles with overhead wires are spaced regularly along the roadside, typical of American rural infrastructure.",
+    "Vegetation includes deciduous trees and open grassy fields under a partly cloudy sky, matching temperate North American summer conditions."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a yellow center line and white edge lines, consistent with US two-lane rural roads where traffic drives on the right.\",\n    \"Utility poles with overhead wires are spaced regularly along the roadside, typical of American rural infrastructure.\",\n    \"Vegetation includes deciduous trees and open grassy fields under a partly cloudy sky, matching temperate North American summer conditions.\",\n    \"No visible signage, architecture, or non-US-style road markings"
+}

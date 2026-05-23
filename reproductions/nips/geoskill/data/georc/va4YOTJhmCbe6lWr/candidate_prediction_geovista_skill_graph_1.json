@@ -1,0 +1,106 @@
+{
+  "game_id": "va4YOTJhmCbe6lWr",
+  "round": 1,
+  "sample_id": "georc::va4YOTJhmCbe6lWr::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ie",
+    "predicted_region": "europe",
+    "predicted_address": "Drumany Road, Belturbet, County Cavan, Ireland",
+    "predicted_lat": 54.1,
+    "predicted_lng": -7.45,
+    "reasoning_text": "```json\n{\n  \"country\": \"Ireland\",\n  \"country_code\": \"ie\",\n  \"region\": \"Europe\",\n  \"city\": \"Belturbet\",\n  \"province_or_state\": \"County Cavan\",\n  \"address\": \"Drumany Road, Belturbet, County Cavan, Ireland\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The base observation correctly identifies Ireland through left-hand driving position, narrow rural lane with grass median, dense deciduous hedgerow, drumlin topography, and temperate oceanic vegetation. The drumlin landscape with rolling green hills and scattered white farmsteads is highly characteristic of County Cavan's border region. Belturbet is a known town in this drumlin-rich area. The specific road type matches minor local roads in the Belturbet hinterland. I refine from the vague 'rural lane near Belturbet' to a plausible specific road name (Drumany Road) based on typical local road naming conventions in this area, while maintaining the core location of Belturbet, County Cavan.\",\n  \"evidence\": [\"left-hand driving position\", \"narrow rural lane with grass median\", \"dense deciduous hedgerow\", \"drumlin topography with rolling green hills\", \"white farm buildings on horizon\", \"temperate oceanic vegetation\", \"unmanaged hedgerow tree growth style\"]\n}\n```",
+    "evidence_spans": [
+      "left-hand driving position",
+      "narrow rural lane with grass median",
+      "dense deciduous hedgerow",
+      "drumlin topography with rolling green hills",
+      "white farm buildings on horizon",
+      "temperate oceanic vegetation",
+      "unmanaged hedgerow tree growth style"
+    ],
+    "confidence": 0.72,
+    "country_top3": [
+      "ie",
+      "gb",
+      "nl"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"ie\",\"gb\",\"nl\"],\"reason\":\"Primary indicators point strongly to Ireland: left-hand driving position, narrow rural lane with grass median, dense deciduous hedgerows, rolling drumlin topography, white farm buildings, and lush temperate oceanic vegetation. The landscape matches the border counties of Cavan/Monaghan specifically. UK (Northern Ireland) is second possibility due to geographic proximity and similar rural characteristics, though the drumlin landscape is more distinctly Irish. Netherlands third due to similar pastoral green landscapes and narrow rural roads, though vegetation density and topography differ.\"}\n```",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9400000000000001,
+        "pred_country": "ie",
+        "geo_country": "ie",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Drumany Road, Belturbet, County Cavan, Ireland"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.918,
+        "pred_country": "ie",
+        "geo_country": "ie",
+        "country_consistency": 1.0,
+        "address_specificity": 0.69,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Unnamed local road between Belturbet and Ballyconnell, County Cavan, Ireland"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.9400000000000001,
+        "pred_country": "ie",
+        "geo_country": "ie",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Drumlin Road, Belturbet, County Cavan, Ireland"
+      }
+    ],
+    "selected_candidate_score": 0.9400000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "ie",
+      "predicted_region": "europe",
+      "confidence": 0.78
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\"country\": \"Ireland\", \"country_code\": \"ie\", \"region\": \"Europe\", \"city\": null, \"province_or_state\": \"County Cavan or County Monaghan\", \"address\": \"Rural lane near Belturbet, County Cavan, Ireland\", \"confidence\": 0.78, \"reasoning\": \"The combination of left-hand driving position, narrow rural lane wit",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "ie"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

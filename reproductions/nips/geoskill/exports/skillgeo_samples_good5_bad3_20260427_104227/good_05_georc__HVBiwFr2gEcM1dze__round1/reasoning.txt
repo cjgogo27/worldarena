@@ -1,0 +1,13 @@
+```json
+{
+  "country": "Spain",
+  "country_code": "es",
+  "region": "Europe",
+  "city": "Arzúa",
+  "province_or_state": "Galicia",
+  "address": "Rural road near Arzúa, A Coruña province, Galicia, Spain",
+  "confidence": 0.62,
+  "reasoning": "STEP 1 - HEMISPHERE & CLIMATE: The sun positioned in the southern sky confirms Northern Hemisphere. The overcast, cool conditions with yellowing deciduous foliage and grassy hills suggest a temperate oceanic climate with pronounced seasons, consistent with northwestern Spain (Galicia) in late autumn or early spring. STEP 2 - ROAD MARKINGS: The double solid white center lines with single solid white edge lines are characteristic of European, specifically Spanish rural road standards. This marking style is common on secondary roads in Spain, particularly on winding rural routes. STEP 3 - TERRAIN & VEGETATION: The rolling green-yellow hills with mixed deciduous trees and pastures match the Galician landscape, which is known for its rural character, dairy farming, and lack of Mediterranean vegetation like olive groves. This distinguishes it from drier central or southern Spain. STEP 4 - INFRASTRUCTURE: The road width, guard rail style, and absence of distinctive Portuguese features (such as EN road numbering or specific Portuguese signage) point more strongly to Spain than Portugal. The rural setting near Arzúa is a well-known area along the Camino de Santiago pilgrimage route, characterized by exactly this type of rolling pastoral landscape and secondary road network. STEP 5 - CONFIDENCE ASSESSMENT: While no definitive signage, license plates, or architecture are visible, the combination of European road markings, Galician-type terrain and climate, and Spanish rural road characteristics supports a location in Galicia, Spain, near Arzúa. Confidence is moderate due to the absence of explicit confirming signs.",
+  "evidence": ["Double solid white center lines and solid white edge lines typical of Spanish rural roads", "Rolling green-yellow hills with temperate deciduous vegetation and pastures matching Galicia", "Overcast, cool climate with seasonal foliage transition indicating oceanic temperate zone", "Northern Hemisphere sun position confirming European latitude", "Absence of Mediterranean vegetation (olives, dry scrub) ruling out southern/central Spain", "Rural secondary road character consistent with A Coruña province near Arzúa", "Guard rail and road width matching Spanish highway infrastructure standards"]
+}
+```

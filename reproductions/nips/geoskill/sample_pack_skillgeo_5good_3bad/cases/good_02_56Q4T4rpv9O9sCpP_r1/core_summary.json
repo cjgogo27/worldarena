@@ -1,0 +1,25 @@
+{
+  "selection_group": "good",
+  "selection_rank": 2,
+  "distance_km": 17.644643,
+  "retrieved_skill_count": 12,
+  "sample_id": "georc::56Q4T4rpv9O9sCpP::round1",
+  "game_id": "56Q4T4rpv9O9sCpP",
+  "round": "1",
+  "image_source": "/data/alice/cjtest/NIPS/geoskill/data/georc/56Q4T4rpv9O9sCpP/56Q4T4rpv9O9sCpP_1.png",
+  "ground_truth": {
+    "country": "ch",
+    "lat": 47.01044207465125,
+    "lng": 9.50752445097967
+  },
+  "prediction": {
+    "predicted_country": "ch",
+    "predicted_region": "europe",
+    "predicted_address": "Bestastrasse, 9470 Buchs, St. Gallen, Switzerland",
+    "predicted_lat": 47.16666667,
+    "predicted_lng": 9.46666667,
+    "confidence": 0.88,
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  }
+}

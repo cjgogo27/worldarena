@@ -1,0 +1,40 @@
+================================================================================
+Trajectory Evaluation Report
+================================================================================
+
+Time: 2025-11-17 15:03:50
+Generated File: E:\FrankYcj\FinalTraj\Trajectory_Generation\output_copb\copb_output_20251117_145840.json
+Original File: E:\FrankYcj\FinalTraj\California\processed_data\all_user_schedules.json
+Users: 2
+Timesteps: 96 (15min each)
+
+Metrics:
+--------------------------------------------------------------------------------
+accuracy            : 0.479167
+f1-score            : 0.144935
+edit_dist           : 0.520833
+bleu_score          : 0.479167
+data_jsd            : 0.832555
+macro_int           : 0.730766
+micro_int           : 0.797742
+act_type            : 0.421158
+uni_act_type        : 0.479005
+traj_len            : 0.832555
+macro_hour          : 0.761340
+micro_hour          : 0.761340
+
+================================================================================
+
+User Trajectories:
+================================================================================
+
+User 1: 30298497_2
+Match Rate: 56.25%
+Generated: 00:00-06:00: home; 06:00-07:30: exercise; 07:30-08:30: home; 08:30-11:00: work; 11:00-13:00: education; 13:00-14:30: dine_out; 14:30-17:00: work; 17:00-19:00: dine_out; 19:00-21:30: socialize; 21:30-24:00: home
+Original:  00:00-07:15: home; 07:15-17:30: work; 17:30-24:00: home
+--------------------------------------------------------------------------------
+User 2: 30298497_1
+Match Rate: 39.58%
+Generated: 00:00-06:00: home; 06:00-07:30: exercise; 07:30-09:00: home; 09:00-11:00: education; 11:00-13:00: work; 13:00-14:30: dine_out; 14:30-16:30: shopping; 16:30-18:30: service; 18:30-21:00: home; 21:00-23:00: socialize; 23:00-24:00: home
+Original:  00:00-07:15: home; 07:15-09:15: work; 09:15-24:00: home
+--------------------------------------------------------------------------------

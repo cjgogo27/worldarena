@@ -1,0 +1,11 @@
+{
+  "country": "Nigeria",
+  "country_code": "ng",
+  "city": "",
+  "reasoning_chain": [
+    "The white police vehicle with blue and red emergency lights is consistent with Nigerian Traffic Police vehicles, commonly seen in urban and semi-urban areas.",
+    "The unpaved dirt road, combined with the presence of low concrete walls and simple residential structures, suggests a developing region typical of many Nigerian towns.",
+    "Utility poles and overhead wires are present, indicating basic infrastructure common in Nigerian settlements outside major cities."
+  ],
+  "raw_output": "{\n  \"country\": \"Nigeria\",\n  \"country_code\": \"ng\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The white police vehicle with blue and red emergency lights is consistent with Nigerian Traffic Police vehicles, commonly seen in urban and semi-urban areas.\",\n    \"The unpaved dirt road, combined with the presence of low concrete walls and simple residential structures, suggests a developing region typical of many Nigerian towns.\",\n    \"Utility poles and overhead wires are present, indicating basic infrastructure common in Nigerian settlements outside major cities.\",\n    \"Vegetation includes dry grasses"
+}

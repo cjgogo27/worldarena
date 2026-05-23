@@ -1,0 +1,46 @@
+# LaRA-WM Project Core Dependencies
+# For: Task-centric Latent Actions + Reward-Observation World Model + Test-Time Refinement
+
+# Core ML
+torch>=2.0.0
+torchvision
+numpy>=1.24.0
+scikit-learn
+scipy
+
+# Data Handling
+h5py
+zarr
+pandas
+
+# Model / Transformer
+transformers>=4.30.0
+accelerate
+einops
+
+# Vision / multimodal
+pillow
+opencv-python
+imageio
+
+# Experiment Tracking
+tensorboard
+wandb
+
+# Utilities
+tqdm
+pyyaml
+ OmegaConf
+
+# Testing
+pytest
+pytest-cov
+
+# Code Quality
+black
+flake8
+mypy
+
+# Jupyter (optional)
+jupyter
+ipython

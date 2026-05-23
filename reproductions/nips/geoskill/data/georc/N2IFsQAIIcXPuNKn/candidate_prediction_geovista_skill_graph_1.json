@@ -1,0 +1,955 @@
+{
+  "game_id": "N2IFsQAIIcXPuNKn",
+  "round": 1,
+  "sample_id": "georc::N2IFsQAIIcXPuNKn::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "hr",
+    "predicted_region": "europe",
+    "predicted_address": "Rural local road in the karst hinterland near Benkovac, Zadar County, Croatia",
+    "predicted_lat": 45.14166667,
+    "predicted_lng": 16.22916667,
+    "reasoning_text": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"region\": \"Southern Europe\",\n  \"city\": \"Benkovac\",\n  \"province_or_state\": \"Zadar County\",\n  \"address\": \"Rural local road in the karst hinterland near Benkovac, Zadar County, Croatia\",\n  \"confidence\": 0.79,\n  \"reasoning\": \"Applying the ordered skill graph strictly: Skill 1 suggests a narrow paved rural road with a single white center line, fitting rural or mountainous southern/eastern Europe. Skill 2 points to concrete paving and Belgian villages, but the dry scrubby Mediterranean landscape clearly conflicts with Belgium, so this branch is rejected by environmental context. Skill 3 reinforces a rural southern European setting due to the road narrowness and sparse markings. Skill 4 supports Europe, especially central/eastern or Balkan-style rural road marking conventions rather than western European village roads. Skill 5 suggests Indonesia, but this is contradicted by European lane markings, temperate-Mediterranean vegetation, and overall road construction. Skill 6 mentions German/Czech delineators, but such delineators are not the dominant signal here and do not outweigh the broader Balkan landscape. Skill 7 is strongly consistent: the rough, very light-colored road surface and pale limestone shoulders are typical of rural southern Europe, especially former Yugoslav karst areas. Skill 8 suggests Russia/post-Soviet roads, but the road here is not very wide and the vegetation/climate are Mediterranean rather than continental. Skill 9 again supports a rural eastern/southeastern European location. Skill 10 is contradicted because there are no yellow edge lines and the environment is not southern African. Skill 11 is contradicted because there is no double solid center line and traffic conventions are European right-hand style. Skill 12 fits well: middling-quality rural asphalt with faded center line and minimal shoulder treatment. Composing linked supportive skills from Skill 1 through Skills 3, 4, 7, 9, and 12 yields a consistent Balkan rural-road interpretation. The decisive non-graph visual evidence is the pale karstic roadside material, low rolling scrub-covered hills, dry sub-Mediterranean vegetation, and sparse settlement pattern, all highly characteristic of inland Dalmatia. Within Croatia, this best matches the Benkovac hinterland in Zadar County.\",\n  \"evidence\": [\n    \"Narrow two-lane rural road with a faint single white center line\",\n    \"Simple white edge lines consistent with European right-hand-traffic road design\",\n    \"Very light road surface and pale chalky/limestone shoulders\",\n    \"Dry scrubland with low trees and bushy Mediterranean vegetation\",\n    \"Low rolling hills typical of karst hinterland terrain\",\n    \"Sparse rural setting with no dense village development\",\n    \"Overall landscape strongly matches inland Dalmatia in Croatia\"\n  ]\n}",
+    "evidence_spans": [
+      "Narrow two-lane rural road with a faint single white center line",
+      "Simple white edge lines consistent with European right-hand-traffic road design",
+      "Very light road surface and pale chalky/limestone shoulders",
+      "Dry scrubland with low trees and bushy Mediterranean vegetation",
+      "Low rolling hills typical of karst hinterland terrain",
+      "Sparse rural setting with no dense village development",
+      "Overall landscape strongly matches inland Dalmatia in Croatia"
+    ],
+    "confidence": 0.79,
+    "base_prediction_summary": {
+      "predicted_country": "hr",
+      "predicted_region": "europe",
+      "confidence": 0.63
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 5,
+        "score": 0.8531582355499268,
+        "bm25_score": 36.248268127441406,
+        "semantic_score": 0.5433770418167114
+      },
+      {
+        "skill_text": "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 5,
+        "score": 0.8376429080963135,
+        "bm25_score": 37.673301696777344,
+        "semantic_score": 0.49327290058135986
+      },
+      {
+        "skill_text": "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 2,
+        "score": 0.835738480091095,
+        "bm25_score": 31.78277587890625,
+        "semantic_score": 0.6042766571044922
+      },
+      {
+        "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.8308132290840149,
+        "bm25_score": 34.30224609375,
+        "semantic_score": 0.5484453439712524
+      },
+      {
+        "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.8244651556015015,
+        "bm25_score": 36.1994743347168,
+        "semantic_score": 0.5025619268417358
+      },
+      {
+        "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 3,
+        "score": 0.7909603714942932,
+        "bm25_score": 32.59898376464844,
+        "semantic_score": 0.5233452320098877
+      },
+      {
+        "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 1,
+        "score": 0.7870147228240967,
+        "bm25_score": 21.625585556030273,
+        "semantic_score": 0.7295539379119873
+      },
+      {
+        "skill_text": "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 3,
+        "score": 0.7866029739379883,
+        "bm25_score": 33.6654052734375,
+        "semantic_score": 0.49640601873397827
+      },
+      {
+        "skill_text": "The road condition and absence of lane markings suggest a rural area in Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 1,
+        "score": 0.7848188877105713,
+        "bm25_score": 27.248760223388672,
+        "semantic_score": 0.6177468299865723
+      },
+      {
+        "skill_text": "The road has a yellow edge line and a white center line, which is common in some African countries, especially southern Africa.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 5,
+        "score": 0.7816411256790161,
+        "bm25_score": 37.41783905029297,
+        "semantic_score": 0.41670674085617065
+      },
+      {
+        "skill_text": "The road markings feature a double solid white center line, which is characteristic of Australia and New Zealand.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 1,
+        "score": 0.7717610597610474,
+        "bm25_score": 36.62223815917969,
+        "semantic_score": 0.4176951050758362
+      },
+      {
+        "skill_text": "The road is paved but appears to be of middling quality, with a faded white dashed center line and no shoulder markings, suggesting rural or remote areas.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 2,
+        "score": 0.766740620136261,
+        "bm25_score": 31.766782760620117,
+        "semantic_score": 0.5041717886924744
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8531582355499268,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8376429080963135,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.835738480091095,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8308132290840149,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8244651556015015,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7909603714942932,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7870147228240967,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7866029739379883,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The road condition and absence of lane markings suggest a rural area in Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7848188877105713,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The road has a yellow edge line and a white center line, which is common in some African countries, especially southern Africa.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7816411256790161,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road markings feature a double solid white center line, which is characteristic of Australia and New Zealand.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.7717610597610474,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The road is paved but appears to be of middling quality, with a faded white dashed center line and no shoulder markings, suggesting rural or remote areas.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.766740620136261,
+          "visual_cues": [
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+        "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+        "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+        "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+        "The road condition and absence of lane markings suggest a rural area in Eastern Europe.",
+        "The road has a yellow edge line and a white center line, which is common in some African countries, especially southern Africa.",
+        "The road markings feature a double solid white center line, which is characteristic of Australia and New Zealand.",
+        "The road is paved but appears to be of middling quality, with a faded white dashed center line and no shoulder markings, suggesting rural or remote areas."
+      ],
+      "summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"region\": \"Southern Europe\",\n  \"city\": \"Benkovac\",\n  \"province_or_state\": \"Zadar County\",\n  \"address\": \"Rural local road in the karst hinterland near Benkovac, Zadar County, Croatia\",\n  \"confidence\": 0.63,\n  \"reasoning\": \"The scene shows a narrow t",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "hr"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

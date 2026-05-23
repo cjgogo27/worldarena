@@ -1,0 +1,23 @@
+{
+  "country_accuracy": 0.4,
+  "continent_accuracy": 0.6,
+  "distance_error_km_median": 1018.7357577029361,
+  "distance_error_km_mean_valid_only": 514.6836190790997,
+  "distance_error_km_mean_penalized": 8323.61017144746,
+  "distance_error_km_std_penalized": 9569.248924324751,
+  "valid_coordinate_rate": 0.6,
+  "coverage_rate": 0.6,
+  "total_samples": 10.0,
+  "valid_predictions": 6.0,
+  "Acc@1km": 0.0,
+  "Acc@10km": 0.0,
+  "Acc@25km": 0.0,
+  "Acc@100km": 0.1,
+  "Acc@200km": 0.2,
+  "Acc@750km": 0.5,
+  "Acc@2500km": 0.6,
+  "elapsed_seconds": 231.3752086162567,
+  "num_samples": 10,
+  "num_errors": 4,
+  "recovery_error": "VLM query failed after retries: 401 Client Error: Unauthorized for url: https://api.nuwaflux.com/v1/chat/completions"
+}

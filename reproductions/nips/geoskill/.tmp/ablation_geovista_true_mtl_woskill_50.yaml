@@ -1,0 +1,51 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/ablation_geovista_true_mtl_rollout50_woskill
+vlm:
+  base_url: https://api.mytokenland.com/v1
+  api_key: sk-vUjdYc4zpi71lC1Z9TCQvTLeh3i50V7bImq3zKDLkPZhS1IV
+  model: qwen3.5-plus
+  max_tokens: 1500
+  max_image_side: 1024
+  retries: 3
+  backoff_seconds: 1.0
+  request_timeout_seconds: 90
+llm_large:
+  base_url: https://api.mytokenland.com/v1
+  api_key: sk-vUjdYc4zpi71lC1Z9TCQvTLeh3i50V7bImq3zKDLkPZhS1IV
+  model: gpt-5.4-mini
+  enable_thinking: false
+  max_tokens: 1100
+  max_image_side: 896
+  retries: 3
+  backoff_seconds: 1.0
+  request_timeout_seconds: 90
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 12
+  min_score: 0.1
+  retrieval_mode: hybrid
+  skill_graph_top_k: 7
+  candidate_vote_count: 1
+  candidate_vote_base_temperature: 0.1
+training_free:
+  enable_failure_recovery: false
+  enable_skill_fusion: false
+  recovery_max_records: 32
+  failure_distance_km: 250.0
+  rollout_rounds: 1
+  search_evolution:
+    enabled: false
+    provider: brave
+    api_key: ''
+    max_cases: 6
+    queries_per_case: 2
+    results_per_query: 3
+    timeout_seconds: 8.0
+    context_char_budget: 3000
+runtime:
+  sample_retry_attempts: 3
+  sample_retry_backoff_seconds: 2.0
+  inter_sample_delay_seconds: 1.0
+dataset:
+  dataset_version: georc_v1

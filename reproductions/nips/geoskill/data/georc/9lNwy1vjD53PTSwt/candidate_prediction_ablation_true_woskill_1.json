@@ -1,0 +1,35 @@
+{
+  "game_id": "9lNwy1vjD53PTSwt",
+  "round": 1,
+  "sample_id": "georc::9lNwy1vjD53PTSwt::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ua",
+    "predicted_region": "europe",
+    "predicted_address": "Highway M06, Korosten, Zhytomyr Oblast, Ukraine",
+    "predicted_lat": 50.65,
+    "predicted_lng": 28.52,
+    "reasoning_text": "```json\n{\n  \"country\": \"Ukraine\",\n  \"country_code\": \"ua\",\n  \"region\": \"Eastern Europe\",\n  \"city\": \"Korosten\",\n  \"province_or_state\": \"Zhytomyr Oblast\",\n  \"address\": \"Highway M06, Korosten, Zhytomyr Oblast, Ukraine\",\n  \"confidence\": 0.65,\n  \"reasoning\": \"Analyzing this rural road scene, I observe several key indicators. The road appears to be a paved but worn rural highway with characteristic Eastern European infrastructure. The wooden fence construction, house architecture with metal roofs, and utility pole style are consistent with Ukrainian rural areas. The vegetation and flat terrain suggest northern/central Ukraine. The small blue structure on the right resembles a typical Ukrainian rural bus stop. The road width and condition suggest a regional highway rather than a minor village road. Based on the flat terrain, deciduous trees, and overall rural character, this appears to be in the Zhytomyr Oblast region, possibly along the M06 highway which runs west from Kyiv toward Rivne. The town of Korosten is a major junction along this route with similar surrounding rural character. The driving side (implied by road orientation) and overall aesthetic strongly point to Ukraine over Russia or Belarus, though all three share similarities. Ukrainian rural roads in this region often show this specific combination of worn asphalt, wooden fencing, and scattered single-story homes.\",\n  \"evidence\": [\"Wooden picket fence construction typical of Ukraine\", \"Metal roof rural housing architecture\", \"Blue painted rural bus stop structure\", \"Deciduous trees and flat terrain consistent with northern Ukraine\", \"Worn asphalt rural highway condition\", \"Utility pole style and wire arrangement\", \"Grass verge maintenance pattern\", \"Single-story scattered rural settlement pattern\"]\n}\n```",
+    "evidence_spans": [
+      "Wooden picket fence construction typical of Ukraine",
+      "Metal roof rural housing architecture",
+      "Blue painted rural bus stop structure",
+      "Deciduous trees and flat terrain consistent with northern Ukraine",
+      "Worn asphalt rural highway condition",
+      "Utility pole style and wire arrangement",
+      "Grass verge maintenance pattern",
+      "Single-story scattered rural settlement pattern"
+    ],
+    "confidence": 0.65,
+    "country_top3": [
+      "ua",
+      "ru",
+      "by"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"ua\",\"ru\",\"by\"],\"reason\":\"Rural Eastern European village scene with unpaved road, wooden picket fences, traditional single-story houses with metal roofs, utility poles with overhead wires, and bus stop shelter. Vegetation and flat terrain are consistent with the forest-steppe zone of Ukraine, western Russia, or Belarus. The house architecture and road conditions most strongly suggest Ukraine.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9425000000000001
+  },
+  "error": null
+}

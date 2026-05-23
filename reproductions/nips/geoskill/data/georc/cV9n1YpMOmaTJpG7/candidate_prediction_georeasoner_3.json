@@ -1,0 +1,11 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved and narrow with no center line, typical of rural Portuguese countryside roads in mountainous regions.",
+    "Vegetation consists of low shrubs and grasses on rocky terrain, consistent with the Alentejo or Trás-os-Montes regions of Portugal.",
+    "No visible signage, vehicles, or buildings suggest a remote, non-urbanized area common in inland Portugal."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved and narrow with no center line, typical of rural Portuguese countryside roads in mountainous regions.\",\n    \"Vegetation consists of low shrubs and grasses on rocky terrain, consistent with the Alentejo or Trás-os-Montes regions of Portugal.\",\n    \"No visible signage, vehicles, or buildings suggest a remote, non-urbanized area common in inland Portugal.\",\n    \"The sky’s radial distortion and"
+}

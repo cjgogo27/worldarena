@@ -1,0 +1,11 @@
+{
+  "country": "Mexico",
+  "country_code": "mx",
+  "city": "",
+  "reasoning_chain": [
+    "The arid, dry vegetation and sparse tree cover are typical of northern Mexico’s semi-desert regions.",
+    "The unpaved dirt road with no markings or signage suggests a rural area common in less developed parts of Mexico.",
+    "Distant mountains and flat agricultural fields align with the topography of states like Sonora or Chihuahua."
+  ],
+  "raw_output": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The arid, dry vegetation and sparse tree cover are typical of northern Mexico’s semi-desert regions.\",\n    \"The unpaved dirt road with no markings or signage suggests a rural area common in less developed parts of Mexico.\",\n    \"Distant mountains and flat agricultural fields align with the topography of states like Sonora or Chihuahua.\",\n    \"No visible infrastructure (e.g., power lines, buildings, vehicles) or language-specific signs limits"
+}

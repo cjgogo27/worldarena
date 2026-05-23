@@ -1,0 +1,222 @@
+[
+  {
+    "video": "episode1.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 2,
+        "reason": "The robotic arm's gripper is shown holding a green cap, but the interaction with the bottle is not visually confirmed; the arm appears to be interacting with a human hand instead of the bottle",
+        "score_normalized": 0.4
+      },
+      "Perspectivity": {
+        "score": 4,
+        "reason": "Stable camera perspective with consistent depth relationships; objects maintain coherent 3D structure",
+        "score_normalized": 0.8
+      },
+      "Instruction_Following": {
+        "score": 1,
+        "reason": "The video shows human hands performing the manipulation instead of the robotic arm, which is a hallucination and violates the core instruction",
+        "score_normalized": 0.2
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_wan_public/tmp_VLM/wan_public_test10_t1/episode1_20260502_123656.json",
+    "error": null
+  },
+  {
+    "video": "episode10.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 2,
+        "reason": "The video shows human hands manipulating the cans, not a robotic arm. The hands grip and lift the cans, which violates the requirement for a robotic arm interaction.",
+        "score_normalized": 0.4
+      },
+      "Perspectivity": {
+        "score": 4,
+        "reason": "The camera perspective is stable and consistent across frames, with clear depth relationships between the objects and the background.",
+        "score_normalized": 0.8
+      },
+      "Instruction_Following": {
+        "score": 1,
+        "reason": "The video shows human hands performing the actions, not a robotic arm as instructed. This is a hallucination and completely violates the instruction.",
+        "score_normalized": 0.2
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_wan_public/tmp_VLM/wan_public_test10_t1/episode10_20260502_123937.json",
+    "error": null
+  },
+  {
+    "video": "episode100.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 4,
+        "reason": "The robotic arm maintains consistent grasp on the bottle during shaking, with realistic motion blur indicating high-speed rotation. The bottle's inertia is visually respected as it rotates around the gripper, showing plausible physics.",
+        "score_normalized": 0.8
+      },
+      "Perspectivity": {
+        "score": 5,
+        "reason": "The scene maintains a stable, fixed camera perspective with consistent depth relationships. The robotic arm, bottle, and background elements (white table, teal wall) remain geometrically coherent across all frames.",
+        "score_normalized": 1.0
+      },
+      "Instruction_Following": {
+        "score": 5,
+        "reason": "The video shows a robotic arm (not human hands) in a fixed workspace holding and shaking a smooth cylindrical bottle as instructed. The action sequence is complete and matches the specified task exactly.",
+        "score_normalized": 1.0
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_wan_public/tmp_VLM/wan_public_test10_t1/episode100_20260502_124219.json",
+    "error": null
+  },
+  {
+    "video": "episode1000.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 2,
+        "reason": "The interaction involves a human hand, not a robotic arm, which violates the core requirement. The hand grasps and moves the toy car and basket, showing no robotic kinematics or mechanical structure.",
+        "score_normalized": 0.4
+      },
+      "Perspectivity": {
+        "score": 5,
+        "reason": "The camera maintains a stable top-down perspective with consistent depth relationships and occlusion throughout the frames.",
+        "score_normalized": 1.0
+      },
+      "Instruction_Following": {
+        "score": 1,
+        "reason": "The video shows human hands performing the actions, which is a hallucination as the instruction explicitly requires a robotic arm. The human hand is clearly visible in multiple frames (e.g., frame 2, 8, 9, 14) manipulating the objects.",
+        "score_normalized": 0.2
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_wan_public/tmp_VLM/wan_public_test10_t1/episode1000_20260502_124459.json",
+    "error": null
+  },
+  {
+    "video": "episode101.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 2,
+        "reason": "The robotic arm's gripper is shown in contact with the blue stapler, but the interaction appears unrealistic as the stapler does not show any deformation or realistic force response. The gripper seems to hover or press without clear physical engagement.",
+        "score_normalized": 0.4
+      },
+      "Perspectivity": {
+        "score": 4,
+        "reason": "The camera maintains a stable perspective with consistent depth relationships between the robotic arm, the handheld scale, and the background. There is no noticeable perspective drift or distortion.",
+        "score_normalized": 0.8
+      },
+      "Instruction_Following": {
+        "score": 1,
+        "reason": "The video shows a human hand holding the scale, which directly violates the instruction requiring a robotic arm to perform the action. This is a hallucination of human hands instead of a robotic arm.",
+        "score_normalized": 0.2
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_wan_public/tmp_VLM/wan_public_test10_t1/episode101_20260502_124737.json",
+    "error": null
+  },
+  {
+    "video": "episode102.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 4,
+        "reason": "The robotic arm's gripper makes consistent contact with the playing card pack, lifting it with realistic force transfer. The pack shows slight deformation under load, indicating plausible physics. No penetration or sliding occurs.",
+        "score_normalized": 0.8
+      },
+      "Perspectivity": {
+        "score": 5,
+        "reason": "The scene maintains perfect 3D consistency with stable camera perspective. Depth relationships between the robot, table, and background walls remain constant across all frames.",
+        "score_normalized": 1.0
+      },
+      "Instruction_Following": {
+        "score": 5,
+        "reason": "The video shows a robotic arm (not human hands) lifting a blue pack of playing cards and transferring it outward, exactly as instructed. All specified elements are present and executed correctly.",
+        "score_normalized": 1.0
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_wan_public/tmp_VLM/wan_public_test10_t1/episode102_20260502_125019.json",
+    "error": null
+  },
+  {
+    "video": "episode103.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 2,
+        "reason": "The interaction involves a human hand, not a robotic arm, which violates the core requirement of the task. The hand grasps and moves the bowl, but the physics of the interaction (e.g., finger contact, lack of mechanical deformation) is not consistent with a robotic system.",
+        "score_normalized": 0.4
+      },
+      "Perspectivity": {
+        "score": 4,
+        "reason": "The camera perspective is stable and consistent across frames, maintaining a top-down view with clear depth relationships between the bowls and the table surface.",
+        "score_normalized": 0.8
+      },
+      "Instruction_Following": {
+        "score": 1,
+        "reason": "The video shows a human hand performing the manipulation, which is a hallucination as the instruction explicitly requires a robotic arm. The action sequence (grab, position, add) is performed, but by a human, not a robot, making it completely non-compliant with the instruction.",
+        "score_normalized": 0.2
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_wan_public/tmp_VLM/wan_public_test10_t1/episode103_20260502_125310.json",
+    "error": null
+  },
+  {
+    "video": "episode104.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 3,
+        "reason": "The robotic arm's gripper makes contact with the bowl but the interaction appears stiff and lacks realistic force transfer; the bowl does not show deformation or realistic response to the grasp",
+        "score_normalized": 0.6
+      },
+      "Perspectivity": {
+        "score": 5,
+        "reason": "The scene maintains consistent 3D structure and camera perspective throughout the frames; depth relationships and object occlusions are stable",
+        "score_normalized": 1.0
+      },
+      "Instruction_Following": {
+        "score": 2,
+        "reason": "The video shows a robotic arm performing a grasp and manipulation, but the instruction requires stacking the bowl, which is not completed. The arm only moves the bowl slightly without achieving the stacking action",
+        "score_normalized": 0.4
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_wan_public/tmp_VLM/wan_public_test10_t1/episode104_20260502_125554.json",
+    "error": null
+  },
+  {
+    "video": "episode105.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 4,
+        "reason": "The robotic arm grasps and positions the fan on the mat with realistic contact and force transfer. The fan remains stable on the mat, showing appropriate mass and inertia response.",
+        "score_normalized": 0.8
+      },
+      "Perspectivity": {
+        "score": 5,
+        "reason": "Stable camera perspective with consistent depth relationships and 3D structure across all frames. Objects maintain coherent spatial positioning.",
+        "score_normalized": 1.0
+      },
+      "Instruction_Following": {
+        "score": 5,
+        "reason": "The robotic arm correctly grasps the white fan and positions it on the silver mat facing the robot, exactly as instructed. All elements of the instruction are visually confirmed.",
+        "score_normalized": 1.0
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_wan_public/tmp_VLM/wan_public_test10_t1/episode105_20260502_125839.json",
+    "error": null
+  },
+  {
+    "video": "episode106.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 4,
+        "reason": "The robotic arm maintains a stable grasp on the glass bowl, lifting it with realistic force transfer. The bowl deforms slightly under the gripper, which is physically plausible for a fragile object. There is no penetration or unrealistic sliding.",
+        "score_normalized": 0.8
+      },
+      "Perspectivity": {
+        "score": 5,
+        "reason": "The scene maintains perfect 3D consistency with stable camera perspective. Depth relationships between the robotic arm, glass bowl, ceramic bowl, and background are consistent across all frames.",
+        "score_normalized": 1.0
+      },
+      "Instruction_Following": {
+        "score": 5,
+        "reason": "The video shows a robotic arm (not human hands) lifting a glazed bowl and positioning it over a ceramic bowl, exactly as instructed. The action is performed with high precision and stability.",
+        "score_normalized": 1.0
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_wan_public/tmp_VLM/wan_public_test10_t1/episode106_20260502_130127.json",
+    "error": null
+  }
+]

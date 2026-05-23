@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a double yellow line down the center, indicating two-way traffic with left-hand driving, consistent with US road rules.",
+    "Vegetation includes deciduous trees with sparse spring foliage and evergreens, typical of temperate climates in the western or central US.",
+    "The terrain features rolling hills and dry, grassy slopes, common in regions like Colorado or New Mexico."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a double yellow line down the center, indicating two-way traffic with left-hand driving, consistent with US road rules.\",\n    \"Vegetation includes deciduous trees with sparse spring foliage and evergreens, typical of temperate climates in the western or central US.\",\n    \"The terrain features rolling hills and dry, grassy slopes, common in regions like Colorado or New Mexico.\",\n    \"No visible signage, license plates, or architectural"
+}

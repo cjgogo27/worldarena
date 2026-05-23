@@ -1,0 +1,25 @@
+{
+  "game_id": "2xnQdwiCve2rHWVt",
+  "round": 1,
+  "sample_id": "georc::2xnQdwiCve2rHWVt::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "th",
+    "predicted_region": "asia",
+    "predicted_address": "Outer highway area near Nakhon Ratchasima, Thailand",
+    "predicted_lat": 14.97066,
+    "predicted_lng": 102.10196,
+    "reasoning_text": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Nakhon Ratchasima\",\n  \"province_or_state\": \"Nakhon Ratchasima Province\",\n  \"address\": \"Outer highway area near Nakhon Ratchasima, Thailand\",\n  \"confidence\": 0.58,\n  \"reasoning\": \"The road setup and roadside infrastructure look consistent with Thailand: a wide multilane highway, left-side driving context, black-yellow striped hazard marker on the median island, blue circular keep-left style sign, and dense overhead utility lines on concrete poles. The vegetation is dry tropical scrub, fitting inland mainland Southeast Asia during the dry season. Among nearby countries, Thailand best matches the road engineering, utility pole style, and general highway appearance. The exact locality is uncertain, but this looks like an outer peri-urban highway corridor typical of northeastern Thailand, so Nakhon Ratchasima is my best approximate guess.\",\n  \"evidence\": [\n    \"Wide multilane highway consistent with Thai regional roads\",\n    \"Black-yellow striped median hazard marker common in Thailand\",\n    \"Blue circular keep-left style road sign\",\n    \"Concrete utility poles with heavy overhead wiring\",\n    \"Dry tropical roadside vegetation typical of inland Thailand\",\n    \"General left-driving road layout appearance\"\n  ]\n}",
+    "evidence_spans": [
+      "Wide multilane highway consistent with Thai regional roads",
+      "Black-yellow striped median hazard marker common in Thailand",
+      "Blue circular keep-left style road sign",
+      "Concrete utility poles with heavy overhead wiring",
+      "Dry tropical roadside vegetation typical of inland Thailand",
+      "General left-driving road layout appearance"
+    ],
+    "confidence": 0.58
+  },
+  "error": null
+}

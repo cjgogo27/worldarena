@@ -1,0 +1,25 @@
+{
+  "selection_group": "bad",
+  "selection_rank": 1,
+  "distance_km": 17328.792961,
+  "retrieved_skill_count": 12,
+  "sample_id": "georc::6fGwHxCTvCbaK77Q::round1",
+  "game_id": "6fGwHxCTvCbaK77Q",
+  "round": "1",
+  "image_source": "/data/alice/cjtest/NIPS/geoskill/data/georc/6fGwHxCTvCbaK77Q/6fGwHxCTvCbaK77Q_1.png",
+  "ground_truth": {
+    "country": "br",
+    "lat": -7.481667150689077,
+    "lng": -48.79507265638942
+  },
+  "prediction": {
+    "predicted_country": "kh",
+    "predicted_region": "asia",
+    "predicted_address": "Rural laterite road near Sen Monorom, Mondulkiri Province, Cambodia",
+    "predicted_lat": 12.45583,
+    "predicted_lng": 107.18811,
+    "confidence": 0.44,
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "country": "Kazakhstan",
+  "country_code": "kz",
+  "city": "Astana",
+  "reasoning_chain": [
+    "The building in the distance displays 'YESSEN OV UNIVERSITY' with Cyrillic script, indicating a location in a former Soviet country where Cyrillic is still used, such as Kazakhstan.",
+    "The architectural style of the residential buildings and the modern university building aligns with post-Soviet urban development patterns common in Kazakhstan's capital region."
+  ],
+  "raw_output": "{\n  \"country\": \"Kazakhstan\",\n  \"country_code\": \"kz\",\n  \"city\": \"Astana\",\n  \"reasoning_chain\": [\n    \"The building in the distance displays 'YESSEN OV UNIVERSITY' with Cyrillic script, indicating a location in a former Soviet country where Cyrillic is still used, such as Kazakhstan.\",\n    \"The architectural style of the residential buildings and the modern university building aligns with post-Soviet urban development patterns common in Kazakhstan's capital region.\",\n    \"The presence of air conditioning units on the exterior walls and the arid, sandy"
+}

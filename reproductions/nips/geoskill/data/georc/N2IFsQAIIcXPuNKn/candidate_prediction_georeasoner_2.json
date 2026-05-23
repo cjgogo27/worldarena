@@ -1,0 +1,10 @@
+{
+  "country": "France",
+  "country_code": "fr",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with white dashed center lines and solid white edge lines, consistent with French rural mountain roads.",
+    "The vegetation is dense deciduous forest with lush green foliage, typical of temperate climates in western Europe, particularly the Massif Central or Alps regions of France."
+  ],
+  "raw_output": "{\n  \"country\": \"France\",\n  \"country_code\": \"fr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with white dashed center lines and solid white edge lines, consistent with French rural mountain roads.\",\n    \"The vegetation is dense deciduous forest with lush green foliage, typical of temperate climates in western Europe, particularly the Massif Central or Alps regions of France.\",\n    \"The terrain features rolling hills and distant mountain ranges under a hazy sky, suggesting an elevated alpine or pre-alpine environment common in southeastern"
+}

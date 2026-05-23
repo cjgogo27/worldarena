@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The reddish-brown soil and dense tropical vegetation are characteristic of the Brazilian Cerrado or Atlantic Forest biome.",
+    "The unpaved dirt road with no markings or signage is typical of rural areas in Brazil, especially in the Southeast or South regions.",
+    "The presence of wooden fence posts and overgrown vegetation suggests a low-maintenance rural property, common in Brazilian countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The reddish-brown soil and dense tropical vegetation are characteristic of the Brazilian Cerrado or Atlantic Forest biome.\",\n    \"The unpaved dirt road with no markings or signage is typical of rural areas in Brazil, especially in the Southeast or South regions.\",\n    \"The presence of wooden fence posts and overgrown vegetation suggests a low-maintenance rural property, common in Brazilian countryside.\",\n    \"The clear blue sky and bright sunlight indicate a tropical climate,"
+}

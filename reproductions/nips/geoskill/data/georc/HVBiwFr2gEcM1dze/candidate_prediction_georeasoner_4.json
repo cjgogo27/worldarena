@@ -1,0 +1,11 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "The road sign reads 'CAMERON RD' in English with Australian-style font and spacing, indicating an Australian location.",
+    "The chevron sign (black and white zigzag) is used in Australia to indicate sharp curves or road alignment changes.",
+    "Vegetation consists of eucalyptus trees and dry grassland typical of rural Australia, especially in states like Queensland or New South Wales."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road sign reads 'CAMERON RD' in English with Australian-style font and spacing, indicating an Australian location.\",\n    \"The chevron sign (black and white zigzag) is used in Australia to indicate sharp curves or road alignment changes.\",\n    \"Vegetation consists of eucalyptus trees and dry grassland typical of rural Australia, especially in states like Queensland or New South Wales.\",\n    \"Road markings follow Australian standards:"
+}

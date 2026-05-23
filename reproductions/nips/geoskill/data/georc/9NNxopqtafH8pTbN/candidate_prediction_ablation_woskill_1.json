@@ -1,0 +1,24 @@
+{
+  "game_id": "9NNxopqtafH8pTbN",
+  "round": 1,
+  "sample_id": "georc::9NNxopqtafH8pTbN::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "au",
+    "predicted_region": "oceania",
+    "predicted_address": "Rural road on Kangaroo Island, South Australia, Australia",
+    "predicted_lat": -35.8,
+    "predicted_lng": 137.3,
+    "reasoning_text": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"region\": \"Oceania\",\n  \"city\": \"Kangaroo Island\",\n  \"province_or_state\": \"South Australia\",\n  \"address\": \"Rural road on Kangaroo Island, South Australia, Australia\",\n  \"confidence\": 0.63,\n  \"reasoning\": \"The vehicles appear to be driving on the left, which strongly points to countries like Australia or New Zealand. The road is a narrow sealed rural road with double solid white center lines and no edge lines, a style commonly seen on secondary roads in Australia. The landscape is dry and open with yellowed grass, coastal scrub, and wind-shaped trees, suggesting a Mediterranean/coastal climate rather than greener New Zealand conditions. The low rolling hill, sparse fencing, utility poles, and scrubby roadside vegetation fit southern Australian island or coastal terrain well. Among likely candidates, Kangaroo Island in South Australia matches especially well because of its dry farmland, coastal bush, and narrow rural roads.\",\n  \"evidence\": [\n    \"Left-side driving visible from vehicle positioning\",\n    \"Narrow rural paved road with Australian-style center markings\",\n    \"Dry yellow grassland and scrub indicating a southern Australian climate\",\n    \"Wind-shaped coastal trees and bush suggesting an exposed island/coastal environment\",\n    \"Sparse fencing and rolling open farmland consistent with Kangaroo Island landscapes\"\n  ]\n}",
+    "evidence_spans": [
+      "Left-side driving visible from vehicle positioning",
+      "Narrow rural paved road with Australian-style center markings",
+      "Dry yellow grassland and scrub indicating a southern Australian climate",
+      "Wind-shaped coastal trees and bush suggesting an exposed island/coastal environment",
+      "Sparse fencing and rolling open farmland consistent with Kangaroo Island landscapes"
+    ],
+    "confidence": 0.63
+  },
+  "error": null
+}

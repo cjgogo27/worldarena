@@ -1,0 +1,166 @@
+[
+  {
+    "skill_text": "The road is unpaved, with reddish soil, which is typical in tropical or subtropical regions with laterite soil.",
+    "region_hint": "africa",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "soil"
+    ],
+    "source_game_id": "6fGwHxCTvCbaK77Q",
+    "source_round": 1,
+    "score": 0.9515186548233032,
+    "bm25_score": 30.971342086791992,
+    "semantic_score": 0.5791186094284058
+  },
+  {
+    "skill_text": "The road markings feature short white dashed lines on both edges, which is common in rural India rather than Southeast Asia or Africa.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "road markings"
+    ],
+    "source_game_id": "6fGwHxCTvCbaK77Q",
+    "source_round": 2,
+    "score": 0.8817886114120483,
+    "bm25_score": 30.5664119720459,
+    "semantic_score": 0.4899325966835022
+  },
+  {
+    "skill_text": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "soil"
+    ],
+    "source_game_id": "2xnQdwiCve2rHWVt",
+    "source_round": 3,
+    "score": 0.8518160581588745,
+    "bm25_score": 22.4426326751709,
+    "semantic_score": 0.6269539594650269
+  },
+  {
+    "skill_text": "The mix of paved and dirt roads, small fields with boundary plants, and style of the electric wiring above all point to rural settings in India, rather than neighboring countries like Bangladesh or Nepal.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "6fGwHxCTvCbaK77Q",
+    "source_round": 2,
+    "score": 0.8505369424819946,
+    "bm25_score": 30.211807250976562,
+    "semantic_score": 0.4537799656391144
+  },
+  {
+    "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "driving",
+      "road",
+      "terrain"
+    ],
+    "source_game_id": "5l0GTCFZI877KxkV",
+    "source_round": 2,
+    "score": 0.850114107131958,
+    "bm25_score": 25.145814895629883,
+    "semantic_score": 0.5649317502975464
+  },
+  {
+    "skill_text": "The overall road structure and layout match rural or suburban roads in Japan rather than major city centers.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "9oZfZYQEl9GWjZPu",
+    "source_round": 2,
+    "score": 0.8396986722946167,
+    "bm25_score": 31.119150161743164,
+    "semantic_score": 0.4185149371623993
+  },
+  {
+    "skill_text": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+    "region_hint": "europe",
+    "confidence": 0.75,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "3uP6lYo9pzx5Q0km",
+    "source_round": 5,
+    "score": 0.8321666121482849,
+    "bm25_score": 27.11681365966797,
+    "semantic_score": 0.49620091915130615
+  },
+  {
+    "skill_text": "The vegetation is dense, tropical and green, indicative of a humid climate, likely in Southeast Asia.",
+    "region_hint": "asia",
+    "confidence": 0.75,
+    "visual_cues": [
+      "climate",
+      "vegetation"
+    ],
+    "source_game_id": "5l0GTCFZI877KxkV",
+    "source_round": 2,
+    "score": 0.8271822929382324,
+    "bm25_score": 25.66465950012207,
+    "semantic_score": 0.5212193727493286
+  },
+  {
+    "skill_text": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "road markings"
+    ],
+    "source_game_id": "2xnQdwiCve2rHWVt",
+    "source_round": 1,
+    "score": 0.8242346048355103,
+    "bm25_score": 21.69428062438965,
+    "semantic_score": 0.604651153087616
+  },
+  {
+    "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "5l0GTCFZI877KxkV",
+    "source_round": 2,
+    "score": 0.8224042057991028,
+    "bm25_score": 21.141557693481445,
+    "semantic_score": 0.6142675876617432
+  },
+  {
+    "skill_text": "The road is narrow, unmarked, and partially paved, typical of rural roads in developing countries, especially in Central America.",
+    "region_hint": "unknown",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "3OuVMcpGjmm0tVfG",
+    "source_round": 1,
+    "score": 0.8188687562942505,
+    "bm25_score": 24.77836799621582,
+    "semantic_score": 0.5290713310241699
+  },
+  {
+    "skill_text": "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "soil"
+    ],
+    "source_game_id": "5bPlIRT7eGN79a2E",
+    "source_round": 1,
+    "score": 0.8188064098358154,
+    "bm25_score": 20.793283462524414,
+    "semantic_score": 0.6168873906135559
+  }
+]

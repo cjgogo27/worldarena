@@ -1,0 +1,12 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "The shirtless man on a motorcycle with Thai-style license plate format and local shop signage suggests Southeast Asia, specifically Thailand.",
+    "Utility poles with overhead wires and rural road layout are typical of Thai provincial roads.",
+    "The red-tiled roof and corrugated metal structures are common in rural Thai architecture.",
+    "Dry grass and scattered trees under bright sun indicate a tropical dry season climate consistent with northern or northeastern Thailand."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The shirtless man on a motorcycle with Thai-style license plate format and local shop signage suggests Southeast Asia, specifically Thailand.\",\n    \"Utility poles with overhead wires and rural road layout are typical of Thai provincial roads.\",\n    \"The red-tiled roof and corrugated metal structures are common in rural Thai architecture.\",\n    \"Dry grass and scattered trees under bright sun indicate a tropical dry season climate consistent with northern or northeastern Thailand.\"\n  ]"
+}

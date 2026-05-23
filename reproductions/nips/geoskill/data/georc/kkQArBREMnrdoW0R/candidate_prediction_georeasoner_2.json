@@ -1,0 +1,10 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, winding mountain road with a metal guardrail on the right side is typical of rural Japanese mountain roads, especially in regions like Kyushu or Shikoku.",
+    "The dense evergreen forest and leaf litter suggest a temperate climate zone common in Japan’s mountainous areas, particularly during late autumn or early spring."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, winding mountain road with a metal guardrail on the right side is typical of rural Japanese mountain roads, especially in regions like Kyushu or Shikoku.\",\n    \"The dense evergreen forest and leaf litter suggest a temperate climate zone common in Japan’s mountainous areas, particularly during late autumn or early spring.\",\n    \"No visible road markings, signs, or vehicles are present, but the absence of snow and the lush greenery"
+}

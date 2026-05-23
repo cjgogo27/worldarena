@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of American-style utility poles with transformers and overhead wiring is typical of rural/suburban US infrastructure.",
+    "Vehicles are parked on the left side of the road, consistent with right-hand traffic systems used in the United States.",
+    "Tropical vegetation including palm trees and dense green foliage suggests a warm climate region within the US, such as Hawaii or Florida."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of American-style utility poles with transformers and overhead wiring is typical of rural/suburban US infrastructure.\",\n    \"Vehicles are parked on the left side of the road, consistent with right-hand traffic systems used in the United States.\",\n    \"Tropical vegetation including palm trees and dense green foliage suggests a warm climate region within the US, such as Hawaii or Florida.\",\n    \"Architecture features simple, single-story homes with carports and light-colored"
+}

@@ -1,0 +1,107 @@
+{
+  "game_id": "d8lnc9Ex03KQUJEL",
+  "round": 1,
+  "sample_id": "georc::d8lnc9Ex03KQUJEL::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "cr",
+    "predicted_region": "north_america",
+    "predicted_address": "Ruta Nacional 1 (Interamericana), km 164-168, Cañas, Guanacaste, Costa Rica",
+    "predicted_lat": 10.43105,
+    "predicted_lng": -85.09825,
+    "reasoning_text": "```json\n{\n  \"country\": \"Costa Rica\",\n  \"country_code\": \"cr\",\n  \"region\": \"Central America\",\n  \"city\": \"Cañas\",\n  \"province_or_state\": \"Guanacaste\",\n  \"address\": \"Ruta Nacional 1 (Interamericana), km 164-168, Cañas, Guanacaste, Costa Rica\",\n  \"confidence\": 0.62,\n  \"reasoning\": \"The tropical dry forest vegetation with deciduous trees showing seasonal leaf loss is characteristic of Guanacaste's Pacific lowlands. The paved two-lane road with yellow centerline, white edge markings, and metal guardrail on a mountain curve matches Costa Rica's Ruta Nacional 1 (Interamericana) as it climbs through the hills between Cañas and the Tempisque River valley. The right-hand traffic, road quality, and specific guardrail design are consistent with Costa Rican highway standards. The terrain shows rolling hills with distant mountain ridges typical of the transition zone between the coastal plain and the Guanacaste Cordillera. The dry season vegetation pattern (leafless trees mixed with evergreen species) specifically indicates the northwestern Pacific slope of Costa Rica rather than the wetter Caribbean side.\",\n  \"evidence\": [\"Yellow centerline with white edge markings indicating right-hand traffic\", \"Tropical dry forest with deciduous trees showing seasonal leaf loss\", \"Metal W-beam guardrail on curved mountain road\", \"Rolling hills with distant mountain ridges\", \"Paved two-lane highway with consistent maintenance\", \"Blue sky with scattered cumulus clouds typical of dry season\", \"Mixed evergreen and deciduous canopy structure\", \"Utility poles visible along road corridor\"]\n}\n```",
+    "evidence_spans": [
+      "Yellow centerline with white edge markings indicating right-hand traffic",
+      "Tropical dry forest with deciduous trees showing seasonal leaf loss",
+      "Metal W-beam guardrail on curved mountain road",
+      "Rolling hills with distant mountain ridges",
+      "Paved two-lane highway with consistent maintenance",
+      "Blue sky with scattered cumulus clouds typical of dry season",
+      "Mixed evergreen and deciduous canopy structure",
+      "Utility poles visible along road corridor"
+    ],
+    "confidence": 0.62,
+    "country_top3": [
+      "cr",
+      "ni",
+      "pa"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"cr\",\"ni\",\"pa\"],\"reason\":\"Right-hand traffic with a single solid yellow centerline, white edge lines, steel guardrail, and tropical dry-forest vegetation on hilly terrain strongly fit Pacific-side Central America. The pronounced dry-season look is especially characteristic of northwestern Costa Rica (Guanacaste), with Nicaragua as a nearby alternative and Panama a weaker third option.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.8550000000000001,
+        "pred_country": "cr",
+        "geo_country": "cr",
+        "country_consistency": 1.0,
+        "address_specificity": 0.55,
+        "confidence": 0.58,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Ruta Nacional 142, Quebrada Grande, Cañas, Guanacaste, Costa Rica"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.8400000000000001,
+        "pred_country": "cr",
+        "geo_country": "cr",
+        "country_consistency": 1.0,
+        "address_specificity": 0.55,
+        "confidence": 0.52,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Ruta Nacional 21, Cañas, Guanacaste, Costa Rica"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.8650000000000001,
+        "pred_country": "cr",
+        "geo_country": "cr",
+        "country_consistency": 1.0,
+        "address_specificity": 0.55,
+        "confidence": 0.62,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Ruta Nacional 1 (Interamericana), km 164-168, Cañas, Guanacaste, Costa Rica"
+      }
+    ],
+    "selected_candidate_score": 0.8650000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "cr",
+      "predicted_region": "north_america",
+      "confidence": 0.47
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Costa Rica\",\n  \"country_code\": \"cr\",\n  \"region\": \"Central America\",\n  \"city\": \"Cañas\",\n  \"province_or_state\": \"Guanacaste\",\n  \"address\": \"Winding rural mountain road in the dry forest hills near Cañas, Guanacaste, Costa Rica\",\n  \"confidence\": 0.47,\n  \"reasoning\": \"The road environmen",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "cr"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

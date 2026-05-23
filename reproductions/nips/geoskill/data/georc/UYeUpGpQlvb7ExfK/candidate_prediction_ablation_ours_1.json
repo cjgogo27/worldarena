@@ -1,0 +1,965 @@
+{
+  "game_id": "UYeUpGpQlvb7ExfK",
+  "round": 1,
+  "sample_id": "georc::UYeUpGpQlvb7ExfK::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ph",
+    "predicted_region": "asia",
+    "predicted_lat": 14.5995,
+    "predicted_lng": 120.9842,
+    "reasoning_text": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"region\": \"Southeast Asia\",\n  \"lat\": 14.5995,\n  \"lng\": 120.9842,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The visual evidence strongly supports the Philippines. Key indicators include: 1) The chaotic, dense overhead utility lines (a hallmark of Philippine infrastructure). 2) The specific style of rusted metal fences (often called 'palaspas' or similar local styles) and the unfinished concrete block construction (common in PH residential areas). 3) The tropical vegetation, including palm trees and dense greenery. 4) The narrow concrete road with specific edge drainage. 5) The architectural style of the houses, particularly the tin-roofed structures and the mix of concrete and wood. 6) The presence of laundry drying outside, a common sight in Filipino neighborhoods. 7) The overall aesthetic matches known locations in the Philippines, particularly in suburban or semi-rural areas.\",\n  \"evidence\": [\n    \"Chaotic overhead utility lines\",\n    \"Rusted metal fences (palaspas style)\",\n    \"Unfinished concrete block construction\",\n    \"Tropical vegetation (palm trees, dense greenery)\",\n    \"Narrow concrete road with edge drainage\",\n    \"Tin-roofed houses\",\n    \"Laundry drying outside\"\n  ]\n}",
+    "evidence_spans": [
+      "Chaotic overhead utility lines",
+      "Rusted metal fences (palaspas style)",
+      "Unfinished concrete block construction",
+      "Tropical vegetation (palm trees, dense greenery)",
+      "Narrow concrete road with edge drainage",
+      "Tin-roofed houses",
+      "Laundry drying outside"
+    ],
+    "confidence": 0.92,
+    "retrieved_skills": [
+      {
+        "skill_text": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof",
+          "trees",
+          "vegetation"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.4799863636493683,
+        "bm25_score": 33.956199645996094,
+        "semantic_score": 0.6062196493148804
+      },
+      {
+        "skill_text": "The mix of paved and dirt roads, small fields with boundary plants, and style of the electric wiring above all point to rural settings in India, rather than neighboring countries like Bangladesh or Nepal.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 2,
+        "score": 0.6792401552200318,
+        "bm25_score": 30.64698028564453,
+        "semantic_score": 0.4842366576194763
+      },
+      {
+        "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "driving",
+          "road",
+          "terrain"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.6502783447504044,
+        "bm25_score": 27.47113800048828,
+        "semantic_score": 0.4616258144378662
+      },
+      {
+        "skill_text": "The southeast asian landscape (tropical vegetation and south-eastern asian architecture) combined with left-hand drive and asymmetrical concrete poles, makes Indonesia the only possible country",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "pole",
+          "poles",
+          "vegetation"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 3,
+        "score": 0.454449737071991,
+        "bm25_score": 31.459850311279297,
+        "semantic_score": 0.5827516913414001
+      },
+      {
+        "skill_text": "The language on the blue sign by the house gate reads \"DIONTITASKAN,\" which doesn’t make direct sense in English, but the style and structure of the text is typical of Bahasa Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.6617313951253891,
+        "bm25_score": 36.2049446105957,
+        "semantic_score": 0.3689500689506531
+      },
+      {
+        "skill_text": "The utility poles are concrete and the wires are above ground, which is typical construction in several Asian countries, particularly India, Sri Lanka, Bangladesh, and Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 5,
+        "score": 0.7322862148284912,
+        "bm25_score": 40.52851867675781,
+        "semantic_score": 0.4710591435432434
+      },
+      {
+        "skill_text": "The architecture of the building on the left is utilitarian, with concrete, simple wooden benches, and laundry drying outside, fitting Indonesian or Filipino styles.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.6918449401855469,
+        "bm25_score": 29.994760513305664,
+        "semantic_score": 0.47920292615890503
+      },
+      {
+        "skill_text": "The abundance of overhead power lines and the specific ordering of smaller houses suggest a lower-population density rural village, which is common on Hokkaido.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "abundance",
+          "lines",
+          "overhead",
+          "power"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 4,
+        "score": 0.6970617175102234,
+        "bm25_score": 35.51786422729492,
+        "semantic_score": 0.3994764983654022
+      },
+      {
+        "skill_text": "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.44501560628414155,
+        "bm25_score": 42.07421112060547,
+        "semantic_score": 0.4045984745025635
+      },
+      {
+        "skill_text": "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "bollard",
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.4463849008083344,
+        "bm25_score": 35.598106384277344,
+        "semantic_score": 0.5029633045196533
+      },
+      {
+        "skill_text": "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "fence"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.7742440015077592,
+        "bm25_score": 39.59245681762695,
+        "semantic_score": 0.5240497589111328
+      },
+      {
+        "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 4,
+        "score": 0.55,
+        "bm25_score": 44.08543014526367,
+        "semantic_score": 0.6223018169403076
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "ph",
+      "predicted_region": "asia",
+      "predicted_lat": 14.5995,
+      "predicted_lng": 120.9842,
+      "reasoning_text": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"region\": \"Southeast Asia\",\n  \"lat\": 14.5995,\n  \"lng\": 120.9842,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to the Philippines. The chaotic overhead utility lines, the specific style of the rusted metal fences (often called 'palaspas' or similar local styles), and the unfinished concrete block construction (common in PH residential areas) are characteristic. The tropical vegetation and the narrow concrete road layout are also typical of Philippine subdivisions. The lack of clear road markings and the general 'vibe' of the street align with many residential areas in Metro Manila or nearby provinces.\",\n  \"evidence\": [\n    \"Chaotic overhead utility lines typical of Philippine streets\",\n    \"Rusted metal fence style common in PH residential areas\",\n    \"Unfinished concrete block construction visible on the left\",\n    \"Tropical vegetation including palm trees\",\n    \"Narrow concrete road without lane markings\",\n    \"Clothes hanging on a line inside a fenced area\"\n  ]\n}",
+      "evidence_spans": [
+        "Chaotic overhead utility lines typical of Philippine streets",
+        "Rusted metal fence style common in PH residential areas",
+        "Unfinished concrete block construction visible on the left",
+        "Tropical vegetation including palm trees",
+        "Narrow concrete road without lane markings",
+        "Clothes hanging on a line inside a fenced area"
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "The road is a narrow, paved concrete street, typical of residential subdivisions.",
+          "Vegetation is lush and tropical, featuring palm trees and dense green foliage.",
+          "The sky is bright blue with scattered cumulus clouds, indicating a tropical or subtropical climate.",
+          "On the right, there is a single-story house with a corrugated metal roof extension and a rusted metal fence.",
+          "Clothes are hanging on a line inside the fenced area of the house on the right.",
+          "On the left, there is a taller, unfinished concrete building (grey blocks) visible behind the vegetation.",
+          "Overhead utility lines are numerous and somewhat chaotic, strung across the street.",
+          "There are no visible road markings (center lines or lane dividers).",
+          "No vehicles are clearly visible in the immediate foreground to determine driving side definitively, but the road layout suggests a two-way narrow street.",
+          "The architecture style (concrete construction, metal fences, roof styles) is consistent with Southeast Asian residential areas."
+        ],
+        "hard_clues": [
+          "Tropical vegetation (palm trees)",
+          "Unfinished concrete building style (common in Philippines/SE Asia)",
+          "Rusted metal fence and corrugated roofing",
+          "Overhead electrical wiring style",
+          "Narrow concrete residential road"
+        ],
+        "ambiguous_clues": [
+          "No visible license plates or specific street signs",
+          "No clear traffic flow indicators (cars parked or moving)",
+          "Generic tropical climate could apply to many countries (Philippines, Thailand, Vietnam, etc.)"
+        ],
+        "possible_scripts": [
+          "Latin (English/Tagalog) - likely Philippines",
+          "Thai script - possible Thailand",
+          "Vietnamese script - possible Vietnam"
+        ],
+        "driving_side": "right"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "Philippines",
+          "Thailand",
+          "Vietnam",
+          "Indonesia"
+        ],
+        "zoom_boxes": [
+          [
+            500,
+            400,
+            600,
+            500
+          ],
+          [
+            700,
+            500,
+            800,
+            600
+          ]
+        ],
+        "verification_queries": [
+          "Search for street signs or house numbers in the image to identify the specific location.",
+          "Look for any text on signs or buildings that might indicate the country or region.",
+          "Check for any distinctive landmarks or features that could help pinpoint the exact location.",
+          "Analyze the style of the utility poles and wires for regional characteristics."
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "ph",
+      "predicted_region": "asia",
+      "predicted_lat": 14.5995,
+      "predicted_lng": 120.9842,
+      "confidence": 0.92
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "ph",
+      "predicted_region": "asia",
+      "predicted_lat": 14.5995,
+      "predicted_lng": 120.9842,
+      "confidence": 0.92
+    },
+    "base_prediction_summary": {
+      "predicted_country": "ph",
+      "predicted_region": "asia",
+      "predicted_lat": 14.5995,
+      "predicted_lng": 120.9842,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.92,
+    "skill_boost_aggressive_confidence": 0.92,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7742440015077592,
+          "visual_cues": [
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The utility poles are concrete and the wires are above ground, which is typical construction in several Asian countries, particularly India, Sri Lanka, Bangladesh, and Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7322862148284912,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The abundance of overhead power lines and the specific ordering of smaller houses suggest a lower-population density rural village, which is common on Hokkaido.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6970617175102234,
+          "visual_cues": [
+            "abundance",
+            "lines",
+            "overhead",
+            "power"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The architecture of the building on the left is utilitarian, with concrete, simple wooden benches, and laundry drying outside, fitting Indonesian or Filipino styles.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6918449401855469,
+          "visual_cues": [
+            "architecture",
+            "building"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The mix of paved and dirt roads, small fields with boundary plants, and style of the electric wiring above all point to rural settings in India, rather than neighboring countries like Bangladesh or Nepal.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6792401552200318,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The language on the blue sign by the house gate reads \"DIONTITASKAN,\" which doesn’t make direct sense in English, but the style and structure of the text is typical of Bahasa Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6617313951253891,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6502783447504044,
+          "visual_cues": [
+            "driving",
+            "road",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.55,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.4799863636493683,
+          "visual_cues": [
+            "architecture",
+            "roof",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The southeast asian landscape (tropical vegetation and south-eastern asian architecture) combined with left-hand drive and asymmetrical concrete poles, makes Indonesia the only possible country",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.454449737071991,
+          "visual_cues": [
+            "architecture",
+            "pole",
+            "poles",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.4463849008083344,
+          "visual_cues": [
+            "bollard",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.44501560628414155,
+          "visual_cues": [
+            "sign"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+        "The utility poles are concrete and the wires are above ground, which is typical construction in several Asian countries, particularly India, Sri Lanka, Bangladesh, and Southeast Asia.",
+        "The abundance of overhead power lines and the specific ordering of smaller houses suggest a lower-population density rural village, which is common on Hokkaido.",
+        "The architecture of the building on the left is utilitarian, with concrete, simple wooden benches, and laundry drying outside, fitting Indonesian or Filipino styles.",
+        "The mix of paved and dirt roads, small fields with boundary plants, and style of the electric wiring above all point to rural settings in India, rather than neighboring countries like Bangladesh or Nepal.",
+        "The language on the blue sign by the house gate reads \"DIONTITASKAN,\" which doesn’t make direct sense in English, but the style and structure of the text is typical of Bahasa Indonesia.",
+        "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+        "The southeast asian landscape (tropical vegetation and south-eastern asian architecture) combined with left-hand drive and asymmetrical concrete poles, makes Indonesia the only possible country",
+        "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+        "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia."
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

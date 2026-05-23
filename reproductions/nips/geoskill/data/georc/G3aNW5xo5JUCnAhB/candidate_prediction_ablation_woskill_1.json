@@ -1,0 +1,24 @@
+{
+  "game_id": "G3aNW5xo5JUCnAhB",
+  "round": 1,
+  "sample_id": "georc::G3aNW5xo5JUCnAhB::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "jp",
+    "predicted_region": "asia",
+    "predicted_address": "Rural residential-farming area near Tsukuba, Ibaraki Prefecture, Japan",
+    "predicted_lat": 36.23333333,
+    "predicted_lng": 140.28333333,
+    "reasoning_text": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"East Asia\",\n  \"city\": \"Tsukuba\",\n  \"province_or_state\": \"Ibaraki Prefecture\",\n  \"address\": \"Rural residential-farming area near Tsukuba, Ibaraki Prefecture, Japan\",\n  \"confidence\": 0.73,\n  \"reasoning\": \"The scene strongly matches rural Japan: narrow paved lane, concrete roadside drainage channel with metal grates, dense overhead utility wiring on tall utility poles, and detached houses with Japanese architectural styling. The flat cultivated fields and low-density housing suggest a farming plain rather than a mountainous area. The landscape looks especially consistent with the Kanto plain, and the mix of farmland and newer detached homes is common around Tsukuba and other parts of Ibaraki Prefecture. Because there are no readable signs or unique landmarks, the exact locality is uncertain, so this is an approximate regional guess.\",\n  \"evidence\": [\n    \"Japanese-style detached houses with tiled/sloped roofs\",\n    \"Narrow rural road with concrete drainage gutter, common in Japan\",\n    \"Tall utility poles and overhead power lines typical of Japanese suburban/rural infrastructure\",\n    \"Flat agricultural fields suggesting a broad plain\",\n    \"Low-density residential development mixed with farmland, common in Ibaraki/Kanto outskirts\"\n  ]\n}",
+    "evidence_spans": [
+      "Japanese-style detached houses with tiled/sloped roofs",
+      "Narrow rural road with concrete drainage gutter, common in Japan",
+      "Tall utility poles and overhead power lines typical of Japanese suburban/rural infrastructure",
+      "Flat agricultural fields suggesting a broad plain",
+      "Low-density residential development mixed with farmland, common in Ibaraki/Kanto outskirts"
+    ],
+    "confidence": 0.73
+  },
+  "error": null
+}

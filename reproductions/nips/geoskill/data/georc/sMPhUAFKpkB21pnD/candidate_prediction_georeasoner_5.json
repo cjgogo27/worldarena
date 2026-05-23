@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a double yellow line in the center, indicating two-way traffic with left-hand driving, consistent with US road rules.",
+    "Utility poles are wooden and spaced regularly along the roadside, typical of rural US infrastructure.",
+    "The vegetation is lush and tropical-subtropical, suggesting a warm climate region like Florida or southern California."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a double yellow line in the center, indicating two-way traffic with left-hand driving, consistent with US road rules.\",\n    \"Utility poles are wooden and spaced regularly along the roadside, typical of rural US infrastructure.\",\n    \"The vegetation is lush and tropical-subtropical, suggesting a warm climate region like Florida or southern California.\",\n    \"A yellow diamond-shaped warning sign (likely for a curve) is present, which is standard in"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "South Africa",
+  "country_code": "za",
+  "city": "",
+  "reasoning_chain": [
+    "The blue sign on the left pole features a white emblem consistent with South African Department of Transport signage, indicating official road infrastructure.",
+    "Vehicles are driving on the left side of the road, which aligns with South Africa’s left-hand traffic system.",
+    "The vegetation includes dry grass and deciduous trees without dense canopy, typical of South Africa’s winter rainfall region during dry season."
+  ],
+  "raw_output": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The blue sign on the left pole features a white emblem consistent with South African Department of Transport signage, indicating official road infrastructure.\",\n    \"Vehicles are driving on the left side of the road, which aligns with South Africa’s left-hand traffic system.\",\n    \"The vegetation includes dry grass and deciduous trees without dense canopy, typical of South Africa’s winter rainfall region during dry season.\",\n    \"Road markings and streetlight design match standard South"
+}

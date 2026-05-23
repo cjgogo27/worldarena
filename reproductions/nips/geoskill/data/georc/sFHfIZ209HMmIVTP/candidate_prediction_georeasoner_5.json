@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, winding asphalt road with no center line and grassy verges is typical of rural Japanese prefectural roads.",
+    "Concrete utility poles with overhead wires and a metal fence on the right are common infrastructure in Japanese countryside areas.",
+    "Lush green deciduous and coniferous trees covering the hillside indicate a temperate climate zone consistent with Japan’s climate."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, winding asphalt road with no center line and grassy verges is typical of rural Japanese prefectural roads.\",\n    \"Concrete utility poles with overhead wires and a metal fence on the right are common infrastructure in Japanese countryside areas.\",\n    \"Lush green deciduous and coniferous trees covering the hillside indicate a temperate climate zone consistent with Japan’s climate.\",\n    \"The absence of any visible signage, vehicles, or buildings, combined"
+}

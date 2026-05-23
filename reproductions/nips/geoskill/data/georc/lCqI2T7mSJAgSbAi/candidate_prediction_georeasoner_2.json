@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of a white car on the left side of the road and parked cars facing the same direction suggests right-hand traffic, consistent with the United States.",
+    "The architecture of the houses, including brick and siding exteriors, along with the suburban layout, is typical of American residential areas.",
+    "The vegetation, including lush green lawns and mature trees, indicates a temperate climate, common in many parts of the United States."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of a white car on the left side of the road and parked cars facing the same direction suggests right-hand traffic, consistent with the United States.\",\n    \"The architecture of the houses, including brick and siding exteriors, along with the suburban layout, is typical of American residential areas.\",\n    \"The vegetation, including lush green lawns and mature trees, indicates a temperate climate, common in many parts of the United States.\","
+}

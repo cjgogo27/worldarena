@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow centerline and white edge lines, consistent with Brazilian rural roads where two-way traffic uses yellow dividers.",
+    "Vegetation is dense tropical forest with broadleaf trees and undergrowth, typical of Brazil’s Atlantic Forest or Amazon fringe regions.",
+    "No visible signage, vehicles, or architecture are present, but the unpaved shoulder and guardrail style match low-density rural infrastructure common in Brazil."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow centerline and white edge lines, consistent with Brazilian rural roads where two-way traffic uses yellow dividers.\",\n    \"Vegetation is dense tropical forest with broadleaf trees and undergrowth, typical of Brazil’s Atlantic Forest or Amazon fringe regions.\",\n    \"No visible signage, vehicles, or architecture are present, but the unpaved shoulder and guardrail style match low-density rural infrastructure common in Brazil.\",\n    \"The sky"
+}

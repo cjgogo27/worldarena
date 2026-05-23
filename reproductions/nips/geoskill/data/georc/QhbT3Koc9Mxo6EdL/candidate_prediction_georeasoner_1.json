@@ -1,0 +1,11 @@
+{
+  "country": "Russia",
+  "country_code": "ru",
+  "city": "",
+  "reasoning_chain": [
+    "The crane displays Cyrillic text 'КЛИНЦЫ 20Т', indicating a Russian-speaking region, likely near Klinets in Russia.",
+    "Road markings show right-hand traffic with dashed white lane dividers and solid white edge lines, consistent with Russian road standards.",
+    "The landscape features flat, dry grassland under a clear sky, typical of the Russian steppe or southern regions like Kalmykia or Astrakhan Oblast."
+  ],
+  "raw_output": "{\n  \"country\": \"Russia\",\n  \"country_code\": \"ru\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The crane displays Cyrillic text 'КЛИНЦЫ 20Т', indicating a Russian-speaking region, likely near Klinets in Russia.\",\n    \"Road markings show right-hand traffic with dashed white lane dividers and solid white edge lines, consistent with Russian road standards.\",\n    \"The landscape features flat, dry grassland under a clear sky, typical of the Russian steppe or southern regions like Kalmykia or Astrakhan Oblast.\","
+}

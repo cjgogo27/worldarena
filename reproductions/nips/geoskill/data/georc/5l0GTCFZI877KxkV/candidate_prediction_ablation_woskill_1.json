@@ -1,0 +1,25 @@
+{
+  "game_id": "5l0GTCFZI877KxkV",
+  "round": 1,
+  "sample_id": "georc::5l0GTCFZI877KxkV::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "mx",
+    "predicted_region": "north_america",
+    "predicted_address": "Residential street, Felipe Carrillo Puerto, Quintana Roo, Mexico",
+    "predicted_lat": 19.43333333,
+    "predicted_lng": -99.13333333,
+    "reasoning_text": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"region\": \"North America\",\n  \"city\": \"Felipe Carrillo Puerto\",\n  \"province_or_state\": \"Quintana Roo\",\n  \"address\": \"Residential street, Felipe Carrillo Puerto, Quintana Roo, Mexico\",\n  \"confidence\": 0.36,\n  \"reasoning\": \"The scene shows a flat, tropical lowland town with right-side driving, simple one-story concrete homes, colorful painted facades, metal roofs, and basic utility infrastructure. The road and curb style, along with the residential architecture, are consistent with small towns in southern Mexico. Dense greenery and the lack of elevation strongly suggest the Yucatán Peninsula rather than central or northern Mexico. Among likely areas, inland Quintana Roo fits well, and Felipe Carrillo Puerto is a plausible match for this type of street environment.\",\n  \"evidence\": [\n    \"Right-side driving road layout\",\n    \"Low-rise concrete houses with colorful painted walls typical of Mexico\",\n    \"Flat tropical vegetation consistent with the Yucatán Peninsula\",\n    \"Yellow-painted curbs and sidewalk construction common in Mexican towns\",\n    \"Dense overhead utility lines and modest residential streetscape seen in southeastern Mexico\",\n    \"No mountainous terrain, suggesting a flat Caribbean/Yucatán region\"\n  ]\n}",
+    "evidence_spans": [
+      "Right-side driving road layout",
+      "Low-rise concrete houses with colorful painted walls typical of Mexico",
+      "Flat tropical vegetation consistent with the Yucatán Peninsula",
+      "Yellow-painted curbs and sidewalk construction common in Mexican towns",
+      "Dense overhead utility lines and modest residential streetscape seen in southeastern Mexico",
+      "No mountainous terrain, suggesting a flat Caribbean/Yucatán region"
+    ],
+    "confidence": 0.36
+  },
+  "error": null
+}

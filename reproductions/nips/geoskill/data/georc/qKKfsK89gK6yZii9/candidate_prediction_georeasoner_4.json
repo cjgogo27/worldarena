@@ -1,0 +1,11 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "The white house with shutters and balcony railing is typical of rural Portuguese architecture, especially in the north or center regions.",
+    "Vehicles are parked on the right side of the road, consistent with right-hand traffic in Portugal.",
+    "The vegetation—dense green hedges, flowering shrubs, and scattered trees—suggests a temperate Mediterranean climate common in Portugal."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The white house with shutters and balcony railing is typical of rural Portuguese architecture, especially in the north or center regions.\",\n    \"Vehicles are parked on the right side of the road, consistent with right-hand traffic in Portugal.\",\n    \"The vegetation—dense green hedges, flowering shrubs, and scattered trees—suggests a temperate Mediterranean climate common in Portugal.\",\n    \"No visible signage or language text is present, but the overall"
+}

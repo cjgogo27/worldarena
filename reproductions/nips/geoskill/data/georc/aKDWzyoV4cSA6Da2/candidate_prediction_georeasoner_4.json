@@ -1,0 +1,11 @@
+{
+  "country": "Indonesia",
+  "country_code": "id",
+  "city": "",
+  "reasoning_chain": [
+    "The sign reads 'DILARANG BUANG SAMPAH DISINI', which is Indonesian for 'No littering here', indicating the location is in Indonesia.",
+    "The vegetation includes banana plants and tropical trees, consistent with a tropical climate found in Indonesia.",
+    "The narrow paved road with no markings and informal fencing suggests a rural or semi-rural setting typical of Indonesian countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The sign reads 'DILARANG BUANG SAMPAH DISINI', which is Indonesian for 'No littering here', indicating the location is in Indonesia.\",\n    \"The vegetation includes banana plants and tropical trees, consistent with a tropical climate found in Indonesia.\",\n    \"The narrow paved road with no markings and informal fencing suggests a rural or semi-rural setting typical of Indonesian countryside.\",\n    \"No vehicles or modern infrastructure are visible, supporting the"
+}

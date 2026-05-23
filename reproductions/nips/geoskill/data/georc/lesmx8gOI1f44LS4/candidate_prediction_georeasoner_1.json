@@ -1,0 +1,12 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "The 'STOP' road marking and octagonal stop sign are standard in Portugal, consistent with European traffic conventions.",
+    "Utility poles and overhead wires follow a typical rural/suburban layout common in Portuguese countryside areas.",
+    "Vegetation includes palm-like plants and olive trees, suggesting a Mediterranean climate typical of southern Portugal.",
+    "Architecture features simple white buildings with tiled roofs, characteristic of rural Portuguese settlements."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The 'STOP' road marking and octagonal stop sign are standard in Portugal, consistent with European traffic conventions.\",\n    \"Utility poles and overhead wires follow a typical rural/suburban layout common in Portuguese countryside areas.\",\n    \"Vegetation includes palm-like plants and olive trees, suggesting a Mediterranean climate typical of southern Portugal.\",\n    \"Architecture features simple white buildings with tiled roofs, characteristic of rural Portuguese settlements.\"\n  ]\n}"
+}

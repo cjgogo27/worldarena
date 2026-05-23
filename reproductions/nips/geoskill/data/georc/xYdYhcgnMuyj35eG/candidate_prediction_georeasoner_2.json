@@ -1,0 +1,11 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of overhead catenary wires and a railway embankment on the right suggests proximity to a rail line, common in rural Finland.",
+    "The architecture of the red house with white trim and gabled roof is typical of Finnish rural housing.",
+    "Vegetation includes mixed coniferous and deciduous trees, consistent with Finland’s boreal forest biome."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of overhead catenary wires and a railway embankment on the right suggests proximity to a rail line, common in rural Finland.\",\n    \"The architecture of the red house with white trim and gabled roof is typical of Finnish rural housing.\",\n    \"Vegetation includes mixed coniferous and deciduous trees, consistent with Finland’s boreal forest biome.\",\n    \"The road surface and gravel shoulders are standard for Finnish country roads,"
+}

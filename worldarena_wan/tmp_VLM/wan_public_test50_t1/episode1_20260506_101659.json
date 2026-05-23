@@ -1,0 +1,3 @@
+{
+  "raw_response": "{\n\"Interaction_Quality\": {\n\"score\": 2,\n\"reason\": \"The robotic arm's gripper is shown holding a green cap, but the interaction with the bottle is not visually confirmed; the arm appears to be interacting with a human hand instead of the bottle\"\n},\n\"Perspectivity\": {\n\"score\": 4,\n\"reason\": \"Stable camera perspective with consistent depth relationships; objects maintain coherent 3D structure\"\n},\n\"Instruction_Following\": {\n\"score\": 1,\n\"reason\": \"The video shows human hands performing the manipulation instead of the robotic arm, which is a hallucination and violates the core instruction\"\n}\n}"
+}

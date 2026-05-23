@@ -1,0 +1,12 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line and right-hand traffic indicate a US road.",
+    "Wooden utility poles with overhead wires are typical of rural/suburban US infrastructure.",
+    "Shingle-sided houses with porches and black shutters are characteristic of New England or Mid-Atlantic US architecture.",
+    "Yellow fire hydrant and basketball hoop in residential yard align with common US suburban features."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line and right-hand traffic indicate a US road.\",\n    \"Wooden utility poles with overhead wires are typical of rural/suburban US infrastructure.\",\n    \"Shingle-sided houses with porches and black shutters are characteristic of New England or Mid-Atlantic US architecture.\",\n    \"Yellow fire hydrant and basketball hoop in residential yard align with common US suburban features.\"\n  ]\n}"
+}

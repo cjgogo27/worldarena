@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, single-lane road with no center line and moss-covered embankments is typical of rural Japanese mountain roads.",
+    "The presence of a concrete utility pole with Japanese-style insulators and overhead wires suggests infrastructure common in Japan.",
+    "The fenced industrial structure on the right resembles a water treatment or storage facility often found along rural roads in Japan."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, single-lane road with no center line and moss-covered embankments is typical of rural Japanese mountain roads.\",\n    \"The presence of a concrete utility pole with Japanese-style insulators and overhead wires suggests infrastructure common in Japan.\",\n    \"The fenced industrial structure on the right resembles a water treatment or storage facility often found along rural roads in Japan.\",\n    \"The dense coniferous forest and overcast lighting are consistent with temperate rain"
+}

@@ -1,0 +1,25 @@
+{
+  "game_id": "5bPlIRT7eGN79a2E",
+  "round": 1,
+  "sample_id": "georc::5bPlIRT7eGN79a2E::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "gy",
+    "predicted_region": "south_america",
+    "predicted_address": "Residential area, outskirts of Georgetown, Demerara-Mahaica, Guyana",
+    "predicted_lat": 6.75,
+    "predicted_lng": -57.98333333,
+    "reasoning_text": "{\n  \"country\": \"Guyana\",\n  \"country_code\": \"gy\",\n  \"region\": \"South America\",\n  \"city\": \"Georgetown\",\n  \"province_or_state\": \"Demerara-Mahaica\",\n  \"address\": \"Residential area, outskirts of Georgetown, Demerara-Mahaica, Guyana\",\n  \"confidence\": 0.39,\n  \"reasoning\": \"1. The scene is clearly tropical and low-lying, with lush vegetation, palms, and flat terrain, which fits the Guianas well. 2. The houses are mostly wooden or simple concrete structures with corrugated metal roofs, a style commonly seen in Guyana. 3. The wide concrete road surface and basic neighborhood layout resemble residential streets often seen in Guyanese towns more than in much of Latin America. 4. Overhead utility wiring, modest roadside development, and the general streetscape suggest a Caribbean-influenced South American setting. 5. Among likely candidates, Guyana is the best fit; the environment looks more like coastal Guyana than inland areas, so Georgetown or its outskirts is the most plausible approximate location.\",\n  \"evidence\": [\n    \"Tropical vegetation and palm trees\",\n    \"Flat, humid-looking lowland environment\",\n    \"Wooden houses with corrugated metal roofs\",\n    \"Concrete residential roads\",\n    \"Dense overhead utility wires\",\n    \"Caribbean-style streetscape consistent with coastal Guyana\"\n  ]\n}",
+    "evidence_spans": [
+      "Tropical vegetation and palm trees",
+      "Flat, humid-looking lowland environment",
+      "Wooden houses with corrugated metal roofs",
+      "Concrete residential roads",
+      "Dense overhead utility wires",
+      "Caribbean-style streetscape consistent with coastal Guyana"
+    ],
+    "confidence": 0.39
+  },
+  "error": null
+}

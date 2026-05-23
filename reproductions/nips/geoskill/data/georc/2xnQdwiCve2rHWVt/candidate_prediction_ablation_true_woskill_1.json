@@ -1,0 +1,35 @@
+{
+  "game_id": "2xnQdwiCve2rHWVt",
+  "round": 1,
+  "sample_id": "georc::2xnQdwiCve2rHWVt::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "th",
+    "predicted_region": "asia",
+    "predicted_address": "Highway 121, San Pa Tong District, Chiang Mai Province, Thailand",
+    "predicted_lat": 18.83722222,
+    "predicted_lng": 98.97055556,
+    "reasoning_text": "```json\n{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Chiang Mai\",\n  \"province_or_state\": \"Chiang Mai Province\",\n  \"address\": \"Highway 121, San Pa Tong District, Chiang Mai Province, Thailand\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows a rural highway with left-hand driving (evident from vehicle positioning and road layout), which is consistent with Thailand. The dry vegetation, sparse trees, and clear blue sky suggest a tropical savanna climate typical of northern Thailand's dry season. The utility poles with multiple wires and the road infrastructure style match Thai rural highways. The flat terrain with distant low hills is characteristic of the Chiang Mai valley area. The road appears to be a major route (likely Highway 121 or similar) connecting to smaller districts. Given the shortlist of Thailand, Cambodia, and Laos, the infrastructure quality and specific road markings align most closely with Thailand. The San Pa Tong District area south of Chiang Mai city has this type of semi-rural highway character.\",\n  \"evidence\": [\"Left-hand driving traffic flow\", \"Thai-style utility poles with multiple wire tiers\", \"Tropical dry season vegetation (brown grass, sparse green)\", \"Flat valley terrain with distant hills\", \"Two-lane highway with paved shoulders\", \"Modern sedan vehicles common in Thailand\", \"Clear blue sky typical of northern Thailand dry season\", \"Road infrastructure quality consistent with Thai national highways\"]\n}\n```",
+    "evidence_spans": [
+      "Left-hand driving traffic flow",
+      "Thai-style utility poles with multiple wire tiers",
+      "Tropical dry season vegetation (brown grass, sparse green)",
+      "Flat valley terrain with distant hills",
+      "Two-lane highway with paved shoulders",
+      "Modern sedan vehicles common in Thailand",
+      "Clear blue sky typical of northern Thailand dry season",
+      "Road infrastructure quality consistent with Thai national highways"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "th",
+      "kh",
+      "la"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"th\",\"kh\",\"la\"],\"reason\":\"Left-hand traffic with a right-hand drive vehicle visible. Utility poles with multiple cross-arms and dense wiring typical of Thailand. Tropical dry-season vegetation with brown grass and sparse trees. Road infrastructure and street lighting style match Thai rural highways. The motorbike with side-mounted cargo and overall roadside appearance are strongly indicative of Thailand over Cambodia or Laos.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9675000000000001
+  },
+  "error": null
+}

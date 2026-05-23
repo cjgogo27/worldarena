@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow asphalt road with white edge lines and no center line is typical of rural Japanese roads.",
+    "Utility poles with multiple overhead wires and their design are characteristic of Japan’s power distribution infrastructure.",
+    "The architecture of the house on the right, including the tiled roof and concrete retaining wall, reflects traditional Japanese rural housing styles."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow asphalt road with white edge lines and no center line is typical of rural Japanese roads.\",\n    \"Utility poles with multiple overhead wires and their design are characteristic of Japan’s power distribution infrastructure.\",\n    \"The architecture of the house on the right, including the tiled roof and concrete retaining wall, reflects traditional Japanese rural housing styles.\",\n    \"Vegetation includes rice paddies and deciduous trees with autumn foliage, consistent with Japan’s temperate climate"
+}

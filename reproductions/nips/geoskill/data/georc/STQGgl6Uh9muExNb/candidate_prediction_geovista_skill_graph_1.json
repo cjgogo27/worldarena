@@ -1,0 +1,616 @@
+{
+  "game_id": "STQGgl6Uh9muExNb",
+  "round": 1,
+  "sample_id": "georc::STQGgl6Uh9muExNb::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "jp",
+    "predicted_region": "asia",
+    "predicted_address": "Residential neighborhood, Saitama, Saitama Prefecture, Japan",
+    "predicted_lat": 35.95,
+    "predicted_lng": 139.55,
+    "reasoning_text": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"East Asia\",\n  \"city\": \"Saitama\",\n  \"province_or_state\": \"Saitama Prefecture\",\n  \"address\": \"Residential neighborhood, Saitama, Saitama Prefecture, Japan\",\n  \"confidence\": 0.84,\n  \"reasoning\": \"Applying the ordered skills strictly: Skill 1 suggests France from the detached single-family homes and tidy residential setting, but this is weakened by the lack of distinctly French road features and by stronger downstream cues. Skill 2 indicates the road structure matches suburban Japan rather than a major city center; this fits the narrow paved lane, compact setbacks, and enclosed residential plots. Skill 3 supports a regional or suburban town rather than a dense urban core, which aligns with the quiet neighborhood layout. Skill 4 points to Japanese-style houses with sloped roofs; the detached homes, roof forms, walls, and gate design fit Japan well, though this does not specifically indicate a snowy area here. Skills 5 and 6 are not strongly visible in the image because there is no clear yellow road sign or agricultural land, so they add limited support. Skill 7's New Zealand/Hamilton hypothesis is inconsistent with the denser plot arrangement, boundary walls, and Japanese residential architecture. Skill 8's South Korean countryside hypothesis is also weaker because the street geometry, house styling, and boundary treatment look more Japanese. Skill 9 is only partially applicable since no shed or greenhouse is visible. Skill 10 supports Japan through the narrow concrete/asphalt residential road with sharp edges and drainage-like margins. Skill 11 also supports Japanese residential construction through the clean streetscape, block walls, and orderly fencing. Skill 12 suggests suburban housing density, which is consistent, but there is no specific coastal or resort evidence. Composing the linked skills, the strongest mutually consistent cluster is Skills 2, 3, 4, 10, and 11, which together outweigh the conflicting France, New Zealand, and South Korea possibilities. Given the base observation summary and the visual appearance of a Greater Tokyo suburban residential street, the best consistent guess is Saitama in Saitama Prefecture, Japan.\",\n  \"evidence\": [\n    \"Very narrow unmarked residential street typical of Japanese suburban neighborhoods\",\n    \"Detached low-rise homes with sloped tiled roofs\",\n    \"Concrete boundary walls and metal fencing around residential plots\",\n    \"Shuttered garage/carport integrated into the house frontage\",\n    \"Clean, orderly streetscape with compact lot spacing\",\n    \"Road-edge drainage/gutter-like margins along the lane\",\n    \"Neighborhood density consistent with suburban Greater Tokyo rather than rural countryside\"\n  ]\n}",
+    "evidence_spans": [
+      "Very narrow unmarked residential street typical of Japanese suburban neighborhoods",
+      "Detached low-rise homes with sloped tiled roofs",
+      "Concrete boundary walls and metal fencing around residential plots",
+      "Shuttered garage/carport integrated into the house frontage",
+      "Clean, orderly streetscape with compact lot spacing",
+      "Road-edge drainage/gutter-like margins along the lane",
+      "Neighborhood density consistent with suburban Greater Tokyo rather than rural countryside"
+    ],
+    "confidence": 0.84,
+    "base_prediction_summary": {
+      "predicted_country": "jp",
+      "predicted_region": "asia",
+      "confidence": 0.82
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The street layout and the presence of a detached single-family home structure in a tidy residential neighborhood further point toward France.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "detached",
+          "layout",
+          "presence",
+          "street"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 3,
+        "score": 0.8529496192932129,
+        "bm25_score": 41.86149978637695,
+        "semantic_score": 0.49005553126335144
+      },
+      {
+        "skill_text": "The overall road structure and layout match rural or suburban roads in Japan rather than major city centers.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 2,
+        "score": 0.807787299156189,
+        "bm25_score": 25.768875122070312,
+        "semantic_score": 0.7238447666168213
+      },
+      {
+        "skill_text": "The overall street layout and infrastructure resemble a regional or suburban town rather than a large city.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "infrastructure",
+          "layout",
+          "overall",
+          "street"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 2,
+        "score": 0.7959740161895752,
+        "bm25_score": 34.712608337402344,
+        "semantic_score": 0.5352263450622559
+      },
+      {
+        "skill_text": "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "roof"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 4,
+        "score": 0.7930121421813965,
+        "bm25_score": 27.01270866394043,
+        "semantic_score": 0.6767346858978271
+      },
+      {
+        "skill_text": "The yellow road sign shape and design are characteristic of Japanese road signage.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 2,
+        "score": 0.7379591464996338,
+        "bm25_score": 28.64801597595215,
+        "semantic_score": 0.5581545233726501
+      },
+      {
+        "skill_text": "The vegetation, field type, and clear divisions of agricultural plots are typical of Japanese rural and peri-urban areas.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "vegetation"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 4,
+        "score": 0.7232653498649597,
+        "bm25_score": 28.501367568969727,
+        "semantic_score": 0.5375782251358032
+      },
+      {
+        "skill_text": "The combination of all these clues strongly suggests this is in New Zealand, and the housing style, garden types, and suburban layout are especially common in Hamilton.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "clues",
+          "combination",
+          "strongly",
+          "these"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 4,
+        "score": 0.714229941368103,
+        "bm25_score": 33.40484619140625,
+        "semantic_score": 0.43009865283966064
+      },
+      {
+        "skill_text": "The presence of large metal containers and varied building types hints at mixed-use agricultural and residential land, fitting the South Korean countryside.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 4,
+        "score": 0.7041506767272949,
+        "bm25_score": 29.240924835205078,
+        "semantic_score": 0.49314478039741516
+      },
+      {
+        "skill_text": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "sign"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 4,
+        "score": 0.7005566358566284,
+        "bm25_score": 28.015108108520508,
+        "semantic_score": 0.5107084512710571
+      },
+      {
+        "skill_text": "The narrow concrete road with a sharp edge and shallow canal is typical of rural infrastructure in Japan.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 4,
+        "score": 0.6950905323028564,
+        "bm25_score": 24.39638328552246,
+        "semantic_score": 0.5707359313964844
+      },
+      {
+        "skill_text": "The general cleanliness, presence of cinder blocks, and arrangement of barrels also fit Japanese rural construction styles.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "cinder",
+          "cleanliness",
+          "general",
+          "presence"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 4,
+        "score": 0.6896839141845703,
+        "bm25_score": 25.25539779663086,
+        "semantic_score": 0.5458278059959412
+      },
+      {
+        "skill_text": "The layout and density of houses suggest a suburban area in a coastal or resort town.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "coast"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 3,
+        "score": 0.6825985908508301,
+        "bm25_score": 25.692584991455078,
+        "semantic_score": 0.5262613296508789
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The street layout and the presence of a detached single-family home structure in a tidy residential neighborhood further point toward France.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8529496192932129,
+          "visual_cues": [
+            "detached",
+            "layout",
+            "presence",
+            "street"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The overall road structure and layout match rural or suburban roads in Japan rather than major city centers.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.807787299156189,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The overall street layout and infrastructure resemble a regional or suburban town rather than a large city.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.7959740161895752,
+          "visual_cues": [
+            "infrastructure",
+            "layout",
+            "overall",
+            "street"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7930121421813965,
+          "visual_cues": [
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The yellow road sign shape and design are characteristic of Japanese road signage.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7379591464996338,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The vegetation, field type, and clear divisions of agricultural plots are typical of Japanese rural and peri-urban areas.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7232653498649597,
+          "visual_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The combination of all these clues strongly suggests this is in New Zealand, and the housing style, garden types, and suburban layout are especially common in Hamilton.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.714229941368103,
+          "visual_cues": [
+            "clues",
+            "combination",
+            "strongly",
+            "these"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The presence of large metal containers and varied building types hints at mixed-use agricultural and residential land, fitting the South Korean countryside.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7041506767272949,
+          "visual_cues": [
+            "building"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7005566358566284,
+          "visual_cues": [
+            "architecture",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The narrow concrete road with a sharp edge and shallow canal is typical of rural infrastructure in Japan.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6950905323028564,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The general cleanliness, presence of cinder blocks, and arrangement of barrels also fit Japanese rural construction styles.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6896839141845703,
+          "visual_cues": [
+            "cinder",
+            "cleanliness",
+            "general",
+            "presence"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The layout and density of houses suggest a suburban area in a coastal or resort town.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6825985908508301,
+          "visual_cues": [
+            "coast"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "layout",
+            "street"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "presence"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The street layout and the presence of a detached single-family home structure in a tidy residential neighborhood further point toward France.",
+        "The overall road structure and layout match rural or suburban roads in Japan rather than major city centers.",
+        "The overall street layout and infrastructure resemble a regional or suburban town rather than a large city.",
+        "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+        "The yellow road sign shape and design are characteristic of Japanese road signage.",
+        "The vegetation, field type, and clear divisions of agricultural plots are typical of Japanese rural and peri-urban areas.",
+        "The combination of all these clues strongly suggests this is in New Zealand, and the housing style, garden types, and suburban layout are especially common in Hamilton.",
+        "The presence of large metal containers and varied building types hints at mixed-use agricultural and residential land, fitting the South Korean countryside.",
+        "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+        "The narrow concrete road with a sharp edge and shallow canal is typical of rural infrastructure in Japan.",
+        "The general cleanliness, presence of cinder blocks, and arrangement of barrels also fit Japanese rural construction styles.",
+        "The layout and density of houses suggest a suburban area in a coastal or resort town."
+      ],
+      "summary": "nodes=12, edges=32, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"East Asia\",\n  \"city\": \"Saitama\",\n  \"province_or_state\": \"Saitama Prefecture\",\n  \"address\": \"Residential neighborhood, Saitama, Saitama Prefecture, Japan\",\n  \"confidence\": 0.82,\n  \"reasoning\": \"The scene shows a very narrow unmarked residen",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 32,
+        "graph_summary": "nodes=12, edges=32, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "jp"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

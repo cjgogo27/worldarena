@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "Traditional wooden architecture with tiled roofs and stone retaining walls is characteristic of rural Japanese villages.",
+    "Narrow paved road with no center line and utility poles on the right side aligns with Japan’s left-hand traffic system.",
+    "Overcast sky and lush green vegetation suggest a temperate maritime climate typical of Japan’s central or western regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Traditional wooden architecture with tiled roofs and stone retaining walls is characteristic of rural Japanese villages.\",\n    \"Narrow paved road with no center line and utility poles on the right side aligns with Japan’s left-hand traffic system.\",\n    \"Overcast sky and lush green vegetation suggest a temperate maritime climate typical of Japan’s central or western regions.\",\n    \"Absence of modern signage or vehicles, combined with preserved traditional structures, points to a quiet, non"
+}

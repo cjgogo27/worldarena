@@ -1,0 +1,23 @@
+{
+  "direct_vlm": {
+    "country_accuracy": 0.55,
+    "region_accuracy": 0.75,
+    "distance_error_km": NaN,
+    "hallucination_rate": 0.0,
+    "evidence_f1": 0.2119017905248473
+  },
+  "cot_vlm": {
+    "country_accuracy": 0.4,
+    "region_accuracy": 0.65,
+    "distance_error_km": 6127.784961651252,
+    "hallucination_rate": 0.0,
+    "evidence_f1": 0.24184656594594728
+  },
+  "skill_conditioned_vlm": {
+    "country_accuracy": 0.35,
+    "region_accuracy": 0.7,
+    "distance_error_km": 154.05671809563293,
+    "hallucination_rate": 0.05,
+    "evidence_f1": 0.2564674050116368
+  }
+}

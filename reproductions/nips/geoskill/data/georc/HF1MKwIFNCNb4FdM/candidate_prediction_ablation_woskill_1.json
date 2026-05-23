@@ -1,0 +1,25 @@
+{
+  "game_id": "HF1MKwIFNCNb4FdM",
+  "round": 1,
+  "sample_id": "georc::HF1MKwIFNCNb4FdM::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "cz",
+    "predicted_region": "europe",
+    "predicted_address": "Rural gravel road near a small sawmill or lumber yard, outskirts of Jihlava, Vysočina Region, Czech Republic",
+    "predicted_lat": 49.40027778,
+    "predicted_lng": 15.59055556,
+    "reasoning_text": "{\n  \"country\": \"Czech Republic\",\n  \"country_code\": \"cz\",\n  \"region\": \"Central Europe\",\n  \"city\": \"near Jihlava\",\n  \"province_or_state\": \"Vysočina Region\",\n  \"address\": \"Rural gravel road near a small sawmill or lumber yard, outskirts of Jihlava, Vysočina Region, Czech Republic\",\n  \"confidence\": 0.34,\n  \"reasoning\": \"The image shows a narrow white-gravel rural lane in a temperate European landscape with mixed deciduous forest, low rolling terrain, wire fencing, stacked cut timber, and a house with a red-tiled roof. These features fit Central Europe well. The architecture and rural roadside environment feel more like the Czech Republic or nearby Slovakia/Slovenia/Croatia than western or northern Europe. The subdued terrain and common red-roof village style, along with the very typical unpaved farm access road and forestry activity, make the Czech Republic my best guess. Without readable signs or road markings, the exact locality is uncertain, so I am placing it broadly in the wooded interior around Vysočina near Jihlava.\",\n  \"evidence\": [\n    \"Temperate Central European vegetation with mixed woodland\",\n    \"Red-tiled low house roof typical of Central/Eastern Europe\",\n    \"Narrow pale gravel farm road common in rural Czech areas\",\n    \"Stacks of sawn timber suggesting a forestry/sawmill rural economy\",\n    \"Gentle rolling terrain rather than mountains or flat lowlands\",\n    \"Wire fencing and simple utility poles consistent with Central European countryside\"\n  ]\n}",
+    "evidence_spans": [
+      "Temperate Central European vegetation with mixed woodland",
+      "Red-tiled low house roof typical of Central/Eastern Europe",
+      "Narrow pale gravel farm road common in rural Czech areas",
+      "Stacks of sawn timber suggesting a forestry/sawmill rural economy",
+      "Gentle rolling terrain rather than mountains or flat lowlands",
+      "Wire fencing and simple utility poles consistent with Central European countryside"
+    ],
+    "confidence": 0.34
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line and right-hand traffic indicate a US or Canadian road; absence of bilingual signs or Quebec-style infrastructure points to US.",
+    "Flat, open farmland with scattered deciduous trees and utility poles is typical of rural Midwest or Great Plains US regions.",
+    "No visible signage, license plates, or commercial buildings eliminates urban or border-zone contexts."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line and right-hand traffic indicate a US or Canadian road; absence of bilingual signs or Quebec-style infrastructure points to US.\",\n    \"Flat, open farmland with scattered deciduous trees and utility poles is typical of rural Midwest or Great Plains US regions.\",\n    \"No visible signage, license plates, or commercial buildings eliminates urban or border-zone contexts.\",\n    \"Bright sun, clear blue sky, and green spring foliage align with temperate"
+}

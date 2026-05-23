@@ -1,0 +1,10 @@
+{
+  "sample_id": "georc::KYuWftPRQfRJ5DKL::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "game_id": "KYuWftPRQfRJ5DKL",
+  "round": 1,
+  "ground_truth_country": "jp",
+  "ground_truth_lat": 38.89382641438336,
+  "ground_truth_lng": 140.94151328922086
+}

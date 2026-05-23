@@ -1,0 +1,11 @@
+{
+  "country": "Norway",
+  "country_code": "no",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt with white center line and edge markings, typical of rural Norwegian roads.",
+    "The rocky outcrops and grassy verges are characteristic of the Scandinavian landscape, especially in Norway’s coastal or inland regions.",
+    "No visible traffic signs or buildings show language or national symbols, but the terrain and vegetation (coniferous trees, low shrubs) align with Norway’s temperate maritime climate."
+  ],
+  "raw_output": "{\n  \"country\": \"Norway\",\n  \"country_code\": \"no\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt with white center line and edge markings, typical of rural Norwegian roads.\",\n    \"The rocky outcrops and grassy verges are characteristic of the Scandinavian landscape, especially in Norway’s coastal or inland regions.\",\n    \"No visible traffic signs or buildings show language or national symbols, but the terrain and vegetation (coniferous trees, low shrubs) align with Norway’s temperate maritime climate.\","
+}

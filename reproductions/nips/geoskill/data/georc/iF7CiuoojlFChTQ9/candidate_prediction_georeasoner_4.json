@@ -1,0 +1,10 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, winding mountain road with no center line and vegetation typical of the Western Ghats suggests a rural or semi-rural location in southern India.",
+    "The overcast sky and dense evergreen forest are characteristic of the high-altitude regions of Kerala or Tamil Nadu, where such roads are common."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, winding mountain road with no center line and vegetation typical of the Western Ghats suggests a rural or semi-rural location in southern India.\",\n    \"The overcast sky and dense evergreen forest are characteristic of the high-altitude regions of Kerala or Tamil Nadu, where such roads are common.\",\n    \"No visible signage, utility poles, or vehicles provide direct clues, but the terrain and flora strongly point to a hilly region in South India"
+}

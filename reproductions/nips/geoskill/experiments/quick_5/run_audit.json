@@ -1,0 +1,69 @@
+{
+  "timestamp_utc": "2026-03-26T06:55:46.800334+00:00",
+  "project_root": "/data/alice/cjtest/NIPS/geoskill",
+  "config": "configs/quick_5.yaml",
+  "dataset": {
+    "expected_game_count": 5,
+    "loaded_sample_count": 5,
+    "missing_game_count": 0,
+    "missing_game_ids": []
+  },
+  "run": {
+    "methods_requested": [
+      "direct_vlm",
+      "georeasoner",
+      "geocot"
+    ],
+    "methods_executed": [
+      "direct_vlm",
+      "georeasoner",
+      "geocot"
+    ]
+  },
+  "method_status": {
+    "direct_vlm": {
+      "num_samples": 5,
+      "num_errors": 5,
+      "num_success": 0,
+      "error_rate": 1.0
+    },
+    "georeasoner": {
+      "num_samples": 5,
+      "num_errors": 5,
+      "num_success": 0,
+      "error_rate": 1.0
+    },
+    "geocot": {
+      "num_samples": 5,
+      "num_errors": 5,
+      "num_success": 0,
+      "error_rate": 1.0
+    }
+  },
+  "external_baselines": {
+    "GeoComp": {
+      "present": true,
+      "has_eval_script": false,
+      "local_results_found": false,
+      "local_result_files": []
+    },
+    "GeoReasoner": {
+      "present": true,
+      "has_eval_script": false,
+      "local_results_found": false,
+      "local_result_files": []
+    },
+    "GeoVista": {
+      "present": true,
+      "has_eval_script": true,
+      "local_results_found": false,
+      "local_result_files": []
+    },
+    "SAFA": {
+      "present": true,
+      "has_eval_script": true,
+      "local_results_found": false,
+      "local_result_files": []
+    }
+  }
+}

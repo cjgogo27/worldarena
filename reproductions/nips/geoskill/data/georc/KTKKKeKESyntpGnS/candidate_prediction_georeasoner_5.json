@@ -1,0 +1,11 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved dirt road with no markings or center line is typical of rural access roads in Thailand’s forested regions.",
+    "Dense pine plantations (Pinus kesiya) are characteristic of northern and northeastern Thailand, especially in areas used for timber or paper production.",
+    "Absence of utility poles, signage, or paved infrastructure suggests a remote, non-urbanized area consistent with Thailand’s rural forest zones."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved dirt road with no markings or center line is typical of rural access roads in Thailand’s forested regions.\",\n    \"Dense pine plantations (Pinus kesiya) are characteristic of northern and northeastern Thailand, especially in areas used for timber or paper production.\",\n    \"Absence of utility poles, signage, or paved infrastructure suggests a remote, non-urbanized area consistent with Thailand’s rural forest zones.\",\n    \"Bright"
+}

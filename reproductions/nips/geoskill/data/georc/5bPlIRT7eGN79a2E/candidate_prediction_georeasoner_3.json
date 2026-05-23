@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow center line and white edge lines, consistent with US two-lane rural highways.",
+    "Sparse desert vegetation, dry grasses, and scattered shrubs indicate an arid climate typical of the American Southwest.",
+    "No visible signage, buildings, or urban infrastructure suggests a remote rural location rather than a city."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow center line and white edge lines, consistent with US two-lane rural highways.\",\n    \"Sparse desert vegetation, dry grasses, and scattered shrubs indicate an arid climate typical of the American Southwest.\",\n    \"No visible signage, buildings, or urban infrastructure suggests a remote rural location rather than a city.\",\n    \"The flat, open terrain and lack of fencing or utility poles align with undeveloped federal or"
+}

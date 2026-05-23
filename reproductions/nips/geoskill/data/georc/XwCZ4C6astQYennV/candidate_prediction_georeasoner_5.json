@@ -1,0 +1,12 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with no passing, common in Australia and New Zealand.",
+    "Vegetation is dense, scrubby, and includes eucalyptus-like trees, typical of Australian bushland.",
+    "Road surface is narrow and unpaved at edges, consistent with rural Australian outback roads.",
+    "Overcast sky and lack of urban infrastructure suggest remote inland location, not coastal or city area."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with no passing, common in Australia and New Zealand.\",\n    \"Vegetation is dense, scrubby, and includes eucalyptus-like trees, typical of Australian bushland.\",\n    \"Road surface is narrow and unpaved at edges, consistent with rural Australian outback roads.\",\n    \"Overcast sky and lack of urban infrastructure suggest remote inland location, not coastal or city area.\"\n  ]"
+}

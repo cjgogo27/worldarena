@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The Portuguese graffiti 'temos FRANGO' (we have chicken) on the right building indicates a Portuguese-speaking country, narrowing to Brazil, Portugal, or Angola.",
+    "The tropical vegetation including palm trees and banana plants, combined with the red lateritic soil, is characteristic of northeastern Brazil.",
+    "The architecture features simple single-story houses with tiled roofs and barred windows, typical of rural Brazilian towns."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The Portuguese graffiti 'temos FRANGO' (we have chicken) on the right building indicates a Portuguese-speaking country, narrowing to Brazil, Portugal, or Angola.\",\n    \"The tropical vegetation including palm trees and banana plants, combined with the red lateritic soil, is characteristic of northeastern Brazil.\",\n    \"The architecture features simple single-story houses with tiled roofs and barred windows, typical of rural Brazilian towns.\",\n    \"The unpaved road and lack of"
+}

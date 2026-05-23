@@ -1,0 +1,24 @@
+{
+  "game_id": "KZ2f6LqzJRyChcg8",
+  "round": 1,
+  "sample_id": "georc::KZ2f6LqzJRyChcg8::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ad",
+    "predicted_region": "europe",
+    "predicted_address": "Camí de la Llobatera, La Massana, Andorra",
+    "predicted_lat": 42.54812,
+    "predicted_lng": 1.50327,
+    "reasoning_text": "{\n  \"country\": \"Andorra\",\n  \"country_code\": \"ad\",\n  \"region\": \"Southern Europe\",\n  \"city\": \"La Massana\",\n  \"province_or_state\": \"La Massana\",\n  \"address\": \"Camí de la Llobatera, La Massana, Andorra\",\n  \"confidence\": 0.78,\n  \"reasoning\": \"The road sign on the left appears to read 'Camí de la Llobatera' or very similar, and 'Camí' is a Catalan street term strongly used in Andorra. The setting is a narrow mountain road in a dense Pyrenean valley with stone retaining walls, chalet-style houses, and modern curved streetlights, all very characteristic of Andorran towns. The terrain and architecture fit the Andorran parishes such as La Massana or Ordino more than lowland Catalonia. Based on the visible sign and overall mountain village appearance, the best guess is a residential street in La Massana parish, likely Camí de la Llobatera.\",\n  \"evidence\": [\n    \"Street sign appears to use Catalan: 'Camí de la ...'\",\n    \"Pyrenean mountain valley landscape\",\n    \"Stone walls and chalet-style homes typical of Andorra\",\n    \"Narrow residential road with European guardrail and streetlights\",\n    \"Overall built environment strongly matches Andorran villages\"\n  ]\n}",
+    "evidence_spans": [
+      "Street sign appears to use Catalan: 'Camí de la ...'",
+      "Pyrenean mountain valley landscape",
+      "Stone walls and chalet-style homes typical of Andorra",
+      "Narrow residential road with European guardrail and streetlights",
+      "Overall built environment strongly matches Andorran villages"
+    ],
+    "confidence": 0.78
+  },
+  "error": null
+}

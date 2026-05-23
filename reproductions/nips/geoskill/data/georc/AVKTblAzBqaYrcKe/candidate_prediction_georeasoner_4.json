@@ -1,0 +1,10 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of white mailboxes on the left side of the road indicates right-hand traffic, consistent with US driving conventions.",
+    "The architectural style of the houses—single-story brick and vinyl siding homes with front porches—is typical of suburban developments in the American South or Midwest."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of white mailboxes on the left side of the road indicates right-hand traffic, consistent with US driving conventions.\",\n    \"The architectural style of the houses—single-story brick and vinyl siding homes with front porches—is typical of suburban developments in the American South or Midwest.\",\n    \"The lush green lawns, mature deciduous trees, and overcast sky suggest a temperate climate zone, common in states like Georgia, Alabama, or Tennessee"
+}

@@ -1,0 +1,12 @@
+{
+  "country": "Philippines",
+  "country_code": "ph",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a narrow, winding asphalt path with no center line, typical of rural Philippine mountain roads.",
+    "Vegetation includes dense tropical greenery, banana plants, and palm trees, consistent with the Philippines’ humid tropical climate.",
+    "Utility poles are wooden and overhead wires run along the roadside, common in rural Philippine infrastructure.",
+    "The vehicle appears to be a pickup truck, frequently used for transport in Philippine countryside areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a narrow, winding asphalt path with no center line, typical of rural Philippine mountain roads.\",\n    \"Vegetation includes dense tropical greenery, banana plants, and palm trees, consistent with the Philippines’ humid tropical climate.\",\n    \"Utility poles are wooden and overhead wires run along the roadside, common in rural Philippine infrastructure.\",\n    \"The vehicle appears to be a pickup truck, frequently used for transport in Philippine countryside areas.\""
+}

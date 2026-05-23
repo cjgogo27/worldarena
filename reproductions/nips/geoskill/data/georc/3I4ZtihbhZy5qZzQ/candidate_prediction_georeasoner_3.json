@@ -1,0 +1,11 @@
+{
+  "country": "Canada",
+  "country_code": "ca",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of a blue street sign with white text, typical of Canadian municipal signage, suggests a Canadian location.",
+    "The architecture of the house, including the style of the roof and siding, is consistent with rural Canadian residential design.",
+    "The vegetation, including coniferous trees and grassy fields, aligns with the temperate climate found in many parts of Canada."
+  ],
+  "raw_output": "{\n  \"country\": \"Canada\",\n  \"country_code\": \"ca\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of a blue street sign with white text, typical of Canadian municipal signage, suggests a Canadian location.\",\n    \"The architecture of the house, including the style of the roof and siding, is consistent with rural Canadian residential design.\",\n    \"The vegetation, including coniferous trees and grassy fields, aligns with the temperate climate found in many parts of Canada.\",\n    \"The road surface and utility poles are consistent with rural infrastructure commonly"
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "episode_id": "episode1",
+    "task_name": "fixed_scene_task",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Use arms to pick the bottle with small ridged green cap, drop it in the smooth black dustbin, repeat for the bottle with ribbed design and the hand-sized drinking bottle.",
+    "image": "/data/alice/cjtest/model_repros/worldarena_gigaworld_public/datasets/worldarena/test_dataset/first_frame/fixed_scene_task/episode1.png",
+    "output_video": "episode1.mp4",
+    "gt_path": "/private_gt/fixed_scene_task/episode1.mp4"
+  },
+  {
+    "episode_id": "episode10",
+    "task_name": "fixed_scene_task",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Lift the red beverage can with curved top, put it in the blue plasticbox for storing things, then handle the smooth white can with accents similarly.",
+    "image": "/data/alice/cjtest/model_repros/worldarena_gigaworld_public/datasets/worldarena/test_dataset/first_frame/fixed_scene_task/episode10.png",
+    "output_video": "episode10.mp4",
+    "gt_path": "/private_gt/fixed_scene_task/episode10.mp4"
+  },
+  {
+    "episode_id": "episode100",
+    "task_name": "fixed_scene_task",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Hold and shake the the smooth cylindrical bottle carefully.",
+    "image": "/data/alice/cjtest/model_repros/worldarena_gigaworld_public/datasets/worldarena/test_dataset/first_frame/fixed_scene_task/episode100.png",
+    "output_video": "episode100.mp4",
+    "gt_path": "/private_gt/fixed_scene_task/episode100.mp4"
+  },
+  {
+    "episode_id": "episode1000",
+    "task_name": "fixed_scene_task",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Pick and move the blue top toycar, then shift the basket made of woven wood.",
+    "image": "/data/alice/cjtest/model_repros/worldarena_gigaworld_public/datasets/worldarena/test_dataset/first_frame/fixed_scene_task/episode1000.png",
+    "output_video": "episode1000.mp4",
+    "gt_path": "/private_gt/fixed_scene_task/episode1000.mp4"
+  },
+  {
+    "episode_id": "episode101",
+    "task_name": "fixed_scene_task",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Place the blue stapler with shiny silver parts carefully on the handheld electronicscale using the right arm",
+    "image": "/data/alice/cjtest/model_repros/worldarena_gigaworld_public/datasets/worldarena/test_dataset/first_frame/fixed_scene_task/episode101.png",
+    "output_video": "episode101.mp4",
+    "gt_path": "/private_gt/fixed_scene_task/episode101.mp4"
+  },
+  {
+    "episode_id": "episode102",
+    "task_name": "fixed_scene_task",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Lift the blue pack holding playingcards using the left arm and transfer it outward.",
+    "image": "/data/alice/cjtest/model_repros/worldarena_gigaworld_public/datasets/worldarena/test_dataset/first_frame/fixed_scene_task/episode102.png",
+    "output_video": "episode102.mp4",
+    "gt_path": "/private_gt/fixed_scene_task/episode102.mp4"
+  },
+  {
+    "episode_id": "episode103",
+    "task_name": "fixed_scene_task",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Grab the first the rounded bowl with light blue color, position the second, then add the third.",
+    "image": "/data/alice/cjtest/model_repros/worldarena_gigaworld_public/datasets/worldarena/test_dataset/first_frame/fixed_scene_task/episode103.png",
+    "output_video": "episode103.mp4",
+    "gt_path": "/private_gt/fixed_scene_task/episode103.mp4"
+  },
+  {
+    "episode_id": "episode104",
+    "task_name": "fixed_scene_task",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Grasp the rounded bowl with light blue color, then use the arm to align and stack the curved bowl light blue shade.",
+    "image": "/data/alice/cjtest/model_repros/worldarena_gigaworld_public/datasets/worldarena/test_dataset/first_frame/fixed_scene_task/episode104.png",
+    "output_video": "episode104.mp4",
+    "gt_path": "/private_gt/fixed_scene_task/episode104.mp4"
+  },
+  {
+    "episode_id": "episode105",
+    "task_name": "fixed_scene_task",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to With the right arm, grab the portable white fan and position it on the Silver mat facing the robot",
+    "image": "/data/alice/cjtest/model_repros/worldarena_gigaworld_public/datasets/worldarena/test_dataset/first_frame/fixed_scene_task/episode105.png",
+    "output_video": "episode105.mp4",
+    "gt_path": "/private_gt/fixed_scene_task/episode105.mp4"
+  },
+  {
+    "episode_id": "episode106",
+    "task_name": "fixed_scene_task",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Lift the glazed bowl with curved sides and position it neatly over the ceramic bowl.",
+    "image": "/data/alice/cjtest/model_repros/worldarena_gigaworld_public/datasets/worldarena/test_dataset/first_frame/fixed_scene_task/episode106.png",
+    "output_video": "episode106.mp4",
+    "gt_path": "/private_gt/fixed_scene_task/episode106.mp4"
+  }
+]

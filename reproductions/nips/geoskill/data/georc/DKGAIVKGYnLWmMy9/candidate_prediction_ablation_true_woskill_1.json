@@ -1,0 +1,32 @@
+{
+  "game_id": "DKGAIVKGYnLWmMy9",
+  "round": 1,
+  "sample_id": "georc::DKGAIVKGYnLWmMy9::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "hr",
+    "predicted_region": "europe",
+    "predicted_address": "D1 Road, Knin, Šibenik-Knin County, Croatia",
+    "predicted_lat": 46.262,
+    "predicted_lng": 15.869499,
+    "reasoning_text": "```json\n{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"region\": \"Southeast Europe\",\n  \"city\": \"Knin\",\n  \"province_or_state\": \"Šibenik-Knin County\",\n  \"address\": \"D1 Road, Knin, Šibenik-Knin County, Croatia\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"The road sign style (red-bordered triangular warning sign with black symbol) matches Croatian road signage standards. The karst landscape with white rocky terrain, sparse Mediterranean vegetation, and mountainous backdrop is characteristic of the Dinaric Alps region in Croatia. The well-maintained two-lane asphalt road with modern guardrails suggests a major road rather than a minor rural route. The D1 highway connecting Zagreb to Split passes through this type of terrain near Knin. The driving side appears to be right-hand traffic, consistent with all three candidate countries. However, the road quality and specific sign design lean more toward Croatia than Bosnia and Herzegovina or Montenegro. The location near Knin in Šibenik-Knin County fits the visual profile of karst hills and recent road infrastructure investments.\",\n  \"evidence\": [\"Red-bordered triangular warning road sign with Croatian/EU standard design\", \"Karst landscape with white rocky soil and sparse vegetation\", \"Well-maintained two-lane highway with modern metal guardrails\", \"Dinaric Alps mountainous terrain with Mediterranean vegetation\", \"Right-hand traffic road configuration\"]\n}\n```",
+    "evidence_spans": [
+      "Red-bordered triangular warning road sign with Croatian/EU standard design",
+      "Karst landscape with white rocky soil and sparse vegetation",
+      "Well-maintained two-lane highway with modern metal guardrails",
+      "Dinaric Alps mountainous terrain with Mediterranean vegetation",
+      "Right-hand traffic road configuration"
+    ],
+    "confidence": 0.6,
+    "country_top3": [
+      "hr",
+      "ba",
+      "me"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"hr\",\"ba\",\"me\"],\"reason\":\"The road sign style (red-bordered triangular warning sign with black symbol) matches European/Vienna Convention standards. The karst limestone terrain with white rocky soil, Mediterranean scrub vegetation, and mountainous coastal landscape is characteristic of the Dinaric Alps region. The road design with guardrails and fresh asphalt suggests a recently developed area in the Balkans. Croatia is most likely due to the specific road marking style and prevalence of such karst topography in Dalmatia and Lika regions. Bosnia and Herzegovina and Montenegro share similar geography but the road infrastructure quality points more toward Croatia.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9300000000000002
+  },
+  "error": null
+}

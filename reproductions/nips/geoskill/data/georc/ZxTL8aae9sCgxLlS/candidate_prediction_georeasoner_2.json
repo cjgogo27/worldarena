@@ -1,0 +1,11 @@
+{
+  "country": "France",
+  "country_code": "fr",
+  "city": "",
+  "reasoning_chain": [
+    "The road markings, including the zebra crossing and manhole covers, are consistent with French municipal road standards.",
+    "The architecture features stone buildings with slate roofs and white-painted window frames, typical of rural Brittany or Normandy regions in France.",
+    "The presence of French-style street lamps and the layout of the residential area align with small French villages."
+  ],
+  "raw_output": "{\n  \"country\": \"France\",\n  \"country_code\": \"fr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road markings, including the zebra crossing and manhole covers, are consistent with French municipal road standards.\",\n    \"The architecture features stone buildings with slate roofs and white-painted window frames, typical of rural Brittany or Normandy regions in France.\",\n    \"The presence of French-style street lamps and the layout of the residential area align with small French villages.\",\n    \"The vegetation and overcast sky suggest a temperate maritime climate, common in western"
+}

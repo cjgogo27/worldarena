@@ -1,0 +1,317 @@
+[
+    {
+        "challenge": "2xnQdwiCve2rHWVt",
+        "round": 1,
+        "precision": 0.4119047619047619,
+        "recall": 0.375,
+        "f1": 0.3925869894099849
+    },
+    {
+        "challenge": "2xnQdwiCve2rHWVt",
+        "round": 2,
+        "precision": 0.3142857142857143,
+        "recall": 1.0,
+        "f1": 0.4782608695652174
+    },
+    {
+        "challenge": "2xnQdwiCve2rHWVt",
+        "round": 3,
+        "precision": 0.5333333333333333,
+        "recall": 0.5,
+        "f1": 0.5161290322580646
+    },
+    {
+        "challenge": "2xnQdwiCve2rHWVt",
+        "round": 4,
+        "precision": 0.16666666666666666,
+        "recall": 0.25,
+        "f1": 0.2
+    },
+    {
+        "challenge": "2xnQdwiCve2rHWVt",
+        "round": 5,
+        "precision": 0.42857142857142855,
+        "recall": 0.7000000000000001,
+        "f1": 0.5316455696202531
+    },
+    {
+        "challenge": "4UvmdTHySo6AXW4M",
+        "round": 1,
+        "precision": 0.9166666666666666,
+        "recall": 0.42857142857142855,
+        "f1": 0.5840707964601769
+    },
+    {
+        "challenge": "4UvmdTHySo6AXW4M",
+        "round": 2,
+        "precision": 0.42500000000000004,
+        "recall": 0.37499999999999994,
+        "f1": 0.39843749999999994
+    },
+    {
+        "challenge": "4UvmdTHySo6AXW4M",
+        "round": 3,
+        "precision": 0.5833333333333334,
+        "recall": 0.5833333333333334,
+        "f1": 0.5833333333333334
+    },
+    {
+        "challenge": "4UvmdTHySo6AXW4M",
+        "round": 4,
+        "precision": 0.5555555555555556,
+        "recall": 0.75,
+        "f1": 0.6382978723404256
+    },
+    {
+        "challenge": "4UvmdTHySo6AXW4M",
+        "round": 5,
+        "precision": 0.7777777777777778,
+        "recall": 0.4873737373737373,
+        "f1": 0.5992459525393656
+    },
+    {
+        "challenge": "5l0GTCFZI877KxkV",
+        "round": 1,
+        "precision": 0.9,
+        "recall": 0.3522222222222222,
+        "f1": 0.5062999112688554
+    },
+    {
+        "challenge": "5l0GTCFZI877KxkV",
+        "round": 2,
+        "precision": 0.3055555555555555,
+        "recall": 0.21666666666666667,
+        "f1": 0.25354609929078015
+    },
+    {
+        "challenge": "5l0GTCFZI877KxkV",
+        "round": 3,
+        "precision": 0.5833333333333333,
+        "recall": 0.49999999999999994,
+        "f1": 0.5384615384615383
+    },
+    {
+        "challenge": "5l0GTCFZI877KxkV",
+        "round": 4,
+        "precision": 0.48333333333333334,
+        "recall": 0.4583333333333333,
+        "f1": 0.47050147492625366
+    },
+    {
+        "challenge": "5l0GTCFZI877KxkV",
+        "round": 5,
+        "precision": 0.5333333333333333,
+        "recall": 0.5555555555555555,
+        "f1": 0.5442176870748299
+    },
+    {
+        "challenge": "74bPHM081cMUaNKT",
+        "round": 1,
+        "precision": 0.3267195767195767,
+        "recall": 0.4000000000000001,
+        "f1": 0.3596650891882054
+    },
+    {
+        "challenge": "74bPHM081cMUaNKT",
+        "round": 2,
+        "precision": 0.3238095238095238,
+        "recall": 0.3333333333333333,
+        "f1": 0.3285024154589372
+    },
+    {
+        "challenge": "74bPHM081cMUaNKT",
+        "round": 3,
+        "precision": 0.41428571428571426,
+        "recall": 0.41666666666666663,
+        "f1": 0.41547277936962745
+    },
+    {
+        "challenge": "74bPHM081cMUaNKT",
+        "round": 4,
+        "precision": 0.48333333333333334,
+        "recall": 0.4682539682539682,
+        "f1": 0.4756741729218793
+    },
+    {
+        "challenge": "74bPHM081cMUaNKT",
+        "round": 5,
+        "precision": 0.5125,
+        "recall": 0.46904761904761905,
+        "f1": 0.48981200727713764
+    },
+    {
+        "challenge": "9lNwy1vjD53PTSwt",
+        "round": 1,
+        "precision": 0.41666666666666663,
+        "recall": 0.3125,
+        "f1": 0.3571428571428571
+    },
+    {
+        "challenge": "9lNwy1vjD53PTSwt",
+        "round": 2,
+        "precision": 0.5666666666666668,
+        "recall": 0.4444444444444445,
+        "f1": 0.49816849816849823
+    },
+    {
+        "challenge": "9lNwy1vjD53PTSwt",
+        "round": 3,
+        "precision": 0.4666666666666666,
+        "recall": 0.5277777777777778,
+        "f1": 0.4953445065176908
+    },
+    {
+        "challenge": "9lNwy1vjD53PTSwt",
+        "round": 4,
+        "precision": 0.4777777777777777,
+        "recall": 0.38730158730158726,
+        "f1": 0.4278083588175331
+    },
+    {
+        "challenge": "9lNwy1vjD53PTSwt",
+        "round": 5,
+        "precision": 0.475,
+        "recall": 0.3416666666666666,
+        "f1": 0.39744897959183667
+    },
+    {
+        "challenge": "EEI3fwu4iZvPT2zP",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "HLDekf7z49ovS9Y8",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "JfPkjboMSjCsG1Qu",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "KXkXw08ZCDqL1e2q",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "Lz6IDBZmUTr5oPdV",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "No9HbFZyTOwfaU8s",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "STQGgl6Uh9muExNb",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "VGLhN3OEa5t3YAFj",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "XdOtqbtqAbSvRHij",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "YlXQJ8JIXvcRXwF5",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "amHvOfYODNHwXiJg",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "d8lnc9Ex03KQUJEL",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "f7TDBGoaR3hv0dVw",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "kkJz0TJOX5PkNDIu",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "lesmx8gOI1f44LS4",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "oUaCVxfbGe5Aj0AA",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "qPJtxO4pQJtlqpth",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "sMPhUAFKpkB21pnD",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "uluG1Pbks9IwTjsA",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "xnoF4a1DE73F1kiV",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    }
+]

@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The car is parked on the right side of the road, consistent with right-hand traffic in the United States.",
+    "The architecture features a single-story house with a brick chimney and vinyl siding, typical of suburban American residential design.",
+    "The vegetation includes large evergreen trees and dry, rocky terrain, suggesting a warm, arid climate common in the southwestern U.S."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The car is parked on the right side of the road, consistent with right-hand traffic in the United States.\",\n    \"The architecture features a single-story house with a brick chimney and vinyl siding, typical of suburban American residential design.\",\n    \"The vegetation includes large evergreen trees and dry, rocky terrain, suggesting a warm, arid climate common in the southwestern U.S.\",\n    \"The presence of overhead power lines and a utility pole aligns"
+}

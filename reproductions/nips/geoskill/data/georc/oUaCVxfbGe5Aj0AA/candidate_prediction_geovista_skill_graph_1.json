@@ -1,0 +1,105 @@
+{
+  "game_id": "oUaCVxfbGe5Aj0AA",
+  "round": 1,
+  "sample_id": "georc::oUaCVxfbGe5Aj0AA::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ua",
+    "predicted_region": "europe",
+    "predicted_address": "P47 road between Kherson and Oleshky, Kherson Oblast, Ukraine",
+    "predicted_lat": 46.63695,
+    "predicted_lng": 32.61458,
+    "reasoning_text": "{\"country\":\"Ukraine\",\"country_code\":\"ua\",\"region\":\"Eastern Europe\",\"city\":\"Kherson\",\"province_or_state\":\"Kherson Oblast\",\"address\":\"P47 road between Kherson and Oleshky, Kherson Oblast, Ukraine\",\"confidence\":0.72,\"reasoning\":\"The white-painted tree trunks are a hallmark of post-Soviet agricultural practice, most strongly associated with Ukraine. The flat terrain, unpaved rural road with a faded center line, wooden utility poles with multiple overhead wires, single-story rural houses, and extensive agricultural greenhouses/polytunnels are characteristic of southern Ukraine's intensive vegetable-growing regions. Kherson Oblast is specifically known for large-scale greenhouse agriculture on the flat steppe near the Dnipro River delta and the Black Sea coast. The road geometry and infrastructure suggest a secondary rural road (likely a regional road such as P47 or T-1502) connecting Kherson city to smaller settlements or greenhouse complexes in the oblast. Without more precise signage or landmarks, the most specific reasonable guess is a rural section of the P47 road corridor between Kherson and Oleshky, where dense greenhouse agriculture is documented.\",\"evidence\":[\"white-painted tree trunks (post-Soviet agricultural practice)\",\"unpaved rural road with faded center line\",\"wooden utility poles with multiple overhead power lines\",\"single-story rural houses with pitched roofs\",\"large-scale agricultural greenhouses/polytunnels\",\"flat steppe terrain with lush summer vegetation\"]}",
+    "evidence_spans": [
+      "white-painted tree trunks (post-Soviet agricultural practice)",
+      "unpaved rural road with faded center line",
+      "wooden utility poles with multiple overhead power lines",
+      "single-story rural houses with pitched roofs",
+      "large-scale agricultural greenhouses/polytunnels",
+      "flat steppe terrain with lush summer vegetation"
+    ],
+    "confidence": 0.72,
+    "country_top3": [
+      "ua",
+      "ru",
+      "by"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"ua\",\"ru\",\"by\"],\"reason\":\"White-painted tree trunks are a distinctive cultural practice strongly associated with post-Soviet countries, particularly Ukraine, Russia, and Belarus. This Soviet-era agricultural practice for pest control and sun reflection is most common in these three countries. The rural infrastructure (unpaved roads, wooden utility poles with multiple power lines, single-story rural houses with pitched roofs, and large agricultural greenhouses) matches the Black Sea region of Ukraine most closely, followed by southern Russia and Belarus.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9380000000000001,
+        "pred_country": "ua",
+        "geo_country": "ua",
+        "country_consistency": 1.0,
+        "address_specificity": 0.7899999999999999,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "P47 road between Kherson and Oleshky, Kherson Oblast, Ukraine"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.87,
+        "pred_country": "ua",
+        "geo_country": "ua",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Vulytsia Stepova, Bilozerska silska hromada, Kherson Raion, Kherson Oblast, Ukraine"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.87,
+        "pred_country": "ua",
+        "geo_country": "ua",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Vulytsia Stepova, Hola Prystan, Kherson Oblast, Ukraine"
+      }
+    ],
+    "selected_candidate_score": 0.9380000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "ua",
+      "predicted_region": "europe",
+      "confidence": 0.78
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\"country\":\"Ukraine\",\"country_code\":\"ua\",\"region\":\"Eastern Europe\",\"city\":\"\",\"province_or_state\":\"Kherson Oblast\",\"address\":\"Rural road near agricultural greenhouses, Kherson Oblast, Ukraine\",\"confidence\":0.78,\"reasoning\":\"The white-painted tree trunks are a distinctive cultural practice strongly as",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "ua"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The red-and-white striped poles along the retaining wall are typical Japanese traffic markers used to indicate hazards or boundaries.",
+    "The Japanese text on the orange sign (visible near the center) confirms the location is in Japan.",
+    "The narrow, winding road with guardrails and steep incline is characteristic of rural or suburban Japanese terrain."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The red-and-white striped poles along the retaining wall are typical Japanese traffic markers used to indicate hazards or boundaries.\",\n    \"The Japanese text on the orange sign (visible near the center) confirms the location is in Japan.\",\n    \"The narrow, winding road with guardrails and steep incline is characteristic of rural or suburban Japanese terrain.\",\n    \"The architecture of the house—simple, single-story with metal siding and small windows—is common in residential areas"
+}

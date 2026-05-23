@@ -1,0 +1,57 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/review_evolution_georc50_provider_a
+
+vlm:
+  base_url: https://api.provider_a.com/v1
+  api_key: sk-REDACTED
+  model: qwen3.5-plus
+  max_tokens: 1500
+  max_image_side: 1024
+  retries: 1
+  backoff_seconds: 0.0
+  request_timeout_seconds: 60
+
+llm_large:
+  base_url: https://api.provider_a.com/v1
+  api_key: sk-REDACTED
+  model: gpt-5.4-mini
+  enable_thinking: false
+  max_tokens: 1100
+  max_image_side: 896
+  retries: 1
+  backoff_seconds: 0.0
+  request_timeout_seconds: 60
+
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  min_score: 0.15
+  retrieval_mode: text_only
+
+training_free:
+  enable_failure_recovery: true
+  enable_skill_fusion: true
+  recovery_max_records: 12
+  failure_distance_km: 200.0
+  rollout_rounds: 3
+  search_evolution:
+    enabled: false
+    provider: brave
+    api_key: ""
+    max_cases: 3
+    queries_per_case: 2
+    results_per_query: 2
+    timeout_seconds: 8.0
+    context_char_budget: 2000
+
+runtime:
+  sample_retry_attempts: 2
+  sample_retry_backoff_seconds: 1.0
+  inter_sample_delay_seconds: 0.15
+
+datasets:
+  - name: georc
+    data_root: data/georc
+    dataset_version: georc_v1
+    round: 1

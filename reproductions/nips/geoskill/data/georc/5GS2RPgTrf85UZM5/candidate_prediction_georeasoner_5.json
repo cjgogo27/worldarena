@@ -1,0 +1,10 @@
+{
+  "country": "Belgium",
+  "country_code": "be",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of a green waste bin with French text ('RECHERCHER') and phone number format suggests a French-speaking region, consistent with Wallonia in Belgium.",
+    "The architecture—brick houses with slate roofs and modest suburban layout—is typical of rural or semi-rural Belgian villages."
+  ],
+  "raw_output": "{\n  \"country\": \"Belgium\",\n  \"country_code\": \"be\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of a green waste bin with French text ('RECHERCHER') and phone number format suggests a French-speaking region, consistent with Wallonia in Belgium.\",\n    \"The architecture—brick houses with slate roofs and modest suburban layout—is typical of rural or semi-rural Belgian villages.\",\n    \"Utility poles and overhead wires are standard in European rural areas, and the road layout (narrow, paved, no center line) matches Belgian countryside"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Croatia",
+  "country_code": "hr",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of stacked wooden planks and industrial-style fencing suggests a rural or semi-industrial zone common in Croatia’s coastal hinterlands.",
+    "The architecture of the apartment blocks—light-colored facades with terracotta roofs—is typical of Croatian residential areas near Zagreb or Split.",
+    "Vegetation is lush green with scattered wildflowers, consistent with Mediterranean-influenced temperate climates found in Croatia during summer."
+  ],
+  "raw_output": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of stacked wooden planks and industrial-style fencing suggests a rural or semi-industrial zone common in Croatia’s coastal hinterlands.\",\n    \"The architecture of the apartment blocks—light-colored facades with terracotta roofs—is typical of Croatian residential areas near Zagreb or Split.\",\n    \"Vegetation is lush green with scattered wildflowers, consistent with Mediterranean-influenced temperate climates found in Croatia during summer.\",\n    \"No"
+}

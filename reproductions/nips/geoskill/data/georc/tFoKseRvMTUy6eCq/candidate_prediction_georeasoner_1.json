@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The red lateritic soil and vegetation are characteristic of tropical regions in Brazil, particularly in the Southeast or South regions.",
+    "The architecture features simple brick houses with tiled roofs and barbed wire fencing, common in rural or semi-rural Brazilian neighborhoods.",
+    "The unpaved road with hexagonal paving stones is typical of developing areas in Brazil where paved roads are not yet installed."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The red lateritic soil and vegetation are characteristic of tropical regions in Brazil, particularly in the Southeast or South regions.\",\n    \"The architecture features simple brick houses with tiled roofs and barbed wire fencing, common in rural or semi-rural Brazilian neighborhoods.\",\n    \"The unpaved road with hexagonal paving stones is typical of developing areas in Brazil where paved roads are not yet installed.\",\n    \"The dense forested hillside and lack of urban infrastructure suggest"
+}

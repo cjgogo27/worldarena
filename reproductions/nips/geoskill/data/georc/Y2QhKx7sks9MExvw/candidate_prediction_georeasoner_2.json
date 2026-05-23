@@ -1,0 +1,12 @@
+{
+  "country": "United Arab Emirates",
+  "country_code": "ae",
+  "city": "",
+  "reasoning_chain": [
+    "The road features black-and-yellow curb markings, typical of UAE infrastructure design.",
+    "Vegetation consists of dense green shrubs and trees in an arid landscape, consistent with UAE’s desert-edge environments.",
+    "Buildings are modern, white-washed structures with flat roofs, common in UAE urban development.",
+    "No visible signage or text is legible, but the overall aesthetic and road layout strongly align with UAE suburban roads."
+  ],
+  "raw_output": "{\n  \"country\": \"United Arab Emirates\",\n  \"country_code\": \"ae\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features black-and-yellow curb markings, typical of UAE infrastructure design.\",\n    \"Vegetation consists of dense green shrubs and trees in an arid landscape, consistent with UAE’s desert-edge environments.\",\n    \"Buildings are modern, white-washed structures with flat roofs, common in UAE urban development.\",\n    \"No visible signage or text is legible, but the overall aesthetic and road layout strongly align with UAE suburban roads.\""
+}

@@ -1,0 +1,18 @@
+{
+  "include": ["src", "scripts"],
+  "typeCheckingMode": "off",
+  "reportMissingImports": "none",
+  "reportImplicitRelativeImport": "none",
+  "reportUnknownParameterType": "none",
+  "reportUnknownVariableType": "none",
+  "reportUnknownMemberType": "none",
+  "reportUnknownArgumentType": "none",
+  "reportMissingTypeArgument": "none",
+  "reportGeneralTypeIssues": "none",
+  "reportAny": "none",
+  "reportExplicitAny": "none",
+  "reportUnannotatedClassAttribute": "none",
+  "reportUnnecessaryIsInstance": "none",
+  "reportMissingTypeStubs": "none",
+  "reportDeprecated": "none"
+}

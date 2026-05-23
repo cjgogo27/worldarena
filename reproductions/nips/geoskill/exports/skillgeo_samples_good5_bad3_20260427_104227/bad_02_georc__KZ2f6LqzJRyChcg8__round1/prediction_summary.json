@@ -1,0 +1,9 @@
+{
+  "predicted_country": "unknown",
+  "predicted_region": "unknown",
+  "predicted_lat": NaN,
+  "predicted_lng": NaN,
+  "confidence": 0.0,
+  "error": "VLM query failed after retries: HTTPSConnectionPool(host='api.mytokenland.com', port=443): Read timed out. (read timeout=60)",
+  "distance_km": null
+}

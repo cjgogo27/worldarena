@@ -1,0 +1,796 @@
+{
+  "game_id": "6fGwHxCTvCbaK77Q",
+  "round": 1,
+  "sample_id": "georc::6fGwHxCTvCbaK77Q::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "br",
+    "predicted_region": "south_america",
+    "predicted_lat": -15.7801,
+    "predicted_lng": -47.9292,
+    "reasoning_text": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"lat\": -15.7801,\n  \"lng\": -47.9292,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The image displays a classic unpaved road with distinct red/orange lateritic soil, which is a hallmark of the Brazilian Cerrado (savanna) biome. The vegetation consists of dense, low-lying scrub and tall grasses, consistent with the transitional forest zones found in central Brazil. The flat terrain and wide, open sky further support this identification. While similar landscapes exist in other tropical regions like West Africa or Southeast Asia, the specific combination of soil color and vegetation density strongly points to Brazil. The absence of paved infrastructure suggests a remote or rural area within the country.\",\n  \"evidence\": [\n    \"Unpaved road with distinct red/orange lateritic soil surface.\",\n    \"Dense, lush green vegetation on both sides of the road.\",\n    \"Tall grasses and shrubs growing immediately adjacent to the road edge.\",\n    \"Tall, thin trees visible in the distance on the right.\",\n    \"Wide, open sky with scattered cumulus clouds.\",\n    \"No visible road markings, signs, or infrastructure.\",\n    \"Flat terrain with a slight horizon line visible in the distance.\"\n  ]\n}",
+    "evidence_spans": [
+      "Unpaved road with distinct red/orange lateritic soil surface.",
+      "Dense, lush green vegetation on both sides of the road.",
+      "Tall grasses and shrubs growing immediately adjacent to the road edge.",
+      "Tall, thin trees visible in the distance on the right.",
+      "Wide, open sky with scattered cumulus clouds.",
+      "No visible road markings, signs, or infrastructure.",
+      "Flat terrain with a slight horizon line visible in the distance."
+    ],
+    "confidence": 0.85,
+    "geovista_observation": {
+      "observations": [
+        "Unpaved road with distinct red/orange lateritic soil surface.",
+        "Dense, lush green vegetation on both sides of the road.",
+        "Tall grasses and shrubs growing immediately adjacent to the road edge.",
+        "Tall, thin trees visible in the distance on the right.",
+        "Wide, open sky with scattered cumulus clouds.",
+        "No visible road markings, signs, or infrastructure.",
+        "Flat terrain with a slight horizon line visible in the distance.",
+        "No vehicles or people present in the frame."
+      ],
+      "hard_clues": [
+        "Red lateritic soil is a strong indicator of tropical regions, particularly West Africa, parts of South America (Brazil), or Southeast Asia.",
+        "The specific type of dense, low-lying scrub and tall grasses is consistent with savanna or transitional forest zones in tropical climates.",
+        "Absence of paved infrastructure suggests a remote or rural area."
+      ],
+      "ambiguous_clues": [
+        "The vegetation is generic tropical/subtropical scrub; without specific species identification (e.g., Baobab, specific palm types), pinpointing the country is difficult.",
+        "The road is a simple dirt track; it could be anywhere with similar soil and climate.",
+        "No distinct landmarks or buildings are visible to narrow down the location."
+      ],
+      "possible_scripts": [
+        "Latin script (likely English, French, or Portuguese based on region)",
+        "No script visible"
+      ],
+      "driving_side": "unknown"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Brazil",
+        "Mozambique",
+        "Tanzania",
+        "Indonesia",
+        "Madagascar"
+      ],
+      "zoom_boxes": [
+        [
+          0,
+          0,
+          450,
+          600
+        ],
+        [
+          550,
+          400,
+          1000,
+          700
+        ]
+      ],
+      "verification_queries": [
+        "Identify specific tree species visible on the right horizon to distinguish between African savanna and South American cerrado.",
+        "Analyze the soil composition and color intensity to confirm lateritic origin typical of tropical regions.",
+        "Check for any subtle man-made structures or utility poles that might indicate proximity to a settlement or specific country infrastructure standards."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "br",
+      "predicted_region": "south_america",
+      "predicted_lat": -15.7801,
+      "predicted_lng": -47.9292,
+      "confidence": 0.85
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "br",
+      "predicted_region": "south_america",
+      "predicted_lat": -15.7801,
+      "predicted_lng": -47.9292,
+      "confidence": 0.85
+    },
+    "base_prediction_summary": {
+      "predicted_country": "br",
+      "predicted_region": "south_america",
+      "predicted_lat": -15.7801,
+      "predicted_lng": -47.9292,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.85,
+    "skill_boost_aggressive_confidence": 0.85,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The terrain to the right includes a small hillside exposed with reddish soil and scattered trees, consistent with savanna-mix or cerrado habitats of parts of Brazil.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.800389862060547,
+          "visual_cues": [
+            "soil",
+            "terrain",
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The dirt road with reddish soil is indicative of tropical or subtropical regions, often found in South America.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7872104912996293,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The road is a reddish dirt track, which is common in rural South American regions, especially Uruguay and southern Brazil.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7128218233585357,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The vegetation is lush, green, and dense, suggesting a tropical or subtropical climate with significant rainfall.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7071572601795197,
+          "visual_cues": [
+            "climate",
+            "sign",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The aridness and dirt road coverage leads to the area around Puerto Natales as similar landscapes south of Puerto Natales normally has triple solid road lines on paved roads",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.638053086400032,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The vegetation is lush and green with broadleaf trees and some palms, suggesting a warm climate with plenty of rainfall.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6368886232376099,
+          "visual_cues": [
+            "climate",
+            "road",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road is unpaved and straight with minimal infrastructure, indicating a remote location typical of southern Argentina or Chile.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6341622471809387,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The climate and foliage suggest cloud forest or subtropical highland, found in Colombian and Ecuadorian Andes.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6193497359752655,
+          "visual_cues": [
+            "climate"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The landscape is very flat with scrubby grassland and distant mountains, which resembles a Patagonian steppe environment.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.5602659612894059,
+          "visual_cues": [
+            "mountains"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The vegetation consists mostly of scrubby bushes and some trees, indicative of a semi-arid, possibly tropical savanna or caatinga climate typical in northeastern Brazil.",
+          "region_hint": "south_america",
+          "confidence": 0.55,
+          "score": 0.45524989366531377,
+          "visual_cues": [
+            "climate",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The vegetation consists of eucalyptus trees and temperate grasses, which are abundant in Uruguay and parts of southern Brazil and Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.4298654437065125,
+          "visual_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The vegetation is somewhat dry but not desertic, suggesting a location with a distinct dry season, likely in central or southern Brazil.",
+          "region_hint": "south_america",
+          "confidence": 0.75,
+          "score": 0.4162678956985474,
+          "visual_cues": [
+            "vegetation"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "soil"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The terrain to the right includes a small hillside exposed with reddish soil and scattered trees, consistent with savanna-mix or cerrado habitats of parts of Brazil.",
+        "The dirt road with reddish soil is indicative of tropical or subtropical regions, often found in South America.",
+        "The road is a reddish dirt track, which is common in rural South American regions, especially Uruguay and southern Brazil.",
+        "The vegetation is lush, green, and dense, suggesting a tropical or subtropical climate with significant rainfall.",
+        "The aridness and dirt road coverage leads to the area around Puerto Natales as similar landscapes south of Puerto Natales normally has triple solid road lines on paved roads",
+        "The vegetation is lush and green with broadleaf trees and some palms, suggesting a warm climate with plenty of rainfall.",
+        "The road is unpaved and straight with minimal infrastructure, indicating a remote location typical of southern Argentina or Chile.",
+        "The climate and foliage suggest cloud forest or subtropical highland, found in Colombian and Ecuadorian Andes.",
+        "The landscape is very flat with scrubby grassland and distant mountains, which resembles a Patagonian steppe environment.",
+        "The vegetation consists mostly of scrubby bushes and some trees, indicative of a semi-arid, possibly tropical savanna or caatinga climate typical in northeastern Brazil.",
+        "The vegetation consists of eucalyptus trees and temperate grasses, which are abundant in Uruguay and parts of southern Brazil and Argentina.",
+        "The vegetation is somewhat dry but not desertic, suggesting a location with a distinct dry season, likely in central or southern Brazil."
+      ],
+      "summary": "nodes=12, edges=66, base_region=south_america, top_skill_region=south_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=south_america, top_skill_region=south_america"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "game_id": "3I4ZtihbhZy5qZzQ",
+  "round": 1,
+  "sample_id": "georc::3I4ZtihbhZy5qZzQ::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "bd",
+    "predicted_region": "asia",
+    "predicted_address": "Dumni Road, Khilgaon, Dhaka, Dhaka Division, Bangladesh",
+    "predicted_lat": 23.7859,
+    "predicted_lng": 90.4168,
+    "reasoning_text": "```json\n{\n  \"country\": \"Bangladesh\",\n  \"country_code\": \"bd\",\n  \"region\": \"South Asia\",\n  \"city\": \"Dhaka\",\n  \"province_or_state\": \"Dhaka Division\",\n  \"address\": \"Dumni Road, Khilgaon, Dhaka, Dhaka Division, Bangladesh\",\n  \"confidence\": 0.7,\n  \"reasoning\": \"The image shows a narrow paved road alongside a water body (likely a pond or small lake), with dense tropical vegetation including coconut palms and other broadleaf trees. The road infrastructure is basic with unpaved shoulders, typical of peri-urban areas in Bangladesh. The electrical poles with multiple wires and the style of roadside vegetation are characteristic of the Dhaka region. The flat terrain and water body alongside the road are common features in the Khilgaon area of Dhaka, which has many such semi-urban localities with ponds and narrow roads. The lighting suggests late afternoon sun, consistent with Bangladesh's latitude.\",\n  \"evidence\": [\"Coconut palms and dense tropical vegetation typical of Bangladesh\", \"Narrow paved road with dirt shoulders characteristic of peri-urban Dhaka\", \"Water body (pond) alongside road common in Bangladeshi residential areas\", \"Electrical distribution poles with multiple wires\", \"Flat terrain with no hills visible\", \"Basic road infrastructure without formal markings\"]\n}\n```",
+    "evidence_spans": [
+      "Coconut palms and dense tropical vegetation typical of Bangladesh",
+      "Narrow paved road with dirt shoulders characteristic of peri-urban Dhaka",
+      "Water body (pond) alongside road common in Bangladeshi residential areas",
+      "Electrical distribution poles with multiple wires",
+      "Flat terrain with no hills visible",
+      "Basic road infrastructure without formal markings"
+    ],
+    "confidence": 0.7,
+    "country_top3": [
+      "bd",
+      "in",
+      "lk"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"bd\",\"in\",\"lk\"],\"reason\":\"Dense tropical vegetation with coconut palms, narrow paved rural road alongside a pond/water body, overhead power lines, and architectural style of distant structures are highly characteristic of the Bengal delta region. Bangladesh is most likely due to the specific combination of lush greenery, water body proximity, and rural road infrastructure typical of rural Bangladesh. India (West Bengal) and Sri Lanka share similar tropical characteristics but the overall scene aligns most closely with Bangladesh.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9350000000000002
+  },
+  "error": null
+}

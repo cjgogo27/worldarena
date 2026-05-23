@@ -1,0 +1,14 @@
+Apparent Thai script on roadside signage
+Broad divided multi-lane highway with median island
+Black-and-white roadside bollard style typical of Thailand
+Road appears to run along an east-west corridor consistent with Highway 12
+Peri-urban infrastructure suggests proximity to a major provincial city like Khon Kaen
+Utility poles and overhead wiring match common Thai roadside infrastructure
+Applying the ordered skill graph strictly: Skill 1 gives the primary hypothesis of a rural area near Khon Kaen, Thailand.
+Skill 2 strengthens this with signage that appears to use Thai script, supporting Thailand over neighboring countries.
+Via the linked edge from skill 2 to skill 3, the highway orientation and broad divided layout support an east-west corridor, making Highway 12 a plausible fit near Khon Kaen.
+Via the linked edge from skill 2 to skill 4, the black-and-white roadside bollard style is consistent with Thailand.
+Skill 5 introduces an alternative of being near a major city such as Bangkok, but this is weaker than the combined Thailand-plus-Khon-Kaen hypothesis from skills 1 through 4.
+Lower-priority conflicting skills suggesting Vietnam or right-hand traffic are inconsistent with the stronger Thailand cues and the overall road environment, so they are rejected in favor of the higher-priority chain.
+The most consistent final guess is therefore a peri-urban stretch of Highway 12 on the outskirts of Khon Kaen, Thailand.
+Conclusion: likely location is Khon Kaen, Khon Kaen Province, Thailand

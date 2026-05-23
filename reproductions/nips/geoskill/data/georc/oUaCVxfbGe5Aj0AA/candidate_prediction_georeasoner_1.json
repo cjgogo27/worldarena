@@ -1,0 +1,12 @@
+{
+  "country": "Ukraine",
+  "country_code": "ua",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt with no center line, typical of rural Ukrainian roads in less developed areas.",
+    "Utility poles are wooden and spaced regularly, consistent with rural infrastructure in Ukraine.",
+    "Vegetation includes lush green grass and deciduous trees, indicating a temperate climate common in Ukraine.",
+    "The presence of agricultural greenhouses on the right suggests farming activity, prevalent in Ukrainian countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Ukraine\",\n  \"country_code\": \"ua\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt with no center line, typical of rural Ukrainian roads in less developed areas.\",\n    \"Utility poles are wooden and spaced regularly, consistent with rural infrastructure in Ukraine.\",\n    \"Vegetation includes lush green grass and deciduous trees, indicating a temperate climate common in Ukraine.\",\n    \"The presence of agricultural greenhouses on the right suggests farming activity, prevalent in Ukrainian countryside.\"\n  ]\n}"
+}

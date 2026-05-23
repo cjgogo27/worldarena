@@ -1,0 +1,11 @@
+{
+  "country": "Canada",
+  "country_code": "ca",
+  "city": "",
+  "reasoning_chain": [
+    "The sign on the right reads 'Nutrien Ag Solutions' with bilingual text (English and French), indicating a Canadian location.",
+    "The road is wide, paved, and lacks center markings, typical of rural Canadian highways or access roads in agricultural regions.",
+    "Utility poles are wooden and spaced regularly, consistent with infrastructure in prairie provinces like Saskatchewan or Manitoba."
+  ],
+  "raw_output": "{\n  \"country\": \"Canada\",\n  \"country_code\": \"ca\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The sign on the right reads 'Nutrien Ag Solutions' with bilingual text (English and French), indicating a Canadian location.\",\n    \"The road is wide, paved, and lacks center markings, typical of rural Canadian highways or access roads in agricultural regions.\",\n    \"Utility poles are wooden and spaced regularly, consistent with infrastructure in prairie provinces like Saskatchewan or Manitoba.\",\n    \"The flat terrain, open grassland, and scattered industrial/agricultural buildings"
+}

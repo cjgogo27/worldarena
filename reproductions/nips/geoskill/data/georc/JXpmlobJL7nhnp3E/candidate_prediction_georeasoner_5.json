@@ -1,0 +1,11 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved with visible tire tracks, typical of rural forest roads in Nordic countries like Finland.",
+    "Vegetation includes dense coniferous trees mixed with deciduous trees showing early autumn colors, consistent with Finnish boreal forest.",
+    "No man-made structures, signs, or vehicles are present, suggesting a remote, non-urbanized area common in Finland’s vast wilderness regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved with visible tire tracks, typical of rural forest roads in Nordic countries like Finland.\",\n    \"Vegetation includes dense coniferous trees mixed with deciduous trees showing early autumn colors, consistent with Finnish boreal forest.\",\n    \"No man-made structures, signs, or vehicles are present, suggesting a remote, non-urbanized area common in Finland’s vast wilderness regions.\",\n    \"The overcast sky and muted lighting"
+}

@@ -1,0 +1,20 @@
+Single-story white plaster homes
+Red clay tile roofs
+Simple rural/small-town masonry architecture
+Barred windows and metal doors
+Narrow paved residential street
+Open roadside drainage
+Dense tropical vegetation including palms and banana plants
+Flat lowland terrain
+No clear Spanish-language signage visible
+Overall streetscape consistent with northern Brazil, especially Para
+Applying the ordered skill graph strictly: (1) the house shapes, simple masonry, and red tile roofs are common in rural or small-town Brazil.
+(2) The white-painted homes with exposed brick elements and modest facades also fit rural Brazilian towns.
+(3) Although the red tile roofs and door/window style can overlap with Boyaca or Cundinamarca in Colombia, this is a weaker overlap cue rather than a decisive match.
+(4) The narrow paved street, drainage edge, and residential street layout are compatible with Brazilian urban design, especially older or modest neighborhoods.
+(5) The lack of clear English, Cyrillic, or Asian scripts narrows the scene to Latin America, but the absence of obvious Spanish signage does not strongly support a Spanish-speaking country here.
+Composing linked skills through the graph, skills 1 and 2 support skill 12: the lack of visible Spanish text makes Brazil more likely than neighboring Spanish-speaking countries.
+This resolves the Colombia ambiguity from skill 3.
+The flat terrain, humid tropical vegetation, palms, banana plants, barred windows, plaster walls, and open drainage fit northern Brazil well.
+Within Brazil, the lush equatorial lowland setting and small-town residential character are most consistent with Para, and Braganca is the best fit from the provided regional context.
+Conclusion: likely location is Braganca, Para, Brazil

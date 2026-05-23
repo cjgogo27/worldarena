@@ -1,0 +1,24 @@
+{
+  "game_id": "STQGgl6Uh9muExNb",
+  "round": 1,
+  "sample_id": "georc::STQGgl6Uh9muExNb::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "jp",
+    "predicted_region": "asia",
+    "predicted_address": "Residential neighborhood, Saitama, Saitama Prefecture, Japan",
+    "predicted_lat": 35.95,
+    "predicted_lng": 139.55,
+    "reasoning_text": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"East Asia\",\n  \"city\": \"Saitama\",\n  \"province_or_state\": \"Saitama Prefecture\",\n  \"address\": \"Residential neighborhood, Saitama, Saitama Prefecture, Japan\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The scene shows a quiet, dense suburban residential street with very narrow carriageway, concrete drainage edges, high boundary walls, sliding shutters, and detached two-story homes with tiled, gently sloped roofs. These features are strongly characteristic of Japanese suburban neighborhoods. The road is unmarked and compact, which is common on local Japanese residential streets. The architecture and fencing style, along with the overhead utility wiring and overall streetscape, fit Japan better than nearby countries. There are no clear city-specific signs, so the exact locality is uncertain. The flat-to-gently level suburban setting and common detached housing style are consistent with the Greater Tokyo commuter belt, making Saitama a reasonable approximate guess.\",\n  \"evidence\": [\n    \"Narrow unmarked residential road typical of Japanese local streets\",\n    \"Detached two-story homes with Japanese-style tiled sloped roofs\",\n    \"Concrete walls, metal fencing, and sliding garage shutters common in Japan\",\n    \"Overhead utility wires and dense suburban housing pattern\",\n    \"Roadside drainage edge and minimal sidewalk design typical of Japanese neighborhoods\"\n  ]\n}",
+    "evidence_spans": [
+      "Narrow unmarked residential road typical of Japanese local streets",
+      "Detached two-story homes with Japanese-style tiled sloped roofs",
+      "Concrete walls, metal fencing, and sliding garage shutters common in Japan",
+      "Overhead utility wires and dense suburban housing pattern",
+      "Roadside drainage edge and minimal sidewalk design typical of Japanese neighborhoods"
+    ],
+    "confidence": 0.72
+  },
+  "error": null
+}

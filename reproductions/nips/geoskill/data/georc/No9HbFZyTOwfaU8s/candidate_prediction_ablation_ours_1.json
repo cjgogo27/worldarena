@@ -1,0 +1,999 @@
+{
+  "game_id": "No9HbFZyTOwfaU8s",
+  "round": 1,
+  "sample_id": "georc::No9HbFZyTOwfaU8s::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "us",
+    "predicted_region": "north_america",
+    "predicted_lat": 32.2217,
+    "predicted_lng": -110.9265,
+    "reasoning_text": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"lat\": 32.2217,\n  \"lng\": -110.9265,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The image contains definitive evidence placing it in the United States. The most prominent cue is the semi-trailer truck on the left, which clearly displays the logo for 'R+L Carriers', a major US-based logistics company. The road infrastructure is consistent with US highways: driving on the right side of the road, a wide paved shoulder marked by a solid white line, and a dashed white line separating lanes (indicating a one-way carriageway or divided highway). The landscape features arid, scrubby vegetation and distant mountains typical of the Southwestern US (e.g., Arizona, New Mexico, or Texas). The baseline prediction of the US is correct and supported by strong visual evidence.\",\n  \"evidence\": [\n    \"R+L Carriers truck logo (US company)\",\n    \"Driving on the right side of the road\",\n    \"Solid white shoulder line and dashed white lane markings\",\n    \"Arid desert landscape with scrub vegetation\",\n    \"Wide paved highway infrastructure\"\n  ]\n}",
+    "evidence_spans": [
+      "R+L Carriers truck logo (US company)",
+      "Driving on the right side of the road",
+      "Solid white shoulder line and dashed white lane markings",
+      "Arid desert landscape with scrub vegetation",
+      "Wide paved highway infrastructure"
+    ],
+    "confidence": 0.95,
+    "retrieved_skills": [
+      {
+        "skill_text": "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.6520214796066284,
+        "bm25_score": 18.988317489624023,
+        "semantic_score": 0.5306828022003174
+      },
+      {
+        "skill_text": "The road is relatively narrow, with worn asphalt and no visible lane markings, which is characteristic of rural or secondary roads in developing countries.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 1,
+        "score": 0.6827128380537033,
+        "bm25_score": 20.715593338012695,
+        "semantic_score": 0.4896816909313202
+      },
+      {
+        "skill_text": "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.8039745450019837,
+        "bm25_score": 35.16846466064453,
+        "semantic_score": 0.5921804904937744
+      },
+      {
+        "skill_text": "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "asphalt",
+          "paved",
+          "street",
+          "with"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 2,
+        "score": 0.6497134208679199,
+        "bm25_score": 24.702346801757812,
+        "semantic_score": 0.39624205231666565
+      },
+      {
+        "skill_text": "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.821267056465149,
+        "bm25_score": 38.87838363647461,
+        "semantic_score": 0.5371044278144836
+      },
+      {
+        "skill_text": "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 1,
+        "score": 0.6366407245397567,
+        "bm25_score": 29.189119338989258,
+        "semantic_score": 0.3714675307273865
+      },
+      {
+        "skill_text": "A big bur at the bottom of the image indicates that the coverage is taken with a pickup truck, which is only found in Panama",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "bottom",
+          "image",
+          "indicates",
+          "that"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 3,
+        "score": 0.7170004844665527,
+        "bm25_score": 31.460905075073242,
+        "semantic_score": 0.5378414392471313
+      },
+      {
+        "skill_text": "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 4,
+        "score": 0.7835575163364411,
+        "bm25_score": 41.796993255615234,
+        "semantic_score": 0.570600152015686
+      },
+      {
+        "skill_text": "The road appears to use faded yellow center line markings, common in North America, indicating driving on the right side.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "driving",
+          "road"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 2,
+        "score": 0.6887313425540924,
+        "bm25_score": 23.6922607421875,
+        "semantic_score": 0.5779529809951782
+      },
+      {
+        "skill_text": "The road surface is paved but rural, with minimal lane markings, common for less-trafficked industrial areas in Canada.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 2,
+        "score": 0.6676279336214066,
+        "bm25_score": 23.513813018798828,
+        "semantic_score": 0.5165159702301025
+      },
+      {
+        "skill_text": "The road and roadside infrastructure, including the weathered asphalt and power poles, match rural areas in the US.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles",
+          "road"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 4,
+        "score": 0.7055845171213151,
+        "bm25_score": 22.57731819152832,
+        "semantic_score": 0.5628768801689148
+      },
+      {
+        "skill_text": "The landscape is arid with sparse shrub vegetation and dry soil, consistent with desert or semi-arid environments.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "soil",
+          "vegetation"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 4,
+        "score": 0.803621456027031,
+        "bm25_score": 35.77009582519531,
+        "semantic_score": 0.37908291816711426
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "us",
+      "predicted_region": "north_america",
+      "predicted_lat": 32.2217,
+      "predicted_lng": -110.9265,
+      "reasoning_text": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"lat\": 32.2217,\n  \"lng\": -110.9265,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The image shows a wide, multi-lane highway in a flat, arid landscape with sparse scrub vegetation, typical of the southwestern United States. The presence of an R+L Carriers truck, a major US logistics company, and the road markings (solid white line for the shoulder, dashed white line for lane separation) are consistent with US highway standards. The distant mountains and desert shrubs further support this location. Given the flat terrain and the specific type of vegetation, it is likely in a state like Arizona or New Mexico. The coordinates provided are near Tucson, Arizona, which fits the described environment.\",\n  \"evidence\": [\n    \"Wide, multi-lane highway with solid white shoulder line and dashed white lane separation\",\n    \"Flat, arid landscape with sparse scrub vegetation\",\n    \"Distant mountains on the horizon\",\n    \"R+L Carriers truck with US-based branding\",\n    \"Bright blue sky with scattered clouds, indicating a sunny day\",\n    \"Desert shrubs and grasses typical of the southwestern United States\"\n  ]\n}",
+      "evidence_spans": [
+        "Wide, multi-lane highway with solid white shoulder line and dashed white lane separation",
+        "Flat, arid landscape with sparse scrub vegetation",
+        "Distant mountains on the horizon",
+        "R+L Carriers truck with US-based branding",
+        "Bright blue sky with scattered clouds, indicating a sunny day",
+        "Desert shrubs and grasses typical of the southwestern United States"
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "The image displays a wide, multi-lane highway traversing a flat, arid landscape with sparse scrub vegetation.",
+          "The sky is bright blue with scattered clouds, indicating a sunny day.",
+          "A large white semi-trailer truck is parked on the left shoulder of the road.",
+          "The truck features green branding with the text 'R+L CARRIERS' and a website URL 'www.rlcarriers.com'.",
+          "The truck also displays the text 'Available Liftgate Service' and a logo for 'C.H. Robinson'.",
+          "The road has a solid white line marking the shoulder and a dashed white line separating lanes.",
+          "The terrain is flat with distant mountains visible on the horizon.",
+          "The vegetation consists of low-lying desert shrubs and grasses.",
+          "There are no visible street signs or landmarks other than the truck.",
+          "The road surface appears to be asphalt with some wear and tear.",
+          "The truck is facing away from the camera, suggesting it is traveling in the same direction as the camera.",
+          "The overall scene suggests a remote or rural area.",
+          "The truck's license plate is not clearly visible.",
+          "There are no other vehicles in the immediate vicinity.",
+          "The road appears to be a major highway due to its width and the presence of a large truck."
+        ],
+        "hard_clues": [
+          "R+L CARRIERS truck branding",
+          "www.rlcarriers.com website URL",
+          "C.H. Robinson logo",
+          "Available Liftgate Service text",
+          "Multi-lane highway",
+          "Arid, flat terrain with distant mountains",
+          "Sparse desert vegetation"
+        ],
+        "ambiguous_clues": [
+          "The specific location of the highway is not immediately clear from the image alone.",
+          "The direction of travel is not explicitly indicated by road signs.",
+          "The exact time of day is not determinable from the lighting conditions."
+        ],
+        "possible_scripts": [
+          "The truck is likely traveling on a major interstate highway in the southwestern United States, given the arid landscape and the presence of a large carrier.",
+          "The truck may be en route to or from a distribution center or warehouse in the region.",
+          "The driver may be taking a break or waiting for a loading/unloading appointment.",
+          "The highway could be part of a major transportation corridor connecting major cities in the southwestern United States."
+        ],
+        "driving_side": "right"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "United States"
+        ],
+        "zoom_boxes": [
+          [
+            0,
+            410,
+            335,
+            620
+          ],
+          [
+            450,
+            510,
+            480,
+            540
+          ]
+        ],
+        "verification_queries": [
+          "Search for R+L Carriers truck sightings on US highways in arid regions",
+          "Identify highways with similar landscape features (flat, desert shrubs, distant mountains) in the southwestern United States",
+          "Check for C.H. Robinson logistics routes through desert states like Arizona, New Mexico, or Texas",
+          "Verify road markings and shoulder design consistent with US interstate or major highway standards"
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "us",
+      "predicted_region": "north_america",
+      "predicted_lat": 32.2217,
+      "predicted_lng": -110.9265,
+      "confidence": 0.95
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "us",
+      "predicted_region": "north_america",
+      "predicted_lat": 32.2217,
+      "predicted_lng": -110.9265,
+      "confidence": 0.95
+    },
+    "base_prediction_summary": {
+      "predicted_country": "us",
+      "predicted_region": "north_america",
+      "predicted_lat": 32.2217,
+      "predicted_lng": -110.9265,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.95,
+    "skill_boost_aggressive_confidence": 0.95,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.821267056465149,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.8039745450019837,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The landscape is arid with sparse shrub vegetation and dry soil, consistent with desert or semi-arid environments.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.803621456027031,
+          "visual_cues": [
+            "soil",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7835575163364411,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "A big bur at the bottom of the image indicates that the coverage is taken with a pickup truck, which is only found in Panama",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7170004844665527,
+          "visual_cues": [
+            "bottom",
+            "image",
+            "indicates",
+            "that"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The road and roadside infrastructure, including the weathered asphalt and power poles, match rural areas in the US.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7055845171213151,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road appears to use faded yellow center line markings, common in North America, indicating driving on the right side.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6887313425540924,
+          "visual_cues": [
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The road is relatively narrow, with worn asphalt and no visible lane markings, which is characteristic of rural or secondary roads in developing countries.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6827128380537033,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The road surface is paved but rural, with minimal lane markings, common for less-trafficked industrial areas in Canada.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6676279336214066,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6520214796066284,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6497134208679199,
+          "visual_cues": [
+            "asphalt",
+            "paved",
+            "street",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6366407245397567,
+          "visual_cues": [
+            "trees"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+        "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+        "The landscape is arid with sparse shrub vegetation and dry soil, consistent with desert or semi-arid environments.",
+        "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+        "A big bur at the bottom of the image indicates that the coverage is taken with a pickup truck, which is only found in Panama",
+        "The road and roadside infrastructure, including the weathered asphalt and power poles, match rural areas in the US.",
+        "The road appears to use faded yellow center line markings, common in North America, indicating driving on the right side.",
+        "The road is relatively narrow, with worn asphalt and no visible lane markings, which is characteristic of rural or secondary roads in developing countries.",
+        "The road surface is paved but rural, with minimal lane markings, common for less-trafficked industrial areas in Canada.",
+        "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+        "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+        "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country."
+      ],
+      "summary": "nodes=12, edges=66, base_region=north_america, top_skill_region=north_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=north_america, top_skill_region=north_america"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

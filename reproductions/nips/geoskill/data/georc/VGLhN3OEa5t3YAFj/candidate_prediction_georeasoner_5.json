@@ -1,0 +1,11 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "The pink house with white trim and blue-tiled porch railing is typical of rural Thai residential architecture.",
+    "Utility poles with overhead wires and the style of the wooden stilt house on the left are common in Thai villages.",
+    "The presence of Thai script on the yellow banner and the blue sign near the pink house confirms the location is in Thailand."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The pink house with white trim and blue-tiled porch railing is typical of rural Thai residential architecture.\",\n    \"Utility poles with overhead wires and the style of the wooden stilt house on the left are common in Thai villages.\",\n    \"The presence of Thai script on the yellow banner and the blue sign near the pink house confirms the location is in Thailand.\",\n    \"The unpaved shoulder and simple road surface, along with the vegetation and overcast"
+}

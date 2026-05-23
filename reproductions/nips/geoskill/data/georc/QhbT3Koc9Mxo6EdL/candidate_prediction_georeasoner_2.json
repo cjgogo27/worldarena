@@ -1,0 +1,11 @@
+{
+  "country": "Canada",
+  "country_code": "ca",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow center line, indicating two-way traffic with left-hand driving, consistent with Canadian road rules.",
+    "The dense coniferous forest and mixed deciduous trees are typical of boreal or temperate forest zones found in eastern Canada.",
+    "The wide shoulder and gravel verge alongside the asphalt road are characteristic of rural Canadian highways."
+  ],
+  "raw_output": "{\n  \"country\": \"Canada\",\n  \"country_code\": \"ca\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow center line, indicating two-way traffic with left-hand driving, consistent with Canadian road rules.\",\n    \"The dense coniferous forest and mixed deciduous trees are typical of boreal or temperate forest zones found in eastern Canada.\",\n    \"The wide shoulder and gravel verge alongside the asphalt road are characteristic of rural Canadian highways.\",\n    \"The clear blue sky and bright sun suggest a temperate climate zone, common in regions"
+}

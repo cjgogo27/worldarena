@@ -1,0 +1,11 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "White-washed walls and stucco architecture with wrought-iron balconies are characteristic of rural Portuguese homes, especially in the Algarve or Alentejo regions.",
+    "The narrow, unpaved shoulder and lack of road markings suggest a low-traffic rural road common in southern Portugal.",
+    "Vegetation includes drought-tolerant trees like eucalyptus and olive groves, consistent with Mediterranean climates found in Portugal."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"White-washed walls and stucco architecture with wrought-iron balconies are characteristic of rural Portuguese homes, especially in the Algarve or Alentejo regions.\",\n    \"The narrow, unpaved shoulder and lack of road markings suggest a low-traffic rural road common in southern Portugal.\",\n    \"Vegetation includes drought-tolerant trees like eucalyptus and olive groves, consistent with Mediterranean climates found in Portugal.\","
+}

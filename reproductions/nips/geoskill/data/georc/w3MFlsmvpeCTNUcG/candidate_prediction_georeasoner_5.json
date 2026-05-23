@@ -1,0 +1,11 @@
+{
+  "country": "Costa Rica",
+  "country_code": "cr",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a double yellow centerline and right-hand traffic, consistent with Central American countries like Costa Rica.",
+    "Yellow diamond-shaped warning signs for curves are standard in Costa Rican road infrastructure.",
+    "Lush tropical vegetation, including ferns and broadleaf trees, indicates a humid subtropical or tropical climate typical of Costa Rica’s central highlands."
+  ],
+  "raw_output": "{\n  \"country\": \"Costa Rica\",\n  \"country_code\": \"cr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a double yellow centerline and right-hand traffic, consistent with Central American countries like Costa Rica.\",\n    \"Yellow diamond-shaped warning signs for curves are standard in Costa Rican road infrastructure.\",\n    \"Lush tropical vegetation, including ferns and broadleaf trees, indicates a humid subtropical or tropical climate typical of Costa Rica’s central highlands.\",\n    \"The absence of urban infrastructure and presence of rural roadside vegetation aligns with Costa"
+}

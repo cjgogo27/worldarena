@@ -1,0 +1,50 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/geovista_official_georc_local
+
+vlm:
+  base_url: http://127.0.0.1:8000/v1
+  api_key: EMPTY
+  model: qwen3.5-plus
+  max_tokens: 1500
+  max_image_side: 1024
+  retries: 2
+  backoff_seconds: 1.0
+  request_timeout_seconds: 90
+
+llm_large:
+  base_url: http://127.0.0.1:8001/v1
+  api_key: EMPTY
+  model: qwen3.5-plus
+  enable_thinking: false
+  max_tokens: 1100
+  max_image_side: 896
+  retries: 2
+  backoff_seconds: 1.0
+  request_timeout_seconds: 90
+
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  min_score: 0.15
+  retrieval_mode: text_only
+
+training_free:
+  enable_failure_recovery: false
+  enable_skill_fusion: false
+  recovery_max_records: 20
+
+datasets:
+  - name: georc
+    data_root: data/georc
+    dataset_version: georc_v1
+    round: 1
+
+external_baselines:
+  GeoVista:
+    enabled: true
+    strict: true
+    cwd: external_baselines/GeoVista
+    command: "/data2/miniconda3/envs/vgllm/bin/python examples/infer_example.py --multimodal_input {image_path} --question 'Please analyze where is the place.'"
+    output_mode: stdout_json
+    timeout_seconds: 420

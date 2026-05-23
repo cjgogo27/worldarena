@@ -1,0 +1,107 @@
+{
+  "game_id": "xYdYhcgnMuyj35eG",
+  "round": 1,
+  "sample_id": "georc::xYdYhcgnMuyj35eG::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "us",
+    "predicted_region": "north_america",
+    "predicted_address": "State Route 18, Defiance County, Ohio, United States",
+    "predicted_lat": 41.27222222,
+    "predicted_lng": -84.36555556,
+    "reasoning_text": "```json\n{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"city\": \"Defiance\",\n  \"province_or_state\": \"Ohio\",\n  \"address\": \"State Route 18, Defiance County, Ohio, United States\",\n  \"confidence\": 0.68,\n  \"reasoning\": \"The image shows a rural two-lane highway with characteristic Ohio road maintenance patterns including extensive tar crack sealing, yellow center line with white edge markings, and gravel shoulders. The wooden utility poles with simple crossarm design and multiple distribution wires are standard across rural Ohio. The flat agricultural terrain with mixed crop fields and deciduous tree lines matches the Maumee River watershed region in northwestern Ohio. The overcast summer conditions and soil type are consistent with the Lake Erie plains. The road appears to be a state route given its width and marking standards. Based on the terrain flatness, proximity to Great Lakes climate indicators, and specific road maintenance style, this aligns with State Route 18 or similar east-west routes in Defiance County.\",\n  \"evidence\": [\"Yellow center line with white edge markings\", \"Extensive tar crack sealing on asphalt\", \"Wooden utility poles with crossarms and multiple wires\", \"Flat agricultural terrain with plowed fields\", \"Gravel shoulders with grass verge\", \"Deciduous tree lines typical of Great Lakes region\", \"Overcast summer sky with cumulus clouds\", \"Rural two-lane highway configuration\"]\n}\n```",
+    "evidence_spans": [
+      "Yellow center line with white edge markings",
+      "Extensive tar crack sealing on asphalt",
+      "Wooden utility poles with crossarms and multiple wires",
+      "Flat agricultural terrain with plowed fields",
+      "Gravel shoulders with grass verge",
+      "Deciduous tree lines typical of Great Lakes region",
+      "Overcast summer sky with cumulus clouds",
+      "Rural two-lane highway configuration"
+    ],
+    "confidence": 0.68,
+    "country_top3": [
+      "us",
+      "ca",
+      "mx"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"us\",\"ca\",\"mx\"],\"reason\":\"The road configuration (yellow center line, white edge lines), wooden utility poles with crossarms, flat agricultural terrain with large field plots, and deciduous tree lines are classic North American Midwest features. The US is strongly favored given the specific road maintenance style with extensive tar crack sealing, the exact utility pole design, and the rural road width typical of the US Corn Belt. Canada is second due to similar rural road characteristics in Ontario/Quebec agricultural areas, though Canadian roads more commonly feature metric signage and slightly different pole designs. Mexico is a distant third as rural Mexican roads typically have different pavement quality, signage, and vegetation patterns.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9250000000000002,
+        "pred_country": "us",
+        "geo_country": "us",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.58,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "County Road 424 and Township Road 213 intersection, Defiance, Ohio, United States"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.9500000000000002,
+        "pred_country": "us",
+        "geo_country": "us",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.68,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "State Route 18, Defiance County, Ohio, United States"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.9250000000000002,
+        "pred_country": "us",
+        "geo_country": "us",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.58,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "County Road 424 and Township Road 243 intersection, Defiance, Ohio, United States"
+      }
+    ],
+    "selected_candidate_score": 0.9500000000000002,
+    "base_prediction_summary": {
+      "predicted_country": "us",
+      "predicted_region": "north_america",
+      "confidence": 0.62
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"city\": \"\",\n  \"province_or_state\": \"Ohio\",\n  \"address\": \"Rural road in northwestern Ohio, near Defiance or Henry County\",\n  \"confidence\": 0.62,\n  \"reasoning\": \"The road markings (yellow center line, white ",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "us"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

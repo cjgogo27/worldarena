@@ -1,0 +1,25 @@
+{
+  "game_id": "JfPkjboMSjCsG1Qu",
+  "round": 1,
+  "sample_id": "georc::JfPkjboMSjCsG1Qu::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "id",
+    "predicted_region": "asia",
+    "predicted_address": "Jl. K.H. Hasanuddin area, Samarinda, East Kalimantan, Indonesia",
+    "predicted_lat": 1.05,
+    "predicted_lng": 116.31666667,
+    "reasoning_text": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Samarinda\",\n  \"province_or_state\": \"East Kalimantan\",\n  \"address\": \"Jl. K.H. Hasanuddin area, Samarinda, East Kalimantan, Indonesia\",\n  \"confidence\": 0.62,\n  \"reasoning\": \"The scene strongly suggests Indonesia based on the tropical urban environment, the prevalence of motorbikes, and especially the street-name style that appears to use the abbreviation 'Jl.' for 'Jalan', which is standard Indonesian. The buildings include raised wooden homes and mixed concrete shop-house architecture typical of flood-prone riverine Indonesian towns. The dense overhead wiring, road style, and overall streetscape fit secondary cities in Kalimantan particularly well. A sign on the left appears to reference 'Hasanuddin', a very common Indonesian street name, so my best geocodable guess is a Jalan K.H. Hasanuddin area in Samarinda, East Kalimantan.\",\n  \"evidence\": [\n    \"Possible street sign using 'Jl.' abbreviation, common in Indonesia for 'Jalan'\",\n    \"Large number of scooters/motorbikes typical of Indonesian streets\",\n    \"Tropical vegetation and humid lowland environment\",\n    \"Raised wooden houses suggesting flood-prone Indonesian river town architecture\",\n    \"Dense overhead utility wires and mixed low-rise concrete/wooden buildings\",\n    \"Road markings and streetscape consistent with Indonesian urban neighborhoods\"\n  ]\n}",
+    "evidence_spans": [
+      "Possible street sign using 'Jl.' abbreviation, common in Indonesia for 'Jalan'",
+      "Large number of scooters/motorbikes typical of Indonesian streets",
+      "Tropical vegetation and humid lowland environment",
+      "Raised wooden houses suggesting flood-prone Indonesian river town architecture",
+      "Dense overhead utility wires and mixed low-rise concrete/wooden buildings",
+      "Road markings and streetscape consistent with Indonesian urban neighborhoods"
+    ],
+    "confidence": 0.62
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Iceland",
+  "country_code": "is",
+  "city": "",
+  "reasoning_chain": [
+    "The road features double white center lines and right-hand traffic, consistent with Icelandic road standards.",
+    "Vegetation is low-lying tundra shrubs and mosses, typical of Iceland’s subarctic climate and volcanic soil.",
+    "No buildings, power lines, or urban infrastructure are visible, indicating a remote rural area common in Iceland’s interior."
+  ],
+  "raw_output": "{\n  \"country\": \"Iceland\",\n  \"country_code\": \"is\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features double white center lines and right-hand traffic, consistent with Icelandic road standards.\",\n    \"Vegetation is low-lying tundra shrubs and mosses, typical of Iceland’s subarctic climate and volcanic soil.\",\n    \"No buildings, power lines, or urban infrastructure are visible, indicating a remote rural area common in Iceland’s interior.\",\n    \"The overcast sky and flat, open terrain align with Iceland’s frequent weather"
+}

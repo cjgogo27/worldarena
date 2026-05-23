@@ -1,0 +1,12 @@
+{
+  "country": "Indonesia",
+  "country_code": "id",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow paved road with no center line and grassy verges is typical of rural Indonesian village roads.",
+    "Tall coconut palms and dense tropical vegetation are characteristic of the Indonesian archipelago’s humid climate.",
+    "Utility poles with overhead wires follow a pattern common in Southeast Asia, particularly Indonesia.",
+    "The presence of a small concrete structure and informal roadside elements aligns with rural infrastructure in Indonesia."
+  ],
+  "raw_output": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow paved road with no center line and grassy verges is typical of rural Indonesian village roads.\",\n    \"Tall coconut palms and dense tropical vegetation are characteristic of the Indonesian archipelago’s humid climate.\",\n    \"Utility poles with overhead wires follow a pattern common in Southeast Asia, particularly Indonesia.\",\n    \"The presence of a small concrete structure and informal roadside elements aligns with rural infrastructure in Indonesia.\"\n  ]\n}"
+}

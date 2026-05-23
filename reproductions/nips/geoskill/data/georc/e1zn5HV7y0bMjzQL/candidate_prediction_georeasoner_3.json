@@ -1,0 +1,11 @@
+{
+  "country": "Ireland",
+  "country_code": "ie",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unmarked rural road with grass verges and wooden fence posts is typical of Irish countryside infrastructure.",
+    "The presence of a single overhead utility pole with wires strung across fields aligns with Ireland’s rural electrification patterns.",
+    "Lush green pastures and scattered deciduous trees under overcast skies reflect Ireland’s temperate maritime climate and agricultural landscape."
+  ],
+  "raw_output": "{\n  \"country\": \"Ireland\",\n  \"country_code\": \"ie\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unmarked rural road with grass verges and wooden fence posts is typical of Irish countryside infrastructure.\",\n    \"The presence of a single overhead utility pole with wires strung across fields aligns with Ireland’s rural electrification patterns.\",\n    \"Lush green pastures and scattered deciduous trees under overcast skies reflect Ireland’s temperate maritime climate and agricultural landscape.\",\n    \"No visible signage, vehicles, or architectural features contradict an Irish"
+}

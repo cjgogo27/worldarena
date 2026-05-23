@@ -1,0 +1,676 @@
+{
+  "game_id": "KqjXykSvjIJYNXY8",
+  "round": 1,
+  "sample_id": "georc::KqjXykSvjIJYNXY8::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "cm",
+    "predicted_region": "africa",
+    "predicted_address": "Unpaved neighborhood commercial street, Bafoussam, West Region, Cameroon",
+    "predicted_lat": 5.46666667,
+    "predicted_lng": 10.41666667,
+    "reasoning_text": "{\n  \"country\": \"Cameroon\",\n  \"country_code\": \"cm\",\n  \"region\": \"Central Africa\",\n  \"city\": \"Bafoussam\",\n  \"province_or_state\": \"West Region\",\n  \"address\": \"Unpaved neighborhood commercial street, Bafoussam, West Region, Cameroon\",\n  \"confidence\": 0.34,\n  \"reasoning\": \"Applying the ordered skill graph strictly: Skill 1 fits best first, because the scene shows simple concrete block construction and metal roofing typical of peri-urban West/Central African streets. From Skill 1, the strongest linked support is Skill 9, which matches the dense lush tropical vegetation and humid climate. Next, Skill 2 partially fits because the street edge and building alignment suggest some French-style urban planning influence, which is compatible with a Francophone country. From Skill 2, the linked composition to Skill 9 again supports a tropical setting. The later ordered skills pointing to Colombia, ex-Soviet Europe, Bosnia, Southeast Asia, Latin America, Bangladesh, Vietnam, South Africa, and Indonesia are weaker because their broader regional architectural patterns conflict with the clearly tropical African streetscape and Francophone-style urban character. Combining the strongest compatible graph cues yields a Francophone tropical African urban/peri-urban location, and among plausible candidates this is most consistent with Cameroon. Within Cameroon, the red dirt commercial neighborhood street, dense wiring, mixed low-rise concrete shop-housing blocks, and hilly western-city feel best match Bafoussam in the West Region.\",\n  \"evidence\": [\n    \"unfinished concrete block buildings with metal railings\",\n    \"corrugated metal roofing on roadside structures\",\n    \"red laterite unpaved road typical of tropical Central/West Africa\",\n    \"dense overhead utility wiring\",\n    \"lush tropical vegetation\",\n    \"mixed residential and small commercial storefront street\",\n    \"Francophone-influenced urban form suggested by curbing and building frontage\"\n  ]\n}",
+    "evidence_spans": [
+      "unfinished concrete block buildings with metal railings",
+      "corrugated metal roofing on roadside structures",
+      "red laterite unpaved road typical of tropical Central/West Africa",
+      "dense overhead utility wiring",
+      "lush tropical vegetation",
+      "mixed residential and small commercial storefront street",
+      "Francophone-influenced urban form suggested by curbing and building frontage"
+    ],
+    "confidence": 0.34,
+    "base_prediction_summary": {
+      "predicted_country": "cm",
+      "predicted_region": "africa",
+      "confidence": 0.34
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The architecture features simple concrete block walls and metal roofs, commonly found in rural and peri-urban West African settings.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "AVKTblAzBqaYrcKe",
+        "source_round": 2,
+        "score": 1.0,
+        "bm25_score": 35.17173385620117,
+        "semantic_score": 0.5423530340194702
+      },
+      {
+        "skill_text": "The sidewalk and road design, with concrete curbing and separated pedestrian path, is consistent with French urban planning.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sidewalk",
+          "sign"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 3,
+        "score": 0.8402591347694397,
+        "bm25_score": 30.60395622253418,
+        "semantic_score": 0.43086713552474976
+      },
+      {
+        "skill_text": "The red tile roofs and the style of the doors and windows fit with towns in Boyacá or Cundinamarca departments in Colombia.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "roof"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 3,
+        "score": 0.8206958174705505,
+        "bm25_score": 26.879913330078125,
+        "semantic_score": 0.4701172113418579
+      },
+      {
+        "skill_text": "The architecture is typical of ex-Soviet countries, such as Serbia, Romania, Ukraine, and more, due to the palelish block apartment complexes and overall poorer nature of the architecture (cracked roads)",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "road"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 3,
+        "score": 0.8061690926551819,
+        "bm25_score": 26.77130889892578,
+        "semantic_score": 0.45485013723373413
+      },
+      {
+        "skill_text": "The overall urban layout – wide main street, sidewalks, and block housing – is typical for Banja Luka in Bosnia and Herzegovina.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sidewalk"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 3,
+        "score": 0.7902872562408447,
+        "bm25_score": 28.712724685668945,
+        "semantic_score": 0.40371906757354736
+      },
+      {
+        "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 4,
+        "score": 0.7577440738677979,
+        "bm25_score": 24.577098846435547,
+        "semantic_score": 0.4345860481262207
+      },
+      {
+        "skill_text": "The architecture consists of unfinished concrete block houses and metal roofing, which is typical for less urbanized or suburban areas in Latin America.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 3,
+        "score": 0.740134596824646,
+        "bm25_score": 26.0906982421875,
+        "semantic_score": 0.3885751962661743
+      },
+      {
+        "skill_text": "The general architectural style, including informal market stalls and the use of corrugated metal roofing, matches rural Bangladeshi towns.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "roof"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 2,
+        "score": 0.7367702722549438,
+        "bm25_score": 22.263473510742188,
+        "semantic_score": 0.44859930872917175
+      },
+      {
+        "skill_text": "The roadside vegetation is dense and lush, consistent with a tropical climate.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 1,
+        "score": 0.7292899489402771,
+        "bm25_score": 27.148962020874023,
+        "semantic_score": 0.3581313490867615
+      },
+      {
+        "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.7262861728668213,
+        "bm25_score": 23.877376556396484,
+        "semantic_score": 0.40929073095321655
+      },
+      {
+        "skill_text": "The farmhouse architecture in the distance is low and dispersed, fitting South African rural building styles more closely than Argentinian.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 3,
+        "score": 0.7125680446624756,
+        "bm25_score": 21.362245559692383,
+        "semantic_score": 0.4352048337459564
+      },
+      {
+        "skill_text": "Architecture is low-rise and uses corrugated roofs, with a mix of concrete and wooden structures, matching rural Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 3,
+        "score": 0.7112562656402588,
+        "bm25_score": 19.610965728759766,
+        "semantic_score": 0.46293872594833374
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The architecture features simple concrete block walls and metal roofs, commonly found in rural and peri-urban West African settings.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 1.0,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The sidewalk and road design, with concrete curbing and separated pedestrian path, is consistent with French urban planning.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8402591347694397,
+          "visual_cues": [
+            "road",
+            "sidewalk",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The red tile roofs and the style of the doors and windows fit with towns in Boyacá or Cundinamarca departments in Colombia.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.8206958174705505,
+          "visual_cues": [
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The architecture is typical of ex-Soviet countries, such as Serbia, Romania, Ukraine, and more, due to the palelish block apartment complexes and overall poorer nature of the architecture (cracked roads)",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8061690926551819,
+          "visual_cues": [
+            "architecture",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The overall urban layout – wide main street, sidewalks, and block housing – is typical for Banja Luka in Bosnia and Herzegovina.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7902872562408447,
+          "visual_cues": [
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7577440738677979,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The architecture consists of unfinished concrete block houses and metal roofing, which is typical for less urbanized or suburban areas in Latin America.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.740134596824646,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The general architectural style, including informal market stalls and the use of corrugated metal roofing, matches rural Bangladeshi towns.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7367702722549438,
+          "visual_cues": [
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The roadside vegetation is dense and lush, consistent with a tropical climate.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7292899489402771,
+          "visual_cues": [
+            "climate",
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7262861728668213,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The farmhouse architecture in the distance is low and dispersed, fitting South African rural building styles more closely than Argentinian.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7125680446624756,
+          "visual_cues": [
+            "architecture",
+            "building"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "Architecture is low-rise and uses corrugated roofs, with a mix of concrete and wooden structures, matching rural Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7112562656402588,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sidewalk"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "architecture"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The architecture features simple concrete block walls and metal roofs, commonly found in rural and peri-urban West African settings.",
+        "The sidewalk and road design, with concrete curbing and separated pedestrian path, is consistent with French urban planning.",
+        "The red tile roofs and the style of the doors and windows fit with towns in Boyacá or Cundinamarca departments in Colombia.",
+        "The architecture is typical of ex-Soviet countries, such as Serbia, Romania, Ukraine, and more, due to the palelish block apartment complexes and overall poorer nature of the architecture (cracked roads)",
+        "The overall urban layout – wide main street, sidewalks, and block housing – is typical for Banja Luka in Bosnia and Herzegovina.",
+        "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "The architecture consists of unfinished concrete block houses and metal roofing, which is typical for less urbanized or suburban areas in Latin America.",
+        "The general architectural style, including informal market stalls and the use of corrugated metal roofing, matches rural Bangladeshi towns.",
+        "The roadside vegetation is dense and lush, consistent with a tropical climate.",
+        "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "The farmhouse architecture in the distance is low and dispersed, fitting South African rural building styles more closely than Argentinian.",
+        "Architecture is low-rise and uses corrugated roofs, with a mix of concrete and wooden structures, matching rural Indonesia."
+      ],
+      "summary": "nodes=12, edges=35, base_region=africa, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Cameroon\",\n  \"country_code\": \"cm\",\n  \"region\": \"Central Africa\",\n  \"city\": \"Bafoussam\",\n  \"province_or_state\": \"West Region\",\n  \"address\": \"Unpaved neighborhood commercial street, Bafoussam, West Region, Cameroon\",\n  \"confidence\": 0.34,\n  \"reasoning\": \"The scene fits tropical urban C",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 35,
+        "graph_summary": "nodes=12, edges=35, base_region=africa, top_skill_region=asia"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "cm"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

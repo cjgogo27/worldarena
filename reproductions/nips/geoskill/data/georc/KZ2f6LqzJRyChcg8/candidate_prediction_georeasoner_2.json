@@ -1,0 +1,11 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved or gravel, typical of rural Finnish countryside roads outside major urban centers.",
+    "Vegetation includes dense deciduous trees and conifers (e.g., spruce), consistent with boreal forest zones in Finland.",
+    "No visible traffic signs, streetlights, or buildings suggest a remote, sparsely populated area common in Finland’s rural regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved or gravel, typical of rural Finnish countryside roads outside major urban centers.\",\n    \"Vegetation includes dense deciduous trees and conifers (e.g., spruce), consistent with boreal forest zones in Finland.\",\n    \"No visible traffic signs, streetlights, or buildings suggest a remote, sparsely populated area common in Finland’s rural regions.\",\n    \"The overcast sky and lush greenery indicate a temper"
+}

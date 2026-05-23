@@ -1,0 +1,11 @@
+{
+  "country": "Ukraine",
+  "country_code": "ua",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of wooden utility poles with overhead wires and a narrow asphalt road is typical of rural Ukrainian settlements.",
+    "The architecture of the houses, including tiled roofs and brick chimneys, along with the style of fences (metal panels on concrete bases), aligns with common residential construction in Ukraine.",
+    "Vegetation includes lush green trees and shrubs, suggesting a temperate climate consistent with Ukraine’s summer season."
+  ],
+  "raw_output": "{\n  \"country\": \"Ukraine\",\n  \"country_code\": \"ua\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of wooden utility poles with overhead wires and a narrow asphalt road is typical of rural Ukrainian settlements.\",\n    \"The architecture of the houses, including tiled roofs and brick chimneys, along with the style of fences (metal panels on concrete bases), aligns with common residential construction in Ukraine.\",\n    \"Vegetation includes lush green trees and shrubs, suggesting a temperate climate consistent with Ukraine’s summer season.\",\n    \"No visible signage"
+}

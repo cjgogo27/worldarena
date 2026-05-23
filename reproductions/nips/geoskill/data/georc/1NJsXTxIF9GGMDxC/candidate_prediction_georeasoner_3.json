@@ -1,0 +1,13 @@
+{
+  "country": "Serbia",
+  "country_code": "rs",
+  "city": "",
+  "reasoning_chain": [
+    "The blue car with a visible license plate format consistent with Serbian plates (white background, black text) suggests Serbia.",
+    "The architecture of the apartment buildings, including the balconies and window styles, is typical of post-Yugoslav urban design found in Serbia.",
+    "The presence of a 'No Stopping' sign (blue circle with red border and red cross) is standard in Serbia and other former Yugoslav countries.",
+    "The combination of vehicle license plates, architectural style, and traffic signage strongly points to Serbia. The urban setting and building designs are characteristic of Serbian cities, and the no-stopping sign is a common regulatory sign in the region."
+  ],
+  "reasoning": "The combination of vehicle license plates, architectural style, and traffic signage strongly points to Serbia. The urban setting and building designs are characteristic of Serbian cities, and the no-stopping sign is a common regulatory sign in the region.",
+  "raw_output": "{\n  \"country\": \"Serbia\",\n  \"country_code\": \"rs\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The blue car with a visible license plate format consistent with Serbian plates (white background, black text) suggests Serbia.\",\n    \"The architecture of the apartment buildings, including the balconies and window styles, is typical of post-Yugoslav urban design found in Serbia.\",\n    \"The presence of a 'No Stopping' sign (blue circle with red border and red cross) is standard in Serbia and other former Yugoslav countries.\"\n  ],\n  \"reasoning\": \"The combination of vehicle license plates, architectural style, and traffic signage strongly points to Serbia. The urban setting and building designs are characteristic of Serbian cities, and the no-stopping sign is a common regulatory sign in the region.\"\n}"
+}

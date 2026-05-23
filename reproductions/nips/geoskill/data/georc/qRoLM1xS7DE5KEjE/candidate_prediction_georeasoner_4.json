@@ -1,0 +1,11 @@
+{
+  "country": "Germany",
+  "country_code": "de",
+  "city": "",
+  "reasoning_chain": [
+    "The road markings, including dashed white lines and directional arrows, are consistent with German highway design standards.",
+    "The presence of a utility pole with overhead wires and the style of the signpost align with typical infrastructure in rural Germany.",
+    "The vegetation, consisting of coniferous trees and open grassland, is characteristic of the German countryside, particularly in northern or central regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Germany\",\n  \"country_code\": \"de\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road markings, including dashed white lines and directional arrows, are consistent with German highway design standards.\",\n    \"The presence of a utility pole with overhead wires and the style of the signpost align with typical infrastructure in rural Germany.\",\n    \"The vegetation, consisting of coniferous trees and open grassland, is characteristic of the German countryside, particularly in northern or central regions.\",\n    \"The vehicles visible in the image, including a black sedan and"
+}

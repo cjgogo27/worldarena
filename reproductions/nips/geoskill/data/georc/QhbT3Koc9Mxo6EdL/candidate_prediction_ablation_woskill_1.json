@@ -1,0 +1,24 @@
+{
+  "game_id": "QhbT3Koc9Mxo6EdL",
+  "round": 1,
+  "sample_id": "georc::QhbT3Koc9Mxo6EdL::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "kz",
+    "predicted_region": "asia",
+    "predicted_address": "Steppe highway east of Atyrau, Atyrau Region, Kazakhstan",
+    "predicted_lat": 47.11666667,
+    "predicted_lng": 51.88333333,
+    "reasoning_text": "{\n  \"country\": \"Kazakhstan\",\n  \"country_code\": \"kz\",\n  \"region\": \"Central Asia\",\n  \"city\": \"Atyrau\",\n  \"province_or_state\": \"Atyrau Region\",\n  \"address\": \"Steppe highway east of Atyrau, Atyrau Region, Kazakhstan\",\n  \"confidence\": 0.56,\n  \"reasoning\": \"The truck-mounted crane has large Cyrillic text reading \\\"Клинцы,\\\" indicating a Russian-language environment common across Russia and Kazakhstan. The landscape is extremely flat, dry, and treeless steppe, which strongly fits western Kazakhstan. The road is a wide right-hand traffic highway with ex-Soviet style markings and roadside infrastructure. The industrial-looking fenced installation and power lines suggest an oil/gas area, which is characteristic of the Atyrau region. While southern Russia is also possible, the combination of open steppe, sparse settlement, and industrial energy infrastructure makes western Kazakhstan the best overall fit.\",\n  \"evidence\": [\n    \"Cyrillic text on the crane truck: \\\"Клинцы\\\"\",\n    \"Flat, dry, treeless steppe landscape\",\n    \"Right-hand driving on a broad ex-Soviet style highway\",\n    \"Utility poles and industrial fenced installation visible on the right\",\n    \"Sparse roadside development consistent with western Kazakhstan\"\n  ]\n}",
+    "evidence_spans": [
+      "Cyrillic text on the crane truck: \"Клинцы\"",
+      "Flat, dry, treeless steppe landscape",
+      "Right-hand driving on a broad ex-Soviet style highway",
+      "Utility poles and industrial fenced installation visible on the right",
+      "Sparse roadside development consistent with western Kazakhstan"
+    ],
+    "confidence": 0.56
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "country": "New Zealand",
+  "country_code": "nz",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved gravel road with no center line and rural fencing is typical of remote agricultural areas in New Zealand’s South Island.",
+    "The presence of a center-pivot irrigation system on the right indicates large-scale farming, common in New Zealand’s Canterbury or Otago regions.",
+    "Vegetation consists of lush green pasture and scattered native trees, consistent with New Zealand’s temperate maritime climate."
+  ],
+  "raw_output": "{\n  \"country\": \"New Zealand\",\n  \"country_code\": \"nz\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved gravel road with no center line and rural fencing is typical of remote agricultural areas in New Zealand’s South Island.\",\n    \"The presence of a center-pivot irrigation system on the right indicates large-scale farming, common in New Zealand’s Canterbury or Otago regions.\",\n    \"Vegetation consists of lush green pasture and scattered native trees, consistent with New Zealand’s temperate maritime climate.\",\n    \"No visible signage, vehicles,"
+}

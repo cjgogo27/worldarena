@@ -1,0 +1,11 @@
+{
+  "country": "Chile",
+  "country_code": "cl",
+  "city": "",
+  "reasoning_chain": [
+    "The arid, semi-desert landscape with sparse vegetation and distant mountains is characteristic of northern Chile’s Atacama Desert region.",
+    "The unpaved gravel road with no center line or markings suggests a remote rural area common in Chile’s less developed zones.",
+    "Fencing along the roadside is typical for livestock management in Chilean agricultural or pastoral regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Chile\",\n  \"country_code\": \"cl\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The arid, semi-desert landscape with sparse vegetation and distant mountains is characteristic of northern Chile’s Atacama Desert region.\",\n    \"The unpaved gravel road with no center line or markings suggests a remote rural area common in Chile’s less developed zones.\",\n    \"Fencing along the roadside is typical for livestock management in Chilean agricultural or pastoral regions.\",\n    \"Absence of urban infrastructure, vehicles, or signage supports a location in a"
+}

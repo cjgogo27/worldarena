@@ -1,0 +1,11 @@
+{
+  "country": "Croatia",
+  "country_code": "hr",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a single-lane rural asphalt road with no center line, typical of secondary roads in Croatia’s countryside.",
+    "Utility poles are wooden and spaced regularly, consistent with rural infrastructure in Croatia.",
+    "Vegetation includes dry grass, scattered fruit trees (possibly apple or cherry), and distant forested hills — characteristic of central Dalmatia or Slavonia regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a single-lane rural asphalt road with no center line, typical of secondary roads in Croatia’s countryside.\",\n    \"Utility poles are wooden and spaced regularly, consistent with rural infrastructure in Croatia.\",\n    \"Vegetation includes dry grass, scattered fruit trees (possibly apple or cherry), and distant forested hills — characteristic of central Dalmatia or Slavonia regions.\",\n    \"Architecture features a white house with red-tiled roof"
+}

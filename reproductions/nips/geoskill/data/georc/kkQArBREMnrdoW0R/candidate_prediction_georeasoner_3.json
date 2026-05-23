@@ -1,0 +1,11 @@
+{
+  "country": "Greece",
+  "country_code": "gr",
+  "city": "",
+  "reasoning_chain": [
+    "The road signs and building signage display Greek text (e.g., 'ΕΠΙΜΑΘ' and 'ART'), indicating a Greek-speaking region.",
+    "The double white center line and right-hand traffic alignment are consistent with Greek road standards.",
+    "The vegetation—mix of deciduous trees with sparse foliage and green grass—suggests a temperate Mediterranean climate typical of mainland Greece."
+  ],
+  "raw_output": "{\n  \"country\": \"Greece\",\n  \"country_code\": \"gr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road signs and building signage display Greek text (e.g., 'ΕΠΙΜΑΘ' and 'ART'), indicating a Greek-speaking region.\",\n    \"The double white center line and right-hand traffic alignment are consistent with Greek road standards.\",\n    \"The vegetation—mix of deciduous trees with sparse foliage and green grass—suggests a temperate Mediterranean climate typical of mainland Greece.\",\n    \"The rural setting with low-rise buildings,"
+}

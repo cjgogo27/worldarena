@@ -1,0 +1,13 @@
+```json
+{
+  "country": "Rwanda",
+  "country_code": "rw",
+  "region": "East Africa",
+  "city": "Kigali",
+  "province_or_state": "Kigali Province",
+  "address": "Kigali, Rwanda",
+  "confidence": 0.55,
+  "reasoning": "STEP 1 - HEMISPHERE & CLIMATE ZONE: The sun appears high with short shadows suggesting equatorial or tropical latitude. STEP 2 - ROAD INFRASTRUCTURE: Unpaved dirt road with informal drainage channels and no painted markings indicates rural or peri-urban setting in a developing country. STEP 3 - UTILITY INFRASTRUCTURE: Wooden utility pole with multiple cross-arms and small insulators is characteristic of East African rural electrification, common in Rwanda, Uganda, and Tanzania. STEP 4 - VEGETATION & TERRAIN: Rolling hills with subtropical vegetation, dry brownish grass but not desert conditions, matches Rwanda's 'Land of a Thousand Hills' topography. STEP 5 - SYNTHESIS: The combination of hilly terrain, wooden power infrastructure, unpaved roads, and tropical highland climate strongly suggests Rwanda. However, the expert skills show conflicting signals - some point to Southern Africa (yellow road lines, greasy landscapes) while others specifically mention Rwanda's better road coverage and Uganda's rural characteristics. The mention of 'Rwanda will have more coverage' and the hilly terrain tips the balance toward Rwanda, specifically the Kigali area where such peri-urban development is common.",
+  "evidence": ["wooden utility pole with multiple cross-arms and small insulators", "unpaved dirt road with informal drainage", "rolling hills with subtropical vegetation", "dry brownish grass indicating tropical highland climate", "informal stone/concrete curbs and wooden fencing", "no formal road signs or markings", "sun position indicating equatorial latitude"]
+}
+```

@@ -1,0 +1,11 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow dashed centerline and white edge lines, consistent with rural Thai roads where two-way traffic uses yellow dividers.",
+    "Utility poles are wooden with crossarms and multiple overhead wires, typical of rural electrification in Thailand.",
+    "Vegetation includes eucalyptus trees and open farmland, common in central or northeastern Thailand’s agricultural zones."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow dashed centerline and white edge lines, consistent with rural Thai roads where two-way traffic uses yellow dividers.\",\n    \"Utility poles are wooden with crossarms and multiple overhead wires, typical of rural electrification in Thailand.\",\n    \"Vegetation includes eucalyptus trees and open farmland, common in central or northeastern Thailand’s agricultural zones.\",\n    \"No visible signage or vehicles, but the landscape and"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Argentina",
+  "country_code": "ar",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved and lacks center markings, typical of rural roads in Patagonia, Argentina.",
+    "Vegetation consists of low shrubs and grasses consistent with the steppe biome found in southern Argentina.",
+    "Distant flat-topped mountains resemble the Andes foothills or Patagonian ranges common in this region."
+  ],
+  "raw_output": "{\n  \"country\": \"Argentina\",\n  \"country_code\": \"ar\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved and lacks center markings, typical of rural roads in Patagonia, Argentina.\",\n    \"Vegetation consists of low shrubs and grasses consistent with the steppe biome found in southern Argentina.\",\n    \"Distant flat-topped mountains resemble the Andes foothills or Patagonian ranges common in this region.\",\n    \"Overcast sky and muddy roadside ditch suggest a temperate, wet climate typical of southern Argentina’s"
+}

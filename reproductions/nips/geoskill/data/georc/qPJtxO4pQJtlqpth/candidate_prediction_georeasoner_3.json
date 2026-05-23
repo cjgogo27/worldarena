@@ -1,0 +1,10 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of a wooden utility pole with multiple overhead wires is typical of rural or suburban areas in Brazil, where such infrastructure is common.",
+    "The architecture of the houses, with tiled roofs and simple designs, along with the vegetation (including palm trees), suggests a tropical climate consistent with Brazil."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of a wooden utility pole with multiple overhead wires is typical of rural or suburban areas in Brazil, where such infrastructure is common.\",\n    \"The architecture of the houses, with tiled roofs and simple designs, along with the vegetation (including palm trees), suggests a tropical climate consistent with Brazil.\",\n    \"The road appears to be unpaved or gravel, which is common in less urbanized areas of Brazil, and there are no visible road markings indicating a"
+}

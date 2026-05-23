@@ -1,0 +1,11 @@
+{
+  "country": "Norway",
+  "country_code": "no",
+  "city": "",
+  "reasoning_chain": [
+    "The blue pedestrian crossing sign with white triangle is standard in Norway, indicating a controlled zone for walkers.",
+    "The road layout, including the curb and lack of center line, suggests a low-traffic residential area typical of Norwegian towns.",
+    "The wooden fencing and stone retaining walls are common in Scandinavian architecture, especially in Norway’s suburban developments."
+  ],
+  "raw_output": "{\n  \"country\": \"Norway\",\n  \"country_code\": \"no\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The blue pedestrian crossing sign with white triangle is standard in Norway, indicating a controlled zone for walkers.\",\n    \"The road layout, including the curb and lack of center line, suggests a low-traffic residential area typical of Norwegian towns.\",\n    \"The wooden fencing and stone retaining walls are common in Scandinavian architecture, especially in Norway’s suburban developments.\",\n    \"The vegetation, including coniferous trees and yellow wildflowers, along with the overcast"
+}

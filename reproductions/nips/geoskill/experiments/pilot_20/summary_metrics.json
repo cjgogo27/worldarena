@@ -1,0 +1,65 @@
+{
+  "geocot": {
+    "country_accuracy": 0.5,
+    "region_accuracy": 1.0,
+    "distance_error_km_mean": 1805.6843776404319,
+    "distance_error_km_median": 1805.6843776404319,
+    "valid_coordinate_rate": 1.0,
+    "hallucination_rate": 0.0,
+    "evidence_f1": 0.17836990595611285,
+    "within_25km_rate": 0.0,
+    "within_150km_rate": 0.0,
+    "within_750km_rate": 0.5,
+    "within_2500km_rate": 0.5,
+    "elapsed_seconds": 22.058523178100586,
+    "num_samples": 2,
+    "num_errors": 0
+  },
+  "georeasoner": {
+    "country_accuracy": 0.5,
+    "region_accuracy": 1.0,
+    "distance_error_km_mean": 503.3646397707637,
+    "distance_error_km_median": 503.3646397707637,
+    "valid_coordinate_rate": 1.0,
+    "hallucination_rate": 0.0,
+    "evidence_f1": 0.13199426111908177,
+    "within_25km_rate": 0.0,
+    "within_150km_rate": 0.0,
+    "within_750km_rate": 1.0,
+    "within_2500km_rate": 1.0,
+    "elapsed_seconds": 29.638792753219604,
+    "num_samples": 2,
+    "num_errors": 0
+  },
+  "direct_vlm": {
+    "country_accuracy": 0.0,
+    "continent_accuracy": 0.0,
+    "country_known_rate": 1.0,
+    "continent_known_rate": 1.0,
+    "distance_error_km_median": 20037.0,
+    "distance_error_km_mean_valid_only": NaN,
+    "distance_error_km_mean_penalized": 20037.0,
+    "distance_error_km_std_penalized": NaN,
+    "valid_coordinate_rate": 0.0,
+    "coverage_rate": 0.0,
+    "total_samples": 1.0,
+    "valid_predictions": 0.0,
+    "Acc@10km": 0.0,
+    "Acc@25km": 0.0,
+    "Acc@200km": 0.0,
+    "Acc@750km": 0.0,
+    "Acc@2000km": 0.0,
+    "elapsed_seconds": 8.278600454330444,
+    "num_samples": 1,
+    "num_errors": 1
+  },
+  "_meta": {
+    "last_updated_utc": "2026-04-01T16:03:13.664179+00:00",
+    "methods_in_last_run": [
+      "direct_vlm"
+    ],
+    "num_methods_total_in_summary": 3,
+    "main_agent_model": "claude-sonnet-4-5",
+    "skill_update_model": "claude-sonnet-4-5"
+  }
+}

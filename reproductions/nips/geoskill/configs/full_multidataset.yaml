@@ -1,0 +1,89 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/full_multidataset
+
+vlm:
+  base_url: https://api.siliconflow.cn/v1/chat/
+  api_key: ""
+  model: Qwen/Qwen2.5-VL-72B-Instruct
+  max_tokens: 1500
+  max_image_side: 1024
+  retries: 3
+  backoff_seconds: 2.0
+  request_timeout_seconds: 30
+
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  min_score: 0.15
+  retrieval_mode: qwen_multimodal
+
+training_free:
+  enable_failure_recovery: true
+  enable_skill_fusion: true
+  recovery_max_records: 20
+
+# Unified multi-dataset protocol
+# - georc uses original game folders
+# - earthwhere expects a manifest jsonl with: image_path, lat/lng (or latitude/longitude), country/country_code
+#   and optional fields: sample_id, expert_chain
+#   Example path: data/earthwhere/manifest.jsonl
+datasets:
+  - name: georc
+    data_root: data/georc
+    dataset_version: georc_v1
+    round: 1
+    game_ids:
+      - 1NJsXTxIF9GGMDxC
+      - 2xnQdwiCve2rHWVt
+      - 3I4ZtihbhZy5qZzQ
+      - 3OuVMcpGjmm0tVfG
+      - 3uP6lYo9pzx5Q0km
+  - name: earthwhere
+    data_root: data/earthwhere
+    manifest_jsonl: data/earthwhere/manifest.jsonl
+    dataset_version: earthwhere_v1
+
+external_baselines:
+  GeoComp:
+    enabled: false
+    strict: false
+    cwd: external_baselines/GeoComp
+    command: "python src/Geocot/Geocot.py --image {image_path}"
+    output_mode: stdout_json
+    timeout_seconds: 300
+  GeoReasoner:
+    enabled: false
+    strict: false
+    cwd: external_baselines/GeoReasoner/GeoReasoner
+    command: "python infer.py --image {image_path}"
+    output_mode: stdout_json
+    timeout_seconds: 300
+  GeoVista:
+    enabled: false
+    strict: false
+    cwd: external_baselines/GeoVista
+    command: "python examples/infer_example.py --multimodal_input {image_path} --question 'Please analyze where is the place.'"
+    output_mode: stdout_json
+    timeout_seconds: 420
+  SAFA:
+    enabled: false
+    strict: false
+    cwd: external_baselines/SAFA/script
+    command: "python test_cvusa.py --query_image {image_path}"
+    output_mode: stdout_json
+    timeout_seconds: 600
+  EP-BEV:
+    enabled: false
+    strict: false
+    cwd: external_baselines/EP-BEV
+    command: "python infer.py --image {image_path}"
+    output_mode: stdout_json
+    timeout_seconds: 420
+  Sample4Geo:
+    enabled: false
+    strict: false
+    cwd: external_baselines/Sample4Geo
+    command: "python infer.py --image {image_path}"
+    output_mode: stdout_json
+    timeout_seconds: 420

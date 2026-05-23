@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of cherry blossom trees in full bloom indicates a temperate climate with distinct seasons, typical of Japan during spring.",
+    "Utility poles are made of concrete and have a design common in rural Japanese areas, with overhead power lines running parallel to the road.",
+    "The unpaved dirt road and surrounding agricultural fields suggest a rural setting, which is prevalent in many parts of Japan."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of cherry blossom trees in full bloom indicates a temperate climate with distinct seasons, typical of Japan during spring.\",\n    \"Utility poles are made of concrete and have a design common in rural Japanese areas, with overhead power lines running parallel to the road.\",\n    \"The unpaved dirt road and surrounding agricultural fields suggest a rural setting, which is prevalent in many parts of Japan.\",\n    \"The architecture of the houses in the distance, with their"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved dirt road with no center markings and vehicles driving on the right side is typical of rural areas in Brazil.",
+    "Utility poles with overhead wires and simple wooden or metal structures are common in Brazilian countryside infrastructure.",
+    "Vegetation includes sugarcane-like plants and tropical shrubs, consistent with Brazilian rural landscapes."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved dirt road with no center markings and vehicles driving on the right side is typical of rural areas in Brazil.\",\n    \"Utility poles with overhead wires and simple wooden or metal structures are common in Brazilian countryside infrastructure.\",\n    \"Vegetation includes sugarcane-like plants and tropical shrubs, consistent with Brazilian rural landscapes.\",\n    \"Houses built on stilts or elevated platforms are a common architectural style in flood-prone or hilly regions"
+}

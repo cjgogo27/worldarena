@@ -1,0 +1,25 @@
+{
+  "game_id": "4UvmdTHySo6AXW4M",
+  "round": 1,
+  "sample_id": "georc::4UvmdTHySo6AXW4M::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "be",
+    "predicted_region": "europe",
+    "predicted_address": "Rural lane near Bastogne, Luxembourg Province, Wallonia, Belgium",
+    "predicted_lat": 50.00416667,
+    "predicted_lng": 5.72,
+    "reasoning_text": "{\n  \"country\": \"Belgium\",\n  \"country_code\": \"be\",\n  \"region\": \"Western Europe\",\n  \"city\": \"Bastogne\",\n  \"province_or_state\": \"Luxembourg\",\n  \"address\": \"Rural lane near Bastogne, Luxembourg Province, Wallonia, Belgium\",\n  \"confidence\": 0.43,\n  \"reasoning\": \"The image shows a very narrow paved rural farm road in a cool temperate landscape with open pasture, leafless deciduous trees, drainage ditches, and rolling fields. The roadside delineator appears to be a white European-style bollard, which points to continental Europe rather than the UK or Ireland. The road is extremely minor and unmarked, typical of rural secondary lanes in the Ardennes region. The combination of terrain, vegetation, road style, and general atmosphere fits southern Belgium particularly Wallonia more than flatter northern Belgium or denser road-marked networks in nearby countries. A location in Luxembourg Province near Bastogne is a plausible approximate guess.\",\n  \"evidence\": [\n    \"Narrow single-lane paved country road with no center markings\",\n    \"White European-style roadside delineator visible ahead\",\n    \"Rolling green pasture and sparse fencing typical of Ardennes farmland\",\n    \"Leafless deciduous trees indicating a cool temperate climate\",\n    \"Drainage ditch and small culvert/bridge beside the road\",\n    \"Rural Western European landscape with low settlement density\"\n  ]\n}",
+    "evidence_spans": [
+      "Narrow single-lane paved country road with no center markings",
+      "White European-style roadside delineator visible ahead",
+      "Rolling green pasture and sparse fencing typical of Ardennes farmland",
+      "Leafless deciduous trees indicating a cool temperate climate",
+      "Drainage ditch and small culvert/bridge beside the road",
+      "Rural Western European landscape with low settlement density"
+    ],
+    "confidence": 0.43
+  },
+  "error": null
+}

@@ -1,0 +1,174 @@
+{
+  "schema_note": {
+    "repo_runtime_skill_schema": {
+      "fields": [
+        "skill_text",
+        "region_hint",
+        "confidence",
+        "visual_cues",
+        "source_game_id",
+        "source_round"
+      ],
+      "defined_in": "/data/alice/cjtest/NIPS/geoskill/src/skill_parser.py"
+    },
+    "normalization_note": "confidence is copied from the real runtime skill; source_chain_refs are traced to the source chains; all other fields are normalized for paper presentation from the raw retrieved skill snippets."
+  },
+  "cases": [
+    {
+      "case_id": "KZ2f6LqzJRyChcg8",
+      "title": "Andorra success",
+      "image_path": "/data/alice/cjtest/NIPS/geoskill/data/georc/KZ2f6LqzJRyChcg8/KZ2f6LqzJRyChcg8_1.png",
+      "normalized_skill_objects": [
+        {
+          "skill_id": "sk_catalan_signage_andorra_v1",
+          "name": "Use Catalan-looking roadside or storefront text to narrow to Andorra",
+          "level": "L1-L2",
+          "trigger_condition": "image contains readable street-sign or storefront text in a compact Pyrenean settlement",
+          "observation_targets": ["road_sign_text", "storefront_text", "toponymy"],
+          "evidence_type": "language",
+          "reasoning_action": "narrow_down_region",
+          "applicable_regions": ["Andorra", "Catalan-speaking Pyrenees"],
+          "risk_flags": ["ocr_error_possible", "tourist_area_may_be_multilingual"],
+          "confidence": 0.75,
+          "source_chain_refs": ["74bPHM081cMUaNKT:expert_r3:s2"],
+          "version": "v1",
+          "raw_runtime_snippet": "The signage is not common in Spain and France and the plate is not a typical European license plate with the blue strip on the left, leading to Andorra being the most likely"
+        },
+        {
+          "skill_id": "sk_pyrenean_valley_layout_andorra_v1",
+          "name": "Use compact Pyrenean valley settlement layout to support an Andorra hypothesis",
+          "level": "L1-L2",
+          "trigger_condition": "image shows a compact mountain town embedded in a steep forested valley",
+          "observation_targets": ["settlement_layout", "terrain_profile", "vegetation_type"],
+          "evidence_type": "terrain",
+          "reasoning_action": "support_country_hypothesis",
+          "applicable_regions": ["Andorra", "Pyrenees"],
+          "risk_flags": ["mountain_regions_can_look_similar", "cross_border_overlap_in_pyrenees"],
+          "confidence": 0.65,
+          "source_chain_refs": ["74bPHM081cMUaNKT:candidate_gpt4_r3:s7"],
+          "version": "v1",
+          "raw_runtime_snippet": "The compact urban layout fits Andorra la Vella, the capital city, which is set within tight Pyrenean valleys."
+        },
+        {
+          "skill_id": "sk_pyrenees_stone_architecture_v1",
+          "name": "Use Pyrenean stone-and-brick mountain architecture to disambiguate Andorra-like scenes",
+          "level": "L1-L2",
+          "trigger_condition": "image shows grey stone or brick buildings in a mountainous Southern European town",
+          "observation_targets": ["architecture_style", "building_material", "terrain_profile"],
+          "evidence_type": "architecture",
+          "reasoning_action": "narrow_down_region",
+          "applicable_regions": ["Andorra", "Northern Spain", "Southern France"],
+          "risk_flags": ["shared_architecture_across_border_regions", "renovation_style_can_blur_signal"],
+          "confidence": 0.65,
+          "source_chain_refs": ["74bPHM081cMUaNKT:expert_r3:s1"],
+          "version": "v1",
+          "raw_runtime_snippet": "This location is particularly distinct due to the exposed rocky mountain in the background and the abundance of grey brick architecture, commonly found in the countries surrounding the Pyrenees like Northern Spain, Andorra, and Southern France"
+        }
+      ]
+    },
+    {
+      "case_id": "2xnQdwiCve2rHWVt",
+      "title": "Thailand success",
+      "image_path": "/data/alice/cjtest/NIPS/geoskill/data/georc/2xnQdwiCve2rHWVt/2xnQdwiCve2rHWVt_1.png",
+      "normalized_skill_objects": [
+        {
+          "skill_id": "sk_thai_script_roadsign_v1",
+          "name": "Use Thai script on roadside elements to identify Thailand",
+          "level": "L1-L2",
+          "trigger_condition": "image contains readable script on a traffic bollard, sign, or median marker",
+          "observation_targets": ["road_sign_text", "script_type"],
+          "evidence_type": "language",
+          "reasoning_action": "narrow_down_region",
+          "applicable_regions": ["Thailand"],
+          "risk_flags": ["ocr_error_possible", "small_text_may_be_low_resolution"],
+          "confidence": 0.65,
+          "source_chain_refs": ["2xnQdwiCve2rHWVt:candidate_gpt4_r1:s2"],
+          "version": "v1",
+          "raw_runtime_snippet": "The road signage uses what appears to be Thai script, visible on the center traffic bollard."
+        },
+        {
+          "skill_id": "sk_thailand_bollard_blackwhite_v1",
+          "name": "Use black-and-white roadside bollards to support Thailand over nearby alternatives",
+          "level": "L1-L2",
+          "trigger_condition": "image shows roadside bollards or posts with black-and-white banding",
+          "observation_targets": ["bollard_style", "roadside_post_design"],
+          "evidence_type": "infrastructure",
+          "reasoning_action": "narrow_down_region",
+          "applicable_regions": ["Thailand", "Mainland Southeast Asia"],
+          "risk_flags": ["shared_road_furniture_across_neighbors", "partial_visibility_may_hide_pattern"],
+          "confidence": 0.65,
+          "source_chain_refs": ["5l0GTCFZI877KxkV:expert_r2:s2"],
+          "version": "v1",
+          "raw_runtime_snippet": "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand"
+        },
+        {
+          "skill_id": "sk_highway12_khonkaen_corridor_v1",
+          "name": "Use broad east-west divided-highway cues to refine toward the Khon Kaen and Highway 12 corridor",
+          "level": "L2-L3",
+          "trigger_condition": "image shows a broad divided peri-urban highway with an east-west corridor feel in Thailand",
+          "observation_targets": ["road_layout", "highway_orientation", "urban_proximity"],
+          "evidence_type": "infrastructure",
+          "reasoning_action": "refine_location",
+          "applicable_regions": ["Khon Kaen", "Highway 12 corridor", "Thailand"],
+          "risk_flags": ["multiple_highways_can_share_similar_design", "view_direction_may_distort_orientation"],
+          "confidence": 0.75,
+          "source_chain_refs": ["8Uo6ejwXYqmp9av3:candidate_gpt4_r1:s8"],
+          "version": "v1",
+          "raw_runtime_snippet": "Based on these pieces of evidence, the most likely location is a rural area near Khon Kaen, Thailand."
+        }
+      ]
+    },
+    {
+      "case_id": "w3MFlsmvpeCTNUcG",
+      "title": "Failure case with misaligned retrieval",
+      "image_path": "/data/alice/cjtest/NIPS/geoskill/data/georc/w3MFlsmvpeCTNUcG/w3MFlsmvpeCTNUcG_1.png",
+      "normalized_skill_objects": [
+        {
+          "skill_id": "sk_australia_reflector_bollard_v1",
+          "name": "Use Australian-style roadside reflector bollards to jump to inland Australia",
+          "level": "L1-L2",
+          "trigger_condition": "image shows roadside reflector posts in an open dry landscape",
+          "observation_targets": ["bollard_style", "roadside_post_design", "climate_context"],
+          "evidence_type": "infrastructure",
+          "reasoning_action": "narrow_down_region",
+          "applicable_regions": ["Australia", "Oceania"],
+          "risk_flags": ["bollard_patterns_can_be_misread", "similar_open_landscapes_exist_on_other_continents"],
+          "confidence": 0.55,
+          "source_chain_refs": ["56Q4T4rpv9O9sCpP:expert_r4:s1"],
+          "version": "v1",
+          "raw_runtime_snippet": "The bollards (street posts with reflectors) on the side of the road are unique to Australia, but possibly found in countries in Europe but this climate can never be Europe"
+        },
+        {
+          "skill_id": "sk_terengganu_fan_weeds_v1",
+          "name": "Use fan-shaped roadside weeds to localize toward Terengganu in Malaysia",
+          "level": "L2-L3",
+          "trigger_condition": "image shows fan-shaped roadside weeds in a humid left-driving tropical scene",
+          "observation_targets": ["vegetation_type", "roadside_plants"],
+          "evidence_type": "vegetation",
+          "reasoning_action": "refine_location",
+          "applicable_regions": ["Terengganu", "Malaysia"],
+          "risk_flags": ["plant_morphology_is_hard_to_verify", "similar_vegetation_exists_across_tropical_regions"],
+          "confidence": 0.65,
+          "source_chain_refs": ["1NJsXTxIF9GGMDxC:expert_r2:s5"],
+          "version": "v1",
+          "raw_runtime_snippet": "The weeds on the side of the road (that have a fan-like shape) are commonly found near and in the state of Terrangnu"
+        },
+        {
+          "skill_id": "sk_american_mailbox_suburban_us_v1",
+          "name": "Use American-style roadside mailboxes to support a US suburban prior",
+          "level": "L1-L2",
+          "trigger_condition": "image shows standalone roadside mailboxes in low-density residential context",
+          "observation_targets": ["mailbox_style", "housing_layout"],
+          "evidence_type": "infrastructure",
+          "reasoning_action": "support_country_hypothesis",
+          "applicable_regions": ["United States"],
+          "risk_flags": ["small_objects_may_be_hallucinated", "similar_mailboxes_can_exist_in_parts_of_Canada"],
+          "confidence": 0.65,
+          "source_chain_refs": ["AVKTblAzBqaYrcKe:expert_r4:s2"],
+          "version": "v1",
+          "raw_runtime_snippet": "Mail boxes on the side of the road appear to be the American kind"
+        }
+      ]
+    }
+  ]
+}

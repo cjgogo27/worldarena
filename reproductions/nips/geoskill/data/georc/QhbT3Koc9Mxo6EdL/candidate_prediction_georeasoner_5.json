@@ -1,0 +1,12 @@
+{
+  "country": "Indonesia",
+  "country_code": "id",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of rice paddies with young rice plants and palm trees indicates a tropical agricultural landscape typical of Indonesia.",
+    "The dirt path and lack of formal road markings suggest a rural area, common in Indonesian countryside.",
+    "The style of the small shelter with a metal roof is consistent with traditional structures found in rural Indonesia.",
+    "The vegetation, including coconut palms and other tropical flora, strongly points to a Southeast Asian location, specifically Indonesia."
+  ],
+  "raw_output": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of rice paddies with young rice plants and palm trees indicates a tropical agricultural landscape typical of Indonesia.\",\n    \"The dirt path and lack of formal road markings suggest a rural area, common in Indonesian countryside.\",\n    \"The style of the small shelter with a metal roof is consistent with traditional structures found in rural Indonesia.\",\n    \"The vegetation, including coconut palms and other tropical flora, strongly points to a Southeast Asian location, specifically Indonesia.\""
+}

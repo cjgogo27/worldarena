@@ -1,0 +1,11 @@
+{
+  "country": "Serbia",
+  "country_code": "rs",
+  "city": "",
+  "reasoning_chain": [
+    "The billboard displays Cyrillic script and the logo 'CKB', which is a Serbian bank (Croatian Koin Bank), indicating location in Serbia.",
+    "Road signs and streetlights follow European standards, with right-hand traffic consistent with Serbia’s driving side.",
+    "Vegetation includes tall cypress trees and deciduous trees typical of temperate continental climates found in Serbia."
+  ],
+  "raw_output": "{\n  \"country\": \"Serbia\",\n  \"country_code\": \"rs\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The billboard displays Cyrillic script and the logo 'CKB', which is a Serbian bank (Croatian Koin Bank), indicating location in Serbia.\",\n    \"Road signs and streetlights follow European standards, with right-hand traffic consistent with Serbia’s driving side.\",\n    \"Vegetation includes tall cypress trees and deciduous trees typical of temperate continental climates found in Serbia.\",\n    \"Construction cranes and modern high-rise buildings under development"
+}

@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-03-29T09:40:07.960505+00:00",
+  "content_dir": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/resources/datasets/omnistyle/content",
+  "style_prompts": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/resources/styles/style_prompts_40_v1.json",
+  "style_ref_dir": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/style_benchmark_40x10",
+  "output_dir": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_content_style_locktest_v2",
+  "model_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/models/BAGEL-7B-MoT",
+  "mode": 1,
+  "content_start": 0,
+  "content_end_requested": 200,
+  "content_end_effective": 1,
+  "max_contents": 1,
+  "cfg_text_scale": 4.0,
+  "cfg_img_scale": 3.5,
+  "cfg_img_scale_retry_step": 0.5,
+  "num_timesteps": 4,
+  "strict_content_lock": true,
+  "content_similarity_clip_model_dir": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/models/clip-vit-large-patch14",
+  "content_similarity_threshold": 0.8,
+  "content_similarity_max_retries": 0,
+  "save_triplets": true,
+  "triplets_dirname": "_triplets",
+  "style_ref_index": 1,
+  "use_content_size": false,
+  "content_count": 1,
+  "style_count": 1,
+  "expected_images": 1,
+  "generated_images": 1,
+  "skipped_images": 0,
+  "failed_images": 0,
+  "records": [
+    {
+      "content_id": "content_0001",
+      "content_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/resources/datasets/omnistyle/content/Mythicalcreatures_A graceful phoenix rising from a nest of flames, with feathers of vibrant red and gold.png",
+      "images": [
+        {
+          "style_id": "Action Painting",
+          "style_safe": "Action_Painting",
+          "prompt": "Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood).",
+          "prompt_used": "STYLE TRANSFER ONLY. Preserve content exactly.\nMandatory constraints:\n1) Keep identical objects, object count, identities, positions, poses, proportions, and semantic meaning.\n2) Keep identical camera viewpoint, perspective, depth ordering, composition, and layout.\n3) Do NOT add, remove, replace, move, crop, deform, or hallucinate any scene element.\n4) Allowed edits: style rendering only (palette, texture, brushwork, line quality, lighting mood).\nTarget style: Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood).\nOutput one stylized image that keeps the original content unchanged.",
+          "output_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_content_style_locktest_v2/content_0001/Action_Painting.png",
+          "style_ref_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/style_benchmark_40x10/Action Painting/image_1.jpg",
+          "seed": 20261330,
+          "cfg_img_scale": 3.5,
+          "content_similarity": 0.8818305730819702,
+          "status": "generated",
+          "bundle_dir": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_content_style_locktest_v2/content_0001/_triplets/Action_Painting",
+          "content_image": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_content_style_locktest_v2/content_0001/_triplets/Action_Painting/content.png",
+          "style_image": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_content_style_locktest_v2/content_0001/_triplets/Action_Painting/style.png",
+          "stylized_image": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_content_style_locktest_v2/content_0001/_triplets/Action_Painting/stylized.png",
+          "meta": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_content_style_locktest_v2/content_0001/_triplets/Action_Painting/meta.json"
+        }
+      ]
+    }
+  ],
+  "failures_file": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_content_style_locktest_v2/generation_failures.jsonl"
+}

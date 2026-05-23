@@ -1,0 +1,11 @@
+{
+  "country": "Indonesia",
+  "country_code": "id",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of colorful triangular flags (bendera) along the roadside is characteristic of Indonesian rural areas, often used for decoration or cultural events.",
+    "The vegetation, including banana plants and tropical trees, combined with the red laterite soil, strongly suggests a tropical Southeast Asian environment consistent with Indonesia.",
+    "The architecture of the houses—simple, single-story structures with corrugated metal roofs—is typical of rural Indonesian settlements."
+  ],
+  "raw_output": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of colorful triangular flags (bendera) along the roadside is characteristic of Indonesian rural areas, often used for decoration or cultural events.\",\n    \"The vegetation, including banana plants and tropical trees, combined with the red laterite soil, strongly suggests a tropical Southeast Asian environment consistent with Indonesia.\",\n    \"The architecture of the houses—simple, single-story structures with corrugated metal roofs—is typical of rural Indonesian settlements.\",\n    \"The road"
+}

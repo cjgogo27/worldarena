@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane rural highway with no center line, typical of low-traffic US country roads.",
+    "Vegetation shows early spring green crops on the right and freshly tilled dark soil on the left, consistent with Midwestern US agricultural patterns.",
+    "Flat terrain and expansive fields are characteristic of the Great Plains region, particularly states like Nebraska or Kansas."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane rural highway with no center line, typical of low-traffic US country roads.\",\n    \"Vegetation shows early spring green crops on the right and freshly tilled dark soil on the left, consistent with Midwestern US agricultural patterns.\",\n    \"Flat terrain and expansive fields are characteristic of the Great Plains region, particularly states like Nebraska or Kansas.\",\n    \"No visible signage, utility poles, or vehicles suggest a"
+}

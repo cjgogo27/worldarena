@@ -1,0 +1,43 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/rerun50_direct_vlm_earthwhere_siliconflow
+
+main_agent:
+  base_url: https://api.siliconflow.cn/v1/chat/completions
+  api_key: sk-mivnpzvibksbsypfzysmebcvfcnsvtciyssnvbjypusieskr
+  model: Qwen/Qwen2.5-VL-72B-Instruct
+  max_tokens: 700
+  max_image_side: 768
+  retries: 2
+  backoff_seconds: 0.5
+  request_timeout_seconds: 60
+
+llm_large:
+  base_url: https://api.siliconflow.cn/v1/chat/completions
+  api_key: sk-mivnpzvibksbsypfzysmebcvfcnsvtciyssnvbjypusieskr
+  model: Qwen/Qwen2.5-VL-72B-Instruct
+  max_tokens: 700
+  max_image_side: 768
+  retries: 2
+  backoff_seconds: 0.5
+  request_timeout_seconds: 60
+
+runtime:
+  sample_retry_attempts: 2
+  sample_retry_backoff_seconds: 1.0
+
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  min_score: 0.15
+
+training_free:
+  enable_failure_recovery: false
+  enable_skill_fusion: false
+  rollout_rounds: 1
+
+datasets:
+  - name: earthwhere
+    data_root: data/earthwhere
+    manifest_jsonl: data/earthwhere/manifest.jsonl
+    dataset_version: earthwhere_v1

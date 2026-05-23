@@ -1,0 +1,25 @@
+{
+  "game_id": "UYeUpGpQlvb7ExfK",
+  "round": 1,
+  "sample_id": "georc::UYeUpGpQlvb7ExfK::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ph",
+    "predicted_region": "asia",
+    "predicted_address": "Residential side street, Davao, Davao del Sur, Philippines",
+    "predicted_lat": 7.066233,
+    "predicted_lng": 125.609442,
+    "reasoning_text": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Davao\",\n  \"province_or_state\": \"Davao del Sur\",\n  \"address\": \"Residential side street, Davao, Davao del Sur, Philippines\",\n  \"confidence\": 0.62,\n  \"reasoning\": \"The scene shows a tropical lowland residential neighborhood with a narrow poured-concrete road, open drainage along the side, dense bundles of overhead utility wires, and fenced single-story houses. These are all very typical of urban and suburban streets in the Philippines. The architecture and streetscape fit better with the Philippines than Indonesia or Malaysia, especially the heavy overhead cabling and barangay-style concrete lane. There are no readable signs or unique landmarks, so the exact locality is uncertain; a reasonable approximate guess is a residential area in Davao.\",\n  \"evidence\": [\n    \"Narrow concrete residential road common in Philippine neighborhoods\",\n    \"Dense overhead utility wires typical of Philippine streets\",\n    \"Tropical vegetation including palms and lush greenery\",\n    \"Low-rise fenced homes with covered porches matching Filipino residential style\",\n    \"Open roadside drainage channel often seen in the Philippines\",\n    \"Flat, humid tropical environment consistent with southern Philippines\"\n  ]\n}",
+    "evidence_spans": [
+      "Narrow concrete residential road common in Philippine neighborhoods",
+      "Dense overhead utility wires typical of Philippine streets",
+      "Tropical vegetation including palms and lush greenery",
+      "Low-rise fenced homes with covered porches matching Filipino residential style",
+      "Open roadside drainage channel often seen in the Philippines",
+      "Flat, humid tropical environment consistent with southern Philippines"
+    ],
+    "confidence": 0.62
+  },
+  "error": null
+}

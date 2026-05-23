@@ -1,0 +1,917 @@
+{
+  "game_id": "3uP6lYo9pzx5Q0km",
+  "round": 1,
+  "sample_id": "georc::3uP6lYo9pzx5Q0km::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "no",
+    "predicted_region": "europe",
+    "predicted_address": "River-hugging rural road in the Målselv valley, Målselv, Troms, Norway",
+    "predicted_lat": 68.975,
+    "predicted_lng": 19.06444444,
+    "reasoning_text": "{\n  \"country\": \"Norway\",\n  \"country_code\": \"no\",\n  \"region\": \"Northern Europe\",\n  \"city\": \"Målselv\",\n  \"province_or_state\": \"Troms\",\n  \"address\": \"River-hugging rural road in the Målselv valley, Målselv, Troms, Norway\",\n  \"confidence\": 0.86,\n  \"reasoning\": \"Applying the ordered high-priority skills first: Skill 1 matches best because the road has a yellow center line and white edge lines, a strong Norwegian marking pattern. Skill 2 does not fit well because the scene lacks typical United States road context despite some yellow center-line similarity. Skill 3 is weaker here because the markings are not merely generic European; they are more specifically Nordic. Skill 4 does not fit because the boreal valley landscape and road engineering are not Kenyan or broadly African. Skill 5 is partially compatible with a narrow rural mountain road, supporting a northern rural European setting, but the yellow center line points more specifically to Norway. Skill 6 does not fit because this is not a New Zealand-style road scene. Then composing linked skills from Skill 1: Skill 7 strongly reinforces Norway, since a yellow center line with white outer lines is the key Nordic cue most associated with Norway; the cold valley landscape is consistent with northern Norway. Skill 11 is less relevant because the road is not very wide and does not resemble a Russian or post-Soviet highway. The remaining linked alternatives from Skill 1 and Skill 2 toward African, South American, or US interpretations are contradicted by the vegetation, terrain, and overall Scandinavian infrastructure. Combining the road markings, right-hand driving setup, conifer-birch boreal vegetation, broad fast river directly beside the guardrail, and steep inland valley terrain, the most consistent location is a rural road along the Målselva river in Målselv, Troms, Norway.\",\n  \"evidence\": [\n    \"Yellow center line with white edge lines, characteristic of Norway\",\n    \"Right-hand traffic road layout\",\n    \"Narrow, well-maintained rural paved road with Scandinavian-style edge treatment\",\n    \"Metal guardrail directly between road and a broad fast-flowing river\",\n    \"Boreal vegetation with conifers and birch\",\n    \"Steep-sided inland valley terrain consistent with northern Norway\",\n    \"Sparse development and remote Arctic/sub-Arctic rural landscape\"\n  ]\n}",
+    "evidence_spans": [
+      "Yellow center line with white edge lines, characteristic of Norway",
+      "Right-hand traffic road layout",
+      "Narrow, well-maintained rural paved road with Scandinavian-style edge treatment",
+      "Metal guardrail directly between road and a broad fast-flowing river",
+      "Boreal vegetation with conifers and birch",
+      "Steep-sided inland valley terrain consistent with northern Norway",
+      "Sparse development and remote Arctic/sub-Arctic rural landscape"
+    ],
+    "confidence": 0.86,
+    "base_prediction_summary": {
+      "predicted_country": "no",
+      "predicted_region": "europe",
+      "confidence": 0.74
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The road markings consist of a yellow center line and white edge lines, which is typical in Norway.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 5,
+        "score": 1.0,
+        "bm25_score": 53.61476516723633,
+        "semantic_score": 0.7152247428894043
+      },
+      {
+        "skill_text": "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 4,
+        "score": 0.8586980104446411,
+        "bm25_score": 51.10002517700195,
+        "semantic_score": 0.5422464609146118
+      },
+      {
+        "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.8482508659362793,
+        "bm25_score": 48.085418701171875,
+        "semantic_score": 0.5681769251823425
+      },
+      {
+        "skill_text": "The road has a yellow center line and white edge lines, which are common in several African countries, particularly in Kenya.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 4,
+        "score": 0.8291618227958679,
+        "bm25_score": 46.57609176635742,
+        "semantic_score": 0.5608184337615967
+      },
+      {
+        "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 5,
+        "score": 0.8281770944595337,
+        "bm25_score": 43.627742767333984,
+        "semantic_score": 0.5997307896614075
+      },
+      {
+        "skill_text": "The road markings feature a dashed white line in the center with distinct chevron tips, commonly seen in New Zealand.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "chevron",
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 2,
+        "score": 0.8130029439926147,
+        "bm25_score": 47.95462417602539,
+        "semantic_score": 0.5182309746742249
+      },
+      {
+        "skill_text": "Yellow center line with unbroken white outer lines is only found in Norway in the Nordic countries; the latitude of the location is hard to tell but could be as far south as Trondheim to as far north as Narvik",
+        "region_hint": "europe",
+        "confidence": 0.55,
+        "visual_cues": [
+          "Yellow",
+          "center",
+          "line",
+          "with"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 5,
+        "score": 0.8058441281318665,
+        "bm25_score": 38.69068908691406,
+        "semantic_score": 0.6345303058624268
+      },
+      {
+        "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 4,
+        "score": 0.8038290739059448,
+        "bm25_score": 48.13928985595703,
+        "semantic_score": 0.5022380352020264
+      },
+      {
+        "skill_text": "The road has a yellow edge line and a white center line, which is common in some African countries, especially southern Africa.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 5,
+        "score": 0.8016091585159302,
+        "bm25_score": 43.85530471801758,
+        "semantic_score": 0.5576198697090149
+      },
+      {
+        "skill_text": "The road markings display double yellow center lines with white edge lines, a common style in South American countries such as Argentina.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 4,
+        "score": 0.7981553077697754,
+        "bm25_score": 44.4640007019043,
+        "semantic_score": 0.5442183613777161
+      },
+      {
+        "skill_text": "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 3,
+        "score": 0.7776186466217041,
+        "bm25_score": 41.37773132324219,
+        "semantic_score": 0.5563206672668457
+      },
+      {
+        "skill_text": "The road markings feature a yellow outer line and a white dashed center line, which are typical of southern African countries like Botswana, Namibia, and South Africa.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 5,
+        "score": 0.7765631675720215,
+        "bm25_score": 41.5108757019043,
+        "semantic_score": 0.5529488325119019
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road markings consist of a yellow center line and white edge lines, which is typical in Norway.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 1.0,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.8586980104446411,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8482508659362793,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The road has a yellow center line and white edge lines, which are common in several African countries, particularly in Kenya.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.8291618227958679,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8281770944595337,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The road markings feature a dashed white line in the center with distinct chevron tips, commonly seen in New Zealand.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.8130029439926147,
+          "visual_cues": [
+            "chevron",
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "Yellow center line with unbroken white outer lines is only found in Norway in the Nordic countries; the latitude of the location is hard to tell but could be as far south as Trondheim to as far north as Narvik",
+          "region_hint": "europe",
+          "confidence": 0.55,
+          "score": 0.8058441281318665,
+          "visual_cues": [
+            "Yellow",
+            "center",
+            "line",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.8038290739059448,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The road has a yellow edge line and a white center line, which is common in some African countries, especially southern Africa.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.8016091585159302,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The road markings display double yellow center lines with white edge lines, a common style in South American countries such as Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7981553077697754,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7776186466217041,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The road markings feature a yellow outer line and a white dashed center line, which are typical of southern African countries like Botswana, Namibia, and South Africa.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7765631675720215,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road markings consist of a yellow center line and white edge lines, which is typical in Norway.",
+        "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+        "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "The road has a yellow center line and white edge lines, which are common in several African countries, particularly in Kenya.",
+        "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "The road markings feature a dashed white line in the center with distinct chevron tips, commonly seen in New Zealand.",
+        "Yellow center line with unbroken white outer lines is only found in Norway in the Nordic countries; the latitude of the location is hard to tell but could be as far south as Trondheim to as far north as Narvik",
+        "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+        "The road has a yellow edge line and a white center line, which is common in some African countries, especially southern Africa.",
+        "The road markings display double yellow center lines with white edge lines, a common style in South American countries such as Argentina.",
+        "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+        "The road markings feature a yellow outer line and a white dashed center line, which are typical of southern African countries like Botswana, Namibia, and South Africa."
+      ],
+      "summary": "nodes=12, edges=59, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Norway\",\n  \"country_code\": \"no\",\n  \"region\": \"Northern Europe\",\n  \"city\": \"Målselv\",\n  \"province_or_state\": \"Troms\",\n  \"address\": \"River-hugging rural road in the Målselv valley, Troms, Norway\",\n  \"confidence\": 0.74,\n  \"reasoning\": \"The road markings are the strongest clue: a yellow ",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 59,
+        "graph_summary": "nodes=12, edges=59, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "no"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

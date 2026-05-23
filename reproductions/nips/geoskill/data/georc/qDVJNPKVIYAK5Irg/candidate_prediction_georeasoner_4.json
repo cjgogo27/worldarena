@@ -1,0 +1,11 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "The architecture features single-story brick houses with sloped roofs and chimneys, typical of Finnish suburban design.",
+    "Vegetation includes dense coniferous and deciduous trees, consistent with Finland’s boreal forest climate.",
+    "Roads are unpaved or lightly paved with no center lines, common in rural Finnish residential areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The architecture features single-story brick houses with sloped roofs and chimneys, typical of Finnish suburban design.\",\n    \"Vegetation includes dense coniferous and deciduous trees, consistent with Finland’s boreal forest climate.\",\n    \"Roads are unpaved or lightly paved with no center lines, common in rural Finnish residential areas.\",\n    \"Bicycles are parked outside homes, reflecting a culture where cycling is common in Nordic countries like Finland"
+}

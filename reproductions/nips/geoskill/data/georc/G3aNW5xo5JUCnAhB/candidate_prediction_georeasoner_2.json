@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The road has no center line and vehicles are parked on the right, consistent with right-hand traffic in Brazil.",
+    "Vegetation includes native trees like *Tabebuia* and *Eucalyptus*, common in Brazilian subtropical regions.",
+    "The open grassy area near water suggests a lakeside park or recreational zone, typical of Brazilian urban planning."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has no center line and vehicles are parked on the right, consistent with right-hand traffic in Brazil.\",\n    \"Vegetation includes native trees like *Tabebuia* and *Eucalyptus*, common in Brazilian subtropical regions.\",\n    \"The open grassy area near water suggests a lakeside park or recreational zone, typical of Brazilian urban planning.\",\n    \"No visible signage or language text, but the architecture (simple brick"
+}

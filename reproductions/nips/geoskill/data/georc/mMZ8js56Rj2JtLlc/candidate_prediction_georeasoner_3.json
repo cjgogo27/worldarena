@@ -1,0 +1,11 @@
+{
+  "country": "Germany",
+  "country_code": "de",
+  "city": "",
+  "reasoning_chain": [
+    "Cars are parked on the right side of the road, consistent with right-hand traffic in Germany.",
+    "The house features a red-tiled gable roof and white stucco walls, typical of rural German architecture.",
+    "A yellow triangular warning sign with a black symbol (likely indicating a pedestrian crossing or similar hazard) is visible, matching German road signage standards."
+  ],
+  "raw_output": "{\n  \"country\": \"Germany\",\n  \"country_code\": \"de\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Cars are parked on the right side of the road, consistent with right-hand traffic in Germany.\",\n    \"The house features a red-tiled gable roof and white stucco walls, typical of rural German architecture.\",\n    \"A yellow triangular warning sign with a black symbol (likely indicating a pedestrian crossing or similar hazard) is visible, matching German road signage standards.\",\n    \"Vegetation includes tall grasses and deciduous trees, along with"
+}

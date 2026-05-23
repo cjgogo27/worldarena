@@ -1,0 +1,11 @@
+{
+  "country": "Botswana",
+  "country_code": "bw",
+  "city": "",
+  "reasoning_chain": [
+    "Red lateritic soil and sparse acacia-like vegetation are characteristic of Botswana’s Kalahari and Okavango regions.",
+    "Absence of paved roads, lane markings, or urban infrastructure indicates a remote rural area typical of Botswana’s interior.",
+    "Utility pole on left side suggests basic electrification, common in Botswana’s rural road networks."
+  ],
+  "raw_output": "{\n  \"country\": \"Botswana\",\n  \"country_code\": \"bw\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Red lateritic soil and sparse acacia-like vegetation are characteristic of Botswana’s Kalahari and Okavango regions.\",\n    \"Absence of paved roads, lane markings, or urban infrastructure indicates a remote rural area typical of Botswana’s interior.\",\n    \"Utility pole on left side suggests basic electrification, common in Botswana’s rural road networks.\",\n    \"No visible signage, vehicles, or people reduces ambiguity; landscape matches known Google Street"
+}

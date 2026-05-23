@@ -1,0 +1,11 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "Road markings show right-hand traffic with dashed white lane dividers and solid yellow center line, consistent with Thai highways.",
+    "Utility poles are concrete with overhead wires typical of rural Thai infrastructure; no transformers or complex substations visible.",
+    "Vegetation includes dense casuarina trees and dry grasses common in Thailand’s tropical savanna climate zones."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Road markings show right-hand traffic with dashed white lane dividers and solid yellow center line, consistent with Thai highways.\",\n    \"Utility poles are concrete with overhead wires typical of rural Thai infrastructure; no transformers or complex substations visible.\",\n    \"Vegetation includes dense casuarina trees and dry grasses common in Thailand’s tropical savanna climate zones.\",\n    \"No visible signage, but vehicle types (motorcycle, small truck) and road"
+}

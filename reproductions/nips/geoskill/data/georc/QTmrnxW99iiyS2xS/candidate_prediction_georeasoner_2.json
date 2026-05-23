@@ -1,0 +1,11 @@
+{
+  "country": "Taiwan",
+  "country_code": "tw",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of mango trees laden with fruit on the right side indicates a subtropical climate consistent with southern Taiwan.",
+    "Utility poles with black-and-yellow striped bases are standard in Taiwan for road safety and visibility.",
+    "The narrow paved road with no center line and vegetation on both sides is typical of rural Taiwanese agricultural roads."
+  ],
+  "raw_output": "{\n  \"country\": \"Taiwan\",\n  \"country_code\": \"tw\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of mango trees laden with fruit on the right side indicates a subtropical climate consistent with southern Taiwan.\",\n    \"Utility poles with black-and-yellow striped bases are standard in Taiwan for road safety and visibility.\",\n    \"The narrow paved road with no center line and vegetation on both sides is typical of rural Taiwanese agricultural roads.\",\n    \"Overhead power lines running parallel to the road and the absence of street signs or vehicles suggest a quiet, non"
+}

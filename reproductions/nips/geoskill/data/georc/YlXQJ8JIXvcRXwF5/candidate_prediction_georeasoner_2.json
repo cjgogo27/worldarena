@@ -1,0 +1,12 @@
+{
+  "country": "United Arab Emirates",
+  "country_code": "ae",
+  "city": "",
+  "reasoning_chain": [
+    "The road signs on the left display Arabic script alongside English, indicating a bilingual region typical of the UAE.",
+    "The desert terrain with sparse vegetation and sandy soil is characteristic of the Arabian Peninsula, particularly the UAE.",
+    "The right-hand traffic system and modern highway infrastructure align with UAE road standards.",
+    "The presence of utility poles and guardrails along the highway suggests developed infrastructure common in UAE urban or semi-urban peripheries."
+  ],
+  "raw_output": "{\n  \"country\": \"United Arab Emirates\",\n  \"country_code\": \"ae\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road signs on the left display Arabic script alongside English, indicating a bilingual region typical of the UAE.\",\n    \"The desert terrain with sparse vegetation and sandy soil is characteristic of the Arabian Peninsula, particularly the UAE.\",\n    \"The right-hand traffic system and modern highway infrastructure align with UAE road standards.\",\n    \"The presence of utility poles and guardrails along the highway suggests developed infrastructure common in UAE urban or semi-urban peripheries.\""
+}

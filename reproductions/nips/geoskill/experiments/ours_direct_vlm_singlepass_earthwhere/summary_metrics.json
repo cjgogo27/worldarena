@@ -1,0 +1,31 @@
+{
+  "direct_vlm": {
+    "country_accuracy": 0.124,
+    "continent_accuracy": 0.134,
+    "distance_error_km_median": 20037.0,
+    "distance_error_km_mean_valid_only": 1951.4847385276032,
+    "distance_error_km_mean_penalized": 19566.776603201713,
+    "distance_error_km_std_penalized": 2918.0957505017313,
+    "valid_coordinate_rate": 0.026,
+    "coverage_rate": 0.026,
+    "total_samples": 500.0,
+    "valid_predictions": 13.0,
+    "Acc@10km": 0.002,
+    "Acc@25km": 0.002,
+    "Acc@200km": 0.004,
+    "Acc@750km": 0.014,
+    "Acc@2000km": 0.022,
+    "elapsed_seconds": 2577.432559490204,
+    "num_samples": 500,
+    "num_errors": 487
+  },
+  "_meta": {
+    "last_updated_utc": "2026-04-01T11:58:14.816444+00:00",
+    "methods_in_last_run": [
+      "direct_vlm"
+    ],
+    "num_methods_total_in_summary": 1,
+    "main_agent_model": "qwen3.5-plus",
+    "skill_update_model": "gpt-5.4-mini"
+  }
+}

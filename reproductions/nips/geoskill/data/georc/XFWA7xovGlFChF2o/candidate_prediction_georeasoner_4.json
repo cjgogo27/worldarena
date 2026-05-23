@@ -1,0 +1,11 @@
+{
+  "country": "Netherlands",
+  "country_code": "nl",
+  "city": "",
+  "reasoning_chain": [
+    "The road features double white center lines and a separate paved bike path on the right, typical of Dutch infrastructure prioritizing cycling.",
+    "Flat, expansive agricultural fields with wind turbines in the distance are characteristic of the Dutch landscape, especially in provinces like Friesland or Groningen.",
+    "The absence of overhead power lines and presence of low-profile roadside markers aligns with Netherlands’ rural road design standards."
+  ],
+  "raw_output": "{\n  \"country\": \"Netherlands\",\n  \"country_code\": \"nl\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features double white center lines and a separate paved bike path on the right, typical of Dutch infrastructure prioritizing cycling.\",\n    \"Flat, expansive agricultural fields with wind turbines in the distance are characteristic of the Dutch landscape, especially in provinces like Friesland or Groningen.\",\n    \"The absence of overhead power lines and presence of low-profile roadside markers aligns with Netherlands’ rural road design standards.\",\n    \"Bright sun angle and clear blue sky"
+}

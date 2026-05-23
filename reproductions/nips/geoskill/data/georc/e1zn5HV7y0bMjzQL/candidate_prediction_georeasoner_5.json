@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved and dusty with no lane markings, typical of rural mountain roads in northern India.",
+    "Vehicles are driving on the left side of the road, consistent with India’s traffic rules.",
+    "Concrete barriers along the roadside and stone retaining walls suggest infrastructure common in hilly regions of Himachal Pradesh or Uttarakhand."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved and dusty with no lane markings, typical of rural mountain roads in northern India.\",\n    \"Vehicles are driving on the left side of the road, consistent with India’s traffic rules.\",\n    \"Concrete barriers along the roadside and stone retaining walls suggest infrastructure common in hilly regions of Himachal Pradesh or Uttarakhand.\",\n    \"Vegetation includes dense green shrubs and scattered trees, indicating a temperate high-alt"
+}

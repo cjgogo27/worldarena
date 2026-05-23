@@ -1,0 +1,24 @@
+{
+  "game_id": "1NJsXTxIF9GGMDxC",
+  "round": 1,
+  "sample_id": "georc::1NJsXTxIF9GGMDxC::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "uz",
+    "predicted_region": "asia",
+    "predicted_address": "Rural roadside near a small fuel station on the outskirts of Fergana, Fergana Region, Uzbekistan",
+    "predicted_lat": 40.38638889,
+    "predicted_lng": 71.78638889,
+    "reasoning_text": "{\n  \"country\": \"Uzbekistan\",\n  \"country_code\": \"uz\",\n  \"region\": \"Central Asia\",\n  \"city\": \"Fergana\",\n  \"province_or_state\": \"Fergana Region\",\n  \"address\": \"Rural roadside near a small fuel station on the outskirts of Fergana, Fergana Region, Uzbekistan\",\n  \"confidence\": 0.44,\n  \"reasoning\": \"The scene looks strongly post-Soviet: white-painted tree trunks, simple utility poles, a narrow paved road, and low fenced properties. The green roadside price board appears to list fuel grades and 4-digit prices, which fits Uzbek fuel pricing conventions better than neighboring countries that usually display two-digit prices. The overall dry continental environment with many deciduous trees and village-style roadside landscaping is consistent with eastern Uzbekistan, especially the Fergana Valley. I cannot read a clear place name, so the exact locality is uncertain, but Uzbekistan is the best fit.\",\n  \"evidence\": [\n    \"Post-Soviet roadside appearance with white-painted tree trunks\",\n    \"Green fuel price sign showing likely fuel grades and 4-digit prices\",\n    \"Dry continental landscape with deciduous trees\",\n    \"Village/suburban road and fencing typical of Central Asia\",\n    \"General visual style matches Uzbekistan more than nearby countries\"\n  ]\n}",
+    "evidence_spans": [
+      "Post-Soviet roadside appearance with white-painted tree trunks",
+      "Green fuel price sign showing likely fuel grades and 4-digit prices",
+      "Dry continental landscape with deciduous trees",
+      "Village/suburban road and fencing typical of Central Asia",
+      "General visual style matches Uzbekistan more than nearby countries"
+    ],
+    "confidence": 0.44
+  },
+  "error": null
+}

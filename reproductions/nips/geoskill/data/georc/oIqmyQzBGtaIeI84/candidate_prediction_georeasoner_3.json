@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The blue Jeep Liberty and white pickup truck are common in the US, and the red car’s design is typical of American models.",
+    "The road has no center line but shows right-hand traffic flow, consistent with US driving conventions.",
+    "The architecture—single-story ranch-style homes with brick and siding—is prevalent in suburban US neighborhoods."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The blue Jeep Liberty and white pickup truck are common in the US, and the red car’s design is typical of American models.\",\n    \"The road has no center line but shows right-hand traffic flow, consistent with US driving conventions.\",\n    \"The architecture—single-story ranch-style homes with brick and siding—is prevalent in suburban US neighborhoods.\",\n    \"The clear blue sky, deciduous trees, and well-maintained lawns suggest a temper"
+}

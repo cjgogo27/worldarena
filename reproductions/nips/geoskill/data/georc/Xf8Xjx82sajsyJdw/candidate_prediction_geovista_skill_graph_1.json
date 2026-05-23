@@ -1,0 +1,106 @@
+{
+  "game_id": "Xf8Xjx82sajsyJdw",
+  "round": 1,
+  "sample_id": "georc::Xf8Xjx82sajsyJdw::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "sn",
+    "predicted_region": "africa",
+    "predicted_address": "Route de Dakar (N2), Keur Modou Ndiaye, Thiès, Thiès Region, Senegal",
+    "predicted_lat": 14.78333,
+    "predicted_lng": -16.96667,
+    "reasoning_text": "{\n  \"country\": \"Senegal\",\n  \"country_code\": \"sn\",\n  \"region\": \"West Africa\",\n  \"city\": \"Thiès\",\n  \"province_or_state\": \"Thiès Region\",\n  \"address\": \"Route de Dakar (N2), Keur Modou Ndiaye, Thiès, Thiès Region, Senegal\",\n  \"confidence\": 0.43,\n  \"reasoning\": \"The scene shows right-hand traffic on a wide paved urban-fringe road with sandy shoulders, unfinished cinderblock buildings, sparse dry-zone vegetation, and French-style road signage, which fits Senegal better than the other shortlist countries. The built environment looks more like a peri-urban corridor around Thiès than central Dakar or smaller Mauritanian/Malian settlements. Given the broad arterial character and the common development pattern along the main Dakar-Thiès approach, the best single specific guess is on Route de Dakar (N2) in the Keur Modou Ndiaye sector of Thiès.\",\n  \"evidence\": [\n    \"Right-hand traffic\",\n    \"Back of a triangular warning sign consistent with French-influenced signage\",\n    \"Wide paved road with sandy unpaved shoulders\",\n    \"Dry Sahel/Sudan transition climate appearance\",\n    \"Low-rise unfinished concrete and cinderblock buildings\",\n    \"Simple roadside streetlights on an urban arterial\",\n    \"Peri-urban settlement pattern typical of Thiès approaches\"\n  ]\n}",
+    "evidence_spans": [
+      "Right-hand traffic",
+      "Back of a triangular warning sign consistent with French-influenced signage",
+      "Wide paved road with sandy unpaved shoulders",
+      "Dry Sahel/Sudan transition climate appearance",
+      "Low-rise unfinished concrete and cinderblock buildings",
+      "Simple roadside streetlights on an urban arterial",
+      "Peri-urban settlement pattern typical of Thiès approaches"
+    ],
+    "confidence": 0.43,
+    "country_top3": [
+      "sn",
+      "ml",
+      "mr"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"sn\",\"ml\",\"mr\"],\"reason\":\"Dry Sahelian peri-urban setting with sandy shoulders, right-hand traffic, sparse vegetation, unfinished cinderblock buildings, and French-style triangular warning signage strongly suggests francophone West Africa. Senegal fits best, with Mali and Mauritania as nearby lookalikes.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.8875000000000002,
+        "pred_country": "sn",
+        "geo_country": "sn",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.43,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Route de Dakar (N2), Keur Modou Ndiaye, Thiès, Thiès Region, Senegal"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.8850000000000001,
+        "pred_country": "sn",
+        "geo_country": "sn",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.42,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Route de Dakar (N3), Keur Saïb Ndoye, Thiès, Thiès Region, Senegal"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.8575000000000002,
+        "pred_country": "sn",
+        "geo_country": "sn",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.39,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Route de Dakar, Médina Fall, Thiès, Thiès Region, Senegal"
+      }
+    ],
+    "selected_candidate_score": 0.8875000000000002,
+    "base_prediction_summary": {
+      "predicted_country": "sn",
+      "predicted_region": "africa",
+      "confidence": 0.47
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Senegal\",\n  \"country_code\": \"sn\",\n  \"region\": \"West Africa\",\n  \"city\": \"Thiès\",\n  \"province_or_state\": \"Thiès Region\",\n  \"address\": \"Peri-urban roadside area on the outskirts of Thiès, Thiès Region, Senegal\",\n  \"confidence\": 0.47,\n  \"reasoning\": \"The scene fits a francophone Sahel/Su",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "sn"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

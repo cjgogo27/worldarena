@@ -1,0 +1,24 @@
+{
+  "game_id": "SwSJB5DW8YXOSLn2",
+  "round": 1,
+  "sample_id": "georc::SwSJB5DW8YXOSLn2::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "gb",
+    "predicted_region": "europe",
+    "predicted_address": "Gravel moorland track near Princetown, Dartmoor National Park, Devon, England, United Kingdom",
+    "predicted_lat": 50.7,
+    "predicted_lng": -3.8,
+    "reasoning_text": "{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"region\": \"Western Europe\",\n  \"city\": \"Princetown\",\n  \"province_or_state\": \"England\",\n  \"address\": \"Gravel moorland track near Princetown, Dartmoor National Park, Devon, England, United Kingdom\",\n  \"confidence\": 0.34,\n  \"reasoning\": \"The scene shows a very narrow unpaved gravel lane crossing open heath or moorland with low scrub, gorse/heather-like vegetation, and wire fencing. This type of windswept temperate landscape strongly fits the British Isles. There are no readable signs, road markings, or buildings, so the identification relies mainly on terrain and vegetation. The combination of moorland scrub, rolling open ground, and a farm/service track is especially reminiscent of southwest England uplands such as Dartmoor or Exmoor. I favor the United Kingdom over Ireland because the vegetation and track style feel slightly more like English moorland, though the guess is uncertain.\",\n  \"evidence\": [\n    \"Open heath/moor landscape with low scrub and gorse/heather-like vegetation\",\n    \"Single-lane unpaved gravel track typical of rural upland areas\",\n    \"Wire fences and sparse utility infrastructure\",\n    \"Temperate maritime environment consistent with the British Isles\",\n    \"Terrain and vegetation especially reminiscent of southwest England moorland\"\n  ]\n}",
+    "evidence_spans": [
+      "Open heath/moor landscape with low scrub and gorse/heather-like vegetation",
+      "Single-lane unpaved gravel track typical of rural upland areas",
+      "Wire fences and sparse utility infrastructure",
+      "Temperate maritime environment consistent with the British Isles",
+      "Terrain and vegetation especially reminiscent of southwest England moorland"
+    ],
+    "confidence": 0.34
+  },
+  "error": null
+}

@@ -1,0 +1,10 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single dashed white centerline and solid white edges, consistent with Indian rural highways under the National Highways Authority of India (NHAI) standards.",
+    "A building on the right displays Devanagari script ('डागान'), which is used in Hindi-speaking regions of India, particularly Uttar Pradesh or Bihar."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single dashed white centerline and solid white edges, consistent with Indian rural highways under the National Highways Authority of India (NHAI) standards.\",\n    \"A building on the right displays Devanagari script ('डागान'), which is used in Hindi-speaking regions of India, particularly Uttar Pradesh or Bihar.\",\n    \"Vegetation includes lush green trees and grassy verges typical of tropical monsoon climates found in northern India"
+}

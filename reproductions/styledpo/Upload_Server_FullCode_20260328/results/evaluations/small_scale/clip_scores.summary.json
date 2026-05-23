@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-03-28T06:40:49.655852+00:00",
+  "pairs_file": "results/pair_benchmark_build/preference_pairs.json",
+  "count": 400,
+  "clip_mean": 0.6098994028568268,
+  "clip_min": 0.5608103275299072,
+  "clip_max": 0.6614031195640564,
+  "output_csv": "results/evaluations/small_scale/clip_scores.csv"
+}

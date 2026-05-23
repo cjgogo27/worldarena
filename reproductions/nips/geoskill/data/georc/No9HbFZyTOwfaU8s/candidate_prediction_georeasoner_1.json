@@ -1,0 +1,12 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The highway has right-hand traffic, consistent with US driving conventions.",
+    "The vegetation is arid scrubland typical of the American Southwest, particularly Arizona or New Mexico.",
+    "The truck branding 'R+L Carriers' is a major US-based freight company.",
+    "The road design, including wide shoulders and lack of urban infrastructure, matches rural interstate highways in the US."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The highway has right-hand traffic, consistent with US driving conventions.\",\n    \"The vegetation is arid scrubland typical of the American Southwest, particularly Arizona or New Mexico.\",\n    \"The truck branding 'R+L Carriers' is a major US-based freight company.\",\n    \"The road design, including wide shoulders and lack of urban infrastructure, matches rural interstate highways in the US.\"\n  ]\n}"
+}

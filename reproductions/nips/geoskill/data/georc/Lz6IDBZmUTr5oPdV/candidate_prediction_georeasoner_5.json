@@ -1,0 +1,11 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a single dashed white centerline and right-hand traffic, consistent with Portugal’s driving conventions.",
+    "Stone dry-wall fences are prevalent across rolling green hills, a hallmark of rural Portuguese landscapes, especially in the north.",
+    "A solitary oak tree and sparse vegetation under overcast skies suggest a temperate maritime climate typical of northern Portugal."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a single dashed white centerline and right-hand traffic, consistent with Portugal’s driving conventions.\",\n    \"Stone dry-wall fences are prevalent across rolling green hills, a hallmark of rural Portuguese landscapes, especially in the north.\",\n    \"A solitary oak tree and sparse vegetation under overcast skies suggest a temperate maritime climate typical of northern Portugal.\",\n    \"Distant buildings with light-colored roofs and lack of signage or commercial infrastructure point to a"
+}

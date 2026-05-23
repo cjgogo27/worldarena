@@ -1,0 +1,11 @@
+{
+  "country": "Namibia",
+  "country_code": "na",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow center line and white dashed lane dividers, consistent with right-hand traffic in Namibia.",
+    "Sparse, arid vegetation and flat, sandy terrain are characteristic of Namibia’s semi-desert regions.",
+    "Utility poles with overhead wires and simple rural infrastructure align with Namibia’s remote road networks."
+  ],
+  "raw_output": "{\n  \"country\": \"Namibia\",\n  \"country_code\": \"na\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow center line and white dashed lane dividers, consistent with right-hand traffic in Namibia.\",\n    \"Sparse, arid vegetation and flat, sandy terrain are characteristic of Namibia’s semi-desert regions.\",\n    \"Utility poles with overhead wires and simple rural infrastructure align with Namibia’s remote road networks.\",\n    \"The white pickup truck and lack of urban development suggest a rural or semi-rural setting typical of Nam"
+}

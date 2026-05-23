@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt road with white center line and right-hand traffic, consistent with Japanese rural roads.",
+    "The yellow diamond-shaped warning sign with a black symbol (likely indicating a curve or hazard) matches Japanese road signage standards.",
+    "Concrete retaining walls and dense green vegetation on steep slopes are typical of mountainous rural areas in Japan."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt road with white center line and right-hand traffic, consistent with Japanese rural roads.\",\n    \"The yellow diamond-shaped warning sign with a black symbol (likely indicating a curve or hazard) matches Japanese road signage standards.\",\n    \"Concrete retaining walls and dense green vegetation on steep slopes are typical of mountainous rural areas in Japan.\",\n    \"No visible vehicles or modern infrastructure suggest a quiet, non-urbanized area common"
+}

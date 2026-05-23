@@ -1,0 +1,694 @@
+{
+  "game_id": "JnTw9kl2nWPFaoUg",
+  "round": 1,
+  "sample_id": "georc::JnTw9kl2nWPFaoUg::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "om",
+    "predicted_region": "asia",
+    "predicted_address": "Rural farm track near Barka, South Al Batinah Governorate, Oman",
+    "predicted_lat": 23.69641667,
+    "predicted_lng": 57.88777778,
+    "reasoning_text": "{\n  \"country\": \"Oman\",\n  \"country_code\": \"om\",\n  \"region\": \"Middle East\",\n  \"city\": \"Barka\",\n  \"province_or_state\": \"South Al Batinah Governorate\",\n  \"address\": \"Rural farm track near Barka, South Al Batinah Governorate, Oman\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"Applying the ordered skill graph strictly: Skill 1 fits immediately because the landscape is arid and flat with sparse vegetation, indicating a desert or semi-desert setting. From Skill 1, the linked cues to Skill 7, Skill 9, and Skill 11 all reinforce the same interpretation: flat, dry terrain with low scrub and dusty/gravelly ground typical of desert margins. The tropical branches in the graph such as Skills 2, 5, and 12 are not supported here because the scene lacks dense coconut palms, lush undergrowth, or humid-climate road edges. The South Africa, Malaysia, and Kyrgyzstan branches are also inconsistent with the visible Gulf-style walled compound, date palms, and very open arid plain. The remaining consistent interpretation is a rural Arabian desert-edge agricultural area. Within that context, the masonry compound walls, scattered date palms, and broad flat farm plain are strongly consistent with northern Oman, especially the Batinah coastal plain around Barka.\",\n  \"evidence\": [\n    \"Very flat arid terrain\",\n    \"Sparse low vegetation and dry gravelly soil\",\n    \"Date palms rather than dense tropical coconut growth\",\n    \"Light-colored walled masonry compound typical of rural Gulf properties\",\n    \"Open farm-edge plain with little urban development\",\n    \"Overall desert-margin agricultural landscape consistent with coastal Oman\"\n  ]\n}",
+    "evidence_spans": [
+      "Very flat arid terrain",
+      "Sparse low vegetation and dry gravelly soil",
+      "Date palms rather than dense tropical coconut growth",
+      "Light-colored walled masonry compound typical of rural Gulf properties",
+      "Open farm-edge plain with little urban development",
+      "Overall desert-margin agricultural landscape consistent with coastal Oman"
+    ],
+    "confidence": 0.72,
+    "base_prediction_summary": {
+      "predicted_country": "om",
+      "predicted_region": "asia",
+      "confidence": 0.47
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The landscape is arid and flat with sparse vegetation, suggesting a semi-desert or desert environment.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "vegetation"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 5,
+        "score": 0.8387668132781982,
+        "bm25_score": 39.716392517089844,
+        "semantic_score": 0.4790291488170624
+      },
+      {
+        "skill_text": "The presence of dense coconut palms and tropical vegetation suggests a humid tropical climate, typical of coastal South Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "coast",
+          "vegetation"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 3,
+        "score": 0.8121089339256287,
+        "bm25_score": 37.07130432128906,
+        "semantic_score": 0.47915107011795044
+      },
+      {
+        "skill_text": "Overall, the vegetation, fencing, farm type, and road style strongly suggest rural South Africa, likely near Bethlehem in the Free State province.",
+        "region_hint": "africa",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 3,
+        "score": 0.8105909824371338,
+        "bm25_score": 49.39934158325195,
+        "semantic_score": 0.34483802318573
+      },
+      {
+        "skill_text": "The overall setup resembles rural or peri-urban Malaysia rather than the more urbanized and regulated environments in Singapore or Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "overall",
+          "resembles",
+          "rural",
+          "setup"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 4,
+        "score": 0.8066749572753906,
+        "bm25_score": 38.94288635253906,
+        "semantic_score": 0.4532265067100525
+      },
+      {
+        "skill_text": "The presence of lush, tropical vegetation including palms and dense undergrowth matches what is found in subtropical climates, particularly in South and Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "vegetation"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 2,
+        "score": 0.8048691153526306,
+        "bm25_score": 32.023555755615234,
+        "semantic_score": 0.5257856249809265
+      },
+      {
+        "skill_text": "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 1,
+        "score": 0.8029367923736572,
+        "bm25_score": 38.4051399230957,
+        "semantic_score": 0.4550394117832184
+      },
+      {
+        "skill_text": "The landscape is arid and flat with sparse, low vegetation, indicating a desert or semi-desert region.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "vegetation"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.793108344078064,
+        "bm25_score": 33.82450485229492,
+        "semantic_score": 0.4938930869102478
+      },
+      {
+        "skill_text": "The typically hilly terrain suggests a location on the outskirts or in the rural parts rather than dense metropolitan areas.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "terrain"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 2,
+        "score": 0.7893141508102417,
+        "bm25_score": 42.5720329284668,
+        "semantic_score": 0.39569979906082153
+      },
+      {
+        "skill_text": "The landscape is arid with sparse shrub vegetation and dry soil, consistent with desert or semi-arid environments.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "soil",
+          "vegetation"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 4,
+        "score": 0.777654767036438,
+        "bm25_score": 33.291351318359375,
+        "semantic_score": 0.48319751024246216
+      },
+      {
+        "skill_text": "The presence of broad-leaved trees and the general greenery suggest a southern Kyrgyzstan city.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "trees"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.7705934047698975,
+        "bm25_score": 38.924293518066406,
+        "semantic_score": 0.4150550961494446
+      },
+      {
+        "skill_text": "The landscape is arid and flat, with scrubby, dry vegetation typical of semi-desert environments.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "vegetation"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 2,
+        "score": 0.770570695400238,
+        "bm25_score": 35.430030822753906,
+        "semantic_score": 0.45264312624931335
+      },
+      {
+        "skill_text": "This location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "South",
+          "This",
+          "location",
+          "typical"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 3,
+        "score": 0.7539852857589722,
+        "bm25_score": 25.09341049194336,
+        "semantic_score": 0.5462682843208313
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The landscape is arid and flat with sparse vegetation, suggesting a semi-desert or desert environment.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.8387668132781982,
+          "visual_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The presence of dense coconut palms and tropical vegetation suggests a humid tropical climate, typical of coastal South Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8121089339256287,
+          "visual_cues": [
+            "climate",
+            "coast",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "Overall, the vegetation, fencing, farm type, and road style strongly suggest rural South Africa, likely near Bethlehem in the Free State province.",
+          "region_hint": "africa",
+          "confidence": 0.75,
+          "score": 0.8105909824371338,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The overall setup resembles rural or peri-urban Malaysia rather than the more urbanized and regulated environments in Singapore or Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8066749572753906,
+          "visual_cues": [
+            "overall",
+            "resembles",
+            "rural",
+            "setup"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The presence of lush, tropical vegetation including palms and dense undergrowth matches what is found in subtropical climates, particularly in South and Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8048691153526306,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.8029367923736572,
+          "visual_cues": [
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The landscape is arid and flat with sparse, low vegetation, indicating a desert or semi-desert region.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.793108344078064,
+          "visual_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The typically hilly terrain suggests a location on the outskirts or in the rural parts rather than dense metropolitan areas.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7893141508102417,
+          "visual_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The landscape is arid with sparse shrub vegetation and dry soil, consistent with desert or semi-arid environments.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.777654767036438,
+          "visual_cues": [
+            "soil",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The presence of broad-leaved trees and the general greenery suggest a southern Kyrgyzstan city.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7705934047698975,
+          "visual_cues": [
+            "road",
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The landscape is arid and flat, with scrubby, dry vegetation typical of semi-desert environments.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.770570695400238,
+          "visual_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "This location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7539852857589722,
+          "visual_cues": [
+            "South",
+            "This",
+            "location",
+            "typical"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The landscape is arid and flat with sparse vegetation, suggesting a semi-desert or desert environment.",
+        "The presence of dense coconut palms and tropical vegetation suggests a humid tropical climate, typical of coastal South Asia.",
+        "Overall, the vegetation, fencing, farm type, and road style strongly suggest rural South Africa, likely near Bethlehem in the Free State province.",
+        "The overall setup resembles rural or peri-urban Malaysia rather than the more urbanized and regulated environments in Singapore or Indonesia.",
+        "The presence of lush, tropical vegetation including palms and dense undergrowth matches what is found in subtropical climates, particularly in South and Southeast Asia.",
+        "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+        "The landscape is arid and flat with sparse, low vegetation, indicating a desert or semi-desert region.",
+        "The typically hilly terrain suggests a location on the outskirts or in the rural parts rather than dense metropolitan areas.",
+        "The landscape is arid with sparse shrub vegetation and dry soil, consistent with desert or semi-arid environments.",
+        "The presence of broad-leaved trees and the general greenery suggest a southern Kyrgyzstan city.",
+        "The landscape is arid and flat, with scrubby, dry vegetation typical of semi-desert environments.",
+        "This location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible"
+      ],
+      "summary": "nodes=12, edges=39, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Oman\",\n  \"country_code\": \"om\",\n  \"region\": \"Middle East\",\n  \"city\": \"Barka\",\n  \"province_or_state\": \"South Al Batinah Governorate\",\n  \"address\": \"Rural farm track near Barka, South Al Batinah Governorate, Oman\",\n  \"confidence\": 0.47,\n  \"reasoning\": \"The scene shows a very flat, arid ",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 39,
+        "graph_summary": "nodes=12, edges=39, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "om"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

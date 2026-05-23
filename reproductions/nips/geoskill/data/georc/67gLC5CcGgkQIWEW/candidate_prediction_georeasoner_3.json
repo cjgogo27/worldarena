@@ -1,0 +1,11 @@
+{
+  "country": "Romania",
+  "country_code": "ro",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved dirt road with no center line and vehicles parked on the right side suggests a rural area in Eastern Europe where right-hand traffic is common.",
+    "Utility poles with overhead wires and simple wooden or metal fencing are typical of Romanian countryside infrastructure.",
+    "Vegetation includes deciduous trees with early spring foliage, consistent with temperate continental climate found in Romania."
+  ],
+  "raw_output": "{\n  \"country\": \"Romania\",\n  \"country_code\": \"ro\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved dirt road with no center line and vehicles parked on the right side suggests a rural area in Eastern Europe where right-hand traffic is common.\",\n    \"Utility poles with overhead wires and simple wooden or metal fencing are typical of Romanian countryside infrastructure.\",\n    \"Vegetation includes deciduous trees with early spring foliage, consistent with temperate continental climate found in Romania.\",\n    \"Architecture features modest single-story houses with tiled roofs and enclosed yards,"
+}

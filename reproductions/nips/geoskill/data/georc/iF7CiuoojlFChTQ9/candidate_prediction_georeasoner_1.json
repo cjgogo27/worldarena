@@ -1,0 +1,11 @@
+{
+  "country": "Philippines",
+  "country_code": "ph",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a single yellow center line and white edge lines, consistent with Philippine rural road standards.",
+    "Vegetation includes coconut palms and broadleaf trees typical of tropical Southeast Asian climates, especially in the Philippines.",
+    "A thatched-roof roadside shelter is visible, common in rural Philippine communities for rest or small commerce."
+  ],
+  "raw_output": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a single yellow center line and white edge lines, consistent with Philippine rural road standards.\",\n    \"Vegetation includes coconut palms and broadleaf trees typical of tropical Southeast Asian climates, especially in the Philippines.\",\n    \"A thatched-roof roadside shelter is visible, common in rural Philippine communities for rest or small commerce.\",\n    \"No visible signage or vehicles provide direct language or brand clues, but terrain and infrastructure strongly align with Philippine"
+}

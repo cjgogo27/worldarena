@@ -1,0 +1,10 @@
+{
+  "sample_id": "georc::Lz6IDBZmUTr5oPdV::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "game_id": "Lz6IDBZmUTr5oPdV",
+  "round": 1,
+  "ground_truth_country": "hu",
+  "ground_truth_lat": 48.02561982737819,
+  "ground_truth_lng": 22.75520496326198
+}

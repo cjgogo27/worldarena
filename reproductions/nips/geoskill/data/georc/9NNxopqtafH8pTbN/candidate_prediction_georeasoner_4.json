@@ -1,0 +1,11 @@
+{
+  "country": "Indonesia",
+  "country_code": "id",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of banana plants, palm trees, and dense tropical vegetation indicates a humid tropical climate typical of Southeast Asia, particularly Indonesia.",
+    "The road is narrow, unpaved on the sides, and lacks clear lane markings or center lines, consistent with rural infrastructure in many Indonesian villages.",
+    "A motorcyclist is driving on the left side of the road, which aligns with Indonesia’s left-hand traffic system."
+  ],
+  "raw_output": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of banana plants, palm trees, and dense tropical vegetation indicates a humid tropical climate typical of Southeast Asia, particularly Indonesia.\",\n    \"The road is narrow, unpaved on the sides, and lacks clear lane markings or center lines, consistent with rural infrastructure in many Indonesian villages.\",\n    \"A motorcyclist is driving on the left side of the road, which aligns with Indonesia’s left-hand traffic system.\",\n    \"The concrete house with"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "The dirt road with no center line and right-hand traffic alignment suggests a rural Australian setting where unsealed roads are common.",
+    "The presence of eucalyptus-like trees and open grassy plains is characteristic of Australian inland landscapes, particularly in states like New South Wales or Victoria.",
+    "Utility poles with cross-arms and overhead wires are typical of Australian rural infrastructure, and their design matches regional standards."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The dirt road with no center line and right-hand traffic alignment suggests a rural Australian setting where unsealed roads are common.\",\n    \"The presence of eucalyptus-like trees and open grassy plains is characteristic of Australian inland landscapes, particularly in states like New South Wales or Victoria.\",\n    \"Utility poles with cross-arms and overhead wires are typical of Australian rural infrastructure, and their design matches regional standards.\",\n    \"The bright sun position and"
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "user_id": "30298497_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:00",
+        "reason": "The user is currently at home and it's nighttime, making it appropriate to continue resting until morning."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "07:00",
+        "end_time": "08:00",
+        "reason": "Engaging in moderate physical activity in the morning aligns with the user's routine and promotes a healthy work-life balance."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "09:00",
+        "reason": "The user has a full-time work commitment that begins shortly after their morning routine."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00",
+        "reason": "Continuing with the full-time professional work schedule."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "reason": "Engaging in physical activity aligns with the user's routine and helps maintain work-life balance."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:00",
+        "end_time": "19:30",
+        "reason": "Enjoying a meal out allows for socializing with loved ones after a day of work and exercise."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "22:00",
+        "reason": "After dining out, it's a good time to spend quality time with friends or family, aligning with the user's preference for socializing."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:00",
+        "end_time": "24:00",
+        "reason": "After socializing, it's time to unwind at home and prepare for the next day."
+      }
+    ]
+  },
+  {
+    "user_id": "30298497_1",
+    "schedule": [
+      {
+        "activity": "education",
+        "start_time": "00:00",
+        "end_time": "01:00",
+        "reason": "Engaging in online courses or skill development to enhance qualifications while looking for work."
+      },
+      {
+        "activity": "education",
+        "start_time": "01:00",
+        "end_time": "02:00",
+        "reason": "Continuing to enhance skills or qualifications to improve job prospects."
+      },
+      {
+        "activity": "education",
+        "start_time": "02:00",
+        "end_time": "05:00",
+        "reason": "Utilizing early morning hours for focused job searching aligns with the current goal of finding employment."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "05:00",
+        "end_time": "06:00",
+        "reason": "Engaging in moderate physical activity to maintain health and energy levels before starting the day."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "To purchase essential items while taking advantage of early store hours and avoiding crowds."
+      },
+      {
+        "activity": "education",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "Engaging in skill development through online courses can enhance qualifications while looking for work."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "13:00",
+        "reason": "The user has a part-time work schedule and it's time to engage in their job responsibilities."
+      },
+      {
+        "activity": "education",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "Engaging in skill development activities to enhance qualifications while looking for work."
+      },
+      {
+        "activity": "education",
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "reason": "Continuing skill development to enhance qualifications while looking for work."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "reason": "Incorporating moderate physical activity after work aligns with the routine and promotes health while balancing job searching."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "18:00",
+        "end_time": "19:30",
+        "reason": "To prioritize essential purchases and look for deals while being budget-conscious."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "21:30",
+        "reason": "Engaging with friends or community members can enhance social connections and provide support while looking for work."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  }
+]

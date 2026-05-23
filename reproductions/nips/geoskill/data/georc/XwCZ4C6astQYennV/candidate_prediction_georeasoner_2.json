@@ -1,0 +1,11 @@
+{
+  "country": "Greece",
+  "country_code": "gr",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of olive groves on both sides of the road is characteristic of rural Greece, particularly in regions like Peloponnese or Crete.",
+    "The white-washed house with a red-tiled roof on the left is typical of traditional Greek architecture found in countryside areas.",
+    "The narrow, unpaved shoulder and lack of formal road markings suggest a rural setting common in less developed parts of Greece."
+  ],
+  "raw_output": "{\n  \"country\": \"Greece\",\n  \"country_code\": \"gr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of olive groves on both sides of the road is characteristic of rural Greece, particularly in regions like Peloponnese or Crete.\",\n    \"The white-washed house with a red-tiled roof on the left is typical of traditional Greek architecture found in countryside areas.\",\n    \"The narrow, unpaved shoulder and lack of formal road markings suggest a rural setting common in less developed parts of Greece.\",\n    \"The vehicle driving on"
+}

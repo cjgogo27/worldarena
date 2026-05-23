@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved dirt road with visible tire tracks and lack of formal markings is typical of rural Indian countryside infrastructure.",
+    "The lush green paddy field on the right suggests a monsoon-influenced agricultural zone common in northern or western India.",
+    "Vegetation includes dense shrubs and scattered trees consistent with semi-arid to sub-humid climates found in states like Maharashtra or Gujarat."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved dirt road with visible tire tracks and lack of formal markings is typical of rural Indian countryside infrastructure.\",\n    \"The lush green paddy field on the right suggests a monsoon-influenced agricultural zone common in northern or western India.\",\n    \"Vegetation includes dense shrubs and scattered trees consistent with semi-arid to sub-humid climates found in states like Maharashtra or Gujarat.\",\n    \"No visible signage, utility poles, or"
+}

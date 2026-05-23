@@ -1,0 +1,12 @@
+{
+  "country": "Belgium",
+  "country_code": "be",
+  "city": "",
+  "reasoning_chain": [
+    "The architecture features red brick row houses with steep tiled roofs and dormer windows, typical of Belgian suburban neighborhoods.",
+    "Cars are parked on the right side of the road, consistent with right-hand traffic in Belgium.",
+    "The vegetation includes deciduous trees with autumn foliage, matching the temperate climate of Belgium.",
+    "No visible signage or language text is present, but the overall urban design and vehicle types align with Belgian residential areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Belgium\",\n  \"country_code\": \"be\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The architecture features red brick row houses with steep tiled roofs and dormer windows, typical of Belgian suburban neighborhoods.\",\n    \"Cars are parked on the right side of the road, consistent with right-hand traffic in Belgium.\",\n    \"The vegetation includes deciduous trees with autumn foliage, matching the temperate climate of Belgium.\",\n    \"No visible signage or language text is present, but the overall urban design and vehicle types align with Belgian residential areas.\""
+}

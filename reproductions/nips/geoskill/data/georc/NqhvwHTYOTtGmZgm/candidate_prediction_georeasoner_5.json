@@ -1,0 +1,11 @@
+{
+  "country": "Saudi Arabia",
+  "country_code": "sa",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved with no center line or lane markings, typical of remote desert roads in Saudi Arabia.",
+    "Sparse, low-lying desert shrubs and dry, sandy terrain are characteristic of the Arabian Peninsula’s arid climate.",
+    "No visible infrastructure such as utility poles, buildings, or signage suggests a remote, non-urban location common in Saudi’s interior deserts."
+  ],
+  "raw_output": "{\n  \"country\": \"Saudi Arabia\",\n  \"country_code\": \"sa\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved with no center line or lane markings, typical of remote desert roads in Saudi Arabia.\",\n    \"Sparse, low-lying desert shrubs and dry, sandy terrain are characteristic of the Arabian Peninsula’s arid climate.\",\n    \"No visible infrastructure such as utility poles, buildings, or signage suggests a remote, non-urban location common in Saudi’s interior deserts.\",\n    \"The flat, expansive horizon and lack of vegetation"
+}

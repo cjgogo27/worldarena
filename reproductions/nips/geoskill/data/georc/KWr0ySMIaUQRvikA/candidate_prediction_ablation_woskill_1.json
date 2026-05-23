@@ -1,0 +1,25 @@
+{
+  "game_id": "KWr0ySMIaUQRvikA",
+  "round": 1,
+  "sample_id": "georc::KWr0ySMIaUQRvikA::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ph",
+    "predicted_region": "asia",
+    "predicted_address": "Rural road on the outskirts of Davao, Davao del Sur, Philippines",
+    "predicted_lat": 7.066233,
+    "predicted_lng": 125.609442,
+    "reasoning_text": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Davao\",\n  \"province_or_state\": \"Davao del Sur\",\n  \"address\": \"Rural road on the outskirts of Davao, Davao del Sur, Philippines\",\n  \"confidence\": 0.68,\n  \"reasoning\": \"The scene shows a tropical lowland environment with dense greenery, coconut palms, and what appear to be mango trees, which is very typical of the Philippines. The road is a narrow concrete barangay-style road with a single yellow centerline, a common road construction style in provincial Philippine areas. The houses are set behind concrete walls and fences, also matching residential patterns seen in the Philippines. Utility poles and overhead wiring fit the same setting. The motorcycles appear to be using the right side of the road, consistent with Philippine traffic rules. There are no clearly readable signs, so the exact locality is uncertain, but the overall look strongly suggests a suburban or rural area in Mindanao, with Davao being a plausible approximate location.\",\n  \"evidence\": [\n    \"Tropical vegetation including coconut palms and likely mango trees\",\n    \"Narrow concrete road with a yellow centerline typical of provincial Philippine roads\",\n    \"Residential compounds behind concrete walls and fences\",\n    \"Utility poles and overhead wires consistent with Southeast Asian suburban areas\",\n    \"Motorcycles appear to be traveling on the right side of the road\",\n    \"Flat, humid, lowland environment matches southern Philippines\"\n  ]\n}",
+    "evidence_spans": [
+      "Tropical vegetation including coconut palms and likely mango trees",
+      "Narrow concrete road with a yellow centerline typical of provincial Philippine roads",
+      "Residential compounds behind concrete walls and fences",
+      "Utility poles and overhead wires consistent with Southeast Asian suburban areas",
+      "Motorcycles appear to be traveling on the right side of the road",
+      "Flat, humid, lowland environment matches southern Philippines"
+    ],
+    "confidence": 0.68
+  },
+  "error": null
+}

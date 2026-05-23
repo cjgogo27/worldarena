@@ -1,0 +1,11 @@
+{
+  "country": "South Africa",
+  "country_code": "za",
+  "city": "",
+  "reasoning_chain": [
+    "The road has no center line and is unpaved on shoulders, typical of rural roads in South Africa’s semi-arid regions.",
+    "Vegetation consists of dense green shrubs and scattered trees, consistent with the Karoo or Eastern Cape bushveld biome.",
+    "Utility poles are wooden with crossarms and insulators, common in rural South African infrastructure."
+  ],
+  "raw_output": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has no center line and is unpaved on shoulders, typical of rural roads in South Africa’s semi-arid regions.\",\n    \"Vegetation consists of dense green shrubs and scattered trees, consistent with the Karoo or Eastern Cape bushveld biome.\",\n    \"Utility poles are wooden with crossarms and insulators, common in rural South African infrastructure.\",\n    \"Overcast sky and flat terrain suggest a high-altitude or inland location"
+}

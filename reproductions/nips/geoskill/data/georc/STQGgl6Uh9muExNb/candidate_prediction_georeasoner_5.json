@@ -1,0 +1,11 @@
+{
+  "country": "Canada",
+  "country_code": "ca",
+  "city": "Calgary",
+  "reasoning_chain": [
+    "The green highway sign with white text and directional arrows is consistent with Canadian provincial highway signage style.",
+    "The brown sign reading 'Spark Science Centre' refers to a well-known science museum located in Calgary, Alberta.",
+    "The left-hand traffic flow and road markings (dashed white lines separating lanes) indicate a country that drives on the left, such as Canada."
+  ],
+  "raw_output": "{\n  \"country\": \"Canada\",\n  \"country_code\": \"ca\",\n  \"city\": \"Calgary\",\n  \"reasoning_chain\": [\n    \"The green highway sign with white text and directional arrows is consistent with Canadian provincial highway signage style.\",\n    \"The brown sign reading 'Spark Science Centre' refers to a well-known science museum located in Calgary, Alberta.\",\n    \"The left-hand traffic flow and road markings (dashed white lines separating lanes) indicate a country that drives on the left, such as Canada.\",\n    \"The overcast sky, grassy hills, and modern"
+}

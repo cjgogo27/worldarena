@@ -1,0 +1,12 @@
+{
+  "country": "Latvia",
+  "country_code": "lv",
+  "city": "",
+  "reasoning_chain": [
+    "The rural architecture with wooden farmhouses and brick houses is typical of Latvian countryside.",
+    "Utility poles and overhead power lines are consistent with infrastructure in rural Latvia.",
+    "The unpaved road and lack of formal road markings suggest a remote village setting common in Latvia.",
+    "Vegetation includes deciduous trees and grassy fields, matching the temperate climate of Latvia."
+  ],
+  "raw_output": "{\n  \"country\": \"Latvia\",\n  \"country_code\": \"lv\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The rural architecture with wooden farmhouses and brick houses is typical of Latvian countryside.\",\n    \"Utility poles and overhead power lines are consistent with infrastructure in rural Latvia.\",\n    \"The unpaved road and lack of formal road markings suggest a remote village setting common in Latvia.\",\n    \"Vegetation includes deciduous trees and grassy fields, matching the temperate climate of Latvia.\"\n  ]\n}"
+}

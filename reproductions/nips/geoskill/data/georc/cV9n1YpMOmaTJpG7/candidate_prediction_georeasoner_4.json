@@ -1,0 +1,11 @@
+{
+  "country": "Turkey",
+  "country_code": "tr",
+  "city": "",
+  "reasoning_chain": [
+    "The red-tiled roofs and simple single-story houses are typical of rural Anatolian architecture in Turkey.",
+    "The unpaved dirt road with no center markings and right-hand traffic alignment (implied by vehicle positioning and road layout) matches rural Turkish infrastructure.",
+    "Vegetation includes grassy plains and scattered shrubs under a clear blue sky, consistent with the dry, open landscapes of central or eastern Turkey."
+  ],
+  "raw_output": "{\n  \"country\": \"Turkey\",\n  \"country_code\": \"tr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The red-tiled roofs and simple single-story houses are typical of rural Anatolian architecture in Turkey.\",\n    \"The unpaved dirt road with no center markings and right-hand traffic alignment (implied by vehicle positioning and road layout) matches rural Turkish infrastructure.\",\n    \"Vegetation includes grassy plains and scattered shrubs under a clear blue sky, consistent with the dry, open landscapes of central or eastern Turkey.\",\n    \"Utility poles and overhead power"
+}

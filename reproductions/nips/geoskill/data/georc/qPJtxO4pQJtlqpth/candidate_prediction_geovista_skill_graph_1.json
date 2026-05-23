@@ -1,0 +1,106 @@
+{
+  "game_id": "qPJtxO4pQJtlqpth",
+  "round": 1,
+  "sample_id": "georc::qPJtxO4pQJtlqpth::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ru",
+    "predicted_region": "europe",
+    "predicted_address": "ул. 60 лет Октября, Oryol, Oryol Oblast, Russia",
+    "predicted_lat": 52.96879,
+    "predicted_lng": 36.0791,
+    "reasoning_text": "```json\n{\n  \"country\": \"Russia\",\n  \"country_code\": \"ru\",\n  \"region\": \"Europe\",\n  \"city\": \"Oryol\",\n  \"province_or_state\": \"Oryol Oblast\",\n  \"address\": \"ул. 60 лет Октября, Oryol, Oryol Oblast, Russia\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The Russian tricolor flag on the lamppost confirms the country. The Soviet-era panel apartment building with orange/terracotta, white, and blue balcony accents is characteristic of Russian provincial cities. The combination of paved road with unpaved shoulder, blue wooden fences, garage cooperatives, railway catenary infrastructure, and flat terrain aligns with a Russian city of 200,000-400,000 inhabitants. The specific building color scheme and street layout closely match known Street View coverage in Oryol, particularly along ulitsa 60 let Oktyabrya which runs parallel to railway lines in the northern part of the city. The curved-arm street lamps and building renovation pattern (partial repainting in blue and white) are consistent with Oryol's urban development.\",\n  \"evidence\": [\"Russian tricolor flag on lamppost\", \"Soviet panel apartment building with orange/terracotta and blue/white balcony accents\", \"Railway catenary infrastructure parallel to road\", \"Blue wooden fences and garage cooperatives\", \"Curved-arm street lamp design\", \"Paved road with unpaved shoulder\", \"Flat terrain with high-voltage transmission towers\"]\n}\n```",
+    "evidence_spans": [
+      "Russian tricolor flag on lamppost",
+      "Soviet panel apartment building with orange/terracotta and blue/white balcony accents",
+      "Railway catenary infrastructure parallel to road",
+      "Blue wooden fences and garage cooperatives",
+      "Curved-arm street lamp design",
+      "Paved road with unpaved shoulder",
+      "Flat terrain with high-voltage transmission towers"
+    ],
+    "confidence": 0.72,
+    "country_top3": [
+      "ru",
+      "ua",
+      "by"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"ru\",\"ua\",\"by\"],\"reason\":\"Russian tricolor flag on lamppost is definitive. Soviet-era panel apartment building with orange/terracotta, white, and blue balcony accents is characteristic of Russian provincial towns. Blue wooden fences, garage cooperatives, and railway infrastructure match Russian urban periphery patterns. Ukraine and Belarus share similar Soviet architectural heritage but the specific flag and building color scheme strongly favor Russia.\"}\n```",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.8275,
+        "pred_country": "ru",
+        "geo_country": "ru",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.55,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "улица Гагарина, Oryol, Oryol Oblast, Russia"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.87,
+        "pred_country": "ru",
+        "geo_country": "ru",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "улица Красноармейская, Yoshkar-Ola, Mari El Republic, Russia"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.89,
+        "pred_country": "ru",
+        "geo_country": "ru",
+        "country_consistency": 1.0,
+        "address_specificity": 0.55,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "ул. 60 лет Октября, Oryol, Oryol Oblast, Russia"
+      }
+    ],
+    "selected_candidate_score": 0.89,
+    "base_prediction_summary": {
+      "predicted_country": "ru",
+      "predicted_region": "europe",
+      "confidence": 0.85
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"Russia\",\n  \"country_code\": \"ru\",\n  \"region\": \"Europe\",\n  \"city\": \"Unknown\",\n  \"province_or_state\": \"Unknown\",\n  \"address\": \"Russia, residential district near railway with Soviet panel apartment buildings\",\n  \"confidence\": 0.85,\n  \"reasoning\": \"The Russian tricolor flag on the",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "ru"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

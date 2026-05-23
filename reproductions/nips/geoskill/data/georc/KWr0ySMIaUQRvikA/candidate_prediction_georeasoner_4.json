@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved gravel road with no center line or markings is typical of rural U.S. agricultural areas, especially in the Great Plains.",
+    "The presence of a large metal barn and round hay bales indicates active farming, common in states like Montana, North Dakota, or South Dakota.",
+    "The flat terrain, dry grass verges, and distant low mountains are characteristic of the Northern Great Plains region of the U.S."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved gravel road with no center line or markings is typical of rural U.S. agricultural areas, especially in the Great Plains.\",\n    \"The presence of a large metal barn and round hay bales indicates active farming, common in states like Montana, North Dakota, or South Dakota.\",\n    \"The flat terrain, dry grass verges, and distant low mountains are characteristic of the Northern Great Plains region of the U.S.\",\n    \"No"
+}

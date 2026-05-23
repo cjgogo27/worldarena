@@ -1,0 +1,11 @@
+{
+  "country": "Tunisia",
+  "country_code": "tn",
+  "city": "",
+  "reasoning_chain": [
+    "Arabic script on shop signs (e.g., 'FOUED AUTO' with Arabic text) indicates a North African Arabic-speaking country.",
+    "Right-hand traffic and vehicle orientation confirm driving on the right, consistent with Tunisia.",
+    "Palm trees and white-washed buildings are typical of Tunisian coastal or semi-arid urban areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Tunisia\",\n  \"country_code\": \"tn\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Arabic script on shop signs (e.g., 'FOUED AUTO' with Arabic text) indicates a North African Arabic-speaking country.\",\n    \"Right-hand traffic and vehicle orientation confirm driving on the right, consistent with Tunisia.\",\n    \"Palm trees and white-washed buildings are typical of Tunisian coastal or semi-arid urban areas.\",\n    \"Utility poles and street layout resemble those found in Tunisian towns like Sfax or Sousse"
+}

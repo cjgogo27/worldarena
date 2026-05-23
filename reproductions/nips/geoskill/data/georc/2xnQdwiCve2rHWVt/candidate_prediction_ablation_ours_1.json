@@ -1,0 +1,807 @@
+{
+  "game_id": "2xnQdwiCve2rHWVt",
+  "round": 1,
+  "sample_id": "georc::2xnQdwiCve2rHWVt::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "th",
+    "predicted_region": "asia",
+    "predicted_lat": 14.825,
+    "predicted_lng": 100.615,
+    "reasoning_text": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"lat\": 14.825,\n  \"lng\": 100.615,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The image displays a rural highway with vehicles driving on the left, narrowing the search to countries like Thailand, India, or Sri Lanka. The definitive clue is the utility pole on the left side (x:140-180). It features a concrete pole with a distinctive horizontal cross-arm near the top and a specific arrangement of insulators that is characteristic of the Provincial Electricity Authority (PEA) of Thailand. The street light fixture (cobra-head style) and the vegetation (dry, scrubby tropical forest typical of Thailand's dry season) further support this. The road markings (faded white lines) and the general 'look and feel' of the roadside environment match Google Street View imagery from the outskirts of Bangkok, specifically the area around Nakhon Pathom province.\",\n  \"evidence\": [\n    \"Left-hand traffic\",\n    \"Concrete utility pole with horizontal cross-arm and PEA-style insulator arrangement\",\n    \"Cobra-head street light fixture\",\n    \"Dry tropical vegetation (scrub/forest)\",\n    \"Road surface and marking style consistent with Thai rural highways\"\n  ]\n}",
+    "evidence_spans": [
+      "Left-hand traffic",
+      "Concrete utility pole with horizontal cross-arm and PEA-style insulator arrangement",
+      "Cobra-head street light fixture",
+      "Dry tropical vegetation (scrub/forest)",
+      "Road surface and marking style consistent with Thai rural highways"
+    ],
+    "confidence": 0.92,
+    "geovista_observation": {
+      "observations": [
+        "Two-lane asphalt road with faded white centerline and edge lines",
+        "Vehicles driving on the left side of the road (blue car ahead is in left lane)",
+        "Utility poles with overhead power lines running parallel to road on both sides",
+        "Sparse, dry vegetation with scattered trees — suggests semi-arid or tropical dry climate",
+        "Clear blue sky, bright sunlight, long shadows — indicates midday or early afternoon",
+        "No visible street signs, billboards, or commercial signage",
+        "Road surface appears worn but maintained; no potholes visible",
+        "Distant vehicles suggest moderate traffic flow",
+        "Tree on right has broad canopy, possibly a native species like Acacia or similar",
+        "No pedestrians, sidewalks, or urban infrastructure visible — rural or peri-urban setting",
+        "Power lines are strung on wooden or concrete poles, typical of developing regions",
+        "No license plates clearly readable, but vehicle shapes suggest common sedans/SUVs found globally"
+      ],
+      "hard_clues": [
+        "Driving side: LEFT — strongly indicates country such as Thailand, India, UK, Japan, Australia, etc.",
+        "Vegetation type and dryness suggest tropical savanna or monsoon-influenced climate zone",
+        "Utility pole design and overhead wiring style match Southeast Asian infrastructure patterns",
+        "Road width and lack of median/barrier suggest secondary highway or provincial road"
+      ],
+      "ambiguous_clues": [
+        "No visible text, language, or national symbols to confirm country",
+        "Vehicle models not distinctive enough for regional identification",
+        "Terrain could fit multiple countries with similar climates (e.g., parts of India, Thailand, Kenya, Brazil)"
+      ],
+      "possible_scripts": [
+        "Thai script (if location is Thailand — most likely given driving side + vegetation + utility style)",
+        "Devanagari script (if India — also plausible due to left-hand traffic and rural road profile)",
+        "Latin script (if Australia or UK — less likely due to vegetation and infrastructure style)"
+      ],
+      "driving_side": "LEFT"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Thailand",
+        "India",
+        "Sri Lanka",
+        "South Africa",
+        "Botswana"
+      ],
+      "zoom_boxes": [
+        [
+          140,
+          360,
+          180,
+          540
+        ],
+        [
+          360,
+          440,
+          430,
+          540
+        ]
+      ],
+      "verification_queries": [
+        "Analyze the utility pole on the left side (x:140-180) for the specific arrangement of insulators and cross-arms to identify the national grid standard (e.g., PEA/MEA in Thailand vs. DISCOMs in India).",
+        "Examine the street light fixture on the pole at x:360-430 for its shape and mounting style, which often varies by country (e.g., cobra-head vs. specific regional designs).",
+        "Check the vegetation on the right side for specific species like Teak or Acacia that are dominant in the dry zones of Thailand or India."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "th",
+      "predicted_region": "asia",
+      "predicted_lat": 14.825,
+      "predicted_lng": 100.615,
+      "confidence": 0.92
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "th",
+      "predicted_region": "asia",
+      "predicted_lat": 14.825,
+      "predicted_lng": 100.615,
+      "confidence": 0.92
+    },
+    "base_prediction_summary": {
+      "predicted_country": "th",
+      "predicted_region": "asia",
+      "predicted_lat": 14.825,
+      "predicted_lng": 100.615,
+      "confidence": 0.92
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.92,
+    "skill_boost_boost_confidence": 0.92,
+    "skill_boost_aggressive_confidence": 0.92,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The presence and design of the utility pole and the streetlight are consistent with infrastructure found in Thailand.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.873789793252945,
+          "visual_cues": [
+            "pole",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7260979056358338,
+          "visual_cues": [
+            "driving",
+            "road",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The cars are driving on the left side of the road, which suggests a country with left-hand traffic such as Thailand, Indonesia, or some countries in Africa.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7230756551027298,
+          "visual_cues": [
+            "car",
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The utility poles are concrete and the wires are above ground, which is typical construction in several Asian countries, particularly India, Sri Lanka, Bangladesh, and Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7088107526302339,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The presence of long lines of utility poles points to infrastructure built for long distances in a sparsely inhabited region.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.644633236527443,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6345126181840897,
+          "visual_cues": [
+            "road",
+            "road markings",
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The landscape is dry and arid, with minimal vegetation and the climate feels like a desert; combined with the Google car with a whole tent on the roof and a snorkel, this has to be Mongolia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.5966083019971848,
+          "visual_cues": [
+            "car",
+            "climate",
+            "roof",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "This location is in Japan due to the low cam, asian greenhouses, and east Asian electricity poles that are made out of concrete and have complicated pole tops and other wiring and insulator configurations",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.413937383890152,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The utility pole has a distinct Japanese design, with specific crossbars and cable arrangements seen commonly in the country.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.40947367846965793,
+          "visual_cues": [
+            "pole",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The driving orientation is on the left side of the road, indicating a country with left-hand traffic.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.40755996406078343,
+          "visual_cues": [
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "Considering the size of the road and the infrastructure, it suggests proximity to a major city; this is likely near Bangkok, Thailand.",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.40665126442909244,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "Concrete electricity poles with a cone shaped pole top is only found in Eastern asia countries, South Korea included",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.4005161732435227,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "car"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The presence and design of the utility pole and the streetlight are consistent with infrastructure found in Thailand.",
+        "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "The cars are driving on the left side of the road, which suggests a country with left-hand traffic such as Thailand, Indonesia, or some countries in Africa.",
+        "The utility poles are concrete and the wires are above ground, which is typical construction in several Asian countries, particularly India, Sri Lanka, Bangladesh, and Southeast Asia.",
+        "The presence of long lines of utility poles points to infrastructure built for long distances in a sparsely inhabited region.",
+        "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+        "The landscape is dry and arid, with minimal vegetation and the climate feels like a desert; combined with the Google car with a whole tent on the roof and a snorkel, this has to be Mongolia",
+        "This location is in Japan due to the low cam, asian greenhouses, and east Asian electricity poles that are made out of concrete and have complicated pole tops and other wiring and insulator configurations",
+        "The utility pole has a distinct Japanese design, with specific crossbars and cable arrangements seen commonly in the country.",
+        "The driving orientation is on the left side of the road, indicating a country with left-hand traffic.",
+        "Considering the size of the road and the infrastructure, it suggests proximity to a major city; this is likely near Bangkok, Thailand.",
+        "Concrete electricity poles with a cone shaped pole top is only found in Eastern asia countries, South Korea included"
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

@@ -1,0 +1,748 @@
+{
+  "game_id": "SkFHwlV4Z2q9fUje",
+  "round": 1,
+  "sample_id": "georc::SkFHwlV4Z2q9fUje::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "mx",
+    "predicted_region": "north_america",
+    "predicted_address": "Peri-urban divided boulevard near Rosticeria Ramirez, Guadalupe, Zacatecas, Mexico",
+    "predicted_lat": 22.75277778,
+    "predicted_lng": -102.50777778,
+    "reasoning_text": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"region\": \"North America\",\n  \"city\": \"Guadalupe\",\n  \"province_or_state\": \"Zacatecas\",\n  \"address\": \"Peri-urban divided boulevard near Rosticeria Ramirez, Guadalupe, Zacatecas, Mexico\",\n  \"confidence\": 0.76,\n  \"reasoning\": \"Applying the ordered skills strictly: (1) the bright red and white commercial color palette supports Mexico. (2) The flat-roofed, walled concrete-block facades fit common Mexican urban/peri-urban architecture. (3) The concrete utility poles and the visible short white license plate style reinforce Mexico over similar Latin American alternatives. From the graph-supported links among skills 1, 2, and 3, the Mexico hypothesis is strengthened. I then compare downstream linked skills: skill 4 suggests Ecuador, but it conflicts with the clearly visible Spanish storefront text 'ROSTICERIA RAMIREZ' and therefore is not consistent with the image. Skill 5 points to rural southern Mexico, but the dry highland look does not fit Yucatan/Campeche/Tabasco well. Skill 6 supports northern Mexico because of the arid environment, broad roadway, and infrastructure. Skill 7 proposes Guadalajara, but the base observation naming Guadalupe, Zacatecas and the visible peri-urban boulevard setting fit better with that city than with Guadalajara. Skill 10 suggests near Merida, which is inconsistent with the dry plateau environment. Skill 12, via the linked support from skills 1-3, matches the road-marking style seen here and is compatible with Mexico. Ignoring clearly conflicting non-Mexico branches such as Spain and Argentina, the most consistent final guess is a peri-urban boulevard in Guadalupe, Zacatecas, specifically near the signed business Rosticeria Ramirez.\",\n  \"evidence\": [\n    \"Large Spanish storefront sign reading 'ROSTICERIA RAMIREZ'\",\n    \"Flat-roofed concrete-block buildings with metal shutters and walled facades\",\n    \"Short white license plate format consistent with Mexico\",\n    \"Hexagonal/concrete utility poles and dense overhead wiring\",\n    \"Right-hand driving on a wide divided boulevard\",\n    \"Dry, dusty highland environment typical of north-central/northern Mexico\",\n    \"Peri-urban commercial corridor streetscape consistent with Guadalupe, Zacatecas\"\n  ]\n}",
+    "evidence_spans": [
+      "Large Spanish storefront sign reading 'ROSTICERIA RAMIREZ'",
+      "Flat-roofed concrete-block buildings with metal shutters and walled facades",
+      "Short white license plate format consistent with Mexico",
+      "Hexagonal/concrete utility poles and dense overhead wiring",
+      "Right-hand driving on a wide divided boulevard",
+      "Dry, dusty highland environment typical of north-central/northern Mexico",
+      "Peri-urban commercial corridor streetscape consistent with Guadalupe, Zacatecas"
+    ],
+    "confidence": 0.76,
+    "base_prediction_summary": {
+      "predicted_country": "mx",
+      "predicted_region": "north_america",
+      "confidence": 0.47
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The color palette of the buildings uses bright red and white, a common theme in Mexican urban design.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building",
+          "sign"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 5,
+        "score": 0.9251619577407837,
+        "bm25_score": 31.140113830566406,
+        "semantic_score": 0.46482449769973755
+      },
+      {
+        "skill_text": "The street architecture shows houses with flat roofs and walled facades, common in Mexican cities.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 5,
+        "score": 0.8646447658538818,
+        "bm25_score": 26.75494384765625,
+        "semantic_score": 0.47621023654937744
+      },
+      {
+        "skill_text": "The hexagonal concrete pole is also only found in Mexico, sometimes appearing in Columbia, but the license plate of the car is short and white, which reinforces Mexico as the country as South American countries uses longer plates and the only country that remotely might be similar would be Colombia, which uses yellow short plates",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "car",
+          "license plate",
+          "pole"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 1,
+        "score": 0.7916070818901062,
+        "bm25_score": 21.818273544311523,
+        "semantic_score": 0.4833775758743286
+      },
+      {
+        "skill_text": "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 3,
+        "score": 0.7789655923843384,
+        "bm25_score": 23.650835037231445,
+        "semantic_score": 0.43496501445770264
+      },
+      {
+        "skill_text": "The condition of the road and sidewalk as well as the electric pole style matches rural settings in Mexico, especially Yucatán, Campeche, or Tabasco.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "road",
+          "sidewalk"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 1,
+        "score": 0.7679014205932617,
+        "bm25_score": 18.003170013427734,
+        "semantic_score": 0.5265944004058838
+      },
+      {
+        "skill_text": "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.7639015913009644,
+        "bm25_score": 16.43585205078125,
+        "semantic_score": 0.5509535074234009
+      },
+      {
+        "skill_text": "Reasoning leads to Mexico as the country, and the general aesthetic and style of the neighborhood suggest Guadalajara as the city.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "Mexico",
+          "Reasoning",
+          "country",
+          "leads"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 5,
+        "score": 0.7418047785758972,
+        "bm25_score": 18.474206924438477,
+        "semantic_score": 0.4878562390804291
+      },
+      {
+        "skill_text": "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "highway",
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 5,
+        "score": 0.7410084009170532,
+        "bm25_score": 18.044416427612305,
+        "semantic_score": 0.49488186836242676
+      },
+      {
+        "skill_text": "The general flat terrain and wide road layout are typical of peri-urban zones around cities like Córdoba, Rosario, or Buenos Aires.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "terrain"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 4,
+        "score": 0.7387561798095703,
+        "bm25_score": 18.90257453918457,
+        "semantic_score": 0.4764319360256195
+      },
+      {
+        "skill_text": "Combining the tropical vegetation, suburban-rural setting, architecture, curb and sidewalk design, I estimate this image is in Mexico, specifically a small town near Mérida, Yucatán.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "sidewalk",
+          "sign",
+          "vegetation"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 1,
+        "score": 0.7381277084350586,
+        "bm25_score": 16.787290573120117,
+        "semantic_score": 0.5147968530654907
+      },
+      {
+        "skill_text": "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+        "region_hint": "south_america",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 4,
+        "score": 0.735962450504303,
+        "bm25_score": 20.37777328491211,
+        "semantic_score": 0.44595664739608765
+      },
+      {
+        "skill_text": "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.733712911605835,
+        "bm25_score": 16.599693298339844,
+        "semantic_score": 0.5131826400756836
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The color palette of the buildings uses bright red and white, a common theme in Mexican urban design.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.9251619577407837,
+          "visual_cues": [
+            "building",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The street architecture shows houses with flat roofs and walled facades, common in Mexican cities.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.8646447658538818,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The hexagonal concrete pole is also only found in Mexico, sometimes appearing in Columbia, but the license plate of the car is short and white, which reinforces Mexico as the country as South American countries uses longer plates and the only country that remotely might be similar would be Colombia, which uses yellow short plates",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7916070818901062,
+          "visual_cues": [
+            "car",
+            "license plate",
+            "pole"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7789655923843384,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The condition of the road and sidewalk as well as the electric pole style matches rural settings in Mexico, especially Yucatán, Campeche, or Tabasco.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7679014205932617,
+          "visual_cues": [
+            "pole",
+            "road",
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7639015913009644,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "Reasoning leads to Mexico as the country, and the general aesthetic and style of the neighborhood suggest Guadalajara as the city.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7418047785758972,
+          "visual_cues": [
+            "Mexico",
+            "Reasoning",
+            "country",
+            "leads"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7410084009170532,
+          "visual_cues": [
+            "highway",
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The general flat terrain and wide road layout are typical of peri-urban zones around cities like Córdoba, Rosario, or Buenos Aires.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7387561798095703,
+          "visual_cues": [
+            "road",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "Combining the tropical vegetation, suburban-rural setting, architecture, curb and sidewalk design, I estimate this image is in Mexico, specifically a small town near Mérida, Yucatán.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7381277084350586,
+          "visual_cues": [
+            "architecture",
+            "sidewalk",
+            "sign",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+          "region_hint": "south_america",
+          "confidence": 0.75,
+          "score": 0.735962450504303,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.733712911605835,
+          "visual_cues": [
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sidewalk"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The color palette of the buildings uses bright red and white, a common theme in Mexican urban design.",
+        "The street architecture shows houses with flat roofs and walled facades, common in Mexican cities.",
+        "The hexagonal concrete pole is also only found in Mexico, sometimes appearing in Columbia, but the license plate of the car is short and white, which reinforces Mexico as the country as South American countries uses longer plates and the only country that remotely might be similar would be Colombia, which uses yellow short plates",
+        "The overall construction style, the absence of visible commercial signage, and lack of Spanish language in the image suggest an Ecuadorian city rather than a Peruvian or Colombian one, which often have more decorative urban elements.",
+        "The condition of the road and sidewalk as well as the electric pole style matches rural settings in Mexico, especially Yucatán, Campeche, or Tabasco.",
+        "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+        "Reasoning leads to Mexico as the country, and the general aesthetic and style of the neighborhood suggest Guadalajara as the city.",
+        "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+        "The general flat terrain and wide road layout are typical of peri-urban zones around cities like Córdoba, Rosario, or Buenos Aires.",
+        "Combining the tropical vegetation, suburban-rural setting, architecture, curb and sidewalk design, I estimate this image is in Mexico, specifically a small town near Mérida, Yucatán.",
+        "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+        "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico."
+      ],
+      "summary": "nodes=12, edges=45, base_region=north_america, top_skill_region=north_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"region\": \"North America\",\n  \"city\": \"Guadalupe\",\n  \"province_or_state\": \"Zacatecas\",\n  \"address\": \"Peri-urban divided boulevard near a business signed \\\"Rosticeria Ramirez\\\", Guadalupe, Zacatecas, Mexico\",\n  \"confidence\": 0.47,\n  \"reasoning\": \"The ",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 45,
+        "graph_summary": "nodes=12, edges=45, base_region=north_america, top_skill_region=north_america"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "mx"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

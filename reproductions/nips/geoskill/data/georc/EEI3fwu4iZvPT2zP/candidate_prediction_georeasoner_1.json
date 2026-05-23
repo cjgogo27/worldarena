@@ -1,0 +1,11 @@
+{
+  "country": "Ethiopia",
+  "country_code": "et",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved dirt road with no markings and simple corrugated metal fencing is typical of rural Ethiopian villages.",
+    "Utility poles with overhead wires and the style of single-story whitewashed houses with brick pillars are common in lowland Ethiopia.",
+    "Vegetation includes drought-tolerant trees and shrubs consistent with the Ethiopian highland or semi-arid climate."
+  ],
+  "raw_output": "{\n  \"country\": \"Ethiopia\",\n  \"country_code\": \"et\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved dirt road with no markings and simple corrugated metal fencing is typical of rural Ethiopian villages.\",\n    \"Utility poles with overhead wires and the style of single-story whitewashed houses with brick pillars are common in lowland Ethiopia.\",\n    \"Vegetation includes drought-tolerant trees and shrubs consistent with the Ethiopian highland or semi-arid climate.\",\n    \"No visible signage or vehicles, but the architecture and terrain"
+}

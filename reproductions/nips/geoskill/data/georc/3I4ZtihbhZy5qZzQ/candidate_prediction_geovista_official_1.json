@@ -1,0 +1,27 @@
+{
+  "game_id": "3I4ZtihbhZy5qZzQ",
+  "round": 1,
+  "sample_id": "georc::3I4ZtihbhZy5qZzQ::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "unknown",
+    "predicted_region": "unknown",
+    "predicted_address": "\u001b[94m\u001b[1mRound 1 | calling model\u001b[0m \u001b[94m\u001b[1mUser >\u001b[0m [image] /data/alice/cjtest/NIPS/geoskill/data/georc/3I4ZtihbhZy5qZzQ/3I4ZtihbhZy5qZzQ_1.png Please analyze where is the place. \u001b[94m\u001b[1mUser >\u001b",
+    "predicted_lat": NaN,
+    "predicted_lng": NaN,
+    "reasoning_text": "\u001b[94m\u001b[1mRound 1 | calling model\u001b[0m\n\u001b[94m\u001b[1mUser >\u001b[0m\n[image] /data/alice/cjtest/NIPS/geoskill/data/georc/3I4ZtihbhZy5qZzQ/3I4ZtihbhZy5qZzQ_1.png\nPlease analyze where is the place.\n\u001b[94m\u001b[1mUser >\u001b[0m\nerror: Request failed: 500 Server Error: Internal Server Error for url: http://localhost:8000/v1/chat/completions\nTraceback (most recent call last):\n  File \"/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoVista/eval/utils_vllm.py\", line 202, in chat_gemini\n    response.raise_for_status()\n  File \"/data2/miniconda3/envs/vgllm/lib/python3.11/site-packages/requests/models.py\", line 1028, in raise_for_status\n    raise HTTPError(http_error_msg, response=self)\nrequests.exceptions.HTTPError: 500 Server Error: Internal Server Error for url: http://localhost:8000/v1/chat/completions\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoVista/examples/infer_example.py\", line 223, in run_single_image\n    response = chat_vllm(\n               ^^^^^^^^^^\n  File \"/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoVista/eval/utils_vllm.py\", line 231, in chat_vllm\n    return chat_gemini(messages, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoVista/eval/utils_vllm.py\", line 218, in chat_gemini\n    raise ValueError(f\"Request failed: {str(e)}\")\nValueError: Request failed: 500 Server Error: Internal Server Error for url: http://localhost:8000/v1/chat/completions",
+    "evidence_spans": [
+      "File \"/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoVista/eval/utils_vllm.py\", line 202, in chat_gemini",
+      "File \"/data2/miniconda3/envs/vgllm/lib/python3.11/site-packages/requests/models.py\", line 1028, in raise_for_status",
+      "File \"/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoVista/examples/infer_example.py\", line 223, in run_single_image",
+      "File \"/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoVista/eval/utils_vllm.py\", line 231, in chat_vllm",
+      "File \"/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoVista/eval/utils_vllm.py\", line 218, in chat_gemini"
+    ],
+    "confidence": 0.6,
+    "external_baseline_name": "GeoVista",
+    "official_mode": true,
+    "official_command": "/data2/miniconda3/envs/vgllm/bin/python examples/infer_example.py --multimodal_input /data/alice/cjtest/NIPS/geoskill/data/georc/3I4ZtihbhZy5qZzQ/3I4ZtihbhZy5qZzQ_1.png --question 'Please analyze where is the place.'"
+  },
+  "error": null
+}

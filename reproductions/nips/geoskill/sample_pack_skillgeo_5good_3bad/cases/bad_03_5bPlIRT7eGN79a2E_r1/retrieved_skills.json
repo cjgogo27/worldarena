@@ -1,0 +1,162 @@
+[
+  {
+    "skill_text": "The road markings are simple double yellow lines in the middle, common in Brazil and many other Latin American countries.",
+    "region_hint": "south_america",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "road markings"
+    ],
+    "source_game_id": "3OuVMcpGjmm0tVfG",
+    "source_round": 4,
+    "score": 0.879195511341095,
+    "bm25_score": 29.490158081054688,
+    "semantic_score": 0.5235741138458252
+  },
+  {
+    "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "5l0GTCFZI877KxkV",
+    "source_round": 2,
+    "score": 0.8657867908477783,
+    "bm25_score": 29.269262313842773,
+    "semantic_score": 0.511999249458313
+  },
+  {
+    "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "3OuVMcpGjmm0tVfG",
+    "source_round": 3,
+    "score": 0.8602097630500793,
+    "bm25_score": 26.529172897338867,
+    "semantic_score": 0.5500703454017639
+  },
+  {
+    "skill_text": "The road has double yellow center lines and a slight curve, commonly seen in Latin American countries, especially in Colombia and Ecuador.",
+    "region_hint": "south_america",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "9oZfZYQEl9GWjZPu",
+    "source_round": 4,
+    "score": 0.7994714379310608,
+    "bm25_score": 21.301494598388672,
+    "semantic_score": 0.5660924911499023
+  },
+  {
+    "skill_text": "No visible language on signage, but the small yellow curve warning sign is similar in shape and color to those used in Colombia and Ecuador.",
+    "region_hint": "south_america",
+    "confidence": 0.65,
+    "visual_cues": [
+      "sign"
+    ],
+    "source_game_id": "9oZfZYQEl9GWjZPu",
+    "source_round": 4,
+    "score": 0.7918133735656738,
+    "bm25_score": 27.423320770263672,
+    "semantic_score": 0.45830148458480835
+  },
+  {
+    "skill_text": "The road is wide, smooth, and lacks any lane markings, a common feature in the quiet residential cul-de-sacs of Australian and New Zealand suburbs.",
+    "region_hint": "oceania",
+    "confidence": 0.65,
+    "visual_cues": [
+      "lane markings",
+      "road"
+    ],
+    "source_game_id": "3I4ZtihbhZy5qZzQ",
+    "source_round": 4,
+    "score": 0.7888449430465698,
+    "bm25_score": 25.714139938354492,
+    "semantic_score": 0.48262572288513184
+  },
+  {
+    "skill_text": "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "5GS2RPgTrf85UZM5",
+    "source_round": 5,
+    "score": 0.7805966734886169,
+    "bm25_score": 22.229591369628906,
+    "semantic_score": 0.5297340154647827
+  },
+  {
+    "skill_text": "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+    "region_hint": "north_america",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "5bPlIRT7eGN79a2E",
+    "source_round": 3,
+    "score": 0.7720487117767334,
+    "bm25_score": 20.205533981323242,
+    "semantic_score": 0.5528523921966553
+  },
+  {
+    "skill_text": "The yellow road sign shape and design are characteristic of Japanese road signage.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "sign"
+    ],
+    "source_game_id": "9oZfZYQEl9GWjZPu",
+    "source_round": 2,
+    "score": 0.771185040473938,
+    "bm25_score": 29.6940860748291,
+    "semantic_score": 0.39821818470954895
+  },
+  {
+    "skill_text": "The road features a faint yellow centerline striping, which is standard in Latin American countries including Brazil and Mexico.",
+    "region_hint": "south_america",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "5GS2RPgTrf85UZM5",
+    "source_round": 3,
+    "score": 0.7707875967025757,
+    "bm25_score": 20.505996704101562,
+    "semantic_score": 0.5465616583824158
+  },
+  {
+    "skill_text": "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "6fGwHxCTvCbaK77Q",
+    "source_round": 3,
+    "score": 0.7691702246665955,
+    "bm25_score": 27.932580947875977,
+    "semantic_score": 0.42446738481521606
+  },
+  {
+    "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+    "region_hint": "south_america",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road",
+      "road markings"
+    ],
+    "source_game_id": "1NJsXTxIF9GGMDxC",
+    "source_round": 4,
+    "score": 0.767853856086731,
+    "bm25_score": 19.552635192871094,
+    "semantic_score": 0.558685302734375
+  }
+]

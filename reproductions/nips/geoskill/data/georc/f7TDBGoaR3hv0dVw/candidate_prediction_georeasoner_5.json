@@ -1,0 +1,12 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The reddish-brown lateritic soil and vegetation are characteristic of the Brazilian Cerrado biome.",
+    "The unpaved dirt road with no markings is typical of rural areas in Brazil's interior regions.",
+    "The barbed wire fences and wooden posts are common agricultural boundary markers in Brazilian countryside.",
+    "The open landscape with scattered trees and rolling hills matches the topography of central Brazil."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The reddish-brown lateritic soil and vegetation are characteristic of the Brazilian Cerrado biome.\",\n    \"The unpaved dirt road with no markings is typical of rural areas in Brazil's interior regions.\",\n    \"The barbed wire fences and wooden posts are common agricultural boundary markers in Brazilian countryside.\",\n    \"The open landscape with scattered trees and rolling hills matches the topography of central Brazil.\"\n  ]\n}"
+}

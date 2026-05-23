@@ -1,0 +1,845 @@
+{
+  "game_id": "No9HbFZyTOwfaU8s",
+  "round": 1,
+  "sample_id": "georc::No9HbFZyTOwfaU8s::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "us",
+    "predicted_region": "north_america",
+    "predicted_address": "Interstate 8 near Gila Bend, Arizona, United States",
+    "predicted_lat": 32.94777778,
+    "predicted_lng": -112.71694444,
+    "reasoning_text": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"city\": \"Gila Bend\",\n  \"province_or_state\": \"Arizona\",\n  \"address\": \"Interstate 8 near Gila Bend, Arizona, United States\",\n  \"confidence\": 0.77,\n  \"reasoning\": \"Applying the required skill order: (1) the visible white edge lines and overall lane-marking style are consistent with the United States. (2) The divided highway geometry and center/edge marking pattern are also common in the United States and can overlap with Mexico, so this keeps both in consideration initially. (3) The pavement quality and broad modern freeway construction fit North American highways more than elsewhere. (4) Traffic is on the right, matching both the US and Mexico, so this does not separate them alone. (5) With no decisive local roadside sign in view, the dry open environment narrows the possibilities to northern Mexico or the US Southwest, especially Arizona, New Mexico, or Texas. Following the graph links, (6) the weathered asphalt and tire-marked road surface are compatible with US/Mexico desert highways, and (7) the roadside infrastructure and freeway shoulder design match rural US highways well. Composing these cues with the base observations, the clearly visible English-language RL Carriers trailer branding and '.com' website strongly support the United States. The landscape is flat, arid Sonoran-desert terrain with sparse scrub and distant mesas, which is especially characteristic of southern Arizona. The freeway appearance fits Interstate 8 west or east of Gila Bend better than other candidate corridors. Therefore the best consistent guess is Interstate 8 near Gila Bend, Arizona, United States.\",\n  \"evidence\": [\n    \"Right-hand traffic on a divided multi-lane freeway\",\n    \"White edge lines and US-style freeway shoulder layout\",\n    \"Broad paved shoulders and median treatment typical of American interstates\",\n    \"English-language truck branding: 'RL Carriers' and '.com' website\",\n    \"Arid desert plain with sparse scrub and distant isolated mountains/mesas\",\n    \"Open Sonoran-desert landscape strongly consistent with southern Arizona\",\n    \"Road quality and roadside infrastructure match rural US Southwest highways\"\n  ]\n}",
+    "evidence_spans": [
+      "Right-hand traffic on a divided multi-lane freeway",
+      "White edge lines and US-style freeway shoulder layout",
+      "Broad paved shoulders and median treatment typical of American interstates",
+      "English-language truck branding: 'RL Carriers' and '.com' website",
+      "Arid desert plain with sparse scrub and distant isolated mountains/mesas",
+      "Open Sonoran-desert landscape strongly consistent with southern Arizona",
+      "Road quality and roadside infrastructure match rural US Southwest highways"
+    ],
+    "confidence": 0.77,
+    "base_prediction_summary": {
+      "predicted_country": "us",
+      "predicted_region": "north_america",
+      "confidence": 0.58
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 4,
+        "score": 0.8963131904602051,
+        "bm25_score": 40.25082015991211,
+        "semantic_score": 0.40308624505996704
+      },
+      {
+        "skill_text": "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.878957986831665,
+        "bm25_score": 37.20950698852539,
+        "semantic_score": 0.42590558528900146
+      },
+      {
+        "skill_text": "The pavement quality and road markings are consistent with rural Canada or the US Midwest.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 3,
+        "score": 0.7996182441711426,
+        "bm25_score": 28.728897094726562,
+        "semantic_score": 0.45496273040771484
+      },
+      {
+        "skill_text": "The presence of a car parked on the right side indicates right-hand traffic, which matches much of Latin America, including Mexico.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "car"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 1,
+        "score": 0.7874197363853455,
+        "bm25_score": 31.052078247070312,
+        "semantic_score": 0.4090907871723175
+      },
+      {
+        "skill_text": "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.7711548805236816,
+        "bm25_score": 21.828413009643555,
+        "semantic_score": 0.5189319849014282
+      },
+      {
+        "skill_text": "The road quality with tire marks and potential tar is very indicative of US and Mexico",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.7423275113105774,
+        "bm25_score": 23.557767868041992,
+        "semantic_score": 0.4627228081226349
+      },
+      {
+        "skill_text": "The road and roadside infrastructure, including the weathered asphalt and power poles, match rural areas in the US.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles",
+          "road"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 4,
+        "score": 0.7396588921546936,
+        "bm25_score": 22.65778160095215,
+        "semantic_score": 0.472231924533844
+      },
+      {
+        "skill_text": "The condition of the asphalt and the style of the yellow line tends to be more common in Mexico than the U.S.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "asphalt",
+          "condition",
+          "style",
+          "yellow"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.7332812547683716,
+        "bm25_score": 28.430545806884766,
+        "semantic_score": 0.38498741388320923
+      },
+      {
+        "skill_text": "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "highway",
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 5,
+        "score": 0.728350043296814,
+        "bm25_score": 27.6051025390625,
+        "semantic_score": 0.3909341096878052
+      },
+      {
+        "skill_text": "The sidewalk construction with a lawn directly adjacent and the style of curbs is consistent with the northeastern United States suburbs.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sidewalk"
+        ],
+        "source_game_id": "AVKTblAzBqaYrcKe",
+        "source_round": 1,
+        "score": 0.7228000164031982,
+        "bm25_score": 31.84750747680664,
+        "semantic_score": 0.32585370540618896
+      },
+      {
+        "skill_text": "The car is following us on the left side of the road and there is a solid yellow single line in the middle, which all Western African countries have",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "car",
+          "road"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 4,
+        "score": 0.714141845703125,
+        "bm25_score": 26.763349533081055,
+        "semantic_score": 0.3867422640323639
+      },
+      {
+        "skill_text": "The architectural style of the houses, with brick facades, white trim, and shingle roofing, is typical of the southern or midwestern United States.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "roof"
+        ],
+        "source_game_id": "AVKTblAzBqaYrcKe",
+        "source_round": 4,
+        "score": 0.7113142013549805,
+        "bm25_score": 33.79207229614258,
+        "semantic_score": 0.2860327363014221
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.8963131904602051,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.878957986831665,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The pavement quality and road markings are consistent with rural Canada or the US Midwest.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7996182441711426,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The presence of a car parked on the right side indicates right-hand traffic, which matches much of Latin America, including Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7874197363853455,
+          "visual_cues": [
+            "car"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7711548805236816,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The road quality with tire marks and potential tar is very indicative of US and Mexico",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7423275113105774,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road and roadside infrastructure, including the weathered asphalt and power poles, match rural areas in the US.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7396588921546936,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The condition of the asphalt and the style of the yellow line tends to be more common in Mexico than the U.S.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7332812547683716,
+          "visual_cues": [
+            "asphalt",
+            "condition",
+            "style",
+            "yellow"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.728350043296814,
+          "visual_cues": [
+            "highway",
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The sidewalk construction with a lawn directly adjacent and the style of curbs is consistent with the northeastern United States suburbs.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7228000164031982,
+          "visual_cues": [
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The car is following us on the left side of the road and there is a solid yellow single line in the middle, which all Western African countries have",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.714141845703125,
+          "visual_cues": [
+            "car",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The architectural style of the houses, with brick facades, white trim, and shingle roofing, is typical of the southern or midwestern United States.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7113142013549805,
+          "visual_cues": [
+            "roof"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "car"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road markings consist of faded double yellow center lines and white edge lines, which are typical of the United States.",
+        "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+        "The pavement quality and road markings are consistent with rural Canada or the US Midwest.",
+        "The presence of a car parked on the right side indicates right-hand traffic, which matches much of Latin America, including Mexico.",
+        "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+        "The road quality with tire marks and potential tar is very indicative of US and Mexico",
+        "The road and roadside infrastructure, including the weathered asphalt and power poles, match rural areas in the US.",
+        "The condition of the asphalt and the style of the yellow line tends to be more common in Mexico than the U.S.",
+        "Roadside guard rails and lane markings match typical Spanish highway infrastructure, with white solid lines for the road edge and central divider.",
+        "The sidewalk construction with a lawn directly adjacent and the style of curbs is consistent with the northeastern United States suburbs.",
+        "The car is following us on the left side of the road and there is a solid yellow single line in the middle, which all Western African countries have",
+        "The architectural style of the houses, with brick facades, white trim, and shingle roofing, is typical of the southern or midwestern United States."
+      ],
+      "summary": "nodes=12, edges=59, base_region=north_america, top_skill_region=north_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"city\": \"Gila Bend\",\n  \"province_or_state\": \"Arizona\",\n  \"address\": \"Interstate 8 near Gila Bend, Arizona, United States\",\n  \"confidence\": 0.58,\n  \"reasoning\": \"The scene shows a divided multi-lane freeway with ri",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 59,
+        "graph_summary": "nodes=12, edges=59, base_region=north_america, top_skill_region=north_america"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "us"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

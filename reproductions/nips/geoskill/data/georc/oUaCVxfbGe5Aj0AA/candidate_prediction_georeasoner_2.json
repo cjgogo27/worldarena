@@ -1,0 +1,11 @@
+{
+  "country": "Qatar",
+  "country_code": "qa",
+  "city": "",
+  "reasoning_chain": [
+    "The large flag displayed on the building is the national flag of Qatar, identifiable by its maroon field with a white serrated band on the hoist side.",
+    "The architecture features white stucco walls and flat roofs with terracotta tiles, typical of modern residential developments in Qatar.",
+    "The road is a two-lane asphalt highway with a metal guardrail on the right, consistent with infrastructure in Qatari suburban areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Qatar\",\n  \"country_code\": \"qa\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The large flag displayed on the building is the national flag of Qatar, identifiable by its maroon field with a white serrated band on the hoist side.\",\n    \"The architecture features white stucco walls and flat roofs with terracotta tiles, typical of modern residential developments in Qatar.\",\n    \"The road is a two-lane asphalt highway with a metal guardrail on the right, consistent with infrastructure in Qatari suburban areas.\","
+}

@@ -1,0 +1,8 @@
+exclude:
+  - env/
+  - src/
+
+# 2. Ensure Jekyll processes your JSON and HTML
+include:
+  - leaderboard.json
+  - index.html

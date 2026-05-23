@@ -1,0 +1,11 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with a single dashed white centerline, consistent with Australian rural roads.",
+    "Vegetation consists of eucalyptus trees and dry grassland, typical of arid or semi-arid regions in inland Australia.",
+    "No utility poles, buildings, or signage are visible, indicating a remote, sparsely populated area common in outback Australia."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with a single dashed white centerline, consistent with Australian rural roads.\",\n    \"Vegetation consists of eucalyptus trees and dry grassland, typical of arid or semi-arid regions in inland Australia.\",\n    \"No utility poles, buildings, or signage are visible, indicating a remote, sparsely populated area common in outback Australia.\",\n    \"The clear blue sky and open"
+}

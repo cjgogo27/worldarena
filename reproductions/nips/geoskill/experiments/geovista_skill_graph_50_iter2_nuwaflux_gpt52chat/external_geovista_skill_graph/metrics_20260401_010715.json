@@ -1,0 +1,23 @@
+{
+  "country_accuracy": 0.0,
+  "continent_accuracy": 0.0,
+  "distance_error_km_median": 20037.0,
+  "distance_error_km_mean_valid_only": NaN,
+  "distance_error_km_mean_penalized": 20037.0,
+  "distance_error_km_std_penalized": 0.0,
+  "valid_coordinate_rate": 0.0,
+  "coverage_rate": 0.0,
+  "total_samples": 10.0,
+  "valid_predictions": 0.0,
+  "Acc@1km": 0.0,
+  "Acc@10km": 0.0,
+  "Acc@25km": 0.0,
+  "Acc@100km": 0.0,
+  "Acc@200km": 0.0,
+  "Acc@750km": 0.0,
+  "Acc@2500km": 0.0,
+  "elapsed_seconds": 64.92879104614258,
+  "num_samples": 10,
+  "num_errors": 10,
+  "recovery_error": "VLM query failed after retries: 400 Client Error: Bad Request for url: https://api.nuwaflux.com/v1/chat/completions"
+}

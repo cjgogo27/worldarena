@@ -1,0 +1,469 @@
+{
+  "user_ids": [
+    "30148694_3",
+    "30007544_2",
+    "30441601_2",
+    "40314580_2",
+    "40103260_3",
+    "30054195_2",
+    "30447113_4",
+    "30038472_2",
+    "40209546_2",
+    "30447113_2"
+  ],
+  "30148694_3": {
+    "demographics": {
+      "user_id": "30148694_3",
+      "age_range": "65-75 years old",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Non-relative",
+      "gender": "Male",
+      "race": "White",
+      "education": "Some college or associates degree",
+      "employment_status": "No",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": -9.0,
+      "work_state": "Not ascertained",
+      "driver_on_travel_day": "No",
+      "work_from_home": "Appropriate skip",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "primary_activity": "Retired"
+    },
+    "ground_truth": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "10:30"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "10:30",
+        "end_time": "15:00"
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:00",
+        "end_time": "15:50"
+      },
+      {
+        "activity": "home",
+        "start_time": "15:50",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  "30007544_2": {
+    "demographics": {
+      "user_id": "30007544_2",
+      "age_range": "18-64 years old",
+      "hispanic": "Yes, Hispanic or Latino",
+      "relationship": "Spouse/Unmarried partner",
+      "gender": "Male",
+      "race": "Some other race",
+      "education": "Graduate degree or professional degree",
+      "employment_status": "No",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": -9.0,
+      "work_state": "Not ascertained",
+      "driver_on_travel_day": "No",
+      "work_from_home": "Appropriate skip",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "primary_activity": "Retired"
+    },
+    "ground_truth": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "00:30"
+      },
+      {
+        "activity": "dropoff_pickup",
+        "start_time": "00:30",
+        "end_time": "01:25"
+      },
+      {
+        "activity": "dropoff_pickup",
+        "start_time": "01:25",
+        "end_time": "01:45"
+      },
+      {
+        "activity": "home",
+        "start_time": "01:45",
+        "end_time": "08:31"
+      },
+      {
+        "activity": "exercise",
+        "start_time": "08:31",
+        "end_time": "09:01"
+      },
+      {
+        "activity": "home",
+        "start_time": "09:01",
+        "end_time": "14:31"
+      },
+      {
+        "activity": "exercise",
+        "start_time": "14:31",
+        "end_time": "15:01"
+      },
+      {
+        "activity": "home",
+        "start_time": "15:01",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  "30441601_2": {
+    "demographics": {
+      "user_id": "30441601_2",
+      "age_range": "18-64 years old",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Spouse/Unmarried partner",
+      "gender": "Female",
+      "race": "White",
+      "education": "Graduate degree or professional degree",
+      "employment_status": "Yes",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": 3.39,
+      "work_state": "California",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "No",
+      "work_schedule": "Full-time",
+      "occupation": "Professional, managerial, or technical",
+      "primary_activity": "Working"
+    },
+    "ground_truth": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "08:48"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "08:48",
+        "end_time": "09:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:30",
+        "end_time": "17:24"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:24",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  "40314580_2": {
+    "demographics": {
+      "user_id": "40314580_2",
+      "age_range": "18-64 years old",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Spouse/Unmarried partner",
+      "gender": "Female",
+      "race": "Asian",
+      "education": "Bachelor's degree",
+      "employment_status": "No",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": -9.0,
+      "work_state": "Not ascertained",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "Appropriate skip",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "primary_activity": "A homemaker"
+    },
+    "ground_truth": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "14:28"
+      },
+      {
+        "activity": "shopping",
+        "start_time": "14:28",
+        "end_time": "15:04"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "15:04",
+        "end_time": "16:13"
+      },
+      {
+        "activity": "dropoff_pickup",
+        "start_time": "16:13",
+        "end_time": "16:46"
+      },
+      {
+        "activity": "home",
+        "start_time": "16:46",
+        "end_time": "17:55"
+      },
+      {
+        "activity": "dropoff_pickup",
+        "start_time": "17:55",
+        "end_time": "18:26"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:26",
+        "end_time": "18:38"
+      },
+      {
+        "activity": "home",
+        "start_time": "18:38",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  "40103260_3": {
+    "demographics": {
+      "user_id": "40103260_3",
+      "age_range": "16-17 years old",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Child",
+      "gender": "Female",
+      "race": "White",
+      "education": "Less than a high school graduate",
+      "employment_status": "No",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": -9.0,
+      "work_state": "Not ascertained",
+      "driver_on_travel_day": "No",
+      "work_from_home": "Appropriate skip",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "primary_activity": "Going to school"
+    },
+    "ground_truth": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:37"
+      },
+      {
+        "activity": "education",
+        "start_time": "07:37",
+        "end_time": "15:37"
+      },
+      {
+        "activity": "home",
+        "start_time": "15:37",
+        "end_time": "17:27"
+      },
+      {
+        "activity": "work",
+        "start_time": "17:27",
+        "end_time": "19:35"
+      },
+      {
+        "activity": "home",
+        "start_time": "19:35",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  "30054195_2": {
+    "demographics": {
+      "user_id": "30054195_2",
+      "age_range": "18-64 years old",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Spouse/Unmarried partner",
+      "gender": "Female",
+      "race": "White",
+      "education": "Graduate degree or professional degree",
+      "employment_status": "Yes",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": 4.86,
+      "work_state": "California",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "No",
+      "work_schedule": "Full-time",
+      "occupation": "Professional, managerial, or technical",
+      "primary_activity": "Working"
+    },
+    "ground_truth": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:35"
+      },
+      {
+        "activity": "work",
+        "start_time": "07:35",
+        "end_time": "17:15"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:15",
+        "end_time": "18:07"
+      },
+      {
+        "activity": "exercise",
+        "start_time": "18:07",
+        "end_time": "18:59"
+      },
+      {
+        "activity": "home",
+        "start_time": "18:59",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  "30447113_4": {
+    "demographics": {
+      "user_id": "30447113_4",
+      "age_range": "18-64 years old",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Child",
+      "gender": "Male",
+      "race": "Asian",
+      "education": "Some college or associates degree",
+      "employment_status": "Yes",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": 0.57,
+      "work_state": "California",
+      "driver_on_travel_day": "No",
+      "work_from_home": "No",
+      "work_schedule": "Part-time",
+      "occupation": "Sales or service",
+      "primary_activity": "Going to school"
+    },
+    "ground_truth": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "16:40"
+      },
+      {
+        "activity": "home",
+        "start_time": "16:40",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  "30038472_2": {
+    "demographics": {
+      "user_id": "30038472_2",
+      "age_range": "76 years old or older",
+      "hispanic": "Yes, Hispanic or Latino",
+      "relationship": "Spouse/Unmarried partner",
+      "gender": "Male",
+      "race": "White",
+      "education": "High school graduate or GED",
+      "employment_status": "No",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": -9.0,
+      "work_state": "Not ascertained",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "Appropriate skip",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "primary_activity": "Retired"
+    },
+    "ground_truth": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "12:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "12:00",
+        "end_time": "13:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "13:30",
+        "end_time": "13:55"
+      },
+      {
+        "activity": "shopping",
+        "start_time": "13:55",
+        "end_time": "14:20"
+      },
+      {
+        "activity": "home",
+        "start_time": "14:20",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  "40209546_2": {
+    "demographics": {
+      "user_id": "40209546_2",
+      "age_range": "18-64 years old",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Parent",
+      "gender": "Male",
+      "race": "Asian",
+      "education": "Some college or associates degree",
+      "employment_status": "Yes",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": -9.0,
+      "work_state": "Not ascertained",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "Yes",
+      "work_schedule": "Part-time",
+      "occupation": "Sales or service",
+      "primary_activity": "Working"
+    },
+    "ground_truth": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "10:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "10:00",
+        "end_time": "20:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "20:30",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  "30447113_2": {
+    "demographics": {
+      "user_id": "30447113_2",
+      "age_range": "18-64 years old",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Spouse/Unmarried partner",
+      "gender": "Female",
+      "race": "Asian",
+      "education": "Graduate degree or professional degree",
+      "employment_status": "Yes",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": 10.65,
+      "work_state": "California",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "No",
+      "work_schedule": "Full-time",
+      "occupation": "Professional, managerial, or technical",
+      "primary_activity": "Working"
+    },
+    "ground_truth": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "09:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:30",
+        "end_time": "19:05"
+      },
+      {
+        "activity": "home",
+        "start_time": "19:05",
+        "end_time": "24:00"
+      }
+    ]
+  }
+}

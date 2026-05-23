@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unpaved or poorly maintained concrete road with no lane markings is typical of rural Indian villages.",
+    "Utility poles with visible electrical wires and a simple metal fence along the roadside are common infrastructure in semi-rural India.",
+    "Dense tropical vegetation including bamboo, broadleaf trees, and undergrowth suggests a humid subtropical or tropical climate consistent with many parts of India."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unpaved or poorly maintained concrete road with no lane markings is typical of rural Indian villages.\",\n    \"Utility poles with visible electrical wires and a simple metal fence along the roadside are common infrastructure in semi-rural India.\",\n    \"Dense tropical vegetation including bamboo, broadleaf trees, and undergrowth suggests a humid subtropical or tropical climate consistent with many parts of India.\",\n    \"The absence of any visible signage, vehicles, or modern"
+}

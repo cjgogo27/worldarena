@@ -1,0 +1,22 @@
+Black roadside street sign appears to read 'Jl. MT Hasanuddin'
+Use of 'Jl.' strongly indicates Indonesian street naming
+Dense overhead utility wiring typical of Indonesian town streets
+Many motorcycles and local traffic pattern consistent with Indonesia
+Tropical vegetation and humid lowland environment indicate Southeast Asia
+Mix of concrete buildings and wooden stilt-style houses fits Borneo settlements
+Roadside drainage and flood-prone street edges fit low-lying Kalimantan towns
+Overall architecture and neighborhood style are more consistent with Indonesia than Malaysia
+Applying the ordered skills strictly: Skill 1 notes the visible word pattern consistent with Malay/Indonesian usage, which keeps Malaysia and Indonesia as the main candidates.
+Following its strongest graph-supported links, Skill 3 places the scene in Southeast Asia based on the road furniture and overall traffic environment.
+Skill 4 and Skill 6 reinforce a humid tropical Southeast Asian setting through the lush vegetation, flat lowland terrain, and roadside soil.
+Skill 5 is especially important here because the visible roadside sign format and concrete roadside development are characteristic of Indonesia.
+Skill 7 further supports maritime Southeast Asia from the driving pattern, motorcycles, and tropical roadside streetscape.
+Skill 10 adds support from the residential architecture, painted fences, and neighborhood style, which fit Indonesia well.
+I discount Skill 2 and Skill 8 because Brazil and South Africa conflict with the clearly Southeast Asian urban form, language context, motorcycles, and Indonesian-style streetscape.
+I also discount Skill 9 and Skill 12 because Vietnam and Thailand are weaker matches than Indonesia for the visible sign style, buildings, and road environment.
+Between Malaysia and Indonesia, the strongest discriminator is the black street sign on the left that appears to read 'Jl.
+MT Hasanuddin'; 'Jl.' is the standard Indonesian abbreviation for 'Jalan' and is a very strong country-level clue.
+The stilted wooden houses, drainage, dense overhead wiring, and flat Bornean town feel are highly consistent with Tanjung Selor in North Kalimantan.
+Therefore the best consistent location guess is Jl.
+MT Hasanuddin, Tanjung Selor, North Kalimantan, Indonesia.
+Conclusion: likely location is Tanjung Selor, North Kalimantan, Indonesia

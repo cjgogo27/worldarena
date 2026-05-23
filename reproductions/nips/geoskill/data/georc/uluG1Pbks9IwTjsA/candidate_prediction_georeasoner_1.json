@@ -1,0 +1,12 @@
+{
+  "country": "Spain",
+  "country_code": "es",
+  "city": "",
+  "reasoning_chain": [
+    "The sign 'PELIGRO PERRO' is in Spanish, indicating a Spanish-speaking country.",
+    "The architecture features white stucco walls and terracotta-tiled roofs, typical of Mediterranean regions like Spain.",
+    "Palm trees and dense green hedges suggest a warm, coastal climate consistent with southern Spain.",
+    "Cars are parked on the right side of the road, consistent with right-hand traffic in Spain."
+  ],
+  "raw_output": "{\n  \"country\": \"Spain\",\n  \"country_code\": \"es\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The sign 'PELIGRO PERRO' is in Spanish, indicating a Spanish-speaking country.\",\n    \"The architecture features white stucco walls and terracotta-tiled roofs, typical of Mediterranean regions like Spain.\",\n    \"Palm trees and dense green hedges suggest a warm, coastal climate consistent with southern Spain.\",\n    \"Cars are parked on the right side of the road, consistent with right-hand traffic in Spain.\"\n  ]"
+}

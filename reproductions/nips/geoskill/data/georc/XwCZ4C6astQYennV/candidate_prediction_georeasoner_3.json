@@ -1,0 +1,12 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line and right-hand traffic indicate a US highway.",
+    "Flat, open prairie landscape with dry grass and scattered clouds is typical of the Great Plains region.",
+    "Red-and-white chevron curve warning signs are standard in the US for sharp road bends.",
+    "Absence of urban infrastructure, presence of rural fencing, and distant wind turbines suggest a remote agricultural area in the central US."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line and right-hand traffic indicate a US highway.\",\n    \"Flat, open prairie landscape with dry grass and scattered clouds is typical of the Great Plains region.\",\n    \"Red-and-white chevron curve warning signs are standard in the US for sharp road bends.\",\n    \"Absence of urban infrastructure, presence of rural fencing, and distant wind turbines suggest a remote agricultural area in the central US.\"\n  ]\n}"
+}

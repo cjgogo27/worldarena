@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a solid white line on the left and dashed white lines in the center, indicating right-hand traffic consistent with US highways.",
+    "The yellow line on the right edge of the road is typical for US rural roads to mark the shoulder or edge of the travel lane.",
+    "The vegetation consists of dense pine forests and open grassy fields, common in the southeastern or southern US states like Georgia, Alabama, or South Carolina."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a solid white line on the left and dashed white lines in the center, indicating right-hand traffic consistent with US highways.\",\n    \"The yellow line on the right edge of the road is typical for US rural roads to mark the shoulder or edge of the travel lane.\",\n    \"The vegetation consists of dense pine forests and open grassy fields, common in the southeastern or southern US states like Georgia, Alabama, or South Carolina.\","
+}

@@ -1,0 +1,13 @@
+/data/alice/cjtest/geoskill/scripts/generate_figures.py:248: UserWarning: Skipping Figure 4: no ablation metrics
+  warnings.warn("Skipping Figure 4: no ablation metrics")
+/data/alice/cjtest/geoskill/scripts/generate_figures.py:111: UserWarning: Glyph 10003 (\N{CHECK MARK}) missing from font(s) DejaVu Serif.
+  fig.tight_layout()
+/data/alice/cjtest/geoskill/scripts/generate_figures.py:111: UserWarning: Tight layout not applied. tight_layout cannot make Axes width small enough to accommodate all Axes decorations
+  fig.tight_layout()
+/data/alice/cjtest/geoskill/scripts/generate_figures.py:112: UserWarning: Glyph 10003 (\N{CHECK MARK}) missing from font(s) DejaVu Serif.
+  fig.savefig(output_dir / f"{stem}.pdf", bbox_inches="tight")
+/data/alice/cjtest/geoskill/scripts/generate_figures.py:113: UserWarning: Glyph 10003 (\N{CHECK MARK}) missing from font(s) DejaVu Serif.
+  fig.savefig(output_dir / f"{stem}.png", bbox_inches="tight")
+/data/alice/cjtest/geoskill/scripts/generate_figures.py:555: UserWarning: Skipping Table 2: no ablation metrics
+  warnings.warn("Skipping Table 2: no ablation metrics")
+Done. Figures/tables written to: /data/alice/cjtest/geoskill/figures

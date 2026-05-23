@@ -1,0 +1,11 @@
+{
+  "country": "Spain",
+  "country_code": "es",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved with gravel shoulders and no center line, typical of rural roads in arid or semi-arid regions of Spain.",
+    "Vegetation consists of dry grasses and scrubby bushes (likely maquis or garrigue), consistent with Mediterranean climates found in southern and eastern Spain.",
+    "No utility poles, signs, or vehicles are visible, suggesting a remote, low-traffic area common in rural Spain."
+  ],
+  "raw_output": "{\n  \"country\": \"Spain\",\n  \"country_code\": \"es\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved with gravel shoulders and no center line, typical of rural roads in arid or semi-arid regions of Spain.\",\n    \"Vegetation consists of dry grasses and scrubby bushes (likely maquis or garrigue), consistent with Mediterranean climates found in southern and eastern Spain.\",\n    \"No utility poles, signs, or vehicles are visible, suggesting a remote, low-traffic area common in rural Spain.\",\n    \""
+}

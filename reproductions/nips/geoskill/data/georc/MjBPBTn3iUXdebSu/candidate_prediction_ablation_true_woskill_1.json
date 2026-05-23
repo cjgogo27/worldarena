@@ -1,0 +1,35 @@
+{
+  "game_id": "MjBPBTn3iUXdebSu",
+  "round": 1,
+  "sample_id": "georc::MjBPBTn3iUXdebSu::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "br",
+    "predicted_region": "south_america",
+    "predicted_address": "Rua da Paz, Vila Nova, São Luís, Maranhão, Brazil",
+    "predicted_lat": -2.5283,
+    "predicted_lng": -44.3044,
+    "reasoning_text": "```json\n{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"city\": \"São Luís\",\n  \"province_or_state\": \"Maranhão\",\n  \"address\": \"Rua da Paz, Vila Nova, São Luís, Maranhão, Brazil\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows several distinctive features pointing to Brazil. The architecture with white plastered walls and red clay tile roofs is typical of northeastern Brazilian coastal cities. The tropical vegetation including palm trees and banana plants, combined with the reddish-brown soil, suggests the equatorial climate zone of northern Brazil. The street layout with narrow paved roads, informal sidewalk construction, and utility poles with overhead wiring matches Brazilian urban patterns. The driving side (evident from road orientation) is right-hand, consistent with Brazil. The building style with barred windows and simple construction is characteristic of working-class neighborhoods in Brazilian cities. São Luís, the capital of Maranhão state, has this specific combination of colonial-influenced architecture, tropical vegetation, and soil type. The neighborhood name 'Vila Nova' is commonly used in Brazilian cities for newer residential areas.\",\n  \"evidence\": [\"Red clay tile roofs on white plastered buildings\", \"Tropical palm trees and banana vegetation\", \"Reddish-brown lateritic soil typical of Amazonian transition zone\", \"Overhead utility pole wiring pattern\", \"Right-hand driving orientation\", \"Simple barred window construction\", \"Narrow paved street with informal drainage\", \"Blue sky with cumulus clouds indicating equatorial climate\"]\n}\n```",
+    "evidence_spans": [
+      "Red clay tile roofs on white plastered buildings",
+      "Tropical palm trees and banana vegetation",
+      "Reddish-brown lateritic soil typical of Amazonian transition zone",
+      "Overhead utility pole wiring pattern",
+      "Right-hand driving orientation",
+      "Simple barred window construction",
+      "Narrow paved street with informal drainage",
+      "Blue sky with cumulus clouds indicating equatorial climate"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "br",
+      "co",
+      "mx"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"br\",\"co\",\"mx\"],\"reason\":\"Red clay tile roofs, tropical vegetation with palm trees, simple single-story plastered houses with barred windows, unpaved shoulders with reddish soil, overhead power lines, and general architectural style are strongly characteristic of rural northeastern Brazil (Nordeste). Colombia and Mexico share some tropical features but the specific house typology—white plaster, terracotta tiles, barred windows, and street layout—most closely matches Brazilian small towns.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8775000000000001
+  },
+  "error": null
+}

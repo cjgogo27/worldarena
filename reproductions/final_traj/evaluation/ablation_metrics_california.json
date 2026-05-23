@@ -1,0 +1,20 @@
+{
+  "HoMe-LLM": {
+    "n_matched": 8,
+    "accuracy": 0.7877604166666666,
+    "edit_dist": 0.21223958333333331,
+    "bleu": 0.7923284170201903
+  },
+  "w/o Negotiation": {
+    "n_matched": 8,
+    "accuracy": 0.77734375,
+    "edit_dist": 0.22265625,
+    "bleu": 0.7744546943778543
+  },
+  "w/o Stages": {
+    "n_matched": 8,
+    "accuracy": 0.7395833333333334,
+    "edit_dist": 0.2604166666666667,
+    "bleu": 0.6535737017132045
+  }
+}

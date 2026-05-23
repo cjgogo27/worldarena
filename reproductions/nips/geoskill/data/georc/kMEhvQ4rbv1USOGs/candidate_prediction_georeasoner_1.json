@@ -1,0 +1,11 @@
+{
+  "country": "Malaysia",
+  "country_code": "my",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a single yellow center line, indicating two-way traffic with no overtaking allowed — common in rural Malaysian roads.",
+    "Dense tropical rainforest vegetation on both sides suggests a humid equatorial climate typical of Borneo or Peninsular Malaysia.",
+    "No visible signage, vehicles, or buildings implies a remote, non-urbanized area consistent with interior Malaysian forest roads."
+  ],
+  "raw_output": "{\n  \"country\": \"Malaysia\",\n  \"country_code\": \"my\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a single yellow center line, indicating two-way traffic with no overtaking allowed — common in rural Malaysian roads.\",\n    \"Dense tropical rainforest vegetation on both sides suggests a humid equatorial climate typical of Borneo or Peninsular Malaysia.\",\n    \"No visible signage, vehicles, or buildings implies a remote, non-urbanized area consistent with interior Malaysian forest roads.\",\n    \"Overhead power lines running parallel to the"
+}

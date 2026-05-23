@@ -1,0 +1,11 @@
+{
+  "country": "South Africa",
+  "country_code": "za",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with a single dashed white centerline, consistent with South African rural roads.",
+    "Vegetation is sparse, low shrubbery on reddish-brown soil, typical of the Karoo biome in South Africa.",
+    "Utility poles are wooden and spaced regularly, common in remote South African regions."
+  ],
+  "raw_output": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with a single dashed white centerline, consistent with South African rural roads.\",\n    \"Vegetation is sparse, low shrubbery on reddish-brown soil, typical of the Karoo biome in South Africa.\",\n    \"Utility poles are wooden and spaced regularly, common in remote South African regions.\",\n    \"No visible signage or vehicles, but the landscape and infrastructure strongly match South Africa’s Northern"
+}

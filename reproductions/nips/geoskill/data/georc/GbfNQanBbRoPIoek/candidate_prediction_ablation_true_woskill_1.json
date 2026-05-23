@@ -1,0 +1,34 @@
+{
+  "game_id": "GbfNQanBbRoPIoek",
+  "round": 1,
+  "sample_id": "georc::GbfNQanBbRoPIoek::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "th",
+    "predicted_region": "asia",
+    "predicted_address": "Soi Ban Non Khwae, San Sai District, Chiang Mai, Chiang Mai Province, Thailand",
+    "predicted_lat": 18.76666667,
+    "predicted_lng": 98.9625,
+    "reasoning_text": "```json\n{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Chiang Mai\",\n  \"province_or_state\": \"Chiang Mai Province\",\n  \"address\": \"Soi Ban Non Khwae, San Sai District, Chiang Mai, Chiang Mai Province, Thailand\",\n  \"confidence\": 0.65,\n  \"reasoning\": \"The narrow concrete residential road with lush tropical vegetation, simple fencing, and modest housing style is characteristic of Thai suburban/rural areas. The dense greenery and mature trees suggest a well-established residential neighborhood. The road width and construction quality match typical Thai soi (side street) infrastructure. The vegetation mix including papaya-like plants and tropical flowering shrubs is consistent with northern Thailand's climate. The absence of Vietnamese-style narrow tube houses or Philippine-style concrete block construction with metal roofs points away from Vietnam and Philippines. The overall aesthetic—concrete walls with metal fencing, scattered utility poles, and mature tree canopy—aligns with Chiang Mai's suburban districts known for quieter residential lanes.\",\n  \"evidence\": [\"narrow concrete residential road typical of Thai soi\", \"lush tropical vegetation with mature tree canopy\", \"simple concrete and metal fencing style\", \"modest single-story residential construction\", \"absence of Vietnamese tube house architecture\", \"absence of Philippine corrugated metal roofing prevalence\", \"tropical climate indicators consistent with northern Thailand\"]\n}\n```",
+    "evidence_spans": [
+      "narrow concrete residential road typical of Thai soi",
+      "lush tropical vegetation with mature tree canopy",
+      "simple concrete and metal fencing style",
+      "modest single-story residential construction",
+      "absence of Vietnamese tube house architecture",
+      "absence of Philippine corrugated metal roofing prevalence",
+      "tropical climate indicators consistent with northern Thailand"
+    ],
+    "confidence": 0.65,
+    "country_top3": [
+      "th",
+      "vn",
+      "ph"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"th\",\"vn\",\"ph\"],\"reason\":\"Tropical/subtropical vegetation with dense greenery, narrow concrete alleyway typical of Southeast Asian residential areas, concrete walls with metal fencing, utility poles with informal wiring, papaya trees visible, and overall urban residential density pattern common in Thailand, Vietnam, or Philippines. The alley width, wall construction style, and vegetation mix most strongly suggest Thailand.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9225000000000001
+  },
+  "error": null
+}

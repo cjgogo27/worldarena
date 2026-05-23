@@ -1,0 +1,502 @@
+{
+  "game_id": "3OuVMcpGjmm0tVfG",
+  "round": 1,
+  "sample_id": "georc::3OuVMcpGjmm0tVfG::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "mx",
+    "predicted_region": "north_america",
+    "predicted_lat": 19.25,
+    "predicted_lng": -96.15,
+    "reasoning_text": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"region\": \"North America\",\n  \"lat\": 19.25,\n  \"lng\": -96.15,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to a rural, tropical/subtropical location in Mexico, specifically the state of Veracruz or Oaxaca. The key indicators are: 1) The vegetation, particularly the banana plants (Musa) and the specific type of broadleaf trees, is characteristic of the humid tropics of the Mexican Gulf Coast. 2) The dry, dusty ground combined with lush greenery suggests a distinct dry season, typical of the climate in Veracruz during the winter/spring months. 3) The stone/rock retaining wall on the right is a common feature in rural Mexican roads (caminos de terracería) to manage water runoff and define property lines. 4) The unpaved road surface and lack of infrastructure confirm a remote, rural setting. 5) The bright, clear sky and high sun angle are consistent with the region's climate. While other countries like Guatemala or Honduras are possible, the specific combination of flora and road construction style is most typical of rural Veracruz.\",\n  \"evidence\": [\n    \"Banana plants (Musa genus) indicating tropical/subtropical climate\",\n    \"Unpaved dirt/gravel road with no lane markings\",\n    \"Stone/rock retaining wall on the right side\",\n    \"Dry, dusty ground suggesting a dry season\",\n    \"Bright blue sky with scattered clouds\",\n    \"Shadows suggest the sun is high, possibly midday\",\n    \"Tree bark texture and moss growth indicating a humid environment at times\",\n    \"Road surface appears compacted earth with some loose gravel\"\n  ]\n}",
+    "evidence_spans": [
+      "Banana plants (Musa genus) indicating tropical/subtropical climate",
+      "Unpaved dirt/gravel road with no lane markings",
+      "Stone/rock retaining wall on the right side",
+      "Dry, dusty ground suggesting a dry season",
+      "Bright blue sky with scattered clouds",
+      "Shadows suggest the sun is high, possibly midday",
+      "Tree bark texture and moss growth indicating a humid environment at times",
+      "Road surface appears compacted earth with some loose gravel"
+    ],
+    "confidence": 0.85,
+    "geovista_observation": {
+      "observations": [
+        "Unpaved dirt/gravel road with no lane markings.",
+        "Tropical/subtropical vegetation including banana plants and broadleaf trees.",
+        "Dry, dusty ground suggesting a dry season or arid climate.",
+        "Stone/rock retaining wall or drainage barrier on the right side.",
+        "Bright blue sky with scattered clouds, indicating clear weather.",
+        "Shadows suggest the sun is high, possibly midday.",
+        "No visible traffic, signs, or buildings in the immediate vicinity.",
+        "Tree bark texture and moss growth indicate a humid environment at times.",
+        "Road surface appears compacted earth with some loose gravel."
+      ],
+      "hard_clues": [
+        "Banana plants (Musa genus) strongly indicate a tropical or subtropical climate zone.",
+        "Absence of paved road infrastructure suggests a rural or remote location.",
+        "Dry, dusty soil combined with lush vegetation points to a seasonal climate (wet/dry seasons).",
+        "Stone wall construction style is common in rural areas of Latin America, Southeast Asia, or parts of Africa."
+      ],
+      "ambiguous_clues": [
+        "No license plates, street signs, or language-specific text visible to confirm country.",
+        "No vehicles present to determine driving side definitively.",
+        "Vegetation is common across many tropical regions (e.g., Brazil, Philippines, Thailand, Kenya).",
+        "Road condition is generic for rural areas worldwide."
+      ],
+      "possible_scripts": [
+        "Rural agricultural area in Latin America (e.g., Brazil, Costa Rica, Mexico).",
+        "Remote village in Southeast Asia (e.g., Philippines, Thailand, Vietnam).",
+        "Sub-Saharan African rural setting (e.g., Kenya, Tanzania).",
+        "Caribbean island countryside."
+      ],
+      "driving_side": "unknown"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Mexico",
+        "Guatemala",
+        "Honduras",
+        "El Salvador",
+        "Nicaragua",
+        "Costa Rica",
+        "Panama",
+        "Colombia",
+        "Ecuador",
+        "Peru",
+        "Brazil",
+        "Philippines",
+        "Indonesia",
+        "Thailand",
+        "Vietnam",
+        "Cambodia",
+        "Laos",
+        "Malaysia",
+        "India",
+        "Sri Lanka",
+        "Kenya",
+        "Tanzania",
+        "Uganda",
+        "Ethiopia",
+        "Madagascar",
+        "South Africa",
+        "Zimbabwe",
+        "Zambia",
+        "Malawi",
+        "Mozambique",
+        "Angola",
+        "Democratic Republic of the Congo",
+        "Republic of the Congo",
+        "Cameroon",
+        "Nigeria",
+        "Ghana",
+        "Côte d'Ivoire",
+        "Senegal",
+        "Mali",
+        "Burkina Faso",
+        "Niger",
+        "Chad",
+        "Sudan",
+        "South Sudan",
+        "Somalia",
+        "Eritrea",
+        "Djibouti",
+        "Yemen",
+        "Oman",
+        "United Arab Emirates",
+        "Saudi Arabia",
+        "Jordan",
+        "Iraq",
+        "Iran",
+        "Afghanistan",
+        "Pakistan",
+        "Bangladesh",
+        "Myanmar",
+        "China (Yunnan, Guangxi, Hainan)",
+        "Taiwan",
+        "Japan (Okinawa)",
+        "Australia (Queensland, Northern Territory)",
+        "Fiji",
+        "Samoa",
+        "Tonga",
+        "Vanuatu",
+        "Solomon Islands",
+        "Papua New Guinea",
+        "New Caledonia",
+        "French Polynesia",
+        "Hawaii (USA)",
+        "Puerto Rico",
+        "Dominican Republic",
+        "Haiti",
+        "Cuba",
+        "Jamaica",
+        "Bahamas",
+        "Barbados",
+        "Trinidad and Tobago",
+        "Guyana",
+        "Suriname",
+        "French Guiana",
+        "Venezuela",
+        "Bolivia",
+        "Paraguay",
+        "Argentina (Northern regions)",
+        "Chile (Northern regions)"
+      ],
+      "zoom_boxes": [
+        [
+          0,
+          0,
+          300,
+          600
+        ],
+        [
+          700,
+          0,
+          1000,
+          600
+        ]
+      ],
+      "verification_queries": [
+        "Examine tree bark texture and moss growth patterns for regional specificity.",
+        "Analyze stone wall construction technique and material sourcing.",
+        "Identify specific banana plant varieties or associated flora for biogeographic clues.",
+        "Check for subtle road wear patterns or vehicle tracks indicating local transport habits.",
+        "Look for distant architectural styles or utility pole designs in background foliage.",
+        "Assess soil color and composition for geological indicators.",
+        "Note cloud formation type and altitude for climatic zone refinement.",
+        "Search for any faint signage, graffiti, or man-made objects partially obscured by vegetation."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "mx",
+      "predicted_region": "north_america",
+      "predicted_lat": 19.25,
+      "predicted_lng": -96.15,
+      "confidence": 0.85
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "mx",
+      "predicted_region": "north_america",
+      "predicted_lat": 19.25,
+      "predicted_lng": -96.15,
+      "confidence": 0.85
+    },
+    "base_prediction_summary": {
+      "predicted_country": "mx",
+      "predicted_region": "north_america",
+      "predicted_lat": 19.25,
+      "predicted_lng": -96.15,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.85,
+    "skill_boost_aggressive_confidence": 0.85,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The tropical vegetation, including palm trees, suggests a warm, humid climate typical of regions near the equator.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.8207744181156159,
+          "visual_cues": [
+            "climate",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The vegetation includes a solitary papaya tree, walls with barbed wire, and lush greenery in the distance, characteristic of tropical climates.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7788652002811433,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7191348254680634,
+          "visual_cues": [
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The vegetation is semi-tropical with broad-leaved trees, frequent in the Yucatán Peninsula and southern Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7135634660720825,
+          "visual_cues": [
+            "road",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The vegetation includes several palm trees and other drought-resistant flora, typical of subtropical or tropical dry climates.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7074621707201004,
+          "visual_cues": [
+            "climate",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6907565236091614,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "Combining the tropical vegetation, suburban-rural setting, architecture, curb and sidewalk design, I estimate this image is in Mexico, specifically a small town near Mérida, Yucatán.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6574490934610367,
+          "visual_cues": [
+            "architecture",
+            "sidewalk",
+            "sign",
+            "vegetation"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The tropical vegetation, including palm trees, suggests a warm, humid climate typical of regions near the equator.",
+        "The vegetation includes a solitary papaya tree, walls with barbed wire, and lush greenery in the distance, characteristic of tropical climates.",
+        "The landscape is relatively flat with scattered trees and open pasture, supporting the idea of a rural area in a tropical country.",
+        "The vegetation is semi-tropical with broad-leaved trees, frequent in the Yucatán Peninsula and southern Mexico.",
+        "The vegetation includes several palm trees and other drought-resistant flora, typical of subtropical or tropical dry climates.",
+        "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+        "Combining the tropical vegetation, suburban-rural setting, architecture, curb and sidewalk design, I estimate this image is in Mexico, specifically a small town near Mérida, Yucatán."
+      ],
+      "summary": "nodes=7, edges=21, base_region=north_america, top_skill_region=north_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 7,
+        "graph_nodes": 7,
+        "graph_edges": 21,
+        "graph_summary": "nodes=7, edges=21, base_region=north_america, top_skill_region=north_america"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

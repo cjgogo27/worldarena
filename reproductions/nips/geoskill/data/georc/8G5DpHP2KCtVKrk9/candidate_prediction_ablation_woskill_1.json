@@ -1,0 +1,26 @@
+{
+  "game_id": "8G5DpHP2KCtVKrk9",
+  "round": 1,
+  "sample_id": "georc::8G5DpHP2KCtVKrk9::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "br",
+    "predicted_region": "south_america",
+    "predicted_address": "Avenida Beira-Mar, Centro Histórico, São Luís, Maranhão, Brazil",
+    "predicted_lat": -2.5283,
+    "predicted_lng": -44.3044,
+    "reasoning_text": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"city\": \"São Luís\",\n  \"province_or_state\": \"Maranhão\",\n  \"address\": \"Avenida Beira-Mar, Centro Histórico, São Luís, Maranhão, Brazil\",\n  \"confidence\": 0.7,\n  \"reasoning\": \"The scene shows a tropical coastal city with right-hand driving, Portuguese-language-looking storefront text, dense overhead utility wiring, and pastel colonial architecture typical of older Brazilian waterfront districts. The road runs directly along a seawall or estuary edge, with historic low-rise buildings on the opposite side. This combination strongly matches northern/northeastern Brazil. Among likely candidates, the waterfront avenue beside the historic center in São Luís fits especially well: colonial façades, bayfront road alignment, palm landscaping, and the overall urban style are consistent with Avenida Beira-Mar in central São Luís.\",\n  \"evidence\": [\n    \"Right-hand traffic\",\n    \"Tropical waterfront boulevard with seawall on the left\",\n    \"Pastel colonial-style building façades\",\n    \"Dense overhead power and telecom cables\",\n    \"Storefront text appears consistent with Portuguese\",\n    \"Flat, humid, coastal environment with palm trees\",\n    \"Historic center directly adjacent to a bayfront avenue\"\n  ]\n}",
+    "evidence_spans": [
+      "Right-hand traffic",
+      "Tropical waterfront boulevard with seawall on the left",
+      "Pastel colonial-style building façades",
+      "Dense overhead power and telecom cables",
+      "Storefront text appears consistent with Portuguese",
+      "Flat, humid, coastal environment with palm trees",
+      "Historic center directly adjacent to a bayfront avenue"
+    ],
+    "confidence": 0.7
+  },
+  "error": null
+}

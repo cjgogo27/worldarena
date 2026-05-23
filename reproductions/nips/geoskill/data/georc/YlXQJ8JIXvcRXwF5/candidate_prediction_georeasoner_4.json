@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved dirt road with no markings or signs is typical of rural areas in Brazil’s Amazon or Cerrado regions.",
+    "Dense tropical vegetation on both sides, including broadleaf trees and shrubs, indicates a humid subtropical or tropical climate common in northern Brazil.",
+    "No visible infrastructure like power lines, streetlights, or buildings suggests remote location, consistent with interior Brazilian backroads."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved dirt road with no markings or signs is typical of rural areas in Brazil’s Amazon or Cerrado regions.\",\n    \"Dense tropical vegetation on both sides, including broadleaf trees and shrubs, indicates a humid subtropical or tropical climate common in northern Brazil.\",\n    \"No visible infrastructure like power lines, streetlights, or buildings suggests remote location, consistent with interior Brazilian backroads.\",\n    \"Sunlight angle and cloud patterns suggest"
+}

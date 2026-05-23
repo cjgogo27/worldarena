@@ -1,0 +1,770 @@
+{
+  "game_id": "STQGgl6Uh9muExNb",
+  "round": 1,
+  "sample_id": "georc::STQGgl6Uh9muExNb::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "jp",
+    "predicted_region": "asia",
+    "predicted_lat": 35.0116,
+    "predicted_lng": 135.7681,
+    "reasoning_text": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"Asia\",\n  \"lat\": 35.0116,\n  \"lng\": 135.7681,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The visual evidence strongly points to a residential area in Japan. Key indicators include the architectural style of the detached two-story houses with tiled roofs, the specific design of the fences (wooden with wire mesh), the roll-up garage doors, and the narrow, unmarked residential streets. The vegetation and overcast sky are consistent with a Japanese winter or late autumn. The terrain appears to be sloping, which is common in many Japanese cities. While specific street signs or license plates are not clearly visible, the overall aesthetic and urban planning are distinctly Japanese. Based on the general appearance and common features of Japanese suburbs, a location in Kyoto, known for its mix of traditional and modern residential areas, is a reasonable estimate.\",\n  \"evidence\": [\n    \"Detached, two-story residential houses with tiled roofs\",\n    \"Narrow, paved residential street with no center line markings\",\n    \"Tall, light-brown wooden fence topped with a green wire mesh fence\",\n    \"White roll-up garage door and dark brown lattice gate\",\n    \"Concrete retaining wall along the base of the fence\",\n    \"Bare deciduous trees and evergreen shrubs suggesting late autumn or winter\",\n    \"Overcast sky with heavy grey clouds\",\n    \"Utility poles and wires visible in the distance\",\n    \"Sloping terrain ahead\"\n  ]\n}",
+    "evidence_spans": [
+      "Detached, two-story residential houses with tiled roofs",
+      "Narrow, paved residential street with no center line markings",
+      "Tall, light-brown wooden fence topped with a green wire mesh fence",
+      "White roll-up garage door and dark brown lattice gate",
+      "Concrete retaining wall along the base of the fence",
+      "Bare deciduous trees and evergreen shrubs suggesting late autumn or winter",
+      "Overcast sky with heavy grey clouds",
+      "Utility poles and wires visible in the distance",
+      "Sloping terrain ahead"
+    ],
+    "confidence": 0.95,
+    "geovista_observation": {
+      "observations": [
+        "The image is a street-level view from a vehicle, indicated by the motion blur on the road surface.",
+        "The architecture consists of detached, two-story residential houses with tiled roofs, typical of suburban Japan.",
+        "The house on the left features a beige brick wall, a dark brown lattice gate, and a white roll-up garage door.",
+        "The house on the right has a tall, light-brown wooden fence topped with a green wire mesh fence.",
+        "The road is a narrow, paved residential street with no center line markings.",
+        "The sky is overcast with heavy grey clouds.",
+        "Vegetation includes bare deciduous trees on the left and evergreen shrubs on the right, suggesting late autumn or winter.",
+        "A concrete retaining wall runs along the base of the fence on the right side.",
+        "The terrain appears to be sloping upwards ahead.",
+        "Utility poles and wires are visible in the distance.",
+        "The overall aesthetic of the houses, fences, and street layout is distinctly Japanese."
+      ],
+      "hard_clues": [
+        "Japanese-style residential architecture (tiled roofs, specific fence styles).",
+        "Narrow residential street width.",
+        "Roll-up garage door style common in Japan.",
+        "Green wire mesh fencing on top of wooden fences.",
+        "Concrete retaining walls along the road.",
+        "Absence of visible license plates or English signage."
+      ],
+      "ambiguous_clues": [
+        "The specific region within Japan cannot be determined from the general architecture alone.",
+        "The exact season is ambiguous due to the mix of bare trees and evergreens, though likely winter.",
+        "The specific time of day is unclear due to the overcast sky."
+      ],
+      "possible_scripts": [
+        "Japanese residential street exploration.",
+        "Suburban neighborhood navigation in Japan.",
+        "Identifying specific prefecture based on subtle architectural variations."
+      ],
+      "driving_side": "left"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Japan"
+      ],
+      "zoom_boxes": [
+        [
+          150,
+          350,
+          400,
+          650
+        ],
+        [
+          650,
+          200,
+          950,
+          700
+        ]
+      ],
+      "verification_queries": [
+        "Analyze the roof tiles and fence styles to confirm Japanese suburban architecture.",
+        "Examine the road width and lack of center lines typical of Japanese residential streets.",
+        "Identify the specific style of the roll-up garage door and lattice gate.",
+        "Check the utility pole design and wire configuration for Japanese standards."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "jp",
+      "predicted_region": "asia",
+      "predicted_lat": 35.0116,
+      "predicted_lng": 135.7681,
+      "confidence": 0.95
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "jp",
+      "predicted_region": "asia",
+      "predicted_lat": 35.0116,
+      "predicted_lng": 135.7681,
+      "confidence": 0.95
+    },
+    "base_prediction_summary": {
+      "predicted_country": "jp",
+      "predicted_region": "asia",
+      "predicted_lat": 35.0116,
+      "predicted_lng": 135.7681,
+      "confidence": 0.95
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.95,
+    "skill_boost_boost_confidence": 0.95,
+    "skill_boost_aggressive_confidence": 0.95,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8314644634723664,
+          "visual_cues": [
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7934094011783601,
+          "visual_cues": [
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7622246056795121,
+          "visual_cues": [
+            "architecture",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The presence of large metal containers and varied building types hints at mixed-use agricultural and residential land, fitting the South Korean countryside.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6655826091766358,
+          "visual_cues": [
+            "building"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "This location is in Japan due to the low cam, asian greenhouses, and east Asian electricity poles that are made out of concrete and have complicated pole tops and other wiring and insulator configurations",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6327066004276276,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "Given all evidence, the country is Japan, and based on the landscape, vegetation, and infrastructure style, a good estimate for the city is a suburban or rural area near Kobe or other cities in the Kansai region, but certainly within Honshu, Japan.",
+          "region_hint": "asia",
+          "confidence": 0.9,
+          "score": 0.6310754418373108,
+          "visual_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The landscape is dry and arid, with minimal vegetation and the climate feels like a desert; combined with the Google car with a whole tent on the roof and a snorkel, this has to be Mongolia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6060188353061676,
+          "visual_cues": [
+            "car",
+            "climate",
+            "roof",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The buildings have a distinct low-rise utilitarian style, with colored rooftops (orange and green) that are often seen in South Korean countryside industrial or agricultural zones.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.5909146547317505,
+          "visual_cues": [
+            "building",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.584613597393036,
+          "visual_cues": [
+            "driving",
+            "road",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.5817867726087571,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The architecture is characterized by light beige stone-clad buildings with flat roofs and rectangular windows, which is typical for cities in the Levant region, especially Jordan and Palestine.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.5771134734153748,
+          "visual_cues": [
+            "architecture",
+            "building",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The street layout, mixed-use low-rise modern buildings, and the relatively new urban development in the background align with a developing city infrastructure typical of Amman.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.5665443986654282,
+          "visual_cues": [
+            "building"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building",
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+        "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+        "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+        "The presence of large metal containers and varied building types hints at mixed-use agricultural and residential land, fitting the South Korean countryside.",
+        "This location is in Japan due to the low cam, asian greenhouses, and east Asian electricity poles that are made out of concrete and have complicated pole tops and other wiring and insulator configurations",
+        "Given all evidence, the country is Japan, and based on the landscape, vegetation, and infrastructure style, a good estimate for the city is a suburban or rural area near Kobe or other cities in the Kansai region, but certainly within Honshu, Japan.",
+        "The landscape is dry and arid, with minimal vegetation and the climate feels like a desert; combined with the Google car with a whole tent on the roof and a snorkel, this has to be Mongolia",
+        "The buildings have a distinct low-rise utilitarian style, with colored rooftops (orange and green) that are often seen in South Korean countryside industrial or agricultural zones.",
+        "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+        "The architecture is characterized by light beige stone-clad buildings with flat roofs and rectangular windows, which is typical for cities in the Levant region, especially Jordan and Palestine.",
+        "The street layout, mixed-use low-rise modern buildings, and the relatively new urban development in the background align with a developing city infrastructure typical of Amman."
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Namibia",
+  "country_code": "na",
+  "city": "",
+  "reasoning_chain": [
+    "The arid, savanna-like vegetation with scattered acacia trees is characteristic of Namibia’s central and northern regions.",
+    "The unpaved road shoulders and lack of urban infrastructure suggest a remote rural area typical of Namibian highways.",
+    "No visible road markings, signs, or vehicles indicate low traffic density common in Namibia’s interior roads."
+  ],
+  "raw_output": "{\n  \"country\": \"Namibia\",\n  \"country_code\": \"na\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The arid, savanna-like vegetation with scattered acacia trees is characteristic of Namibia’s central and northern regions.\",\n    \"The unpaved road shoulders and lack of urban infrastructure suggest a remote rural area typical of Namibian highways.\",\n    \"No visible road markings, signs, or vehicles indicate low traffic density common in Namibia’s interior roads.\",\n    \"The clear blue sky and dry, dusty terrain align with Namibia’s semi-ar"
+}

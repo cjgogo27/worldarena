@@ -1,0 +1,11 @@
+{
+  "country": "Philippines",
+  "country_code": "ph",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of tropical vegetation, including palm trees and lush greenery, indicates a warm, humid climate typical of Southeast Asia.",
+    "The architecture features simple concrete houses with metal roofs and open-front designs, common in rural or semi-urban areas of the Philippines.",
+    "Utility poles with overhead wires are densely packed, a characteristic infrastructure pattern in many Philippine towns."
+  ],
+  "raw_output": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of tropical vegetation, including palm trees and lush greenery, indicates a warm, humid climate typical of Southeast Asia.\",\n    \"The architecture features simple concrete houses with metal roofs and open-front designs, common in rural or semi-urban areas of the Philippines.\",\n    \"Utility poles with overhead wires are densely packed, a characteristic infrastructure pattern in many Philippine towns.\",\n    \"The road is narrow and unpaved at edges, with no visible lane"
+}

@@ -1,0 +1,10 @@
+{
+  "country": "New Zealand",
+  "country_code": "nz",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unmarked and curves gently through a rural landscape, typical of New Zealand’s State Highway 6 or similar regional roads in the South Island.",
+    "Vegetation includes dense coniferous plantations (likely radiata pine) and native ferns, characteristic of New Zealand’s temperate rainforest zones."
+  ],
+  "raw_output": "{\n  \"country\": \"New Zealand\",\n  \"country_code\": \"nz\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unmarked and curves gently through a rural landscape, typical of New Zealand’s State Highway 6 or similar regional roads in the South Island.\",\n    \"Vegetation includes dense coniferous plantations (likely radiata pine) and native ferns, characteristic of New Zealand’s temperate rainforest zones.\",\n    \"No visible traffic signs, license plates, or vehicles suggest a remote, low-traffic area common in New Zealand’s"
+}

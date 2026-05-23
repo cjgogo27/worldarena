@@ -1,0 +1,32 @@
+{
+  "game_id": "HVBiwFr2gEcM1dze",
+  "round": 1,
+  "sample_id": "georc::HVBiwFr2gEcM1dze::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "es",
+    "predicted_region": "europe",
+    "predicted_address": "DP-3402, Santiago de Compostela, A Coruña, Galicia, Spain",
+    "predicted_lat": 42.8885225,
+    "predicted_lng": -8.5449726,
+    "reasoning_text": "```json\n{\n  \"country\": \"Spain\",\n  \"country_code\": \"es\",\n  \"region\": \"Europe\",\n  \"city\": \"Santiago de Compostela\",\n  \"province_or_state\": \"Galicia\",\n  \"address\": \"DP-3402, Santiago de Compostela, A Coruña, Galicia, Spain\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"The image shows a rural two-lane road with dense eucalyptus plantations on both sides, which is extremely characteristic of Galicia in northwestern Spain. Eucalyptus globulus was extensively planted in this region for the pulp and paper industry and dominates the landscape in many rural areas of A Coruña and Pontevedra provinces. The road markings (double continuous yellowish-white center lines with edge lines) and the style of rural road are consistent with Spanish provincial roads (carreteras provinciales, prefixed DP-). The terrain is gently rolling with Atlantic climate vegetation. The combination of eucalyptus monoculture, road style, and landscape strongly points to rural Galicia, Spain rather than Portugal or France. Santiago de Compostela is a major municipality in A Coruña province surrounded by exactly this type of eucalyptus-dominated rural landscape on its secondary roads.\",\n  \"evidence\": [\"Dense eucalyptus/gum tree plantations characteristic of Galicia, Spain\", \"Rural Spanish provincial road with double center line markings\", \"Atlantic climate rolling green hills with monoculture forestry\", \"Absence of Portuguese-style road markings or French departmental road signs\", \"Landscape consistent with A Coruña province interior\"]\n}\n```",
+    "evidence_spans": [
+      "Dense eucalyptus/gum tree plantations characteristic of Galicia, Spain",
+      "Rural Spanish provincial road with double center line markings",
+      "Atlantic climate rolling green hills with monoculture forestry",
+      "Absence of Portuguese-style road markings or French departmental road signs",
+      "Landscape consistent with A Coruña province interior"
+    ],
+    "confidence": 0.6,
+    "country_top3": [
+      "es",
+      "pt",
+      "fr"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"es\",\"pt\",\"fr\"],\"reason\":\"Eucalyptus plantations are extremely common in northern Spain (Galicia) and Portugal, with similar road styles and Atlantic climate vegetation. France (Brittany) is a distant third with some eucalyptus but less dominant. The narrow rural road with double center lines, moist green environment, and bare deciduous trees mixed with evergreen eucalyptus strongly point to Iberian Atlantic coast.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8600000000000001
+  },
+  "error": null
+}

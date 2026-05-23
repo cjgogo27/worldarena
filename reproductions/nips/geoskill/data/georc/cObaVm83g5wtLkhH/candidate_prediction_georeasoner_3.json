@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved, reddish-brown dirt road with no markings or shoulders is typical of rural infrastructure in parts of India, especially in semi-arid regions.",
+    "Vegetation consists of dry scrubland and acacia-like trees, consistent with the Deccan Plateau or Central Indian dry zones.",
+    "Absence of any man-made structures, signage, or vehicles suggests a remote, non-urbanized area common in interior India."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved, reddish-brown dirt road with no markings or shoulders is typical of rural infrastructure in parts of India, especially in semi-arid regions.\",\n    \"Vegetation consists of dry scrubland and acacia-like trees, consistent with the Deccan Plateau or Central Indian dry zones.\",\n    \"Absence of any man-made structures, signage, or vehicles suggests a remote, non-urbanized area common in interior India.\","
+}

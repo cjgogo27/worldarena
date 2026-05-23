@@ -1,0 +1,107 @@
+{
+  "game_id": "lCqI2T7mSJAgSbAi",
+  "round": 1,
+  "sample_id": "georc::lCqI2T7mSJAgSbAi::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "us",
+    "predicted_region": "north_america",
+    "predicted_address": "Belmont Road, Chesterfield County, Richmond, Virginia, United States",
+    "predicted_lat": 37.55376,
+    "predicted_lng": -77.46026,
+    "reasoning_text": "```json\n{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"city\": \"Richmond\",\n  \"province_or_state\": \"Virginia\",\n  \"address\": \"Belmont Road, Chesterfield County, Richmond, Virginia, United States\",\n  \"confidence\": 0.68,\n  \"reasoning\": \"The image shows classic mid-20th century American suburban development with brick ranch houses, mature deciduous trees with autumn foliage, narrow paved roads without sidewalks, and overhead utility lines. The architecture and vegetation strongly indicate the Richmond, Virginia metropolitan area, specifically Chesterfield County based on the rural-suburban fringe character and road maintenance style. The wooden guardrail and leaf-strewn road edge suggest a secondary residential road in an established neighborhood from the 1950s-1960s. The specific road name 'Belmont Road' is inferred from typical Chesterfield County road naming patterns and neighborhood layouts matching this development era.\",\n  \"evidence\": [\"Brick ranch house with dark shutters (1950s-60s American suburban architecture)\", \"Mature deciduous trees with autumn foliage\", \"Narrow paved road without sidewalks\", \"Overhead power lines on wooden poles\", \"Grass verge with leaf accumulation\", \"Wooden guardrail on road edge\", \"Rural-suburban fringe development pattern\", \"County-maintained road characteristics\"]\n}\n```",
+    "evidence_spans": [
+      "Brick ranch house with dark shutters (1950s-60s American suburban architecture)",
+      "Mature deciduous trees with autumn foliage",
+      "Narrow paved road without sidewalks",
+      "Overhead power lines on wooden poles",
+      "Grass verge with leaf accumulation",
+      "Wooden guardrail on road edge",
+      "Rural-suburban fringe development pattern",
+      "County-maintained road characteristics"
+    ],
+    "confidence": 0.68,
+    "country_top3": [
+      "us",
+      "ca",
+      "gb"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"us\",\"ca\",\"gb\"],\"reason\":\"The brick ranch architecture with dark shutters, mature deciduous trees with autumn foliage, narrow unmarked asphalt road without sidewalks, utility poles with overhead wires, and suburban residential layout are all highly characteristic of the United States, particularly the Mid-Atlantic region. Canada is a distant second due to similar North American suburban development and climate, while the UK ranks third due to some architectural parallels, though the road width, house style, and vegetation are distinctly American.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9300000000000002,
+        "pred_country": "us",
+        "geo_country": "us",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.68,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Belmont Road, Chesterfield County, Richmond, Virginia, United States"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.9300000000000002,
+        "pred_country": "us",
+        "geo_country": "us",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.68,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Old Hundred Road, Chesterfield County, Richmond, Virginia, United States"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.9300000000000002,
+        "pred_country": "us",
+        "geo_country": "us",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.68,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Old Hundred Road, Chesterfield County, Richmond, Virginia, United States"
+      }
+    ],
+    "selected_candidate_score": 0.9300000000000002,
+    "base_prediction_summary": {
+      "predicted_country": "us",
+      "predicted_region": "north_america",
+      "confidence": 0.72
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"city\": \"Richmond\",\n  \"province_or_state\": \"Virginia\",\n  \"address\": \"Suburban residential street, likely in Chesterfield County or Henrico County, Virginia, near Richmond\",\n  \"confidence\": 0.72,\n  \"reasoni",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "us"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

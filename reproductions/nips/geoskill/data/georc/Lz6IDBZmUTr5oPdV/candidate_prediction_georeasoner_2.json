@@ -1,0 +1,11 @@
+{
+  "country": "Bangladesh",
+  "country_code": "bd",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unpaved shoulder and lack of road markings suggest a rural setting common in South Asia, particularly Bangladesh.",
+    "The presence of high-voltage transmission towers with red-and-white painted lattice structures is typical of Bangladesh’s power grid infrastructure.",
+    "Vegetation includes lush green fields and broadleaf trees consistent with tropical monsoon climates found in Bangladesh."
+  ],
+  "raw_output": "{\n  \"country\": \"Bangladesh\",\n  \"country_code\": \"bd\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unpaved shoulder and lack of road markings suggest a rural setting common in South Asia, particularly Bangladesh.\",\n    \"The presence of high-voltage transmission towers with red-and-white painted lattice structures is typical of Bangladesh’s power grid infrastructure.\",\n    \"Vegetation includes lush green fields and broadleaf trees consistent with tropical monsoon climates found in Bangladesh.\",\n    \"The motorcyclist riding on the left side of the road aligns with"
+}

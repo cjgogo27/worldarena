@@ -1,0 +1,14 @@
+Flat-roofed, single-story masonry houses with walled facades
+Painted curbs and narrow sidewalks with sloped driveway cut-ins
+Pastel house colors common in small-town southeastern Mexico
+Flat tropical lowland setting with warm-climate vegetation
+Above-ground utility wires strung densely across the street
+Unmarked paved residential road with somewhat dusty shoulders
+Built environment consistent with Yucatán Peninsula towns
+Applying the ordered skill graph strictly: (1) the street architecture shows flat-roofed and walled facades, which is a strong match for Mexican urban and small-town housing.
+(2) The sidewalks and curbs, including painted curb edges and sloped driveway access, fit small towns in southern Mexico.
+(3) Combining the tropical vegetation, suburban-residential setting, architecture, and curb design places the scene in Mexico and more specifically in the Yucatán Peninsula zone rather than elsewhere in North America.
+Following the linked supporting skills: (4) the paved residential road without lane markings is consistent with small-town streets in this region; (5) the single-story pastel-colored homes also support rural/small-town southeastern Mexico; (6) the road condition, sidewalks, and utility pole style fit Yucatán Peninsula states such as Yucatán, Campeche, and Quintana Roo; and (7) the dense above-ground wiring crossing the street is very typical of Mexico.
+Among Yucatán Peninsula candidates, the flat tropical lowland environment and town character fit Felipe Carrillo Puerto, Quintana Roo well.
+I therefore give a consistent final guess of a residential street in Felipe Carrillo Puerto, Quintana Roo, Mexico.
+Conclusion: likely location is Felipe Carrillo Puerto, Quintana Roo, Mexico

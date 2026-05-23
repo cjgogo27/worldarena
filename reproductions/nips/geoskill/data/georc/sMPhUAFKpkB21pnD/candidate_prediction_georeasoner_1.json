@@ -1,0 +1,11 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved, narrow dirt road flanked by dense tropical vegetation is typical of rural areas in Southeast Asia, particularly Thailand.",
+    "Motorcycles are the primary mode of transport visible, consistent with Thailand’s high motorcycle ownership and usage in rural regions.",
+    "The overcast sky and lush green foliage suggest a humid tropical climate, aligning with Thailand’s monsoon-influenced weather patterns."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved, narrow dirt road flanked by dense tropical vegetation is typical of rural areas in Southeast Asia, particularly Thailand.\",\n    \"Motorcycles are the primary mode of transport visible, consistent with Thailand’s high motorcycle ownership and usage in rural regions.\",\n    \"The overcast sky and lush green foliage suggest a humid tropical climate, aligning with Thailand’s monsoon-influenced weather patterns.\",\n    \"No man-made structures, signs, or"
+}

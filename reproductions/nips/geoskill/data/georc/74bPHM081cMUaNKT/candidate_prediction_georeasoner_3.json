@@ -1,0 +1,10 @@
+{
+  "country": "Andorra",
+  "country_code": "ad",
+  "city": "Andorra la Vella",
+  "reasoning_chain": [
+    "The word 'BECIER' on the building and shop sign is a major supermarket chain in Andorra, indicating location within the country.",
+    "Road markings show right-hand traffic, consistent with Andorra’s driving side, and the road layout matches urban streets in Andorra la Vella."
+  ],
+  "raw_output": "{\n  \"country\": \"Andorra\",\n  \"country_code\": \"ad\",\n  \"city\": \"Andorra la Vella\",\n  \"reasoning_chain\": [\n    \"The word 'BECIER' on the building and shop sign is a major supermarket chain in Andorra, indicating location within the country.\",\n    \"Road markings show right-hand traffic, consistent with Andorra’s driving side, and the road layout matches urban streets in Andorra la Vella.\",\n    \"The mountainous terrain with dense green vegetation and clear blue sky aligns with the Pyrenean landscape surrounding Andorra"
+}

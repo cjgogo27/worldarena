@@ -1,0 +1,11 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved on the left shoulder with white gravel, typical of rural Portuguese roads in coastal or hilly regions.",
+    "Vegetation includes low shrubs and grasses consistent with Mediterranean climate zones found in southern Portugal.",
+    "No visible traffic signs, utility poles, or vehicles suggest a remote, non-urbanized area common in Portugal’s interior or coastal hinterlands."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved on the left shoulder with white gravel, typical of rural Portuguese roads in coastal or hilly regions.\",\n    \"Vegetation includes low shrubs and grasses consistent with Mediterranean climate zones found in southern Portugal.\",\n    \"No visible traffic signs, utility poles, or vehicles suggest a remote, non-urbanized area common in Portugal’s interior or coastal hinterlands.\",\n    \"The terrain features rolling green hills under a clear"
+}

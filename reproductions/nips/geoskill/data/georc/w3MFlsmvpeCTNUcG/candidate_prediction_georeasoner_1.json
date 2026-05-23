@@ -1,0 +1,11 @@
+{
+  "country": "France",
+  "country_code": "fr",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single dashed white centerline and solid white edge lines, consistent with French rural two-lane roads.",
+    "The flat, open agricultural landscape with plowed fields and distant tree lines is typical of the French countryside, especially in regions like the Beauce or Champagne.",
+    "No visible signage, vehicles, or infrastructure suggests a remote rural area, common in less densely populated parts of France."
+  ],
+  "raw_output": "{\n  \"country\": \"France\",\n  \"country_code\": \"fr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single dashed white centerline and solid white edge lines, consistent with French rural two-lane roads.\",\n    \"The flat, open agricultural landscape with plowed fields and distant tree lines is typical of the French countryside, especially in regions like the Beauce or Champagne.\",\n    \"No visible signage, vehicles, or infrastructure suggests a remote rural area, common in less densely populated parts of France.\",\n    \"The sky and lighting indicate temper"
+}

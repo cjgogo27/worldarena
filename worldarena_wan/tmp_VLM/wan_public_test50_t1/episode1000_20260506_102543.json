@@ -1,0 +1,3 @@
+{
+  "raw_response": "{\n\"Interaction_Quality\": {\n\"score\": 2,\n\"reason\": \"The interaction involves a human hand, not a robotic arm, which violates the core requirement. The hand grasps and moves the toy car and basket, showing no robotic kinematics or mechanical structure.\"\n},\n\"Perspectivity\": {\n\"score\": 5,\n\"reason\": \"The camera maintains a stable top-down perspective with consistent depth relationships and occlusion throughout the frames.\"\n},\n\"Instruction_Following\": {\n\"score\": 1,\n\"reason\": \"The video shows human hands performing the actions, which is a hallucination as the instruction explicitly requires a robotic arm. The human hand is clearly visible in multiple frames (e.g., frame 2, 8, 9, 14) manipulating the objects.\"\n}\n}"
+}

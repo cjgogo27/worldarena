@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "source": "real_training_results.json",
+    "description": "Aggregate offline evaluation results across 3 seeds (42, 123, 456)",
+    "data_split": "test",
+    "num_test_episodes": 9,
+    "tasks": [
+      "grab_roller",
+      "place_a2b_left",
+      "stack_blocks_two",
+      "open_laptop",
+      "adjust_bottle",
+      "beat_block_hammer",
+      "click_bell",
+      "dump_bin_bigbin",
+      "press_stapler"
+    ]
+  },
+  "fair_metrics": {
+    "lara_wm": {
+      "action_mse": 0.17744922637939453,
+      "std_action_mse": 0.005587977726577715,
+      "action_mae": 0.23270340263843536,
+      "std_action_mae": 0.0020633695575880836,
+      "action_r2": 0.30242551481541696,
+      "std_action_r2": 0.021967024212611905
+    },
+    "latent_no_refine": {
+      "action_mse": 0.18264518678188324,
+      "std_action_mse": 0.0027923128324673116,
+      "action_mae": 0.24120075503985086,
+      "std_action_mae": 0.0011042867788940477,
+      "action_r2": 0.2819995495790205,
+      "std_action_r2": 0.010976933929442127
+    },
+    "no_reward_wm": {
+      "action_mse": 0.18940372268358865,
+      "std_action_mse": 0.009105730423334697,
+      "action_mae": 0.24653818209966025,
+      "std_action_mae": 0.009350394552673459,
+      "action_r2": 0.25543093044752974,
+      "std_action_r2": 0.035795716938173336
+    },
+    "direct_policy": {
+      "action_mse": 0.18476990858713785,
+      "std_action_mse": 0.00918947812266731,
+      "action_mae": 0.24089391032854715,
+      "std_action_mae": 0.005475175182239376,
+      "action_r2": 0.2736470258504072,
+      "std_action_r2": 0.03612496466796741
+    }
+  },
+  "privileged_metrics": {
+    "lara_wm": {
+      "next_latent_mse": 0.004122301858539383,
+      "std_next_latent_mse": 0.0007227110858877248,
+      "next_latent_cosine": 0.9572925964991251,
+      "std_next_latent_cosine": 0.0023769727595338553,
+      "offline_refined_action_mse": 0.01731156340489785,
+      "std_offline_refined_action_mse": 0.002092066098082116,
+      "offline_refined_action_mae": 0.07697753856579463,
+      "std_offline_refined_action_mae": 0.0033750904779901204,
+      "offline_refined_action_r2": 0.9319461376616932,
+      "std_offline_refined_action_r2": 0.008224166151716991
+    },
+    "no_reward_wm": {
+      "next_latent_mse": 0.0008475031354464591,
+      "std_next_latent_mse": 0.0002220366102332696,
+      "next_latent_cosine": 0.9886927008628845,
+      "std_next_latent_cosine": 0.004097314337912288
+    }
+  }
+}

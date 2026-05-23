@@ -1,0 +1,10 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The sign reads 'COAST ALUMNI ASSOCIATION' and 'COLLEGE OF AGRICULTURE, SCIENCE & TECHNOLOGY', indicating an Indian educational institution with English signage typical of India.",
+    "Road markings show green-and-white curbs, a common pattern in Indian roadsides for demarcating boundaries or entrances to institutions."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The sign reads 'COAST ALUMNI ASSOCIATION' and 'COLLEGE OF AGRICULTURE, SCIENCE & TECHNOLOGY', indicating an Indian educational institution with English signage typical of India.\",\n    \"Road markings show green-and-white curbs, a common pattern in Indian roadsides for demarcating boundaries or entrances to institutions.\",\n    \"Vegetation includes eucalyptus and other tropical trees consistent with the Indian sub"
+}

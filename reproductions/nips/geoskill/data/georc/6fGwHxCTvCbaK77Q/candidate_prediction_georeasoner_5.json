@@ -1,0 +1,11 @@
+{
+  "country": "Argentina",
+  "country_code": "ar",
+  "city": "",
+  "reasoning_chain": [
+    "The dirt road with no markings and rural setting suggests a non-urbanized area common in Argentina’s pampas or rural provinces.",
+    "Green waste bins are typical of municipal waste management systems in Argentina, especially in rural or semi-rural communities.",
+    "Utility poles with overhead wires and simple concrete structures align with infrastructure styles found in Argentine countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Argentina\",\n  \"country_code\": \"ar\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The dirt road with no markings and rural setting suggests a non-urbanized area common in Argentina’s pampas or rural provinces.\",\n    \"Green waste bins are typical of municipal waste management systems in Argentina, especially in rural or semi-rural communities.\",\n    \"Utility poles with overhead wires and simple concrete structures align with infrastructure styles found in Argentine countryside.\",\n    \"Vegetation includes eucalyptus trees and grassy fields, consistent with"
+}

@@ -1,0 +1,34 @@
+{
+  "game_id": "JXpmlobJL7nhnp3E",
+  "round": 1,
+  "sample_id": "georc::JXpmlobJL7nhnp3E::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "my",
+    "predicted_region": "asia",
+    "predicted_address": "Jalan Kuala Kangsar, Kampung Kerdau, Kuala Kangsar, Perak, Malaysia",
+    "predicted_lat": 4.76666667,
+    "predicted_lng": 100.93333333,
+    "reasoning_text": "```json\n{\n  \"country\": \"Malaysia\",\n  \"country_code\": \"my\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Kuala Kangsar\",\n  \"province_or_state\": \"Perak\",\n  \"address\": \"Jalan Kuala Kangsar, Kampung Kerdau, Kuala Kangsar, Perak, Malaysia\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows left-hand driving (vehicle on left side of road, steering wheel position implied), which matches Malaysia, Indonesia, and Thailand. The road markings with double white lines and the style of the yellow building with decorative white wall elements and green roof are characteristic of Malaysian rural architecture. The lush tropical vegetation with palm trees and the hilly terrain in the background are consistent with Perak state. The utility poles and power line configuration match Malaysian rural infrastructure. The vehicle appears to be a Malaysian-style bus or van. The overall scene resembles the Kuala Kangsar area in Perak, which has this type of rural road character with mixed vegetation and scattered buildings.\",\n  \"evidence\": [\"Left-hand traffic driving direction\", \"Yellow building with decorative white wall and green roof typical of Malaysian rural homes\", \"Double white line road markings common in Malaysia\", \"Palm trees and tropical vegetation consistent with Peninsular Malaysia\", \"Utility pole and power line style matching Malaysian infrastructure\", \"Hilly terrain in background characteristic of Perak state\", \"Red vehicle resembling Malaysian public transport style\"]\n}\n```",
+    "evidence_spans": [
+      "Left-hand traffic driving direction",
+      "Yellow building with decorative white wall and green roof typical of Malaysian rural homes",
+      "Double white line road markings common in Malaysia",
+      "Palm trees and tropical vegetation consistent with Peninsular Malaysia",
+      "Utility pole and power line style matching Malaysian infrastructure",
+      "Hilly terrain in background characteristic of Perak state",
+      "Red vehicle resembling Malaysian public transport style"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "my",
+      "id",
+      "th"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"my\",\"id\",\"th\"],\"reason\":\"Left-hand driving with a right-hand drive vehicle (hood visible at bottom). Tropical vegetation with palm trees, dense greenery, and humid overcast sky. Road markings and rural infrastructure (concrete power poles, simple yellow house with decorative wall) are characteristic of Southeast Asia, particularly Peninsular Malaysia. The red van ahead and general road condition align with Malaysian rural highways. Indonesia and Thailand share similar tropical features but the specific combination of road style, housing architecture, and vegetation density points most strongly to Malaysia.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8775000000000001
+  },
+  "error": null
+}

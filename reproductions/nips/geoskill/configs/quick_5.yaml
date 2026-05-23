@@ -1,0 +1,25 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/quick_5
+
+vlm:
+  base_url: https://nowcoding.ai/v1
+  api_key: sk-8IH6GpqxCKcpCqAcALvnkl7dZbDbuO4f1QCgYh7vnUAq3jJD
+  model: claude-sonnet-4-5
+  max_tokens: 900
+  max_image_side: 768
+  retries: 1
+  backoff_seconds: 0.2
+
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  min_score: 0.15
+
+dataset:
+  game_ids:
+    - 1NJsXTxIF9GGMDxC
+    - 2xnQdwiCve2rHWVt
+    - 3I4ZtihbhZy5qZzQ
+    - 3OuVMcpGjmm0tVfG
+    - 3uP6lYo9pzx5Q0km

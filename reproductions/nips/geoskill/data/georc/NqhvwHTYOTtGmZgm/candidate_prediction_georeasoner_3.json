@@ -1,0 +1,12 @@
+{
+  "country": "Switzerland",
+  "country_code": "ch",
+  "city": "",
+  "reasoning_chain": [
+    "Road markings show dashed white center lines and solid white edge lines, consistent with Swiss road standards.",
+    "Vehicles are parked on the right side of the road, indicating right-hand traffic, which aligns with Switzerland.",
+    "The presence of a green mailbox with red label is typical for Swiss postal services.",
+    "Vegetation includes lush green trees and hedges, suggesting a temperate climate common in Switzerland."
+  ],
+  "raw_output": "{\n  \"country\": \"Switzerland\",\n  \"country_code\": \"ch\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Road markings show dashed white center lines and solid white edge lines, consistent with Swiss road standards.\",\n    \"Vehicles are parked on the right side of the road, indicating right-hand traffic, which aligns with Switzerland.\",\n    \"The presence of a green mailbox with red label is typical for Swiss postal services.\",\n    \"Vegetation includes lush green trees and hedges, suggesting a temperate climate common in Switzerland.\"\n  ]\n}"
+}

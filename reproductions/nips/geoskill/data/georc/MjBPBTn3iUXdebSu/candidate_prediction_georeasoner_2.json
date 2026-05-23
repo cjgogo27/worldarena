@@ -1,0 +1,11 @@
+{
+  "country": "South Africa",
+  "country_code": "za",
+  "city": "",
+  "reasoning_chain": [
+    "The red soil and dry grass vegetation are characteristic of the Highveld region in South Africa.",
+    "The single-lane paved road with no center markings and vehicles driving on the left side aligns with South African traffic rules.",
+    "The simple, low-rise residential architecture with corrugated metal roofs is typical of rural or semi-urban settlements in South Africa."
+  ],
+  "raw_output": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The red soil and dry grass vegetation are characteristic of the Highveld region in South Africa.\",\n    \"The single-lane paved road with no center markings and vehicles driving on the left side aligns with South African traffic rules.\",\n    \"The simple, low-rise residential architecture with corrugated metal roofs is typical of rural or semi-urban settlements in South Africa.\",\n    \"Utility poles with overhead wires and the absence of modern infrastructure suggest a developing"
+}

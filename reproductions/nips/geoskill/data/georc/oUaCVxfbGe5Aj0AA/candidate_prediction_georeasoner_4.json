@@ -1,0 +1,11 @@
+{
+  "country": "Germany",
+  "country_code": "de",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single white line on the right edge, consistent with German rural roads where traffic drives on the right.",
+    "Utility boxes and signage (e.g., diamond-shaped sign) are typical of German infrastructure; the graffiti style and box design match common German utility enclosures.",
+    "Vegetation includes mature deciduous trees and mixed forest undergrowth, typical of temperate European climates, especially in central Germany."
+  ],
+  "raw_output": "{\n  \"country\": \"Germany\",\n  \"country_code\": \"de\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single white line on the right edge, consistent with German rural roads where traffic drives on the right.\",\n    \"Utility boxes and signage (e.g., diamond-shaped sign) are typical of German infrastructure; the graffiti style and box design match common German utility enclosures.\",\n    \"Vegetation includes mature deciduous trees and mixed forest undergrowth, typical of temperate European climates, especially in central Germany.\",\n    \"No visible language"
+}

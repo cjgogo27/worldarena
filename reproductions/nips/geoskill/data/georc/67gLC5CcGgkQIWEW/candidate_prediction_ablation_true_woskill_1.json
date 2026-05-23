@@ -1,0 +1,33 @@
+{
+  "game_id": "67gLC5CcGgkQIWEW",
+  "round": 1,
+  "sample_id": "georc::67gLC5CcGgkQIWEW::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ua",
+    "predicted_region": "europe",
+    "predicted_address": "Velyka Horyanska Street, Lviv, Lviv Oblast, Ukraine",
+    "predicted_lat": 49.8425,
+    "predicted_lng": 24.03222222,
+    "reasoning_text": "```json\n{\n  \"country\": \"Ukraine\",\n  \"country_code\": \"ua\",\n  \"region\": \"Eastern Europe\",\n  \"city\": \"Lviv\",\n  \"province_or_state\": \"Lviv Oblast\",\n  \"address\": \"Velyka Horyanska Street, Lviv, Lviv Oblast, Ukraine\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows a residential street with distinctive features common in Ukrainian cities: wooden utility poles with multiple overhead wires, mixed fencing styles combining metal and concrete/brick pillars, and single-story houses with pitched roofs. The vegetation and climate suggest a temperate continental zone. The road quality and urban layout match suburban areas of Lviv. The combination of wooden fences with metal panels and concrete pillars is particularly characteristic of Ukrainian residential construction. The driving side (implied by road orientation) and overall infrastructure style align with Ukraine rather than Romania or Poland. Lviv is a major city with this type of suburban development pattern.\",\n  \"evidence\": [\"Wooden utility poles with overhead wires typical of post-Soviet infrastructure\", \"Mixed metal/concrete fencing style common in Ukraine\", \"Single-story residential houses with pitched roofs\", \"Temperate vegetation and climate indicators\", \"Road width and pavement style matching Ukrainian suburban areas\", \"Absence of EU-standard road markings or signage that would suggest Poland\"]\n}\n```",
+    "evidence_spans": [
+      "Wooden utility poles with overhead wires typical of post-Soviet infrastructure",
+      "Mixed metal/concrete fencing style common in Ukraine",
+      "Single-story residential houses with pitched roofs",
+      "Temperate vegetation and climate indicators",
+      "Road width and pavement style matching Ukrainian suburban areas",
+      "Absence of EU-standard road markings or signage that would suggest Poland"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "ua",
+      "ro",
+      "pl"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"ua\",\"ro\",\"pl\"],\"reason\":\"Rural Eastern European setting with wooden utility poles, mixed fence construction (metal panels on brick/concrete posts), traditional pitched roof houses with chimney placement, vegetation and climate consistent with temperate continental zone. The fence style, road condition, and overall rural infrastructure most closely match Ukrainian countryside characteristics, though Romania and Poland share similar features.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9475000000000001
+  },
+  "error": null
+}

@@ -1,0 +1,33 @@
+{
+  "game_id": "No9HbFZyTOwfaU8s",
+  "round": 1,
+  "sample_id": "georc::No9HbFZyTOwfaU8s::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "us",
+    "predicted_region": "north_america",
+    "predicted_address": "Interstate 10, Lordsburg, New Mexico, United States",
+    "predicted_lat": 32.34388889,
+    "predicted_lng": -108.70222222,
+    "reasoning_text": "```json\n{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"city\": \"Lordsburg\",\n  \"province_or_state\": \"New Mexico\",\n  \"address\": \"Interstate 10, Lordsburg, New Mexico, United States\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows a major interstate highway in an arid, flat desert landscape with sparse vegetation, characteristic of the American Southwest. The R+L Carriers truck is a U.S.-based freight company. The driving side is right-hand, consistent with the U.S. The terrain, vegetation (low desert shrubs), and distant mesas strongly suggest southern New Mexico or Arizona along I-10. The wide, straight highway with minimal traffic and flat desert expanse is highly typical of Interstate 10 in Hidalgo County, New Mexico, near Lordsburg. This corridor is a major trucking route between El Paso and Tucson.\",\n  \"evidence\": [\"R+L Carriers US trucking company logo on semi-trailer\", \"Right-hand driving on multi-lane highway\", \"Arid desert landscape with low shrubs and distant mesas\", \"Interstate highway design with wide shoulders and straight alignment\", \"Clear blue sky typical of Southwestern US climate\", \"Semi-truck dominant traffic indicating major US freight corridor\"]\n}\n```",
+    "evidence_spans": [
+      "R+L Carriers US trucking company logo on semi-trailer",
+      "Right-hand driving on multi-lane highway",
+      "Arid desert landscape with low shrubs and distant mesas",
+      "Interstate highway design with wide shoulders and straight alignment",
+      "Clear blue sky typical of Southwestern US climate",
+      "Semi-truck dominant traffic indicating major US freight corridor"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "us",
+      "ca",
+      "mx"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"us\",\"ca\",\"mx\"],\"reason\":\"R+L Carriers is a major US trucking company based in Wilmington, Ohio, strongly indicating the United States. The desert highway with sagebrush/scrub vegetation, distant mesas, right-hand driving, and American-style semi-trucks are consistent with the southwestern US (Arizona/New Mexico/California desert). Canada is second due to similar North American road infrastructure and truck types, though the arid climate is less typical. Mexico is third as a geographically adjacent country with similar desert terrain and US trucking cross-border activity, though the R+L Carriers branding and road quality point more strongly to the US.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8975000000000001
+  },
+  "error": null
+}

@@ -1,0 +1,25 @@
+{
+  "game_id": "56Q4T4rpv9O9sCpP",
+  "round": 1,
+  "sample_id": "georc::56Q4T4rpv9O9sCpP::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ch",
+    "predicted_region": "europe",
+    "predicted_address": "Bestastrasse, Mels, St. Gallen, Switzerland",
+    "predicted_lat": 47.33333333,
+    "predicted_lng": 9.16666667,
+    "reasoning_text": "{\n  \"country\": \"Switzerland\",\n  \"country_code\": \"ch\",\n  \"region\": \"Western Europe\",\n  \"city\": \"Mels\",\n  \"province_or_state\": \"Canton of St. Gallen\",\n  \"address\": \"Bestastrasse, Mels, St. Gallen, Switzerland\",\n  \"confidence\": 0.78,\n  \"reasoning\": \"The scene is clearly Alpine, with steep rocky mountains rising immediately behind a small town/industrial area. Road infrastructure, building style, and the blue street-name sign strongly fit the German-speaking part of Switzerland. The street sign appears to read \\\"Bestastrasse,\\\" which is a plausible Swiss street name format. The red directional signs with white text resemble Swiss local/tourist wayfinding. The overall landscape and settlement pattern are especially consistent with eastern Switzerland, and Mels in Canton St. Gallen is a strong fit for an Alpine valley town with this type of terrain and street naming.\",\n  \"evidence\": [\n    \"Alpine mountain landscape typical of Switzerland\",\n    \"German-language street naming style ending in \\\"-strasse\\\"\",\n    \"Blue street sign appears to read \\\"Bestastrasse\\\"\",\n    \"Red directional wayfinding signs resemble Swiss signage\",\n    \"Road markings and urban design consistent with Switzerland\",\n    \"Architecture and industrial-edge village setting match eastern Swiss towns\"\n  ]\n}",
+    "evidence_spans": [
+      "Alpine mountain landscape typical of Switzerland",
+      "German-language street naming style ending in \"-strasse\"",
+      "Blue street sign appears to read \"Bestastrasse\"",
+      "Red directional wayfinding signs resemble Swiss signage",
+      "Road markings and urban design consistent with Switzerland",
+      "Architecture and industrial-edge village setting match eastern Swiss towns"
+    ],
+    "confidence": 0.78
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Malaysia",
+  "country_code": "my",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a single yellow centerline, indicating two-way traffic with one lane per direction, common in rural Malaysian roads.",
+    "Lush tropical vegetation including palm trees and dense green foliage suggests a humid equatorial climate typical of Malaysia.",
+    "Concrete bridge barriers and metal railings are standard infrastructure in Malaysia’s rural road networks."
+  ],
+  "raw_output": "{\n  \"country\": \"Malaysia\",\n  \"country_code\": \"my\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a single yellow centerline, indicating two-way traffic with one lane per direction, common in rural Malaysian roads.\",\n    \"Lush tropical vegetation including palm trees and dense green foliage suggests a humid equatorial climate typical of Malaysia.\",\n    \"Concrete bridge barriers and metal railings are standard infrastructure in Malaysia’s rural road networks.\",\n    \"No visible signage or vehicles, but the overall setting—rural, undeveloped, with scattered"
+}

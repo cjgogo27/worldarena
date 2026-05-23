@@ -1,0 +1,32 @@
+{
+  "game_id": "SwSJB5DW8YXOSLn2",
+  "round": 1,
+  "sample_id": "georc::SwSJB5DW8YXOSLn2::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "za",
+    "predicted_region": "africa",
+    "predicted_address": "R3500, Grahamstown, Eastern Cape, South Africa",
+    "predicted_lat": -33.31,
+    "predicted_lng": 26.52666667,
+    "reasoning_text": "```json\n{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"region\": \"Africa\",\n  \"city\": \"Grahamstown\",\n  \"province_or_state\": \"Eastern Cape\",\n  \"address\": \"R3500, Grahamstown, Eastern Cape, South Africa\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"The image shows a gravel road through dense, scrubby vegetation with low trees and bushes typical of the Eastern Cape thicket or Albany thickets biome. The terrain is gently rolling hills. The vegetation mix of evergreen and some dry-looking shrubs, combined with the gravel road infrastructure, is highly characteristic of rural South Africa rather than Australia or Mexico. The Eastern Cape around Grahamstown (Makhanda) has extensive networks of gravel roads through exactly this type of thicket vegetation. The road quality and surrounding fence posts also align with South African rural roads. Australia would typically show more eucalyptus or acacia dominance with redder soils, while Mexico's vegetation would likely appear more tropical or arid with different species composition.\",\n  \"evidence\": [\"Gravel road through dense thicket vegetation\", \"Low rolling hills with mixed scrub forest\", \"Eastern Cape Albany thicket biome vegetation\", \"Rural fencing along road\", \"Road surface and maintenance style consistent with South Africa\"]\n}\n```",
+    "evidence_spans": [
+      "Gravel road through dense thicket vegetation",
+      "Low rolling hills with mixed scrub forest",
+      "Eastern Cape Albany thicket biome vegetation",
+      "Rural fencing along road",
+      "Road surface and maintenance style consistent with South Africa"
+    ],
+    "confidence": 0.6,
+    "country_top3": [
+      "za",
+      "au",
+      "mx"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"za\",\"au\",\"mx\"],\"reason\":\"The image shows a dry, gravel road through low scrubland/fynbos vegetation with Mediterranean or semi-arid climate characteristics. The vegetation resembles South African fynbos or Australian mallee scrub. The terrain is hilly with sparse, drought-resistant shrubs and scattered trees. No clear infrastructure markers visible. The bright sunlight and cloud patterns suggest Southern Hemisphere. South Africa's Western Cape region has extensive gravel roads through fynbos vegetation matching this appearance. Australia also has similar mallee landscapes. Mexico's northern scrublands are a third possibility though less likely given the specific vegetation structure.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8600000000000001
+  },
+  "error": null
+}

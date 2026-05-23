@@ -1,0 +1,47 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/rerun50_direct_vlm_im2gps3k_stable_final_v3
+
+vlm:
+  base_url: https://api.mytokenland.com/v1
+  api_key: sk-vUjdYc4zpi71lC1Z9TCQvTLeh3i50V7bImq3zKDLkPZhS1IV
+  model: qwen3.5-plus
+  max_tokens: 900
+  max_image_side: 640
+  retries: 5
+  backoff_seconds: 2.5
+  request_timeout_seconds: 45
+
+llm_large:
+  base_url: https://api.mytokenland.com/v1
+  api_key: sk-vUjdYc4zpi71lC1Z9TCQvTLeh3i50V7bImq3zKDLkPZhS1IV
+  model: gpt-5.4-mini
+  enable_thinking: false
+  max_tokens: 1100
+  max_image_side: 896
+  retries: 5
+  backoff_seconds: 2.5
+  request_timeout_seconds: 45
+
+runtime:
+  sample_retry_attempts: 4
+  sample_retry_backoff_seconds: 8.0
+  inter_sample_delay_seconds: 4.0
+
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  min_score: 0.15
+  retrieval_mode: text_only
+  skill_graph_top_k: 7
+
+training_free:
+  enable_failure_recovery: false
+  enable_skill_fusion: false
+  recovery_max_records: 20
+
+datasets:
+  - name: im2gps3k
+    data_root: data/im2gps3k
+    manifest_jsonl: data/im2gps3k/manifest.jsonl
+    dataset_version: im2gps3k_v1

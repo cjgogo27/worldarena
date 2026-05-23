@@ -1,0 +1,17 @@
+Red rectangular street-name plaque mounted on the house, common in Czech municipalities
+Right-hand traffic on a narrow asphalt village road
+Faded white dashed center line with no shoulder markings
+Detached plaster houses with steep gabled roofs
+Fenced front yards and tidy residential village layout
+Utility poles with curved street-lamp arms typical of Czech villages
+Temperate green landscape consistent with Central Europe
+No Cyrillic signage, arguing against Ukraine, Belarus, and much of Russia
+Roadside delineator style compatible with Czech rural roads
+Applying the ordered skills strictly: (1) central/eastern Ukraine is not supported because the visible built environment and signage style do not look Ukrainian.
+Following its linked region-support skills, (5) is supported by the roadside delineator style being compatible with Germany/Czech Republic, (7) the single dashed center line does fit parts of Poland/Central Europe, (8) Caribbean infrastructure is clearly unsupported, (9) the road is not wide enough for the Russian-style interpretation, (10) the non-Cyrillic environment and village architecture argue away from Russia/Ukraine/Belarus and narrow toward Poland or Czech Republic, and (12) France is unsupported by the signage and house style.
+(2) Korean infrastructure is unsupported; through its edge to (3), the road is not unpaved, so (3) is rejected.
+(4) the road is paved with asphalt, but the image does show painted center markings, so only the paved-road part is useful; its linked (6) Mexican flat-roof urban architecture is unsupported, and (12) remains unsupported.
+(11) is supported: the road is paved, middling quality, with a faded dashed center line and no shoulder markings, consistent with a rural village road.
+Synthesizing the supported cues from (5), (7), (10), and (11) with the image details, the strongest fit is a Czech village rather than Poland: the red rectangular street-name plaque on the house, the detached plaster houses with steep gabled roofs, fenced yards, utility poles with curved lamp arms, and the overall tidy village streetscape are characteristic of Czechia.
+Within Czechia, the scene best matches a small locality in the Central Bohemian Region.
+Conclusion: likely location is Unknown village locality, Central Bohemian Region, Czech Republic

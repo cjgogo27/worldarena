@@ -1,0 +1,25 @@
+{
+  "selection_group": "bad",
+  "selection_rank": 3,
+  "distance_km": 18613.576629,
+  "retrieved_skill_count": 12,
+  "sample_id": "georc::5bPlIRT7eGN79a2E::round1",
+  "game_id": "5bPlIRT7eGN79a2E",
+  "round": "1",
+  "image_source": "/data/alice/cjtest/NIPS/geoskill/data/georc/5bPlIRT7eGN79a2E/5bPlIRT7eGN79a2E_1.png",
+  "ground_truth": {
+    "country": "ph",
+    "lat": 7.57293171357181,
+    "lng": 126.56203724719322
+  },
+  "prediction": {
+    "predicted_country": "gy",
+    "predicted_region": "south_america",
+    "predicted_address": "Residential junction in New Amsterdam, East Berbice-Corentyne, Guyana",
+    "predicted_lat": 4.107943,
+    "predicted_lng": -58.18337,
+    "confidence": 0.67,
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  }
+}

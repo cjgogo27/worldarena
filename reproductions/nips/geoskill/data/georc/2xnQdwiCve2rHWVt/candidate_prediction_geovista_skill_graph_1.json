@@ -1,0 +1,924 @@
+{
+  "game_id": "2xnQdwiCve2rHWVt",
+  "round": 1,
+  "sample_id": "georc::2xnQdwiCve2rHWVt::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "th",
+    "predicted_region": "asia",
+    "predicted_address": "Highway 12 on the outskirts of Khon Kaen, Khon Kaen Province, Thailand",
+    "predicted_lat": 16.0,
+    "predicted_lng": 103.0,
+    "reasoning_text": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Khon Kaen\",\n  \"province_or_state\": \"Khon Kaen Province\",\n  \"address\": \"Highway 12 on the outskirts of Khon Kaen, Khon Kaen Province, Thailand\",\n  \"confidence\": 0.77,\n  \"reasoning\": \"Applying the ordered skill graph strictly: Skill 1 gives the primary hypothesis of a rural area near Khon Kaen, Thailand. Skill 2 strengthens this with signage that appears to use Thai script, supporting Thailand over neighboring countries. Via the linked edge from skill 2 to skill 3, the highway orientation and broad divided layout support an east-west corridor, making Highway 12 a plausible fit near Khon Kaen. Via the linked edge from skill 2 to skill 4, the black-and-white roadside bollard style is consistent with Thailand. Skill 5 introduces an alternative of being near a major city such as Bangkok, but this is weaker than the combined Thailand-plus-Khon-Kaen hypothesis from skills 1 through 4. Lower-priority conflicting skills suggesting Vietnam or right-hand traffic are inconsistent with the stronger Thailand cues and the overall road environment, so they are rejected in favor of the higher-priority chain. The most consistent final guess is therefore a peri-urban stretch of Highway 12 on the outskirts of Khon Kaen, Thailand.\",\n  \"evidence\": [\n    \"Apparent Thai script on roadside signage\",\n    \"Broad divided multi-lane highway with median island\",\n    \"Black-and-white roadside bollard style typical of Thailand\",\n    \"Road appears to run along an east-west corridor consistent with Highway 12\",\n    \"Peri-urban infrastructure suggests proximity to a major provincial city like Khon Kaen\",\n    \"Utility poles and overhead wiring match common Thai roadside infrastructure\"\n  ]\n}",
+    "evidence_spans": [
+      "Apparent Thai script on roadside signage",
+      "Broad divided multi-lane highway with median island",
+      "Black-and-white roadside bollard style typical of Thailand",
+      "Road appears to run along an east-west corridor consistent with Highway 12",
+      "Peri-urban infrastructure suggests proximity to a major provincial city like Khon Kaen",
+      "Utility poles and overhead wiring match common Thai roadside infrastructure"
+    ],
+    "confidence": 0.77,
+    "base_prediction_summary": {
+      "predicted_country": "th",
+      "predicted_region": "asia",
+      "confidence": 0.72
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "Based on these pieces of evidence, the most likely location is a rural area near Khon Kaen, Thailand.",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "Based",
+          "evidence",
+          "pieces",
+          "these"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 1,
+        "score": 0.8742063045501709,
+        "bm25_score": 51.07980728149414,
+        "semantic_score": 0.5262333750724792
+      },
+      {
+        "skill_text": "The road signage uses what appears to be Thai script, visible on the center traffic bollard.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "bollard",
+          "road",
+          "script",
+          "sign"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 1,
+        "score": 0.8606933355331421,
+        "bm25_score": 42.949920654296875,
+        "semantic_score": 0.623974084854126
+      },
+      {
+        "skill_text": "The highway stretches directly east, so it could be some stretch of east-west highway north of Bangkok, or highway 12 (which is mostly east-west)",
+        "region_hint": "asia",
+        "confidence": 0.55,
+        "visual_cues": [
+          "highway"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 1,
+        "score": 0.8276244401931763,
+        "bm25_score": 35.70067596435547,
+        "semantic_score": 0.6800306439399719
+      },
+      {
+        "skill_text": "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "bollard",
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.8179925680160522,
+        "bm25_score": 37.41533660888672,
+        "semantic_score": 0.6409505605697632
+      },
+      {
+        "skill_text": "Considering the size of the road and the infrastructure, it suggests proximity to a major city; this is likely near Bangkok, Thailand.",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 1,
+        "score": 0.8124887347221375,
+        "bm25_score": 37.66344451904297,
+        "semantic_score": 0.6292151212692261
+      },
+      {
+        "skill_text": "The vehicles are driving on the right side of the road, suggesting a country where right-hand traffic is standard.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "driving",
+          "road"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.8043351769447327,
+        "bm25_score": 39.48637008666992,
+        "semantic_score": 0.5907541513442993
+      },
+      {
+        "skill_text": "The shop sign on the right side of the road is in Vietnamese",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 4,
+        "score": 0.7834213972091675,
+        "bm25_score": 43.497859954833984,
+        "semantic_score": 0.5017221570014954
+      },
+      {
+        "skill_text": "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 1,
+        "score": 0.7785965204238892,
+        "bm25_score": 33.14741897583008,
+        "semantic_score": 0.6444728970527649
+      },
+      {
+        "skill_text": "Vietnam drives on the right side of the road, which is confirmed with the direction the shop sign is placed (right side of the road)",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 4,
+        "score": 0.7721644639968872,
+        "bm25_score": 38.37126922607422,
+        "semantic_score": 0.559308648109436
+      },
+      {
+        "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.7674696445465088,
+        "bm25_score": 34.903934478759766,
+        "semantic_score": 0.6025747656822205
+      },
+      {
+        "skill_text": "The road is made of concrete, which is mainly found in Thailand and Philippines in Southeast Asia, but the crossing sign is set for right hand drive, making Thailand not possible (since they drive left hand side)",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 1,
+        "score": 0.753685712814331,
+        "bm25_score": 26.201461791992188,
+        "semantic_score": 0.7082066535949707
+      },
+      {
+        "skill_text": "The cars are driving on the left side of the road, which suggests a country with left-hand traffic such as Thailand, Indonesia, or some countries in Africa.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "car",
+          "driving",
+          "road"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 1,
+        "score": 0.7493215203285217,
+        "bm25_score": 33.56010818481445,
+        "semantic_score": 0.595186710357666
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "Based on these pieces of evidence, the most likely location is a rural area near Khon Kaen, Thailand.",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.8742063045501709,
+          "visual_cues": [
+            "Based",
+            "evidence",
+            "pieces",
+            "these"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road signage uses what appears to be Thai script, visible on the center traffic bollard.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8606933355331421,
+          "visual_cues": [
+            "bollard",
+            "road",
+            "script",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The highway stretches directly east, so it could be some stretch of east-west highway north of Bangkok, or highway 12 (which is mostly east-west)",
+          "region_hint": "asia",
+          "confidence": 0.55,
+          "score": 0.8276244401931763,
+          "visual_cues": [
+            "highway"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8179925680160522,
+          "visual_cues": [
+            "bollard",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "Considering the size of the road and the infrastructure, it suggests proximity to a major city; this is likely near Bangkok, Thailand.",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.8124887347221375,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The vehicles are driving on the right side of the road, suggesting a country where right-hand traffic is standard.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8043351769447327,
+          "visual_cues": [
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The shop sign on the right side of the road is in Vietnamese",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7834213972091675,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7785965204238892,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "Vietnam drives on the right side of the road, which is confirmed with the direction the shop sign is placed (right side of the road)",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7721644639968872,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7674696445465088,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road is made of concrete, which is mainly found in Thailand and Philippines in Southeast Asia, but the crossing sign is set for right hand drive, making Thailand not possible (since they drive left hand side)",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.753685712814331,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The cars are driving on the left side of the road, which suggests a country with left-hand traffic such as Thailand, Indonesia, or some countries in Africa.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7493215203285217,
+          "visual_cues": [
+            "car",
+            "driving",
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "bollard",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "Based on these pieces of evidence, the most likely location is a rural area near Khon Kaen, Thailand.",
+        "The road signage uses what appears to be Thai script, visible on the center traffic bollard.",
+        "The highway stretches directly east, so it could be some stretch of east-west highway north of Bangkok, or highway 12 (which is mostly east-west)",
+        "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+        "Considering the size of the road and the infrastructure, it suggests proximity to a major city; this is likely near Bangkok, Thailand.",
+        "The vehicles are driving on the right side of the road, suggesting a country where right-hand traffic is standard.",
+        "The shop sign on the right side of the road is in Vietnamese",
+        "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+        "Vietnam drives on the right side of the road, which is confirmed with the direction the shop sign is placed (right side of the road)",
+        "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "The road is made of concrete, which is mainly found in Thailand and Philippines in Southeast Asia, but the crossing sign is set for right hand drive, making Thailand not possible (since they drive left hand side)",
+        "The cars are driving on the left side of the road, which suggests a country with left-hand traffic such as Thailand, Indonesia, or some countries in Africa."
+      ],
+      "summary": "nodes=12, edges=64, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Khon Kaen\",\n  \"province_or_state\": \"Khon Kaen Province\",\n  \"address\": \"Peri-urban divided highway on the outskirts of Khon Kaen, Khon Kaen Province, Thailand\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The road s",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 64,
+        "graph_summary": "nodes=12, edges=64, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "th"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

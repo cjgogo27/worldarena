@@ -1,0 +1,11 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow line on the left edge and white center lines, consistent with left-hand traffic rules used in Australia.",
+    "Sparse, dry scrubland vegetation and flat arid terrain are characteristic of Australia’s outback regions.",
+    "Utility poles with crossarms and insulators match standard Australian rural infrastructure design."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow line on the left edge and white center lines, consistent with left-hand traffic rules used in Australia.\",\n    \"Sparse, dry scrubland vegetation and flat arid terrain are characteristic of Australia’s outback regions.\",\n    \"Utility poles with crossarms and insulators match standard Australian rural infrastructure design.\",\n    \"No visible signage or buildings, but the remote, open landscape aligns with Australian highway corridors in interior states like South"
+}

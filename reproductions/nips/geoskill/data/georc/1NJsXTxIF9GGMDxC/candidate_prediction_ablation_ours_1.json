@@ -1,0 +1,974 @@
+{
+  "game_id": "1NJsXTxIF9GGMDxC",
+  "round": 1,
+  "sample_id": "georc::1NJsXTxIF9GGMDxC::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ir",
+    "predicted_region": "asia",
+    "predicted_lat": 35.6892,
+    "predicted_lng": 51.389,
+    "reasoning_text": "{\n  \"country\": \"Iran\",\n  \"country_code\": \"ir\",\n  \"region\": \"Middle East\",\n  \"lat\": 35.6892,\n  \"lng\": 51.3890,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The primary evidence is the green vertical sign on the left, which displays the logo of the National Oil Company (NOC) of Iran. The prices listed (500, 4000, 5000) correspond to the subsidized fuel prices in Iran (in Rials) for gasoline, diesel, and CNG respectively, which were standard for many years. The white-painted tree trunks are a common maintenance practice in Iran and other parts of the Middle East to protect trees from pests and sun damage. The dry soil and sparse grass on the roadside, combined with the lush green trees, indicate a Mediterranean climate, which is typical for parts of Iran. The road markings and the style of the concrete posts on the right side of the road are also consistent with Iranian infrastructure. The overall scene, including the architecture and the presence of a gas station sign, strongly supports the location being in Iran.\",\n  \"evidence\": [\n    \"Green vertical sign with NOC logo and prices in Rials\",\n    \"White-painted tree trunks\",\n    \"Dry soil and sparse grass on the roadside\",\n    \"Lush green trees indicating a Mediterranean climate\",\n    \"Road markings and concrete posts consistent with Iranian infrastructure\"\n  ]\n}",
+    "evidence_spans": [
+      "Green vertical sign with NOC logo and prices in Rials",
+      "White-painted tree trunks",
+      "Dry soil and sparse grass on the roadside",
+      "Lush green trees indicating a Mediterranean climate",
+      "Road markings and concrete posts consistent with Iranian infrastructure"
+    ],
+    "confidence": 0.95,
+    "retrieved_skills": [
+      {
+        "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "driving",
+          "road",
+          "terrain"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.6239003002643586,
+        "bm25_score": 31.197633743286133,
+        "semantic_score": 0.2830554246902466
+      },
+      {
+        "skill_text": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+        "region_hint": "asia",
+        "confidence": 0.55,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.5216824293136597,
+        "bm25_score": 38.52482604980469,
+        "semantic_score": 0.46946951746940613
+      },
+      {
+        "skill_text": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "cyrillic",
+          "sign"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.732630005478859,
+        "bm25_score": 24.392112731933594,
+        "semantic_score": 0.43684089183807373
+      },
+      {
+        "skill_text": "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.700300031900406,
+        "bm25_score": 34.44845962524414,
+        "semantic_score": 0.35616740584373474
+      },
+      {
+        "skill_text": "There are no visible road signs or language, but the slight haze in the air, possibly from humidity, is characteristic of Northern and Eastern India.",
+        "region_hint": "asia",
+        "confidence": 0.55,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 2,
+        "score": 0.6932445406913758,
+        "bm25_score": 26.92989730834961,
+        "semantic_score": 0.3759772479534149
+      },
+      {
+        "skill_text": "Vietnam drives on the right side of the road, which is confirmed with the direction the shop sign is placed (right side of the road)",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 4,
+        "score": 0.6557891041040421,
+        "bm25_score": 33.032814025878906,
+        "semantic_score": 0.31824570894241333
+      },
+      {
+        "skill_text": "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings",
+          "sidewalk"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 4,
+        "score": 0.6214206039905548,
+        "bm25_score": 26.0372314453125,
+        "semantic_score": 0.33379995822906494
+      },
+      {
+        "skill_text": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.47646000981330877,
+        "bm25_score": 38.41234588623047,
+        "semantic_score": 0.38788777589797974
+      },
+      {
+        "skill_text": "The dry soil and sparse grass on the roadside, combined with the lush green trees, indicate a Mediterranean climate.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "road",
+          "soil",
+          "trees"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 5,
+        "score": 0.6772072017192841,
+        "bm25_score": 30.7440242767334,
+        "semantic_score": 0.2943129241466522
+      },
+      {
+        "skill_text": "The box like white washed architecture indicates a coastal town, and even the coastline can be seen in the distance",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "coast"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 4,
+        "score": 0.6683698803186418,
+        "bm25_score": 27.50895118713379,
+        "semantic_score": 0.35239386558532715
+      },
+      {
+        "skill_text": "The general absence of vehicles and people, along with the green vegetation, points to a less urbanized location.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "vegetation"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 1,
+        "score": 0.6350555896759034,
+        "bm25_score": 31.587905883789062,
+        "semantic_score": 0.2702977955341339
+      },
+      {
+        "skill_text": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.9809161901474,
+        "bm25_score": 41.260711669921875,
+        "semantic_score": 0.4879661500453949
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "ir",
+      "predicted_region": "asia",
+      "predicted_lat": 35.6892,
+      "predicted_lng": 51.389,
+      "reasoning_text": "{\n  \"country\": \"Iran\",\n  \"country_code\": \"ir\",\n  \"region\": \"Middle East\",\n  \"lat\": 35.6892,\n  \"lng\": 51.3890,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The primary evidence is the green vertical sign on the left, which displays the logo of the National Oil Company (NOC) of Iran. The prices listed (500, 4000, 5000) correspond to the subsidized fuel prices in Iran (in Rials) for gasoline, diesel, and CNG respectively, which were standard for many years. The white-painted tree trunks are a common maintenance practice in Iranian urban and semi-urban areas. The vegetation and clear sky are consistent with the climate of the Tehran region or similar northern Iranian cities. The road appears to be a suburban or semi-rural road leading into or out of a city.\",\n  \"evidence\": [\n    \"Green vertical sign with National Oil Company (NOC) logo\",\n    \"Fuel prices listed as 500, 4000, and 5000 (consistent with Iranian Rial)\",\n    \"White-painted tree trunks (common in Iran)\",\n    \"Autumn foliage and clear blue sky\",\n    \"Paved road with worn surface and shadows\"\n  ]\n}",
+      "evidence_spans": [
+        "Green vertical sign with National Oil Company (NOC) logo",
+        "Fuel prices listed as 500, 4000, and 5000 (consistent with Iranian Rial)",
+        "White-painted tree trunks (common in Iran)",
+        "Autumn foliage and clear blue sky",
+        "Paved road with worn surface and shadows"
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "The image displays a paved road with trees on both sides showing autumn foliage (yellow and brown leaves).",
+          "A prominent green vertical sign stands on the left side of the road.",
+          "The sign features a logo at the top and lists fuel prices in white text.",
+          "The prices listed are 500, 4000, and 5000.",
+          "The currency symbol or name is not clearly legible, but the numbers suggest a currency with lower value per unit (e.g., Iranian Rial).",
+          "The trees on the left have their trunks painted white at the base, a common practice in some regions for pest control or visibility.",
+          "There is a pile of dirt or construction debris on the left shoulder near the sign.",
+          "A white fence is visible behind the trees on the left.",
+          "The sky is clear and blue.",
+          "The road surface appears somewhat worn with shadows cast across it.",
+          "There are no visible license plates or clear directional signs indicating a specific city.",
+          "The vegetation includes deciduous trees and some shrubs.",
+          "The overall lighting suggests a sunny day, likely morning or late afternoon given the long shadows."
+        ],
+        "hard_clues": [
+          "Green sign with fuel prices: 500, 4000, 5000.",
+          "The logo on the sign resembles the logo of 'Bahman' or a similar Iranian fuel station brand (though blurry, the shape and color scheme are indicative).",
+          "White painted tree trunks.",
+          "Autumn season indicated by leaf color."
+        ],
+        "ambiguous_clues": [
+          "The exact currency is not readable, though the price levels strongly suggest Iranian Rial.",
+          "The specific brand of the gas station is not perfectly clear due to resolution.",
+          "The exact location on the road (which side of the street) is clear, but the specific road name is not visible."
+        ],
+        "possible_scripts": [
+          "Persian (Farsi) - implied by the context of the prices and potential logo style.",
+          "Latin script might be present but is not clearly visible."
+        ],
+        "driving_side": "right"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "Iran"
+        ],
+        "zoom_boxes": [
+          [
+            340,
+            390,
+            385,
+            640
+          ],
+          [
+            0,
+            550,
+            100,
+            650
+          ]
+        ],
+        "verification_queries": [
+          "Search for 'NOC gas station Iran prices' to verify the logo and price points (500, 4000, 5000).",
+          "Search for 'Iran road signs white painted tree trunks' to confirm the vegetation maintenance style.",
+          "Search for 'NOC gas station location Iran' to find specific stations matching the green sign design."
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "ir",
+      "predicted_region": "asia",
+      "predicted_lat": 35.6892,
+      "predicted_lng": 51.389,
+      "confidence": 0.95
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "ir",
+      "predicted_region": "asia",
+      "predicted_lat": 35.6892,
+      "predicted_lng": 51.389,
+      "confidence": 0.95
+    },
+    "base_prediction_summary": {
+      "predicted_country": "ir",
+      "predicted_region": "asia",
+      "predicted_lat": 35.6892,
+      "predicted_lng": 51.389,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.95,
+    "skill_boost_aggressive_confidence": 0.95,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.9809161901474,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.732630005478859,
+          "visual_cues": [
+            "cyrillic",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.700300031900406,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "There are no visible road signs or language, but the slight haze in the air, possibly from humidity, is characteristic of Northern and Eastern India.",
+          "region_hint": "asia",
+          "confidence": 0.55,
+          "score": 0.6932445406913758,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The dry soil and sparse grass on the roadside, combined with the lush green trees, indicate a Mediterranean climate.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6772072017192841,
+          "visual_cues": [
+            "climate",
+            "road",
+            "soil",
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The box like white washed architecture indicates a coastal town, and even the coastline can be seen in the distance",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6683698803186418,
+          "visual_cues": [
+            "architecture",
+            "coast"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "Vietnam drives on the right side of the road, which is confirmed with the direction the shop sign is placed (right side of the road)",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6557891041040421,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The general absence of vehicles and people, along with the green vegetation, points to a less urbanized location.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6350555896759034,
+          "visual_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6239003002643586,
+          "visual_cues": [
+            "driving",
+            "road",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6214206039905548,
+          "visual_cues": [
+            "road",
+            "road markings",
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+          "region_hint": "asia",
+          "confidence": 0.55,
+          "score": 0.5216824293136597,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.47646000981330877,
+          "visual_cues": [
+            "architecture"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+        "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+        "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+        "There are no visible road signs or language, but the slight haze in the air, possibly from humidity, is characteristic of Northern and Eastern India.",
+        "The dry soil and sparse grass on the roadside, combined with the lush green trees, indicate a Mediterranean climate.",
+        "The box like white washed architecture indicates a coastal town, and even the coastline can be seen in the distance",
+        "Vietnam drives on the right side of the road, which is confirmed with the direction the shop sign is placed (right side of the road)",
+        "The general absence of vehicles and people, along with the green vegetation, points to a less urbanized location.",
+        "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+        "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+        "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns."
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

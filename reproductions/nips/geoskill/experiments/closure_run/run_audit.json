@@ -1,0 +1,76 @@
+{
+  "timestamp_utc": "2026-03-26T07:36:30.270857+00:00",
+  "project_root": "/data/alice/cjtest/NIPS/geoskill",
+  "config": "configs/closure_run.yaml",
+  "dataset": {
+    "expected_game_count": 1,
+    "loaded_sample_count": 1,
+    "missing_game_count": 0,
+    "missing_game_ids": []
+  },
+  "run": {
+    "methods_requested": [
+      "skill_conditioned_v2",
+      "external_geovista"
+    ],
+    "methods_executed": [
+      "skill_conditioned_v2",
+      "external_geovista"
+    ]
+  },
+  "method_status": {
+    "skill_conditioned_v2": {
+      "num_samples": 1,
+      "num_errors": 0,
+      "num_success": 1,
+      "error_rate": 0.0
+    },
+    "external_geovista": {
+      "num_samples": 1,
+      "num_errors": 0,
+      "num_success": 1,
+      "error_rate": 0.0
+    }
+  },
+  "external_baselines": {
+    "GeoComp": {
+      "present": true,
+      "has_run_or_eval_script": true,
+      "local_results_found": false,
+      "local_result_files": [],
+      "artifact_file_count": 4,
+      "artifact_examples": [
+        "external_baselines/GeoComp/Hallucination/GPT4o.csv",
+        "external_baselines/GeoComp/Hallucination/GeoCoT.csv",
+        "external_baselines/GeoComp/Hallucination/GeoReasoners.csv",
+        "external_baselines/GeoComp/src/Geoeval/Ground Truth.csv"
+      ]
+    },
+    "GeoReasoner": {
+      "present": true,
+      "has_run_or_eval_script": true,
+      "local_results_found": false,
+      "local_result_files": [],
+      "artifact_file_count": 0,
+      "artifact_examples": []
+    },
+    "GeoVista": {
+      "present": true,
+      "has_run_or_eval_script": true,
+      "local_results_found": true,
+      "local_result_files": [
+        "experiments/closure_run/external_geovista/latest_metrics.json"
+      ],
+      "artifact_file_count": 0,
+      "artifact_examples": []
+    },
+    "SAFA": {
+      "present": true,
+      "has_run_or_eval_script": true,
+      "local_results_found": false,
+      "local_result_files": [],
+      "artifact_file_count": 0,
+      "artifact_examples": []
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "game_id": "KYuWftPRQfRJ5DKL",
+  "round": 1,
+  "sample_id": "georc::KYuWftPRQfRJ5DKL::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "jp",
+    "predicted_region": "asia",
+    "predicted_address": "Rural roadside area near Mito, Ibaraki Prefecture, Japan",
+    "predicted_lat": 35.68972222,
+    "predicted_lng": 139.69222222,
+    "reasoning_text": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"East Asia\",\n  \"city\": \"Mito\",\n  \"province_or_state\": \"Ibaraki Prefecture\",\n  \"address\": \"Rural roadside area near Mito, Ibaraki Prefecture, Japan\",\n  \"confidence\": 0.73,\n  \"reasoning\": \"The scene strongly suggests Japan based on several characteristic rural street features. The narrow paved road without centerline, the concrete utility pole with a small identification plate, and the white roadside delineator posts with orange circular reflectors are all very typical of Japanese local roads. The buildings have Japanese-style proportions and roofing, and the roadside drainage/ditch treatment with trimmed hedges is also common in rural and semi-industrial parts of Japan. The lush green vegetation and low wooded hills point to temperate, humid Japan rather than a dense urban setting. Since there are no readable signs or unique landmarks, the exact locality is uncertain, but the landscape and built environment fit well with rural eastern Honshu, and Ibaraki Prefecture around Mito is a reasonable approximate guess.\",\n  \"evidence\": [\n    \"White roadside posts with orange reflectors typical of Japan\",\n    \"Concrete utility pole with small numeric/ID plate common in Japan\",\n    \"Very narrow local paved road without centerline\",\n    \"Japanese-style residential and light industrial buildings\",\n    \"Roadside drainage/ditch and neatly trimmed hedges\",\n    \"Temperate green vegetation and low forested hills consistent with rural Honshu\"\n  ]\n}",
+    "evidence_spans": [
+      "White roadside posts with orange reflectors typical of Japan",
+      "Concrete utility pole with small numeric/ID plate common in Japan",
+      "Very narrow local paved road without centerline",
+      "Japanese-style residential and light industrial buildings",
+      "Roadside drainage/ditch and neatly trimmed hedges",
+      "Temperate green vegetation and low forested hills consistent with rural Honshu"
+    ],
+    "confidence": 0.73
+  },
+  "error": null
+}

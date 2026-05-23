@@ -1,0 +1,25 @@
+{
+  "game_id": "VGLhN3OEa5t3YAFj",
+  "round": 1,
+  "sample_id": "georc::VGLhN3OEa5t3YAFj::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "pe",
+    "predicted_region": "south_america",
+    "predicted_address": "Outskirts of Tacna, Tacna Region, Peru",
+    "predicted_lat": -18.01466,
+    "predicted_lng": -70.24887,
+    "reasoning_text": "{\n  \"country\": \"Peru\",\n  \"country_code\": \"pe\",\n  \"region\": \"South America\",\n  \"city\": \"Tacna\",\n  \"province_or_state\": \"Tacna Region\",\n  \"address\": \"Outskirts of Tacna, Tacna Region, Peru\",\n  \"confidence\": 0.58,\n  \"reasoning\": \"The landscape is an extremely dry coastal desert with bare brown hills and virtually no vegetation, which strongly suggests the Peru/Chile desert belt. The built environment looks more Peruvian than Chilean: unfinished cinderblock construction, simple concrete walls, and a modest neighborhood street with basic curbs and sidewalks. The fenced multi-use sports court and streetlights are common in Peruvian residential developments on desert outskirts. Driving appears to be on the right, which fits both Peru and Chile, so that is not decisive. I favor southern Peru over northern Chile because the street and housing style look less formal and more typical of peri-urban Peruvian desert settlements. Tacna is a plausible approximate location because it sits in a very arid environment with similar rolling barren hills and expanding edge neighborhoods.\",\n  \"evidence\": [\n    \"Extremely arid desert terrain with barren hills and no visible vegetation\",\n    \"Unfinished cinderblock building style common in Peru\",\n    \"Simple paved residential road with concrete curbs and narrow sidewalks\",\n    \"Blue metal fencing around a sports court typical of neighborhood public facilities\",\n    \"Modern streetlights in a sparse peri-urban desert setting\",\n    \"Right-side driving consistent with Peru\"\n  ]\n}",
+    "evidence_spans": [
+      "Extremely arid desert terrain with barren hills and no visible vegetation",
+      "Unfinished cinderblock building style common in Peru",
+      "Simple paved residential road with concrete curbs and narrow sidewalks",
+      "Blue metal fencing around a sports court typical of neighborhood public facilities",
+      "Modern streetlights in a sparse peri-urban desert setting",
+      "Right-side driving consistent with Peru"
+    ],
+    "confidence": 0.58
+  },
+  "error": null
+}

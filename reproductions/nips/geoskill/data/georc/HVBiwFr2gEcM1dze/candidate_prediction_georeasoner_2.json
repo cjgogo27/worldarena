@@ -1,0 +1,11 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved and narrow with no center line, typical of rural roads in Southeast Asia, particularly Thailand.",
+    "Vegetation includes banana trees and palm oil plantations, common in tropical agricultural regions of Thailand.",
+    "Utility poles are simple wooden or concrete structures with overhead wires, consistent with rural infrastructure in Thailand."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved and narrow with no center line, typical of rural roads in Southeast Asia, particularly Thailand.\",\n    \"Vegetation includes banana trees and palm oil plantations, common in tropical agricultural regions of Thailand.\",\n    \"Utility poles are simple wooden or concrete structures with overhead wires, consistent with rural infrastructure in Thailand.\",\n    \"A white van and motorbike are visible, both commonly used in Thai rural transport; no other vehicles suggest"
+}

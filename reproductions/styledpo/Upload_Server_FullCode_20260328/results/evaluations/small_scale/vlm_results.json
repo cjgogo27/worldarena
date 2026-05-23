@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-03-28T06:41:02.616218+00:00",
+  "vlm_model": "Qwen/Qwen3.5-9B",
+  "pairs_file": "results/pair_benchmark_build/preference_pairs.json",
+  "group_count": 400,
+  "chosen_vlm_mean": 0.9999799726903439,
+  "rejected_vlm_mean": 0.9405692700544993,
+  "vlm_margin_mean": 0.059410702635844546,
+  "vlm_win_rate": 1.0,
+  "per_split": {
+    "train": {
+      "chosen_vlm_mean": 0.9999749658629298,
+      "rejected_vlm_mean": 0.9405471221233408,
+      "vlm_win_rate": 1.0,
+      "pair_count": 960
+    },
+    "val": {
+      "chosen_vlm_mean": 1.0,
+      "rejected_vlm_mean": 0.9397113045056661,
+      "vlm_win_rate": 1.0,
+      "pair_count": 120
+    },
+    "test": {
+      "chosen_vlm_mean": 1.0,
+      "rejected_vlm_mean": 0.9416044190526008,
+      "vlm_win_rate": 1.0,
+      "pair_count": 120
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "country_accuracy": 0.0,
+  "continent_accuracy": 0.3333333333333333,
+  "distance_error_km_median": 1664.9889421165926,
+  "distance_error_km_mean_valid_only": 4677.222896605373,
+  "distance_error_km_mean_penalized": 4677.222896605373,
+  "distance_error_km_std_penalized": 5018.037947389826,
+  "valid_coordinate_rate": 1.0,
+  "coverage_rate": 1.0,
+  "total_samples": 6.0,
+  "valid_predictions": 6.0,
+  "Acc@1km": 0.16666666666666666,
+  "Acc@10km": 0.16666666666666666,
+  "Acc@25km": 0.16666666666666666,
+  "Acc@100km": 0.16666666666666666,
+  "Acc@200km": 0.16666666666666666,
+  "Acc@750km": 0.16666666666666666,
+  "Acc@2500km": 0.6666666666666666,
+  "elapsed_seconds": 146.45190024375916,
+  "num_samples": 6,
+  "num_errors": 0
+}

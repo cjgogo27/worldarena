@@ -1,0 +1,10 @@
+{
+  "country": "Kenya",
+  "country_code": "ke",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved, reddish-brown dirt road with tire tracks is typical of rural access roads in East African highlands, particularly in Kenya’s Central Highlands.",
+    "Dense lush green vegetation including ferns and tall eucalyptus trees suggests a humid montane climate consistent with regions like the Aberdare Range or Mount Kenya foothills."
+  ],
+  "raw_output": "{\n  \"country\": \"Kenya\",\n  \"country_code\": \"ke\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved, reddish-brown dirt road with tire tracks is typical of rural access roads in East African highlands, particularly in Kenya’s Central Highlands.\",\n    \"Dense lush green vegetation including ferns and tall eucalyptus trees suggests a humid montane climate consistent with regions like the Aberdare Range or Mount Kenya foothills.\",\n    \"The wooden utility pole with overhead wires indicates basic infrastructure common in semi-rural Kenyan"
+}

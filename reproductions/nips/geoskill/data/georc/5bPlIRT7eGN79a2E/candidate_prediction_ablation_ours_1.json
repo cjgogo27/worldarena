@@ -1,0 +1,957 @@
+{
+  "game_id": "5bPlIRT7eGN79a2E",
+  "round": 1,
+  "sample_id": "georc::5bPlIRT7eGN79a2E::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ph",
+    "predicted_region": "asia",
+    "predicted_lat": 14.5995,
+    "predicted_lng": 120.9842,
+    "reasoning_text": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"region\": \"Southeast Asia\",\n  \"lat\": 14.5995,\n  \"lng\": 120.9842,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The visual evidence strongly supports the Philippines. Key indicators include: (1) The concrete utility poles with specific cross-arm structures and chaotic overhead wiring are highly characteristic of Philippine provincial towns. (2) The architecture features a mix of concrete and wood with corrugated metal roofs, typical of 'bahay kubo' adaptations found throughout the country. (3) The tropical vegetation, including palm trees and lush greenery, aligns with the Southeast Asian climate. (4) The road layout and lack of formal lane markings suggest a rural or semi-urban setting common in Philippine provinces. (5) The pastel-colored fences and walls are frequently seen in Filipino residential areas. While some skills mention Japan or Thailand, the combination of architectural style, utility infrastructure, and vegetation density is most consistent with the Philippines.\",\n  \"evidence\": [\"Concrete utility poles with cross-arms\", \"Chaotic overhead wiring\", \"Corrugated metal roofs on mixed-material houses\", \"Tropical vegetation including palm trees\", \"Pastel-colored residential fences\", \"Unpaved or minimally marked rural roads\"]\n}",
+    "evidence_spans": [
+      "Concrete utility poles with cross-arms",
+      "Chaotic overhead wiring",
+      "Corrugated metal roofs on mixed-material houses",
+      "Tropical vegetation including palm trees",
+      "Pastel-colored residential fences",
+      "Unpaved or minimally marked rural roads"
+    ],
+    "confidence": 0.92,
+    "retrieved_skills": [
+      {
+        "skill_text": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof",
+          "trees",
+          "vegetation"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.41489660143852236,
+        "bm25_score": 24.200178146362305,
+        "semantic_score": 0.706751823425293
+      },
+      {
+        "skill_text": "This location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "South",
+          "This",
+          "location",
+          "typical"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 3,
+        "score": 0.39054467082023625,
+        "bm25_score": 29.117403030395508,
+        "semantic_score": 0.5439714193344116
+      },
+      {
+        "skill_text": "The southeast asian landscape (tropical vegetation and south-eastern asian architecture) combined with left-hand drive and asymmetrical concrete poles, makes Indonesia the only possible country",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "pole",
+          "poles",
+          "vegetation"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 3,
+        "score": 0.39029827713966375,
+        "bm25_score": 24.1302490234375,
+        "semantic_score": 0.6360518336296082
+      },
+      {
+        "skill_text": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "sign"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 4,
+        "score": 0.41507136523723603,
+        "bm25_score": 37.74024200439453,
+        "semantic_score": 0.45530804991722107
+      },
+      {
+        "skill_text": "The buildings use corrugated metal sheets, which are common in tropical, developing regions, particularly in Southeast Asia and Central America.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 1,
+        "score": 0.3956107556819916,
+        "bm25_score": 29.50084114074707,
+        "semantic_score": 0.551665186882019
+      },
+      {
+        "skill_text": "The general architectural style, including informal market stalls and the use of corrugated metal roofing, matches rural Bangladeshi towns.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "roof"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 2,
+        "score": 0.4111169040203095,
+        "bm25_score": 41.0626106262207,
+        "semantic_score": 0.3819099962711334
+      },
+      {
+        "skill_text": "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "fence"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.6116941094398498,
+        "bm25_score": 24.897192001342773,
+        "semantic_score": 0.45919275283813477
+      },
+      {
+        "skill_text": "There are no lane markings, traffic signs, or bollards visible, suggesting a remote or newly developed area on the outskirts of a city.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "bollard",
+          "lane markings",
+          "sign"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 1,
+        "score": 0.39393464326858524,
+        "bm25_score": 53.83717346191406,
+        "semantic_score": 0.42784184217453003
+      },
+      {
+        "skill_text": "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "roof"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 4,
+        "score": 0.39033210873603824,
+        "bm25_score": 34.31245040893555,
+        "semantic_score": 0.44667911529541016
+      },
+      {
+        "skill_text": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 1,
+        "score": 0.4048833668231964,
+        "bm25_score": 28.98693084716797,
+        "semantic_score": 0.5883697867393494
+      },
+      {
+        "skill_text": "The combination of left-hand drive, concrete square poles, and a dry yet tropical landscape makes Thailand the most likely country",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "pole",
+          "poles"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 1,
+        "score": 0.38006710410118105,
+        "bm25_score": 30.605453491210938,
+        "semantic_score": 0.4856129586696625
+      },
+      {
+        "skill_text": "The vegetation density and mix of utility layout rule out Southeast Asia (which tends to be more jungle) and suggests South Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "vegetation"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 5,
+        "score": 0.41830316781997684,
+        "bm25_score": 33.98963165283203,
+        "semantic_score": 0.5345596075057983
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "ph",
+      "predicted_region": "asia",
+      "predicted_lat": 14.5995,
+      "predicted_lng": 120.9842,
+      "reasoning_text": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"region\": \"Southeast Asia\",\n  \"lat\": 14.5995,\n  \"lng\": 120.9842,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to the Philippines. The utility pole design (concrete with a specific cross-arm structure) and the chaotic overhead wiring are characteristic of Philippine provincial towns. The architecture, featuring a mix of concrete and wood with corrugated metal roofs (often called 'bahay kubo' style adaptations), is typical of the region. The lush tropical vegetation, including palm trees, and the bright blue sky with cumulus clouds are consistent with the Philippine climate. The road markings, specifically the zebra crossing, are also common in the Philippines. While Indonesia and Malaysia share similar climates and some architectural styles, the specific combination of these elements, particularly the utility pole and wiring, leans heavily towards the Philippines.\",\n  \"evidence\": [\n    \"Utility pole design and chaotic overhead wiring typical of the Philippines.\",\n    \"Architecture: mix of concrete and wood with corrugated metal roofs.\",\n    \"Lush tropical vegetation including palm trees.\",\n    \"Bright blue sky with scattered cumulus clouds.\",\n    \"Zebra crossing road markings.\",\n    \"General aesthetic of single-story shophouses and residential structures.\"\n  ]\n}",
+      "evidence_spans": [
+        "Utility pole design and chaotic overhead wiring typical of the Philippines.",
+        "Architecture: mix of concrete and wood with corrugated metal roofs.",
+        "Lush tropical vegetation including palm trees.",
+        "Bright blue sky with scattered cumulus clouds.",
+        "Zebra crossing road markings.",
+        "General aesthetic of single-story shophouses and residential structures."
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "The image displays a T-intersection or a fork in a paved road in a tropical or semi-tropical setting.",
+          "The architecture consists of single-story structures, many appearing to be residential or small commercial shophouses. Materials include wood, corrugated metal, and concrete.",
+          "A prominent utility pole stands on the grassy corner, with a complex web of overhead wires.",
+          "The vegetation is lush and green, including palm trees visible in the background, indicating a warm climate.",
+          "The sky is bright blue with scattered cumulus clouds.",
+          "There is a pedestrian crosswalk (zebra crossing) painted on the road to the left.",
+          "The road surface is concrete or asphalt, showing signs of wear and cracking.",
+          "No vehicles or license plates are clearly visible in the immediate foreground.",
+          "The general aesthetic of the buildings (stilt houses, corrugated roofs) and the vegetation strongly suggests a Southeast Asian location."
+        ],
+        "hard_clues": [
+          "The style of the utility pole and the chaotic arrangement of overhead wires is characteristic of Southeast Asia (specifically Philippines or Indonesia).",
+          "The specific construction style of the houses—mixing concrete foundations with wooden upper structures and corrugated metal roofing—is very typical of the Philippines.",
+          "The presence of a zebra crossing on a relatively minor road suggests a planned settlement or a barangay center in the Philippines.",
+          "The vegetation (palm trees) and the bright, harsh sunlight are consistent with the tropical climate of the Philippines."
+        ],
+        "ambiguous_clues": [
+          "The lack of visible street signs or distinct landmarks makes pinpointing the exact village difficult.",
+          "The road markings are generic and do not contain specific text or symbols that identify the country definitively without context.",
+          "The architecture, while typical of the Philippines, shares similarities with rural areas in Indonesia, Malaysia, and Thailand."
+        ],
+        "possible_scripts": [
+          "The script is likely Latin-based (English or Filipino/Tagalog), as is standard in the Philippines.",
+          "If there were signs, they might be in Tagalog or a local dialect (e.g., Cebuano, Ilocano)."
+        ],
+        "driving_side": "right"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "Philippines",
+          "Indonesia",
+          "Malaysia"
+        ],
+        "zoom_boxes": [
+          [
+            360,
+            180,
+            390,
+            600
+          ],
+          [
+            320,
+            400,
+            590,
+            600
+          ]
+        ],
+        "verification_queries": [
+          "Identify the country based on the utility pole design and chaotic overhead wiring.",
+          "Analyze the architectural style of the houses, specifically the mix of concrete and wood with corrugated metal roofs.",
+          "Examine the vegetation for specific tropical species like palm trees.",
+          "Look for any text on signs or license plates that might indicate the location.",
+          "Check the road markings and pedestrian crosswalk style."
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "ph",
+      "predicted_region": "asia",
+      "predicted_lat": 14.5995,
+      "predicted_lng": 120.9842,
+      "confidence": 0.92
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "ph",
+      "predicted_region": "asia",
+      "predicted_lat": 14.5995,
+      "predicted_lng": 120.9842,
+      "confidence": 0.92
+    },
+    "base_prediction_summary": {
+      "predicted_country": "ph",
+      "predicted_region": "asia",
+      "predicted_lat": 14.5995,
+      "predicted_lng": 120.9842,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.92,
+    "skill_boost_aggressive_confidence": 0.92,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6116941094398498,
+          "visual_cues": [
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The vegetation density and mix of utility layout rule out Southeast Asia (which tends to be more jungle) and suggests South Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.41830316781997684,
+          "visual_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.41507136523723603,
+          "visual_cues": [
+            "architecture",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.41489660143852236,
+          "visual_cues": [
+            "architecture",
+            "roof",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The general architectural style, including informal market stalls and the use of corrugated metal roofing, matches rural Bangladeshi towns.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.4111169040203095,
+          "visual_cues": [
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.4048833668231964,
+          "visual_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The buildings use corrugated metal sheets, which are common in tropical, developing regions, particularly in Southeast Asia and Central America.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.3956107556819916,
+          "visual_cues": [
+            "building"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "There are no lane markings, traffic signs, or bollards visible, suggesting a remote or newly developed area on the outskirts of a city.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.39393464326858524,
+          "visual_cues": [
+            "bollard",
+            "lane markings",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "This location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.39054467082023625,
+          "visual_cues": [
+            "South",
+            "This",
+            "location",
+            "typical"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.39033210873603824,
+          "visual_cues": [
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The southeast asian landscape (tropical vegetation and south-eastern asian architecture) combined with left-hand drive and asymmetrical concrete poles, makes Indonesia the only possible country",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.39029827713966375,
+          "visual_cues": [
+            "architecture",
+            "pole",
+            "poles",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The combination of left-hand drive, concrete square poles, and a dry yet tropical landscape makes Thailand the most likely country",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.38006710410118105,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+        "The vegetation density and mix of utility layout rule out Southeast Asia (which tends to be more jungle) and suggests South Asia.",
+        "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+        "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+        "The general architectural style, including informal market stalls and the use of corrugated metal roofing, matches rural Bangladeshi towns.",
+        "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+        "The buildings use corrugated metal sheets, which are common in tropical, developing regions, particularly in Southeast Asia and Central America.",
+        "There are no lane markings, traffic signs, or bollards visible, suggesting a remote or newly developed area on the outskirts of a city.",
+        "This location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible",
+        "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+        "The southeast asian landscape (tropical vegetation and south-eastern asian architecture) combined with left-hand drive and asymmetrical concrete poles, makes Indonesia the only possible country",
+        "The combination of left-hand drive, concrete square poles, and a dry yet tropical landscape makes Thailand the most likely country"
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

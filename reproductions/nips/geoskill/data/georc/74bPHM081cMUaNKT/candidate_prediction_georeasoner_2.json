@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with a dashed white centerline, consistent with US rural road standards.",
+    "Utility poles are wooden and spaced regularly along the right side of the road, typical of US rural infrastructure.",
+    "The landscape is flat, arid, and covered in dry grasses and shrubs, characteristic of the Great Plains or High Plains region of the US."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with a dashed white centerline, consistent with US rural road standards.\",\n    \"Utility poles are wooden and spaced regularly along the right side of the road, typical of US rural infrastructure.\",\n    \"The landscape is flat, arid, and covered in dry grasses and shrubs, characteristic of the Great Plains or High Plains region of the US.\",\n    \"No signage, buildings, or other cultural"
+}

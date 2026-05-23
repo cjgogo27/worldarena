@@ -1,0 +1,11 @@
+{
+  "country": "France",
+  "country_code": "fr",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt road with a single white center line, consistent with rural French roads in mountainous regions.",
+    "The vegetation is dense, lush green deciduous forest typical of the French Alps or Pyrenees during summer.",
+    "The terrain is hilly/mountainous with a winding road and guardrail, common in French alpine passes."
+  ],
+  "raw_output": "{\n  \"country\": \"France\",\n  \"country_code\": \"fr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt road with a single white center line, consistent with rural French roads in mountainous regions.\",\n    \"The vegetation is dense, lush green deciduous forest typical of the French Alps or Pyrenees during summer.\",\n    \"The terrain is hilly/mountainous with a winding road and guardrail, common in French alpine passes.\",\n    \"No visible signage, vehicles, or urban features suggest a remote rural"
+}

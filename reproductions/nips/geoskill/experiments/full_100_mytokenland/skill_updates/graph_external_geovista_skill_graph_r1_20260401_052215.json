@@ -1,0 +1,410 @@
+{
+  "method": "external_geovista_skill_graph",
+  "rollout_idx": 1,
+  "timestamp": "20260401_052215",
+  "num_records": 5,
+  "num_failed_records": 3,
+  "edge_count": 80,
+  "edges": [
+    {
+      "skill_a": "Considering the size of the road and the infrastructure, it suggests proximity to a major city; this is likely near Bangkok, Thailand.",
+      "skill_b": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The narrow paved road without lane markings hints at a country with developing infrastructure, often found outside major cities in Bangladesh.",
+      "skill_b": "The pathway is narrow and paved with concrete, typical for rural or semi-urban trails in tropical countries.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The narrow paved road without lane markings hints at a country with developing infrastructure, often found outside major cities in Bangladesh.",
+      "skill_b": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The narrow paved road without lane markings hints at a country with developing infrastructure, often found outside major cities in Bangladesh.",
+      "skill_b": "The road is narrow, unmarked, and partially paved, typical of rural roads in developing countries, especially in Central America.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The narrow paved road without lane markings hints at a country with developing infrastructure, often found outside major cities in Bangladesh.",
+      "skill_b": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The pathway is narrow and paved with concrete, typical for rural or semi-urban trails in tropical countries.",
+      "skill_b": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The pathway is narrow and paved with concrete, typical for rural or semi-urban trails in tropical countries.",
+      "skill_b": "The road is narrow, unmarked, and partially paved, typical of rural roads in developing countries, especially in Central America.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The pathway is narrow and paved with concrete, typical for rural or semi-urban trails in tropical countries.",
+      "skill_b": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+      "skill_b": "The road is narrow, unmarked, and partially paved, typical of rural roads in developing countries, especially in Central America.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+      "skill_b": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The road is narrow, unmarked, and partially paved, typical of rural roads in developing countries, especially in Central America.",
+      "skill_b": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+      "skill_b": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+      "skill_b": "There is a blue and white road sign on the right that appears to use English wave-style signage, which is seen frequently in rural Canada, especially the Prairies.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+      "skill_b": "There is a blue and white road sign on the right that appears to use English wave-style signage, which is seen frequently in rural Canada, especially the Prairies.",
+      "co_occurrence": 2
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "The building colors, particularly the orange and beige tones, are common in Bosnia, Croatia, and Serbia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "Architecture and infrastructure, such as the style of white-painted tree bases and wire fencing, are common in Central Asian towns.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+      "skill_b": "The building colors, particularly the orange and beige tones, are common in Bosnia, Croatia, and Serbia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+      "skill_b": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+      "skill_b": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+      "skill_b": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+      "skill_b": "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+      "skill_b": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+      "skill_b": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+      "skill_b": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+      "skill_b": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "No visible language or street signs, but the lack of Cyrillic with this architecture hints against Russia, Ukraine, or Belarus, narrowing it more toward Poland or perhaps the Czech Republic.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The building colors, particularly the orange and beige tones, are common in Bosnia, Croatia, and Serbia.",
+      "skill_b": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The building colors, particularly the orange and beige tones, are common in Bosnia, Croatia, and Serbia.",
+      "skill_b": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The building colors, particularly the orange and beige tones, are common in Bosnia, Croatia, and Serbia.",
+      "skill_b": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The building colors, particularly the orange and beige tones, are common in Bosnia, Croatia, and Serbia.",
+      "skill_b": "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The building colors, particularly the orange and beige tones, are common in Bosnia, Croatia, and Serbia.",
+      "skill_b": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The building colors, particularly the orange and beige tones, are common in Bosnia, Croatia, and Serbia.",
+      "skill_b": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The building colors, particularly the orange and beige tones, are common in Bosnia, Croatia, and Serbia.",
+      "skill_b": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The building colors, particularly the orange and beige tones, are common in Bosnia, Croatia, and Serbia.",
+      "skill_b": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The building colors, particularly the orange and beige tones, are common in Bosnia, Croatia, and Serbia.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The gas station sign shows Cyrillic script, indicating a country that uses this alphabet, such as Russia or former Soviet countries.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "skill_b": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "skill_b": "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "skill_b": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "skill_b": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "skill_b": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "skill_b": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The green branding on the gas station sign is reminiscent of common regional fuel station logos in Kyrgyzstan.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+      "skill_b": "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+      "skill_b": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+      "skill_b": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+      "skill_b": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+      "skill_b": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+      "skill_b": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+      "skill_b": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+      "skill_b": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+      "skill_b": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The parking sign is European with a distinct blue circle and red cross, but the design is more common in Central and Eastern Europe.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "skill_b": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "skill_b": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "skill_b": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The prices on the sign are in format \"45.00\", \"40.00\", \"35.00\", possibly suggesting Central Asian countries where the ruble or other local currencies use similar formatting.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+      "skill_b": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+      "skill_b": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The road markings are faded but follow a pattern seen in Southeast Asian countries, specifically Thailand with double lines and wide lanes.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+      "skill_b": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    },
+    {
+      "skill_a": "White painted bottoms of the trees are very common in ex-Soviet countries, but especially common in Kyrgyzstan",
+      "skill_b": "With the Cyrillic written on the gas station sign and also fall coverage, this is most likely to be Kyrgyzstan, but could possibly be Russia or Ukraine",
+      "co_occurrence": 1
+    }
+  ]
+}

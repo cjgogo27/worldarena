@@ -1,0 +1,64 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/geovista_skill_graph_50_iter2_nuwaflux_gpt52chat
+
+main_agent:
+  # Small/main model (vision + geolocation). Use known-good SiliconFlow path.
+  base_url: https://api.siliconflow.cn/v1/chat/completions
+  api_key: sk-mivnpzvibksbsypfzysmebcvfcnsvtciyssnvbjypusieskr
+  model: Qwen/Qwen3.5-122B-A10B
+  enable_thinking: false
+  max_tokens: 900
+  max_image_side: 896
+  retries: 2
+  backoff_seconds: 0.8
+  request_timeout_seconds: 90
+
+llm_large:
+  # Nuwaflux key should be provided via env var: VLM_LARGE_API_KEY
+  # Note: gpt-5.2 returned 401 in your current token test, so use gpt-5.2-chat.
+  base_url: https://api.nuwaflux.com/v1
+  api_key: "sk-sZ9K5WCNm6U9BkQQauGph8nTpZPHOT3rwynY2jUG0RuArA59"
+  model: gpt-5.2-chat
+  enable_thinking: false
+  max_tokens: 1100
+  max_image_side: 896
+  retries: 2
+  backoff_seconds: 0.8
+  request_timeout_seconds: 90
+
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 12
+  min_score: 0.1
+  retrieval_mode: hybrid
+
+training_free:
+  enable_failure_recovery: true
+  enable_skill_fusion: true
+  recovery_max_records: 32
+  failure_distance_km: 250.0
+  rollout_rounds: 2
+  search_evolution:
+    enabled: false
+    provider: brave
+    api_key: ""
+    max_cases: 6
+    queries_per_case: 2
+    results_per_query: 3
+    timeout_seconds: 8.0
+    context_char_budget: 3000
+
+dataset:
+  dataset_version: georc_v1
+  game_ids:
+    - 1NJsXTxIF9GGMDxC
+    - 2xnQdwiCve2rHWVt
+    - 3I4ZtihbhZy5qZzQ
+    - 3OuVMcpGjmm0tVfG
+    - 3uP6lYo9pzx5Q0km
+    - 4UvmdTHySo6AXW4M
+    - 56Q4T4rpv9O9sCpP
+    - 5GS2RPgTrf85UZM5
+    - 5bPlIRT7eGN79a2E
+    - 5l0GTCFZI877KxkV

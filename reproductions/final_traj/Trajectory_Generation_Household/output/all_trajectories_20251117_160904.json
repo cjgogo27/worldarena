@@ -1,0 +1,257 @@
+[
+  {
+    "user_id": "30002945_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "18:15"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:15",
+        "end_time": "19:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "19:30",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  {
+    "user_id": "30002945_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:45"
+      },
+      {
+        "activity": "home",
+        "start_time": "06:45",
+        "end_time": "07:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "07:30",
+        "end_time": "16:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "16:00",
+        "end_time": "16:15"
+      },
+      {
+        "activity": "home",
+        "start_time": "16:15",
+        "end_time": "16:45"
+      },
+      {
+        "activity": "home",
+        "start_time": "16:45",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "shopping",
+        "start_time": "17:00",
+        "end_time": "18:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "18:00",
+        "end_time": "18:15"
+      },
+      {
+        "activity": "home",
+        "start_time": "18:15",
+        "end_time": "19:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "19:30",
+        "end_time": "19:45"
+      },
+      {
+        "activity": "home",
+        "start_time": "19:45",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  {
+    "user_id": "30000400_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "12:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "12:30",
+        "end_time": "13:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "13:30",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "17:30"
+      },
+      {
+        "activity": "shopping",
+        "start_time": "17:30",
+        "end_time": "18:15"
+      },
+      {
+        "activity": "home",
+        "start_time": "18:15",
+        "end_time": "18:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  {
+    "user_id": "30000400_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "12:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "12:30",
+        "end_time": "13:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "13:30",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "17:30"
+      },
+      {
+        "activity": "shopping",
+        "start_time": "17:30",
+        "end_time": "18:15"
+      },
+      {
+        "activity": "home",
+        "start_time": "18:15",
+        "end_time": "18:30"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:30",
+        "end_time": "19:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "19:30",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  {
+    "user_id": "30000983_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:45"
+      },
+      {
+        "activity": "home",
+        "start_time": "06:45",
+        "end_time": "07:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "07:30",
+        "end_time": "16:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "16:30",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "17:15"
+      },
+      {
+        "activity": "shopping",
+        "start_time": "17:15",
+        "end_time": "18:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "18:00",
+        "end_time": "18:15"
+      },
+      {
+        "activity": "home",
+        "start_time": "18:15",
+        "end_time": "19:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "19:30",
+        "end_time": "19:45"
+      },
+      {
+        "activity": "home",
+        "start_time": "19:45",
+        "end_time": "24:00"
+      }
+    ]
+  }
+]

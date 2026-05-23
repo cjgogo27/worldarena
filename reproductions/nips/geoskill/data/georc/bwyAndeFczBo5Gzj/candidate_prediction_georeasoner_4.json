@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The double yellow center line indicates a two-way road with traffic driving on the right, consistent with Brazil’s road conventions.",
+    "Lush tropical vegetation, including dense trees and undergrowth, suggests a humid subtropical or tropical climate typical of Brazil’s interior regions.",
+    "Absence of urban infrastructure, signage, or buildings points to a rural or semi-rural location, common in Brazil’s less developed areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The double yellow center line indicates a two-way road with traffic driving on the right, consistent with Brazil’s road conventions.\",\n    \"Lush tropical vegetation, including dense trees and undergrowth, suggests a humid subtropical or tropical climate typical of Brazil’s interior regions.\",\n    \"Absence of urban infrastructure, signage, or buildings points to a rural or semi-rural location, common in Brazil’s less developed areas.\",\n    \"The unpaved shoulder and"
+}

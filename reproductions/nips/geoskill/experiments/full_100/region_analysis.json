@@ -1,0 +1,1761 @@
+{
+  "generated_at_utc": "2026-03-10T07:25:48.223124+00:00",
+  "results_dir": "/data/alice/cjtest/geoskill/experiments/full_100",
+  "methods_requested": [
+    "direct_vlm",
+    "cot_vlm",
+    "geocot",
+    "georeasoner",
+    "gre_multistage",
+    "skill_conditioned",
+    "img2loc_rag"
+  ],
+  "methods_available": [
+    "direct_vlm",
+    "cot_vlm",
+    "geocot",
+    "georeasoner",
+    "gre_multistage",
+    "skill_conditioned",
+    "img2loc_rag"
+  ],
+  "missing_methods": {},
+  "regions": [
+    "europe",
+    "asia",
+    "north_america",
+    "south_america",
+    "africa",
+    "oceania"
+  ],
+  "per_region_metrics": {
+    "direct_vlm": {
+      "europe": {
+        "country_accuracy": 0.4,
+        "region_accuracy": 0.8857142857142857,
+        "distance_error_km_mean": 1129.1908515002076,
+        "distance_error_km_median": 372.41140854639445,
+        "valid_coordinate_rate": 0.9714285714285714,
+        "sample_count": 35
+      },
+      "asia": {
+        "country_accuracy": 0.5757575757575758,
+        "region_accuracy": 0.8484848484848485,
+        "distance_error_km_mean": 1547.5962096767764,
+        "distance_error_km_median": 808.4840692977991,
+        "valid_coordinate_rate": 0.9393939393939394,
+        "sample_count": 33
+      },
+      "north_america": {
+        "country_accuracy": 0.45454545454545453,
+        "region_accuracy": 0.5454545454545454,
+        "distance_error_km_mean": 4978.519069296273,
+        "distance_error_km_median": 789.0978529438373,
+        "valid_coordinate_rate": 0.8181818181818182,
+        "sample_count": 11
+      },
+      "south_america": {
+        "country_accuracy": 0.5714285714285714,
+        "region_accuracy": 0.7142857142857143,
+        "distance_error_km_mean": 3661.6185506578886,
+        "distance_error_km_median": 1141.8471367842153,
+        "valid_coordinate_rate": 0.9285714285714286,
+        "sample_count": 14
+      },
+      "africa": {
+        "country_accuracy": 0.6,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 677.3244088307326,
+        "distance_error_km_median": 284.9654207144883,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 5
+      },
+      "oceania": {
+        "country_accuracy": 1.0,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 508.244998750519,
+        "distance_error_km_median": 508.244998750519,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 1
+      }
+    },
+    "cot_vlm": {
+      "europe": {
+        "country_accuracy": 0.3142857142857143,
+        "region_accuracy": 0.7142857142857143,
+        "distance_error_km_mean": 1411.4677144894194,
+        "distance_error_km_median": 435.5576773021951,
+        "valid_coordinate_rate": 0.7428571428571429,
+        "sample_count": 35
+      },
+      "asia": {
+        "country_accuracy": 0.5151515151515151,
+        "region_accuracy": 0.8484848484848485,
+        "distance_error_km_mean": 1290.7697741848533,
+        "distance_error_km_median": 731.5274420631049,
+        "valid_coordinate_rate": 0.8484848484848485,
+        "sample_count": 33
+      },
+      "north_america": {
+        "country_accuracy": 0.45454545454545453,
+        "region_accuracy": 0.5454545454545454,
+        "distance_error_km_mean": 5902.400837061201,
+        "distance_error_km_median": 1069.649642984992,
+        "valid_coordinate_rate": 0.9090909090909091,
+        "sample_count": 11
+      },
+      "south_america": {
+        "country_accuracy": 0.5,
+        "region_accuracy": 0.5714285714285714,
+        "distance_error_km_mean": 3688.524758579211,
+        "distance_error_km_median": 860.5336834150371,
+        "valid_coordinate_rate": 0.7142857142857143,
+        "sample_count": 14
+      },
+      "africa": {
+        "country_accuracy": 0.2,
+        "region_accuracy": 0.6,
+        "distance_error_km_mean": 1240.8337446190237,
+        "distance_error_km_median": 1397.1423059390393,
+        "valid_coordinate_rate": 0.6,
+        "sample_count": 5
+      },
+      "oceania": {
+        "country_accuracy": 1.0,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 508.244998750519,
+        "distance_error_km_median": 508.244998750519,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 1
+      }
+    },
+    "geocot": {
+      "europe": {
+        "country_accuracy": 0.42857142857142855,
+        "region_accuracy": 0.9142857142857143,
+        "distance_error_km_mean": 1130.7997877853622,
+        "distance_error_km_median": 352.3554618984797,
+        "valid_coordinate_rate": 0.9714285714285714,
+        "sample_count": 35
+      },
+      "asia": {
+        "country_accuracy": 0.6060606060606061,
+        "region_accuracy": 0.9090909090909091,
+        "distance_error_km_mean": 1575.2370903840492,
+        "distance_error_km_median": 671.605507961624,
+        "valid_coordinate_rate": 0.9696969696969697,
+        "sample_count": 33
+      },
+      "north_america": {
+        "country_accuracy": 0.5454545454545454,
+        "region_accuracy": 0.7272727272727273,
+        "distance_error_km_mean": 5471.851304087175,
+        "distance_error_km_median": 943.094907710057,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 11
+      },
+      "south_america": {
+        "country_accuracy": 0.6428571428571429,
+        "region_accuracy": 0.7857142857142857,
+        "distance_error_km_mean": 3417.2940372254184,
+        "distance_error_km_median": 1080.6481147498516,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 14
+      },
+      "africa": {
+        "country_accuracy": 0.6,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 940.6302728340346,
+        "distance_error_km_median": 675.3407307561946,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 5
+      },
+      "oceania": {
+        "country_accuracy": 1.0,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 505.8419127828061,
+        "distance_error_km_median": 505.8419127828061,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 1
+      }
+    },
+    "georeasoner": {
+      "europe": {
+        "country_accuracy": 0.42857142857142855,
+        "region_accuracy": 0.9142857142857143,
+        "distance_error_km_mean": 1189.122326571665,
+        "distance_error_km_median": 351.25799476461236,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 35
+      },
+      "asia": {
+        "country_accuracy": 0.48484848484848486,
+        "region_accuracy": 0.9090909090909091,
+        "distance_error_km_mean": 1858.611623343828,
+        "distance_error_km_median": 741.7228689061131,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 33
+      },
+      "north_america": {
+        "country_accuracy": 0.5454545454545454,
+        "region_accuracy": 0.6363636363636364,
+        "distance_error_km_mean": 4361.690457118231,
+        "distance_error_km_median": 789.0978529438373,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 11
+      },
+      "south_america": {
+        "country_accuracy": 0.5714285714285714,
+        "region_accuracy": 0.7857142857142857,
+        "distance_error_km_mean": 3444.3121830733676,
+        "distance_error_km_median": 1092.7620387014201,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 14
+      },
+      "africa": {
+        "country_accuracy": 0.6,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 737.8768737489718,
+        "distance_error_km_median": 675.3407307561946,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 5
+      },
+      "oceania": {
+        "country_accuracy": 1.0,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 508.244998750519,
+        "distance_error_km_median": 508.244998750519,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 1
+      }
+    },
+    "gre_multistage": {
+      "europe": {
+        "country_accuracy": 0.37142857142857144,
+        "region_accuracy": 0.9142857142857143,
+        "distance_error_km_mean": 1267.9762203934947,
+        "distance_error_km_median": 392.83122428831996,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 35
+      },
+      "asia": {
+        "country_accuracy": 0.5757575757575758,
+        "region_accuracy": 0.9393939393939394,
+        "distance_error_km_mean": 1220.84490758795,
+        "distance_error_km_median": 502.86283951505123,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 33
+      },
+      "north_america": {
+        "country_accuracy": 0.5454545454545454,
+        "region_accuracy": 0.8181818181818182,
+        "distance_error_km_mean": 2750.446231391905,
+        "distance_error_km_median": 770.8348150636762,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 11
+      },
+      "south_america": {
+        "country_accuracy": 0.6428571428571429,
+        "region_accuracy": 0.7857142857142857,
+        "distance_error_km_mean": 3672.5746623711525,
+        "distance_error_km_median": 1167.0126726672856,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 14
+      },
+      "africa": {
+        "country_accuracy": 0.2,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 1463.4138752852512,
+        "distance_error_km_median": 1397.1423059390393,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 5
+      },
+      "oceania": {
+        "country_accuracy": 1.0,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 365.3643724418262,
+        "distance_error_km_median": 365.3643724418262,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 1
+      }
+    },
+    "skill_conditioned": {
+      "europe": {
+        "country_accuracy": 0.37142857142857144,
+        "region_accuracy": 0.8571428571428571,
+        "distance_error_km_mean": 1781.6604744301017,
+        "distance_error_km_median": 502.9127777178158,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 35
+      },
+      "asia": {
+        "country_accuracy": 0.42424242424242425,
+        "region_accuracy": 0.9090909090909091,
+        "distance_error_km_mean": 1801.469313450369,
+        "distance_error_km_median": 1172.6823911347692,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 33
+      },
+      "north_america": {
+        "country_accuracy": 0.5454545454545454,
+        "region_accuracy": 0.6363636363636364,
+        "distance_error_km_mean": 5706.850851410387,
+        "distance_error_km_median": 913.0592010698323,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 11
+      },
+      "south_america": {
+        "country_accuracy": 0.5714285714285714,
+        "region_accuracy": 0.7142857142857143,
+        "distance_error_km_mean": 4301.758949614047,
+        "distance_error_km_median": 941.1307364695126,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 14
+      },
+      "africa": {
+        "country_accuracy": 0.4,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 1581.188296976175,
+        "distance_error_km_median": 1397.1423059390393,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 5
+      },
+      "oceania": {
+        "country_accuracy": 1.0,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 508.244998750519,
+        "distance_error_km_median": 508.244998750519,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 1
+      }
+    },
+    "img2loc_rag": {
+      "europe": {
+        "country_accuracy": 0.3142857142857143,
+        "region_accuracy": 0.8857142857142857,
+        "distance_error_km_mean": 1582.9759908830445,
+        "distance_error_km_median": 645.075788842168,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 35
+      },
+      "asia": {
+        "country_accuracy": 0.5454545454545454,
+        "region_accuracy": 0.8787878787878788,
+        "distance_error_km_mean": 1785.577522290418,
+        "distance_error_km_median": 894.2688238709565,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 33
+      },
+      "north_america": {
+        "country_accuracy": 0.6363636363636364,
+        "region_accuracy": 0.8181818181818182,
+        "distance_error_km_mean": 4839.428937867576,
+        "distance_error_km_median": 789.0978529438373,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 11
+      },
+      "south_america": {
+        "country_accuracy": 0.5714285714285714,
+        "region_accuracy": 0.7142857142857143,
+        "distance_error_km_mean": 4224.286779288364,
+        "distance_error_km_median": 1167.5943729775677,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 14
+      },
+      "africa": {
+        "country_accuracy": 0.4,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 1667.2117298932142,
+        "distance_error_km_median": 1397.1423059390393,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 5
+      },
+      "oceania": {
+        "country_accuracy": 1.0,
+        "region_accuracy": 1.0,
+        "distance_error_km_mean": 508.244998750519,
+        "distance_error_km_median": 508.244998750519,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 1
+      }
+    }
+  },
+  "metric_tables": {
+    "country_accuracy": {
+      "direct_vlm": {
+        "europe": 0.4,
+        "asia": 0.5757575757575758,
+        "north_america": 0.45454545454545453,
+        "south_america": 0.5714285714285714,
+        "africa": 0.6,
+        "oceania": 1.0
+      },
+      "cot_vlm": {
+        "europe": 0.3142857142857143,
+        "asia": 0.5151515151515151,
+        "north_america": 0.45454545454545453,
+        "south_america": 0.5,
+        "africa": 0.2,
+        "oceania": 1.0
+      },
+      "geocot": {
+        "europe": 0.42857142857142855,
+        "asia": 0.6060606060606061,
+        "north_america": 0.5454545454545454,
+        "south_america": 0.6428571428571429,
+        "africa": 0.6,
+        "oceania": 1.0
+      },
+      "georeasoner": {
+        "europe": 0.42857142857142855,
+        "asia": 0.48484848484848486,
+        "north_america": 0.5454545454545454,
+        "south_america": 0.5714285714285714,
+        "africa": 0.6,
+        "oceania": 1.0
+      },
+      "gre_multistage": {
+        "europe": 0.37142857142857144,
+        "asia": 0.5757575757575758,
+        "north_america": 0.5454545454545454,
+        "south_america": 0.6428571428571429,
+        "africa": 0.2,
+        "oceania": 1.0
+      },
+      "skill_conditioned": {
+        "europe": 0.37142857142857144,
+        "asia": 0.42424242424242425,
+        "north_america": 0.5454545454545454,
+        "south_america": 0.5714285714285714,
+        "africa": 0.4,
+        "oceania": 1.0
+      },
+      "img2loc_rag": {
+        "europe": 0.3142857142857143,
+        "asia": 0.5454545454545454,
+        "north_america": 0.6363636363636364,
+        "south_america": 0.5714285714285714,
+        "africa": 0.4,
+        "oceania": 1.0
+      }
+    },
+    "region_accuracy": {
+      "direct_vlm": {
+        "europe": 0.8857142857142857,
+        "asia": 0.8484848484848485,
+        "north_america": 0.5454545454545454,
+        "south_america": 0.7142857142857143,
+        "africa": 1.0,
+        "oceania": 1.0
+      },
+      "cot_vlm": {
+        "europe": 0.7142857142857143,
+        "asia": 0.8484848484848485,
+        "north_america": 0.5454545454545454,
+        "south_america": 0.5714285714285714,
+        "africa": 0.6,
+        "oceania": 1.0
+      },
+      "geocot": {
+        "europe": 0.9142857142857143,
+        "asia": 0.9090909090909091,
+        "north_america": 0.7272727272727273,
+        "south_america": 0.7857142857142857,
+        "africa": 1.0,
+        "oceania": 1.0
+      },
+      "georeasoner": {
+        "europe": 0.9142857142857143,
+        "asia": 0.9090909090909091,
+        "north_america": 0.6363636363636364,
+        "south_america": 0.7857142857142857,
+        "africa": 1.0,
+        "oceania": 1.0
+      },
+      "gre_multistage": {
+        "europe": 0.9142857142857143,
+        "asia": 0.9393939393939394,
+        "north_america": 0.8181818181818182,
+        "south_america": 0.7857142857142857,
+        "africa": 1.0,
+        "oceania": 1.0
+      },
+      "skill_conditioned": {
+        "europe": 0.8571428571428571,
+        "asia": 0.9090909090909091,
+        "north_america": 0.6363636363636364,
+        "south_america": 0.7142857142857143,
+        "africa": 1.0,
+        "oceania": 1.0
+      },
+      "img2loc_rag": {
+        "europe": 0.8857142857142857,
+        "asia": 0.8787878787878788,
+        "north_america": 0.8181818181818182,
+        "south_america": 0.7142857142857143,
+        "africa": 1.0,
+        "oceania": 1.0
+      }
+    },
+    "distance_error_km_mean": {
+      "direct_vlm": {
+        "europe": 1129.1908515002076,
+        "asia": 1547.5962096767764,
+        "north_america": 4978.519069296273,
+        "south_america": 3661.6185506578886,
+        "africa": 677.3244088307326,
+        "oceania": 508.244998750519
+      },
+      "cot_vlm": {
+        "europe": 1411.4677144894194,
+        "asia": 1290.7697741848533,
+        "north_america": 5902.400837061201,
+        "south_america": 3688.524758579211,
+        "africa": 1240.8337446190237,
+        "oceania": 508.244998750519
+      },
+      "geocot": {
+        "europe": 1130.7997877853622,
+        "asia": 1575.2370903840492,
+        "north_america": 5471.851304087175,
+        "south_america": 3417.2940372254184,
+        "africa": 940.6302728340346,
+        "oceania": 505.8419127828061
+      },
+      "georeasoner": {
+        "europe": 1189.122326571665,
+        "asia": 1858.611623343828,
+        "north_america": 4361.690457118231,
+        "south_america": 3444.3121830733676,
+        "africa": 737.8768737489718,
+        "oceania": 508.244998750519
+      },
+      "gre_multistage": {
+        "europe": 1267.9762203934947,
+        "asia": 1220.84490758795,
+        "north_america": 2750.446231391905,
+        "south_america": 3672.5746623711525,
+        "africa": 1463.4138752852512,
+        "oceania": 365.3643724418262
+      },
+      "skill_conditioned": {
+        "europe": 1781.6604744301017,
+        "asia": 1801.469313450369,
+        "north_america": 5706.850851410387,
+        "south_america": 4301.758949614047,
+        "africa": 1581.188296976175,
+        "oceania": 508.244998750519
+      },
+      "img2loc_rag": {
+        "europe": 1582.9759908830445,
+        "asia": 1785.577522290418,
+        "north_america": 4839.428937867576,
+        "south_america": 4224.286779288364,
+        "africa": 1667.2117298932142,
+        "oceania": 508.244998750519
+      }
+    },
+    "distance_error_km_median": {
+      "direct_vlm": {
+        "europe": 372.41140854639445,
+        "asia": 808.4840692977991,
+        "north_america": 789.0978529438373,
+        "south_america": 1141.8471367842153,
+        "africa": 284.9654207144883,
+        "oceania": 508.244998750519
+      },
+      "cot_vlm": {
+        "europe": 435.5576773021951,
+        "asia": 731.5274420631049,
+        "north_america": 1069.649642984992,
+        "south_america": 860.5336834150371,
+        "africa": 1397.1423059390393,
+        "oceania": 508.244998750519
+      },
+      "geocot": {
+        "europe": 352.3554618984797,
+        "asia": 671.605507961624,
+        "north_america": 943.094907710057,
+        "south_america": 1080.6481147498516,
+        "africa": 675.3407307561946,
+        "oceania": 505.8419127828061
+      },
+      "georeasoner": {
+        "europe": 351.25799476461236,
+        "asia": 741.7228689061131,
+        "north_america": 789.0978529438373,
+        "south_america": 1092.7620387014201,
+        "africa": 675.3407307561946,
+        "oceania": 508.244998750519
+      },
+      "gre_multistage": {
+        "europe": 392.83122428831996,
+        "asia": 502.86283951505123,
+        "north_america": 770.8348150636762,
+        "south_america": 1167.0126726672856,
+        "africa": 1397.1423059390393,
+        "oceania": 365.3643724418262
+      },
+      "skill_conditioned": {
+        "europe": 502.9127777178158,
+        "asia": 1172.6823911347692,
+        "north_america": 913.0592010698323,
+        "south_america": 941.1307364695126,
+        "africa": 1397.1423059390393,
+        "oceania": 508.244998750519
+      },
+      "img2loc_rag": {
+        "europe": 645.075788842168,
+        "asia": 894.2688238709565,
+        "north_america": 789.0978529438373,
+        "south_america": 1167.5943729775677,
+        "africa": 1397.1423059390393,
+        "oceania": 508.244998750519
+      }
+    },
+    "valid_coordinate_rate": {
+      "direct_vlm": {
+        "europe": 0.9714285714285714,
+        "asia": 0.9393939393939394,
+        "north_america": 0.8181818181818182,
+        "south_america": 0.9285714285714286,
+        "africa": 1.0,
+        "oceania": 1.0
+      },
+      "cot_vlm": {
+        "europe": 0.7428571428571429,
+        "asia": 0.8484848484848485,
+        "north_america": 0.9090909090909091,
+        "south_america": 0.7142857142857143,
+        "africa": 0.6,
+        "oceania": 1.0
+      },
+      "geocot": {
+        "europe": 0.9714285714285714,
+        "asia": 0.9696969696969697,
+        "north_america": 1.0,
+        "south_america": 1.0,
+        "africa": 1.0,
+        "oceania": 1.0
+      },
+      "georeasoner": {
+        "europe": 1.0,
+        "asia": 1.0,
+        "north_america": 1.0,
+        "south_america": 1.0,
+        "africa": 1.0,
+        "oceania": 1.0
+      },
+      "gre_multistage": {
+        "europe": 1.0,
+        "asia": 1.0,
+        "north_america": 1.0,
+        "south_america": 1.0,
+        "africa": 1.0,
+        "oceania": 1.0
+      },
+      "skill_conditioned": {
+        "europe": 1.0,
+        "asia": 1.0,
+        "north_america": 1.0,
+        "south_america": 1.0,
+        "africa": 1.0,
+        "oceania": 1.0
+      },
+      "img2loc_rag": {
+        "europe": 1.0,
+        "asia": 1.0,
+        "north_america": 1.0,
+        "south_america": 1.0,
+        "africa": 1.0,
+        "oceania": 1.0
+      }
+    },
+    "sample_count": {
+      "direct_vlm": {
+        "europe": 35,
+        "asia": 33,
+        "north_america": 11,
+        "south_america": 14,
+        "africa": 5,
+        "oceania": 1
+      },
+      "cot_vlm": {
+        "europe": 35,
+        "asia": 33,
+        "north_america": 11,
+        "south_america": 14,
+        "africa": 5,
+        "oceania": 1
+      },
+      "geocot": {
+        "europe": 35,
+        "asia": 33,
+        "north_america": 11,
+        "south_america": 14,
+        "africa": 5,
+        "oceania": 1
+      },
+      "georeasoner": {
+        "europe": 35,
+        "asia": 33,
+        "north_america": 11,
+        "south_america": 14,
+        "africa": 5,
+        "oceania": 1
+      },
+      "gre_multistage": {
+        "europe": 35,
+        "asia": 33,
+        "north_america": 11,
+        "south_america": 14,
+        "africa": 5,
+        "oceania": 1
+      },
+      "skill_conditioned": {
+        "europe": 35,
+        "asia": 33,
+        "north_america": 11,
+        "south_america": 14,
+        "africa": 5,
+        "oceania": 1
+      },
+      "img2loc_rag": {
+        "europe": 35,
+        "asia": 33,
+        "north_america": 11,
+        "south_america": 14,
+        "africa": 5,
+        "oceania": 1
+      }
+    }
+  },
+  "best_worst_by_region": {
+    "europe": {
+      "country_accuracy": {
+        "best": [
+          "geocot",
+          "georeasoner"
+        ],
+        "worst": [
+          "cot_vlm",
+          "img2loc_rag"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.4,
+          "cot_vlm": 0.3142857142857143,
+          "geocot": 0.42857142857142855,
+          "georeasoner": 0.42857142857142855,
+          "gre_multistage": 0.37142857142857144,
+          "skill_conditioned": 0.37142857142857144,
+          "img2loc_rag": 0.3142857142857143
+        }
+      },
+      "region_accuracy": {
+        "best": [
+          "geocot",
+          "georeasoner",
+          "gre_multistage"
+        ],
+        "worst": [
+          "cot_vlm"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.8857142857142857,
+          "cot_vlm": 0.7142857142857143,
+          "geocot": 0.9142857142857143,
+          "georeasoner": 0.9142857142857143,
+          "gre_multistage": 0.9142857142857143,
+          "skill_conditioned": 0.8571428571428571,
+          "img2loc_rag": 0.8857142857142857
+        }
+      },
+      "distance_error_km_mean": {
+        "best": [
+          "direct_vlm"
+        ],
+        "worst": [
+          "skill_conditioned"
+        ],
+        "criterion": "lower_is_better",
+        "values": {
+          "direct_vlm": 1129.1908515002076,
+          "cot_vlm": 1411.4677144894194,
+          "geocot": 1130.7997877853622,
+          "georeasoner": 1189.122326571665,
+          "gre_multistage": 1267.9762203934947,
+          "skill_conditioned": 1781.6604744301017,
+          "img2loc_rag": 1582.9759908830445
+        }
+      },
+      "distance_error_km_median": {
+        "best": [
+          "georeasoner"
+        ],
+        "worst": [
+          "img2loc_rag"
+        ],
+        "criterion": "lower_is_better",
+        "values": {
+          "direct_vlm": 372.41140854639445,
+          "cot_vlm": 435.5576773021951,
+          "geocot": 352.3554618984797,
+          "georeasoner": 351.25799476461236,
+          "gre_multistage": 392.83122428831996,
+          "skill_conditioned": 502.9127777178158,
+          "img2loc_rag": 645.075788842168
+        }
+      },
+      "valid_coordinate_rate": {
+        "best": [
+          "georeasoner",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "worst": [
+          "cot_vlm"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.9714285714285714,
+          "cot_vlm": 0.7428571428571429,
+          "geocot": 0.9714285714285714,
+          "georeasoner": 1.0,
+          "gre_multistage": 1.0,
+          "skill_conditioned": 1.0,
+          "img2loc_rag": 1.0
+        }
+      }
+    },
+    "asia": {
+      "country_accuracy": {
+        "best": [
+          "geocot"
+        ],
+        "worst": [
+          "skill_conditioned"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.5757575757575758,
+          "cot_vlm": 0.5151515151515151,
+          "geocot": 0.6060606060606061,
+          "georeasoner": 0.48484848484848486,
+          "gre_multistage": 0.5757575757575758,
+          "skill_conditioned": 0.42424242424242425,
+          "img2loc_rag": 0.5454545454545454
+        }
+      },
+      "region_accuracy": {
+        "best": [
+          "gre_multistage"
+        ],
+        "worst": [
+          "direct_vlm",
+          "cot_vlm"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.8484848484848485,
+          "cot_vlm": 0.8484848484848485,
+          "geocot": 0.9090909090909091,
+          "georeasoner": 0.9090909090909091,
+          "gre_multistage": 0.9393939393939394,
+          "skill_conditioned": 0.9090909090909091,
+          "img2loc_rag": 0.8787878787878788
+        }
+      },
+      "distance_error_km_mean": {
+        "best": [
+          "gre_multistage"
+        ],
+        "worst": [
+          "georeasoner"
+        ],
+        "criterion": "lower_is_better",
+        "values": {
+          "direct_vlm": 1547.5962096767764,
+          "cot_vlm": 1290.7697741848533,
+          "geocot": 1575.2370903840492,
+          "georeasoner": 1858.611623343828,
+          "gre_multistage": 1220.84490758795,
+          "skill_conditioned": 1801.469313450369,
+          "img2loc_rag": 1785.577522290418
+        }
+      },
+      "distance_error_km_median": {
+        "best": [
+          "gre_multistage"
+        ],
+        "worst": [
+          "skill_conditioned"
+        ],
+        "criterion": "lower_is_better",
+        "values": {
+          "direct_vlm": 808.4840692977991,
+          "cot_vlm": 731.5274420631049,
+          "geocot": 671.605507961624,
+          "georeasoner": 741.7228689061131,
+          "gre_multistage": 502.86283951505123,
+          "skill_conditioned": 1172.6823911347692,
+          "img2loc_rag": 894.2688238709565
+        }
+      },
+      "valid_coordinate_rate": {
+        "best": [
+          "georeasoner",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "worst": [
+          "cot_vlm"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.9393939393939394,
+          "cot_vlm": 0.8484848484848485,
+          "geocot": 0.9696969696969697,
+          "georeasoner": 1.0,
+          "gre_multistage": 1.0,
+          "skill_conditioned": 1.0,
+          "img2loc_rag": 1.0
+        }
+      }
+    },
+    "north_america": {
+      "country_accuracy": {
+        "best": [
+          "img2loc_rag"
+        ],
+        "worst": [
+          "direct_vlm",
+          "cot_vlm"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.45454545454545453,
+          "cot_vlm": 0.45454545454545453,
+          "geocot": 0.5454545454545454,
+          "georeasoner": 0.5454545454545454,
+          "gre_multistage": 0.5454545454545454,
+          "skill_conditioned": 0.5454545454545454,
+          "img2loc_rag": 0.6363636363636364
+        }
+      },
+      "region_accuracy": {
+        "best": [
+          "gre_multistage",
+          "img2loc_rag"
+        ],
+        "worst": [
+          "direct_vlm",
+          "cot_vlm"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.5454545454545454,
+          "cot_vlm": 0.5454545454545454,
+          "geocot": 0.7272727272727273,
+          "georeasoner": 0.6363636363636364,
+          "gre_multistage": 0.8181818181818182,
+          "skill_conditioned": 0.6363636363636364,
+          "img2loc_rag": 0.8181818181818182
+        }
+      },
+      "distance_error_km_mean": {
+        "best": [
+          "gre_multistage"
+        ],
+        "worst": [
+          "cot_vlm"
+        ],
+        "criterion": "lower_is_better",
+        "values": {
+          "direct_vlm": 4978.519069296273,
+          "cot_vlm": 5902.400837061201,
+          "geocot": 5471.851304087175,
+          "georeasoner": 4361.690457118231,
+          "gre_multistage": 2750.446231391905,
+          "skill_conditioned": 5706.850851410387,
+          "img2loc_rag": 4839.428937867576
+        }
+      },
+      "distance_error_km_median": {
+        "best": [
+          "gre_multistage"
+        ],
+        "worst": [
+          "cot_vlm"
+        ],
+        "criterion": "lower_is_better",
+        "values": {
+          "direct_vlm": 789.0978529438373,
+          "cot_vlm": 1069.649642984992,
+          "geocot": 943.094907710057,
+          "georeasoner": 789.0978529438373,
+          "gre_multistage": 770.8348150636762,
+          "skill_conditioned": 913.0592010698323,
+          "img2loc_rag": 789.0978529438373
+        }
+      },
+      "valid_coordinate_rate": {
+        "best": [
+          "geocot",
+          "georeasoner",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "worst": [
+          "direct_vlm"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.8181818181818182,
+          "cot_vlm": 0.9090909090909091,
+          "geocot": 1.0,
+          "georeasoner": 1.0,
+          "gre_multistage": 1.0,
+          "skill_conditioned": 1.0,
+          "img2loc_rag": 1.0
+        }
+      }
+    },
+    "south_america": {
+      "country_accuracy": {
+        "best": [
+          "geocot",
+          "gre_multistage"
+        ],
+        "worst": [
+          "cot_vlm"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.5714285714285714,
+          "cot_vlm": 0.5,
+          "geocot": 0.6428571428571429,
+          "georeasoner": 0.5714285714285714,
+          "gre_multistage": 0.6428571428571429,
+          "skill_conditioned": 0.5714285714285714,
+          "img2loc_rag": 0.5714285714285714
+        }
+      },
+      "region_accuracy": {
+        "best": [
+          "geocot",
+          "georeasoner",
+          "gre_multistage"
+        ],
+        "worst": [
+          "cot_vlm"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.7142857142857143,
+          "cot_vlm": 0.5714285714285714,
+          "geocot": 0.7857142857142857,
+          "georeasoner": 0.7857142857142857,
+          "gre_multistage": 0.7857142857142857,
+          "skill_conditioned": 0.7142857142857143,
+          "img2loc_rag": 0.7142857142857143
+        }
+      },
+      "distance_error_km_mean": {
+        "best": [
+          "geocot"
+        ],
+        "worst": [
+          "skill_conditioned"
+        ],
+        "criterion": "lower_is_better",
+        "values": {
+          "direct_vlm": 3661.6185506578886,
+          "cot_vlm": 3688.524758579211,
+          "geocot": 3417.2940372254184,
+          "georeasoner": 3444.3121830733676,
+          "gre_multistage": 3672.5746623711525,
+          "skill_conditioned": 4301.758949614047,
+          "img2loc_rag": 4224.286779288364
+        }
+      },
+      "distance_error_km_median": {
+        "best": [
+          "cot_vlm"
+        ],
+        "worst": [
+          "img2loc_rag"
+        ],
+        "criterion": "lower_is_better",
+        "values": {
+          "direct_vlm": 1141.8471367842153,
+          "cot_vlm": 860.5336834150371,
+          "geocot": 1080.6481147498516,
+          "georeasoner": 1092.7620387014201,
+          "gre_multistage": 1167.0126726672856,
+          "skill_conditioned": 941.1307364695126,
+          "img2loc_rag": 1167.5943729775677
+        }
+      },
+      "valid_coordinate_rate": {
+        "best": [
+          "geocot",
+          "georeasoner",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "worst": [
+          "cot_vlm"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.9285714285714286,
+          "cot_vlm": 0.7142857142857143,
+          "geocot": 1.0,
+          "georeasoner": 1.0,
+          "gre_multistage": 1.0,
+          "skill_conditioned": 1.0,
+          "img2loc_rag": 1.0
+        }
+      }
+    },
+    "africa": {
+      "country_accuracy": {
+        "best": [
+          "direct_vlm",
+          "geocot",
+          "georeasoner"
+        ],
+        "worst": [
+          "cot_vlm",
+          "gre_multistage"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 0.6,
+          "cot_vlm": 0.2,
+          "geocot": 0.6,
+          "georeasoner": 0.6,
+          "gre_multistage": 0.2,
+          "skill_conditioned": 0.4,
+          "img2loc_rag": 0.4
+        }
+      },
+      "region_accuracy": {
+        "best": [
+          "direct_vlm",
+          "geocot",
+          "georeasoner",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "worst": [
+          "cot_vlm"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 1.0,
+          "cot_vlm": 0.6,
+          "geocot": 1.0,
+          "georeasoner": 1.0,
+          "gre_multistage": 1.0,
+          "skill_conditioned": 1.0,
+          "img2loc_rag": 1.0
+        }
+      },
+      "distance_error_km_mean": {
+        "best": [
+          "direct_vlm"
+        ],
+        "worst": [
+          "img2loc_rag"
+        ],
+        "criterion": "lower_is_better",
+        "values": {
+          "direct_vlm": 677.3244088307326,
+          "cot_vlm": 1240.8337446190237,
+          "geocot": 940.6302728340346,
+          "georeasoner": 737.8768737489718,
+          "gre_multistage": 1463.4138752852512,
+          "skill_conditioned": 1581.188296976175,
+          "img2loc_rag": 1667.2117298932142
+        }
+      },
+      "distance_error_km_median": {
+        "best": [
+          "direct_vlm"
+        ],
+        "worst": [
+          "cot_vlm",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "criterion": "lower_is_better",
+        "values": {
+          "direct_vlm": 284.9654207144883,
+          "cot_vlm": 1397.1423059390393,
+          "geocot": 675.3407307561946,
+          "georeasoner": 675.3407307561946,
+          "gre_multistage": 1397.1423059390393,
+          "skill_conditioned": 1397.1423059390393,
+          "img2loc_rag": 1397.1423059390393
+        }
+      },
+      "valid_coordinate_rate": {
+        "best": [
+          "direct_vlm",
+          "geocot",
+          "georeasoner",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "worst": [
+          "cot_vlm"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 1.0,
+          "cot_vlm": 0.6,
+          "geocot": 1.0,
+          "georeasoner": 1.0,
+          "gre_multistage": 1.0,
+          "skill_conditioned": 1.0,
+          "img2loc_rag": 1.0
+        }
+      }
+    },
+    "oceania": {
+      "country_accuracy": {
+        "best": [
+          "direct_vlm",
+          "cot_vlm",
+          "geocot",
+          "georeasoner",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "worst": [
+          "direct_vlm",
+          "cot_vlm",
+          "geocot",
+          "georeasoner",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 1.0,
+          "cot_vlm": 1.0,
+          "geocot": 1.0,
+          "georeasoner": 1.0,
+          "gre_multistage": 1.0,
+          "skill_conditioned": 1.0,
+          "img2loc_rag": 1.0
+        }
+      },
+      "region_accuracy": {
+        "best": [
+          "direct_vlm",
+          "cot_vlm",
+          "geocot",
+          "georeasoner",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "worst": [
+          "direct_vlm",
+          "cot_vlm",
+          "geocot",
+          "georeasoner",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 1.0,
+          "cot_vlm": 1.0,
+          "geocot": 1.0,
+          "georeasoner": 1.0,
+          "gre_multistage": 1.0,
+          "skill_conditioned": 1.0,
+          "img2loc_rag": 1.0
+        }
+      },
+      "distance_error_km_mean": {
+        "best": [
+          "gre_multistage"
+        ],
+        "worst": [
+          "direct_vlm",
+          "cot_vlm",
+          "georeasoner",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "criterion": "lower_is_better",
+        "values": {
+          "direct_vlm": 508.244998750519,
+          "cot_vlm": 508.244998750519,
+          "geocot": 505.8419127828061,
+          "georeasoner": 508.244998750519,
+          "gre_multistage": 365.3643724418262,
+          "skill_conditioned": 508.244998750519,
+          "img2loc_rag": 508.244998750519
+        }
+      },
+      "distance_error_km_median": {
+        "best": [
+          "gre_multistage"
+        ],
+        "worst": [
+          "direct_vlm",
+          "cot_vlm",
+          "georeasoner",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "criterion": "lower_is_better",
+        "values": {
+          "direct_vlm": 508.244998750519,
+          "cot_vlm": 508.244998750519,
+          "geocot": 505.8419127828061,
+          "georeasoner": 508.244998750519,
+          "gre_multistage": 365.3643724418262,
+          "skill_conditioned": 508.244998750519,
+          "img2loc_rag": 508.244998750519
+        }
+      },
+      "valid_coordinate_rate": {
+        "best": [
+          "direct_vlm",
+          "cot_vlm",
+          "geocot",
+          "georeasoner",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "worst": [
+          "direct_vlm",
+          "cot_vlm",
+          "geocot",
+          "georeasoner",
+          "gre_multistage",
+          "skill_conditioned",
+          "img2loc_rag"
+        ],
+        "criterion": "higher_is_better",
+        "values": {
+          "direct_vlm": 1.0,
+          "cot_vlm": 1.0,
+          "geocot": 1.0,
+          "georeasoner": 1.0,
+          "gre_multistage": 1.0,
+          "skill_conditioned": 1.0,
+          "img2loc_rag": 1.0
+        }
+      }
+    }
+  },
+  "generalization_gap": {
+    "direct_vlm": {
+      "generalization_gap": 0.4545454545454546,
+      "max_region_accuracy": 1.0,
+      "min_region_accuracy": 0.5454545454545454
+    },
+    "cot_vlm": {
+      "generalization_gap": 0.4545454545454546,
+      "max_region_accuracy": 1.0,
+      "min_region_accuracy": 0.5454545454545454
+    },
+    "geocot": {
+      "generalization_gap": 0.2727272727272727,
+      "max_region_accuracy": 1.0,
+      "min_region_accuracy": 0.7272727272727273
+    },
+    "georeasoner": {
+      "generalization_gap": 0.36363636363636365,
+      "max_region_accuracy": 1.0,
+      "min_region_accuracy": 0.6363636363636364
+    },
+    "gre_multistage": {
+      "generalization_gap": 0.2142857142857143,
+      "max_region_accuracy": 1.0,
+      "min_region_accuracy": 0.7857142857142857
+    },
+    "skill_conditioned": {
+      "generalization_gap": 0.36363636363636365,
+      "max_region_accuracy": 1.0,
+      "min_region_accuracy": 0.6363636363636364
+    },
+    "img2loc_rag": {
+      "generalization_gap": 0.2857142857142857,
+      "max_region_accuracy": 1.0,
+      "min_region_accuracy": 0.7142857142857143
+    }
+  },
+  "leave_one_region_out": {
+    "direct_vlm": {
+      "europe": {
+        "country_accuracy": 0.5538461538461539,
+        "region_accuracy": 0.7692307692307693,
+        "distance_error_km_mean": 2421.0217451009016,
+        "distance_error_km_median": 982.0857387646676,
+        "valid_coordinate_rate": 0.9230769230769231,
+        "sample_count": 65
+      },
+      "asia": {
+        "country_accuracy": 0.4626865671641791,
+        "region_accuracy": 0.7910447761194029,
+        "distance_error_km_mean": 2153.623986620335,
+        "distance_error_km_median": 508.244998750519,
+        "valid_coordinate_rate": 0.9402985074626866,
+        "sample_count": 67
+      },
+      "north_america": {
+        "country_accuracy": 0.5056179775280899,
+        "region_accuracy": 0.8426966292134831,
+        "distance_error_km_mean": 1633.4955533340556,
+        "distance_error_km_median": 502.9127777178158,
+        "valid_coordinate_rate": 0.9550561797752809,
+        "sample_count": 89
+      },
+      "south_america": {
+        "country_accuracy": 0.4883720930232558,
+        "region_accuracy": 0.8255813953488372,
+        "distance_error_km_mean": 1679.6636110926993,
+        "distance_error_km_median": 478.2841303160702,
+        "valid_coordinate_rate": 0.9418604651162791,
+        "sample_count": 86
+      },
+      "africa": {
+        "country_accuracy": 0.49473684210526314,
+        "region_accuracy": 0.8,
+        "distance_error_km_mean": 2025.4738383472754,
+        "distance_error_km_median": 584.0282521016005,
+        "valid_coordinate_rate": 0.9368421052631579,
+        "sample_count": 95
+      },
+      "oceania": {
+        "country_accuracy": 0.494949494949495,
+        "region_accuracy": 0.8080808080808081,
+        "distance_error_km_mean": 1969.3069748205448,
+        "distance_error_km_median": 584.0282521016005,
+        "valid_coordinate_rate": 0.9393939393939394,
+        "sample_count": 99
+      }
+    },
+    "cot_vlm": {
+      "europe": {
+        "country_accuracy": 0.47692307692307695,
+        "region_accuracy": 0.7076923076923077,
+        "distance_error_km_mean": 2588.0834236067208,
+        "distance_error_km_median": 886.8655849685919,
+        "valid_coordinate_rate": 0.8153846153846154,
+        "sample_count": 65
+      },
+      "asia": {
+        "country_accuracy": 0.373134328358209,
+        "region_accuracy": 0.6417910447761194,
+        "distance_error_km_mean": 2700.490751974612,
+        "distance_error_km_median": 701.6182741145863,
+        "valid_coordinate_rate": 0.7611940298507462,
+        "sample_count": 67
+      },
+      "north_america": {
+        "country_accuracy": 0.4157303370786517,
+        "region_accuracy": 0.7303370786516854,
+        "distance_error_km_mean": 1664.3851254676683,
+        "distance_error_km_median": 654.5708148284106,
+        "valid_coordinate_rate": 0.7752808988764045,
+        "sample_count": 89
+      },
+      "south_america": {
+        "country_accuracy": 0.4069767441860465,
+        "region_accuracy": 0.7325581395348837,
+        "distance_error_km_mean": 1985.236731044768,
+        "distance_error_km_median": 675.3407307561946,
+        "valid_coordinate_rate": 0.8023255813953488,
+        "sample_count": 86
+      },
+      "africa": {
+        "country_accuracy": 0.43157894736842106,
+        "region_accuracy": 0.7157894736842105,
+        "distance_error_km_mean": 2238.737905184527,
+        "distance_error_km_median": 678.1187527130585,
+        "valid_coordinate_rate": 0.8,
+        "sample_count": 95
+      },
+      "oceania": {
+        "country_accuracy": 0.41414141414141414,
+        "region_accuracy": 0.7070707070707071,
+        "distance_error_km_mean": 2222.542782424751,
+        "distance_error_km_median": 708.105340632408,
+        "valid_coordinate_rate": 0.7878787878787878,
+        "sample_count": 99
+      }
+    },
+    "geocot": {
+      "europe": {
+        "country_accuracy": 0.6,
+        "region_accuracy": 0.8615384615384616,
+        "distance_error_km_mean": 2845.1129386716107,
+        "distance_error_km_median": 953.3285399485201,
+        "valid_coordinate_rate": 0.9846153846153847,
+        "sample_count": 65
+      },
+      "asia": {
+        "country_accuracy": 0.5074626865671642,
+        "region_accuracy": 0.8656716417910447,
+        "distance_error_km_mean": 2577.679302536301,
+        "distance_error_km_median": 627.6773827797092,
+        "valid_coordinate_rate": 0.9850746268656716,
+        "sample_count": 67
+      },
+      "north_america": {
+        "country_accuracy": 0.5393258426966292,
+        "region_accuracy": 0.898876404494382,
+        "distance_error_km_mean": 1843.0351323531786,
+        "distance_error_km_median": 508.71012244919683,
+        "valid_coordinate_rate": 0.9775280898876404,
+        "sample_count": 89
+      },
+      "south_america": {
+        "country_accuracy": 0.5232558139534884,
+        "region_accuracy": 0.8953488372093024,
+        "distance_error_km_mean": 2055.860765934876,
+        "distance_error_km_median": 507.27601761600147,
+        "valid_coordinate_rate": 0.9767441860465116,
+        "sample_count": 86
+      },
+      "africa": {
+        "country_accuracy": 0.5368421052631579,
+        "region_accuracy": 0.8736842105263158,
+        "distance_error_km_mean": 2320.7663386614545,
+        "distance_error_km_median": 580.0140348032237,
+        "valid_coordinate_rate": 0.9789473684210527,
+        "sample_count": 95
+      },
+      "oceania": {
+        "country_accuracy": 0.5353535353535354,
+        "region_accuracy": 0.8787878787878788,
+        "distance_error_km_mean": 2268.3358654319854,
+        "distance_error_km_median": 675.3407307561946,
+        "valid_coordinate_rate": 0.9797979797979798,
+        "sample_count": 99
+      }
+    },
+    "georeasoner": {
+      "europe": {
+        "country_accuracy": 0.5230769230769231,
+        "region_accuracy": 0.8307692307692308,
+        "distance_error_km_mean": 2637.6900851818586,
+        "distance_error_km_median": 789.0978529438373,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 65
+      },
+      "asia": {
+        "country_accuracy": 0.4925373134328358,
+        "region_accuracy": 0.835820895522388,
+        "distance_error_km_mean": 2264.700796962429,
+        "distance_error_km_median": 508.244998750519,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 67
+      },
+      "north_america": {
+        "country_accuracy": 0.48314606741573035,
+        "region_accuracy": 0.8876404494382022,
+        "distance_error_km_mean": 1854.949909421669,
+        "distance_error_km_median": 654.4736203541205,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 89
+      },
+      "south_america": {
+        "country_accuracy": 0.47674418604651164,
+        "region_accuracy": 0.872093023255814,
+        "distance_error_km_mean": 1916.8461209744412,
+        "distance_error_km_median": 600.2818840279824,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 86
+      },
+      "africa": {
+        "country_accuracy": 0.4842105263157895,
+        "region_accuracy": 0.8526315789473684,
+        "distance_error_km_mean": 2203.997395769308,
+        "distance_error_km_median": 666.8911848109244,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 95
+      },
+      "oceania": {
+        "country_accuracy": 0.48484848484848486,
+        "region_accuracy": 0.8585858585858586,
+        "distance_error_km_mean": 2147.0797168492786,
+        "distance_error_km_median": 675.3407307561946,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 99
+      }
+    },
+    "gre_multistage": {
+      "europe": {
+        "country_accuracy": 0.5538461538461539,
+        "region_accuracy": 0.8923076923076924,
+        "distance_error_km_mean": 2278.145177806204,
+        "distance_error_km_median": 770.8348150636762,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 65
+      },
+      "asia": {
+        "country_accuracy": 0.44776119402985076,
+        "region_accuracy": 0.8805970149253731,
+        "distance_error_km_mean": 2271.2048107578103,
+        "distance_error_km_median": 744.6429519062633,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 67
+      },
+      "north_america": {
+        "country_accuracy": 0.48314606741573035,
+        "region_accuracy": 0.9101123595505618,
+        "distance_error_km_mean": 1822.513435122075,
+        "distance_error_km_median": 670.1916365749632,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 89
+      },
+      "south_america": {
+        "country_accuracy": 0.46511627906976744,
+        "region_accuracy": 0.9186046511627907,
+        "distance_error_km_mean": 1640.0297557904587,
+        "distance_error_km_median": 527.1177116348647,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 86
+      },
+      "africa": {
+        "country_accuracy": 0.5052631578947369,
+        "region_accuracy": 0.8947368421052632,
+        "distance_error_km_mean": 1948.858262049993,
+        "distance_error_km_median": 670.1916365749632,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 95
+      },
+      "oceania": {
+        "country_accuracy": 0.48484848484848486,
+        "region_accuracy": 0.898989898989899,
+        "distance_error_km_mean": 1940.335756552866,
+        "distance_error_km_median": 719.5771439976393,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 99
+      }
+    },
+    "skill_conditioned": {
+      "europe": {
+        "country_accuracy": 0.47692307692307695,
+        "region_accuracy": 0.8153846153846154,
+        "distance_error_km_mean": 2949.992678039586,
+        "distance_error_km_median": 1019.4490927154881,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 65
+      },
+      "asia": {
+        "country_accuracy": 0.44776119402985076,
+        "region_accuracy": 0.7910447761194029,
+        "distance_error_km_mean": 2905.360497518873,
+        "distance_error_km_median": 744.6429519062633,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 67
+      },
+      "north_america": {
+        "country_accuracy": 0.42696629213483145,
+        "region_accuracy": 0.8539325842696629,
+        "distance_error_km_mean": 2149.8009136192404,
+        "distance_error_km_median": 862.8123802235372,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 89
+      },
+      "south_america": {
+        "country_accuracy": 0.4186046511627907,
+        "region_accuracy": 0.8488372093023255,
+        "distance_error_km_mean": 2254.4536672445347,
+        "distance_error_km_median": 836.932179744711,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 86
+      },
+      "africa": {
+        "country_accuracy": 0.4421052631578947,
+        "region_accuracy": 0.8210526315789474,
+        "distance_error_km_mean": 2591.59683360785,
+        "distance_error_km_median": 862.8123802235372,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 95
+      },
+      "oceania": {
+        "country_accuracy": 0.43434343434343436,
+        "region_accuracy": 0.8282828282828283,
+        "distance_error_km_mean": 2561.6100573623853,
+        "distance_error_km_median": 884.7665065455847,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 99
+      }
+    },
+    "img2loc_rag": {
+      "europe": {
+        "country_accuracy": 0.5538461538461539,
+        "region_accuracy": 0.8307692307692308,
+        "distance_error_km_mean": 2785.0609337746064,
+        "distance_error_km_median": 894.2688238709565,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 65
+      },
+      "asia": {
+        "country_accuracy": 0.43283582089552236,
+        "region_accuracy": 0.835820895522388,
+        "distance_error_km_mean": 2649.3889871742117,
+        "distance_error_km_median": 744.6429519062633,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 67
+      },
+      "north_america": {
+        "country_accuracy": 0.449438202247191,
+        "region_accuracy": 0.8539325842696629,
+        "distance_error_km_mean": 2058.42024786194,
+        "distance_error_km_median": 744.6429519062633,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 89
+      },
+      "south_america": {
+        "country_accuracy": 0.45348837209302323,
+        "region_accuracy": 0.872093023255814,
+        "distance_error_km_mean": 2061.5477379792887,
+        "distance_error_km_median": 715.6608640379197,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 86
+      },
+      "africa": {
+        "country_accuracy": 0.47368421052631576,
+        "region_accuracy": 0.8421052631578947,
+        "distance_error_km_mean": 2401.021702387262,
+        "distance_error_km_median": 744.6429519062633,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 95
+      },
+      "oceania": {
+        "country_accuracy": 0.46464646464646464,
+        "region_accuracy": 0.8484848484848485,
+        "distance_error_km_mean": 2383.0795492677316,
+        "distance_error_km_median": 751.8530555476312,
+        "valid_coordinate_rate": 1.0,
+        "sample_count": 99
+      }
+    }
+  }
+}

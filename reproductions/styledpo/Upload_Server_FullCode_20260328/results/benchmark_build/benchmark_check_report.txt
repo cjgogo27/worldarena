@@ -1,0 +1,16 @@
+Content-Style Benchmark Check Report
+generated_at: 2026-03-29T14:11:46.995839+00:00
+benchmark_dir: benchmark/bagel_content_style_benchmark
+content_count: 6 (required >= 17)
+style_count: 40 (required 40)
+total_images: 83 (expected 240)
+mismatch_count: 6
+pass_gate: False
+
+Per-content summary:
+- content_0001: images=14 missing=26 extra=0
+- content_0004: images=14 missing=26 extra=0
+- content_0006: images=14 missing=26 extra=0
+- content_0008: images=14 missing=26 extra=0
+- content_0010: images=14 missing=26 extra=0
+- content_0016: images=13 missing=27 extra=0

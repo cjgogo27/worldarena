@@ -1,0 +1,34 @@
+{
+  "game_id": "SkFHwlV4Z2q9fUje",
+  "round": 1,
+  "sample_id": "georc::SkFHwlV4Z2q9fUje::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "mx",
+    "predicted_region": "north_america",
+    "predicted_address": "Avenida Tecnológico, Ciudad Juárez, Chihuahua, Mexico",
+    "predicted_lat": 31.745,
+    "predicted_lng": -106.485,
+    "reasoning_text": "```json\n{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"region\": \"North America\",\n  \"city\": \"Ciudad Juárez\",\n  \"province_or_state\": \"Chihuahua\",\n  \"address\": \"Avenida Tecnológico, Ciudad Juárez, Chihuahua, Mexico\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows several strong indicators of Mexico: Spanish business name 'ROSTICERIA RAMIREZ' (a rotisserie chicken restaurant, common in Mexico), Spanish language usage, architectural style with metal roll-up shutters typical of Mexican commercial buildings, utility pole infrastructure, and arid/semi-arid climate consistent with northern Mexico. The wide avenue with divided lanes and the specific urban development pattern suggests a major Mexican border city. The business name 'Ramirez' and 'Rosticeria' are distinctly Mexican cultural markers. The red minivan and general vehicle types are common in Mexico. Based on the arid environment, urban layout, and the specific type of commercial establishment, this appears to be Ciudad Juárez, a major city in Chihuahua state. The wide avenue with this character is consistent with Avenida Tecnológico or similar major thoroughfares in Ciudad Juárez.\",\n  \"evidence\": [\"Spanish business sign 'ROSTICERIA RAMIREZ'\", \"Metal roll-up commercial shutters typical of Mexico\", \"Arid/semi-arid climate and vegetation\", \"Utility pole and wire infrastructure\", \"Road markings and urban layout style\", \"Building architecture with stone facade\", \"Spanish language usage on signage\"]\n}\n```",
+    "evidence_spans": [
+      "Spanish business sign 'ROSTICERIA RAMIREZ'",
+      "Metal roll-up commercial shutters typical of Mexico",
+      "Arid/semi-arid climate and vegetation",
+      "Utility pole and wire infrastructure",
+      "Road markings and urban layout style",
+      "Building architecture with stone facade",
+      "Spanish language usage on signage"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "mx",
+      "us",
+      "gt"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"mx\",\"us\",\"gt\"],\"reason\":\"Spanish language signage 'ROSTICERIA RAMIREZ' is definitive for Hispanic Americas. Red minivan with obscured plate, arid climate with clear blue sky, utility pole infrastructure, and commercial building architecture match northern Mexico. 'Rosticeria' (rotisserie chicken shop) is common Mexican business type. Road markings and driving on right side consistent with Mexico. US possible but Spanish-dominant signage less common; Guatemala possible but infrastructure appears more developed than typical Guatemalan rural roads.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8775000000000001
+  },
+  "error": null
+}

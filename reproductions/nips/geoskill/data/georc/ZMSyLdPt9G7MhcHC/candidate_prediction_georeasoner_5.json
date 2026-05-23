@@ -1,0 +1,11 @@
+{
+  "country": "United Kingdom",
+  "country_code": "gb",
+  "city": "",
+  "reasoning_chain": [
+    "The road is narrow, unmarked, and flanked by wooden post-and-rail fencing typical of rural UK countryside.",
+    "Trees are deciduous and leafless, suggesting late winter or early spring in a temperate climate consistent with the UK.",
+    "A brick house with white window frames is visible on the left, matching common British suburban or semi-rural architecture."
+  ],
+  "raw_output": "{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is narrow, unmarked, and flanked by wooden post-and-rail fencing typical of rural UK countryside.\",\n    \"Trees are deciduous and leafless, suggesting late winter or early spring in a temperate climate consistent with the UK.\",\n    \"A brick house with white window frames is visible on the left, matching common British suburban or semi-rural architecture.\",\n    \"No visible traffic signs, license plates, or directional indicators are"
+}

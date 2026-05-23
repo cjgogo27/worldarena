@@ -1,0 +1,11 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, cracked asphalt road with no center line and grassy verges is typical of rural Finnish country roads.",
+    "Dense deciduous forest on both sides and lush green grass indicate a temperate boreal climate consistent with Finland’s summer landscape.",
+    "The house in the distance has a simple gabled roof and light-colored walls, common in Finnish rural architecture."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, cracked asphalt road with no center line and grassy verges is typical of rural Finnish country roads.\",\n    \"Dense deciduous forest on both sides and lush green grass indicate a temperate boreal climate consistent with Finland’s summer landscape.\",\n    \"The house in the distance has a simple gabled roof and light-colored walls, common in Finnish rural architecture.\",\n    \"No visible signage, vehicles, or utility poles are present,"
+}

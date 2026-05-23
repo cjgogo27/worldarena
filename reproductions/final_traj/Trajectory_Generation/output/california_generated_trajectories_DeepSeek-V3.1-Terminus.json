@@ -1,0 +1,52 @@
+[
+  {
+    "user_id": "30002756_2",
+    "user_info": {
+      "user_id": "30002756_2",
+      "age_range": "Appropriate skip",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Spouse/Unmarried partner",
+      "gender": "Male",
+      "race": "White",
+      "education": "Some college or associates degree",
+      "employment_status": "Appropriate skip",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": 2.0,
+      "work_state": "Not specified",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "Appropriate skip",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "primary_activity": "Retired"
+    },
+    "reasoning": "**Reasoning:** This user is retired, male, lives with a partner, and is a driver. The trajectory reflects a light, flexible schedule typical of retirement. The \"work\" activity is replaced by part-time volunteering or light duties (a common post-retirement activity). The short commute aligns with being a local driver. The day includes morning exercise for health, an afternoon social visit consistent with maintaining social ties in retirement, and a dinner out with a partner, fitting the relationship status. No education, medical, or dropoff/pickup activities are included as they are not indicated by the profile.",
+    "trajectory": "0:00-6:45 home, 6:45-7:30 exercise, 7:30-8:15 home, 8:15-12:00 work, 12:00-13:15 dine_out, 13:15-15:00 socialize, 15:00-16:30 shopping, 16:30-18:00 home, 18:00-19:30 service, 19:30-24:00 home",
+    "raw_result": "**Reasoning:** This user is retired, male, lives with a partner, and is a driver. The trajectory reflects a light, flexible schedule typical of retirement. The \"work\" activity is replaced by part-time volunteering or light duties (a common post-retirement activity). The short commute aligns with being a local driver. The day includes morning exercise for health, an afternoon social visit consistent with maintaining social ties in retirement, and a dinner out with a partner, fitting the relationship status. No education, medical, or dropoff/pickup activities are included as they are not indicated by the profile.\n\n0:00-6:45 home, 6:45-7:30 exercise, 7:30-8:15 home, 8:15-12:00 work, 12:00-13:15 dine_out, 13:15-15:00 socialize, 15:00-16:30 shopping, 16:30-18:00 home, 18:00-19:30 service, 19:30-24:00 home",
+    "generation_time": "2025-10-21T12:18:13.517320"
+  },
+  {
+    "user_id": "30002945_1",
+    "user_info": {
+      "user_id": "30002945_1",
+      "age_range": "Appropriate skip",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Self",
+      "gender": "Female",
+      "race": "White",
+      "education": "Some college or associates degree",
+      "employment_status": "Yes",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": 12.13,
+      "work_state": "California",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "No",
+      "work_schedule": "Full-time",
+      "occupation": "Clerical or administrative support",
+      "primary_activity": "Working"
+    },
+    "reasoning": "As a full-time clerical worker in California with a 12-mile commute, this trajectory reflects a typical workday pattern. The day centers around standard 8-hour work hours with commute windows bookending the workday. The shopping stop after work is realistic for errand-running, and the evening is spent at home, consistent with someone who traveled domestically but not abroad.",
+    "trajectory": "0:00-6:42 home, 6:42-7:15 home, 7:15-7:48 home, 7:48-8:22 work, 8:22-12:17 work, 12:17-12:51 dine_out, 12:51-17:05 work, 17:05-17:38 work, 17:38-18:25 shopping, 18:25-19:10 home, 19:10-24:00 home",
+    "raw_result": "As a full-time clerical worker in California with a 12-mile commute, this trajectory reflects a typical workday pattern. The day centers around standard 8-hour work hours with commute windows bookending the workday. The shopping stop after work is realistic for errand-running, and the evening is spent at home, consistent with someone who traveled domestically but not abroad.\n\n0:00-6:42 home, 6:42-7:15 home, 7:15-7:48 home, 7:48-8:22 work, 8:22-12:17 work, 12:17-12:51 dine_out, 12:51-17:05 work, 17:05-17:38 work, 17:38-18:25 shopping, 18:25-19:10 home, 19:10-24:00 home",
+    "generation_time": "2025-10-21T12:18:23.767390"
+  }
+]

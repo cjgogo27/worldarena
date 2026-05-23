@@ -1,0 +1,11 @@
+{
+  "country": "Norway",
+  "country_code": "no",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single dashed white centerline, indicating two-way traffic with no overtaking zone ahead, common in rural Norwegian roads.",
+    "Vegetation includes birch and coniferous trees typical of boreal forest zones found across northern Norway.",
+    "A Norwegian flag is visible on a pole near the red building on the left, directly confirming national identity."
+  ],
+  "raw_output": "{\n  \"country\": \"Norway\",\n  \"country_code\": \"no\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single dashed white centerline, indicating two-way traffic with no overtaking zone ahead, common in rural Norwegian roads.\",\n    \"Vegetation includes birch and coniferous trees typical of boreal forest zones found across northern Norway.\",\n    \"A Norwegian flag is visible on a pole near the red building on the left, directly confirming national identity.\",\n    \"The landscape features rolling hills, open grasslands, and scattered farm"
+}

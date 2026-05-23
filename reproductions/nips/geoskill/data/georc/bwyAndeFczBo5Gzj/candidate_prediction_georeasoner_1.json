@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with no passing, consistent with US rural road standards.",
+    "Absence of overhead power lines and presence of wooden utility poles on the right side aligns with typical US rural infrastructure.",
+    "Vegetation includes deciduous trees with bare branches and scattered evergreens, suggesting temperate climate zone common in eastern or midwestern US."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with no passing, consistent with US rural road standards.\",\n    \"Absence of overhead power lines and presence of wooden utility poles on the right side aligns with typical US rural infrastructure.\",\n    \"Vegetation includes deciduous trees with bare branches and scattered evergreens, suggesting temperate climate zone common in eastern or midwestern US.\",\n    \"Road surface is paved asphalt with no visible signage or markings indicating"
+}

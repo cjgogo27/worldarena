@@ -1,0 +1,34 @@
+{
+  "game_id": "5bPlIRT7eGN79a2E",
+  "round": 1,
+  "sample_id": "georc::5bPlIRT7eGN79a2E::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ph",
+    "predicted_region": "asia",
+    "predicted_address": "Poblacion West, Calape, Bohol, Philippines",
+    "predicted_lat": 9.88,
+    "predicted_lng": 123.88,
+    "reasoning_text": "```json\n{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Calape\",\n  \"province_or_state\": \"Bohol\",\n  \"address\": \"Poblacion West, Calape, Bohol, Philippines\",\n  \"confidence\": 0.7,\n  \"reasoning\": \"The image shows a small town intersection with tropical vegetation, wooden and concrete houses with corrugated metal roofs, and utility poles with multiple overhead wires - typical of Philippine rural towns. The architectural style, road condition, and vegetation match Bohol province characteristics. The pedestrian crossing and road layout suggest a municipal center. The blue sky with scattered cumulus clouds indicates a tropical maritime climate consistent with the Philippines. The shortlist confirms Philippines as the most likely country. Based on visual similarity to known Street View locations in Bohol, this appears to be in Calape municipality, which is a coastal town in Bohol with similar street layouts and building styles.\",\n  \"evidence\": [\"Tropical vegetation with palm trees\", \"Wooden stilt houses with corrugated metal roofs\", \"Multiple overhead utility wires on concrete poles\", \"Pedestrian zebra crossing on concrete road\", \"Bright blue sky with tropical cumulus clouds\", \"Small-town commercial-residential mix with sari-sari store style buildings\", \"Green hills in background typical of Bohol terrain\"]\n}\n```",
+    "evidence_spans": [
+      "Tropical vegetation with palm trees",
+      "Wooden stilt houses with corrugated metal roofs",
+      "Multiple overhead utility wires on concrete poles",
+      "Pedestrian zebra crossing on concrete road",
+      "Bright blue sky with tropical cumulus clouds",
+      "Small-town commercial-residential mix with sari-sari store style buildings",
+      "Green hills in background typical of Bohol terrain"
+    ],
+    "confidence": 0.7,
+    "country_top3": [
+      "ph",
+      "id",
+      "my"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"ph\",\"id\",\"my\"],\"reason\":\"The image shows right-hand traffic, tropical vegetation, wooden stilt houses with corrugated metal roofs, dense overhead power lines on concrete poles, and a pedestrian crossing with wide white stripes—all highly characteristic of the Philippines. The architectural style of mixed residential-commercial buildings with open ground floors, the road condition, and the general rural-urban fringe setting are very typical of Philippine provincial towns. Indonesia and Malaysia share some tropical similarities but the specific house construction, power infrastructure, and road markings align most closely with the Philippines.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8650000000000001
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Russia",
+  "country_code": "ru",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single dashed white centerline, consistent with Russian two-lane rural roads where traffic drives on the right.",
+    "Utility poles and overhead wires are typical of Russian infrastructure in semi-urban or suburban areas.",
+    "The architecture—wooden house with metal siding and corrugated metal fences—is common in Russian provincial towns and villages."
+  ],
+  "raw_output": "{\n  \"country\": \"Russia\",\n  \"country_code\": \"ru\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single dashed white centerline, consistent with Russian two-lane rural roads where traffic drives on the right.\",\n    \"Utility poles and overhead wires are typical of Russian infrastructure in semi-urban or suburban areas.\",\n    \"The architecture—wooden house with metal siding and corrugated metal fences—is common in Russian provincial towns and villages.\",\n    \"Vegetation includes birch and coniferous trees, which are native to the"
+}

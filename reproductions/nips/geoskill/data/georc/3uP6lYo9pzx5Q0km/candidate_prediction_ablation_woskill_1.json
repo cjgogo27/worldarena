@@ -1,0 +1,25 @@
+{
+  "game_id": "3uP6lYo9pzx5Q0km",
+  "round": 1,
+  "sample_id": "georc::3uP6lYo9pzx5Q0km::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "no",
+    "predicted_region": "europe",
+    "predicted_address": "Road along the Driva river near Oppdal, Trøndelag, Norway",
+    "predicted_lat": 62.57361111,
+    "predicted_lng": 9.60888889,
+    "reasoning_text": "{\n  \"country\": \"Norway\",\n  \"country_code\": \"no\",\n  \"region\": \"Northern Europe\",\n  \"city\": \"Oppdal\",\n  \"province_or_state\": \"Trøndelag\",\n  \"address\": \"Road along the Driva river near Oppdal, Trøndelag, Norway\",\n  \"confidence\": 0.68,\n  \"reasoning\": \"The road has a yellow center line with white edge lines, which is a strong indicator of Norway because Norwegian roads commonly use yellow for opposing traffic separation, unlike most of continental Europe. Vehicles would drive on the right. The landscape shows a cold-climate mountainous valley with a fast-flowing river directly beside the road, plus mixed birch and conifer forest, which fits inland Norwegian terrain well. The road is relatively narrow and rural, consistent with secondary or regional roads in Norwegian valleys. Among likely Norwegian regions, the combination of river, mountain slopes, and boreal forest looks especially similar to central inland valleys such as those around Oppdal and the Driva corridor. I therefore estimate this is in Norway, approximately near Oppdal in Trøndelag.\",\n  \"evidence\": [\n    \"Yellow center line and white edge lines consistent with Norwegian road markings\",\n    \"Right-hand driving road layout\",\n    \"Mountainous valley with a large river running immediately beside the road\",\n    \"Boreal vegetation including birch and conifer trees\",\n    \"Sparse, remote rural setting typical of inland Norway\",\n    \"Guardrail placement and road engineering consistent with Scandinavian mountain roads\"\n  ]\n}",
+    "evidence_spans": [
+      "Yellow center line and white edge lines consistent with Norwegian road markings",
+      "Right-hand driving road layout",
+      "Mountainous valley with a large river running immediately beside the road",
+      "Boreal vegetation including birch and conifer trees",
+      "Sparse, remote rural setting typical of inland Norway",
+      "Guardrail placement and road engineering consistent with Scandinavian mountain roads"
+    ],
+    "confidence": 0.68
+  },
+  "error": null
+}

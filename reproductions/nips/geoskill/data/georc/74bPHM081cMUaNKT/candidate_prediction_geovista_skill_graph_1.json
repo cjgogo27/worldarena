@@ -1,0 +1,958 @@
+{
+  "game_id": "74bPHM081cMUaNKT",
+  "round": 1,
+  "sample_id": "georc::74bPHM081cMUaNKT::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "vn",
+    "predicted_region": "asia",
+    "predicted_address": "Rural roadside area in Vietnam",
+    "predicted_lat": 10.77555556,
+    "predicted_lng": 106.70194444,
+    "reasoning_text": "{\n  \"country\": \"Vietnam\",\n  \"country_code\": \"vn\",\n  \"region\": \"Asia\",\n  \"city\": \"\",\n  \"province_or_state\": \"\",\n  \"address\": \"Rural roadside area in Vietnam\",\n  \"confidence\": 0.23,\n  \"reasoning\": \"Applying the skill graph strictly in order: Skill 1 first suggests a dry desert-like roadside with sparse bushes and grass tufts. From Skill 1, linked cue composition leads to Skill 2, which interprets the narrow paved asphalt road as consistent with Indonesian-style local roads. Skill 2 then strongly supports several Asia-focused linked skills through region_support edges: Skill 4 points to rural Vietnam, Skills 6 to 9 support a broader Southeast Asian developing-rural-road interpretation, Skill 10 suggests Bangladesh, and Skill 11 provides the most specific downstream cue by identifying a shop sign as Vietnamese. Among the linked conclusions, Skill 11 is the most location-specific and reinforces Skill 4, so the final consistent graph-based guess is Vietnam. Because several graph skills conflict with one another, confidence is limited.\",\n  \"evidence\": [\n    \"narrow paved road with minimal markings\",\n    \"sparse roadside vegetation\",\n    \"rural or service-road layout\",\n    \"graph-linked support toward Southeast Asia\",\n    \"most specific downstream skill indicates Vietnamese signage\"\n  ]\n}",
+    "evidence_spans": [
+      "narrow paved road with minimal markings",
+      "sparse roadside vegetation",
+      "rural or service-road layout",
+      "graph-linked support toward Southeast Asia",
+      "most specific downstream skill indicates Vietnamese signage"
+    ],
+    "confidence": 0.23,
+    "base_prediction_summary": {
+      "predicted_country": "qa",
+      "predicted_region": "asia",
+      "confidence": 0.58
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.8874008655548096,
+        "bm25_score": 36.38882827758789,
+        "semantic_score": 0.5095134973526001
+      },
+      {
+        "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.8792734146118164,
+        "bm25_score": 32.46430587768555,
+        "semantic_score": 0.5511537790298462
+      },
+      {
+        "skill_text": "The road is unpaved and quite dusty, suggesting rural and agricultural land far from a major urban center.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 2,
+        "score": 0.871295690536499,
+        "bm25_score": 37.84120559692383,
+        "semantic_score": 0.47338858246803284
+      },
+      {
+        "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.8598216772079468,
+        "bm25_score": 32.46560287475586,
+        "semantic_score": 0.5300551652908325
+      },
+      {
+        "skill_text": "The road is narrow, and the asphalt has a patchwork of repairs, common in rural areas of former Eastern Bloc countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 3,
+        "score": 0.858049750328064,
+        "bm25_score": 30.440921783447266,
+        "semantic_score": 0.554161548614502
+      },
+      {
+        "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "driving",
+          "road",
+          "terrain"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.846837043762207,
+        "bm25_score": 32.86465072631836,
+        "semantic_score": 0.5108526945114136
+      },
+      {
+        "skill_text": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "soil"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 3,
+        "score": 0.8456622362136841,
+        "bm25_score": 29.14336395263672,
+        "semantic_score": 0.5574157238006592
+      },
+      {
+        "skill_text": "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "soil"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 1,
+        "score": 0.8449349403381348,
+        "bm25_score": 30.342411041259766,
+        "semantic_score": 0.5412139892578125
+      },
+      {
+        "skill_text": "The road is unpaved and made of compacted dirt, suggesting a rural agricultural area in a developing country.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 5,
+        "score": 0.8388956189155579,
+        "bm25_score": 31.594552993774414,
+        "semantic_score": 0.5185725092887878
+      },
+      {
+        "skill_text": "The narrow paved road without lane markings hints at a country with developing infrastructure, often found outside major cities in Bangladesh.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 1,
+        "score": 0.8329798579216003,
+        "bm25_score": 33.045528411865234,
+        "semantic_score": 0.4935089945793152
+      },
+      {
+        "skill_text": "The shop sign on the right side of the road is in Vietnamese",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 4,
+        "score": 0.8290637731552124,
+        "bm25_score": 39.92789840698242,
+        "semantic_score": 0.40079328417778015
+      },
+      {
+        "skill_text": "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 5,
+        "score": 0.8267717361450195,
+        "bm25_score": 33.29200744628906,
+        "semantic_score": 0.4836120903491974
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.8874008655548096,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8792734146118164,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The road is unpaved and quite dusty, suggesting rural and agricultural land far from a major urban center.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.871295690536499,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8598216772079468,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road is narrow, and the asphalt has a patchwork of repairs, common in rural areas of former Eastern Bloc countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.858049750328064,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.846837043762207,
+          "visual_cues": [
+            "driving",
+            "road",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8456622362136841,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8449349403381348,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The road is unpaved and made of compacted dirt, suggesting a rural agricultural area in a developing country.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8388956189155579,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The narrow paved road without lane markings hints at a country with developing infrastructure, often found outside major cities in Bangladesh.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8329798579216003,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The shop sign on the right side of the road is in Vietnamese",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8290637731552124,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8267717361450195,
+          "visual_cues": [
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+        "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "The road is unpaved and quite dusty, suggesting rural and agricultural land far from a major urban center.",
+        "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "The road is narrow, and the asphalt has a patchwork of repairs, common in rural areas of former Eastern Bloc countries.",
+        "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+        "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+        "The road is unpaved and made of compacted dirt, suggesting a rural agricultural area in a developing country.",
+        "The narrow paved road without lane markings hints at a country with developing infrastructure, often found outside major cities in Bangladesh.",
+        "The shop sign on the right side of the road is in Vietnamese",
+        "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages."
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Qatar\",\n  \"country_code\": \"qa\",\n  \"region\": \"Middle East\",\n  \"city\": \"Al Khor\",\n  \"province_or_state\": \"Al Khor Municipality\",\n  \"address\": \"Industrial/agricultural service road on the outskirts of Al Khor, Qatar\",\n  \"confidence\": 0.58,\n  \"reasoning\": \"The scene strongly indicates a ",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "vn"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

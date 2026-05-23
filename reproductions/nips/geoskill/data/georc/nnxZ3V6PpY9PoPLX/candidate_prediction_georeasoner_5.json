@@ -1,0 +1,10 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of scattered snow patches under bright sun suggests a high-altitude or northern latitude location, consistent with mountainous regions in the western US.",
+    "Vegetation includes juniper and pine trees typical of arid to semi-arid environments found in states like Colorado, Utah, or Arizona."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of scattered snow patches under bright sun suggests a high-altitude or northern latitude location, consistent with mountainous regions in the western US.\",\n    \"Vegetation includes juniper and pine trees typical of arid to semi-arid environments found in states like Colorado, Utah, or Arizona.\",\n    \"No road markings, signs, or vehicles are visible, but the terrain and tree species strongly align with US National Forests or BLM lands"
+}

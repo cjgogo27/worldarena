@@ -1,0 +1,156 @@
+[
+  {
+    "user_id": "30298497_2",
+    "schedule": [
+      {
+        "activity": "dine_out",
+        "start_time": "18:30",
+        "end_time": "20:00",
+        "reason": "To engage in social activities and enjoy a meal with her partner after work, aligning with her value of work-life balance."
+      },
+      {
+        "activity": "home",
+        "start_time": "20:00",
+        "end_time": "22:00",
+        "reason": "To unwind and relax at home after dining out, maintaining a balance between social activities and personal time."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "17:30",
+        "end_time": "18:30",
+        "reason": "To prioritize health and fitness after a full day of work, aligning with her routine and values."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "22:00",
+        "reason": "To unwind and relax at home after exercising, maintaining a balance between personal fitness and leisure time."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:30",
+        "end_time": "20:00",
+        "reason": "To engage in social activities with her partner, enjoying a meal together after a day of work and exercise."
+      },
+      {
+        "activity": "home",
+        "start_time": "20:00",
+        "end_time": "22:00",
+        "reason": "To unwind and relax at home after dining out, maintaining a balance between social activities and personal time."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:30",
+        "end_time": "20:00",
+        "reason": "To engage in social activities with her partner, enjoying a meal together after a day of work and exercise."
+      },
+      {
+        "activity": "home",
+        "start_time": "20:00",
+        "end_time": "22:00",
+        "reason": "To unwind and relax at home after dining out, maintaining a balance between social activities and personal time."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "17:30",
+        "end_time": "18:30",
+        "reason": "To prioritize health and fitness after a day of work, managing stress and maintaining a balanced lifestyle."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "22:00",
+        "reason": "To unwind and relax at home after exercising, maintaining a balance between physical activity and personal time."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:30",
+        "end_time": "20:00",
+        "reason": "To engage in social activities with her partner after a day of work, maintaining a balance between personal time and social interaction."
+      },
+      {
+        "activity": "home",
+        "start_time": "20:00",
+        "end_time": "22:00",
+        "reason": "To unwind and relax at home after dining out, maintaining a balance between social interaction and personal time."
+      }
+    ]
+  },
+  {
+    "user_id": "30298497_1",
+    "schedule": [
+      {
+        "activity": "exercise",
+        "start_time": "18:00",
+        "end_time": "19:00",
+        "reason": "Given the preference for outdoor activities and moderate physical activity, exercising outdoors after work aligns with the user's routine and attitudes."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "22:00",
+        "reason": "After exercising, the user can return home to relax and prepare for the next day, aligning with their routine and the need for limited leisure time."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "18:00",
+        "end_time": "19:30",
+        "reason": "After exercising, the user can engage in socializing with close friends or family, which aligns with their cultural background and preference for community-based activities."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:30",
+        "end_time": "22:00",
+        "reason": "After socializing, returning home allows for relaxation and preparation for the next day, aligning with the user's routine and the need for limited leisure time."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "18:00",
+        "end_time": "19:30",
+        "reason": "After exercising, the user can go shopping for budget-friendly items, aligning with their budget-conscious attitude and flexible time-use style."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:30",
+        "end_time": "22:00",
+        "reason": "After shopping, returning home allows for relaxation and preparation for the next day, aligning with the user's routine and the need for limited leisure time."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "18:00",
+        "end_time": "19:30",
+        "reason": "Engaging in social activities with close friends or family aligns with the user's cultural background and provides a supportive environment while managing limited leisure time."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:30",
+        "end_time": "22:00",
+        "reason": "After socializing, returning home allows for relaxation and preparation for the next day, aligning with the user's routine and the need for limited leisure time."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "18:00",
+        "end_time": "19:30",
+        "reason": "Engaging in budget-conscious shopping aligns with the user's financial situation while providing an opportunity for outdoor activity and community engagement."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:30",
+        "end_time": "22:00",
+        "reason": "Returning home after shopping allows for relaxation and preparation for the next day, aligning with the user's routine and the need for limited leisure time."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "18:00",
+        "end_time": "19:30",
+        "reason": "Engaging with close friends or family aligns with the user's cultural background and provides social interaction, which can be fulfilling during the job search period."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:30",
+        "end_time": "22:00",
+        "reason": "Returning home after socializing allows for relaxation and preparation for the next day, aligning with the user's routine and the need for limited leisure time."
+      }
+    ]
+  }
+]

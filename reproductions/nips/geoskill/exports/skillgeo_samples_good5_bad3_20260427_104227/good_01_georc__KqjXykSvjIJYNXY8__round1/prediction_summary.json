@@ -1,0 +1,9 @@
+{
+  "predicted_country": "ug",
+  "predicted_region": "africa",
+  "predicted_lat": 0.31361111,
+  "predicted_lng": 32.58111111,
+  "confidence": 0.72,
+  "error": null,
+  "distance_km": 3.718
+}

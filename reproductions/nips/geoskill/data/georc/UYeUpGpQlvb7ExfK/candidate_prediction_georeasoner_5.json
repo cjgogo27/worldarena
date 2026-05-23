@@ -1,0 +1,10 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt road with a single dashed white centerline, consistent with rural Japanese roads where lane markings are minimal.",
+    "Vegetation is dense, lush, and temperate—broadleaf trees and large-leafed undergrowth typical of Japan’s humid subtropical or temperate zones."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt road with a single dashed white centerline, consistent with rural Japanese roads where lane markings are minimal.\",\n    \"Vegetation is dense, lush, and temperate—broadleaf trees and large-leafed undergrowth typical of Japan’s humid subtropical or temperate zones.\",\n    \"No visible signage, utility poles, or vehicles; absence of English or other non-Japanese text supports a remote Japanese location"
+}

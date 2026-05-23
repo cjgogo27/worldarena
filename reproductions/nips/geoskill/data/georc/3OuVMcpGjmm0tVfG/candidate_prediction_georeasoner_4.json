@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The car is driving on the right side of the road, consistent with Brazil’s traffic rules.",
+    "The double yellow line in the center of the road is standard in Brazil for two-way traffic separation.",
+    "The vegetation—dry grass, scattered trees, and lack of dense forest—suggests a semi-arid or savanna climate typical of northeastern Brazil."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The car is driving on the right side of the road, consistent with Brazil’s traffic rules.\",\n    \"The double yellow line in the center of the road is standard in Brazil for two-way traffic separation.\",\n    \"The vegetation—dry grass, scattered trees, and lack of dense forest—suggests a semi-arid or savanna climate typical of northeastern Brazil.\",\n    \"The simple white-washed buildings and unpaved dirt roads alongside the paved road"
+}

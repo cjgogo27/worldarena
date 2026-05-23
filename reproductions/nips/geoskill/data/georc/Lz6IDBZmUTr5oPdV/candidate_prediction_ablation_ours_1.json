@@ -1,0 +1,462 @@
+{
+  "game_id": "Lz6IDBZmUTr5oPdV",
+  "round": 1,
+  "sample_id": "georc::Lz6IDBZmUTr5oPdV::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "us",
+    "predicted_region": "north_america",
+    "predicted_lat": 40.7128,
+    "predicted_lng": -74.006,
+    "reasoning_text": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"lat\": 40.7128,\n  \"lng\": -74.0060,\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image displays a narrow, paved road with cracked asphalt and no markings, flanked by dense deciduous forest showing early autumn colors (yellows and browns). This combination of vegetation (oaks/maples), climate (temperate with distinct seasons), and road infrastructure (unmarked, weathered asphalt) is highly characteristic of rural or suburban areas in the Northeastern or Midwestern United States. The absence of utility poles and signage suggests a secluded access road or a path within a park or nature preserve. While similar scenes exist in Europe (e.g., Germany, Poland), the specific texture of the vegetation and the style of the road surface align more closely with US forest service roads or local parkways. The lack of specific signage makes precise pinpointing impossible, but the general region is consistent with the Eastern US.\",\n  \"evidence\": [\n    \"Narrow, unmarked asphalt road with visible cracking\",\n    \"Dense deciduous forest with autumn foliage (yellow/brown leaves)\",\n    \"Absence of utility poles, signs, or buildings\",\n    \"Grassy verges and dense undergrowth typical of temperate zones\",\n    \"Bright lighting with strong shadows indicating clear weather\"\n  ]\n}",
+    "evidence_spans": [
+      "Narrow, unmarked asphalt road with visible cracking",
+      "Dense deciduous forest with autumn foliage (yellow/brown leaves)",
+      "Absence of utility poles, signs, or buildings",
+      "Grassy verges and dense undergrowth typical of temperate zones",
+      "Bright lighting with strong shadows indicating clear weather"
+    ],
+    "confidence": 0.75,
+    "geovista_observation": {
+      "observations": [
+        "The image depicts a narrow, paved road stretching straight through a dense forest.",
+        "The road surface is asphalt, showing signs of aging with visible cracks and weathering.",
+        "The vegetation consists of deciduous trees with leaves turning yellow and brown, indicating early autumn.",
+        "The lighting is bright with strong shadows, suggesting a clear day.",
+        "There are no visible road markings (center lines or edge lines) on the pavement.",
+        "The road is flanked by grassy verges and dense undergrowth.",
+        "There are no signs, utility poles, or buildings visible in the frame.",
+        "The perspective is centered on the road, typical of a street view capture.",
+        "The trees appear to be a mix of oaks and maples, common in temperate zones."
+      ],
+      "hard_clues": [
+        "Narrow, single-lane or narrow two-lane paved road.",
+        "Dense deciduous forest with autumn foliage.",
+        "Cracked asphalt surface.",
+        "Absence of road markings.",
+        "Absence of man-made infrastructure (signs, poles)."
+      ],
+      "ambiguous_clues": [
+        "The specific species of trees are not distinct enough to pinpoint a single country.",
+        "The road width is ambiguous; it could be a private drive, a park road, or a minor rural road.",
+        "The exact season is inferred from foliage but could vary by latitude.",
+        "The direction of the sun is not explicitly clear without cardinal orientation."
+      ],
+      "possible_scripts": [
+        "The road is likely located in a temperate climate zone in the Northern Hemisphere (e.g., Europe, North America, East Asia).",
+        "It could be a recreational path in a national park or nature reserve.",
+        "It might be a minor access road in a rural area.",
+        "The lack of markings suggests low traffic volume."
+      ],
+      "driving_side": "unknown"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "United States",
+        "Canada",
+        "Germany",
+        "Poland",
+        "France"
+      ],
+      "zoom_boxes": [
+        [
+          250,
+          450,
+          550,
+          950
+        ],
+        [
+          50,
+          100,
+          200,
+          400
+        ]
+      ],
+      "verification_queries": [
+        "Search for narrow paved forest roads with no markings in temperate deciduous forests",
+        "Look for autumn foliage patterns in North American and European rural roads",
+        "Check for cracked asphalt surfaces on minor forest access roads",
+        "Verify absence of utility poles and signage on secluded forest paths"
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "us",
+      "predicted_region": "north_america",
+      "predicted_lat": 40.7128,
+      "predicted_lng": -74.006,
+      "confidence": 0.75
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "us",
+      "predicted_region": "north_america",
+      "predicted_lat": 40.7128,
+      "predicted_lng": -74.006,
+      "confidence": 0.75
+    },
+    "base_prediction_summary": {
+      "predicted_country": "us",
+      "predicted_region": "north_america",
+      "predicted_lat": 40.7128,
+      "predicted_lng": -74.006,
+      "confidence": 0.75
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.75,
+    "skill_boost_boost_confidence": 0.75,
+    "skill_boost_aggressive_confidence": 0.75,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road is relatively narrow, with worn asphalt and no visible lane markings, which is characteristic of rural or secondary roads in developing countries.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.8549176216125489,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road and roadside infrastructure, including the weathered asphalt and power poles, match rural areas in the US.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.841113942861557,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The pavement quality and road markings are consistent with rural Canada or the US Midwest.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7330647319555283,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6798751562833787,
+          "visual_cues": [
+            "asphalt",
+            "paved",
+            "street",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "Road surface is asphalt with no lane markings, indicating a low-traffic residential area.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6673356473445893,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6493791937828064,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6390684455633164,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The tree species visible—including healthy coniferous trees and deciduous species—are indicative of a temperate continental climate, matching the Canadian Prairies.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6249605566263199,
+          "visual_cues": [
+            "climate",
+            "trees"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road is relatively narrow, with worn asphalt and no visible lane markings, which is characteristic of rural or secondary roads in developing countries.",
+        "The road and roadside infrastructure, including the weathered asphalt and power poles, match rural areas in the US.",
+        "The pavement quality and road markings are consistent with rural Canada or the US Midwest.",
+        "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+        "Road surface is asphalt with no lane markings, indicating a low-traffic residential area.",
+        "There are no road signs or visible language on this segment, but the infrastructure and environment align with northern Mexico, specifically Chihuahua or Sonora, as well as southern New Mexico, Arizona, and Texas in the US.",
+        "Given the road style and the type of desert vegetation, with small bushes and grass tufts, this matches the Chihuahuan Desert region.",
+        "The tree species visible—including healthy coniferous trees and deciduous species—are indicative of a temperate continental climate, matching the Canadian Prairies."
+      ],
+      "summary": "nodes=8, edges=28, base_region=north_america, top_skill_region=north_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 8,
+        "graph_nodes": 8,
+        "graph_edges": 28,
+        "graph_summary": "nodes=8, edges=28, base_region=north_america, top_skill_region=north_america"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

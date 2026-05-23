@@ -1,0 +1,52 @@
+[
+  {
+    "user_id": "30002756_2",
+    "user_info": {
+      "user_id": "30002756_2",
+      "age_range": "Appropriate skip",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Spouse/Unmarried partner",
+      "gender": "Male",
+      "race": "White",
+      "education": "Some college or associates degree",
+      "employment_status": "Appropriate skip",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": 2.0,
+      "work_state": "Not specified",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "Appropriate skip",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "primary_activity": "Retired"
+    },
+    "reasoning": "",
+    "trajectory": "",
+    "raw_result": "",
+    "generation_time": "2025-10-21T12:07:24.319450"
+  },
+  {
+    "user_id": "30002945_1",
+    "user_info": {
+      "user_id": "30002945_1",
+      "age_range": "Appropriate skip",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Self",
+      "gender": "Female",
+      "race": "White",
+      "education": "Some college or associates degree",
+      "employment_status": "Yes",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": 12.13,
+      "work_state": "California",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "No",
+      "work_schedule": "Full-time",
+      "occupation": "Clerical or administrative support",
+      "primary_activity": "Working"
+    },
+    "reasoning": "",
+    "trajectory": "",
+    "raw_result": "",
+    "generation_time": "2025-10-21T12:07:34.067430"
+  }
+]

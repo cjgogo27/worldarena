@@ -1,0 +1,804 @@
+{
+  "game_id": "SwSJB5DW8YXOSLn2",
+  "round": 1,
+  "sample_id": "georc::SwSJB5DW8YXOSLn2::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "gb",
+    "predicted_region": "europe",
+    "predicted_lat": 50.685,
+    "predicted_lng": -1.825,
+    "reasoning_text": "{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"region\": \"Northern Europe\",\n  \"lat\": 50.685,\n  \"lng\": -1.825,\n  \"confidence\": 0.88,\n  \"reasoning\": \"The visual evidence strongly points to a coastal heathland environment in the United Kingdom. The vegetation is dominated by dense gorse (Ulex) and heather, which are characteristic of the New Forest and Dorset coastlines. The gravel track surface is consistent with the 'firebreaks' or access tracks found in these protected areas. The lighting and sky suggest a temperate maritime climate. The specific combination of the gravel texture, the density of the gorse, and the rolling topography is highly indicative of the New Forest National Park in Hampshire, specifically the area near the coast (e.g., Lepe or Calshot).\",\n  \"evidence\": [\n    \"Dense gorse and heather scrub typical of UK coastal heathlands.\",\n    \"Unpaved gravel track consistent with firebreaks in the New Forest.\",\n    \"Temperate maritime climate indicators (clouds, lighting).\",\n    \"Lack of road markings or traffic infrastructure.\",\n    \"Scattered hardy trees on the ridge.\"\n  ]\n}",
+    "evidence_spans": [
+      "Dense gorse and heather scrub typical of UK coastal heathlands.",
+      "Unpaved gravel track consistent with firebreaks in the New Forest.",
+      "Temperate maritime climate indicators (clouds, lighting).",
+      "Lack of road markings or traffic infrastructure.",
+      "Scattered hardy trees on the ridge."
+    ],
+    "confidence": 0.88,
+    "geovista_observation": {
+      "observations": [
+        "The image depicts a narrow, unpaved gravel or dirt track ascending a gentle slope.",
+        "Vegetation consists of dense, low-lying scrub, gorse, and heather, typical of heathland or coastal dunes.",
+        "A few scattered, hardy trees (possibly pines or oaks) are visible on the left ridge.",
+        "The sky is bright with scattered clouds, suggesting a temperate maritime climate.",
+        "There are no road markings, signs, or traffic infrastructure visible.",
+        "The terrain is uneven and rural, likely a footpath, bridleway, or access track for maintenance vehicles.",
+        "The lighting suggests the sun is high, possibly midday or early afternoon.",
+        "The vegetation color palette (greens, browns, yellows) is consistent with late summer or early autumn in a temperate zone."
+      ],
+      "hard_clues": [
+        "Unpaved gravel surface indicates a non-public highway or minor access track.",
+        "Dense gorse/heather scrub is highly characteristic of Western European coastal heathlands (e.g., UK, Ireland, Brittany, Portugal).",
+        "Absence of any signage, license plates, or man-made structures prevents definitive country identification."
+      ],
+      "ambiguous_clues": [
+        "The specific species of scrub vegetation could belong to multiple regions with similar climates (e.g., UK vs. Portugal vs. New Zealand).",
+        "The lack of a vehicle or person makes it impossible to determine driving side or local customs.",
+        "The path could be a hiking trail, a firebreak, or a private farm track."
+      ],
+      "possible_scripts": [
+        "United Kingdom (e.g., New Forest, Dorset, or Cornwall coastal paths)",
+        "Portugal (e.g., Algarve or Alentejo coastal heathlands)",
+        "Ireland (e.g., Wicklow Mountains or coastal dunes)",
+        "France (e.g., Landes region or Brittany)"
+      ],
+      "driving_side": "unknown"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "United Kingdom",
+        "Ireland",
+        "France",
+        "Portugal",
+        "Spain"
+      ],
+      "zoom_boxes": [
+        [
+          0,
+          300,
+          400,
+          700
+        ],
+        [
+          600,
+          300,
+          1000,
+          700
+        ]
+      ],
+      "verification_queries": [
+        "Identify specific plant species in the scrub vegetation, particularly gorse and heather variants, to narrow down geographic region.",
+        "Check for subtle man-made features like fence posts, trail markers, or utility poles that may indicate country-specific infrastructure.",
+        "Analyze soil color and composition visible on the gravel track — reddish soils may suggest Iberian Peninsula, while grey/brown may indicate UK or Ireland.",
+        "Search for distant horizon features (coastline, hills, buildings) that could provide contextual geographic clues.",
+        "Cross-reference vegetation density and tree species (e.g., Scots pine vs. maritime pine) with known heathland distributions in Western Europe."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "gb",
+      "predicted_region": "europe",
+      "predicted_lat": 50.685,
+      "predicted_lng": -1.825,
+      "confidence": 0.88
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "gb",
+      "predicted_region": "europe",
+      "predicted_lat": 50.685,
+      "predicted_lng": -1.825,
+      "confidence": 0.88
+    },
+    "base_prediction_summary": {
+      "predicted_country": "gb",
+      "predicted_region": "europe",
+      "predicted_lat": 50.685,
+      "predicted_lng": -1.825,
+      "confidence": 0.88
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.88,
+    "skill_boost_boost_confidence": 0.88,
+    "skill_boost_aggressive_confidence": 0.88,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7402646839618683,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The vegetation consists of low Mediterranean scrub and bushes, indicating a warm, temperate climate, likely Southern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.6832677841186524,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The terrain includes rolling hills and mountainous features in the background, characteristic of central or northern Norway.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6792972803115844,
+          "visual_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The roadside vegetation includes ferns and dense undergrowth found in temperate or subtropical Australian forest regions.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.678504964709282,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "Vegetation consists of temperate deciduous trees, grasses, and the presence of mountains in the distance suggests a location in the Balkans or a similar region.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6623141169548035,
+          "visual_cues": [
+            "mountains",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The vegetation is dense, temperate, and deciduous, suggesting a region with significant rainfall and moderate temperatures, typical of Central or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6576797634363174,
+          "visual_cues": [
+            "sign",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6508873701095581,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "Vegetation consists of temperate broadleaf trees and grassy patches, fitting the steppe or temperate zone of Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6451506137847901,
+          "visual_cues": [
+            "road",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The vegetation type and gently rolling hills with sparse trees match the landscape often seen in northern and central Bulgaria.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6449781358242035,
+          "visual_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The overcast, cool weather and slightly yellowing foliage indicate a region with pronounced seasons, likely early autumn in a temperate zone.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.642057865858078,
+          "visual_cues": [
+            "cool",
+            "overcast",
+            "slightly",
+            "weather"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6354242205619812,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The terrain is undulating and hilly, with rocky outcrops, characteristic of parts of Galicia (Spain) or northern Portugal.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6201265782117844,
+          "visual_cues": [
+            "terrain"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+        "The vegetation consists of low Mediterranean scrub and bushes, indicating a warm, temperate climate, likely Southern Europe.",
+        "The terrain includes rolling hills and mountainous features in the background, characteristic of central or northern Norway.",
+        "The roadside vegetation includes ferns and dense undergrowth found in temperate or subtropical Australian forest regions.",
+        "Vegetation consists of temperate deciduous trees, grasses, and the presence of mountains in the distance suggests a location in the Balkans or a similar region.",
+        "The vegetation is dense, temperate, and deciduous, suggesting a region with significant rainfall and moderate temperatures, typical of Central or Eastern Europe.",
+        "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+        "Vegetation consists of temperate broadleaf trees and grassy patches, fitting the steppe or temperate zone of Eastern Europe.",
+        "The vegetation type and gently rolling hills with sparse trees match the landscape often seen in northern and central Bulgaria.",
+        "The overcast, cool weather and slightly yellowing foliage indicate a region with pronounced seasons, likely early autumn in a temperate zone.",
+        "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+        "The terrain is undulating and hilly, with rocky outcrops, characteristic of parts of Galicia (Spain) or northern Portugal."
+      ],
+      "summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

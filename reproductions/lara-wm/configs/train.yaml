@@ -1,0 +1,90 @@
+# LaRA-WM Training Configuration
+
+# === Experiment Settings ===
+experiment_name: "lara_wm_default"
+seed: 42
+device: "cuda"
+
+# === Data Settings ===
+data:
+  dataset_path: "/data/alice/cjtest/lara-wm/data/robotwin/dataset"
+  batch_size: 8
+  num_workers: 4
+  train_split: 0.9
+  shuffle: true
+  pin_memory: true
+  prefetch_factor: 2
+
+# === Model Architecture ===
+latent_encoder:
+  action_dim: 7
+  latent_dim: 32
+  feature_dim: 1536
+  hidden_dim: 256
+  num_layers: 2
+  dropout: 0.1
+  kl_weight: 1.0
+
+world_model:
+  latent_dim: 1536
+  action_dim: 1536
+  hidden_dim: 512
+  num_layers: 2
+  dropout: 0.1
+  architecture: "gru"
+  state_loss_weight: 1.0
+  reward_loss_weight: 1.0
+
+action_decoder:
+  latent_dim: 1536
+  action_dim: 7
+  hidden_dim: 512
+  num_layers: 2
+  dropout: 0.1
+
+backbone:
+  model_path: null  # Will auto-detect
+  device: "cuda"
+  dtype: "float16"
+  freeze: false
+
+# === Training Parameters ===
+training:
+  num_epochs: 100
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  gradient_clip_norm: 1.0
+  warmup_steps: 1000
+  scheduler: "cosine"
+  min_lr: 1.0e-6
+
+  # Loss weights
+  latent_encoder_weight: 1.0
+  world_model_state_weight: 1.0
+  world_model_reward_weight: 1.0
+  action_decoder_weight: 1.0
+
+# === Checkpointing ===
+checkpointing:
+  save_dir: "/data/alice/cjtest/lara-wm/experiments"
+  save_every_n_epochs: 10
+  save_best: true
+  metric_for_best: "total_loss"
+  monitor_min: true  # Lower is better for loss
+  keep_n_checkpoints: 3
+  save_optimizer: true
+
+# === Logging ===
+logging:
+  log_dir: "/data/alice/cjtest/lara-wm/logs"
+  log_every_n_steps: 10
+  tensorboard: true
+  wandb: false
+  wandb_project: "lara-wm"
+
+# === Validation ===
+validation:
+  enabled: true
+  val_every_n_epochs: 5
+  val_samples: 100
+  compute_metrics: true

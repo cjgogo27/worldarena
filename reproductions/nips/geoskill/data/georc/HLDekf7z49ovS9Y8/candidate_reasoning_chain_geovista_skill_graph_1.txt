@@ -1,0 +1,12 @@
+Unpaved straight road
+Minimal lane markings and limited transport infrastructure
+Wide sandy dirt surface and shoulder
+Utility poles and overhead wires along the roadside
+Sparse roadside development relative to a dense city center
+Fenced or walled roadside properties suggesting edge-of-settlement or agricultural transition
+Applying the ordered skill graph strictly: (1) the highest-priority skill states the image is most likely taken in Argentina near El Calafate, Santa Cruz Province, so this becomes the primary anchor.
+(2) The next skill supports an isolated-road interpretation with no strong habitation, vehicles, or road markings, reinforcing a rural Patagonian-style placement.
+Following linked skills from this anchor, (7) the unpaved straight road with minimal infrastructure is treated as typical of southern Argentina or Chile, and (9) the wide sandy shoulder is taken as matching rural Argentine road construction.
+Via the cue-composition link, (12) utility poles and fencing indicate developed rural infrastructure and agricultural land rather than a dense urban core.
+Lower-priority skills suggesting Ecuador, Colombia, or generic Andean settings are inconsistent with the top-priority Argentina chain, so the final guess remains anchored to El Calafate in Santa Cruz Province.
+Conclusion: likely location is El Calafate, Santa Cruz Province, Argentina

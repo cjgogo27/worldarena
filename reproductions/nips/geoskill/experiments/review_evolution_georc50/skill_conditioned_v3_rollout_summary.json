@@ -1,0 +1,16 @@
+[
+  {
+    "stage": "round_0_initial",
+    "country_accuracy": 0.0,
+    "continent_accuracy": 0.0,
+    "valid_coordinate_rate": 0.0,
+    "Acc@25km": 0.0,
+    "Acc@200km": 0.0,
+    "Acc@750km": 0.0,
+    "num_errors": 50,
+    "generated_skill_count_so_far": null,
+    "fused_skill_count_so_far": null,
+    "recovered_failures_so_far": null,
+    "remaining_failed_cases": null
+  }
+]

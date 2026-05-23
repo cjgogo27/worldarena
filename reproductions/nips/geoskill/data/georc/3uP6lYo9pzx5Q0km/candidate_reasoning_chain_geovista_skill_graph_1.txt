@@ -1,0 +1,18 @@
+Yellow center line with white edge lines, characteristic of Norway
+Right-hand traffic road layout
+Narrow, well-maintained rural paved road with Scandinavian-style edge treatment
+Metal guardrail directly between road and a broad fast-flowing river
+Boreal vegetation with conifers and birch
+Steep-sided inland valley terrain consistent with northern Norway
+Sparse development and remote Arctic/sub-Arctic rural landscape
+Applying the ordered high-priority skills first: Skill 1 matches best because the road has a yellow center line and white edge lines, a strong Norwegian marking pattern.
+Skill 2 does not fit well because the scene lacks typical United States road context despite some yellow center-line similarity.
+Skill 3 is weaker here because the markings are not merely generic European; they are more specifically Nordic.
+Skill 4 does not fit because the boreal valley landscape and road engineering are not Kenyan or broadly African.
+Skill 5 is partially compatible with a narrow rural mountain road, supporting a northern rural European setting, but the yellow center line points more specifically to Norway.
+Skill 6 does not fit because this is not a New Zealand-style road scene.
+Then composing linked skills from Skill 1: Skill 7 strongly reinforces Norway, since a yellow center line with white outer lines is the key Nordic cue most associated with Norway; the cold valley landscape is consistent with northern Norway.
+Skill 11 is less relevant because the road is not very wide and does not resemble a Russian or post-Soviet highway.
+The remaining linked alternatives from Skill 1 and Skill 2 toward African, South American, or US interpretations are contradicted by the vegetation, terrain, and overall Scandinavian infrastructure.
+Combining the road markings, right-hand driving setup, conifer-birch boreal vegetation, broad fast river directly beside the guardrail, and steep inland valley terrain, the most consistent location is a rural road along the Målselva river in Målselv, Troms, Norway.
+Conclusion: likely location is Målselv, Troms, Norway

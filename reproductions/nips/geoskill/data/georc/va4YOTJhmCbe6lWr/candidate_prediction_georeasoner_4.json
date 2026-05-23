@@ -1,0 +1,11 @@
+{
+  "country": "Namibia",
+  "country_code": "na",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a single yellow dashed center line and white edge lines, consistent with right-hand traffic systems used in Namibia.",
+    "The arid, sparsely vegetated landscape with reddish soil and scattered shrubs is characteristic of Namibia’s semi-desert regions.",
+    "Utility poles are present along the left side of the road, indicating infrastructure typical of rural Namibian highways."
+  ],
+  "raw_output": "{\n  \"country\": \"Namibia\",\n  \"country_code\": \"na\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a single yellow dashed center line and white edge lines, consistent with right-hand traffic systems used in Namibia.\",\n    \"The arid, sparsely vegetated landscape with reddish soil and scattered shrubs is characteristic of Namibia’s semi-desert regions.\",\n    \"Utility poles are present along the left side of the road, indicating infrastructure typical of rural Namibian highways.\",\n    \"No signage or urban features are visible"
+}

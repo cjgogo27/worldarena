@@ -1,0 +1,35 @@
+{
+  "game_id": "AVKTblAzBqaYrcKe",
+  "round": 1,
+  "sample_id": "georc::AVKTblAzBqaYrcKe::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "us",
+    "predicted_region": "north_america",
+    "predicted_address": "College Highway, Southampton, Massachusetts, United States",
+    "predicted_lat": 40.88527778,
+    "predicted_lng": -72.39527778,
+    "reasoning_text": "```json\n{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"region\": \"North America\",\n  \"city\": \"Southampton\",\n  \"province_or_state\": \"Massachusetts\",\n  \"address\": \"College Highway, Southampton, Massachusetts, United States\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows a rural/suburban American road with distinctive New England architectural features. The gray clapboard houses with white trim, the style of the two-story colonial home with black shutters, and the yellow fire hydrant are typical of New England. The road has double yellow center lines and white edge lines, standard US road markings. The dense deciduous trees and lush green vegetation suggest a humid continental climate consistent with Massachusetts. The utility poles with multiple overhead wires are characteristic of American infrastructure. The overall setting matches the Pioneer Valley region of western Massachusetts, specifically the Southampton area along College Highway (Route 10), which has this distinctive rural residential character with older homes set back from the road.\",\n  \"evidence\": [\"Gray clapboard siding with white trim typical of New England\", \"Two-story colonial style house with black shutters\", \"Yellow fire hydrant (US standard)\", \"Double yellow center road lines with white edge lines\", \"Overhead utility wires on wooden poles\", \"Deciduous trees and lush green lawns indicating humid continental climate\", \"Rural residential setting with older homes\", \"Pickup truck parked in driveway (common in rural US)\"]\n}\n```",
+    "evidence_spans": [
+      "Gray clapboard siding with white trim typical of New England",
+      "Two-story colonial style house with black shutters",
+      "Yellow fire hydrant (US standard)",
+      "Double yellow center road lines with white edge lines",
+      "Overhead utility wires on wooden poles",
+      "Deciduous trees and lush green lawns indicating humid continental climate",
+      "Rural residential setting with older homes",
+      "Pickup truck parked in driveway (common in rural US)"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "us",
+      "ca",
+      "au"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"us\",\"ca\",\"au\"],\"reason\":\"Yellow fire hydrant, wooden utility poles with overhead power lines, center yellow double road lines, large detached wooden houses with porches and shutters, driving on the right, and suburban/rural road layout are all strongly characteristic of the United States. Canada shares some similarities but yellow fire hydrants and this specific housing style are more US-typical. Australia is a distant third due to some shared Anglo suburban traits, but right-hand driving and infrastructure details rule it out.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9475000000000001
+  },
+  "error": null
+}

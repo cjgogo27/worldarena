@@ -1,0 +1,144 @@
+[
+  {
+    "user_id": "30298497_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "08:00",
+        "reason": "Night sleep"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "10:00",
+        "reason": "Beginning the workday with focused tasks and meetings."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "10:00",
+        "end_time": "12:00",
+        "reason": "Time to engage in physical activity to stay healthy and energized after work."
+      },
+      {
+        "activity": "work",
+        "start_time": "12:00",
+        "end_time": "15:00",
+        "reason": "Continuing with professional responsibilities for the day."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:00",
+        "end_time": "16:30",
+        "reason": "Time to run errands and pick up some groceries."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "16:30",
+        "end_time": "18:00",
+        "reason": "Spending time with friends or family after shopping and exercise."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:30",
+        "end_time": "20:00",
+        "reason": "Enjoying dinner at a restaurant after a day of work and socializing."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "20:00",
+        "end_time": "21:30",
+        "reason": "Time for a workout to unwind after a busy day."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:00",
+        "reason": "Time to unwind at home after exercising, possibly enjoying a light snack or leisure activity before bed."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "30298497_1",
+    "schedule": [
+      {
+        "activity": "exercise",
+        "start_time": "00:00",
+        "end_time": "02:00",
+        "reason": "Engaging in physical activity to maintain health and fitness after a social event."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "02:00",
+        "end_time": "04:00",
+        "reason": "Time to run errands and pick up some necessary items."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "04:00",
+        "end_time": "06:00",
+        "reason": "Engaging in physical activity to maintain fitness after recent shopping and socializing."
+      },
+      {
+        "activity": "education",
+        "start_time": "08:00",
+        "end_time": "10:00",
+        "reason": "Attending a workshop to enhance skills relevant to the manufacturing field."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "10:00",
+        "end_time": "12:30",
+        "reason": "Time to run errands and pick up some essentials."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "reason": "Engaging in physical activity to maintain health and well-being."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "13:30",
+        "end_time": "15:30",
+        "reason": "Time to run errands and pick up necessary items after exercising."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "15:30",
+        "end_time": "17:30",
+        "reason": "Visiting a friend to catch up and spend time together."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "17:30",
+        "end_time": "19:30",
+        "reason": "Time for physical activity after socializing, promoting health and well-being."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "19:30",
+        "end_time": "21:30",
+        "reason": "Enjoying a meal at a restaurant to unwind after exercising."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:00",
+        "reason": "Time to unwind and relax at home after a busy day."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  }
+]

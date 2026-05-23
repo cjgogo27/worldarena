@@ -1,0 +1,784 @@
+{
+  "game_id": "G3aNW5xo5JUCnAhB",
+  "round": 1,
+  "sample_id": "georc::G3aNW5xo5JUCnAhB::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "jp",
+    "predicted_region": "asia",
+    "predicted_lat": 35.432,
+    "predicted_lng": 139.645,
+    "reasoning_text": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"Asia\",\n  \"lat\": 35.432,\n  \"lng\": 139.645,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The visual evidence strongly points to a rural location in Japan. The concrete drainage ditch (U-gutter) running along the left side of the path is a ubiquitous feature of Japanese rural infrastructure. The utility poles, with their specific cross-arm configuration and insulators, are characteristic of Japanese power distribution networks. The architecture includes a modern two-story house on the left and a traditional-style building on the right with a gabled roof and open front area, which is common in Japanese rural areas. The plowed agricultural field and the overall landscape are consistent with Japanese countryside. The absence of visible road markings or traffic signs is typical for narrow rural paths in Japan. The clear blue sky and scattered clouds suggest a temperate climate, which is consistent with Japan. The specific combination of these features allows for a high-confidence identification of the location as Japan.\",\n  \"evidence\": [\n    \"Concrete drainage ditch design typical of Japanese rural infrastructure\",\n    \"Utility pole style and configuration characteristic of Japanese power distribution\",\n    \"Traditional-style building with gabled roof and open front area\",\n    \"Plowed agricultural field layout\",\n    \"Two-story residential building with flat roof and beige siding\",\n    \"Grassy verge and vegetation consistent with Japanese countryside\",\n    \"Narrow paved path without visible road markings or traffic signs\"\n  ]\n}",
+    "evidence_spans": [
+      "Concrete drainage ditch design typical of Japanese rural infrastructure",
+      "Utility pole style and configuration characteristic of Japanese power distribution",
+      "Traditional-style building with gabled roof and open front area",
+      "Plowed agricultural field layout",
+      "Two-story residential building with flat roof and beige siding",
+      "Grassy verge and vegetation consistent with Japanese countryside",
+      "Narrow paved path without visible road markings or traffic signs"
+    ],
+    "confidence": 0.92,
+    "geovista_observation": {
+      "observations": [
+        "Concrete drainage ditch running along the left side of the path, typical of Japanese rural infrastructure.",
+        "Utility poles with cross-arms and insulators characteristic of Japanese power distribution.",
+        "Two-story residential building on the left with a flat roof and beige siding.",
+        "Traditional-style building on the right with a gabled roof and open front area.",
+        "Plowed agricultural field on the left side of the path.",
+        "Grassy verge on the right side of the path.",
+        "Clear blue sky with scattered clouds.",
+        "No visible traffic or pedestrians.",
+        "Power lines running parallel to the path.",
+        "Small white structure in the background on the right.",
+        "Trees and vegetation in the distance.",
+        "No visible road markings or traffic signs.",
+        "Path appears to be a narrow paved road or sidewalk.",
+        "No visible license plates or vehicle details.",
+        "No visible street names or addresses."
+      ],
+      "hard_clues": [
+        "Concrete drainage ditch design",
+        "Utility pole style and configuration",
+        "Architectural style of buildings",
+        "Agricultural field layout",
+        "Vegetation type and density"
+      ],
+      "ambiguous_clues": [
+        "Exact location of the path",
+        "Specific type of agricultural activity",
+        "Purpose of the traditional-style building",
+        "Time of year based on vegetation",
+        "Local climate specifics"
+      ],
+      "possible_scripts": [
+        "Japanese rural area",
+        "Suburban outskirts",
+        "Agricultural region",
+        "Residential zone with farming",
+        "Small town setting"
+      ],
+      "driving_side": "left"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Japan"
+      ],
+      "zoom_boxes": [
+        [
+          520,
+          100,
+          570,
+          550
+        ],
+        [
+          590,
+          390,
+          780,
+          520
+        ]
+      ],
+      "verification_queries": [
+        "Identify the specific style of the concrete drainage ditch and utility poles to confirm Japan.",
+        "Analyze the architectural features of the traditional-style building on the right.",
+        "Examine the layout of the agricultural field and surrounding vegetation."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "jp",
+      "predicted_region": "asia",
+      "predicted_lat": 35.432,
+      "predicted_lng": 139.645,
+      "confidence": 0.95
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "jp",
+      "predicted_region": "asia",
+      "predicted_lat": 35.432,
+      "predicted_lng": 139.645,
+      "confidence": 0.95
+    },
+    "base_prediction_summary": {
+      "predicted_country": "jp",
+      "predicted_region": "asia",
+      "predicted_lat": 35.432,
+      "predicted_lng": 139.645,
+      "confidence": 0.92
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.92,
+    "skill_boost_boost_confidence": 0.95,
+    "skill_boost_aggressive_confidence": 0.95,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The utility pole has a distinct Japanese design, with specific crossbars and cable arrangements seen commonly in the country.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8095537453889847,
+          "visual_cues": [
+            "pole",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The vegetation includes a mixture of broadleaf evergreens and pine, characteristic of the Japanese countryside and climate zones.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7633557498455048,
+          "visual_cues": [
+            "climate",
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "This location is in Japan due to the low cam, asian greenhouses, and east Asian electricity poles that are made out of concrete and have complicated pole tops and other wiring and insulator configurations",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7619485378265382,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7547395765781403,
+          "visual_cues": [
+            "architecture",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The abundance of overhead power lines and the specific ordering of smaller houses suggest a lower-population density rural village, which is common on Hokkaido.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7334719240665436,
+          "visual_cues": [
+            "abundance",
+            "lines",
+            "overhead",
+            "power"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The presence of long lines of utility poles points to infrastructure built for long distances in a sparsely inhabited region.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7188275516033173,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The utility poles are concrete and the wires are above ground, which is typical construction in several Asian countries, particularly India, Sri Lanka, Bangladesh, and Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6896313548088074,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "Vegetation along the path is dense and scrubby, with small trees and shrubs common in Indian and Southeast Asian rural landscapes.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6200304746627808,
+          "visual_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The mix of paved and dirt roads, small fields with boundary plants, and style of the electric wiring above all point to rural settings in India, rather than neighboring countries like Bangladesh or Nepal.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6053000330924988,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The landscape is dry and arid, with minimal vegetation and the climate feels like a desert; combined with the Google car with a whole tent on the roof and a snorkel, this has to be Mongolia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6050988763570786,
+          "visual_cues": [
+            "car",
+            "climate",
+            "roof",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "Architecture is low-rise and uses corrugated roofs, with a mix of concrete and wooden structures, matching rural Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.5902150183916093,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.4374435901641846,
+          "visual_cues": [
+            "roof"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "roof"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The utility pole has a distinct Japanese design, with specific crossbars and cable arrangements seen commonly in the country.",
+        "The vegetation includes a mixture of broadleaf evergreens and pine, characteristic of the Japanese countryside and climate zones.",
+        "This location is in Japan due to the low cam, asian greenhouses, and east Asian electricity poles that are made out of concrete and have complicated pole tops and other wiring and insulator configurations",
+        "The architecture of the shed and greenhouse-like structures is commonly found in Japanese rural areas, with the use of corrugated metal and minimalist design.",
+        "The abundance of overhead power lines and the specific ordering of smaller houses suggest a lower-population density rural village, which is common on Hokkaido.",
+        "The presence of long lines of utility poles points to infrastructure built for long distances in a sparsely inhabited region.",
+        "The utility poles are concrete and the wires are above ground, which is typical construction in several Asian countries, particularly India, Sri Lanka, Bangladesh, and Southeast Asia.",
+        "Vegetation along the path is dense and scrubby, with small trees and shrubs common in Indian and Southeast Asian rural landscapes.",
+        "The mix of paved and dirt roads, small fields with boundary plants, and style of the electric wiring above all point to rural settings in India, rather than neighboring countries like Bangladesh or Nepal.",
+        "The landscape is dry and arid, with minimal vegetation and the climate feels like a desert; combined with the Google car with a whole tent on the roof and a snorkel, this has to be Mongolia",
+        "Architecture is low-rise and uses corrugated roofs, with a mix of concrete and wooden structures, matching rural Indonesia.",
+        "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions."
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

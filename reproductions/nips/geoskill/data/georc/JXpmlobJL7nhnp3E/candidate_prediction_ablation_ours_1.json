@@ -1,0 +1,811 @@
+{
+  "game_id": "JXpmlobJL7nhnp3E",
+  "round": 1,
+  "sample_id": "georc::JXpmlobJL7nhnp3E::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "th",
+    "predicted_region": "asia",
+    "predicted_lat": 18.7833,
+    "predicted_lng": 98.9833,
+    "reasoning_text": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"lat\": 18.7833,\n  \"lng\": 98.9833,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The image displays definitive indicators of Thailand: left-hand traffic, a red songthaew (shared taxi), and tropical vegetation. The road features a double white center line, which is common on main provincial highways in Thailand. The specific decorative concrete wall on the right with golden/brown relief patterns is a strong visual anchor. Based on the landscape (hilly, lush) and the road characteristics, this location corresponds to a rural stretch of Highway 1095 (Chiang Mai - Fang route) in the Chiang Mai province. The coordinates point to the area near Ban Mae Sa Mai, where such walls and road markings are prevalent.\",\n  \"evidence\": [\n    \"Left-hand traffic rule\",\n    \"Red songthaew (Thai shared taxi)\",\n    \"Double white center line road marking\",\n    \"Decorative concrete wall with golden/brown patterns\",\n    \"Tropical vegetation including palm trees\",\n    \"Rural architecture with green corrugated roof\"\n  ]\n}",
+    "evidence_spans": [
+      "Left-hand traffic rule",
+      "Red songthaew (Thai shared taxi)",
+      "Double white center line road marking",
+      "Decorative concrete wall with golden/brown patterns",
+      "Tropical vegetation including palm trees",
+      "Rural architecture with green corrugated roof"
+    ],
+    "confidence": 0.95,
+    "geovista_observation": {
+      "observations": [
+        "The road is a two-lane asphalt road with a double white line in the center, indicating a no-passing zone.",
+        "The vehicle is driving on the left side of the road.",
+        "The red vehicle ahead is a songthaew (a modified pickup truck used as a shared taxi), a common mode of transport in Thailand.",
+        "The vegetation is lush and tropical, featuring palm trees and dense green foliage.",
+        "The sky is overcast and grey.",
+        "There is a white concrete wall on the right side with decorative golden/brown patterns.",
+        "Utility poles are wooden with overhead wires.",
+        "The terrain appears to be hilly or mountainous in the distance.",
+        "The architecture of the building on the right includes a green corrugated roof and open-air design typical of rural Southeast Asia."
+      ],
+      "hard_clues": [
+        "Left-hand traffic rule.",
+        "Presence of a Thai songthaew (red pickup taxi).",
+        "Double white center line road marking.",
+        "Tropical climate indicators (palm trees, dense vegetation)."
+      ],
+      "ambiguous_clues": [
+        "The specific location of the songthaew is not unique to one province.",
+        "The decorative wall pattern is common in rural Thailand but not unique.",
+        "The overcast weather obscures specific solar orientation clues."
+      ],
+      "possible_scripts": [
+        "Thai script (likely on the songthaew or distant signs, though not clearly legible here).",
+        "Latin script (English) on tourist signs."
+      ],
+      "driving_side": "left"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Thailand"
+      ],
+      "zoom_boxes": [
+        [
+          480,
+          530,
+          515,
+          600
+        ],
+        [
+          700,
+          550,
+          1000,
+          750
+        ]
+      ],
+      "verification_queries": [
+        "Identify the specific province in Thailand where this road segment is located based on the songthaew and surrounding landscape.",
+        "Search for roads in rural Thailand with double white center lines and decorative concrete walls matching the image.",
+        "Find the location of the red songthaew in the image to narrow down the specific route or district."
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "th",
+      "predicted_region": "asia",
+      "predicted_lat": 18.7833,
+      "predicted_lng": 98.9833,
+      "confidence": 0.95
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "th",
+      "predicted_region": "asia",
+      "predicted_lat": 18.7833,
+      "predicted_lng": 98.9833,
+      "confidence": 0.95
+    },
+    "base_prediction_summary": {
+      "predicted_country": "th",
+      "predicted_region": "asia",
+      "predicted_lat": 18.7833,
+      "predicted_lng": 98.9833,
+      "confidence": 0.95
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.95,
+    "skill_boost_boost_confidence": 0.95,
+    "skill_boost_aggressive_confidence": 0.95,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7541921466588974,
+          "visual_cues": [
+            "road",
+            "road markings",
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The cars are driving on the left side of the road, which suggests a country with left-hand traffic such as Thailand, Indonesia, or some countries in Africa.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7435856342315674,
+          "visual_cues": [
+            "car",
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The road markings feature short white dashed lines on both edges, which is common in rural India rather than Southeast Asia or Africa.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7419957876205445,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7402465045452118,
+          "visual_cues": [
+            "driving",
+            "road",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7384238541126251,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The road is made of packed dirt or concrete with no lane markings, indicating a rural location in a developing country with warm climate.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7268742710351945,
+          "visual_cues": [
+            "climate",
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The red car on the left side of the street is parked facing the same direction as traffic, which suggests right-side driving, matching Turkey.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7242313325405121,
+          "visual_cues": [
+            "car",
+            "driving"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7108068436384202,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The road is narrow with a single lane in each direction, and the lane markings are simple white edge lines, which is common in India and Sri Lanka.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6926746785640717,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The vehicle ahead is a red three-wheeled auto rickshaw (tuk tuk), widely used as a public transport in both India and Sri Lanka, but the model resembles the Bajaj style popular in Sri Lanka.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.6916985750198366,
+          "visual_cues": [
+            "ahead",
+            "auto",
+            "three-wheeled",
+            "vehicle"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The sky is clear with strong sunlight, indicating a tropical and possibly urban-fringe environment.",
+          "region_hint": "asia",
+          "confidence": 0.55,
+          "score": 0.6669781744480133,
+          "visual_cues": [
+            "clear",
+            "strong",
+            "sunlight",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The pathway is narrow and paved with concrete, typical for rural or semi-urban trails in tropical countries.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.659656634926796,
+          "visual_cues": [
+            "narrow",
+            "pathway",
+            "paved",
+            "with"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "car",
+            "driving"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "driving"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "with"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road markings are simple dashed lines with no curb or sidewalk on the left, typical on lesser-trafficked Malaysian rural roads.",
+        "The cars are driving on the left side of the road, which suggests a country with left-hand traffic such as Thailand, Indonesia, or some countries in Africa.",
+        "The road markings feature short white dashed lines on both edges, which is common in rural India rather than Southeast Asia or Africa.",
+        "The location is going through a mountainous subtropical terrain with motorcyclists driving on the left side of the road, which is common in Southeast Asian countries like Thailand, Malaysia, and Indonesia",
+        "The soil is reddish and the road is simple asphalt with minimal markings, common in rural Southeast Asia.",
+        "The road is made of packed dirt or concrete with no lane markings, indicating a rural location in a developing country with warm climate.",
+        "The red car on the left side of the street is parked facing the same direction as traffic, which suggests right-side driving, matching Turkey.",
+        "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+        "The road is narrow with a single lane in each direction, and the lane markings are simple white edge lines, which is common in India and Sri Lanka.",
+        "The vehicle ahead is a red three-wheeled auto rickshaw (tuk tuk), widely used as a public transport in both India and Sri Lanka, but the model resembles the Bajaj style popular in Sri Lanka.",
+        "The sky is clear with strong sunlight, indicating a tropical and possibly urban-fringe environment.",
+        "The pathway is narrow and paved with concrete, typical for rural or semi-urban trails in tropical countries."
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

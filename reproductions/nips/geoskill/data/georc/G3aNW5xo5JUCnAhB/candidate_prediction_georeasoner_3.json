@@ -1,0 +1,12 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "Red earth and sparse eucalyptus trees indicate arid Australian outback environment.",
+    "White road edge markings and right-hand traffic alignment are consistent with Australian road standards.",
+    "Absence of urban infrastructure and presence of open rural landscape suggest remote regional location.",
+    "Clear blue sky and flat terrain align with typical Australian interior climate and topography."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Red earth and sparse eucalyptus trees indicate arid Australian outback environment.\",\n    \"White road edge markings and right-hand traffic alignment are consistent with Australian road standards.\",\n    \"Absence of urban infrastructure and presence of open rural landscape suggest remote regional location.\",\n    \"Clear blue sky and flat terrain align with typical Australian interior climate and topography.\"\n  ]\n}"
+}

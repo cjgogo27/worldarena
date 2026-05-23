@@ -1,0 +1,11 @@
+{
+  "country": "Canada",
+  "country_code": "ca",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with no passing, consistent with North American road standards.",
+    "Dense coniferous forest (likely spruce or fir) and lush undergrowth suggest a temperate rainforest climate typical of coastal British Columbia.",
+    "Absence of utility poles, signage, or urban infrastructure points to a remote rural or wilderness road, common in BC’s interior or coastal mountain regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Canada\",\n  \"country_code\": \"ca\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with no passing, consistent with North American road standards.\",\n    \"Dense coniferous forest (likely spruce or fir) and lush undergrowth suggest a temperate rainforest climate typical of coastal British Columbia.\",\n    \"Absence of utility poles, signage, or urban infrastructure points to a remote rural or wilderness road, common in BC’s interior or coastal mountain regions.\",\n    \"Road surface condition and lack"
+}

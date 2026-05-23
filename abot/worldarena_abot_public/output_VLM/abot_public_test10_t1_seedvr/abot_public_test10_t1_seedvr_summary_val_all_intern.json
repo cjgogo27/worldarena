@@ -1,0 +1,222 @@
+[
+  {
+    "video": "episode1.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 3,
+        "reason": "The robotic arm's gripper makes contact with the bottle, but the motion appears jerky and lacks smooth kinematics. The bottle is lifted with minimal visible force transfer, and the interaction lacks realistic physics like friction or inertia response.",
+        "score_normalized": 0.6
+      },
+      "Perspectivity": {
+        "score": 4,
+        "reason": "The camera maintains a stable top-down perspective with consistent depth relationships between objects and the table surface throughout the frames.",
+        "score_normalized": 0.8
+      },
+      "Instruction_Following": {
+        "score": 2,
+        "reason": "The video shows a robotic arm performing pick-and-place actions, but it only interacts with one bottle (the yellow one) and does not complete the full sequence as instructed (three bottles: green cap, ribbed, hand-sized). The instruction requires dropping bottles into a dustbin, which is not shown.",
+        "score_normalized": 0.4
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_abot_public/tmp_VLM/abot_public_test10_t1_seedvr/episode1_20260503_050243.json",
+    "error": null
+  },
+  {
+    "video": "episode10.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 4,
+        "reason": "Robotic arm grasps and lifts the red can with realistic contact and force transfer; can is placed into the blue box with plausible physics; minor issue: can appears slightly deformed upon placement, but overall interaction is physically consistent",
+        "score_normalized": 0.8
+      },
+      "Perspectivity": {
+        "score": 5,
+        "reason": "Stable top-down camera perspective with consistent depth relationships and occlusions; all objects maintain coherent 3D structure throughout the sequence",
+        "score_normalized": 1.0
+      },
+      "Instruction_Following": {
+        "score": 5,
+        "reason": "Robotic arm correctly lifts the red beverage can and places it in the blue plastic box as instructed; then proceeds to handle the white can similarly, following the exact sequence and object targets specified in the instruction",
+        "score_normalized": 1.0
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_abot_public/tmp_VLM/abot_public_test10_t1_seedvr/episode10_20260503_050514.json",
+    "error": null
+  },
+  {
+    "video": "episode100.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 2,
+        "reason": "The robotic arm approaches the bottle but never makes contact or grasps it. The bottle remains stationary on the surface throughout the sequence, indicating no interaction occurred.",
+        "score_normalized": 0.4
+      },
+      "Perspectivity": {
+        "score": 4,
+        "reason": "The camera maintains a stable, consistent perspective throughout the frames. Depth relationships between the robotic arm, bottle, and background are coherent and unchanged.",
+        "score_normalized": 0.8
+      },
+      "Instruction_Following": {
+        "score": 2,
+        "reason": "The video shows a robotic arm approaching a bottle, but it does not perform the required 'Hold and shake' action. The instruction requires physical interaction, which is not visually present in any frame.",
+        "score_normalized": 0.4
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_abot_public/tmp_VLM/abot_public_test10_t1_seedvr/episode100_20260503_050744.json",
+    "error": null
+  },
+  {
+    "video": "episode1000.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 3,
+        "reason": "The robotic arm grasps the basket, but the interaction appears slightly stiff and lacks realistic deformation or friction response. The basket is lifted with minimal visible force transfer or inertia response.",
+        "score_normalized": 0.6
+      },
+      "Perspectivity": {
+        "score": 4,
+        "reason": "Camera maintains a stable top-down perspective with consistent depth relationships between objects and shadows throughout the frames.",
+        "score_normalized": 0.8
+      },
+      "Instruction_Following": {
+        "score": 2,
+        "reason": "The instruction requires the robot to pick the blue top toy car, but the video shows the robot picking up the basket instead. The car remains untouched throughout the sequence.",
+        "score_normalized": 0.4
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_abot_public/tmp_VLM/abot_public_test10_t1_seedvr/episode1000_20260503_051013.json",
+    "error": null
+  },
+  {
+    "video": "episode101.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 3,
+        "reason": "The robotic gripper makes contact with the blue stapler, but the interaction appears stiff and lacks realistic force response; the stapler does not show deformation or natural resistance during grasping",
+        "score_normalized": 0.6
+      },
+      "Perspectivity": {
+        "score": 4,
+        "reason": "Camera perspective remains stable throughout the sequence with consistent depth relationships between the robotic arm, stapler, and scale",
+        "score_normalized": 0.8
+      },
+      "Instruction_Following": {
+        "score": 4,
+        "reason": "The robotic arm correctly identifies and grasps the blue stapler, then moves it toward the scale. The final placement is not fully completed as the stapler is still being held above the scale, but the action sequence is correct and follows the instruction",
+        "score_normalized": 0.8
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_abot_public/tmp_VLM/abot_public_test10_t1_seedvr/episode101_20260503_051243.json",
+    "error": null
+  },
+  {
+    "video": "episode102.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 4,
+        "reason": "The robotic arm makes realistic contact with the card pack, applying force to lift it. The object responds with expected inertia and slight deformation under pressure, showing plausible physics. The grasp is stable and the lift is smooth without penetration or sliding.",
+        "score_normalized": 0.8
+      },
+      "Perspectivity": {
+        "score": 5,
+        "reason": "The camera maintains a consistent top-down perspective throughout the sequence. Depth relationships between the robotic arm, the card pack, and the background shadows remain stable and coherent across all frames.",
+        "score_normalized": 1.0
+      },
+      "Instruction_Following": {
+        "score": 5,
+        "reason": "The video shows a robotic arm (mechanical appearance) correctly lifting the blue pack of playing cards using its gripper and transferring it outward, exactly as instructed. All elements of the task are executed without deviation.",
+        "score_normalized": 1.0
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_abot_public/tmp_VLM/abot_public_test10_t1_seedvr/episode102_20260503_051513.json",
+    "error": null
+  },
+  {
+    "video": "episode103.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 4,
+        "reason": "Robotic arm makes realistic contact with the bowl, lifting it with appropriate force; object maintains its shape without deformation during manipulation",
+        "score_normalized": 0.8
+      },
+      "Perspectivity": {
+        "score": 5,
+        "reason": "Stable camera perspective with consistent depth relationships and occlusion; 3D structure remains coherent throughout the sequence",
+        "score_normalized": 1.0
+      },
+      "Instruction_Following": {
+        "score": 3,
+        "reason": "Robotic arm correctly grasps and repositions the first bowl as instructed, but the instruction to 'position the second, then add the third' is not executed; the arm only interacts with one bowl",
+        "score_normalized": 0.6
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_abot_public/tmp_VLM/abot_public_test10_t1_seedvr/episode103_20260503_051742.json",
+    "error": null
+  },
+  {
+    "video": "episode104.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 3,
+        "reason": "The robotic arm's end-effector makes contact with the bowl but appears to hover or slide without clear force transfer; the bowl does not show realistic deformation or resistance to movement, suggesting imperfect physics simulation.",
+        "score_normalized": 0.6
+      },
+      "Perspectivity": {
+        "score": 4,
+        "reason": "The camera maintains a stable top-down perspective with consistent depth relationships between the robot, bowls, and shadows throughout the sequence.",
+        "score_normalized": 0.8
+      },
+      "Instruction_Following": {
+        "score": 2,
+        "reason": "The video shows a robotic arm interacting with bowls, but the instruction requires stacking a bowl, which is not performed. The arm only touches or hovers over the bowl without lifting or placing it on another bowl.",
+        "score_normalized": 0.4
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_abot_public/tmp_VLM/abot_public_test10_t1_seedvr/episode104_20260503_052012.json",
+    "error": null
+  },
+  {
+    "video": "episode105.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 5,
+        "reason": "The robotic arm's gripper makes stable, realistic contact with the fan, lifting it without deformation or penetration. The fan is held securely and repositioned on the mat with appropriate force transfer and object stability.",
+        "score_normalized": 1.0
+      },
+      "Perspectivity": {
+        "score": 5,
+        "reason": "The scene maintains perfect 3D consistency with stable camera perspective. Depth relationships between the fan, basket, and robot arm are consistent across all frames, and occlusions are correctly rendered.",
+        "score_normalized": 1.0
+      },
+      "Instruction_Following": {
+        "score": 5,
+        "reason": "The video shows a robotic arm (mechanical appearance) entering the frame, grasping the white portable fan, and positioning it on the silver mat facing the robot, exactly as instructed. All specified elements are present and correctly executed.",
+        "score_normalized": 1.0
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_abot_public/tmp_VLM/abot_public_test10_t1_seedvr/episode105_20260503_052244.json",
+    "error": null
+  },
+  {
+    "video": "episode106.mp4",
+    "metrics": {
+      "Interaction_Quality": {
+        "score": 4,
+        "reason": "The robotic arm's gripper makes consistent contact with the bowl, lifting it with realistic force transfer. The bowl shows slight deformation under the grip, indicating physical interaction. No penetration or unrealistic sliding is observed.",
+        "score_normalized": 0.8
+      },
+      "Perspectivity": {
+        "score": 5,
+        "reason": "The scene maintains perfect 3D consistency with stable camera perspective. Depth relationships between the robotic arm, bowls, and background remain coherent across all frames. Shadows cast by the arm and bowls are consistent with the lighting direction.",
+        "score_normalized": 1.0
+      },
+      "Instruction_Following": {
+        "score": 5,
+        "reason": "The video shows a robotic arm (mechanical appearance) performing the exact action described: lifting a glazed bowl and positioning it over a ceramic bowl. The sequence follows the instruction precisely with no deviations or hallucinations.",
+        "score_normalized": 1.0
+      }
+    },
+    "raw_response_file": "/data/alice/cjtest/model_repros/worldarena_abot_public/tmp_VLM/abot_public_test10_t1_seedvr/episode106_20260503_052517.json",
+    "error": null
+  }
+]

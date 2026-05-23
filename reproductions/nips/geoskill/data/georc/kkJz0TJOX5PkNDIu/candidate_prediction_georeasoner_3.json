@@ -1,0 +1,10 @@
+{
+  "country": "New Zealand",
+  "country_code": "nz",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow center line, indicating two-way traffic with no overtaking allowed in the same direction — common in New Zealand’s rural roads.",
+    "Vegetation includes dense evergreen trees (likely podocarp or rimu) and coastal shrubs typical of New Zealand’s temperate maritime climate."
+  ],
+  "raw_output": "{\n  \"country\": \"New Zealand\",\n  \"country_code\": \"nz\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow center line, indicating two-way traffic with no overtaking allowed in the same direction — common in New Zealand’s rural roads.\",\n    \"Vegetation includes dense evergreen trees (likely podocarp or rimu) and coastal shrubs typical of New Zealand’s temperate maritime climate.\",\n    \"The white guardrail and roadside vegetation suggest a coastal route, consistent with New Zealand’s scenic highway networks like State Highway 1"
+}

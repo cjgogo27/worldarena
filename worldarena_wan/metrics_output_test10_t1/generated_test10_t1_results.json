@@ -1,0 +1,352 @@
+{
+  "image_quality": [
+    0.7044184359243094,
+    [
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1/1/video",
+        "video_results": 0.7427587632108326,
+        "video_results_normalized": 0.7427587632108326
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode10/1/video",
+        "video_results": 0.7279934370813291,
+        "video_results_normalized": 0.7279934370813291
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode100/1/video",
+        "video_results": 0.6269487278520568,
+        "video_results_normalized": 0.6269487278520568
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1000/1/video",
+        "video_results": 0.758582609192399,
+        "video_results_normalized": 0.758582609192399
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode101/1/video",
+        "video_results": 0.7096315043425757,
+        "video_results_normalized": 0.7096315043425757
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode102/1/video",
+        "video_results": 0.6870229140983141,
+        "video_results_normalized": 0.6870229140983141
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode103/1/video",
+        "video_results": 0.6537857493881352,
+        "video_results_normalized": 0.6537857493881352
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode104/1/video",
+        "video_results": 0.618133958863818,
+        "video_results_normalized": 0.618133958863818
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode105/1/video",
+        "video_results": 0.7634600056104424,
+        "video_results_normalized": 0.7634600056104424
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode106/1/video",
+        "video_results": 0.7558666896031907,
+        "video_results_normalized": 0.7558666896031907
+      }
+    ]
+  ],
+  "aesthetic_quality": [
+    0.45352058708667753,
+    [
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1/1/video",
+        "video_results": 0.47025221586227417,
+        "video_results_normalized": 0.47025221586227417
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode10/1/video",
+        "video_results": 0.48173224925994873,
+        "video_results_normalized": 0.48173224925994873
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode100/1/video",
+        "video_results": 0.44265177845954895,
+        "video_results_normalized": 0.44265177845954895
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1000/1/video",
+        "video_results": 0.49821022152900696,
+        "video_results_normalized": 0.49821022152900696
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode101/1/video",
+        "video_results": 0.49146023392677307,
+        "video_results_normalized": 0.49146023392677307
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode102/1/video",
+        "video_results": 0.49445390701293945,
+        "video_results_normalized": 0.49445390701293945
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode103/1/video",
+        "video_results": 0.3374364972114563,
+        "video_results_normalized": 0.3374364972114563
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode104/1/video",
+        "video_results": 0.35822179913520813,
+        "video_results_normalized": 0.35822179913520813
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode105/1/video",
+        "video_results": 0.49748146533966064,
+        "video_results_normalized": 0.49748146533966064
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode106/1/video",
+        "video_results": 0.4633055031299591,
+        "video_results_normalized": 0.4633055031299591
+      }
+    ]
+  ],
+  "background_consistency": [
+    0.00579847807675338,
+    [
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1/1/video",
+        "video_results": 0.822259521484375,
+        "video_sim": 98.671142578125,
+        "cnt_per_video": 120,
+        "video_results_normalized": 0.822259521484375
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode10/1/video",
+        "video_results": 0.8550048828125,
+        "video_sim": 102.6005859375,
+        "cnt_per_video": 120,
+        "video_results_normalized": 0.8550048828125
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode100/1/video",
+        "video_results": 0.8695170084635416,
+        "video_sim": 104.342041015625,
+        "cnt_per_video": 120,
+        "video_results_normalized": 0.8695170084635416
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1000/1/video",
+        "video_results": 0.9022501627604167,
+        "video_sim": 108.27001953125,
+        "cnt_per_video": 120,
+        "video_results_normalized": 0.9022501627604167
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode101/1/video",
+        "video_results": 0.03971340733559896,
+        "video_sim": 97.969970703125,
+        "cnt_per_video": 120,
+        "video_results_normalized": 0.03971340733559896
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode102/1/video",
+        "video_results": 0.8159159342447917,
+        "video_sim": 97.909912109375,
+        "cnt_per_video": 120,
+        "video_results_normalized": 0.8159159342447917
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode103/1/video",
+        "video_results": 0.9351969401041667,
+        "video_sim": 112.2236328125,
+        "cnt_per_video": 120,
+        "video_results_normalized": 0.9351969401041667
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode104/1/video",
+        "video_results": 0.8449605305989584,
+        "video_sim": 101.395263671875,
+        "cnt_per_video": 120,
+        "video_results_normalized": 0.8449605305989584
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode105/1/video",
+        "video_results": 0.8362955729166667,
+        "video_sim": 100.35546875,
+        "cnt_per_video": 120,
+        "video_results_normalized": 0.8362955729166667
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode106/1/video",
+        "video_results": 0.03705973138304043,
+        "video_sim": 97.604736328125,
+        "cnt_per_video": 120,
+        "video_results_normalized": 0.03705973138304043
+      }
+    ]
+  ],
+  "dynamic_degree": [
+    0.2717906744011207,
+    [
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1/1/video",
+        "video_results": 0.2868654933693796,
+        "video_results_normalized": 0.2868654933693796
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode10/1/video",
+        "video_results": 0.35090294540274153,
+        "video_results_normalized": 0.35090294540274153
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode100/1/video",
+        "video_results": 0.5660318794419629,
+        "video_results_normalized": 0.5660318794419629
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1000/1/video",
+        "video_results": 0.3631609085458395,
+        "video_results_normalized": 0.3631609085458395
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode101/1/video",
+        "video_results": 0.04864356747347546,
+        "video_results_normalized": 0.04864356747347546
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode102/1/video",
+        "video_results": 0.1348681879437899,
+        "video_results_normalized": 0.1348681879437899
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode103/1/video",
+        "video_results": 0.32169268480756136,
+        "video_results_normalized": 0.32169268480756136
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode104/1/video",
+        "video_results": 0.44925824963362915,
+        "video_results_normalized": 0.44925824963362915
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode105/1/video",
+        "video_results": 0.15091979496974445,
+        "video_results_normalized": 0.15091979496974445
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode106/1/video",
+        "video_results": 0.04556303242308326,
+        "video_results_normalized": 0.04556303242308326
+      }
+    ]
+  ],
+  "flow_score": [
+    1.4908256144976866,
+    [
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1/1/video",
+        "video_results": 1.642632675357163,
+        "video_results_normalized": 0.17883427374831667
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode10/1/video",
+        "video_results": 1.4496901173144578,
+        "video_results_normalized": 0.15712679784823397
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode100/1/video",
+        "video_results": 2.0020781315552694,
+        "video_results_normalized": 0.21927456674001436
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1000/1/video",
+        "video_results": 1.7561742880071203,
+        "video_results_normalized": 0.19160855146733577
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode101/1/video",
+        "video_results": 0.4536146679893136,
+        "video_results_normalized": 0.04506088543245769
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode102/1/video",
+        "video_results": 1.196452883258462,
+        "video_results_normalized": 0.12863572148312524
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode103/1/video",
+        "video_results": 1.8509646849396328,
+        "video_results_normalized": 0.2022731776537283
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode104/1/video",
+        "video_results": 1.5247226687148214,
+        "video_results_normalized": 0.16556851914481077
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode105/1/video",
+        "video_results": 1.6626488033992548,
+        "video_results_normalized": 0.18108623734564033
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode106/1/video",
+        "video_results": 1.3692772244413693,
+        "video_results_normalized": 0.14807974803296126
+      }
+    ]
+  ],
+  "subject_consistency": [
+    0.004991538521647602,
+    [
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1/1/video",
+        "video_results": 0.7139533445239067,
+        "video_results_normalized": 0.7139533445239067
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode10/1/video",
+        "video_results": 0.7681490407635768,
+        "video_results_normalized": 0.7681490407635768
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode100/1/video",
+        "video_results": 0.6893533520400524,
+        "video_results_normalized": 0.6893533520400524
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode1000/1/video",
+        "video_results": 0.8153318309535583,
+        "video_results_normalized": 0.8153318309535583
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode101/1/video",
+        "video_results": 0.03369004275998702,
+        "video_results_normalized": 0.03369004275998702
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode102/1/video",
+        "video_results": 0.6341748587166269,
+        "video_results_normalized": 0.6341748587166269
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode103/1/video",
+        "video_results": 0.897403306265672,
+        "video_results_normalized": 0.897403306265672
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode104/1/video",
+        "video_results": 0.7490371769915024,
+        "video_results_normalized": 0.7490371769915024
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode105/1/video",
+        "video_results": 0.6602386881286899,
+        "video_results_normalized": 0.6602386881286899
+      },
+      {
+        "video_path": "/data/alice/cjtest/model_repros/worldarena_wan_public/generated_dataset_test10_t1/fixed_scene_task/episode106/1/video",
+        "video_results": 0.02851458483354978,
+        "video_results_normalized": 0.02851458483354978
+      }
+    ]
+  ]
+}

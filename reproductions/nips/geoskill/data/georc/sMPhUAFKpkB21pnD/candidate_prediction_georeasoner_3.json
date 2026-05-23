@@ -1,0 +1,12 @@
+{
+  "country": "United Kingdom",
+  "country_code": "gb",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single dashed white center line, typical of rural UK single-lane roads.",
+    "Dense hedgerows on both sides are characteristic of English countryside land division.",
+    "Overcast sky and lush green vegetation suggest a temperate maritime climate common in the UK.",
+    "No visible signage or vehicles, but the road width and markings align with UK rural road standards."
+  ],
+  "raw_output": "{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single dashed white center line, typical of rural UK single-lane roads.\",\n    \"Dense hedgerows on both sides are characteristic of English countryside land division.\",\n    \"Overcast sky and lush green vegetation suggest a temperate maritime climate common in the UK.\",\n    \"No visible signage or vehicles, but the road width and markings align with UK rural road standards.\"\n  ]\n}"
+}

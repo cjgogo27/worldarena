@@ -1,0 +1,193 @@
+{
+  "retrieved_skills": [
+    {
+      "skill_text": "This location is Fall coverage due to the birch trees having orange/yellow leaves and is rather hilly and forested, indicative of regions in Europe, such as the Baltics, Scandinavia, and Russia",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "trees"
+      ],
+      "source_game_id": "5l0GTCFZI877KxkV",
+      "source_round": 3,
+      "score": 0.7169632315635681,
+      "bm25_score": 20.160097122192383,
+      "semantic_score": 0.4993458390235901
+    },
+    {
+      "skill_text": "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "road",
+        "soil"
+      ],
+      "source_game_id": "5l0GTCFZI877KxkV",
+      "source_round": 3,
+      "score": 0.7004783153533936,
+      "bm25_score": 23.498239517211914,
+      "semantic_score": 0.44185763597488403
+    },
+    {
+      "skill_text": "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "climate",
+        "vegetation"
+      ],
+      "source_game_id": "3uP6lYo9pzx5Q0km",
+      "source_round": 1,
+      "score": 0.8339495658874512,
+      "bm25_score": 27.818010330200195,
+      "semantic_score": 0.5248122811317444
+    },
+    {
+      "skill_text": "The vegetation is dense, temperate, and deciduous, suggesting a region with significant rainfall and moderate temperatures, typical of Central or Eastern Europe.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "sign",
+        "vegetation"
+      ],
+      "source_game_id": "3uP6lYo9pzx5Q0km",
+      "source_round": 5,
+      "score": 0.6974369287490845,
+      "bm25_score": 22.513038635253906,
+      "semantic_score": 0.4507877826690674
+    },
+    {
+      "skill_text": "Vegetation consists of temperate deciduous trees, grasses, and the presence of mountains in the distance suggests a location in the Balkans or a similar region.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "mountains",
+        "trees",
+        "vegetation"
+      ],
+      "source_game_id": "5GS2RPgTrf85UZM5",
+      "source_round": 1,
+      "score": 0.7671592235565186,
+      "bm25_score": 30.325809478759766,
+      "semantic_score": 0.42632371187210083
+    },
+    {
+      "skill_text": "The dry, hilly terrain with sparse vegetation and olive trees is typical of the Mediterranean climate found in Greece, southern Italy, and coastal Spain.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "climate",
+        "coast",
+        "terrain",
+        "trees",
+        "vegetation"
+      ],
+      "source_game_id": "9lNwy1vjD53PTSwt",
+      "source_round": 2,
+      "score": 0.7202478051185608,
+      "bm25_score": 34.03205871582031,
+      "semantic_score": 0.33341723680496216
+    },
+    {
+      "skill_text": "The overcast, cool weather and slightly yellowing foliage indicate a region with pronounced seasons, likely early autumn in a temperate zone.",
+      "region_hint": "europe",
+      "confidence": 0.75,
+      "visual_cues": [
+        "cool",
+        "overcast",
+        "slightly",
+        "weather"
+      ],
+      "source_game_id": "5l0GTCFZI877KxkV",
+      "source_round": 3,
+      "score": 0.7319495677947998,
+      "bm25_score": 21.766582489013672,
+      "semantic_score": 0.4949760138988495
+    },
+    {
+      "skill_text": "The vegetation type and gently rolling hills with sparse trees match the landscape often seen in northern and central Bulgaria.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "trees",
+        "vegetation"
+      ],
+      "source_game_id": "67gLC5CcGgkQIWEW",
+      "source_round": 2,
+      "score": 0.7092226147651672,
+      "bm25_score": 30.349098205566406,
+      "semantic_score": 0.3671507239341736
+    },
+    {
+      "skill_text": "The vegetation, including coniferous and deciduous trees, is consistent with a temperate climate found in southeastern Europe.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "climate",
+        "trees",
+        "vegetation"
+      ],
+      "source_game_id": "1NJsXTxIF9GGMDxC",
+      "source_round": 3,
+      "score": 0.7900810241699219,
+      "bm25_score": 34.77516555786133,
+      "semantic_score": 0.3953307867050171
+    },
+    {
+      "skill_text": "The vegetation, including neatly trimmed and managed bushes and lawns, fits the temperate maritime climate of the Netherlands.",
+      "region_hint": "europe",
+      "confidence": 0.65,
+      "visual_cues": [
+        "climate",
+        "vegetation"
+      ],
+      "source_game_id": "9NNxopqtafH8pTbN",
+      "source_round": 2,
+      "score": 0.7484474778175354,
+      "bm25_score": 28.32611656188965,
+      "semantic_score": 0.43170490860939026
+    }
+  ],
+  "expert_chain": "Entry not found",
+  "evidence_spans": [
+    "wooden utility poles with multiple cross-arms and radial insulators typical of Ukraine",
+    "narrow worn asphalt road with dirt shoulders and no markings",
+    "reddish gravel soil consistent with western Ukrainian podzolic soils",
+    "temperate deciduous forest with yellowing birch leaves indicating late autumn continental climate",
+    "gently rolling hilly terrain matching Podillian Upland near Lviv",
+    "overcast damp cool weather typical of Lviv Oblast in autumn",
+    "wooden fence with vertical slats and concrete posts common in rural Ukraine"
+  ],
+  "stage1_prediction": {
+    "predicted_country": "ua",
+    "predicted_region": "europe",
+    "predicted_address": "Rural road near Lviv, Lviv Oblast, Ukraine",
+    "predicted_lat": 49.8425,
+    "predicted_lng": 24.03222222,
+    "reasoning_text": "```json\n{\n  \"country\": \"Ukraine\",\n  \"country_code\": \"ua\",\n  \"region\": \"Europe\",\n  \"city\": \"\",\n  \"province_or_state\": \"Lviv Oblast\",\n  \"address\": \"Rural road near Lviv, Lviv Oblast, Ukraine\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"STEP 1 - HEMISPHERE & CLIMATE ZONE: The sun appears to be in the south with shadows falling northward, indicating the Northern Hemisphere. The vegetation shows deciduous trees with fresh spring/summer green foliage, and the climate appears temperate continental with moderate humidity. STEP 2 - CONTINENT NARROWING: Driving on the right side of the road (evident from the camera position and road orientation) narrows this to Europe, the Americas, or most of Asia. The architecture, utility poles, and rural landscape are distinctly European. The unpaved shoulder, wooden fence construction, and brick/plaster residential buildings with metal roofs are characteristic of Eastern Europe. STEP 3 - COUNTRY IDENTIFICATION: The combination of features strongly suggests Ukraine: the pinkish brick plastered houses, metal roofs, wooden picket fences on concrete bases, overhead power lines on simple wooden poles, and the general rural village (selo) aesthetic. The road surface with unpaved shoulders and recent patching is also very typical of Ukrainian rural roads. The Google camera quality and stitching artifacts are consistent with Ukrainian coverage. STEP 4 - REGION WITHIN COUNTRY: The rolling terrain, house density, and vegetation suggest western Ukraine rather than the flatter east or south. The architectural style with these particular roof colors and fence types is common in Galicia, particularly Lviv Oblast or Ivano-Frankivsk Oblast. The relatively well-maintained appearance and proximity to larger brick buildings suggests a village near a regional center. STEP 5 - FINAL LOCATION TEXT: Based on the rural village character, western Ukrainian architecture, and temperate continental setting, this is most likely a village road in Lviv Oblast, near the city of Lviv.\",\n  \"evidence\": [\"Right-hand traffic\", \"Pink plastered brick houses with metal roofs\", \"Wooden picket fences on concrete bases\", \"Overhead power lines on simple poles\", \"Unpaved road shoulders with patched asphalt\", \"Deciduous trees with spring/summer foliage\", \"Rural village density and layout\", \"Eastern European architectural style\", \"Google camera quality consistent with Ukraine coverage\"]\n}\n```",
+    "evidence_spans": [
+      "Right-hand traffic",
+      "Pink plastered brick houses with metal roofs",
+      "Wooden picket fences on concrete bases",
+      "Overhead power lines on simple poles",
+      "Unpaved road shoulders with patched asphalt",
+      "Deciduous trees with spring/summer foliage",
+      "Rural village density and layout",
+      "Eastern European architectural style",
+      "Google camera quality consistent with Ukraine coverage"
+    ],
+    "confidence": 0.6
+  },
+  "local_analysis": {
+    "pole_type": "wooden utility pole with multiple cross-arms, visible left of center with several insulators arranged in a typical radial distribution pattern",
+    "road_markings": "no visible center line or edge markings; narrow paved road with worn asphalt and dirt shoulders",
+    "bollards": "none visible; wooden fence with vertical slats and concrete base on right side, no guardrails",
+    "signs": "small red rectangular sign or marker visible on left side near fence line, possibly a property boundary or warning marker; no standard road signs visible",
+    "vehicles": "no vehicles visible in image",
+    "architecture": "residential brick construction with pitched metal roofs; light pink/red brick facade with white window trim; multi-story detached houses with chimneys; wooden fencing common",
+    "script_type": "no legible text or script visible",
+    "implied_country": "Ukraine",
+    "implied_region": "Western Ukraine (likely rural area in Lviv, Ivano-Frankivsk, or Zakarpattia Oblast)"
+  },
+  "geocot_region": "europe",
+  "active_region": "europe"
+}

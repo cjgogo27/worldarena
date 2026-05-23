@@ -1,0 +1,42 @@
+paths:
+  data_root: data/georc
+  experiment_dir: experiments/ours_direct_vlm_singlepass_earthwhere
+
+vlm:
+  base_url: https://api.mytokenland.com/v1
+  api_key: sk-vUjdYc4zpi71lC1Z9TCQvTLeh3i50V7bImq3zKDLkPZhS1IV
+  model: qwen3.5-plus
+  max_tokens: 1500
+  max_image_side: 1024
+  retries: 1
+  backoff_seconds: 0.0
+  request_timeout_seconds: 60
+
+llm_large:
+  base_url: https://api.mytokenland.com/v1
+  api_key: sk-vUjdYc4zpi71lC1Z9TCQvTLeh3i50V7bImq3zKDLkPZhS1IV
+  model: gpt-5.4-mini
+  enable_thinking: false
+  max_tokens: 1100
+  max_image_side: 896
+  retries: 1
+  backoff_seconds: 0.0
+  request_timeout_seconds: 60
+
+skills:
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  top_k: 5
+  min_score: 0.15
+  retrieval_mode: text_only
+  skill_graph_top_k: 7
+
+training_free:
+  enable_failure_recovery: false
+  enable_skill_fusion: false
+  recovery_max_records: 20
+
+datasets:
+  - name: earthwhere
+    data_root: data/earthwhere
+    manifest_jsonl: data/earthwhere/manifest.jsonl
+    dataset_version: earthwhere_v1

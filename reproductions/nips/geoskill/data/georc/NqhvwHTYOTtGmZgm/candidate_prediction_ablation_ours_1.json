@@ -1,0 +1,770 @@
+{
+  "game_id": "NqhvwHTYOTtGmZgm",
+  "round": 1,
+  "sample_id": "georc::NqhvwHTYOTtGmZgm::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "is",
+    "predicted_region": "europe",
+    "predicted_lat": 64.4167,
+    "predicted_lng": -16.8333,
+    "reasoning_text": "{\n  \"country\": \"Iceland\",\n  \"country_code\": \"is\",\n  \"region\": \"Europe\",\n  \"lat\": 64.4167,\n  \"lng\": -16.8333,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The image displays a high-altitude, barren landscape with volcanic gravel and sparse moss, characteristic of Iceland's highlands. The key visual evidence is the simple wooden viewing platform with a ramp overlooking a massive ice cap (likely Hofsjökull) and rugged mountains. This specific viewpoint is located at the summit of the Húsafell mountain (Húsafellsháls) in the Borgarfjörður region. The coordinates correspond to this specific viewpoint, which offers a panoramic view of the Hofsjökull glacier and the surrounding highlands.\",\n  \"evidence\": [\n    \"Wooden viewing platform with ramp on volcanic gravel\",\n    \"High-altitude barren landscape with sparse moss\",\n    \"Vast ice cap (Hofsjökull) visible in the background\",\n    \"Rugged, snow-capped mountains above cloud layer\",\n    \"Subarctic/arctic terrain typical of Icelandic highlands\"\n  ]\n}",
+    "evidence_spans": [
+      "Wooden viewing platform with ramp on volcanic gravel",
+      "High-altitude barren landscape with sparse moss",
+      "Vast ice cap (Hofsjökull) visible in the background",
+      "Rugged, snow-capped mountains above cloud layer",
+      "Subarctic/arctic terrain typical of Icelandic highlands"
+    ],
+    "confidence": 0.95,
+    "geovista_observation": {
+      "observations": [
+        "The image depicts a high-altitude, barren landscape with rocky, gravelly terrain and very sparse vegetation (low-lying moss or lichen).",
+        "A simple, rectangular wooden viewing platform with a small ramp is situated in the foreground.",
+        "In the background, there is a vast expanse of snow and ice, likely a glacier or ice cap, stretching to the horizon.",
+        "To the left, rugged, snow-capped mountains are visible above a layer of low-lying clouds or fog.",
+        "The sky is overcast with a soft, diffuse light, suggesting either dawn, dusk, or a heavily overcast day.",
+        "There are no visible roads, buildings, power lines, or other signs of dense human settlement.",
+        "The overall color palette is muted, dominated by greys, browns, and whites.",
+        "The terrain appears to be volcanic or glacial in origin, typical of subarctic or arctic regions."
+      ],
+      "hard_clues": [
+        "The wooden viewing platform is a man-made structure indicating a designated viewpoint.",
+        "The extensive snow and ice field in the background is a significant geographical feature.",
+        "The high altitude is indicated by the lack of trees and the presence of clouds below the vantage point.",
+        "The landscape is consistent with a volcanic or glacial environment."
+      ],
+      "ambiguous_clues": [
+        "The specific identity of the glacier or ice cap is not clear from this single view.",
+        "The exact time of day is difficult to determine due to the overcast sky.",
+        "The wooden platform is a generic design and not unique to a single location.",
+        "The specific mountain range in the distance is not identifiable without more context."
+      ],
+      "possible_scripts": [
+        "This is a viewpoint on a mountain in Iceland, looking out over a glacier like Vatnajökull or Mýrdalsjökull.",
+        "This could be a viewpoint in the Norwegian mountains, overlooking a fjord or glacier.",
+        "This might be a location in the Scottish Highlands, although the scale of the ice suggests a more northern latitude.",
+        "This could be a viewpoint in Alaska or Canada, overlooking a large glacier."
+      ],
+      "driving_side": "unknown"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Iceland",
+        "Norway",
+        "Canada",
+        "Alaska (USA)",
+        "Greenland"
+      ],
+      "zoom_boxes": [
+        [
+          300,
+          560,
+          510,
+          680
+        ],
+        [
+          0,
+          480,
+          250,
+          550
+        ]
+      ],
+      "verification_queries": [
+        "wooden viewing platform high altitude Iceland",
+        "viewpoint overlooking Vatnajökull glacier",
+        "wooden deck gravel volcanic landscape",
+        "high altitude viewpoint Norway",
+        "wooden platform overlooking ice cap"
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "is",
+      "predicted_region": "europe",
+      "predicted_lat": 64.4167,
+      "predicted_lng": -16.8333,
+      "confidence": 0.95
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "is",
+      "predicted_region": "europe",
+      "predicted_lat": 64.4167,
+      "predicted_lng": -16.8333,
+      "confidence": 0.95
+    },
+    "base_prediction_summary": {
+      "predicted_country": "is",
+      "predicted_region": "europe",
+      "predicted_lat": 64.4167,
+      "predicted_lng": -16.8333,
+      "confidence": 0.95
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.95,
+    "skill_boost_boost_confidence": 0.95,
+    "skill_boost_aggressive_confidence": 0.95,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "This landscape is typical of regions around the Alps Mountains, due to the grand, exposed snow-capped mountains mixed in with a lot of alpine architecture (buildings made out of wood)",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8060433626174928,
+          "visual_cues": [
+            "architecture",
+            "building",
+            "mountains"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7754898577928544,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The rocky outcrops covered in moss, combined with the farmland, are typical of the west and central belt of Sweden and southern Norway.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7730918228626251,
+          "visual_cues": [
+            "covered",
+            "moss",
+            "outcrops",
+            "rocky"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "This location is particularly distinct due to the exposed rocky mountain in the background and the abundance of grey brick architecture, commonly found in the countries surrounding the Pyrenees like Northern Spain, Andorra, and Southern France",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7534913778305055,
+          "visual_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The sandy soil at the road’s shoulder reinforces the idea of a North/Eastern European location, as this is typical of the flat, glacial landscapes in this region.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.730326807498932,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "Vegetation consists of temperate deciduous trees, grasses, and the presence of mountains in the distance suggests a location in the Balkans or a similar region.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6995956659317017,
+          "visual_cues": [
+            "mountains",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The terrain is hilly with rocky soil visible in some places, which fits with the karst landscapes found in the Western Balkans.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6980214923620225,
+          "visual_cues": [
+            "soil",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.6887426614761354,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "Based on all these clues, the specific country is Norway, and the region is likely somewhere in rural central or northern Norway, perhaps near a mountainous area such as the area around Otta or Dovrefjell.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.6868363142013549,
+          "visual_cues": [
+            "Based",
+            "clues",
+            "specific",
+            "these"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "Given the mountainous backdrop and housing style, this is likely in a Bulgarian rural or peri-urban area not far from Sofia, possibly the town of Bankya.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.6424612551927567,
+          "visual_cues": [
+            "Given",
+            "backdrop",
+            "housing",
+            "mountainous"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6218571364879608,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "Based on all these clues, I estimate this image was taken in the Netherlands, likely in a small town or suburban area, possibly in Friesland or Groningen where \"Ringweg\" streets are common.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.616610860824585,
+          "visual_cues": [
+            "Based",
+            "clues",
+            "estimate",
+            "these"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "mountains"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "soil"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "soil"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "Based",
+            "clues",
+            "these"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "This landscape is typical of regions around the Alps Mountains, due to the grand, exposed snow-capped mountains mixed in with a lot of alpine architecture (buildings made out of wood)",
+        "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+        "The rocky outcrops covered in moss, combined with the farmland, are typical of the west and central belt of Sweden and southern Norway.",
+        "This location is particularly distinct due to the exposed rocky mountain in the background and the abundance of grey brick architecture, commonly found in the countries surrounding the Pyrenees like Northern Spain, Andorra, and Southern France",
+        "The sandy soil at the road’s shoulder reinforces the idea of a North/Eastern European location, as this is typical of the flat, glacial landscapes in this region.",
+        "Vegetation consists of temperate deciduous trees, grasses, and the presence of mountains in the distance suggests a location in the Balkans or a similar region.",
+        "The terrain is hilly with rocky soil visible in some places, which fits with the karst landscapes found in the Western Balkans.",
+        "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+        "Based on all these clues, the specific country is Norway, and the region is likely somewhere in rural central or northern Norway, perhaps near a mountainous area such as the area around Otta or Dovrefjell.",
+        "Given the mountainous backdrop and housing style, this is likely in a Bulgarian rural or peri-urban area not far from Sofia, possibly the town of Bankya.",
+        "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+        "Based on all these clues, I estimate this image was taken in the Netherlands, likely in a small town or suburban area, possibly in Friesland or Groningen where \"Ringweg\" streets are common."
+      ],
+      "summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

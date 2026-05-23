@@ -1,0 +1,90 @@
+# Checkpoints & model weights
+*.ckpt
+*.pth
+*.pth.tar
+*.pt
+*.bin
+*.safetensors
+*.onnx
+*.msgpack
+*.h5
+*.gguf
+*.ggml
+model_weights/
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.webm
+*.mkv
+*.gif
+
+# Images (code-level diagrams/small figures kept via !)
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.rar
+*.7z
+
+# Data files (keep small examples; exclude large datasets)
+*.jsonl
+*.csv
+*.tsv
+*.parquet
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Node
+node_modules/
+package-lock.json
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs
+outputs/
+output_dir_*/
+eval_*/
+infer_*/
+
+# Keep specific exceptions
+!figure/
+!figs/
+!**/*.png

@@ -1,0 +1,13 @@
+Open rolling hilly terrain
+Dry subtropical East African vegetation
+Unpaved light-brown dirt road
+Simple concrete or plaster houses
+Corrugated metal roofing and fencing
+Basic overhead utility lines
+Peri-urban residential layout
+Following the required skill order: (1) the first high-priority skill points away from Uganda outside the capital and away from the more tropical look expected in Rwanda, making Kenya the most logical initial guess.
+(2) The open rolling hills and subtropical African vegetation fit the Rwanda-Uganda-Kenya zone, which keeps the location in East Africa and remains compatible with Kenya.
+(3) The simple concrete block construction and corrugated metal roofing indicate a rural or peri-urban developing-area setting and do not contradict Kenya.
+Composing linked skills from these nodes, skill 7 further narrows the scene to Kenya based on flora, infrastructure, and road character, suggesting the outskirts of Nairobi or the Rift Valley.
+To keep the final answer internally consistent with the ordered graph and the peri-urban hillside setting, I place this in a hillside neighborhood on the outskirts of Nairobi, Kenya.
+Conclusion: likely location is Nairobi, Nairobi County, Kenya

@@ -1,0 +1,18 @@
+================================================================================
+California Trajectory Generation Report
+================================================================================
+
+Generation Time: 2025-11-17 12:32:27
+
+Statistics:
+--------------------------------------------------------------------------------
+运行模式: user_file
+总用户数: 17628
+选择生成数: 41
+成功生成: 41
+失败数量: 0
+成功率: 100.00%
+完整版输出文件: E:/FrankYcj/FinalTraj/Trajectory_Generation/output\california_generated_trajectories_20251117_123227.json
+Schedule格式输出文件: E:/FrankYcj/FinalTraj/Trajectory_Generation/output\all_trajectories_20251117_123227.json
+
+================================================================================

@@ -1,0 +1,12 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with white center and edge lines, typical of Finnish rural roads.",
+    "Tall pine trees dominate the landscape, consistent with boreal forest (taiga) found across Finland.",
+    "No visible traffic or vehicles, and no urban infrastructure, indicating a remote or rural area.",
+    "Overcast sky and flat terrain are characteristic of northern European climates, especially in Finland."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with white center and edge lines, typical of Finnish rural roads.\",\n    \"Tall pine trees dominate the landscape, consistent with boreal forest (taiga) found across Finland.\",\n    \"No visible traffic or vehicles, and no urban infrastructure, indicating a remote or rural area.\",\n    \"Overcast sky and flat terrain are characteristic of northern European climates, especially in Finland.\"\n  ]\n}"
+}

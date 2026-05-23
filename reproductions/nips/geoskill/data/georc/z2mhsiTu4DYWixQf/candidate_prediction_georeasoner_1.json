@@ -1,0 +1,11 @@
+{
+  "country": "Costa Rica",
+  "country_code": "cr",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of a yellow center line on a two-lane road indicates right-hand traffic, consistent with Costa Rica’s driving side.",
+    "Vegetation includes lush tropical flora such as banana plants and broadleaf trees, typical of Costa Rica’s lowland climate.",
+    "Architecture features simple residential structures with red-tiled roofs and corrugated metal sheds, common in rural Costa Rican communities."
+  ],
+  "raw_output": "{\n  \"country\": \"Costa Rica\",\n  \"country_code\": \"cr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of a yellow center line on a two-lane road indicates right-hand traffic, consistent with Costa Rica’s driving side.\",\n    \"Vegetation includes lush tropical flora such as banana plants and broadleaf trees, typical of Costa Rica’s lowland climate.\",\n    \"Architecture features simple residential structures with red-tiled roofs and corrugated metal sheds, common in rural Costa Rican communities.\",\n    \"Utility poles with overhead wires and lack"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "United Kingdom",
+  "country_code": "gb",
+  "city": "",
+  "reasoning_chain": [
+    "The red car is parked on the left side of the driveway, consistent with left-hand traffic systems used in the UK.",
+    "The architecture of the houses, including the pitched roofs and brickwork, is typical of suburban UK residential areas.",
+    "The vegetation, including lush green hedges and mature trees, suggests a temperate maritime climate common in the UK."
+  ],
+  "raw_output": "{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The red car is parked on the left side of the driveway, consistent with left-hand traffic systems used in the UK.\",\n    \"The architecture of the houses, including the pitched roofs and brickwork, is typical of suburban UK residential areas.\",\n    \"The vegetation, including lush green hedges and mature trees, suggests a temperate maritime climate common in the UK.\",\n    \"The road surface and lack of visible signage or markings are consistent with quiet"
+}

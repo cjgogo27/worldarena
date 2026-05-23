@@ -1,0 +1,24 @@
+{
+  "game_id": "EEI3fwu4iZvPT2zP",
+  "round": 1,
+  "sample_id": "georc::EEI3fwu4iZvPT2zP::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "rw",
+    "predicted_region": "africa",
+    "predicted_address": "Rural hillside road near Huye, Southern Province, Rwanda",
+    "predicted_lat": -2.62194444,
+    "predicted_lng": 29.60805556,
+    "reasoning_text": "{\n  \"country\": \"Rwanda\",\n  \"country_code\": \"rw\",\n  \"region\": \"East Africa\",\n  \"city\": \"Huye\",\n  \"province_or_state\": \"Southern Province\",\n  \"address\": \"Rural hillside road near Huye, Southern Province, Rwanda\",\n  \"confidence\": 0.46,\n  \"reasoning\": \"The scene shows a rural, hilly settlement with dry dirt roads, modest brick-and-plaster homes, scattered eucalyptus-like trees, and dense habitation across rolling hills. This landscape strongly suggests the Great Lakes region of East Africa. Among likely candidates, Rwanda fits well because of its characteristic steep, populated hills and village architecture. The road is narrow and unmarked, consistent with rural Rwandan local roads. The overall settlement pattern and terrain look more like Rwanda than flatter neighboring countries. A southern highland area near Huye is a plausible approximate match, though the exact locality is uncertain.\",\n  \"evidence\": [\n    \"Steep, densely inhabited hilly terrain typical of Rwanda\",\n    \"Unpaved beige dirt road through a compact rural settlement\",\n    \"Simple brick-and-plaster houses common in East African villages\",\n    \"Utility poles and sparse roadside infrastructure consistent with rural Rwanda\",\n    \"Dry-season appearance with scattered trees and cultivated hillside surroundings\"\n  ]\n}",
+    "evidence_spans": [
+      "Steep, densely inhabited hilly terrain typical of Rwanda",
+      "Unpaved beige dirt road through a compact rural settlement",
+      "Simple brick-and-plaster houses common in East African villages",
+      "Utility poles and sparse roadside infrastructure consistent with rural Rwanda",
+      "Dry-season appearance with scattered trees and cultivated hillside surroundings"
+    ],
+    "confidence": 0.46
+  },
+  "error": null
+}

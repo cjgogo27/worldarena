@@ -1,0 +1,11 @@
+{
+  "country": "Trinidad and Tobago",
+  "country_code": "tt",
+  "city": "",
+  "reasoning_chain": [
+    "The architecture features simple, single-story concrete block houses with flat roofs and colorful paint, typical of residential areas in Trinidad.",
+    "Vegetation includes lush green trees and tropical foliage consistent with a Caribbean island climate.",
+    "Roads are unpaved or poorly maintained dirt/gravel surfaces, common in rural or semi-urban areas of Trinidad."
+  ],
+  "raw_output": "{\n  \"country\": \"Trinidad and Tobago\",\n  \"country_code\": \"tt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The architecture features simple, single-story concrete block houses with flat roofs and colorful paint, typical of residential areas in Trinidad.\",\n    \"Vegetation includes lush green trees and tropical foliage consistent with a Caribbean island climate.\",\n    \"Roads are unpaved or poorly maintained dirt/gravel surfaces, common in rural or semi-urban areas of Trinidad.\",\n    \"Vehicles are parked on the left side of the road, indicating left-hand"
+}

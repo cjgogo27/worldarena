@@ -1,0 +1,11 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with solid white edge lines and dashed center line, typical of rural Finnish roads.",
+    "Dense coniferous forest on both sides of the road is characteristic of Finland’s boreal forest biome.",
+    "Bright sun glare and clear blue sky suggest high-latitude summer conditions common in northern Europe, especially Finland."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with solid white edge lines and dashed center line, typical of rural Finnish roads.\",\n    \"Dense coniferous forest on both sides of the road is characteristic of Finland’s boreal forest biome.\",\n    \"Bright sun glare and clear blue sky suggest high-latitude summer conditions common in northern Europe, especially Finland.\",\n    \"No visible signage, vehicles, or urban infrastructure supports a remote rural setting consistent"
+}

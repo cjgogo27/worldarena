@@ -1,0 +1,10 @@
+{
+  "country": "New Zealand",
+  "country_code": "nz",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of a green waste bin with a blue lid on the left side of the road is characteristic of New Zealand’s municipal waste collection system.",
+    "The architecture of the houses, including the white two-story home with a balcony and garage, along with the style of fencing and landscaping, is typical of suburban areas in New Zealand."
+  ],
+  "raw_output": "{\n  \"country\": \"New Zealand\",\n  \"country_code\": \"nz\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of a green waste bin with a blue lid on the left side of the road is characteristic of New Zealand’s municipal waste collection system.\",\n    \"The architecture of the houses, including the white two-story home with a balcony and garage, along with the style of fencing and landscaping, is typical of suburban areas in New Zealand.\",\n    \"The vegetation, including the large leafy tree with yellow-green foliage and the birch-like tree on the"
+}

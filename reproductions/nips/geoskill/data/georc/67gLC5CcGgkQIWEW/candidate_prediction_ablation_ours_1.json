@@ -1,0 +1,979 @@
+{
+  "game_id": "67gLC5CcGgkQIWEW",
+  "round": 1,
+  "sample_id": "georc::67gLC5CcGgkQIWEW::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ua",
+    "predicted_region": "europe",
+    "predicted_lat": 49.8397,
+    "predicted_lng": 24.0297,
+    "reasoning_text": "```json\n{\n  \"country\": \"Ukraine\",\n  \"country_code\": \"ua\",\n  \"region\": \"Eastern Europe\",\n  \"lat\": 49.8397,\n  \"lng\": 24.0297,\n  \"confidence\": 0.95,\n  \"reasoning\": \"The visual evidence strongly supports the baseline prediction of Ukraine. The most definitive clue is the specific style of fencing: the combination of brick/concrete pillars with brown corrugated metal sheets (known as 'profnaстил') is ubiquitous in Ukrainian residential areas. The utility poles are wooden and weathered, typical of rural Ukrainian infrastructure. The houses in the background feature traditional pitched roofs with chimneys, consistent with the region's architecture. The vegetation and clear sky suggest a temperate climate typical of Eastern Europe. The road surface and lack of complex signage also align with a rural or suburban setting in Ukraine.\",\n  \"evidence\": [\n    \"Fences made of corrugated metal attached to brick and concrete pillars\",\n    \"Wooden utility poles with overhead wiring\",\n    \"Traditional pitched roofs on houses in the background\",\n    \"Vegetation consistent with temperate Eastern European climate\",\n    \"Road surface and rural/suburban setting typical of Ukraine\"\n  ]\n}\n```",
+    "evidence_spans": [
+      "Fences made of corrugated metal attached to brick and concrete pillars",
+      "Wooden utility poles with overhead wiring",
+      "Traditional pitched roofs on houses in the background",
+      "Vegetation consistent with temperate Eastern European climate",
+      "Road surface and rural/suburban setting typical of Ukraine"
+    ],
+    "confidence": 0.95,
+    "retrieved_skills": [
+      {
+        "skill_text": "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building",
+          "fence"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 4,
+        "score": 0.7061945915222168,
+        "bm25_score": 38.038978576660156,
+        "semantic_score": 0.5316207408905029
+      },
+      {
+        "skill_text": "The environment and mix of infrastructure, with small shops and residential houses along a main road, is typical of towns or villages near large cities in Bulgaria.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.6776231497526168,
+        "bm25_score": 34.808502197265625,
+        "semantic_score": 0.40872621536254883
+      },
+      {
+        "skill_text": "The architecture of the houses in the distance, particularly the red-tiled roofs and low-rise, wide structures, is very common in Southern or Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.44768463075160986,
+        "bm25_score": 46.73025894165039,
+        "semantic_score": 0.5678249597549438
+      },
+      {
+        "skill_text": "The architecture of the apartment buildings is typical of Eastern European post-socialist countries with utilitarian, block-style construction and balconies.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 3,
+        "score": 0.3993895679712296,
+        "bm25_score": 38.083526611328125,
+        "semantic_score": 0.5523366332054138
+      },
+      {
+        "skill_text": "The abundance of brick architecture with European-style housing (single houses with multiple floors) is very common in the Northwestern countries of Europe",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 2,
+        "score": 0.4266862571239472,
+        "bm25_score": 45.72911071777344,
+        "semantic_score": 0.5240093469619751
+      },
+      {
+        "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 3,
+        "score": 0.6356428086757661,
+        "bm25_score": 42.262203216552734,
+        "semantic_score": 0.35427770018577576
+      },
+      {
+        "skill_text": "The apartment block style with balconies, flower boxes, and stucco finish is typical of post-Soviet or Eastern Bloc countries in Central/Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "apartment",
+          "block",
+          "style",
+          "with"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 4,
+        "score": 0.4066657543182373,
+        "bm25_score": 37.297664642333984,
+        "semantic_score": 0.582747220993042
+      },
+      {
+        "skill_text": "The houses have plastered exteriors in a pale pink-beige tone with brown shutters and sloped, tiled roofs, typical of suburban French architecture.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 3,
+        "score": 0.649421826004982,
+        "bm25_score": 30.761926651000977,
+        "semantic_score": 0.47760793566703796
+      },
+      {
+        "skill_text": "Fences made of corrugated metal attached to brick and concrete pillars, and low wooden pickets, are frequently seen in Ukraine and Russia.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "fence"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 1,
+        "score": 0.7338559091091157,
+        "bm25_score": 34.57861328125,
+        "semantic_score": 0.7158623337745667
+      },
+      {
+        "skill_text": "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles",
+          "road",
+          "sign"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 2,
+        "score": 0.7563480079174042,
+        "bm25_score": 43.321529388427734,
+        "semantic_score": 0.38468748331069946
+      },
+      {
+        "skill_text": "The apartment block visible in the background is of Soviet-era panel style, common in Ukrainian cities outside the very center.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "apartment",
+          "background",
+          "block",
+          "visible"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 1,
+        "score": 0.4450539290904999,
+        "bm25_score": 42.4769401550293,
+        "semantic_score": 0.6178274154663086
+      },
+      {
+        "skill_text": "The bus stop shelter on the right with faded paint and a concrete structure is typical of rural Ukraine, Russia, or Belarus.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "right",
+          "shelter",
+          "stop",
+          "with"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 1,
+        "score": 0.6492420494556428,
+        "bm25_score": 29.951126098632812,
+        "semantic_score": 0.5601816177368164
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "ua",
+      "predicted_region": "europe",
+      "predicted_lat": 49.8397,
+      "predicted_lng": 24.0297,
+      "reasoning_text": "{\n  \"country\": \"Ukraine\",\n  \"country_code\": \"ua\",\n  \"region\": \"Eastern Europe\",\n  \"lat\": 49.8397,\n  \"lng\": 24.0297,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to a post-Soviet state in Eastern Europe, specifically Ukraine. The key indicators are the specific style of the fencing: the combination of brick pillars with corrugated metal (profnaстил) is ubiquitous in Ukrainian residential areas. The utility poles are wooden and weathered, typical of rural Ukrainian infrastructure. The architecture of the houses in the background, with their pitched roofs and specific chimney styles, aligns with Ukrainian rural housing. The vegetation is lush and green, consistent with the temperate climate of Western Ukraine. The road surface is asphalt but lacks lane markings, which is common in smaller residential streets. The shadows suggest a low sun angle, consistent with the latitude. The overall aesthetic, including the mix of old and new fencing materials, is characteristic of Ukrainian suburbs.\",\n  \"evidence\": [\n    \"Corrugated metal fence with brick pillars on the left\",\n    \"Mixed concrete block and metal fence on the right\",\n    \"Wooden utility poles with overhead wires\",\n    \"Pitched roof houses with grey/brown tiling in background\",\n    \"Lush green vegetation indicating temperate climate\",\n    \"Narrow paved residential street without lane markings\",\n    \"Clear blue sky suggesting fair weather\"\n  ]\n}",
+      "evidence_spans": [
+        "Corrugated metal fence with brick pillars on the left",
+        "Mixed concrete block and metal fence on the right",
+        "Wooden utility poles with overhead wires",
+        "Pitched roof houses with grey/brown tiling in background",
+        "Lush green vegetation indicating temperate climate",
+        "Narrow paved residential street without lane markings",
+        "Clear blue sky suggesting fair weather"
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "The image depicts a narrow, paved residential street in a rural or suburban setting.",
+          "The road surface is asphalt, appearing relatively new or well-maintained, with no visible lane markings.",
+          "On the left, there is a tall, dark brown metal fence (likely corrugated steel) supported by brick pillars.",
+          "On the right, there is a mixed fence: a lower section made of light grey concrete blocks topped with a dark brown metal panel.",
+          "Utility poles are wooden and appear weathered, with overhead wires strung between them.",
+          "The vegetation is lush and green, indicating a temperate climate during late spring or summer.",
+          "The houses visible in the background have pitched roofs with grey or brown tiling.",
+          "The sky is clear and blue, suggesting fair weather.",
+          "There are no visible license plates or clear text on signs.",
+          "The shadows are long and cast to the left, suggesting the sun is low in the sky (morning or late afternoon) and positioned to the right of the camera.",
+          "The architecture of the fences and houses is functional and typical of Eastern European private housing (individual plots)."
+        ],
+        "hard_clues": [
+          "Fence style: The combination of brick pillars with dark brown corrugated metal fencing is highly characteristic of post-Soviet countries, particularly Russia, Ukraine, and Belarus.",
+          "Concrete block fence: The specific design of the fence on the right (grey concrete blocks with metal inserts) is a very common modern fencing style in Russia and surrounding regions.",
+          "Utility poles: The wooden poles with the specific arrangement of cross-arms and insulators are consistent with the power grid infrastructure found in rural Russia.",
+          "Roofing: The grey/brown tiled roofs on single-story detached houses are standard for 'dachas' or suburban homes in this region.",
+          "Vegetation: The mix of deciduous trees and overgrown grass/weeds along the road edges fits the temperate continental climate of Eastern Europe."
+        ],
+        "ambiguous_clues": [
+          "Road width: The road is narrow, making it difficult to determine if it's a one-way or two-way street, though two-way is implied by the width.",
+          "Specific location: Without street signs or house numbers, pinpointing the exact city or village is impossible based solely on this image.",
+          "Time of day: While shadows indicate morning or late afternoon, the exact time cannot be determined without knowing the cardinal direction.",
+          "Country specificity: While the clues strongly point to Russia, similar fencing and architecture styles exist in Ukraine, Belarus, and Kazakhstan."
+        ],
+        "possible_scripts": [
+          "Cyrillic (Russian, Ukrainian, Belarusian)",
+          "Latin (less likely for local signage in this specific context, but possible for international brands)"
+        ],
+        "driving_side": "right"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "Ukraine",
+          "Russia",
+          "Belarus",
+          "Moldova",
+          "Poland",
+          "Romania"
+        ],
+        "zoom_boxes": [
+          [
+            0,
+            0,
+            250,
+            400
+          ],
+          [
+            550,
+            350,
+            1000,
+            600
+          ]
+        ],
+        "verification_queries": [
+          "Identify the specific style of the brick pillars and metal fence combination on the left side of the road.",
+          "Analyze the roof tiles and chimney styles of the houses in the background to narrow down the region.",
+          "Check for any faint text or symbols on the utility poles or distant signs.",
+          "Determine the typical vegetation and tree species visible to confirm the climate zone.",
+          "Examine the road surface and any potential markings for regional standards."
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "ua",
+      "predicted_region": "europe",
+      "predicted_lat": 49.8397,
+      "predicted_lng": 24.0297,
+      "confidence": 0.95
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "ua",
+      "predicted_region": "europe",
+      "predicted_lat": 49.8397,
+      "predicted_lng": 24.0297,
+      "confidence": 0.95
+    },
+    "base_prediction_summary": {
+      "predicted_country": "ua",
+      "predicted_region": "europe",
+      "predicted_lat": 49.8397,
+      "predicted_lng": 24.0297,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.95,
+    "skill_boost_aggressive_confidence": 0.95,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7563480079174042,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "Fences made of corrugated metal attached to brick and concrete pillars, and low wooden pickets, are frequently seen in Ukraine and Russia.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7338559091091157,
+          "visual_cues": [
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7061945915222168,
+          "visual_cues": [
+            "architecture",
+            "building",
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The environment and mix of infrastructure, with small shops and residential houses along a main road, is typical of towns or villages near large cities in Bulgaria.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6776231497526168,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The houses have plastered exteriors in a pale pink-beige tone with brown shutters and sloped, tiled roofs, typical of suburban French architecture.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.649421826004982,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The bus stop shelter on the right with faded paint and a concrete structure is typical of rural Ukraine, Russia, or Belarus.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6492420494556428,
+          "visual_cues": [
+            "right",
+            "shelter",
+            "stop",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6356428086757661,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The architecture of the houses in the distance, particularly the red-tiled roofs and low-rise, wide structures, is very common in Southern or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.44768463075160986,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The apartment block visible in the background is of Soviet-era panel style, common in Ukrainian cities outside the very center.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.4450539290904999,
+          "visual_cues": [
+            "apartment",
+            "background",
+            "block",
+            "visible"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The abundance of brick architecture with European-style housing (single houses with multiple floors) is very common in the Northwestern countries of Europe",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.4266862571239472,
+          "visual_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The apartment block style with balconies, flower boxes, and stucco finish is typical of post-Soviet or Eastern Bloc countries in Central/Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.4066657543182373,
+          "visual_cues": [
+            "apartment",
+            "block",
+            "style",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The architecture of the apartment buildings is typical of Eastern European post-socialist countries with utilitarian, block-style construction and balconies.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.3993895679712296,
+          "visual_cues": [
+            "architecture",
+            "building"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "fence"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "building"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "with"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "apartment",
+            "block"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+        "Fences made of corrugated metal attached to brick and concrete pillars, and low wooden pickets, are frequently seen in Ukraine and Russia.",
+        "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+        "The environment and mix of infrastructure, with small shops and residential houses along a main road, is typical of towns or villages near large cities in Bulgaria.",
+        "The houses have plastered exteriors in a pale pink-beige tone with brown shutters and sloped, tiled roofs, typical of suburban French architecture.",
+        "The bus stop shelter on the right with faded paint and a concrete structure is typical of rural Ukraine, Russia, or Belarus.",
+        "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+        "The architecture of the houses in the distance, particularly the red-tiled roofs and low-rise, wide structures, is very common in Southern or Eastern Europe.",
+        "The apartment block visible in the background is of Soviet-era panel style, common in Ukrainian cities outside the very center.",
+        "The abundance of brick architecture with European-style housing (single houses with multiple floors) is very common in the Northwestern countries of Europe",
+        "The apartment block style with balconies, flower boxes, and stucco finish is typical of post-Soviet or Eastern Bloc countries in Central/Eastern Europe.",
+        "The architecture of the apartment buildings is typical of Eastern European post-socialist countries with utilitarian, block-style construction and balconies."
+      ],
+      "summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

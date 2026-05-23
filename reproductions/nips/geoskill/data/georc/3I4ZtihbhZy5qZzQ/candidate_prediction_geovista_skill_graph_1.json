@@ -1,0 +1,843 @@
+{
+  "game_id": "3I4ZtihbhZy5qZzQ",
+  "round": 1,
+  "sample_id": "georc::3I4ZtihbhZy5qZzQ::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "bd",
+    "predicted_region": "asia",
+    "predicted_address": "Rural pond-side village lane near Khulna, Khulna Division, Bangladesh",
+    "predicted_lat": 22.82,
+    "predicted_lng": 89.55,
+    "reasoning_text": "{\n  \"country\": \"Bangladesh\",\n  \"country_code\": \"bd\",\n  \"region\": \"South Asia\",\n  \"city\": \"Khulna area\",\n  \"province_or_state\": \"Khulna Division\",\n  \"address\": \"Rural pond-side village lane near Khulna, Khulna Division, Bangladesh\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"Applying the ordered skills first: (1) the very narrow paved road without lane markings fits developing rural infrastructure and is strongly compatible with Bangladesh. (2) The simple asphalt lane and minimal road engineering reinforce a rural/suburban setting in a developing South Asian country. (3) Although similar roads can occur in Thailand, the surrounding settlement pattern is less Thai and more Bengal-delta in character. (4) The lack of markings and the informal village roadside environment are consistent with smaller-town or village Bangladesh. Composing linked skills next: the general tropical-residential road cues from skills 8 and 9 support a humid lowland rural setting, while skill 10 directly matches rural outskirts of Khulna. I discount alternatives suggested by other skills: Indonesia and Sri Lanka are possible from vegetation alone, but the pond-side homestead layout, flat deltaic terrain, and village lane form are more typical of Bangladesh. India, especially West Bengal, is the main alternative, but the base evidence and overall scene fit Bangladesh slightly better. Therefore the most consistent final guess is a rural village lane by a pond near Khulna in Khulna Division, Bangladesh.\",\n  \"evidence\": [\n    \"Extremely narrow paved village road with no lane markings\",\n    \"Road runs directly beside a still pond or canal\",\n    \"Flat, low-lying deltaic terrain\",\n    \"Dense tropical greenery with coconut palms\",\n    \"Rural homestead-style settlement partly hidden by vegetation\",\n    \"Overhead utility wires on simple poles\",\n    \"Minimal road infrastructure typical of Bangladeshi villages\"\n  ]\n}",
+    "evidence_spans": [
+      "Extremely narrow paved village road with no lane markings",
+      "Road runs directly beside a still pond or canal",
+      "Flat, low-lying deltaic terrain",
+      "Dense tropical greenery with coconut palms",
+      "Rural homestead-style settlement partly hidden by vegetation",
+      "Overhead utility wires on simple poles",
+      "Minimal road infrastructure typical of Bangladeshi villages"
+    ],
+    "confidence": 0.72,
+    "base_prediction_summary": {
+      "predicted_country": "bd",
+      "predicted_region": "asia",
+      "confidence": 0.61
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The narrow paved road without lane markings hints at a country with developing infrastructure, often found outside major cities in Bangladesh.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 1,
+        "score": 0.8765866756439209,
+        "bm25_score": 27.7807674407959,
+        "semantic_score": 0.6683235168457031
+      },
+      {
+        "skill_text": "The road is narrow with simple asphalt and minimal lane markings, typical of rural or suburban regions in developing countries.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.8643449544906616,
+        "bm25_score": 35.68164825439453,
+        "semantic_score": 0.47938334941864014
+      },
+      {
+        "skill_text": "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 1,
+        "score": 0.8356866836547852,
+        "bm25_score": 31.411727905273438,
+        "semantic_score": 0.5272890329360962
+      },
+      {
+        "skill_text": "The lack of lane markings and the informal roadside commerce are consistent with smaller towns in Bangladesh.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 2,
+        "score": 0.7933192253112793,
+        "bm25_score": 22.551746368408203,
+        "semantic_score": 0.652965784072876
+      },
+      {
+        "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.7848490476608276,
+        "bm25_score": 30.758211135864258,
+        "semantic_score": 0.4632410407066345
+      },
+      {
+        "skill_text": "The road is narrow with a single lane in each direction, and the lane markings are simple white edge lines, which is common in India and Sri Lanka.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 3,
+        "score": 0.7741107940673828,
+        "bm25_score": 29.541799545288086,
+        "semantic_score": 0.47293296456336975
+      },
+      {
+        "skill_text": "Given this combination of agricultural practice, vegetation type, infrastructure, and road markings, this is most likely rural India, particularly in West Bengal near Kolkata, as the area matches the flat, green, and lush environment.",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road",
+          "road markings",
+          "vegetation"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 2,
+        "score": 0.7607711553573608,
+        "bm25_score": 21.802669525146484,
+        "semantic_score": 0.6190803050994873
+      },
+      {
+        "skill_text": "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "asphalt",
+          "paved",
+          "street",
+          "with"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 2,
+        "score": 0.7545494437217712,
+        "bm25_score": 30.598892211914062,
+        "semantic_score": 0.42011162638664246
+      },
+      {
+        "skill_text": "The pathway is narrow and paved with concrete, typical for rural or semi-urban trails in tropical countries.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "narrow",
+          "pathway",
+          "paved",
+          "with"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 4,
+        "score": 0.7459704875946045,
+        "bm25_score": 27.42172622680664,
+        "semantic_score": 0.4753422141075134
+      },
+      {
+        "skill_text": "No visible signage or language, but the overall scene matches rural outskirts of Khulna, Bangladesh.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 1,
+        "score": 0.7436264157295227,
+        "bm25_score": 23.064369201660156,
+        "semantic_score": 0.5655666589736938
+      },
+      {
+        "skill_text": "The absence of road markings on this narrow lane matches rural roads in the UK, especially in less populated regions.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 2,
+        "score": 0.7352644205093384,
+        "bm25_score": 26.855051040649414,
+        "semantic_score": 0.47109276056289673
+      },
+      {
+        "skill_text": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 2,
+        "score": 0.7330477237701416,
+        "bm25_score": 27.636505126953125,
+        "semantic_score": 0.45085954666137695
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The narrow paved road without lane markings hints at a country with developing infrastructure, often found outside major cities in Bangladesh.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8765866756439209,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road is narrow with simple asphalt and minimal lane markings, typical of rural or suburban regions in developing countries.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8643449544906616,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8356866836547852,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The lack of lane markings and the informal roadside commerce are consistent with smaller towns in Bangladesh.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7933192253112793,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7848490476608276,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The road is narrow with a single lane in each direction, and the lane markings are simple white edge lines, which is common in India and Sri Lanka.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7741107940673828,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "Given this combination of agricultural practice, vegetation type, infrastructure, and road markings, this is most likely rural India, particularly in West Bengal near Kolkata, as the area matches the flat, green, and lush environment.",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.7607711553573608,
+          "visual_cues": [
+            "road",
+            "road markings",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7545494437217712,
+          "visual_cues": [
+            "asphalt",
+            "paved",
+            "street",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The pathway is narrow and paved with concrete, typical for rural or semi-urban trails in tropical countries.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7459704875946045,
+          "visual_cues": [
+            "narrow",
+            "pathway",
+            "paved",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "No visible signage or language, but the overall scene matches rural outskirts of Khulna, Bangladesh.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7436264157295227,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The absence of road markings on this narrow lane matches rural roads in the UK, especially in less populated regions.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7352644205093384,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7330477237701416,
+          "visual_cues": [
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "paved",
+            "with"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The narrow paved road without lane markings hints at a country with developing infrastructure, often found outside major cities in Bangladesh.",
+        "The road is narrow with simple asphalt and minimal lane markings, typical of rural or suburban regions in developing countries.",
+        "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+        "The lack of lane markings and the informal roadside commerce are consistent with smaller towns in Bangladesh.",
+        "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "The road is narrow with a single lane in each direction, and the lane markings are simple white edge lines, which is common in India and Sri Lanka.",
+        "Given this combination of agricultural practice, vegetation type, infrastructure, and road markings, this is most likely rural India, particularly in West Bengal near Kolkata, as the area matches the flat, green, and lush environment.",
+        "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+        "The pathway is narrow and paved with concrete, typical for rural or semi-urban trails in tropical countries.",
+        "No visible signage or language, but the overall scene matches rural outskirts of Khulna, Bangladesh.",
+        "The absence of road markings on this narrow lane matches rural roads in the UK, especially in less populated regions.",
+        "The road itself is narrow and has a simple asphalt surface with minimal markings, suggesting a rural or mountainous area."
+      ],
+      "summary": "nodes=12, edges=54, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Bangladesh\",\n  \"country_code\": \"bd\",\n  \"region\": \"South Asia\",\n  \"city\": \"Khulna area\",\n  \"province_or_state\": \"Khulna Division\",\n  \"address\": \"Rural pond-side village lane near Khulna, Khulna Division, Bangladesh\",\n  \"confidence\": 0.61,\n  \"reasoning\": \"The scene shows a very narrow ",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 54,
+        "graph_summary": "nodes=12, edges=54, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "bd"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

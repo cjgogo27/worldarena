@@ -1,0 +1,11 @@
+{
+  "country": "Canada",
+  "country_code": "ca",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved gravel road with no center line or markings is typical of rural Canadian farmland, especially in provinces like Ontario or Quebec.",
+    "The utility pole on the right side of the road aligns with left-hand traffic conventions, consistent with Canadian driving standards.",
+    "The overcast sky and temperate deciduous vegetation (mix of green and autumnal trees) suggest a mid-latitude climate common in eastern Canada."
+  ],
+  "raw_output": "{\n  \"country\": \"Canada\",\n  \"country_code\": \"ca\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved gravel road with no center line or markings is typical of rural Canadian farmland, especially in provinces like Ontario or Quebec.\",\n    \"The utility pole on the right side of the road aligns with left-hand traffic conventions, consistent with Canadian driving standards.\",\n    \"The overcast sky and temperate deciduous vegetation (mix of green and autumnal trees) suggest a mid-latitude climate common in eastern Canada.\",\n    \"The absence of"
+}

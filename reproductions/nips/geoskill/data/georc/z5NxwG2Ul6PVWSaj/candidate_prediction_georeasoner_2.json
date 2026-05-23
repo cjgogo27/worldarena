@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved, narrow dirt road with no markings or center line is typical of rural Indian countryside infrastructure.",
+    "Vegetation consists of dry grasses and scattered acacia-like trees, consistent with the Deccan Plateau or central Indian savanna biome.",
+    "Absence of utility poles, signage, or modern infrastructure suggests a remote, non-urbanized region common in interior India."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved, narrow dirt road with no markings or center line is typical of rural Indian countryside infrastructure.\",\n    \"Vegetation consists of dry grasses and scattered acacia-like trees, consistent with the Deccan Plateau or central Indian savanna biome.\",\n    \"Absence of utility poles, signage, or modern infrastructure suggests a remote, non-urbanized region common in interior India.\",\n    \"The hazy horizon and low sun angle"
+}

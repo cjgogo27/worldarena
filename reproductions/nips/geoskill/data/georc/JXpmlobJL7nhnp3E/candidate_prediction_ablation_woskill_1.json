@@ -1,0 +1,25 @@
+{
+  "game_id": "JXpmlobJL7nhnp3E",
+  "round": 1,
+  "sample_id": "georc::JXpmlobJL7nhnp3E::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "bn",
+    "predicted_region": "asia",
+    "predicted_address": "Rural road near Tutong, Tutong District, Brunei",
+    "predicted_lat": 4.58333333,
+    "predicted_lng": 114.66666667,
+    "reasoning_text": "{\n  \"country\": \"Brunei\",\n  \"country_code\": \"bn\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Tutong\",\n  \"province_or_state\": \"Tutong District\",\n  \"address\": \"Rural road near Tutong, Tutong District, Brunei\",\n  \"confidence\": 0.49,\n  \"reasoning\": \"The scene shows a humid equatorial environment with dense tropical vegetation, coconut palms, and low-rise detached housing typical of northern Borneo. The road markings suggest left-hand traffic, which narrows the likely countries in this region to places like Malaysia, Brunei, or Indonesia. The paved two-lane road with double broken white center lines, clean edge lines, and the semi-rural residential style are especially consistent with Brunei's suburban and rural highways. The walled house compound and the overall road quality feel more like Brunei than rural Indonesia. The terrain and vegetation also fit Brunei's inland areas, and a rural stretch near Tutong is a plausible match.\",\n  \"evidence\": [\n    \"Dense tropical rainforest vegetation and coconut palms\",\n    \"Two-lane paved road with double broken white center lines and edge lines\",\n    \"Apparent left-hand driving\",\n    \"Low-rise detached house with fenced/walled compound\",\n    \"Humid equatorial climate typical of northern Borneo\",\n    \"Road quality and roadside appearance consistent with rural Brunei\"\n  ]\n}",
+    "evidence_spans": [
+      "Dense tropical rainforest vegetation and coconut palms",
+      "Two-lane paved road with double broken white center lines and edge lines",
+      "Apparent left-hand driving",
+      "Low-rise detached house with fenced/walled compound",
+      "Humid equatorial climate typical of northern Borneo",
+      "Road quality and roadside appearance consistent with rural Brunei"
+    ],
+    "confidence": 0.49
+  },
+  "error": null
+}

@@ -1,0 +1,12 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "Cars are parked on the left side of the road, indicating left-hand traffic, which is characteristic of Australia.",
+    "The utility poles and overhead wires are typical of Australian suburban infrastructure.",
+    "The vegetation, including eucalyptus trees and grassy lawns, is consistent with Australian suburban landscapes.",
+    "The architecture of the houses, with tiled roofs and wooden fences, is common in Australian residential areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Cars are parked on the left side of the road, indicating left-hand traffic, which is characteristic of Australia.\",\n    \"The utility poles and overhead wires are typical of Australian suburban infrastructure.\",\n    \"The vegetation, including eucalyptus trees and grassy lawns, is consistent with Australian suburban landscapes.\",\n    \"The architecture of the houses, with tiled roofs and wooden fences, is common in Australian residential areas.\"\n  ]\n}"
+}

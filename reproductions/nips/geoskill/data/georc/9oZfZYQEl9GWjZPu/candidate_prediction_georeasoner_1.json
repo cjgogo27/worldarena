@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt with no center line, typical of rural Brazilian roads in less developed regions.",
+    "Vegetation includes palm trees and broadleaf evergreens consistent with tropical climates found in northern or northeastern Brazil.",
+    "No visible signage, utility poles, or vehicles provide direct clues, but the open landscape and lack of urban infrastructure suggest a remote rural area."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt with no center line, typical of rural Brazilian roads in less developed regions.\",\n    \"Vegetation includes palm trees and broadleaf evergreens consistent with tropical climates found in northern or northeastern Brazil.\",\n    \"No visible signage, utility poles, or vehicles provide direct clues, but the open landscape and lack of urban infrastructure suggest a remote rural area.\",\n    \"The sky and cloud formations are common in equatorial regions"
+}

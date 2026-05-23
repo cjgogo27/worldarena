@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with no passing, consistent with US road standards.",
+    "Absence of utility poles, street signs, or buildings suggests a rural or wilderness area typical of US national forests or state parks.",
+    "Vegetation includes dense deciduous trees and dry grasses, common in temperate regions of the eastern or central US."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with no passing, consistent with US road standards.\",\n    \"Absence of utility poles, street signs, or buildings suggests a rural or wilderness area typical of US national forests or state parks.\",\n    \"Vegetation includes dense deciduous trees and dry grasses, common in temperate regions of the eastern or central US.\",\n    \"Road surface is well-maintained asphalt with clear markings, indicating public"
+}

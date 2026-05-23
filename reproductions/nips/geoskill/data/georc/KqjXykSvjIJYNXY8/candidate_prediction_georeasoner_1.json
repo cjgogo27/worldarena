@@ -1,0 +1,11 @@
+{
+  "country": "Uganda",
+  "country_code": "ug",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved, reddish-brown dirt road is typical of rural or semi-urban areas in East Africa, particularly Uganda.",
+    "Utility poles with overhead wires and the style of construction (concrete buildings with metal railings) are common in Ugandan towns.",
+    "Vehicles are driving on the left side of the road, consistent with countries that follow left-hand traffic rules like Uganda."
+  ],
+  "raw_output": "{\n  \"country\": \"Uganda\",\n  \"country_code\": \"ug\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved, reddish-brown dirt road is typical of rural or semi-urban areas in East Africa, particularly Uganda.\",\n    \"Utility poles with overhead wires and the style of construction (concrete buildings with metal railings) are common in Ugandan towns.\",\n    \"Vehicles are driving on the left side of the road, consistent with countries that follow left-hand traffic rules like Uganda.\",\n    \"Signage such as 'Foto"
+}

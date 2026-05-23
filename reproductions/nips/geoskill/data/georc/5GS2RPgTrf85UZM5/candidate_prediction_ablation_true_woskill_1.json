@@ -1,0 +1,34 @@
+{
+  "game_id": "5GS2RPgTrf85UZM5",
+  "round": 1,
+  "sample_id": "georc::5GS2RPgTrf85UZM5::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "rs",
+    "predicted_region": "europe",
+    "predicted_address": "Bulevar Nemanjića, Niš, Nišavski okrug, Serbia",
+    "predicted_lat": 43.3185935,
+    "predicted_lng": 21.919361,
+    "reasoning_text": "```json\n{\n  \"country\": \"Serbia\",\n  \"country_code\": \"rs\",\n  \"region\": \"Europe\",\n  \"city\": \"Niš\",\n  \"province_or_state\": \"Nišavski okrug\",\n  \"address\": \"Bulevar Nemanjića, Niš, Nišavski okrug, Serbia\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The image shows a road scene with several distinctive features. The driving side appears to be right-hand traffic (vehicles on right side of road, white van positioned for right-side driving). The license plates visible on vehicles appear to match Serbian format (white plates with dark text). The architecture with red-tiled roofs, the style of utility poles, and the general suburban/rural fringe development pattern is consistent with Serbian towns. The mountainous backdrop suggests a location near hills or mountains. The road marking style with dashed center line and the overall infrastructure quality matches Serbian secondary roads. The vegetation (deciduous trees, grassy verges) and climate indicators (bright sunny day, lush green growth) fit the Serbian climate. Niš is a major city in southern Serbia with this type of suburban expansion along main roads, and Bulevar Nemanjića is a significant thoroughfare matching this scene.\",\n  \"evidence\": [\"Right-hand traffic driving pattern\", \"Serbian-style license plates (white with dark text)\", \"Red-tiled roof architecture typical of Balkans\", \"Utility pole design consistent with Serbia\", \"Mountainous backdrop characteristic of southern Serbia\", \"Road marking style and infrastructure quality\", \"Vegetation and climate indicators matching Serbian summer\"]\n}\n```",
+    "evidence_spans": [
+      "Right-hand traffic driving pattern",
+      "Serbian-style license plates (white with dark text)",
+      "Red-tiled roof architecture typical of Balkans",
+      "Utility pole design consistent with Serbia",
+      "Mountainous backdrop characteristic of southern Serbia",
+      "Road marking style and infrastructure quality",
+      "Vegetation and climate indicators matching Serbian summer"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "bg",
+      "rs",
+      "ro"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"bg\",\"rs\",\"ro\"],\"reason\":\"Right-hand traffic with European-style road markings and vehicles. Utility poles and low-density residential architecture with red-tiled roofs are characteristic of the Balkans. The Renault Trafic van, vegetation, and mountainous backdrop strongly suggest Bulgaria, with Serbia and Romania as plausible alternatives due to similar regional characteristics.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.745
+  },
+  "error": null
+}

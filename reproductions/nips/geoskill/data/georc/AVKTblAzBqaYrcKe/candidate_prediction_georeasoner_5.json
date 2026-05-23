@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The red lateritic soil and sparse vegetation are characteristic of the Cerrado biome, common in central Brazil.",
+    "Concrete utility poles with overhead wires and simple rural architecture align with infrastructure patterns in Brazilian countryside areas.",
+    "No visible road markings or signage, but the unpaved shoulder and dirt patches suggest a low-traffic rural road typical of interior Brazil."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The red lateritic soil and sparse vegetation are characteristic of the Cerrado biome, common in central Brazil.\",\n    \"Concrete utility poles with overhead wires and simple rural architecture align with infrastructure patterns in Brazilian countryside areas.\",\n    \"No visible road markings or signage, but the unpaved shoulder and dirt patches suggest a low-traffic rural road typical of interior Brazil.\",\n    \"The absence of snow, dense forests, or tropical rainforest elements rules out temper"
+}

@@ -1,0 +1,79 @@
+{
+  "user_id": "40103260_3",
+  "input_demographics": {
+    "sex": "female",
+    "age": 16,
+    "age_range": "16-17 years old",
+    "race": "White",
+    "enrolled_in_school": true,
+    "employed": false,
+    "occupation": "None",
+    "marital_status": "never married",
+    "primary_activity": "Going to school"
+  },
+  "raw_output": "| Place Visited           | Arrival Time    | Departure Time  | Location Type |\n|-------------------------|-----------------|-----------------|---------------|\n| Home                    | 07:15 AM        | 07:45 AM        | 1              |\n| School                  | 07:45 AM        | 12:30 PM        | 8              |\n| Library                 | 12:45 PM        | 01:15 PM        | 14             |\n| Grocery Store          | 01:30 PM        | 02:15 PM        | 11             |\n| Home                    | 02:15 PM        | 03:00 PM        | 1              |\n| Park                   | 03:15 PM        | 04:30 PM        | 15             |\n| Home                    | 04:30 PM        | 05:30 PM        | 1              |",
+  "schedule": [
+    {
+      "activity": "home",
+      "start_time": "07:15",
+      "end_time": "07:45"
+    },
+    {
+      "activity": "education",
+      "start_time": "07:45",
+      "end_time": "12:30"
+    },
+    {
+      "activity": "service",
+      "start_time": "12:45",
+      "end_time": "13:15"
+    },
+    {
+      "activity": "shopping",
+      "start_time": "13:30",
+      "end_time": "14:15"
+    },
+    {
+      "activity": "home",
+      "start_time": "14:15",
+      "end_time": "15:00"
+    },
+    {
+      "activity": "socialize",
+      "start_time": "15:15",
+      "end_time": "16:30"
+    },
+    {
+      "activity": "home",
+      "start_time": "16:30",
+      "end_time": "17:30"
+    }
+  ],
+  "ground_truth": [
+    {
+      "activity": "home",
+      "start_time": "00:00",
+      "end_time": "07:37"
+    },
+    {
+      "activity": "education",
+      "start_time": "07:37",
+      "end_time": "15:37"
+    },
+    {
+      "activity": "home",
+      "start_time": "15:37",
+      "end_time": "17:27"
+    },
+    {
+      "activity": "work",
+      "start_time": "17:27",
+      "end_time": "19:35"
+    },
+    {
+      "activity": "home",
+      "start_time": "19:35",
+      "end_time": "24:00"
+    }
+  ]
+}

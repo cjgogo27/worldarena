@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved dirt road with tire tracks and adjacent agricultural fields is typical of rural India, especially in states like Punjab or Haryana.",
+    "The vegetation—dense green trees and crops like wheat or rice—aligns with the monsoon-influenced climate of northern India.",
+    "No visible road signs, utility poles, or vehicles suggest a remote rural area, common in less-developed regions of India."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved dirt road with tire tracks and adjacent agricultural fields is typical of rural India, especially in states like Punjab or Haryana.\",\n    \"The vegetation—dense green trees and crops like wheat or rice—aligns with the monsoon-influenced climate of northern India.\",\n    \"No visible road signs, utility poles, or vehicles suggest a remote rural area, common in less-developed regions of India.\",\n    \"The hazy sky and"
+}

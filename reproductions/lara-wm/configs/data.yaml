@@ -1,0 +1,22 @@
+dataset:
+  path: "/data/alice/cjtest/lara-wm/data/robotwin/dataset"
+  tasks:
+    - grab_roller
+    - place_a2b_left
+    - stack_blocks_two
+    - handover_block
+    - open_laptop
+    - adjust_bottle
+    - beat_block_hammer
+    - click_bell
+    - dump_bin_bigbin
+    - press_stapler
+
+  train_split: 0.9
+  val_split: 0.1
+
+  preprocessing:
+    normalize_actions: true
+    normalize_observations: true
+    action_dim: 7
+    state_dim: 14

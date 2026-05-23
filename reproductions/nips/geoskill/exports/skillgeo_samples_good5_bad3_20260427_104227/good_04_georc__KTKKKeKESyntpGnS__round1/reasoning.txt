@@ -1,0 +1,13 @@
+```json
+{
+  "country": "Austria",
+  "country_code": "at",
+  "region": "Europe",
+  "city": "Gänserndorf",
+  "province_or_state": "Lower Austria",
+  "address": "Rural road near Gänserndorf, Lower Austria, Austria",
+  "confidence": 0.72,
+  "reasoning": "STEP 1 - HEMISPHERE & CLIMATE ZONE: The sun position and vegetation suggest Central Europe in late autumn or early spring. STEP 2 - DRIVING SIDE & ROAD STANDARDS: Right-hand traffic is implied by road layout. The road markings (white center line, diagonal chevron/hatching pattern, white edge lines, dashed zigzag markings for pedestrian/speed zones) and white delineators with black tops are characteristic of Austrian/German road standards. STEP 3 - LANGUAGE & SIGNS: German-language road signage context and European curve warning signs with black chevrons on white rectangular backgrounds point to German-speaking Europe. STEP 4 - VEGETATION & TERRAIN: Flat agricultural landscape with mixed deciduous/coniferous trees matches the Marchfeld region of Lower Austria near Gänserndorf. STEP 5 - SYNTHESIS: The combination of Austrian-specific road delineators, Lower Austrian flat rural terrain, and the initial strong hypothesis of Gänserndorf area makes this the most probable location. Confidence is slightly reduced due to lack of clearly visible definitive signage.",
+  "evidence": ["white road delineators with black tops characteristic of Austria/Germany", "diagonal chevron/hatching road markings and dashed zigzag speed reduction markings", "flat agricultural landscape with mixed forest typical of Lower Austria", "German-language European road sign context", "black chevron curve warning signs on white rectangular backgrounds", "narrow rural road with white center line and edge markings", "late autumn/early spring vegetation without snow"]
+}
+```

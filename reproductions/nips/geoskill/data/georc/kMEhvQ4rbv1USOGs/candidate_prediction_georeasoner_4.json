@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane highway with a concrete median and yellow edge lines, typical of rural US roads.",
+    "Utility poles are wooden and spaced regularly, consistent with American rural infrastructure.",
+    "Vegetation is tall grass and scattered shrubs under a clear blue sky, indicating a temperate or semi-arid climate common in central US states."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane highway with a concrete median and yellow edge lines, typical of rural US roads.\",\n    \"Utility poles are wooden and spaced regularly, consistent with American rural infrastructure.\",\n    \"Vegetation is tall grass and scattered shrubs under a clear blue sky, indicating a temperate or semi-arid climate common in central US states.\",\n    \"No signage, vehicles, or urban features are visible, suggesting a remote or"
+}

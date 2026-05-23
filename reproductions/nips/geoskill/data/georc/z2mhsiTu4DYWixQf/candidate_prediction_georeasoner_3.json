@@ -1,0 +1,10 @@
+{
+  "country": "Russia",
+  "country_code": "ru",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of a tall, isolated utility pole with overhead wires and no streetlights or modern infrastructure suggests a remote or industrial area common in northern Russia.",
+    "The vegetation—dense shrubs, birch-like trees, and lack of manicured landscaping—is typical of boreal forest zones found across Siberia and northern Russia."
+  ],
+  "raw_output": "{\n  \"country\": \"Russia\",\n  \"country_code\": \"ru\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of a tall, isolated utility pole with overhead wires and no streetlights or modern infrastructure suggests a remote or industrial area common in northern Russia.\",\n    \"The vegetation—dense shrubs, birch-like trees, and lack of manicured landscaping—is typical of boreal forest zones found across Siberia and northern Russia.\",\n    \"The weathered, rusted metal buildings and corrugated fencing indicate an industrial or storage facility, often seen in Russian"
+}

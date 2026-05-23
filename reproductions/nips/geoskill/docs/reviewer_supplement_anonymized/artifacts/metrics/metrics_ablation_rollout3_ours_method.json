@@ -1,0 +1,36 @@
+{
+  "geoskill_skill_graph": {
+    "country_accuracy": 0.0,
+    "continent_accuracy": 0.02,
+    "distance_error_km_median": 20037.0,
+    "distance_error_km_mean_valid_only": null,
+    "distance_error_km_mean_penalized": 20037.0,
+    "distance_error_km_std_penalized": 0.0,
+    "valid_coordinate_rate": 0.0,
+    "coverage_rate": 0.0,
+    "total_samples": 50.0,
+    "valid_predictions": 0.0,
+    "Acc@10km": 0.0,
+    "Acc@25km": 0.0,
+    "Acc@200km": 0.0,
+    "Acc@750km": 0.0,
+    "Acc@2000km": 0.0,
+    "elapsed_seconds": 136.06490874290466,
+    "num_samples": 50,
+    "num_errors": 50,
+    "recovered_failures": 0,
+    "generated_skill_count": 31,
+    "fused_skill_count": 0,
+    "rollout_rounds": 3,
+    "rollout_failure_distance_km": 200.0,
+    "search_evolution_enabled": false,
+    "search_evolution_provider": "brave",
+    "skill_graph_versions": 3,
+    "remaining_failed_cases": 50
+  },
+  "_meta": {
+    "source_summary": "experiments/ablation_geoskill_skill_graph_georc50_rollout3/summary_metrics.json",
+    "method_alias": "geoskill_skill_graph",
+    "note": "Method key renamed for anonymous review package."
+  }
+}

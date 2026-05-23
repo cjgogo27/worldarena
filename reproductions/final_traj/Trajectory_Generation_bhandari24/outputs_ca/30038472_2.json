@@ -1,0 +1,129 @@
+{
+  "user_id": "30038472_2",
+  "input_demographics": {
+    "sex": "male",
+    "age": 80,
+    "age_range": "76 years old or older",
+    "race": "White",
+    "enrolled_in_school": false,
+    "employed": false,
+    "occupation": "None",
+    "marital_status": "married",
+    "primary_activity": "Retired"
+  },
+  "raw_output": "| Place Visited           | Arrival Time    | Departure Time  | Location Type |\n|-------------------------|-----------------|-----------------|---------------|\n| Home                    | 07:15 AM        | 07:45 AM        | 1             |\n| Grocery Store          | 07:45 AM        | 08:15 AM        | 11            |\n| Doctor's Office        | 08:15 AM        | 09:30 AM        | 18            |\n| Home                    | 09:30 AM        | 10:00 AM        | 1             |\n| Park                   | 10:00 AM        | 11:30 AM        | 15            |\n| Home                    | 11:30 AM        | 12:00 PM        | 1             |\n| Lunch                  | 12:00 PM        | 01:00 PM        | 13            |\n| Home                    | 01:00 PM        | 02:00 PM        | 1             |\n| Church                 | 02:00 PM        | 02:30 PM        | 19            |\n| Home                    | 02:30 PM        | 03:00 PM        | 1             |\n| Bank                   | 03:00 PM        | 03:30 PM        | 12            |\n| Home                    | 03:30 PM        | 04:00 PM        | 1             |\n| Dinner                 | 04:00 PM        | 05:00 PM        | 13            |\n| Home                    | 05:00 PM        | 06:00 PM        | 1             |\n| Movie Theater          | 06:00 PM        | 08:00 PM        | 15            |\n| Home                    | 08:00 PM        | 09:00 PM        | 1             |\n| Bed                    | 09:00 PM        | 10:00 PM        | 1             |",
+  "schedule": [
+    {
+      "activity": "home",
+      "start_time": "07:15",
+      "end_time": "07:45"
+    },
+    {
+      "activity": "shopping",
+      "start_time": "07:45",
+      "end_time": "08:15"
+    },
+    {
+      "activity": "medical",
+      "start_time": "08:15",
+      "end_time": "09:30"
+    },
+    {
+      "activity": "home",
+      "start_time": "09:30",
+      "end_time": "10:00"
+    },
+    {
+      "activity": "socialize",
+      "start_time": "10:00",
+      "end_time": "11:30"
+    },
+    {
+      "activity": "home",
+      "start_time": "11:30",
+      "end_time": "12:00"
+    },
+    {
+      "activity": "dine_out",
+      "start_time": "12:00",
+      "end_time": "13:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "13:00",
+      "end_time": "14:00"
+    },
+    {
+      "activity": "socialize",
+      "start_time": "14:00",
+      "end_time": "14:30"
+    },
+    {
+      "activity": "home",
+      "start_time": "14:30",
+      "end_time": "15:00"
+    },
+    {
+      "activity": "service",
+      "start_time": "15:00",
+      "end_time": "15:30"
+    },
+    {
+      "activity": "home",
+      "start_time": "15:30",
+      "end_time": "16:00"
+    },
+    {
+      "activity": "dine_out",
+      "start_time": "16:00",
+      "end_time": "17:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "17:00",
+      "end_time": "18:00"
+    },
+    {
+      "activity": "socialize",
+      "start_time": "18:00",
+      "end_time": "20:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "20:00",
+      "end_time": "21:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "21:00",
+      "end_time": "22:00"
+    }
+  ],
+  "ground_truth": [
+    {
+      "activity": "home",
+      "start_time": "00:00",
+      "end_time": "12:00"
+    },
+    {
+      "activity": "socialize",
+      "start_time": "12:00",
+      "end_time": "13:30"
+    },
+    {
+      "activity": "home",
+      "start_time": "13:30",
+      "end_time": "13:55"
+    },
+    {
+      "activity": "shopping",
+      "start_time": "13:55",
+      "end_time": "14:20"
+    },
+    {
+      "activity": "home",
+      "start_time": "14:20",
+      "end_time": "24:00"
+    }
+  ]
+}

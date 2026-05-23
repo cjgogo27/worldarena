@@ -1,0 +1,106 @@
+{
+  "game_id": "oIqmyQzBGtaIeI84",
+  "round": 1,
+  "sample_id": "georc::oIqmyQzBGtaIeI84::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ar",
+    "predicted_region": "south_america",
+    "predicted_address": "Calle República del Líbano, Barrio Jardín, Godoy Cruz, Mendoza Province, Argentina",
+    "predicted_lat": -32.93333,
+    "predicted_lng": -68.86667,
+    "reasoning_text": "```json\n{\n  \"country\": \"Argentina\",\n  \"country_code\": \"ar\",\n  \"region\": \"South America\",\n  \"city\": \"Godoy Cruz\",\n  \"province_or_state\": \"Mendoza Province\",\n  \"address\": \"Calle República del Líbano, Barrio Jardín, Godoy Cruz, Mendoza Province, Argentina\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The visual evidence strongly supports Mendoza Province, Argentina. The white-painted tree trunks are a distinctive and well-documented cultural practice specific to Mendoza, used to protect trees from sunscald and pests in the high-altitude desert climate. The architecture—single-story flat-roofed beige houses with high perimeter walls—is characteristic of middle-class Argentine suburban neighborhoods and gated communities (barrios cerrados) in the Greater Mendoza area. The street layout with curved roads, palm trees mixed with deciduous trees, dry grass verges, and the clear blue sky with high-altitude lighting all match the Mendoza region. The car parked on the right side of the road confirms right-hand traffic, consistent with Argentina. The suburban density and style are most consistent with the rapidly developed residential zones of Godoy Cruz, a major municipality directly adjacent to Mendoza city. Based on the typical street naming conventions and neighborhood patterns in Godoy Cruz, this appears to be a residential street in the Barrio Jardín area.\",\n  \"evidence\": [\"White-painted tree trunks (distinctive Mendoza practice)\", \"Flat-roofed beige single-story houses with high perimeter walls\", \"Palm trees mixed with deciduous street trees\", \"Dry grass verges and high-altitude desert climate vegetation\", \"Right-hand traffic with Argentine-style compact car\", \"Curved suburban residential street layout typical of Greater Mendoza barrios cerrados\", \"Clear blue sky with intense sunlight characteristic of Mendoza's arid climate\"]\n}\n```",
+    "evidence_spans": [
+      "White-painted tree trunks (distinctive Mendoza practice)",
+      "Flat-roofed beige single-story houses with high perimeter walls",
+      "Palm trees mixed with deciduous street trees",
+      "Dry grass verges and high-altitude desert climate vegetation",
+      "Right-hand traffic with Argentine-style compact car",
+      "Curved suburban residential street layout typical of Greater Mendoza barrios cerrados",
+      "Clear blue sky with intense sunlight characteristic of Mendoza's arid climate"
+    ],
+    "confidence": 0.72,
+    "country_top3": [
+      "ar",
+      "uy",
+      "cl"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"ar\",\"uy\",\"cl\"],\"reason\":\"The white-painted tree trunks are a highly distinctive cultural practice strongly associated with Mendoza Province, Argentina, used for sunscald and pest protection. The flat-roofed beige residential architecture with high perimeter walls, mixed deciduous/palm streetscape, dry grass verges, and semi-arid climate with intense sun are all characteristic of western Argentina. Uruguay shares some architectural and climatic similarities but lacks the white-painted tree tradition. Chile's central valley has comparable Mediterranean climate but different building styles and no equivalent tree-painting custom.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9400000000000001,
+        "pred_country": "ar",
+        "geo_country": "ar",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Calle República del Líbano, Barrio Jardín, Godoy Cruz, Mendoza Province, Argentina"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.9400000000000001,
+        "pred_country": "ar",
+        "geo_country": "ar",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Barrio Cerrado La Carmelita, Godoy Cruz, Mendoza Province, Argentina"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.9400000000000001,
+        "pred_country": "ar",
+        "geo_country": "ar",
+        "country_consistency": 1.0,
+        "address_specificity": 0.8,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Barrio Cerrado La Carmelina, Godoy Cruz, Mendoza Province, Argentina"
+      }
+    ],
+    "selected_candidate_score": 0.9400000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "ar",
+      "predicted_region": "south_america",
+      "confidence": 0.78
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"Argentina\",\n  \"country_code\": \"ar\",\n  \"region\": \"South America\",\n  \"city\": \"Mendoza\",\n  \"province_or_state\": \"Mendoza Province\",\n  \"address\": \"Suburban residential street, possibly in Godoy Cruz or Maipú area, Mendoza Province, Argentina\",\n  \"confidence\": 0.78,\n  \"reasoning\":",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "ar"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

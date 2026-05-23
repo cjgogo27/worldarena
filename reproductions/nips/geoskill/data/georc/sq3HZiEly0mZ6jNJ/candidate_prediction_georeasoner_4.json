@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The blue auto-rickshaw is a common mode of transport in India, especially in rural and semi-urban areas.",
+    "The vegetation, including tall palm trees and dense tropical foliage, suggests a tropical climate consistent with regions in southern or eastern India.",
+    "The unpaved road and simple wooden structures indicate a rural setting, typical of many parts of India outside major cities."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The blue auto-rickshaw is a common mode of transport in India, especially in rural and semi-urban areas.\",\n    \"The vegetation, including tall palm trees and dense tropical foliage, suggests a tropical climate consistent with regions in southern or eastern India.\",\n    \"The unpaved road and simple wooden structures indicate a rural setting, typical of many parts of India outside major cities.\",\n    \"The presence of children running on the side of the road and"
+}

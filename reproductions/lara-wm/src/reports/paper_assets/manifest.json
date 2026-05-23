@@ -1,0 +1,44 @@
+{
+  "figures": [
+    "bad_contact_click_bell_single.png",
+    "bad_pose_adjust_bottle_single.png",
+    "good_contact_click_bell_triptych.png",
+    "good_contact_press_stapler_triptych.png",
+    "good_grasp_grab_roller_triptych.png",
+    "main_offline_comparison.png",
+    "per_task_action_r2_heatmap.png",
+    "triptychs/good_articulated_open_laptop_triptych.png",
+    "triptychs/good_contact_click_alarmclock_triptych.png",
+    "triptychs/good_contact_click_bell_triptych.png",
+    "triptychs/good_contact_press_stapler_triptych.png",
+    "triptychs/good_contact_stamp_seal_triptych.png",
+    "triptychs/good_contact_turn_switch_triptych.png",
+    "triptychs/good_grasp_grab_roller_triptych.png",
+    "triptychs/good_handover_handover_block_triptych.png",
+    "triptychs/good_handover_handover_mic_triptych.png",
+    "triptychs/good_hang_hanging_mug_triptych.png",
+    "triptychs/good_lift_lift_pot_triptych.png",
+    "triptychs/good_order_blocks_ranking_rgb_triptych.png",
+    "triptychs/good_order_blocks_ranking_size_triptych.png",
+    "triptychs/good_place_place_a2b_left_triptych.png",
+    "triptychs/good_place_place_a2b_right_triptych.png",
+    "triptychs/good_pose_adjust_bottle_triptych.png",
+    "triptychs/good_rearrange_move_can_pot_triptych.png",
+    "triptychs/good_stack_stack_blocks_two_triptych.png",
+    "triptychs/good_tool_beat_block_hammer_triptych.png",
+    "triptychs/good_transport_dump_bin_bigbin_triptych.png",
+    "zero_shot_vla_probe.png"
+  ],
+  "tables": [
+    "table3_expanded_offline_comparison.tex",
+    "table4_zero_shot_vla_probe.tex",
+    "table5_success_metric_protocol.tex",
+    "table6_success_smoke.tex",
+    "table7_success_partial_progress.tex"
+  ],
+  "docs": [
+    "appendix_full_draft.md",
+    "neurips_draft_sections.tex",
+    "report.md"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Saudi Arabia",
+  "country_code": "sa",
+  "city": "",
+  "reasoning_chain": [
+    "The arid, dusty terrain with sparse vegetation including date palms is characteristic of the Arabian Peninsula, particularly Saudi Arabia.",
+    "The absence of road markings, traffic signs, or urban infrastructure suggests a rural or undeveloped area common in remote regions of Saudi Arabia.",
+    "The vehicle’s white color and design are typical of vehicles used in desert environments where dust accumulation is common, consistent with Saudi usage."
+  ],
+  "raw_output": "{\n  \"country\": \"Saudi Arabia\",\n  \"country_code\": \"sa\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The arid, dusty terrain with sparse vegetation including date palms is characteristic of the Arabian Peninsula, particularly Saudi Arabia.\",\n    \"The absence of road markings, traffic signs, or urban infrastructure suggests a rural or undeveloped area common in remote regions of Saudi Arabia.\",\n    \"The vehicle’s white color and design are typical of vehicles used in desert environments where dust accumulation is common, consistent with Saudi usage.\",\n    \"The bright sun glare and h"
+}

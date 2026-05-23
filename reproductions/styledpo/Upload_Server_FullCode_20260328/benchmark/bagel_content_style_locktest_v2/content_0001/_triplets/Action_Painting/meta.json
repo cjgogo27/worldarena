@@ -1,0 +1,13 @@
+{
+  "content_id": "content_0001",
+  "content_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/resources/datasets/omnistyle/content/Mythicalcreatures_A graceful phoenix rising from a nest of flames, with feathers of vibrant red and gold.png",
+  "style_id": "Action Painting",
+  "style_safe": "Action_Painting",
+  "style_prompt": "Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood).",
+  "prompt_used": "STYLE TRANSFER ONLY. Preserve content exactly.\nMandatory constraints:\n1) Keep identical objects, object count, identities, positions, poses, proportions, and semantic meaning.\n2) Keep identical camera viewpoint, perspective, depth ordering, composition, and layout.\n3) Do NOT add, remove, replace, move, crop, deform, or hallucinate any scene element.\n4) Allowed edits: style rendering only (palette, texture, brushwork, line quality, lighting mood).\nTarget style: Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure. STRICT CONTENT LOCK: Keep the exact same objects, object count, identities, positions, proportions, camera viewpoint, perspective, depth ordering, and scene layout as the input content image. Do not add, remove, replace, move, warp, crop, or hallucinate any element. Change only rendering style (color palette, texture, brushwork, line quality, and lighting mood).\nOutput one stylized image that keeps the original content unchanged.",
+  "style_ref_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/style_benchmark_40x10/Action Painting/image_1.jpg",
+  "seed": 20261330,
+  "cfg_img_scale": 3.5,
+  "content_similarity": 0.8818305730819702,
+  "status": "generated"
+}

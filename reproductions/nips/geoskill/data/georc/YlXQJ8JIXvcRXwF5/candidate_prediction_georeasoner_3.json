@@ -1,0 +1,10 @@
+{
+  "country": "South Africa",
+  "country_code": "za",
+  "city": "",
+  "reasoning_chain": [
+    "The sign reads 'KHULANI TIMBER INDUSTRIES' — Khulani is a common Zulu name, strongly indicating a location in South Africa.",
+    "The vegetation includes jacaranda trees (purple flowering) and agave-like plants, typical of subtropical regions in South Africa’s highveld or coastal areas."
+  ],
+  "raw_output": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The sign reads 'KHULANI TIMBER INDUSTRIES' — Khulani is a common Zulu name, strongly indicating a location in South Africa.\",\n    \"The vegetation includes jacaranda trees (purple flowering) and agave-like plants, typical of subtropical regions in South Africa’s highveld or coastal areas.\",\n    \"The architecture features brick buildings with red-tiled roofs, consistent with mid-20th century industrial or institutional buildings"
+}

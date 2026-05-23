@@ -1,0 +1,119 @@
+{
+  "user_id": "30148694_3",
+  "input_demographics": {
+    "sex": "male",
+    "age": 70,
+    "age_range": "65-75 years old",
+    "race": "White",
+    "enrolled_in_school": false,
+    "employed": false,
+    "occupation": "None",
+    "marital_status": "never married",
+    "primary_activity": "Retired"
+  },
+  "raw_output": "| Place Visited           | Arrival Time    | Departure Time  | Location Type |\n|-------------------------|-----------------|-----------------|---------------|\n| Home                    | 07:15 AM        | 07:45 AM        | 1             |\n| Grocery Store          | 07:45 AM        | 08:15 AM        | 11            |\n| Bank                   | 08:15 AM        | 08:45 AM        | 12            |\n| Doctor's Office        | 08:45 AM        | 09:45 AM        | 18            |\n| Coffee Shop            | 09:45 AM        | 10:15 AM        | 13            |\n| Park                   | 10:15 AM        | 11:15 AM        | 15            |\n| Home                    | 11:15 AM        | 01:00 PM        | 1             |\n| Lunch Restaurant       | 01:00 PM        | 01:45 PM        | 13            |\n| Library                | 01:45 PM        | 02:30 PM        | 14            |\n| Home                    | 02:30 PM        | 03:00 PM        | 1             |\n| Home                    | 03:00 PM        | 05:00 PM        | 1             |\n| Home                    | 05:00 PM        | 06:00 PM        | 1             |\n| Home                    | 06:00 PM        | 07:00 PM        | 1             |\n| Home                    | 07:00 PM        | 08:00 PM        | 1             |\n| Home                    | 08:00 PM        | 09:00 PM        | 1             |\n| Home                    | 09:00 PM        | 10:00 PM        | 1             |",
+  "schedule": [
+    {
+      "activity": "home",
+      "start_time": "07:15",
+      "end_time": "07:45"
+    },
+    {
+      "activity": "shopping",
+      "start_time": "07:45",
+      "end_time": "08:15"
+    },
+    {
+      "activity": "service",
+      "start_time": "08:15",
+      "end_time": "08:45"
+    },
+    {
+      "activity": "medical",
+      "start_time": "08:45",
+      "end_time": "09:45"
+    },
+    {
+      "activity": "dine_out",
+      "start_time": "09:45",
+      "end_time": "10:15"
+    },
+    {
+      "activity": "socialize",
+      "start_time": "10:15",
+      "end_time": "11:15"
+    },
+    {
+      "activity": "home",
+      "start_time": "11:15",
+      "end_time": "13:00"
+    },
+    {
+      "activity": "dine_out",
+      "start_time": "13:00",
+      "end_time": "13:45"
+    },
+    {
+      "activity": "service",
+      "start_time": "13:45",
+      "end_time": "14:30"
+    },
+    {
+      "activity": "home",
+      "start_time": "14:30",
+      "end_time": "15:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "15:00",
+      "end_time": "17:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "17:00",
+      "end_time": "18:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "18:00",
+      "end_time": "19:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "19:00",
+      "end_time": "20:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "20:00",
+      "end_time": "21:00"
+    },
+    {
+      "activity": "home",
+      "start_time": "21:00",
+      "end_time": "22:00"
+    }
+  ],
+  "ground_truth": [
+    {
+      "activity": "home",
+      "start_time": "00:00",
+      "end_time": "10:30"
+    },
+    {
+      "activity": "dine_out",
+      "start_time": "10:30",
+      "end_time": "15:00"
+    },
+    {
+      "activity": "shopping",
+      "start_time": "15:00",
+      "end_time": "15:50"
+    },
+    {
+      "activity": "home",
+      "start_time": "15:50",
+      "end_time": "24:00"
+    }
+  ]
+}

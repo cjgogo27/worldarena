@@ -1,0 +1,132 @@
+# LaRA-WM Experiment Metrics Configuration
+
+primary:
+  success_rate:
+    description: "Percentage of episodes where the agent successfully completes the task"
+    direction: "higher_is_better"
+    unit: "percent"
+    aggregation: "mean"
+    thresholds:
+      target: 75.0
+      minimum: 50.0
+      excellent: 90.0
+    window_size: 100
+    alert_on_drop: 10.0
+
+  return:
+    description: "Total undiscounted return per episode"
+    direction: "higher_is_better"
+    unit: "float"
+    aggregation: "mean"
+    thresholds:
+      baseline_relative: 0.8
+      minimum_improvement: 0.1
+      target_improvement: 0.3
+    window_size: 50
+    compare_against: "baseline"
+
+
+secondary:
+  latent_kl:
+    description: "KL divergence between latent posterior and prior"
+    direction: "lower_is_better"
+    unit: "nats"
+    aggregation: "mean"
+    thresholds:
+      maximum: 0.5
+      target_max: 0.3
+      target_min: 0.05
+    window_size: 200
+    alert_on_exceed: 0.4
+
+  reward_mae:
+    description: "Mean absolute error in reward prediction model"
+    direction: "lower_is_better"
+    unit: "float"
+    aggregation: "mean"
+    thresholds:
+      maximum: 0.5
+      target_max: 0.2
+      excellent: 0.1
+    window_size: 500
+    alert_on_rise: 0.15
+
+
+monitoring:
+  episode_length:
+    description: "Average episode length before termination"
+    direction: "neutral"
+    unit: "steps"
+    window_size: 100
+
+  policy_entropy:
+    description: "Entropy of policy distribution - exploration indicator"
+    direction: "higher_is_better"
+    unit: "nats"
+    window_size: 200
+
+  value_loss:
+    description: "Critic value function loss"
+    direction: "lower_is_better"
+    unit: "float"
+    window_size: 50
+
+  gradient_norm:
+    description: "Gradient norm for training stability"
+    direction: "lower_is_better"
+    unit: "float"
+    alert_threshold: 100.0
+
+
+artifacts:
+  experiment_root: "experiments"
+  run_id_pattern: "{env}_{algorithm}_{seed}_{timestamp}"
+  subdirs:
+    checkpoints: "checkpoints"
+    logs: "logs"
+    metrics: "metrics"
+    videos: "videos"
+    config: "config"
+  files:
+    checkpoint: "{step:08d}_{success_rate:.1f}.pt"
+    metrics_csv: "metrics_{phase}_{timestamp}.csv"
+    config_snapshot: "config_{commit_hash}.yaml"
+    train_log: "train_{rank}.log"
+    eval_video: "eval_{episode:04d}_{score:.2f}.mp4"
+  compression:
+    checkpoint_interval: 10
+    video_fps: 30
+    log_retention_days: 30
+  tags:
+    best: "best"
+    latest: "latest"
+    baseline: "baseline"
+
+
+reporting:
+  priority_metrics:
+    - success_rate
+    - return
+    - latent_kl
+    - reward_mae
+  plots:
+    success_rate_curve:
+      x_axis: "timesteps"
+      y_axis: "success_rate"
+      rolling_window: 100
+    return_distribution:
+      x_axis: "episode"
+      y_axis: "return"
+    latent_kl_trace:
+      x_axis: "timesteps"
+      y_axis: "latent_kl"
+  alerts:
+    - metric: "success_rate"
+      condition: "drops_below"
+      threshold: 40.0
+    - metric: "latent_kl"
+      condition: "exceeds"
+      threshold: 0.45
+    - metric: "gradient_norm"
+      condition: "exceeds"
+      threshold: 80.0

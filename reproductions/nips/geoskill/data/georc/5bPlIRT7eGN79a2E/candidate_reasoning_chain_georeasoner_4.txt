@@ -1,0 +1,2 @@
+The signboard displays Vietnamese text ('MÍA ĐÁ', 'NƯỚC GIẢI KHÁT', 'MÌ TÔM TRỨNG'), indicating the location is in Vietnam.
+The road is a two-lane asphalt road with no center line, typical of rural roads in mountainous regions of Vietnam.

@@ -1,0 +1,11 @@
+{
+  "country": "Mexico",
+  "country_code": "mx",
+  "city": "",
+  "reasoning_chain": [
+    "The utility pole on the right has 'FELIZ NAVIDAD' written vertically in red, which is Spanish for 'Merry Christmas', indicating a Spanish-speaking country.",
+    "The road is unpaved or poorly maintained with no center line, typical of rural or semi-urban areas in Mexico.",
+    "Houses are painted in pastel colors with simple architecture and barred windows, common in Mexican residential neighborhoods."
+  ],
+  "raw_output": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The utility pole on the right has 'FELIZ NAVIDAD' written vertically in red, which is Spanish for 'Merry Christmas', indicating a Spanish-speaking country.\",\n    \"The road is unpaved or poorly maintained with no center line, typical of rural or semi-urban areas in Mexico.\",\n    \"Houses are painted in pastel colors with simple architecture and barred windows, common in Mexican residential neighborhoods.\",\n    \"The terrain shows distant mountains"
+}

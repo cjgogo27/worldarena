@@ -1,0 +1,84 @@
+{
+  "user_id": "30054195_2",
+  "input_demographics": {
+    "sex": "female",
+    "age": 40,
+    "age_range": "18-64 years old",
+    "race": "White",
+    "enrolled_in_school": false,
+    "employed": true,
+    "occupation": "Professional, managerial, or technical",
+    "marital_status": "married",
+    "primary_activity": "Working"
+  },
+  "raw_output": "| Place Visited           | Arrival Time    | Departure Time  | Location Type |\n|-------------------------|-----------------|-----------------|---------------|\n| Home                   | 06:30 AM        | 07:15 AM        | 1              |\n| Work                   | 07:15 AM        | 12:00 PM        | 3              |\n| Lunch                  | 12:00 PM        | 12:45 PM        | 13             |\n| Dry Cleaner            | 12:45 PM        | 1:15 PM         | 12             |\n| Home                   | 01:15 PM        | 01:45 PM        | 1              |\n| Work                   | 01:45 PM        | 05:30 PM        | 3              |\n| Dinner                 | 05:30 PM        | 06:15 PM        | 13             |\n| Home                   | 06:15 PM        | 07:00 PM        | 1              |",
+  "schedule": [
+    {
+      "activity": "home",
+      "start_time": "06:30",
+      "end_time": "07:15"
+    },
+    {
+      "activity": "work",
+      "start_time": "07:15",
+      "end_time": "12:00"
+    },
+    {
+      "activity": "dine_out",
+      "start_time": "12:00",
+      "end_time": "12:45"
+    },
+    {
+      "activity": "service",
+      "start_time": "12:45",
+      "end_time": "13:15"
+    },
+    {
+      "activity": "home",
+      "start_time": "13:15",
+      "end_time": "13:45"
+    },
+    {
+      "activity": "work",
+      "start_time": "13:45",
+      "end_time": "17:30"
+    },
+    {
+      "activity": "dine_out",
+      "start_time": "17:30",
+      "end_time": "18:15"
+    },
+    {
+      "activity": "home",
+      "start_time": "18:15",
+      "end_time": "19:00"
+    }
+  ],
+  "ground_truth": [
+    {
+      "activity": "home",
+      "start_time": "00:00",
+      "end_time": "07:35"
+    },
+    {
+      "activity": "work",
+      "start_time": "07:35",
+      "end_time": "17:15"
+    },
+    {
+      "activity": "home",
+      "start_time": "17:15",
+      "end_time": "18:07"
+    },
+    {
+      "activity": "exercise",
+      "start_time": "18:07",
+      "end_time": "18:59"
+    },
+    {
+      "activity": "home",
+      "start_time": "18:59",
+      "end_time": "24:00"
+    }
+  ]
+}

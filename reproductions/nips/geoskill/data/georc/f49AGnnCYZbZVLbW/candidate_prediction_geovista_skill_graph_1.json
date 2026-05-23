@@ -1,0 +1,106 @@
+{
+  "game_id": "f49AGnnCYZbZVLbW",
+  "round": 1,
+  "sample_id": "georc::f49AGnnCYZbZVLbW::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "br",
+    "predicted_region": "south_america",
+    "predicted_address": "Estrada Vicinal Catalão, Catalão, Goiás, Brazil",
+    "predicted_lat": -16.6062,
+    "predicted_lng": -49.2614,
+    "reasoning_text": "```json\n{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"city\": \"Catalão\",\n  \"province_or_state\": \"Goiás\",\n  \"address\": \"Estrada Vicinal Catalão, Catalão, Goiás, Brazil\",\n  \"confidence\": 0.68,\n  \"reasoning\": \"The reddish-brown lateritic soil is characteristic of the Brazilian Cerrado biome, particularly in the states of Goiás and Minas Gerais. The dense tropical vegetation with dry undergrowth, wooden fence posts for livestock management, and unpaved rural road align with agricultural regions in the Cerrado. The clear blue skies and vegetation condition suggest dry season (May-September). Catalão is a major agricultural hub in Goiás known for soybean and cattle production, with extensive network of rural unpaved roads matching this scene. The road width and canopy structure are consistent with vicinal roads connecting rural properties to BR-050 highway corridor.\",\n  \"evidence\": [\"reddish-brown lateritic soil\", \"dense tropical Cerrado vegetation with dry undergrowth\", \"wooden fence posts\", \"unpaved rural road\", \"clear blue dry season skies\", \"absence of road markings\", \"agricultural boundary vegetation patterns\"]\n}\n```",
+    "evidence_spans": [
+      "reddish-brown lateritic soil",
+      "dense tropical Cerrado vegetation with dry undergrowth",
+      "wooden fence posts",
+      "unpaved rural road",
+      "clear blue dry season skies",
+      "absence of road markings",
+      "agricultural boundary vegetation patterns"
+    ],
+    "confidence": 0.68,
+    "country_top3": [
+      "br",
+      "co",
+      "bo"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"br\",\"co\",\"bo\"],\"reason\":\"The reddish-brown lateritic soil is characteristic of tropical regions with high iron oxide content, particularly the Brazilian Cerrado biome. The dense tropical broadleaf vegetation with dry undergrowth, wooden fence posts, and unpaved rural road align with central Brazil. Colombia and Bolivia share similar tropical savanna ecosystems and red soils but lack the specific Cerrado vegetation signature seen here.\"}\n```",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.8600000000000001,
+        "pred_country": "br",
+        "geo_country": "br",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.68,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Estrada Vicinal Catalão, Catalão, Goiás, Brazil"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.8600000000000001,
+        "pred_country": "br",
+        "geo_country": "br",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.68,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Estrada Vicinal Formosa-Goiás Velho, Formosa, Goiás, Brazil"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.8600000000000001,
+        "pred_country": "br",
+        "geo_country": "br",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.68,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Estrada de Acesso à Fazenda, Caldas Novas, Goiás, Brazil"
+      }
+    ],
+    "selected_candidate_score": 0.8600000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "br",
+      "predicted_region": "south_america",
+      "confidence": 0.72
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"region\": \"South America\",\n  \"city\": \"\",\n  \"province_or_state\": \"Goiás or Minas Gerais\",\n  \"address\": \"Rural unpaved road in the Cerrado region, Goiás or Minas Gerais, Brazil\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The reddish-brown lateriti",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "br"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

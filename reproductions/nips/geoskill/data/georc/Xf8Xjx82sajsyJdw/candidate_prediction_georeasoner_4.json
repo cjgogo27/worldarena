@@ -1,0 +1,10 @@
+{
+  "country": "Philippines",
+  "country_code": "ph",
+  "city": "",
+  "reasoning_chain": [
+    "The political campaign poster on the tree trunk features Filipino text ('ARNEL “NEL” P. LADAG') and a candidate photo, indicating a Philippine election context.",
+    "The white pickup truck with a canopy and the style of the motorcycle parked on the right are common in rural Philippine communities."
+  ],
+  "raw_output": "{\n  \"country\": \"Philippines\",\n  \"country_code\": \"ph\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The political campaign poster on the tree trunk features Filipino text ('ARNEL “NEL” P. LADAG') and a candidate photo, indicating a Philippine election context.\",\n    \"The white pickup truck with a canopy and the style of the motorcycle parked on the right are common in rural Philippine communities.\",\n    \"The dense tropical vegetation, including large banyan-like trees and ferns, along with the unpaved or lightly paved road, is typical"
+}

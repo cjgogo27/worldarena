@@ -1,0 +1,12 @@
+{
+  "country": "Cambodia",
+  "country_code": "kh",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved dirt road and rural architecture with stilted houses are typical of rural Cambodia.",
+    "Utility poles with exposed wiring and lack of street signs suggest a developing Southeast Asian nation.",
+    "Vegetation including banana plants and tropical trees aligns with Cambodia’s climate.",
+    "The person carrying a child in traditional-style clothing and the general village layout match Cambodian rural settings."
+  ],
+  "raw_output": "{\n  \"country\": \"Cambodia\",\n  \"country_code\": \"kh\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved dirt road and rural architecture with stilted houses are typical of rural Cambodia.\",\n    \"Utility poles with exposed wiring and lack of street signs suggest a developing Southeast Asian nation.\",\n    \"Vegetation including banana plants and tropical trees aligns with Cambodia’s climate.\",\n    \"The person carrying a child in traditional-style clothing and the general village layout match Cambodian rural settings.\"\n  ]\n}"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Russia",
+  "country_code": "ru",
+  "city": "",
+  "reasoning_chain": [
+    "The street sign on the left pole displays the Russian flag and Cyrillic text, indicating a Russian-speaking region.",
+    "The architecture of the apartment buildings—prefabricated panel construction with blue and beige facades—is typical of Soviet-era housing common in Russia.",
+    "The road is a two-lane asphalt road with right-hand traffic, consistent with Russian traffic laws."
+  ],
+  "raw_output": "{\n  \"country\": \"Russia\",\n  \"country_code\": \"ru\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The street sign on the left pole displays the Russian flag and Cyrillic text, indicating a Russian-speaking region.\",\n    \"The architecture of the apartment buildings—prefabricated panel construction with blue and beige facades—is typical of Soviet-era housing common in Russia.\",\n    \"The road is a two-lane asphalt road with right-hand traffic, consistent with Russian traffic laws.\",\n    \"The presence of overhead power lines and industrial-style fencing alongside the road suggests"
+}

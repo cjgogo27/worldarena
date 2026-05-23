@@ -1,0 +1,33 @@
+{
+  "game_id": "KYuWftPRQfRJ5DKL",
+  "round": 1,
+  "sample_id": "georc::KYuWftPRQfRJ5DKL::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "jp",
+    "predicted_region": "asia",
+    "predicted_address": "Shiobara, Nasushiobara, Tochigi Prefecture, Japan",
+    "predicted_lat": 36.51666667,
+    "predicted_lng": 139.81666667,
+    "reasoning_text": "```json\n{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"East Asia\",\n  \"city\": \"Nasushiobara\",\n  \"province_or_state\": \"Tochigi Prefecture\",\n  \"address\": \"Shiobara, Nasushiobara, Tochigi Prefecture, Japan\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"The image shows a narrow rural Japanese road with distinctive features: traditional low-pitch metal roofs on industrial/agricultural buildings, concrete utility pole with Japanese-style wiring, white road edge markers with orange reflectors common in Japan, and dense forested hills typical of northern Kanto or Tohoku region. The building architecture, road width, and vegetation suggest a rural area in Tochigi Prefecture. The mountainous backdrop with mixed forest is consistent with the Nasu/Shiobara area known for onsen and rural industry.\",\n  \"evidence\": [\"Concrete utility pole with multiple overhead wires typical of Japan\", \"Low-pitch dark metal roofs on industrial buildings\", \"White road edge markers with orange reflectors\", \"Narrow paved rural road with no center line\", \"Dense deciduous/coniferous forested hills\", \"Corrugated metal warehouse construction style common in Japan\"]\n}\n```",
+    "evidence_spans": [
+      "Concrete utility pole with multiple overhead wires typical of Japan",
+      "Low-pitch dark metal roofs on industrial buildings",
+      "White road edge markers with orange reflectors",
+      "Narrow paved rural road with no center line",
+      "Dense deciduous/coniferous forested hills",
+      "Corrugated metal warehouse construction style common in Japan"
+    ],
+    "confidence": 0.6,
+    "country_top3": [
+      "jp",
+      "kr",
+      "tw"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"jp\",\"kr\",\"tw\"],\"reason\":\"The image shows distinct Japanese rural architecture with metal-clad industrial/agricultural buildings, dark tiled roofs, utility pole with Japanese-style numbering plate, narrow paved rural road, dense forested hills in background, and roadside drainage ditch with white posts with orange reflectors - all characteristic of Japanese countryside. The building materials, roof styles, and infrastructure match Japanese rural areas more closely than Korea or Taiwan, though those share some East Asian architectural elements.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8400000000000001
+  },
+  "error": null
+}

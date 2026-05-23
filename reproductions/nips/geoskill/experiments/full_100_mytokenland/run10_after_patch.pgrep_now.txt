@@ -1,0 +1,1 @@
+3294810 /data2/miniconda3/envs/vgllm/bin/python scripts/run_experiment.py --config configs/full_mytokenland.yaml --methods direct_vlm external_geovista_skill_graph --max-games 10 --workers 1

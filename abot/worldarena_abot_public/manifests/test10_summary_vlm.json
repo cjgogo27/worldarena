@@ -1,0 +1,42 @@
+[
+  {
+    "gt_path": "/synthetic/worldarena/fixed_scene_task/episode1.mp4",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Use arms to pick the bottle with small ridged green cap, drop it in the smooth black dustbin, repeat for the bottle with ribbed design and the hand-sized drinking bottle."
+  },
+  {
+    "gt_path": "/synthetic/worldarena/fixed_scene_task/episode10.mp4",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Lift the red beverage can with curved top, put it in the blue plasticbox for storing things, then handle the smooth white can with accents similarly."
+  },
+  {
+    "gt_path": "/synthetic/worldarena/fixed_scene_task/episode100.mp4",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Hold and shake the the smooth cylindrical bottle carefully."
+  },
+  {
+    "gt_path": "/synthetic/worldarena/fixed_scene_task/episode1000.mp4",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Pick and move the blue top toycar, then shift the basket made of woven wood."
+  },
+  {
+    "gt_path": "/synthetic/worldarena/fixed_scene_task/episode101.mp4",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Place the blue stapler with shiny silver parts carefully on the handheld electronicscale using the right arm"
+  },
+  {
+    "gt_path": "/synthetic/worldarena/fixed_scene_task/episode102.mp4",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Lift the blue pack holding playingcards using the left arm and transfer it outward."
+  },
+  {
+    "gt_path": "/synthetic/worldarena/fixed_scene_task/episode103.mp4",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Grab the first the rounded bowl with light blue color, position the second, then add the third."
+  },
+  {
+    "gt_path": "/synthetic/worldarena/fixed_scene_task/episode104.mp4",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Grasp the rounded bowl with light blue color, then use the arm to align and stack the curved bowl light blue shade."
+  },
+  {
+    "gt_path": "/synthetic/worldarena/fixed_scene_task/episode105.mp4",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to With the right arm, grab the portable white fan and position it on the Silver mat facing the robot"
+  },
+  {
+    "gt_path": "/synthetic/worldarena/fixed_scene_task/episode106.mp4",
+    "prompt": "In a fixed robotic workspace, generate a rigid, physically consistent embodied robotic arm. The arm maintains high stability with no deformation and enters the frame to Lift the glazed bowl with curved sides and position it neatly over the ceramic bowl."
+  }
+]

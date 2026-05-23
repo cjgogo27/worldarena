@@ -1,0 +1,602 @@
+================================================================================
+准确率最低用户深度分析报告
+================================================================================
+
+生成时间: 2025-11-24 16:31:48
+分析用户数: 10
+
+
+================================================================================
+用户 1: 40050258_2
+准确率: 40.62%
+================================================================================
+
+个人信息:
+--------------------------------------------------------------------------------
+  age_range: Appropriate skip
+  gender: Female
+  employment_status: Appropriate skip
+  work_schedule: Appropriate skip
+  occupation: Appropriate skip
+  education: Some college or associates degree
+  relationship: Spouse/Unmarried partner
+  work_from_home: Appropriate skip
+  distance_to_work_miles: 2.0
+  driver_on_travel_day: Yes
+
+家庭信息:
+--------------------------------------------------------------------------------
+  household_id: None
+  household_size: None
+  number_of_children: None
+  household_income: None
+  number_of_vehicles: None
+  home_ownership: None
+
+轨迹对比:
+--------------------------------------------------------------------------------
+原始轨迹:
+  00:00-07:43: home; 07:43-08:00: dropoff_pickup; 08:00-08:55: home; 08:55-11:13: exercise; 11:13-13:40: home; 13:40-14:15: shopping; 14:15-17:25: home; 17:25-20:40: socialize; 20:40-24:00: home
+
+生成轨迹:
+  00:00-06:30: home; 06:30-07:30: exercise; 07:30-16:00: work; 16:00-18:00: service; 18:00-24:00: home
+
+问题分析:
+--------------------------------------------------------------------------------
+  [HIGH] 错误生成工作
+    详情: 就业状态: Appropriate skip, 但真实轨迹无工作活动
+
+
+合理性分析:
+--------------------------------------------------------------------------------
+就业状态: Appropriate skip
+工作时间表: Appropriate skip
+
+✓ 就业状态与轨迹基本一致
+
+预测失败原因分析:
+--------------------------------------------------------------------------------
+主要问题:
+  - 错误生成工作 (1次)
+
+改进建议:
+  2. 强化就业状态的判断逻辑
+     - 明确告知LLM:如果employment_status为'Not in labor force'或'Unemployed',不应生成工作活动
+
+
+================================================================================
+用户 2: 40050258_4
+准确率: 40.62%
+================================================================================
+
+个人信息:
+--------------------------------------------------------------------------------
+  age_range: Appropriate skip
+  gender: Male
+  employment_status: Appropriate skip
+  work_schedule: Appropriate skip
+  occupation: Appropriate skip
+  education: Less than a high school graduate
+  relationship: Child
+  work_from_home: Appropriate skip
+  distance_to_work_miles: 2.0
+  driver_on_travel_day: No
+
+家庭信息:
+--------------------------------------------------------------------------------
+  household_id: None
+  household_size: None
+  number_of_children: None
+  household_income: None
+  number_of_vehicles: None
+  home_ownership: None
+
+轨迹对比:
+--------------------------------------------------------------------------------
+原始轨迹:
+  00:00-07:43: home; 07:43-13:25: education; 13:25-14:55: service; 14:55-16:10: socialize; 16:10-20:40: socialize; 20:40-24:00: home
+
+生成轨迹:
+  00:00-06:30: home; 06:30-07:30: exercise; 07:30-16:00: work; 16:00-24:00: home
+
+问题分析:
+--------------------------------------------------------------------------------
+  [HIGH] 错误生成工作
+    详情: 就业状态: Appropriate skip, 但真实轨迹无工作活动
+
+  [LOW] 缺失education活动
+    详情: 真实轨迹有education,但生成轨迹没有
+
+
+合理性分析:
+--------------------------------------------------------------------------------
+就业状态: Appropriate skip
+工作时间表: Appropriate skip
+
+✓ 就业状态与轨迹基本一致
+
+预测失败原因分析:
+--------------------------------------------------------------------------------
+主要问题:
+  - 错误生成工作 (1次)
+  - 缺失education活动 (1次)
+
+改进建议:
+  2. 强化就业状态的判断逻辑
+     - 明确告知LLM:如果employment_status为'Not in labor force'或'Unemployed',不应生成工作活动
+
+
+================================================================================
+用户 3: 30499724_4
+准确率: 46.88%
+================================================================================
+
+个人信息:
+--------------------------------------------------------------------------------
+  age_range: Appropriate skip
+  gender: Female
+  employment_status: Yes
+  work_schedule: Full-time
+  occupation: Professional, managerial, or technical
+  education: Some college or associates degree
+  relationship: Spouse/Unmarried partner
+  work_from_home: No
+  distance_to_work_miles: 4.84
+  driver_on_travel_day: Yes
+
+家庭信息:
+--------------------------------------------------------------------------------
+  household_id: None
+  household_size: None
+  number_of_children: None
+  household_income: None
+  number_of_vehicles: None
+  home_ownership: None
+
+轨迹对比:
+--------------------------------------------------------------------------------
+原始轨迹:
+  00:00-05:30: home; 05:30-09:30: home; 09:30-10:05: dropoff_pickup; 10:05-10:12: service; 10:12-10:41: service; 10:41-11:02: service; 11:02-11:35: dine_out; 11:35-13:40: socialize; 13:40-14:15: home; 14:15-22:45: work; 22:45-24:00: home
+
+生成轨迹:
+  00:00-06:30: home; 06:30-07:15: exercise; 07:15-08:00: home; 08:00-17:00: work; 17:00-24:00: home
+
+问题分析:
+--------------------------------------------------------------------------------
+  [MEDIUM] 工作开始时间差异大
+    详情: 真实: 14:15, 生成: 08:00, 差异: 375分钟
+
+  [LOW] 活动类型过于简化
+    详情: 真实活动类型: 6, 生成活动类型: 3
+
+  [LOW] 缺失dine_out活动
+    详情: 真实轨迹有dine_out,但生成轨迹没有
+
+
+合理性分析:
+--------------------------------------------------------------------------------
+就业状态: Yes
+工作时间表: Full-time
+
+✓ 就业状态与轨迹基本一致
+
+预测失败原因分析:
+--------------------------------------------------------------------------------
+主要问题:
+  - 工作开始时间差异大 (1次)
+  - 活动类型过于简化 (1次)
+  - 缺失dine_out活动 (1次)
+
+改进建议:
+  3. 提高活动多样性
+     - 增加对其他活动类型(购物、医疗、社交等)的生成概率
+
+
+================================================================================
+用户 4: 40500239_2
+准确率: 47.92%
+================================================================================
+
+个人信息:
+--------------------------------------------------------------------------------
+  age_range: Appropriate skip
+  gender: Female
+  employment_status: Yes
+  work_schedule: Full-time
+  occupation: Professional, managerial, or technical
+  education: Some college or associates degree
+  relationship: Spouse/Unmarried partner
+  work_from_home: No
+  distance_to_work_miles: 1.51
+  driver_on_travel_day: Yes
+
+家庭信息:
+--------------------------------------------------------------------------------
+  household_id: None
+  household_size: None
+  number_of_children: None
+  household_income: None
+  number_of_vehicles: None
+  home_ownership: None
+
+轨迹对比:
+--------------------------------------------------------------------------------
+原始轨迹:
+  00:00-16:00: home; 16:00-16:17: work; 16:17-21:05: work; 21:05-24:00: home
+
+生成轨迹:
+  00:00-06:30: home; 06:30-07:30: exercise; 07:30-08:15: home; 08:15-17:15: work; 17:15-24:00: home
+
+问题分析:
+--------------------------------------------------------------------------------
+  [MEDIUM] 工作开始时间差异大
+    详情: 真实: 16:00, 生成: 08:15, 差异: 465分钟
+
+
+合理性分析:
+--------------------------------------------------------------------------------
+就业状态: Yes
+工作时间表: Full-time
+
+✓ 就业状态与轨迹基本一致
+
+预测失败原因分析:
+--------------------------------------------------------------------------------
+主要问题:
+  - 工作开始时间差异大 (1次)
+
+改进建议:
+
+
+================================================================================
+用户 5: 40269137_2
+准确率: 51.04%
+================================================================================
+
+个人信息:
+--------------------------------------------------------------------------------
+  age_range: Appropriate skip
+  gender: Female
+  employment_status: Yes
+  work_schedule: Full-time
+  occupation: Professional, managerial, or technical
+  education: Bachelor's degree
+  relationship: Spouse/Unmarried partner
+  work_from_home: No
+  distance_to_work_miles: 62.14
+  driver_on_travel_day: Yes
+
+家庭信息:
+--------------------------------------------------------------------------------
+  household_id: None
+  household_size: None
+  number_of_children: None
+  household_income: None
+  number_of_vehicles: None
+  home_ownership: None
+
+轨迹对比:
+--------------------------------------------------------------------------------
+原始轨迹:
+  00:00-10:05: home; 10:05-10:15: shopping; 10:15-11:30: home; 11:30-13:30: socialize; 13:30-14:00: socialize; 14:00-14:30: shopping; 14:30-17:35: home; 17:35-19:35: dine_out; 19:35-24:00: home
+
+生成轨迹:
+  00:00-07:45: home; 07:45-16:15: work; 16:15-18:00: service; 18:00-24:00: home
+
+问题分析:
+--------------------------------------------------------------------------------
+  [HIGH] 错误生成工作
+    详情: 就业状态: Yes, 但真实轨迹无工作活动
+
+  [LOW] 缺失dine_out活动
+    详情: 真实轨迹有dine_out,但生成轨迹没有
+
+
+合理性分析:
+--------------------------------------------------------------------------------
+就业状态: Yes
+工作时间表: Full-time
+
+✓ 就业状态与轨迹基本一致
+
+预测失败原因分析:
+--------------------------------------------------------------------------------
+主要问题:
+  - 错误生成工作 (1次)
+  - 缺失dine_out活动 (1次)
+
+改进建议:
+  2. 强化就业状态的判断逻辑
+     - 明确告知LLM:如果employment_status为'Not in labor force'或'Unemployed',不应生成工作活动
+
+
+================================================================================
+用户 6: 30139863_2
+准确率: 52.08%
+================================================================================
+
+个人信息:
+--------------------------------------------------------------------------------
+  age_range: Appropriate skip
+  gender: Male
+  employment_status: Not specified
+  work_schedule: Appropriate skip
+  occupation: Appropriate skip
+  education: High school graduate or GED
+  relationship: Spouse/Unmarried partner
+  work_from_home: Appropriate skip
+  distance_to_work_miles: 1.0
+  driver_on_travel_day: Not specified
+
+家庭信息:
+--------------------------------------------------------------------------------
+  household_id: None
+  household_size: None
+  number_of_children: None
+  household_income: None
+  number_of_vehicles: None
+  home_ownership: None
+
+轨迹对比:
+--------------------------------------------------------------------------------
+原始轨迹:
+  00:00-15:52: home; 15:52-16:25: medical; 16:25-24:00: home
+
+生成轨迹:
+  00:00-06:30: home; 06:30-07:15: exercise; 07:15-16:00: work; 16:00-18:00: service; 18:00-24:00: home
+
+问题分析:
+--------------------------------------------------------------------------------
+  [HIGH] 错误生成工作
+    详情: 就业状态: Not specified, 但真实轨迹无工作活动
+
+  [LOW] 缺失medical活动
+    详情: 真实轨迹有medical,但生成轨迹没有
+
+
+合理性分析:
+--------------------------------------------------------------------------------
+就业状态: Not specified
+工作时间表: Appropriate skip
+
+✓ 就业状态与轨迹基本一致
+
+预测失败原因分析:
+--------------------------------------------------------------------------------
+主要问题:
+  - 错误生成工作 (1次)
+  - 缺失medical活动 (1次)
+
+改进建议:
+  2. 强化就业状态的判断逻辑
+     - 明确告知LLM:如果employment_status为'Not in labor force'或'Unemployed',不应生成工作活动
+
+
+================================================================================
+用户 7: 40269137_1
+准确率: 52.08%
+================================================================================
+
+个人信息:
+--------------------------------------------------------------------------------
+  age_range: Appropriate skip
+  gender: Male
+  employment_status: Yes
+  work_schedule: Full-time
+  occupation: Professional, managerial, or technical
+  education: Bachelor's degree
+  relationship: Self
+  work_from_home: No
+  distance_to_work_miles: 22.45
+  driver_on_travel_day: Yes
+
+家庭信息:
+--------------------------------------------------------------------------------
+  household_id: None
+  household_size: None
+  number_of_children: None
+  household_income: None
+  number_of_vehicles: None
+  home_ownership: None
+
+轨迹对比:
+--------------------------------------------------------------------------------
+原始轨迹:
+  00:00-17:35: home; 17:35-19:35: dine_out; 19:35-24:00: home
+
+生成轨迹:
+  00:00-07:30: home; 07:30-16:00: work; 16:00-17:00: exercise; 17:00-24:00: home
+
+问题分析:
+--------------------------------------------------------------------------------
+  [HIGH] 错误生成工作
+    详情: 就业状态: Yes, 但真实轨迹无工作活动
+
+  [LOW] 缺失dine_out活动
+    详情: 真实轨迹有dine_out,但生成轨迹没有
+
+
+合理性分析:
+--------------------------------------------------------------------------------
+就业状态: Yes
+工作时间表: Full-time
+
+✓ 就业状态与轨迹基本一致
+
+预测失败原因分析:
+--------------------------------------------------------------------------------
+主要问题:
+  - 错误生成工作 (1次)
+  - 缺失dine_out活动 (1次)
+
+改进建议:
+  2. 强化就业状态的判断逻辑
+     - 明确告知LLM:如果employment_status为'Not in labor force'或'Unemployed',不应生成工作活动
+
+
+================================================================================
+用户 8: 30009396_2
+准确率: 56.25%
+================================================================================
+
+个人信息:
+--------------------------------------------------------------------------------
+  age_range: Appropriate skip
+  gender: Male
+  employment_status: Yes
+  work_schedule: Full-time
+  occupation: Professional, managerial, or technical
+  education: Bachelor's degree
+  relationship: Spouse/Unmarried partner
+  work_from_home: No
+  distance_to_work_miles: 65.76
+  driver_on_travel_day: No
+
+家庭信息:
+--------------------------------------------------------------------------------
+  household_id: None
+  household_size: None
+  number_of_children: None
+  household_income: None
+  number_of_vehicles: None
+  home_ownership: None
+
+轨迹对比:
+--------------------------------------------------------------------------------
+原始轨迹:
+  00:00-11:10: home; 11:10-12:00: shopping; 12:00-12:45: shopping; 12:45-24:00: home
+
+生成轨迹:
+  00:00-09:00: home; 09:00-18:00: work; 18:00-19:30: service; 19:30-24:00: home
+
+问题分析:
+--------------------------------------------------------------------------------
+  [HIGH] 错误生成工作
+    详情: 就业状态: Yes, 但真实轨迹无工作活动
+
+
+合理性分析:
+--------------------------------------------------------------------------------
+就业状态: Yes
+工作时间表: Full-time
+
+✓ 就业状态与轨迹基本一致
+
+预测失败原因分析:
+--------------------------------------------------------------------------------
+主要问题:
+  - 错误生成工作 (1次)
+
+改进建议:
+  2. 强化就业状态的判断逻辑
+     - 明确告知LLM:如果employment_status为'Not in labor force'或'Unemployed',不应生成工作活动
+
+
+================================================================================
+用户 9: 40729045_2
+准确率: 57.29%
+================================================================================
+
+个人信息:
+--------------------------------------------------------------------------------
+  age_range: Appropriate skip
+  gender: Female
+  employment_status: Yes
+  work_schedule: Part-time
+  occupation: Professional, managerial, or technical
+  education: Bachelor's degree
+  relationship: Child
+  work_from_home: No
+  distance_to_work_miles: 6.69
+  driver_on_travel_day: Yes
+
+家庭信息:
+--------------------------------------------------------------------------------
+  household_id: None
+  household_size: None
+  number_of_children: None
+  household_income: None
+  number_of_vehicles: None
+  home_ownership: None
+
+轨迹对比:
+--------------------------------------------------------------------------------
+原始轨迹:
+  00:00-08:00: home; 08:00-10:15: work; 10:15-13:00: home; 13:00-13:30: shopping; 13:30-14:55: work; 14:55-17:30: work; 17:30-19:00: work; 19:00-24:00: home
+
+生成轨迹:
+  00:00-09:30: home; 09:30-13:00: work; 13:00-15:00: service; 15:00-24:00: home
+
+问题分析:
+--------------------------------------------------------------------------------
+  未发现明显问题
+
+合理性分析:
+--------------------------------------------------------------------------------
+就业状态: Yes
+工作时间表: Part-time
+
+✓ 就业状态与轨迹基本一致
+
+预测失败原因分析:
+--------------------------------------------------------------------------------
+未识别出明显的结构性问题,可能是时间细节上的差异
+
+
+================================================================================
+用户 10: 30009396_1
+准确率: 60.42%
+================================================================================
+
+个人信息:
+--------------------------------------------------------------------------------
+  age_range: Appropriate skip
+  gender: Female
+  employment_status: Yes
+  work_schedule: Full-time
+  occupation: Professional, managerial, or technical
+  education: Graduate degree or professional degree
+  relationship: Self
+  work_from_home: No
+  distance_to_work_miles: 45.36
+  driver_on_travel_day: Yes
+
+家庭信息:
+--------------------------------------------------------------------------------
+  household_id: None
+  household_size: None
+  number_of_children: None
+  household_income: None
+  number_of_vehicles: None
+  home_ownership: None
+
+轨迹对比:
+--------------------------------------------------------------------------------
+原始轨迹:
+  00:00-11:10: home; 11:10-12:00: shopping; 12:00-12:45: shopping; 12:45-24:00: home
+
+生成轨迹:
+  00:00-06:45: home; 06:45-15:15: work; 15:15-16:15: exercise; 16:15-24:00: home
+
+问题分析:
+--------------------------------------------------------------------------------
+  [HIGH] 错误生成工作
+    详情: 就业状态: Yes, 但真实轨迹无工作活动
+
+
+合理性分析:
+--------------------------------------------------------------------------------
+就业状态: Yes
+工作时间表: Full-time
+
+✓ 就业状态与轨迹基本一致
+
+预测失败原因分析:
+--------------------------------------------------------------------------------
+主要问题:
+  - 错误生成工作 (1次)
+
+改进建议:
+  2. 强化就业状态的判断逻辑
+     - 明确告知LLM:如果employment_status为'Not in labor force'或'Unemployed',不应生成工作活动
+

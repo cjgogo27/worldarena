@@ -1,0 +1,12 @@
+{
+  "country": "Argentina",
+  "country_code": "ar",
+  "city": "",
+  "reasoning_chain": [
+    "The car is driving on the right side of the road, consistent with Argentina’s traffic rules.",
+    "Vegetation includes palm trees and acacia-like species typical of subtropical regions in Argentina, such as Córdoba or Santa Fe.",
+    "Architecture features beige stucco walls and simple residential design common in Argentine suburban developments.",
+    "Utility poles and street layout resemble those found in mid-sized Argentine towns with planned neighborhoods."
+  ],
+  "raw_output": "{\n  \"country\": \"Argentina\",\n  \"country_code\": \"ar\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The car is driving on the right side of the road, consistent with Argentina’s traffic rules.\",\n    \"Vegetation includes palm trees and acacia-like species typical of subtropical regions in Argentina, such as Córdoba or Santa Fe.\",\n    \"Architecture features beige stucco walls and simple residential design common in Argentine suburban developments.\",\n    \"Utility poles and street layout resemble those found in mid-sized Argentine towns with planned neighborhoods.\"\n  ]\n}"
+}

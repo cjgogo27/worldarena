@@ -1,0 +1,11 @@
+{
+  "country": "Italy",
+  "country_code": "it",
+  "city": "",
+  "reasoning_chain": [
+    "The yellow road sign with Italian text ('VIA LUNGA DI CAFAGGIO CHIUSA') confirms the location is in Italy.",
+    "The blue circular sign with a white bicycle and pedestrian symbol indicates a shared path, common in Italian urban and suburban areas.",
+    "The architecture of the building on the left, with shuttered windows and stucco walls, is typical of residential buildings in northern or central Italy."
+  ],
+  "raw_output": "{\n  \"country\": \"Italy\",\n  \"country_code\": \"it\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The yellow road sign with Italian text ('VIA LUNGA DI CAFAGGIO CHIUSA') confirms the location is in Italy.\",\n    \"The blue circular sign with a white bicycle and pedestrian symbol indicates a shared path, common in Italian urban and suburban areas.\",\n    \"The architecture of the building on the left, with shuttered windows and stucco walls, is typical of residential buildings in northern or central Italy.\",\n    \"The vegetation,"
+}

@@ -1,0 +1,664 @@
+{
+  "game_id": "56Q4T4rpv9O9sCpP",
+  "round": 1,
+  "image_path": "/data/alice/cjtest/NIPS/geoskill/data/georc/56Q4T4rpv9O9sCpP/56Q4T4rpv9O9sCpP_1.png",
+  "ground_truth_country": "ch",
+  "ground_truth_lat": 47.01044207465125,
+  "ground_truth_lng": 9.50752445097967,
+  "expert_chain": "Round 1\nReasoning\nThis landscape is typical of regions around the Alps Mountains, due to the grand, exposed snow-capped mountains mixed in with a lot of alpine architecture (buildings made out of wood)\nThe street sign is in German, so this leads to potentially Western Austria, Switzerland, Liechtenstein, or Southern Germany; however, the mountains in Southern Germany are not as jagged which rules out Germany\nThe roadside mirror with a white alternating striped pattern is also common in Alpine countries\nThe jagged mountains and street signs are commonly found in Western Austria\nConclusion\nThis location is potentially in Western Austria but can be in Switzerland or Liechtenstein\n\nRound 2\nReasoning\nThis greasy landscape with few trees is most common in South Africa and Australia and the sun being in the north confirms that we will be in the southern hemisphere\nGeneration 2 coverage (low-quality coverage) is also common in South Africa and Australia as they were one of the earliest coverage coverage\nThe wooden electricity pole with small insulators on top of the support bar is unique to South Africa; however, this rolling grassy landscape has to be along the southern part of South Africa and potentially in West Cape all the way to western parts of East Cape\nConclusion\nThis location is 100% in South Africa, with the possibility of being in West Cape but could be also in the western part of East Cape\nRound 3\nReasoning\nThis location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible \nThis landscape most resembles Southern India and Sri Lanka because of the tuk-tuk (rickshaw) that is following the car, which is most common in those countries; however, with the higher quality camera, this can never be found in India\nThe abundance of coconut palms leans the location towards the coast, but which side is ambiguous and hard to tell\nConclusion\nThis location is 100% in Sri Lanka, possibly on a coastal jungle road\n\nRound 4\nReasoning\nThe bollards (street posts with reflectors) on the side of the road are unique to Australia, but possibly found in countries in Europe but this climate can never be Europe\nThis landscape is very flat with tall yellow grass and an abundance of eucalyptus trees which further reinforces somewhere inland in Australia, possibly the outback\nThe short reflectors on the Australian bollards are most commonly found in South Australia and Queensland, but with this dry inland landscape, South Australia is not possible\nConclusion\nThis location is 100% in Australia, likely to be in the outback area of Queensland but other states are possible\n\nRound 5\nReasoning\nThis landscape is typical of the Northeastern provinces of South Africa: a dry arid landscape that is not quite desert-like and an abundance of low shrubs and trees that have lost their leaves\nSolid yellow outer road lines also is only found in Southern Africa and the alternating perpendicular insulator wooden pole is unique to Northeastern provinces of Southern Africa\nConclusion\nThis location is 100% in South Africa, highly likely to be in the Northeastern region of the country\n",
+  "sample_id": "georc::56Q4T4rpv9O9sCpP::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ch",
+    "predicted_region": "europe",
+    "predicted_address": "Bestastrasse, 9470 Buchs, St. Gallen, Switzerland",
+    "predicted_lat": 47.16666667,
+    "predicted_lng": 9.46666667,
+    "reasoning_text": "{\n  \"country\": \"Switzerland\",\n  \"country_code\": \"ch\",\n  \"region\": \"Western Europe\",\n  \"city\": \"Buchs\",\n  \"province_or_state\": \"St. Gallen\",\n  \"address\": \"Bestastrasse, 9470 Buchs, St. Gallen, Switzerland\",\n  \"confidence\": 0.88,\n  \"reasoning\": \"Applying the ordered skill graph strictly: (1) the road curve and surrounding steep mountainous landscape indicate a foothill Alpine setting rather than flat lowlands. (2) Although one skill suggests Andorra from unusual signage and plates, the visible evidence here does not fit Andorra well; instead the infrastructure is clearly central European. (3) The roadside delineation and general road furniture are compatible with German-speaking Alpine regions. Composing these with the linked regional skills, the street sign is in German and reads 'Bestastrasse', which strongly narrows the area to Switzerland, Liechtenstein, western Austria, or southern Germany. The very jagged mountains immediately beside a valley settlement make southern Germany less likely. The orderly suburban/light-industrial street layout and electrical/urban infrastructure indicate a small town rather than a major city. The mix of modern commercial buildings and Alpine valley setting fits the upper Rhine Valley. Between western Austria, Liechtenstein, and Switzerland, the blue street-name plate style, the spelling 'strasse' with 'ss', Swiss-style streetscape, and the exact visible street name Bestastrasse best match Buchs in the canton of St. Gallen. Therefore the most consistent final location guess is Bestastrasse in Buchs, St. Gallen, Switzerland.\",\n  \"evidence\": [\n    \"Blue street-name sign reading 'Bestastrasse'\",\n    \"German-language signage\",\n    \"Steep jagged Alpine mountains rising directly behind the town\",\n    \"Suburban/light-industrial street layout with modern low-rise buildings\",\n    \"Swiss-looking curb treatment and road design\",\n    \"Long European-style license plates\",\n    \"Small-town infrastructure rather than a major city\",\n    \"Rhine Valley-style settlement pattern consistent with eastern Switzerland\"\n  ]\n}",
+    "evidence_spans": [
+      "Blue street-name sign reading 'Bestastrasse'",
+      "German-language signage",
+      "Steep jagged Alpine mountains rising directly behind the town",
+      "Suburban/light-industrial street layout with modern low-rise buildings",
+      "Swiss-looking curb treatment and road design",
+      "Long European-style license plates",
+      "Small-town infrastructure rather than a major city",
+      "Rhine Valley-style settlement pattern consistent with eastern Switzerland"
+    ],
+    "confidence": 0.88,
+    "base_prediction_summary": {
+      "predicted_country": "ch",
+      "predicted_region": "europe",
+      "confidence": 0.66
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 5,
+        "score": 0.8812239766120911,
+        "bm25_score": 26.649322509765625,
+        "semantic_score": 0.5492626428604126
+      },
+      {
+        "skill_text": "The signage is not common in Spain and France and the plate is not a typical European license plate with the blue strip on the left, leading to Andorra being the most likely",
+        "region_hint": "europe",
+        "confidence": 0.75,
+        "visual_cues": [
+          "license plate",
+          "sign"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 3,
+        "score": 0.8533984422683716,
+        "bm25_score": 29.215768814086914,
+        "semantic_score": 0.4407665431499481
+      },
+      {
+        "skill_text": "The presence of a small red reflector on the road post is more typical in Germany than in the Czech Republic.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 3,
+        "score": 0.7965092658996582,
+        "bm25_score": 26.717378616333008,
+        "semantic_score": 0.41872239112854004
+      },
+      {
+        "skill_text": "The vehicles visible on driveways are consistent with those usually seen in Australia and New Zealand, rather than Europe or North America.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "consistent",
+          "driveways",
+          "vehicles",
+          "visible"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 2,
+        "score": 0.7914637327194214,
+        "bm25_score": 29.08568572998047,
+        "semantic_score": 0.34996744990348816
+      },
+      {
+        "skill_text": "The overall street layout and infrastructure resemble a regional or suburban town rather than a large city.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "infrastructure",
+          "layout",
+          "overall",
+          "street"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 2,
+        "score": 0.7628026008605957,
+        "bm25_score": 27.183795928955078,
+        "semantic_score": 0.3554508090019226
+      },
+      {
+        "skill_text": "The overall road structure and layout match rural or suburban roads in Japan rather than major city centers.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 2,
+        "score": 0.7590712904930115,
+        "bm25_score": 29.237865447998047,
+        "semantic_score": 0.29679879546165466
+      },
+      {
+        "skill_text": "The street sign is in German, so this leads to potentially Western Austria, Switzerland, Liechtenstein, or Southern Germany; however, the mountains in Southern Germany are not as jagged which rules out Germany",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "mountains",
+          "sign"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 1,
+        "score": 0.7463600039482117,
+        "bm25_score": 14.520516395568848,
+        "semantic_score": 0.6570726633071899
+      },
+      {
+        "skill_text": "The jagged mountains and street signs are commonly found in Western Austria",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "mountains",
+          "sign"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 1,
+        "score": 0.7394137382507324,
+        "bm25_score": 17.51935386657715,
+        "semantic_score": 0.5691652297973633
+      },
+      {
+        "skill_text": "The electrical infrastructure and street layout indicate a small town rather than a major city.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "electrical",
+          "infrastructure",
+          "layout",
+          "street"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 3,
+        "score": 0.7363525629043579,
+        "bm25_score": 27.36600112915039,
+        "semantic_score": 0.310541570186615
+      },
+      {
+        "skill_text": "The architecture includes a mix of modern and stone buildings, common in Southern European mountain towns.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "building"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 3,
+        "score": 0.7349333763122559,
+        "bm25_score": 21.862918853759766,
+        "semantic_score": 0.4503225088119507
+      },
+      {
+        "skill_text": "The lack of visible road shoulder and the narrow pavement further suggests rural Australia rather than New Zealand, which often has different road finishes and wider shoulders.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 5,
+        "score": 0.726786732673645,
+        "bm25_score": 24.6799373626709,
+        "semantic_score": 0.36527976393699646
+      },
+      {
+        "skill_text": "Based on forest type and road design, this is likely near Sydney, possibly in the Blue Mountains or greater New South Wales region.",
+        "region_hint": "europe",
+        "confidence": 0.75,
+        "visual_cues": [
+          "mountains",
+          "road",
+          "sign"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 5,
+        "score": 0.7244661450386047,
+        "bm25_score": 23.75315284729004,
+        "semantic_score": 0.38565605878829956
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.8812239766120911,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The signage is not common in Spain and France and the plate is not a typical European license plate with the blue strip on the left, leading to Andorra being the most likely",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.8533984422683716,
+          "visual_cues": [
+            "license plate",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The presence of a small red reflector on the road post is more typical in Germany than in the Czech Republic.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7965092658996582,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The vehicles visible on driveways are consistent with those usually seen in Australia and New Zealand, rather than Europe or North America.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.7914637327194214,
+          "visual_cues": [
+            "consistent",
+            "driveways",
+            "vehicles",
+            "visible"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The overall street layout and infrastructure resemble a regional or suburban town rather than a large city.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.7628026008605957,
+          "visual_cues": [
+            "infrastructure",
+            "layout",
+            "overall",
+            "street"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The overall road structure and layout match rural or suburban roads in Japan rather than major city centers.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7590712904930115,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The street sign is in German, so this leads to potentially Western Austria, Switzerland, Liechtenstein, or Southern Germany; however, the mountains in Southern Germany are not as jagged which rules out Germany",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7463600039482117,
+          "visual_cues": [
+            "mountains",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The jagged mountains and street signs are commonly found in Western Austria",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7394137382507324,
+          "visual_cues": [
+            "mountains",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The electrical infrastructure and street layout indicate a small town rather than a major city.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7363525629043579,
+          "visual_cues": [
+            "electrical",
+            "infrastructure",
+            "layout",
+            "street"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The architecture includes a mix of modern and stone buildings, common in Southern European mountain towns.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7349333763122559,
+          "visual_cues": [
+            "architecture",
+            "building"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The lack of visible road shoulder and the narrow pavement further suggests rural Australia rather than New Zealand, which often has different road finishes and wider shoulders.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.726786732673645,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "Based on forest type and road design, this is likely near Sydney, possibly in the Blue Mountains or greater New South Wales region.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.7244661450386047,
+          "visual_cues": [
+            "mountains",
+            "road",
+            "sign"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "infrastructure",
+            "layout",
+            "street"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "mountains",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "mountains",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "mountains",
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+        "The signage is not common in Spain and France and the plate is not a typical European license plate with the blue strip on the left, leading to Andorra being the most likely",
+        "The presence of a small red reflector on the road post is more typical in Germany than in the Czech Republic.",
+        "The vehicles visible on driveways are consistent with those usually seen in Australia and New Zealand, rather than Europe or North America.",
+        "The overall street layout and infrastructure resemble a regional or suburban town rather than a large city.",
+        "The overall road structure and layout match rural or suburban roads in Japan rather than major city centers.",
+        "The street sign is in German, so this leads to potentially Western Austria, Switzerland, Liechtenstein, or Southern Germany; however, the mountains in Southern Germany are not as jagged which rules out Germany",
+        "The jagged mountains and street signs are commonly found in Western Austria",
+        "The electrical infrastructure and street layout indicate a small town rather than a major city.",
+        "The architecture includes a mix of modern and stone buildings, common in Southern European mountain towns.",
+        "The lack of visible road shoulder and the narrow pavement further suggests rural Australia rather than New Zealand, which often has different road finishes and wider shoulders.",
+        "Based on forest type and road design, this is likely near Sydney, possibly in the Blue Mountains or greater New South Wales region."
+      ],
+      "summary": "nodes=12, edges=34, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Switzerland\",\n  \"country_code\": \"ch\",\n  \"region\": \"Western Europe\",\n  \"city\": \"Buchs\",\n  \"province_or_state\": \"St. Gallen\",\n  \"address\": \"Bestastrasse, 9470 Buchs, St. Gallen, Switzerland\",\n  \"confidence\": 0.66,\n  \"reasoning\": \"The scene is clearly in a German-speaking Alpine area: t",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 34,
+        "graph_summary": "nodes=12, edges=34, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "ch"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

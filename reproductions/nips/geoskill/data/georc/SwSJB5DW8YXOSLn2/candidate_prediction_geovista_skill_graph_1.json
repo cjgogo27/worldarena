@@ -1,0 +1,634 @@
+{
+  "game_id": "SwSJB5DW8YXOSLn2",
+  "round": 1,
+  "sample_id": "georc::SwSJB5DW8YXOSLn2::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "gb",
+    "predicted_region": "europe",
+    "predicted_address": "Unpaved heathland track, New Forest, Hampshire, England, United Kingdom",
+    "predicted_lat": 50.75601,
+    "predicted_lng": -1.6658,
+    "reasoning_text": "{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"region\": \"Western Europe\",\n  \"city\": \"New Forest\",\n  \"province_or_state\": \"England\",\n  \"address\": \"Unpaved heathland track, New Forest, Hampshire, England, United Kingdom\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"Applying the ordered skill graph: Skill 1 indicates a temperate maritime climate from the sky and lighting, which strongly supports the British Isles. Skill 2 then fits the rolling, green, rural landscape to the United Kingdom or Ireland. Skill 3 suggests Bulgaria, but the observed heathland scrub, track construction, and overall Atlantic look do not fit Bulgaria well, so that branch is rejected. Skill 4 suggests coastal Australia or Tasmania through low shrubbery, but the gravel track style, fencing, and cooler maritime vegetation are less consistent there. Skill 5 is then the strongest linked confirmation: the wooden and wire fencing, wild heath vegetation, and rural track are very typical of rural Britain, especially southern England. Lower-priority alternatives such as Norway, Scandinavia, South America, Mediterranean Spain, and New Zealand conflict with the vegetation, terrain, and path style. Combining the strongest supported cues yields southern England, and the open heath with gorse/heather-like scrub and pale gravel access track is especially characteristic of the New Forest area in Hampshire.\",\n  \"evidence\": [\n    \"Temperate maritime sky and lighting\",\n    \"Open heathland with low gorse/heather-like scrub\",\n    \"Narrow pale gravel/unpaved track\",\n    \"Wire and post fencing along the track\",\n    \"Sparse small trees and gently rolling terrain\",\n    \"Landscape strongly matches southern English heathland\",\n    \"Best regional fit is the New Forest in Hampshire\"\n  ]\n}",
+    "evidence_spans": [
+      "Temperate maritime sky and lighting",
+      "Open heathland with low gorse/heather-like scrub",
+      "Narrow pale gravel/unpaved track",
+      "Wire and post fencing along the track",
+      "Sparse small trees and gently rolling terrain",
+      "Landscape strongly matches southern English heathland",
+      "Best regional fit is the New Forest in Hampshire"
+    ],
+    "confidence": 0.72,
+    "base_prediction_summary": {
+      "predicted_country": "gb",
+      "predicted_region": "europe",
+      "confidence": 0.53
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The overcast sky and lighting conditions point to a temperate maritime climate, characteristic of the British Isles.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 2,
+        "score": 0.9043388366699219,
+        "bm25_score": 30.107675552368164,
+        "semantic_score": 0.44201934337615967
+      },
+      {
+        "skill_text": "The landscape consists of rolling green hills and dense hedge-lined country lanes, typical of the United Kingdom and Ireland.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "consists",
+          "green",
+          "landscape",
+          "rolling"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 2,
+        "score": 0.8895013928413391,
+        "bm25_score": 23.453962326049805,
+        "semantic_score": 0.5685325860977173
+      },
+      {
+        "skill_text": "The vegetation type and gently rolling hills with sparse trees match the landscape often seen in northern and central Bulgaria.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees",
+          "vegetation"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 2,
+        "score": 0.8553971648216248,
+        "bm25_score": 29.539499282836914,
+        "semantic_score": 0.3897722363471985
+      },
+      {
+        "skill_text": "With a rolling grassy landscape, a variety of low shrubbery and vegetation fit for more coastal regions in Australia, especially the area of Tasmania",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "coast",
+          "vegetation"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 1,
+        "score": 0.8514857292175293,
+        "bm25_score": 28.042957305908203,
+        "semantic_score": 0.41746804118156433
+      },
+      {
+        "skill_text": "The wooden fence style and wild vegetation are commonly seen in rural England, Wales, Scotland, or Ireland.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "fence",
+          "vegetation"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 2,
+        "score": 0.8384935855865479,
+        "bm25_score": 20.901254653930664,
+        "semantic_score": 0.5571393370628357
+      },
+      {
+        "skill_text": "The terrain includes rolling hills and mountainous features in the background, characteristic of central or northern Norway.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "terrain"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 1,
+        "score": 0.8165695667266846,
+        "bm25_score": 25.469064712524414,
+        "semantic_score": 0.42782142758369446
+      },
+      {
+        "skill_text": "The road is a reddish dirt track, which is common in rural South American regions, especially Uruguay and southern Brazil.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 5,
+        "score": 0.7834542989730835,
+        "bm25_score": 27.70380401611328,
+        "semantic_score": 0.3349442481994629
+      },
+      {
+        "skill_text": "The fence styles, especially the wire and metal fencing, indicate Eastern European influences.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "fence"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 3,
+        "score": 0.7636946439743042,
+        "bm25_score": 27.460994720458984,
+        "semantic_score": 0.31414473056793213
+      },
+      {
+        "skill_text": "The surrounding landscape consists of coniferous forest and sparse underbrush, which is common in Scandinavian countries, especially Norway.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "coniferous",
+          "consists",
+          "landscape",
+          "surrounding"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 1,
+        "score": 0.7613546252250671,
+        "bm25_score": 23.246692657470703,
+        "semantic_score": 0.4036089777946472
+      },
+      {
+        "skill_text": "The surrounding landscape features boreal forest with a mix of pine and birch trees, which suggests a northern latitude.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 5,
+        "score": 0.7551085948944092,
+        "bm25_score": 20.425203323364258,
+        "semantic_score": 0.45731717348098755
+      },
+      {
+        "skill_text": "Vegetation includes Mediterranean scrub, olive-like trees, and hilly terrain with semi-arid undergrowth, typical of southern Spain.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "terrain",
+          "trees",
+          "vegetation"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 5,
+        "score": 0.7534909248352051,
+        "bm25_score": 26.245197296142578,
+        "semantic_score": 0.3273528218269348
+      },
+      {
+        "skill_text": "The combination of all these clues strongly suggests this is in New Zealand, and the housing style, garden types, and suburban layout are especially common in Hamilton.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "clues",
+          "combination",
+          "strongly",
+          "these"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 4,
+        "score": 0.7463624477386475,
+        "bm25_score": 23.130889892578125,
+        "semantic_score": 0.386324942111969
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The overcast sky and lighting conditions point to a temperate maritime climate, characteristic of the British Isles.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.9043388366699219,
+          "visual_cues": [
+            "climate"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The landscape consists of rolling green hills and dense hedge-lined country lanes, typical of the United Kingdom and Ireland.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8895013928413391,
+          "visual_cues": [
+            "consists",
+            "green",
+            "landscape",
+            "rolling"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The vegetation type and gently rolling hills with sparse trees match the landscape often seen in northern and central Bulgaria.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8553971648216248,
+          "visual_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "With a rolling grassy landscape, a variety of low shrubbery and vegetation fit for more coastal regions in Australia, especially the area of Tasmania",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.8514857292175293,
+          "visual_cues": [
+            "coast",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The wooden fence style and wild vegetation are commonly seen in rural England, Wales, Scotland, or Ireland.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8384935855865479,
+          "visual_cues": [
+            "fence",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The terrain includes rolling hills and mountainous features in the background, characteristic of central or northern Norway.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8165695667266846,
+          "visual_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road is a reddish dirt track, which is common in rural South American regions, especially Uruguay and southern Brazil.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7834542989730835,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The fence styles, especially the wire and metal fencing, indicate Eastern European influences.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7636946439743042,
+          "visual_cues": [
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The surrounding landscape consists of coniferous forest and sparse underbrush, which is common in Scandinavian countries, especially Norway.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7613546252250671,
+          "visual_cues": [
+            "coniferous",
+            "consists",
+            "landscape",
+            "surrounding"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The surrounding landscape features boreal forest with a mix of pine and birch trees, which suggests a northern latitude.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7551085948944092,
+          "visual_cues": [
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "Vegetation includes Mediterranean scrub, olive-like trees, and hilly terrain with semi-arid undergrowth, typical of southern Spain.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7534909248352051,
+          "visual_cues": [
+            "terrain",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The combination of all these clues strongly suggests this is in New Zealand, and the housing style, garden types, and suburban layout are especially common in Hamilton.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.7463624477386475,
+          "visual_cues": [
+            "clues",
+            "combination",
+            "strongly",
+            "these"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "consists",
+            "landscape"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "fence"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "trees"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The overcast sky and lighting conditions point to a temperate maritime climate, characteristic of the British Isles.",
+        "The landscape consists of rolling green hills and dense hedge-lined country lanes, typical of the United Kingdom and Ireland.",
+        "The vegetation type and gently rolling hills with sparse trees match the landscape often seen in northern and central Bulgaria.",
+        "With a rolling grassy landscape, a variety of low shrubbery and vegetation fit for more coastal regions in Australia, especially the area of Tasmania",
+        "The wooden fence style and wild vegetation are commonly seen in rural England, Wales, Scotland, or Ireland.",
+        "The terrain includes rolling hills and mountainous features in the background, characteristic of central or northern Norway.",
+        "The road is a reddish dirt track, which is common in rural South American regions, especially Uruguay and southern Brazil.",
+        "The fence styles, especially the wire and metal fencing, indicate Eastern European influences.",
+        "The surrounding landscape consists of coniferous forest and sparse underbrush, which is common in Scandinavian countries, especially Norway.",
+        "The surrounding landscape features boreal forest with a mix of pine and birch trees, which suggests a northern latitude.",
+        "Vegetation includes Mediterranean scrub, olive-like trees, and hilly terrain with semi-arid undergrowth, typical of southern Spain.",
+        "The combination of all these clues strongly suggests this is in New Zealand, and the housing style, garden types, and suburban layout are especially common in Hamilton."
+      ],
+      "summary": "nodes=12, edges=33, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"region\": \"Western Europe\",\n  \"city\": \"New Forest\",\n  \"province_or_state\": \"England\",\n  \"address\": \"Unpaved heathland track, New Forest area, Hampshire, England, United Kingdom\",\n  \"confidence\": 0.53,\n  \"reasoning\": \"The scene shows a very n",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 33,
+        "graph_summary": "nodes=12, edges=33, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "gb"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "user_id": "40326211_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "07:30",
+        "end_time": "18:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "21:00",
+        "end_time": "24:00"
+      }
+    ]
+  },
+  {
+    "user_id": "30023350_2",
+    "schedule": [
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "13:00"
+      },
+      {
+        "activity": "shopping",
+        "start_time": "14:00",
+        "end_time": "15:30"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "16:00",
+        "end_time": "21:00"
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "country": "Argentina",
+  "country_code": "ar",
+  "city": "",
+  "reasoning_chain": [
+    "The gas station sign displays 'Planta Segura' in Spanish, indicating a Spanish-speaking country like Argentina.",
+    "Road markings show double yellow lines separating traffic directions, consistent with right-hand traffic systems used in Argentina.",
+    "Vegetation includes dry grass and deciduous trees with autumnal colors, typical of temperate regions in central Argentina."
+  ],
+  "raw_output": "{\n  \"country\": \"Argentina\",\n  \"country_code\": \"ar\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The gas station sign displays 'Planta Segura' in Spanish, indicating a Spanish-speaking country like Argentina.\",\n    \"Road markings show double yellow lines separating traffic directions, consistent with right-hand traffic systems used in Argentina.\",\n    \"Vegetation includes dry grass and deciduous trees with autumnal colors, typical of temperate regions in central Argentina.\",\n    \"The presence of large trucks and open roadside infrastructure suggests a rural or semi-rural highway common"
+}

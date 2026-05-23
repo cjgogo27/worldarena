@@ -1,0 +1,11 @@
+{
+  "country": "Canada",
+  "country_code": "ca",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with no passing, consistent with North American road standards, particularly in rural Canada.",
+    "Utility poles are wooden and spaced regularly along the roadside, typical of rural infrastructure in Atlantic Canada.",
+    "Vegetation includes mixed coniferous and deciduous trees with autumnal grasses, suggesting a temperate climate zone found in eastern Canada."
+  ],
+  "raw_output": "{\n  \"country\": \"Canada\",\n  \"country_code\": \"ca\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with no passing, consistent with North American road standards, particularly in rural Canada.\",\n    \"Utility poles are wooden and spaced regularly along the roadside, typical of rural infrastructure in Atlantic Canada.\",\n    \"Vegetation includes mixed coniferous and deciduous trees with autumnal grasses, suggesting a temperate climate zone found in eastern Canada.\",\n    \"Absence of signage, buildings, or urban features points to"
+}

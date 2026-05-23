@@ -1,0 +1,11 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with no passing, common in Nordic countries including Finland.",
+    "Tall, straight pine trees and sparse undergrowth are characteristic of boreal forest (taiga) found in northern Finland.",
+    "Absence of utility poles, buildings, or signage suggests remote rural area typical of Finnish wilderness roads."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with no passing, common in Nordic countries including Finland.\",\n    \"Tall, straight pine trees and sparse undergrowth are characteristic of boreal forest (taiga) found in northern Finland.\",\n    \"Absence of utility poles, buildings, or signage suggests remote rural area typical of Finnish wilderness roads.\",\n    \"Overcast sky and muted colors align with temperate continental climate of northern Europe, especially Finland’s"
+}

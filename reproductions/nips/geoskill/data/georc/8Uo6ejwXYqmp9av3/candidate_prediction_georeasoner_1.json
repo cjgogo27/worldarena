@@ -1,0 +1,12 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow concrete road with no center line and vegetation on both sides is typical of rural Thai village roads.",
+    "Utility poles with exposed wires and a simple streetlight design are common in rural Thailand.",
+    "The architecture of the houses, including corrugated metal roofs and wooden structures, aligns with rural Thai housing styles.",
+    "The lush green vegetation and clear blue sky suggest a tropical climate consistent with Thailand's geography."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow concrete road with no center line and vegetation on both sides is typical of rural Thai village roads.\",\n    \"Utility poles with exposed wires and a simple streetlight design are common in rural Thailand.\",\n    \"The architecture of the houses, including corrugated metal roofs and wooden structures, aligns with rural Thai housing styles.\",\n    \"The lush green vegetation and clear blue sky suggest a tropical climate consistent with Thailand's geography.\"\n  ]"
+}

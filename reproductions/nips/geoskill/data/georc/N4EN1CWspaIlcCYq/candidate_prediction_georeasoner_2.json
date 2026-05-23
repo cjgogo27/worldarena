@@ -1,0 +1,11 @@
+{
+  "country": "United Kingdom",
+  "country_code": "gb",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unpaved or gravel path flanked by tall grass and hedgerows is typical of rural British countryside lanes.",
+    "The overcast sky and lush green vegetation are consistent with the temperate maritime climate of the UK.",
+    "No visible road markings, signs, or vehicles suggest a low-traffic rural area common in England or Wales."
+  ],
+  "raw_output": "{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unpaved or gravel path flanked by tall grass and hedgerows is typical of rural British countryside lanes.\",\n    \"The overcast sky and lush green vegetation are consistent with the temperate maritime climate of the UK.\",\n    \"No visible road markings, signs, or vehicles suggest a low-traffic rural area common in England or Wales.\",\n    \"The architecture of distant houses (e.g., pitched roofs, white walls) align"
+}

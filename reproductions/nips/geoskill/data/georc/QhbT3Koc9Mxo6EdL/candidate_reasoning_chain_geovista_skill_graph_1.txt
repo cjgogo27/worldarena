@@ -1,0 +1,16 @@
+Cyrillic text 'Клинцы' visible on the crane boom
+Vehicles are driving on the right side of the road
+Very flat, dry, treeless steppe landscape
+Long straight paved highway with post-Soviet road design
+Sparse settlement and utility poles running along the road
+Visible industrial oil/gas infrastructure on the right side
+Heavy Soviet-style truck and crane common in ex-USSR regions
+Applying the ordered skill graph strictly: Skill 1 notes that Cyrillic text suggests a Russian-speaking sphere and initially raises Kyrgyzstan, Russia, or Ukraine as candidates.
+In this scene, the visible Cyrillic 'Клинцы' on the crane supports that broad sphere, but it appears to be manufacturer branding rather than a place name.
+Skill 2 shows vehicles traveling on the right, which is consistent with Kazakhstan and the other right-driving post-Soviet options.
+Following the graph from Skill 1 to Skill 3, and combining the broad Cyrillic cue with the road scene, the most consistent country is Kazakhstan.
+Following Skill 3 to Skill 8, the overall environment and infrastructure fit Kazakhstan even better: an extremely flat, dry, treeless steppe, a long straight highway, sparse roadside development, and visible industrial energy infrastructure.
+These conditions strongly favor western Kazakhstan over places like Astana because the scene includes what looks like an oil or gas installation, which is especially characteristic of Atyrau Region.
+Alternative graph skills pointing to Switzerland, Latvia, Bulgaria, Hungary, Ukraine, or Indonesia conflict with the visible Cyrillic, right-hand traffic, flat semi-arid steppe, and petroleum infrastructure, so they are rejected.
+The best single consistent textual guess is therefore the Atyrau–Dossor highway near an oil/gas facility in Atyrau Region, Kazakhstan.
+Conclusion: likely location is near Atyrau, Atyrau Region, Kazakhstan

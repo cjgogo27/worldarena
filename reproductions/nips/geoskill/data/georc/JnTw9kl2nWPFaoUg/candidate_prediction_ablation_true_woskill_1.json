@@ -1,0 +1,34 @@
+{
+  "game_id": "JnTw9kl2nWPFaoUg",
+  "round": 1,
+  "sample_id": "georc::JnTw9kl2nWPFaoUg::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ae",
+    "predicted_region": "asia",
+    "predicted_address": "Al Hili, Al Ain, Abu Dhabi Emirate, United Arab Emirates",
+    "predicted_lat": 24.30561,
+    "predicted_lng": 55.77655,
+    "reasoning_text": "```json\n{\n  \"country\": \"United Arab Emirates\",\n  \"country_code\": \"ae\",\n  \"region\": \"Middle East\",\n  \"city\": \"Al Ain\",\n  \"province_or_state\": \"Abu Dhabi Emirate\",\n  \"address\": \"Al Hili, Al Ain, Abu Dhabi Emirate, United Arab Emirates\",\n  \"confidence\": 0.65,\n  \"reasoning\": \"The image shows a desert environment with date palms and low-rise residential construction typical of the UAE. The sandy/rocky terrain, sparse vegetation, and architectural style (boundary walls, flat roofs) are characteristic of the Gulf region. The vehicle roof visible suggests this is a street view capture from a car. Al Ain is known as the 'Garden City' of the UAE with extensive date palm cultivation and desert outskirts like this. The hazy sky and sun position suggest late afternoon in a hot climate. The area appears to be on the edge of developed land, consistent with Al Hili or similar suburban/desert fringe areas of Al Ain.\",\n  \"evidence\": [\"date palm trees\", \"desert terrain with sandy/rocky soil\", \"boundary wall construction style\", \"low-rise residential building\", \"hazy sky typical of Gulf humidity\", \"sparse desert vegetation\", \"sun position indicating hot climate latitude\"]\n}\n```",
+    "evidence_spans": [
+      "date palm trees",
+      "desert terrain with sandy/rocky soil",
+      "boundary wall construction style",
+      "low-rise residential building",
+      "hazy sky typical of Gulf humidity",
+      "sparse desert vegetation",
+      "sun position indicating hot climate latitude"
+    ],
+    "confidence": 0.65,
+    "country_top3": [
+      "ae",
+      "sa",
+      "om"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"ae\",\"sa\",\"om\"],\"reason\":\"Desert landscape with palm trees, low beige wall architecture, sandy/rocky terrain, and hazy sun typical of Arabian Peninsula. Building style and vegetation (date palms, acacia-type trees) strongly suggest UAE, Saudi Arabia, or Oman. The walled compound with flat roof and desert edge settlement pattern is most consistent with UAE.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8525
+  },
+  "error": null
+}

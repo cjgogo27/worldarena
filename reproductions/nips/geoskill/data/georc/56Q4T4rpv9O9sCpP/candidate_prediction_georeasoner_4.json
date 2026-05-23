@@ -1,0 +1,11 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "The yellow diamond-shaped 'FLOODWAY' sign is consistent with Australian road signage standards for warning of flood-prone areas.",
+    "The red dirt track running parallel to the paved road is typical of rural Australian outback infrastructure.",
+    "The vegetation—dry grasses and scattered eucalyptus trees—is characteristic of arid or semi-arid Australian landscapes."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The yellow diamond-shaped 'FLOODWAY' sign is consistent with Australian road signage standards for warning of flood-prone areas.\",\n    \"The red dirt track running parallel to the paved road is typical of rural Australian outback infrastructure.\",\n    \"The vegetation—dry grasses and scattered eucalyptus trees—is characteristic of arid or semi-arid Australian landscapes.\",\n    \"The absence of lane markings, utility poles, or urban infrastructure suggests a"
+}

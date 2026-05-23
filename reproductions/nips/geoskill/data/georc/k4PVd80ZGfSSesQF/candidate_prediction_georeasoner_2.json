@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of concrete drainage culverts and utility poles with Japanese-style insulators suggests rural infrastructure common in Japan.",
+    "The unpaved gravel road and lack of formal road markings are typical of remote agricultural areas in Japan’s countryside.",
+    "The green metal warehouse and corrugated metal structures resemble industrial or farm buildings frequently found in Japanese rural zones."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of concrete drainage culverts and utility poles with Japanese-style insulators suggests rural infrastructure common in Japan.\",\n    \"The unpaved gravel road and lack of formal road markings are typical of remote agricultural areas in Japan’s countryside.\",\n    \"The green metal warehouse and corrugated metal structures resemble industrial or farm buildings frequently found in Japanese rural zones.\",\n    \"The open grassy field on the right and distant flat horizon align with Japan’s coastal or"
+}

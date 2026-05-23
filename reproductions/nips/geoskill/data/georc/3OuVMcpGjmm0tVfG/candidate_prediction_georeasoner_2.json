@@ -1,0 +1,11 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "The road is marked with a single dashed white center line, indicating two-way traffic on a low-traffic suburban street, common in Australian residential areas.",
+    "Vegetation includes dense native trees and flowering agapanthus (blue flowers), typical of temperate coastal or semi-rural Australian suburbs.",
+    "A white picket fence with partial lettering 'KO' and a small signboard suggests a private property boundary, consistent with Australian suburban aesthetics."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is marked with a single dashed white center line, indicating two-way traffic on a low-traffic suburban street, common in Australian residential areas.\",\n    \"Vegetation includes dense native trees and flowering agapanthus (blue flowers), typical of temperate coastal or semi-rural Australian suburbs.\",\n    \"A white picket fence with partial lettering 'KO' and a small signboard suggests a private property boundary, consistent with Australian suburban aesthetics.\","
+}

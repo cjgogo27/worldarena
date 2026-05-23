@@ -1,0 +1,11 @@
+{
+  "country": "Sri Lanka",
+  "country_code": "lk",
+  "city": "",
+  "reasoning_chain": [
+    "The red three-wheeled auto-rickshaw (tuk-tuk) is a common mode of transport in Sri Lanka, especially in rural areas.",
+    "The road has a single white line marking the edge, typical of rural roads in Sri Lanka, and no center line suggests low traffic volume.",
+    "Dense coconut palm groves and tropical vegetation are characteristic of Sri Lanka’s coastal and lowland regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Sri Lanka\",\n  \"country_code\": \"lk\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The red three-wheeled auto-rickshaw (tuk-tuk) is a common mode of transport in Sri Lanka, especially in rural areas.\",\n    \"The road has a single white line marking the edge, typical of rural roads in Sri Lanka, and no center line suggests low traffic volume.\",\n    \"Dense coconut palm groves and tropical vegetation are characteristic of Sri Lanka’s coastal and lowland regions.\",\n    \"The overcast"
+}

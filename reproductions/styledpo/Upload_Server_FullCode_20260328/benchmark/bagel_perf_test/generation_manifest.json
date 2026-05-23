@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-03-29T03:55:57.792343+00:00",
+  "content_dir": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/resources/datasets/omnistyle/content",
+  "style_prompts": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/resources/styles/style_prompts_40_v1.json",
+  "output_dir": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_perf_test",
+  "model_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/models/BAGEL-7B-MoT",
+  "mode": 1,
+  "max_contents": 1,
+  "cfg_text_scale": 4.0,
+  "cfg_img_scale": 1.5,
+  "num_timesteps": 1,
+  "use_content_size": false,
+  "content_count": 1,
+  "style_count": 2,
+  "expected_images": 2,
+  "generated_images": 2,
+  "skipped_images": 0,
+  "failed_images": 0,
+  "records": [
+    {
+      "content_id": "content_0001",
+      "content_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/resources/datasets/omnistyle/content/Mythicalcreatures_A graceful phoenix rising from a nest of flames, with feathers of vibrant red and gold.png",
+      "images": [
+        {
+          "style_id": "Action Painting",
+          "style_safe": "Action_Painting",
+          "prompt": "Apply an Action Painting style with energetic brushstrokes, high contrast, and expressive color splashes while preserving the original scene structure.",
+          "output_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_perf_test/content_0001/Action_Painting.png",
+          "seed": 20261330,
+          "status": "generated"
+        },
+        {
+          "style_id": "African Tribal Art",
+          "style_safe": "African_Tribal_Art",
+          "prompt": "Apply an African Tribal Art style with geometric motifs, earthy palettes, and symbolic patterning while preserving the original scene structure.",
+          "output_path": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_perf_test/content_0001/African_Tribal_Art.png",
+          "seed": 20261331,
+          "status": "generated"
+        }
+      ]
+    }
+  ],
+  "failures_file": "/data/alice/cjtest/styledpo/Style-DPO-v2.8-fullcode-20260328_extracted/Upload_Server_FullCode_20260328/benchmark/bagel_perf_test/generation_failures.jsonl"
+}

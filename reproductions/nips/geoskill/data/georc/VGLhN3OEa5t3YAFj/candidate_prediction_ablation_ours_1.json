@@ -1,0 +1,980 @@
+{
+  "game_id": "VGLhN3OEa5t3YAFj",
+  "round": 1,
+  "sample_id": "georc::VGLhN3OEa5t3YAFj::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "za",
+    "predicted_region": "africa",
+    "predicted_lat": -28.25,
+    "predicted_lng": 28.35,
+    "reasoning_text": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"region\": \"Africa\",\n  \"lat\": -28.25,\n  \"lng\": 28.35,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The baseline prediction of Morocco is incorrect. The most definitive visual cue is the driving side: the camera vehicle is positioned on the left side of the road, and the road markings (chevrons) are oriented for left-hand traffic. Morocco drives on the right. This immediately rules out the baseline. The landscape features arid, brown hills and sparse vegetation, consistent with the Highveld region of South Africa (specifically the Free State province). The architecture—concrete block walls with a white-painted base—is common in South African rural and peri-urban areas. The blue fencing around a sports court (likely a netball or tennis court) is a typical feature of South African schools or community centers. The utility poles are concrete or steel, not the wooden poles with crossed crossbars mentioned in some skills, but the overall infrastructure style matches South Africa. The combination of left-hand traffic, arid terrain, and specific architectural elements strongly supports South Africa over Morocco.\",\n  \"evidence\": [\n    \"Left-hand traffic indicated by vehicle position and road markings\",\n    \"Arid, brownish hills and sparse vegetation typical of South African Highveld\",\n    \"Concrete block wall with white-painted base, common in South African rural construction\",\n    \"Blue metal fencing around a sports court, typical of South African schools or community facilities\",\n    \"Absence of Moroccan-specific architectural or signage features\"\n  ]\n}",
+    "evidence_spans": [
+      "Left-hand traffic indicated by vehicle position and road markings",
+      "Arid, brownish hills and sparse vegetation typical of South African Highveld",
+      "Concrete block wall with white-painted base, common in South African rural construction",
+      "Blue metal fencing around a sports court, typical of South African schools or community facilities",
+      "Absence of Moroccan-specific architectural or signage features"
+    ],
+    "confidence": 0.92,
+    "retrieved_skills": [
+      {
+        "skill_text": "The wooden electricity pole with small insulators on top of the support bar is unique to South Africa; however, this rolling grassy landscape has to be along the southern part of South Africa and potentially in West Cape all the way to western parts of East Cape",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 2,
+        "score": 0.40980848670005804,
+        "bm25_score": 33.06468963623047,
+        "semantic_score": 0.3745679259300232
+      },
+      {
+        "skill_text": "The landscape is dry, but not the dryness associated with desert biomes; there is low brownish/yellowish shrubbery next to the road and several stretches of low hills, most indicative of South Africa",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 2,
+        "score": 0.7517210125923157,
+        "bm25_score": 34.08860778808594,
+        "semantic_score": 0.38898956775665283
+      },
+      {
+        "skill_text": "The vehicle is driving on the left side of the road, indicating left-hand traffic, which narrows it down to countries like Namibia, Botswana, South Africa, and a few others in the region.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "driving",
+          "road"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 5,
+        "score": 0.6367953807115556,
+        "bm25_score": 33.58666229248047,
+        "semantic_score": 0.22006410360336304
+      },
+      {
+        "skill_text": "The car blur appears to be driving on the left side and the chevron is placed for left-hand side drive as well, supporting South Africa as the most likely location",
+        "region_hint": "africa",
+        "confidence": 0.75,
+        "visual_cues": [
+          "car",
+          "chevron",
+          "driving"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 2,
+        "score": 0.6353601276874543,
+        "bm25_score": 29.141504287719727,
+        "semantic_score": 0.2944414019584656
+      },
+      {
+        "skill_text": "The combination of sandy soil, solar infrastructure, local architecture, and environmental clues strongly suggests Senegal, Mauritania, Mali, or northern Nigeria.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "soil"
+        ],
+        "source_game_id": "AVKTblAzBqaYrcKe",
+        "source_round": 2,
+        "score": 0.39796178936958315,
+        "bm25_score": 25.699329376220703,
+        "semantic_score": 0.4534200429916382
+      },
+      {
+        "skill_text": "The car is following us on the left side of the road and there is a solid yellow single line in the middle, which all Western African countries have",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "car",
+          "road"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 4,
+        "score": 0.6467477083206177,
+        "bm25_score": 26.564964294433594,
+        "semantic_score": 0.33507832884788513
+      },
+      {
+        "skill_text": "Overall, the vegetation, fencing, farm type, and road style strongly suggest rural South Africa, likely near Bethlehem in the Free State province.",
+        "region_hint": "africa",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 3,
+        "score": 0.42142941057682043,
+        "bm25_score": 32.722808837890625,
+        "semantic_score": 0.40610265731811523
+      },
+      {
+        "skill_text": "The utility poles reveal a developed rural infrastructure, and the road fencing suggests agricultural land rather than purely pastoral.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles",
+          "road"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 3,
+        "score": 0.7055859744548798,
+        "bm25_score": 25.04611587524414,
+        "semantic_score": 0.4270133972167969
+      },
+      {
+        "skill_text": "The crossed crossbar pole tops on the wooden poles are mainly found in Northern South Africa, in the states of Limpopo and North West",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 5,
+        "score": 0.43060921430587773,
+        "bm25_score": 34.9888916015625,
+        "semantic_score": 0.3945190906524658
+      },
+      {
+        "skill_text": "The architecture features simple concrete block walls and metal roofs, commonly found in rural and peri-urban West African settings.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "AVKTblAzBqaYrcKe",
+        "source_round": 2,
+        "score": 0.7285943686962129,
+        "bm25_score": 27.419994354248047,
+        "semantic_score": 0.4903053939342499
+      },
+      {
+        "skill_text": "Based on the rural appearance and the specific architectural style, this is likely on the outskirts of Saint-Louis, Senegal.",
+        "region_hint": "africa",
+        "confidence": 0.75,
+        "visual_cues": [
+          "Based",
+          "appearance",
+          "rural",
+          "specific"
+        ],
+        "source_game_id": "AVKTblAzBqaYrcKe",
+        "source_round": 2,
+        "score": 0.4043328166007996,
+        "bm25_score": 30.509464263916016,
+        "semantic_score": 0.39879557490348816
+      },
+      {
+        "skill_text": "Fencing made of concrete blocks and corrugated metal sheets is a common security feature in West African settlements.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "Fencing",
+          "blocks",
+          "concrete",
+          "made"
+        ],
+        "source_game_id": "AVKTblAzBqaYrcKe",
+        "source_round": 2,
+        "score": 0.39818228483200074,
+        "bm25_score": 19.606040954589844,
+        "semantic_score": 0.5416048765182495
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "ma",
+      "predicted_region": "africa",
+      "predicted_lat": 31.6295,
+      "predicted_lng": -7.9811,
+      "reasoning_text": "{\n  \"country\": \"Morocco\",\n  \"country_code\": \"ma\",\n  \"region\": \"Africa\",\n  \"lat\": 31.6295,\n  \"lng\": -7.9811,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to an arid region in North Africa, specifically Morocco. The combination of the dry, hilly terrain, the specific style of the concrete block wall with a white-painted base (common in Moroccan rural construction to reflect heat and for aesthetics), and the modern blue fencing around a sports court is characteristic of recent infrastructure projects funded by the Moroccan government (often linked to the '1000 Courts' initiative or similar rural development programs). The streetlights are consistent with those used in Moroccan rural electrification projects. The lack of vegetation and the specific geological look of the hills in the background match the Anti-Atlas or High Atlas foothills regions. The soccer goal inside the fenced area confirms it is a multi-use sports facility, common in Moroccan villages. The road surface and lack of markings are typical for secondary roads in these areas. The zoom boxes highlight the wall and the sports court, which are key identifiers. The coordinates provided are near Marrakech, in a semi-arid zone with similar topography.\",\n  \"evidence\": [\n    \"Concrete block wall with white-painted base, typical of Moroccan arid-region construction\",\n    \"Blue metal mesh fencing enclosing a sports court, consistent with Moroccan rural development projects\",\n    \"Soccer goal visible inside fenced area, indicating community facility\",\n    \"Sparse vegetation and dry terrain with rolling hills, indicating arid/semi-arid climate of Morocco\",\n    \"Modern single-arm streetlights spaced regularly, matching Moroccan rural infrastructure\",\n    \"Unpaved road surface with dust and loose gravel, typical of secondary roads in rural Morocco\",\n    \"Power lines running parallel to road on left side, common in Moroccan rural areas\",\n    \"Overcast but bright sky with high solar exposure, typical of desert regions in Morocco\",\n    \"Recent construction appearance with clean concrete and new fencing, suggesting ongoing development projects in Morocco\"\n  ]\n}",
+      "evidence_spans": [
+        "Concrete block wall with white-painted base, typical of Moroccan arid-region construction",
+        "Blue metal mesh fencing enclosing a sports court, consistent with Moroccan rural development projects",
+        "Soccer goal visible inside fenced area, indicating community facility",
+        "Sparse vegetation and dry terrain with rolling hills, indicating arid/semi-arid climate of Morocco",
+        "Modern single-arm streetlights spaced regularly, matching Moroccan rural infrastructure",
+        "Unpaved road surface with dust and loose gravel, typical of secondary roads in rural Morocco",
+        "Power lines running parallel to road on left side, common in Moroccan rural areas",
+        "Overcast but bright sky with high solar exposure, typical of desert regions in Morocco",
+        "Recent construction appearance with clean concrete and new fencing, suggesting ongoing development projects in Morocco"
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "Unpaved or poorly maintained road surface with visible dust and loose gravel",
+          "Concrete block wall on left with white-painted base, typical of arid-region construction",
+          "Blue metal mesh fencing enclosing a sports court (likely basketball or multi-use) on right",
+          "Soccer goal visible inside fenced area — suggests community or school facility",
+          "Sparse vegetation, dry terrain, rolling hills in background — indicates arid/semi-arid climate",
+          "Streetlights are modern, single-arm design, spaced regularly along road",
+          "No visible traffic, pedestrians, or vehicles — low-density or remote area",
+          "Power lines run parallel to road on left side",
+          "Sky is overcast but bright — high solar exposure typical of desert regions",
+          "No license plates, signage, or language indicators visible",
+          "Road curves gently to the right ahead; no lane markings",
+          "Construction appears recent or ongoing — clean concrete, new fencing",
+          "Terrain elevation changes subtly — not flat, suggesting foothills or plateau edge"
+        ],
+        "hard_clues": [
+          "Blue mesh fence enclosing sports court with soccer goal — common in Middle East, North Africa, Central Asia",
+          "Concrete block walls with white base paint — prevalent in Iran, Afghanistan, Pakistan, parts of Turkey",
+          "Arid landscape with barren hills — rules out tropical, temperate, or coastal zones",
+          "Absence of vegetation beyond scrub/dust — consistent with steppe or desert fringe environments",
+          "Modern streetlights and fencing suggest recent public investment — possibly post-2000 infrastructure project"
+        ],
+        "ambiguous_clues": [
+          "No text, flags, or official signage to confirm country or region",
+          "Driving side cannot be determined — no vehicles or road markings present",
+          "Sports court could be for basketball, volleyball, or futsal — doesn’t narrow geography significantly",
+          "Wall construction style is widespread across Islamic world — not uniquely diagnostic",
+          "Hill shape and soil color could match multiple regions: Zagros, Hindu Kush, Anatolian Plateau, Arabian Shield"
+        ],
+        "possible_scripts": [
+          "Persian (Farsi) — if located in Iran, especially eastern provinces like Khorasan or Sistan-Baluchestan",
+          "Pashto/Dari — if in Afghanistan, particularly near border regions with Iran or Pakistan",
+          "Urdu — if in western Pakistan (Balochistan or Khyber Pakhtunkhwa)",
+          "Turkish — if in southeastern Turkey near Syrian/Iraqi borders",
+          "Arabic — if in eastern Saudi Arabia, UAE, or Oman’s interior (less likely due to architecture style)"
+        ],
+        "driving_side": "unknown"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "Morocco",
+          "Algeria",
+          "Tunisia",
+          "Iran",
+          "Turkey"
+        ],
+        "zoom_boxes": [
+          [
+            0,
+            260,
+            260,
+            750
+          ],
+          [
+            450,
+            220,
+            1000,
+            750
+          ]
+        ],
+        "verification_queries": [
+          "Search for new sports complexes with blue fencing in arid regions of Morocco",
+          "Identify streetlight design used in North African rural infrastructure projects",
+          "Find construction styles with white-painted concrete block bases in semi-arid climates"
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "za",
+      "predicted_region": "africa",
+      "predicted_lat": -28.25,
+      "predicted_lng": 28.35,
+      "confidence": 0.92
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "za",
+      "predicted_region": "africa",
+      "predicted_lat": -28.25,
+      "predicted_lng": 28.35,
+      "confidence": 0.92
+    },
+    "base_prediction_summary": {
+      "predicted_country": "ma",
+      "predicted_region": "africa",
+      "predicted_lat": 31.6295,
+      "predicted_lng": -7.9811,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.92,
+    "skill_boost_aggressive_confidence": 0.92,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The landscape is dry, but not the dryness associated with desert biomes; there is low brownish/yellowish shrubbery next to the road and several stretches of low hills, most indicative of South Africa",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7517210125923157,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The architecture features simple concrete block walls and metal roofs, commonly found in rural and peri-urban West African settings.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7285943686962129,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The utility poles reveal a developed rural infrastructure, and the road fencing suggests agricultural land rather than purely pastoral.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.7055859744548798,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The car is following us on the left side of the road and there is a solid yellow single line in the middle, which all Western African countries have",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.6467477083206177,
+          "visual_cues": [
+            "car",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The vehicle is driving on the left side of the road, indicating left-hand traffic, which narrows it down to countries like Namibia, Botswana, South Africa, and a few others in the region.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.6367953807115556,
+          "visual_cues": [
+            "driving",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The car blur appears to be driving on the left side and the chevron is placed for left-hand side drive as well, supporting South Africa as the most likely location",
+          "region_hint": "africa",
+          "confidence": 0.75,
+          "score": 0.6353601276874543,
+          "visual_cues": [
+            "car",
+            "chevron",
+            "driving"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The crossed crossbar pole tops on the wooden poles are mainly found in Northern South Africa, in the states of Limpopo and North West",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.43060921430587773,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "Overall, the vegetation, fencing, farm type, and road style strongly suggest rural South Africa, likely near Bethlehem in the Free State province.",
+          "region_hint": "africa",
+          "confidence": 0.75,
+          "score": 0.42142941057682043,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The wooden electricity pole with small insulators on top of the support bar is unique to South Africa; however, this rolling grassy landscape has to be along the southern part of South Africa and potentially in West Cape all the way to western parts of East Cape",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.40980848670005804,
+          "visual_cues": [
+            "pole"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "Based on the rural appearance and the specific architectural style, this is likely on the outskirts of Saint-Louis, Senegal.",
+          "region_hint": "africa",
+          "confidence": 0.75,
+          "score": 0.4043328166007996,
+          "visual_cues": [
+            "Based",
+            "appearance",
+            "rural",
+            "specific"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "Fencing made of concrete blocks and corrugated metal sheets is a common security feature in West African settlements.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.39818228483200074,
+          "visual_cues": [
+            "Fencing",
+            "blocks",
+            "concrete",
+            "made"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The combination of sandy soil, solar infrastructure, local architecture, and environmental clues strongly suggests Senegal, Mauritania, Mali, or northern Nigeria.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.39796178936958315,
+          "visual_cues": [
+            "architecture",
+            "soil"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "car"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "driving"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The landscape is dry, but not the dryness associated with desert biomes; there is low brownish/yellowish shrubbery next to the road and several stretches of low hills, most indicative of South Africa",
+        "The architecture features simple concrete block walls and metal roofs, commonly found in rural and peri-urban West African settings.",
+        "The utility poles reveal a developed rural infrastructure, and the road fencing suggests agricultural land rather than purely pastoral.",
+        "The car is following us on the left side of the road and there is a solid yellow single line in the middle, which all Western African countries have",
+        "The vehicle is driving on the left side of the road, indicating left-hand traffic, which narrows it down to countries like Namibia, Botswana, South Africa, and a few others in the region.",
+        "The car blur appears to be driving on the left side and the chevron is placed for left-hand side drive as well, supporting South Africa as the most likely location",
+        "The crossed crossbar pole tops on the wooden poles are mainly found in Northern South Africa, in the states of Limpopo and North West",
+        "Overall, the vegetation, fencing, farm type, and road style strongly suggest rural South Africa, likely near Bethlehem in the Free State province.",
+        "The wooden electricity pole with small insulators on top of the support bar is unique to South Africa; however, this rolling grassy landscape has to be along the southern part of South Africa and potentially in West Cape all the way to western parts of East Cape",
+        "Based on the rural appearance and the specific architectural style, this is likely on the outskirts of Saint-Louis, Senegal.",
+        "Fencing made of concrete blocks and corrugated metal sheets is a common security feature in West African settlements.",
+        "The combination of sandy soil, solar infrastructure, local architecture, and environmental clues strongly suggests Senegal, Mauritania, Mali, or northern Nigeria."
+      ],
+      "summary": "nodes=12, edges=66, base_region=africa, top_skill_region=africa"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=africa, top_skill_region=africa"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "challenge": "1NJsXTxIF9GGMDxC",
+        "round": 1,
+        "precision": 0.13478260869565217,
+        "recall": 0.1956521739130435,
+        "f1": 0.15961098398169338
+    },
+    {
+        "challenge": "2xnQdwiCve2rHWVt",
+        "round": 1,
+        "precision": 0.12415458937198069,
+        "recall": 0.1956521739130435,
+        "f1": 0.15191120451858667
+    },
+    {
+        "challenge": "3I4ZtihbhZy5qZzQ",
+        "round": 1,
+        "precision": 0.12512077294685992,
+        "recall": 0.136231884057971,
+        "f1": 0.13044014037343618
+    },
+    {
+        "challenge": "3OuVMcpGjmm0tVfG",
+        "round": 1,
+        "precision": 0.08115942028985508,
+        "recall": 0.0,
+        "f1": 0.0
+    }
+]

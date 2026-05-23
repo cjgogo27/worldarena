@@ -1,0 +1,25 @@
+{
+  "selection_group": "good",
+  "selection_rank": 3,
+  "distance_km": 27.601074,
+  "retrieved_skill_count": 12,
+  "sample_id": "georc::4UvmdTHySo6AXW4M::round1",
+  "game_id": "4UvmdTHySo6AXW4M",
+  "round": "1",
+  "image_source": "/data/alice/cjtest/NIPS/geoskill/data/georc/4UvmdTHySo6AXW4M/4UvmdTHySo6AXW4M_1.png",
+  "ground_truth": {
+    "country": "lu",
+    "lat": 50.16706909674855,
+    "lng": 6.0118908091033925
+  },
+  "prediction": {
+    "predicted_country": "be",
+    "predicted_region": "europe",
+    "predicted_address": "Rural farm lane near Bastogne, Luxembourg Province, Wallonia, Belgium",
+    "predicted_lat": 50.00416667,
+    "predicted_lng": 5.72,
+    "confidence": 0.58,
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "country": "South Africa",
+  "country_code": "za",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line and white edge lines indicate a two-lane road with traffic driving on the left, consistent with South African road standards.",
+    "Reddish-brown soil along the roadside is characteristic of laterite soils found in many parts of South Africa, especially in savanna regions.",
+    "Vegetation includes acacia-like trees and flowering shrubs typical of the Highveld or bushveld biome, common in central and eastern South Africa."
+  ],
+  "raw_output": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line and white edge lines indicate a two-lane road with traffic driving on the left, consistent with South African road standards.\",\n    \"Reddish-brown soil along the roadside is characteristic of laterite soils found in many parts of South Africa, especially in savanna regions.\",\n    \"Vegetation includes acacia-like trees and flowering shrubs typical of the Highveld or bushveld biome, common in central and eastern South Africa.\","
+}

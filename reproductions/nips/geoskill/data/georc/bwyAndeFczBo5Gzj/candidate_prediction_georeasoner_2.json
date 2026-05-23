@@ -1,0 +1,11 @@
+{
+  "country": "Kenya",
+  "country_code": "ke",
+  "city": "",
+  "reasoning_chain": [
+    "The 'Sadolin' sign is a Danish paint brand widely used in East Africa, particularly Kenya, indicating regional commercial presence.",
+    "Roadside architecture features corrugated metal roofs and informal shopfronts typical of Kenyan rural or semi-urban settlements.",
+    "Vegetation includes large leafy trees and scattered shrubs consistent with savanna climate zones found in central Kenya."
+  ],
+  "raw_output": "{\n  \"country\": \"Kenya\",\n  \"country_code\": \"ke\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The 'Sadolin' sign is a Danish paint brand widely used in East Africa, particularly Kenya, indicating regional commercial presence.\",\n    \"Roadside architecture features corrugated metal roofs and informal shopfronts typical of Kenyan rural or semi-urban settlements.\",\n    \"Vegetation includes large leafy trees and scattered shrubs consistent with savanna climate zones found in central Kenya.\",\n    \"Driving side appears to be left (motorcyclist"
+}

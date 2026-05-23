@@ -1,0 +1,33 @@
+{
+  "game_id": "NqhvwHTYOTtGmZgm",
+  "round": 1,
+  "sample_id": "georc::NqhvwHTYOTtGmZgm::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "is",
+    "predicted_region": "europe",
+    "predicted_address": "Esja Mountain hiking trail viewpoint, Reykjavik, Capital Region, Iceland",
+    "predicted_lat": 64.13333333,
+    "predicted_lng": -21.93333333,
+    "reasoning_text": "```json\n{\n  \"country\": \"Iceland\",\n  \"country_code\": \"is\",\n  \"region\": \"Europe\",\n  \"city\": \"Reykjavik\",\n  \"province_or_state\": \"Capital Region\",\n  \"address\": \"Esja Mountain hiking trail viewpoint, Reykjavik, Capital Region, Iceland\",\n  \"confidence\": 0.7,\n  \"reasoning\": \"The image shows a barren volcanic mountain landscape with a wooden viewing platform, snow-capped peaks in the distance, low clouds/fog, and what appears to be a coastal city or settlement visible below through the mist. The terrain is characteristic of Iceland's volcanic mountains. The wooden platform structure is typical of Icelandic hiking trail viewpoints. Given the shortlist of Iceland (is) and Norway (no), the complete absence of trees and the dark volcanic soil strongly favor Iceland over Norway. The visible settlement below on the coast, combined with the mountain viewpoint setup, suggests this is likely Mount Esja (Esjan), the popular hiking mountain overlooking Reykjavik. The viewpoint platform matches known trail infrastructure on Esja.\",\n  \"evidence\": [\"Barren volcanic terrain with no trees\", \"Dark volcanic soil and rock\", \"Wooden viewing platform typical of Icelandic hiking trails\", \"Snow-capped mountains in background\", \"Coastal settlement visible below through clouds\", \"Low cloud/fog conditions common in Icelandic mountains\", \"Complete absence of coniferous forest typical of Norway\"]\n}\n```",
+    "evidence_spans": [
+      "Barren volcanic terrain with no trees",
+      "Dark volcanic soil and rock",
+      "Wooden viewing platform typical of Icelandic hiking trails",
+      "Snow-capped mountains in background",
+      "Coastal settlement visible below through clouds",
+      "Low cloud/fog conditions common in Icelandic mountains",
+      "Complete absence of coniferous forest typical of Norway"
+    ],
+    "confidence": 0.7,
+    "country_top3": [
+      "is",
+      "no"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"is\",\"gl\",\"no\"],\"reason\":\"Barren volcanic terrain with snow-capped mountains, low vegetation, and what appears to be a glacier or ice field in the distance. The flat wooden platform structure is characteristic of Icelandic viewing platforms or helicopter landing pads. The lighting suggests high latitude (long twilight). Iceland's interior highlands and glacier-adjacent areas match this landscape perfectly. Greenland and Norway (Svalbard) are alternatives but less likely given the specific terrain type.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8650000000000001
+  },
+  "error": null
+}

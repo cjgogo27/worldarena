@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved dirt road with no center line or markings is typical of rural U.S. farm roads, especially in the Great Plains.",
+    "Wooden utility poles with overhead wires are common in rural America, particularly in agricultural regions like Kansas or Nebraska.",
+    "The dry, golden grasses and flat terrain suggest a semi-arid climate consistent with the U.S. Midwest or High Plains."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved dirt road with no center line or markings is typical of rural U.S. farm roads, especially in the Great Plains.\",\n    \"Wooden utility poles with overhead wires are common in rural America, particularly in agricultural regions like Kansas or Nebraska.\",\n    \"The dry, golden grasses and flat terrain suggest a semi-arid climate consistent with the U.S. Midwest or High Plains.\",\n    \"No visible signage, vehicles, or buildings"
+}

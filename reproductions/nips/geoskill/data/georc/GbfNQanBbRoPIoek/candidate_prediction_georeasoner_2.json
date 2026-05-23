@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of a stop sign (red octagon) and right-hand traffic alignment indicates a North American country, most likely the US.",
+    "Single-story brick and stucco houses with large front lawns are typical of suburban residential architecture in the American South or Midwest.",
+    "Overhead utility lines and wooden poles are common in rural or suburban US neighborhoods, especially in states like Texas or Oklahoma."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of a stop sign (red octagon) and right-hand traffic alignment indicates a North American country, most likely the US.\",\n    \"Single-story brick and stucco houses with large front lawns are typical of suburban residential architecture in the American South or Midwest.\",\n    \"Overhead utility lines and wooden poles are common in rural or suburban US neighborhoods, especially in states like Texas or Oklahoma.\",\n    \"The overcast sky, mixed"
+}

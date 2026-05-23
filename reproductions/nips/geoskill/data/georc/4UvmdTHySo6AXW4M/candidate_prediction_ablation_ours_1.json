@@ -1,0 +1,1022 @@
+{
+  "game_id": "4UvmdTHySo6AXW4M",
+  "round": 1,
+  "sample_id": "georc::4UvmdTHySo6AXW4M::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "gb",
+    "predicted_region": "europe",
+    "predicted_lat": 53.45,
+    "predicted_lng": -2.15,
+    "reasoning_text": "{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"region\": \"Europe\",\n  \"lat\": 53.45,\n  \"lng\": -2.15,\n  \"confidence\": 0.92,\n  \"reasoning\": \"The visual evidence overwhelmingly supports the United Kingdom, specifically the rural countryside of Northern England (e.g., Lancashire, Yorkshire, or Cumbria). Key indicators include the 'temperate maritime' climate features: lush green grass persisting through the dormant season (indicated by bare deciduous trees). The road infrastructure is a narrow, unmarked country lane with a distinct lack of shoulder markings, which is characteristic of minor rural roads in the UK. The fencing style (wooden posts with wire) and the rolling green topography are highly consistent with the English landscape. The vegetation, including the specific types of deciduous trees and hedgerows, aligns perfectly with the UK's flora. The overcast sky and diffuse lighting are also typical of the region's weather patterns.\",\n  \"evidence\": [\n    \"Narrow, unmarked country lane with no shoulder markings\",\n    \"Lush green grass despite bare deciduous trees (temperate maritime climate)\",\n    \"Wooden post and wire fencing typical of UK rural areas\",\n    \"Rolling green hills and hedgerows\",\n    \"Overcast sky and diffuse lighting\",\n    \"Specific types of deciduous trees and hedgerows consistent with UK flora\"\n  ]\n}",
+    "evidence_spans": [
+      "Narrow, unmarked country lane with no shoulder markings",
+      "Lush green grass despite bare deciduous trees (temperate maritime climate)",
+      "Wooden post and wire fencing typical of UK rural areas",
+      "Rolling green hills and hedgerows",
+      "Overcast sky and diffuse lighting",
+      "Specific types of deciduous trees and hedgerows consistent with UK flora"
+    ],
+    "confidence": 0.92,
+    "retrieved_skills": [
+      {
+        "skill_text": "The lack of visible road shoulder and the narrow pavement further suggests rural Australia rather than New Zealand, which often has different road finishes and wider shoulders.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 5,
+        "score": 0.6537612527608871,
+        "bm25_score": 20.101165771484375,
+        "semantic_score": 0.5255753993988037
+      },
+      {
+        "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 5,
+        "score": 0.7421673566102982,
+        "bm25_score": 25.51291275024414,
+        "semantic_score": 0.5538781881332397
+      },
+      {
+        "skill_text": "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "vegetation"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 1,
+        "score": 0.7342294126749038,
+        "bm25_score": 23.303016662597656,
+        "semantic_score": 0.4948042631149292
+      },
+      {
+        "skill_text": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 5,
+        "score": 0.6487564444541931,
+        "bm25_score": 19.874874114990234,
+        "semantic_score": 0.5735516548156738
+      },
+      {
+        "skill_text": "The road is narrow, unmarked, and well-maintained; such rural backroads are characteristic of Scandinavia, especially outside of major urban centers.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 2,
+        "score": 0.6910679370164872,
+        "bm25_score": 26.812776565551758,
+        "semantic_score": 0.5271256566047668
+      },
+      {
+        "skill_text": "The narrow, worn, cracked road with no center line is typical of rural roads in post-Soviet countries such as the Baltic states, Belarus, or Russia.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 3,
+        "score": 0.7670869648456574,
+        "bm25_score": 30.81463623046875,
+        "semantic_score": 0.48976948857307434
+      },
+      {
+        "skill_text": "The road is narrow and edged with rough grass, suggesting a minor road, often found in southern France, northern Spain, Italy, or Portugal.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 5,
+        "score": 0.6373286455869676,
+        "bm25_score": 20.779163360595703,
+        "semantic_score": 0.5405341386795044
+      },
+      {
+        "skill_text": "The road has no visible lane markings, which is uncommon in most heavily trafficked countries and points toward a rural or remote area.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 5,
+        "score": 0.6523144245147705,
+        "bm25_score": 26.251937866210938,
+        "semantic_score": 0.5072402358055115
+      },
+      {
+        "skill_text": "Narrow, winding paved road without lane markings commonly found in rural parts of countries like the Netherlands, Germany, or Belgium.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 1,
+        "score": 0.6942469090223313,
+        "bm25_score": 23.306961059570312,
+        "semantic_score": 0.5903883576393127
+      },
+      {
+        "skill_text": "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles",
+          "road",
+          "sign"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 2,
+        "score": 0.6769476234912872,
+        "bm25_score": 22.631603240966797,
+        "semantic_score": 0.47452133893966675
+      },
+      {
+        "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 1,
+        "score": 0.6272227287292481,
+        "bm25_score": 21.366792678833008,
+        "semantic_score": 0.5161184668540955
+      },
+      {
+        "skill_text": "The landscape consists of rolling green hills and dense hedge-lined country lanes, typical of the United Kingdom and Ireland.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "consists",
+          "green",
+          "landscape",
+          "rolling"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 2,
+        "score": 0.7132937610149384,
+        "bm25_score": 25.462953567504883,
+        "semantic_score": 0.6238975524902344
+      }
+    ],
+    "base_prediction": {
+      "predicted_country": "gb",
+      "predicted_region": "europe",
+      "predicted_lat": 53.45,
+      "predicted_lng": -2.15,
+      "reasoning_text": "{\n  \"country\": \"United Kingdom\",\n  \"country_code\": \"gb\",\n  \"region\": \"Europe\",\n  \"lat\": 53.45,\n  \"lng\": -2.15,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to the United Kingdom, specifically the rural countryside of Northern England (e.g., Lancashire, Yorkshire, or Cumbria). The key indicators are the 'temperate maritime' climate features: lush green grass persisting through the dormant season (indicated by bare deciduous trees). The road infrastructure is a narrow, single-lane asphalt track with no center or edge markings, which is characteristic of minor rural lanes (often classified as 'unclassified' roads) in the UK. The fencing style—wooden posts with wire strands—is the standard agricultural fencing used across the UK. The rolling topography and hedgerows are also typical of the British landscape. While Ireland is a strong candidate, the specific texture of the road surface and the style of the verge drainage (a small ditch on the right) are highly consistent with UK rural road maintenance standards.\",\n  \"evidence\": [\n    \"Narrow, unmarked asphalt road typical of UK minor rural lanes.\",\n    \"Lush green grass verges contrasting with bare deciduous trees (temperate maritime climate).\",\n    \"Wooden post-and-wire agricultural fencing.\",\n    \"Rolling hills and hedgerow landscape.\",\n    \"Small drainage ditch/culvert on the right side of the road.\"\n  ]\n}",
+      "evidence_spans": [
+        "Narrow, unmarked asphalt road typical of UK minor rural lanes.",
+        "Lush green grass verges contrasting with bare deciduous trees (temperate maritime climate).",
+        "Wooden post-and-wire agricultural fencing.",
+        "Rolling hills and hedgerow landscape.",
+        "Small drainage ditch/culvert on the right side of the road."
+      ],
+      "confidence": 0.85,
+      "geovista_observation": {
+        "observations": [
+          "Narrow, single-lane asphalt road curving gently to the left.",
+          "Road surface appears worn with loose gravel on the edges.",
+          "No center line or edge markings painted on the road.",
+          "Lush green grass verges and fields, indicating a temperate climate.",
+          "Deciduous trees are bare, suggesting late autumn, winter, or early spring.",
+          "Wooden post-and-wire fencing running along the field boundaries.",
+          "Rolling hills and open countryside landscape.",
+          "Overcast sky with diffuse lighting.",
+          "No visible buildings, traffic signs, or license plates.",
+          "Vegetation includes hedgerows and scattered trees typical of rural Europe.",
+          "A small drainage ditch or culvert is visible on the right side.",
+          "The road width suggests it is a minor country lane or farm track."
+        ],
+        "hard_clues": [
+          "Absence of road markings (center line, edge lines).",
+          "Wooden post-and-wire fencing style.",
+          "Lush green grass despite bare trees (temperate maritime climate).",
+          "Rolling topography.",
+          "Narrow road width suitable for single vehicle or two-way slow traffic."
+        ],
+        "ambiguous_clues": [
+          "No specific signage to indicate country or region.",
+          "No license plates or vehicle types visible.",
+          "Tree species are common across Northern/Western Europe.",
+          "Road surface condition is generic for rural areas.",
+          "Cloud cover and lighting do not provide unique geographic indicators."
+        ],
+        "possible_scripts": [
+          "Rural UK (England/Scotland/Wales) - High probability due to hedgerows, green fields, and narrow lanes.",
+          "Rural Ireland - Similar landscape and vegetation.",
+          "Rural France (Normandy/Brittany) - Possible, but fencing style may differ slightly.",
+          "Rural Belgium/Netherlands - Possible in less urbanized areas.",
+          "Rural Germany (North Rhine-Westphalia/Lower Saxony) - Possible, but road width might be slightly wider typically."
+        ],
+        "driving_side": "unknown"
+      },
+      "geovista_plan": {
+        "country_candidates": [
+          "United Kingdom",
+          "Ireland",
+          "France",
+          "Belgium",
+          "Netherlands"
+        ],
+        "zoom_boxes": [
+          [
+            0,
+            0,
+            400,
+            400
+          ],
+          [
+            600,
+            0,
+            1000,
+            400
+          ]
+        ],
+        "verification_queries": [
+          "Check for UK-style wooden post-and-wire fencing patterns in rural lanes",
+          "Verify if narrow unmarked country lanes with green verges are common in UK/Ireland countryside",
+          "Confirm typical vegetation and tree species (deciduous, bare in winter) match temperate maritime climate of Western Europe",
+          "Assess road width and absence of markings as consistent with minor rural roads in UK or Ireland",
+          "Look for subtle terrain features like rolling hills and hedgerows typical of British or Irish farmland"
+        ]
+      },
+      "geovista_zoom_notes": [],
+      "external_baseline_name": "GeoVista_adapter_copied",
+      "official_mode": false
+    },
+    "skill_boost_applied": true,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "gb",
+      "predicted_region": "europe",
+      "predicted_lat": 53.45,
+      "predicted_lng": -2.15,
+      "confidence": 0.92
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "gb",
+      "predicted_region": "europe",
+      "predicted_lat": 53.45,
+      "predicted_lng": -2.15,
+      "confidence": 0.92
+    },
+    "base_prediction_summary": {
+      "predicted_country": "gb",
+      "predicted_region": "europe",
+      "predicted_lat": 53.45,
+      "predicted_lng": -2.15,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "boost",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.92,
+    "skill_boost_aggressive_confidence": 0.92,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The narrow, worn, cracked road with no center line is typical of rural roads in post-Soviet countries such as the Baltic states, Belarus, or Russia.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7670869648456574,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7421673566102982,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7342294126749038,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The landscape consists of rolling green hills and dense hedge-lined country lanes, typical of the United Kingdom and Ireland.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7132937610149384,
+          "visual_cues": [
+            "consists",
+            "green",
+            "landscape",
+            "rolling"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "Narrow, winding paved road without lane markings commonly found in rural parts of countries like the Netherlands, Germany, or Belgium.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6942469090223313,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The road is narrow, unmarked, and well-maintained; such rural backroads are characteristic of Scandinavia, especially outside of major urban centers.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6910679370164872,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6769476234912872,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The lack of visible road shoulder and the narrow pavement further suggests rural Australia rather than New Zealand, which often has different road finishes and wider shoulders.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6537612527608871,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The road has no visible lane markings, which is uncommon in most heavily trafficked countries and points toward a rural or remote area.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6523144245147705,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.6487564444541931,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road is narrow and edged with rough grass, suggesting a minor road, often found in southern France, northern Spain, Italy, or Portugal.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6373286455869676,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6272227287292481,
+          "visual_cues": [
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The narrow, worn, cracked road with no center line is typical of rural roads in post-Soviet countries such as the Baltic states, Belarus, or Russia.",
+        "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+        "The climate indicated by the vegetation and lack of snow hints at late autumn or early spring in a temperate boreal climate, supporting a Scandinavian identification.",
+        "The landscape consists of rolling green hills and dense hedge-lined country lanes, typical of the United Kingdom and Ireland.",
+        "Narrow, winding paved road without lane markings commonly found in rural parts of countries like the Netherlands, Germany, or Belgium.",
+        "The road is narrow, unmarked, and well-maintained; such rural backroads are characteristic of Scandinavia, especially outside of major urban centers.",
+        "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+        "The lack of visible road shoulder and the narrow pavement further suggests rural Australia rather than New Zealand, which often has different road finishes and wider shoulders.",
+        "The road has no visible lane markings, which is uncommon in most heavily trafficked countries and points toward a rural or remote area.",
+        "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+        "The road is narrow and edged with rough grass, suggesting a minor road, often found in southern France, northern Spain, Italy, or Portugal.",
+        "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries."
+      ],
+      "summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false
+  },
+  "error": null
+}

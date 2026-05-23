@@ -1,0 +1,12 @@
+{
+  "country": "South Africa",
+  "country_code": "za",
+  "city": "",
+  "reasoning_chain": [
+    "The white car on the right has a yellow license plate, typical of South African vehicles.",
+    "The road is unpaved and dusty, common in rural areas of South Africa.",
+    "Vegetation includes acacia-like trees and dry shrubs, consistent with South African savanna or bushveld.",
+    "Utility poles and overhead wires are present, indicating infrastructure development typical of South African rural roads."
+  ],
+  "raw_output": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The white car on the right has a yellow license plate, typical of South African vehicles.\",\n    \"The road is unpaved and dusty, common in rural areas of South Africa.\",\n    \"Vegetation includes acacia-like trees and dry shrubs, consistent with South African savanna or bushveld.\",\n    \"Utility poles and overhead wires are present, indicating infrastructure development typical of South African rural roads.\"\n  ]\n}"
+}

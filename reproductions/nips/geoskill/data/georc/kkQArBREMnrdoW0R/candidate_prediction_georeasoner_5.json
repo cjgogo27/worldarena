@@ -1,0 +1,11 @@
+{
+  "country": "Mongolia",
+  "country_code": "mn",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane highway with right-hand traffic, consistent with Mongolia’s driving side.",
+    "The landscape features vast open grasslands and rolling hills under a partly cloudy sky, typical of Mongolia’s steppe regions.",
+    "There are no urban structures, street signs, or commercial vehicles, indicating a remote rural area rather than a city."
+  ],
+  "raw_output": "{\n  \"country\": \"Mongolia\",\n  \"country_code\": \"mn\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane highway with right-hand traffic, consistent with Mongolia’s driving side.\",\n    \"The landscape features vast open grasslands and rolling hills under a partly cloudy sky, typical of Mongolia’s steppe regions.\",\n    \"There are no urban structures, street signs, or commercial vehicles, indicating a remote rural area rather than a city.\",\n    \"The vehicle is a tractor pulling a trailer loaded with what appears to be fire"
+}

@@ -1,0 +1,34 @@
+{
+  "game_id": "9oZfZYQEl9GWjZPu",
+  "round": 1,
+  "sample_id": "georc::9oZfZYQEl9GWjZPu::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "tz",
+    "predicted_region": "africa",
+    "predicted_address": "Dunga Road, Zanzibar City, Zanzibar South & Central, Tanzania",
+    "predicted_lat": -5.9,
+    "predicted_lng": 39.3,
+    "reasoning_text": "```json\n{\n  \"country\": \"Tanzania\",\n  \"country_code\": \"tz\",\n  \"region\": \"East Africa\",\n  \"city\": \"Zanzibar City\",\n  \"province_or_state\": \"Zanzibar South & Central\",\n  \"address\": \"Dunga Road, Zanzibar City, Zanzibar South & Central, Tanzania\",\n  \"confidence\": 0.7,\n  \"reasoning\": \"The image shows a rural paved road with distinctive tropical vegetation including palm trees and scattered acacia-like trees. The landscape is relatively flat with grassy fields and some cultivated areas. The road quality and vegetation pattern is consistent with coastal Tanzania, particularly Zanzibar island. The presence of palm trees and the specific type of savanna-woodland vegetation, combined with the reddish soil visible on the roadside, matches Zanzibar's characteristics. The road appears to be a secondary rural road typical of the island's interior. The driving side cannot be definitively determined from this forward-facing view, but the overall scene aligns with East African coastal regions. Given the shortlist options (Tanzania, Kenya, Madagascar), the vegetation and road characteristics most closely match Tanzania's Zanzibar region rather than mainland Kenya or Madagascar's distinct ecosystems.\",\n  \"evidence\": [\"Palm tree on right side characteristic of coastal East Africa\", \"Reddish-brown soil typical of Zanzibar\", \"Flat coastal plain landscape\", \"Paved rural road with dirt shoulders\", \"Scattered acacia-like trees in grassland\", \"Tropical savanna vegetation pattern\", \"Cumulus cloud formation typical of equatorial climate\"]\n}\n```",
+    "evidence_spans": [
+      "Palm tree on right side characteristic of coastal East Africa",
+      "Reddish-brown soil typical of Zanzibar",
+      "Flat coastal plain landscape",
+      "Paved rural road with dirt shoulders",
+      "Scattered acacia-like trees in grassland",
+      "Tropical savanna vegetation pattern",
+      "Cumulus cloud formation typical of equatorial climate"
+    ],
+    "confidence": 0.7,
+    "country_top3": [
+      "tz",
+      "ke",
+      "mg"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"tz\",\"ke\",\"mg\"],\"reason\":\"Tropical East African savanna landscape with palm tree, unpaved but graded road, scattered acacia-like trees, flat terrain, and rural settlement pattern typical of coastal/inland Tanzania or Kenya. Driving side not clearly visible but vegetation and road style strongly suggest East Africa over West Africa or other tropical regions.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9350000000000002
+  },
+  "error": null
+}

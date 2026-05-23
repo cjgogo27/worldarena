@@ -1,0 +1,10 @@
+{
+  "country": "Vietnam",
+  "country_code": "vn",
+  "city": "",
+  "reasoning_chain": [
+    "The signboard displays Vietnamese text ('MÍA ĐÁ', 'NƯỚC GIẢI KHÁT', 'MÌ TÔM TRỨNG'), indicating the location is in Vietnam.",
+    "The road is a two-lane asphalt road with no center line, typical of rural roads in mountainous regions of Vietnam."
+  ],
+  "raw_output": "{\n  \"country\": \"Vietnam\",\n  \"country_code\": \"vn\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The signboard displays Vietnamese text ('MÍA ĐÁ', 'NƯỚC GIẢI KHÁT', 'MÌ TÔM TRỨNG'), indicating the location is in Vietnam.\",\n    \"The road is a two-lane asphalt road with no center line, typical of rural roads in mountainous regions of Vietnam.\",\n    \"Vegetation includes dense tropical forest, bamboo groves, and steep rocky slopes, consistent with northern or central Vietnam’s"
+}

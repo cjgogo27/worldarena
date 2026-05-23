@@ -1,0 +1,25 @@
+{
+  "game_id": "DKGAIVKGYnLWmMy9",
+  "round": 1,
+  "sample_id": "georc::DKGAIVKGYnLWmMy9::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "hr",
+    "predicted_region": "europe",
+    "predicted_address": "Rural highway near Senj, Lika-Senj County, Croatia",
+    "predicted_lat": 44.707,
+    "predicted_lng": 15.174,
+    "reasoning_text": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"region\": \"Southeast Europe\",\n  \"city\": \"Senj\",\n  \"province_or_state\": \"Lika-Senj County\",\n  \"address\": \"Rural highway near Senj, Lika-Senj County, Croatia\",\n  \"confidence\": 0.67,\n  \"reasoning\": \"The road environment looks distinctly European: right-hand driving, white lane markings, metal guardrails, and a red-bordered triangular warning sign with a black curve symbol. The landscape is strongly karstic, with bright white limestone gravel and rocky ground beside dense green vegetation, which is very characteristic of the Adriatic-side Balkans. The combination of Mediterranean-looking scrub/forest, rolling hills, and newly built road infrastructure fits Croatia particularly well, especially the coastal and subcoastal karst regions. Among likely Croatian areas, the terrain most closely resembles the inland/coastal transition around Lika-Senj or Dalmatia. I choose a location near Senj as a plausible approximation.\",\n  \"evidence\": [\n    \"European-style red-bordered triangular curve warning sign\",\n    \"Right-hand traffic road layout\",\n    \"White edge and center lane markings typical of continental Europe\",\n    \"Karst limestone terrain with bright white rock and gravel\",\n    \"Mediterranean-Balkan vegetation and rolling hilly landscape\",\n    \"Road design and guardrails consistent with Croatian regional highways\"\n  ]\n}",
+    "evidence_spans": [
+      "European-style red-bordered triangular curve warning sign",
+      "Right-hand traffic road layout",
+      "White edge and center lane markings typical of continental Europe",
+      "Karst limestone terrain with bright white rock and gravel",
+      "Mediterranean-Balkan vegetation and rolling hilly landscape",
+      "Road design and guardrails consistent with Croatian regional highways"
+    ],
+    "confidence": 0.67
+  },
+  "error": null
+}

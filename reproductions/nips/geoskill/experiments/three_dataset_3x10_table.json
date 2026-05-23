@@ -1,0 +1,54 @@
+{
+  "GeoReasoner": {
+    "georc": {
+      "num_samples": 10,
+      "Acc@10km": 0.0,
+      "Acc@25km": 0.0,
+      "Acc@200km": 0.0,
+      "Acc@750km": 0.3,
+      "Acc@2000km": 0.5
+    },
+    "im2gps3k": {
+      "num_samples": 10,
+      "Acc@10km": 0.0,
+      "Acc@25km": 0.0,
+      "Acc@200km": 0.1,
+      "Acc@750km": 0.4,
+      "Acc@2000km": 0.4
+    },
+    "earthwhere": {
+      "num_samples": 10,
+      "Acc@10km": 0.1,
+      "Acc@25km": 0.1,
+      "Acc@200km": 0.2,
+      "Acc@750km": 0.3,
+      "Acc@2000km": 0.4
+    }
+  },
+  "Ours": {
+    "georc": {
+      "num_samples": 10,
+      "Acc@10km": 0.1,
+      "Acc@25km": 0.1,
+      "Acc@200km": 0.2,
+      "Acc@750km": 0.2,
+      "Acc@2000km": 0.8
+    },
+    "im2gps3k": {
+      "num_samples": 10,
+      "Acc@10km": 0.0,
+      "Acc@25km": 0.0,
+      "Acc@200km": 0.1,
+      "Acc@750km": 0.4,
+      "Acc@2000km": 0.7
+    },
+    "earthwhere": {
+      "num_samples": 10,
+      "Acc@10km": 0.1,
+      "Acc@25km": 0.1,
+      "Acc@200km": 0.2,
+      "Acc@750km": 0.3,
+      "Acc@2000km": 0.5
+    }
+  }
+}

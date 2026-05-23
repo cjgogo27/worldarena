@@ -1,0 +1,22 @@
+================================================================================
+California Trajectory Generation Report (With Household Info)
+================================================================================
+
+Generation Time: 2025-12-11 22:33:00
+
+Statistics:
+--------------------------------------------------------------------------------
+运行模式: household_file
+总用户数: 1902
+总家庭数: 223
+选择生成数: 41
+成功生成: 41
+失败数量: 0
+成功率: 100.00%
+匹配到家庭信息: 41
+未匹配家庭信息: 0
+家庭匹配率: 100.00%
+完整版输出文件: E:/mayue/FinalTraj/Trajectory_Generation_Household/output\california_trajectories_with_household_20251211_223257.json
+Schedule格式输出文件: E:/mayue/FinalTraj/Trajectory_Generation_Household/output\all_trajectories_20251211_223257.json
+
+================================================================================

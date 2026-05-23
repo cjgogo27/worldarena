@@ -1,0 +1,12 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "Red dirt road with no markings or center line is typical of rural Australian outback or regional roads.",
+    "Eucalyptus trees and open grassy fields are characteristic of Australian landscapes, especially in southern states.",
+    "Yellow flowering canola field visible on the right suggests agricultural use common in Australian farming regions.",
+    "Absence of utility poles, signage, or buildings indicates remote rural location consistent with Australian countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Red dirt road with no markings or center line is typical of rural Australian outback or regional roads.\",\n    \"Eucalyptus trees and open grassy fields are characteristic of Australian landscapes, especially in southern states.\",\n    \"Yellow flowering canola field visible on the right suggests agricultural use common in Australian farming regions.\",\n    \"Absence of utility poles, signage, or buildings indicates remote rural location consistent with Australian countryside.\"\n  ]\n}"
+}

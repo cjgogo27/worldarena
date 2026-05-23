@@ -1,0 +1,11 @@
+{
+  "country": "Australia",
+  "country_code": "au",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single yellow center line, indicating left-hand traffic, which is standard in Australia.",
+    "The reddish-brown soil and dry, sparse vegetation are characteristic of arid or semi-arid regions in inland Australia.",
+    "No utility poles, signs, or buildings are visible, suggesting a remote rural area typical of Australian outback roads."
+  ],
+  "raw_output": "{\n  \"country\": \"Australia\",\n  \"country_code\": \"au\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single yellow center line, indicating left-hand traffic, which is standard in Australia.\",\n    \"The reddish-brown soil and dry, sparse vegetation are characteristic of arid or semi-arid regions in inland Australia.\",\n    \"No utility poles, signs, or buildings are visible, suggesting a remote rural area typical of Australian outback roads.\",\n    \"The flat, open landscape with distant tree lines matches the agricultural or pastoral zones found"
+}

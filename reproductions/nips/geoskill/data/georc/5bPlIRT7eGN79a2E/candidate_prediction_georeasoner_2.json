@@ -1,0 +1,11 @@
+{
+  "country": "Canada",
+  "country_code": "ca",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with no passing, common in rural Canadian roads.",
+    "Wooden utility poles with crossarms and overhead wires are typical of rural infrastructure in Canada.",
+    "Green street sign with white text (partially visible) suggests English-speaking region, consistent with most of Canada."
+  ],
+  "raw_output": "{\n  \"country\": \"Canada\",\n  \"country_code\": \"ca\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with no passing, common in rural Canadian roads.\",\n    \"Wooden utility poles with crossarms and overhead wires are typical of rural infrastructure in Canada.\",\n    \"Green street sign with white text (partially visible) suggests English-speaking region, consistent with most of Canada.\",\n    \"Coniferous trees (spruce/pine) and open grassy fields match boreal or prairie landscape found in central/s"
+}

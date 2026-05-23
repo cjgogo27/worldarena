@@ -1,0 +1,1 @@
+3463646 /data2/miniconda3/envs/vgllm/bin/python scripts/run_experiment.py --config configs/full_mytokenland_nowait_ext50.yaml --methods external_georeasoner external_geovista --max-games 50 --workers 1

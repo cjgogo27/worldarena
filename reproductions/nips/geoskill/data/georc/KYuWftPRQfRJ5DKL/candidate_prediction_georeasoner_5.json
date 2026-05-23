@@ -1,0 +1,10 @@
+{
+  "country": "Bangladesh",
+  "country_code": "bd",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unpaved rural road flanked by flooded rice paddies is characteristic of Bangladesh’s agricultural landscape during the monsoon or early dry season.",
+    "Utility poles with multiple overhead wires running parallel to the road are common in rural Bangladesh, where infrastructure often follows field boundaries."
+  ],
+  "raw_output": "{\n  \"country\": \"Bangladesh\",\n  \"country_code\": \"bd\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unpaved rural road flanked by flooded rice paddies is characteristic of Bangladesh’s agricultural landscape during the monsoon or early dry season.\",\n    \"Utility poles with multiple overhead wires running parallel to the road are common in rural Bangladesh, where infrastructure often follows field boundaries.\",\n    \"Laundry hanging on makeshift lines along the roadside reflects daily life patterns typical in Bangladeshi villages, where such practices are widespread due to limited indoor drying space"
+}

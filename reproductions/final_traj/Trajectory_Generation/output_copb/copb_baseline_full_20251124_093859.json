@@ -1,0 +1,92 @@
+[
+  {
+    "user_id": "40326211_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "07:30",
+        "end_time": "18:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "21:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your basic information is as follows:\nGender: Male; \nEducation: Graduate degree or professional degree; \nAge: Appropriate skip; \nEmployment: Yes; \nOccupation: Professional, managerial, or technical; \nWork Schedule: Full-time; \nPrimary Activity: Working; \nWork from Home: No; Distance to Work: 10.9 miles; Can Drive: Yes;",
+      "anchors": "1. You are accustomed to waking up around 6:30 AM to start your day.  \n2. Your working hours are from 9 AM to 6 PM, with some overtime on busy days.  \n3. You typically go to bed around 11 PM to ensure sufficient rest for the next day.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Consistent with my daily routine of waking up at 6:30 AM"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "07:30",
+          "end_time": "18:30",
+          "reasoning": "Includes commuting time and standard work hours with potential for overtime on busy days"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "21:00",
+          "end_time": "24:00",
+          "reasoning": "Needed to ensure sufficient rest, aligning with my typical bedtime of 11 PM"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30023350_2",
+    "schedule": [
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "13:00"
+      },
+      {
+        "activity": "shopping",
+        "start_time": "14:00",
+        "end_time": "15:30"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "16:00",
+        "end_time": "21:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person and your basic information is as follows:\nGender: Female; \nEducation: Bachelor's degree; \nAge: Appropriate skip; \nEmployment: Yes; \nOccupation: Professional, managerial, or technical; \nWork Schedule: Part-time; \nPrimary Activity: Working; \nWork from Home: No; Distance to Work: 6.9 miles; Can Drive: No;",
+      "anchors": "1. You use public transportation for commuting and leave home by 8:30 AM to reach work on time.  \n2. You typically work from 9 AM to 1 PM and have afternoons free for personal activities or errands.  \n3. You prefer grocery shopping during weekdays in the afternoon to avoid weekend crowds.",
+      "intentions": [
+        {
+          "intention": "go to work",
+          "start_time": "08:30",
+          "end_time": "13:00",
+          "reasoning": "Work part-time from 9 AM to 1 PM, using public transportation, ensures I complete my professional responsibilities."
+        },
+        {
+          "intention": "do shopping",
+          "start_time": "14:00",
+          "end_time": "15:30",
+          "reasoning": "I prefer grocery shopping during weekday afternoons to avoid weekend crowds and make the most efficient use of my free time."
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "16:00",
+          "end_time": "21:00",
+          "reasoning": "Engage in leisure activities to relax and unwind after work and errands, as I have the afternoons and evenings free."
+        }
+      ],
+      "day": "Monday"
+    }
+  }
+]

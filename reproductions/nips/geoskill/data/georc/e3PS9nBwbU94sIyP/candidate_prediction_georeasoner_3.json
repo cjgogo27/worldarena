@@ -1,0 +1,11 @@
+{
+  "country": "Chile",
+  "country_code": "cl",
+  "city": "",
+  "reasoning_chain": [
+    "The architecture features stucco houses with flat or low-pitched roofs, common in Chilean urban and suburban areas.",
+    "Utility poles and overhead wires are typical of Chilean infrastructure, especially in smaller towns.",
+    "The blue pickup truck is a common vehicle in Chile, and the license plate format (though blurry) matches Chilean standards."
+  ],
+  "raw_output": "{\n  \"country\": \"Chile\",\n  \"country_code\": \"cl\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The architecture features stucco houses with flat or low-pitched roofs, common in Chilean urban and suburban areas.\",\n    \"Utility poles and overhead wires are typical of Chilean infrastructure, especially in smaller towns.\",\n    \"The blue pickup truck is a common vehicle in Chile, and the license plate format (though blurry) matches Chilean standards.\",\n    \"The overcast sky and vegetation suggest a temperate climate, consistent with central or southern"
+}

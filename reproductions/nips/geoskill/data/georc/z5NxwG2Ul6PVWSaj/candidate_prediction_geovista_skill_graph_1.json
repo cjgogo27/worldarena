@@ -1,0 +1,107 @@
+{
+  "game_id": "z5NxwG2Ul6PVWSaj",
+  "round": 1,
+  "sample_id": "georc::z5NxwG2Ul6PVWSaj::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "cz",
+    "predicted_region": "europe",
+    "predicted_address": "Ulice pod Sídlištěm, Brno-Židenice, South Moravian Region, Czech Republic",
+    "predicted_lat": 49.16666667,
+    "predicted_lng": 16.58333333,
+    "reasoning_text": "```json\n{\n  \"country\": \"Czech Republic\",\n  \"country_code\": \"cz\",\n  \"region\": \"Central Europe\",\n  \"city\": \"Brno\",\n  \"province_or_state\": \"South Moravian Region\",\n  \"address\": \"Ulice pod Sídlištěm, Brno-Židenice, South Moravian Region, Czech Republic\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"The image shows a service road running parallel to railway tracks with a lumber yard (dřevoprodej) on the right, indicated by the wooden fence with stacked planks. The multi-story apartment buildings with reddish-brown ceramic roof tiles are characteristic of post-socialist Czech residential construction. The blue and white industrial building near the tracks, concrete utility pole with crossbar, and overall railway siding infrastructure match Brno's extensive rail network. The hilly terrain visible in the distance and temperate vegetation align with South Moravian geography. Brno-Židenice is a district with numerous railway sidings, lumber businesses, and similar residential blocks. The specific street pattern and industrial-railway interface suggest the Židenice area near the main Brno railway hub.\",\n  \"evidence\": [\"reddish-brown ceramic roof tiles on apartment blocks\", \"railway siding with gravel bed\", \"wooden fence with stacked lumber indicating lumber yard\", \"blue and white industrial building\", \"concrete utility pole with crossbar\", \"post-socialist multi-story residential architecture\", \"hilly terrain in background\", \"service road parallel to railway tracks\"]\n}\n```",
+    "evidence_spans": [
+      "reddish-brown ceramic roof tiles on apartment blocks",
+      "railway siding with gravel bed",
+      "wooden fence with stacked lumber indicating lumber yard",
+      "blue and white industrial building",
+      "concrete utility pole with crossbar",
+      "post-socialist multi-story residential architecture",
+      "hilly terrain in background",
+      "service road parallel to railway tracks"
+    ],
+    "confidence": 0.72,
+    "country_top3": [
+      "cz",
+      "sk",
+      "pl"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"cz\",\"sk\",\"pl\"],\"reason\":\"The reddish-brown ceramic roof tiles, post-socialist multi-story apartment blocks, railway siding with gravel bed, wooden fence with stacked lumber, and concrete utility pole with crossbar are highly characteristic of Central Europe. The blue and white industrial/commercial building near the tracks and temperate vegetation are most consistent with Czech Republic (cz), with Slovakia (sk) and Poland (pl) as close alternatives due to shared post-socialist architectural heritage and similar railway/industrial infrastructure.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.87,
+        "pred_country": "cz",
+        "geo_country": "cz",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Ulice pod Sídlištěm, Brno-Židenice, South Moravian Region, Czech Republic"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.87,
+        "pred_country": "cz",
+        "geo_country": "cz",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Pod Sídlištěm, Brno-Židenice, South Moravian Region, Czech Republic"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.87,
+        "pred_country": "cz",
+        "geo_country": "cz",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.72,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Podnásepní, Brno-střed, South Moravian Region, Czech Republic"
+      }
+    ],
+    "selected_candidate_score": 0.87,
+    "base_prediction_summary": {
+      "predicted_country": "cz",
+      "predicted_region": "europe",
+      "confidence": 0.65
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"Czech Republic\",\n  \"country_code\": \"cz\",\n  \"region\": \"Central Europe\",\n  \"city\": \"Brno\",\n  \"province_or_state\": \"South Moravian Region\",\n  \"address\": \"Brno, Czech Republic\",\n  \"confidence\": 0.65,\n  \"reasoning\": \"The reddish-brown ceramic roof tiles, post-socialist multi-story",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "cz"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

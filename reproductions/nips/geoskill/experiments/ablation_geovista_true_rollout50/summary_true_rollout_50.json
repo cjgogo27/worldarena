@@ -1,0 +1,166 @@
+{
+  "rows": [
+    {
+      "消融": "w.o.skill",
+      "10km": "0.080",
+      "25km": "0.120",
+      "200km": "0.280",
+      "750km": "0.740",
+      "2000km": "0.880",
+      "Precision": "N/A",
+      "Recall": "N/A",
+      "F1": "N/A",
+      "ValidScoreCount": 9,
+      "ExpectedScoreCount": 50,
+      "ScoreComplete": false
+    },
+    {
+      "消融": "roll out 次数1",
+      "10km": "N/A",
+      "25km": "N/A",
+      "200km": "N/A",
+      "750km": "N/A",
+      "2000km": "N/A",
+      "Precision": "N/A",
+      "Recall": "N/A",
+      "F1": "N/A",
+      "ValidScoreCount": 0,
+      "ExpectedScoreCount": 1,
+      "ScoreComplete": false
+    },
+    {
+      "消融": "roll out 次数3",
+      "10km": "N/A",
+      "25km": "N/A",
+      "200km": "N/A",
+      "750km": "N/A",
+      "2000km": "N/A",
+      "Precision": "N/A",
+      "Recall": "N/A",
+      "F1": "N/A",
+      "ValidScoreCount": 0,
+      "ExpectedScoreCount": 1,
+      "ScoreComplete": false
+    },
+    {
+      "消融": "roll out 次数5",
+      "10km": "N/A",
+      "25km": "N/A",
+      "200km": "N/A",
+      "750km": "N/A",
+      "2000km": "N/A",
+      "Precision": "N/A",
+      "Recall": "N/A",
+      "F1": "N/A",
+      "ValidScoreCount": 0,
+      "ExpectedScoreCount": 0,
+      "ScoreComplete": false
+    },
+    {
+      "消融": "Ours（完整状态，不消融）",
+      "10km": "N/A",
+      "25km": "N/A",
+      "200km": "N/A",
+      "750km": "N/A",
+      "2000km": "N/A",
+      "Precision": "N/A",
+      "Recall": "N/A",
+      "F1": "N/A",
+      "ValidScoreCount": 0,
+      "ExpectedScoreCount": 1,
+      "ScoreComplete": false
+    }
+  ],
+  "details": [
+    {
+      "label": "w.o.skill",
+      "alias_of": null,
+      "metrics_path": "/data/alice/cjtest/NIPS/geoskill/experiments/ablation_geovista_true_mtl_rollout50_woskill/direct_vlm/latest_metrics.json",
+      "predictions_path": "/data/alice/cjtest/NIPS/geoskill/experiments/ablation_geovista_true_mtl_rollout50_woskill/direct_vlm/latest_predictions.json",
+      "score_file": "/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoRC/vlm_scores_key_points_ablation_true_woskill_50.json",
+      "num_samples_expected": 50,
+      "num_samples_observed": 50,
+      "score_summary": {
+        "count": 9,
+        "score_rows": 9,
+        "expected_rows": 50,
+        "complete": false,
+        "avg_precision": null,
+        "avg_recall": null,
+        "avg_f1": null
+      }
+    },
+    {
+      "label": "roll out 次数1",
+      "alias_of": null,
+      "metrics_path": "/data/alice/cjtest/NIPS/geoskill/experiments/ablation_geovista_true_mtl_rollout50_vote1/external_geovista_skill_graph/latest_metrics.json",
+      "predictions_path": "/data/alice/cjtest/NIPS/geoskill/experiments/ablation_geovista_true_mtl_rollout50_vote1/external_geovista_skill_graph/latest_predictions.json",
+      "score_file": "/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoRC/vlm_scores_key_points_ablation_true_vote1_50.json",
+      "num_samples_expected": 50,
+      "num_samples_observed": 1,
+      "score_summary": {
+        "count": 0,
+        "score_rows": 0,
+        "expected_rows": 1,
+        "complete": false,
+        "avg_precision": null,
+        "avg_recall": null,
+        "avg_f1": null
+      }
+    },
+    {
+      "label": "roll out 次数3",
+      "alias_of": null,
+      "metrics_path": "/data/alice/cjtest/NIPS/geoskill/experiments/ablation_geovista_true_mtl_rollout50_vote3/external_geovista_skill_graph/latest_metrics.json",
+      "predictions_path": "/data/alice/cjtest/NIPS/geoskill/experiments/ablation_geovista_true_mtl_rollout50_vote3/external_geovista_skill_graph/latest_predictions.json",
+      "score_file": "/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoRC/vlm_scores_key_points_ablation_true_vote3_50.json",
+      "num_samples_expected": 50,
+      "num_samples_observed": 1,
+      "score_summary": {
+        "count": 0,
+        "score_rows": 0,
+        "expected_rows": 1,
+        "complete": false,
+        "avg_precision": null,
+        "avg_recall": null,
+        "avg_f1": null
+      }
+    },
+    {
+      "label": "roll out 次数5",
+      "alias_of": null,
+      "metrics_path": "/data/alice/cjtest/NIPS/geoskill/experiments/ablation_geovista_true_mtl_rollout50_vote5/external_geovista_skill_graph/latest_metrics.json",
+      "predictions_path": "/data/alice/cjtest/NIPS/geoskill/experiments/ablation_geovista_true_mtl_rollout50_vote5/external_geovista_skill_graph/latest_predictions.json",
+      "score_file": "/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoRC/vlm_scores_key_points_ablation_true_vote5_50.json",
+      "num_samples_expected": 50,
+      "num_samples_observed": 0,
+      "score_summary": {
+        "count": 0,
+        "score_rows": 0,
+        "expected_rows": 0,
+        "complete": false,
+        "avg_precision": null,
+        "avg_recall": null,
+        "avg_f1": null
+      }
+    },
+    {
+      "label": "Ours（完整状态，不消融）",
+      "alias_of": "roll out 次数1",
+      "metrics_path": "/data/alice/cjtest/NIPS/geoskill/experiments/ablation_geovista_true_mtl_rollout50_vote1/external_geovista_skill_graph/latest_metrics.json",
+      "predictions_path": "/data/alice/cjtest/NIPS/geoskill/experiments/ablation_geovista_true_mtl_rollout50_vote1/external_geovista_skill_graph/latest_predictions.json",
+      "score_file": "/data/alice/cjtest/NIPS/geoskill/external_baselines/GeoRC/vlm_scores_key_points_ablation_true_vote1_50.json",
+      "num_samples_expected": 50,
+      "num_samples_observed": 1,
+      "score_summary": {
+        "count": 0,
+        "score_rows": 0,
+        "expected_rows": 1,
+        "complete": false,
+        "avg_precision": null,
+        "avg_recall": null,
+        "avg_f1": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "georeasoner": {
+    "country_accuracy": 0.0,
+    "continent_accuracy": 0.0,
+    "distance_error_km_median": 2250.637561876755,
+    "distance_error_km_mean_valid_only": 4945.148869288684,
+    "distance_error_km_mean_penalized": 4945.148869288684,
+    "distance_error_km_std_penalized": 5219.717398675049,
+    "valid_coordinate_rate": 1.0,
+    "coverage_rate": 1.0,
+    "total_samples": 10.0,
+    "valid_predictions": 10.0,
+    "Acc@1km": 0.0,
+    "Acc@10km": 0.0,
+    "Acc@25km": 0.0,
+    "Acc@100km": 0.0,
+    "Acc@200km": 0.1,
+    "Acc@750km": 0.4,
+    "Acc@2500km": 0.6,
+    "elapsed_seconds": 92.10724472999573,
+    "num_samples": 10,
+    "num_errors": 0
+  },
+  "_meta": {
+    "last_updated_utc": "2026-03-29T03:28:27.364753+00:00",
+    "methods_in_last_run": [
+      "skill_conditioned"
+    ],
+    "num_methods_total_in_summary": 2,
+    "main_agent_model": "Qwen/Qwen2.5-VL-72B-Instruct",
+    "skill_update_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+  },
+  "skill_conditioned": {
+    "country_accuracy": 0.1,
+    "continent_accuracy": 0.1,
+    "distance_error_km_median": 1520.8829360923742,
+    "distance_error_km_mean_valid_only": 3189.582904107302,
+    "distance_error_km_mean_penalized": 3189.582904107302,
+    "distance_error_km_std_penalized": 3949.758300307154,
+    "valid_coordinate_rate": 1.0,
+    "coverage_rate": 1.0,
+    "total_samples": 10.0,
+    "valid_predictions": 10.0,
+    "Acc@1km": 0.0,
+    "Acc@10km": 0.0,
+    "Acc@25km": 0.0,
+    "Acc@100km": 0.0,
+    "Acc@200km": 0.1,
+    "Acc@750km": 0.4,
+    "Acc@2500km": 0.7,
+    "elapsed_seconds": 177.02245426177979,
+    "num_samples": 10,
+    "num_errors": 0
+  }
+}

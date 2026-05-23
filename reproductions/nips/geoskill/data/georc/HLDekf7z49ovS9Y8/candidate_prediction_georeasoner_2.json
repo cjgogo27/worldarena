@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The truck displays 'DAMCHEN PETROLEUM DISTRIBUTORS' in English, a common Indian fuel distributor name, suggesting location in India.",
+    "Utility poles with overhead wires and lack of streetlights or formal road markings are typical of rural/semi-urban Indian infrastructure.",
+    "Vegetation includes lush green trees and shrubs consistent with tropical/subtropical climates found in northern or eastern India."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The truck displays 'DAMCHEN PETROLEUM DISTRIBUTORS' in English, a common Indian fuel distributor name, suggesting location in India.\",\n    \"Utility poles with overhead wires and lack of streetlights or formal road markings are typical of rural/semi-urban Indian infrastructure.\",\n    \"Vegetation includes lush green trees and shrubs consistent with tropical/subtropical climates found in northern or eastern India.\",\n    \"The unpaved gravel road and"
+}

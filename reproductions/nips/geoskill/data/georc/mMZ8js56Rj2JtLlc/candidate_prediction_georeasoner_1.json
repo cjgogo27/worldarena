@@ -1,0 +1,11 @@
+{
+  "country": "Indonesia",
+  "country_code": "id",
+  "city": "",
+  "reasoning_chain": [
+    "The sign 'POM MINI EZD BAROKAH' lists fuel types in Indonesian (BENSIN, PERTALITE, SOLAR, GAS ELPIJI), indicating an Indonesian location.",
+    "The motorcycle rider carries a woven basket on the back, a common sight in rural Indonesia for transporting goods.",
+    "The road is narrow with no center line, typical of secondary roads in Indonesian villages."
+  ],
+  "raw_output": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The sign 'POM MINI EZD BAROKAH' lists fuel types in Indonesian (BENSIN, PERTALITE, SOLAR, GAS ELPIJI), indicating an Indonesian location.\",\n    \"The motorcycle rider carries a woven basket on the back, a common sight in rural Indonesia for transporting goods.\",\n    \"The road is narrow with no center line, typical of secondary roads in Indonesian villages.\",\n    \"The architecture features simple tin-roof"
+}

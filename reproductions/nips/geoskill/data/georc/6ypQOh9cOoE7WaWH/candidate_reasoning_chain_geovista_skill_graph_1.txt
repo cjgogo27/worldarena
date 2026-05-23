@@ -1,0 +1,14 @@
+Hilly to mountainous terrain with visible pale rocky karstic ground
+Very narrow rural paved road without center lines or shoulder
+Light-colored rough road surface typical of minor local roads
+Sparse scrub and mixed deciduous greenery in a dry sunny environment
+Isolated white rectangular house with a red/orange tiled sloped roof
+Overall ex-Yugoslav rural architectural character
+Foothill landscape consistent with the Adriatic inland karst belt
+Following the ordered skill graph strictly: Skill 1 is the strongest starting point: the terrain is clearly hilly with exposed rocky, pale soil and scrubby vegetation, which fits a karst landscape in the Western Balkans.
+Skill 2 adds that this is a narrow rural residential-type road with a rough light surface and no urban infrastructure, pointing to a minor countryside road in Eastern/Southern Europe rather than a major route.
+From Skill 1 and Skill 2, the linked cues most consistent through the graph are Skill 5, Skill 6, Skill 10, and Skill 12: the light-colored rough pavement is common in former Yugoslav rural areas; the isolated simple rectangular white house with a red-tiled roof is very typical of rural Croatia/Bosnia and Herzegovina/Montenegro; the lack of lane markings and the road narrowness suggest southern Europe; and the road curvature with surrounding foothill terrain supports a mountainous Adriatic hinterland setting.
+Skills 3, 4, 7, 9, and 11 are less consistent with the full scene: Bulgaria is weaker than the western Adriatic karst fit, Germany/Czechia do not match the overall vegetation, road width, and house style, southern India/Sri Lanka is incompatible with the terrain and road context, and Scandinavian wooden-house cues are not present.
+Combining the high-priority terrain signal with the linked former Yugoslav architectural and road-surface cues gives the best consistent match as Montenegro.
+Within Montenegro, the dry limestone hills and rural setting fit especially well around Cetinje in the inland karst area.
+Conclusion: likely location is Cetinje, Cetinje Municipality, Montenegro

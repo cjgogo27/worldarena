@@ -1,0 +1,12 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "The road is narrow, unpaved shoulder, and lacks center markings, typical of rural Finnish forest roads.",
+    "Vegetation includes birch trees with autumn foliage, consistent with Finnish boreal forest in September/October.",
+    "Overhead power lines run parallel to the road, common in Finnish countryside infrastructure.",
+    "No visible signage or vehicles, but the overcast sky and wet asphalt suggest temperate maritime climate typical of Finland."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is narrow, unpaved shoulder, and lacks center markings, typical of rural Finnish forest roads.\",\n    \"Vegetation includes birch trees with autumn foliage, consistent with Finnish boreal forest in September/October.\",\n    \"Overhead power lines run parallel to the road, common in Finnish countryside infrastructure.\",\n    \"No visible signage or vehicles, but the overcast sky and wet asphalt suggest temperate maritime climate typical of Finland.\""
+}

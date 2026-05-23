@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The road has a single white centerline, indicating a two-lane undivided highway typical of rural U.S. roads.",
+    "Vegetation includes deciduous trees with early autumn foliage and open grassy fields, consistent with temperate North American landscapes.",
+    "No visible signage, utility poles, or architectural features suggest a non-urban, low-density setting common in U.S. countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road has a single white centerline, indicating a two-lane undivided highway typical of rural U.S. roads.\",\n    \"Vegetation includes deciduous trees with early autumn foliage and open grassy fields, consistent with temperate North American landscapes.\",\n    \"No visible signage, utility poles, or architectural features suggest a non-urban, low-density setting common in U.S. countryside.\",\n    \"The clear blue sky and lack"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "France",
+  "country_code": "fr",
+  "city": "",
+  "reasoning_chain": [
+    "The road sign displays French text ('TROIS FONTAINES', 'SAINT DIZIER', 'LAC DU DER'), indicating a location in France.",
+    "The 'CÉDEZ LE PASSAGE' yield sign is a standard French traffic sign, confirming the country.",
+    "The D16 departmental road marker is visible on the directional signpost, which is used in France for rural roads."
+  ],
+  "raw_output": "{\n  \"country\": \"France\",\n  \"country_code\": \"fr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road sign displays French text ('TROIS FONTAINES', 'SAINT DIZIER', 'LAC DU DER'), indicating a location in France.\",\n    \"The 'CÉDEZ LE PASSAGE' yield sign is a standard French traffic sign, confirming the country.\",\n    \"The D16 departmental road marker is visible on the directional signpost, which is used in France for rural roads.\",\n    \"The architecture (st"
+}

@@ -1,0 +1,12 @@
+{
+  "country": "Thailand",
+  "country_code": "th",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of banana trees and palm trees indicates a tropical climate consistent with Southeast Asia.",
+    "The narrow concrete road with no center line and parked motorcycle on the right suggests right-hand traffic, common in Thailand.",
+    "The style of the concrete block walls and simple house structures is typical of rural Thai villages.",
+    "Overhead electrical wires strung between poles are characteristic of rural infrastructure in Thailand."
+  ],
+  "raw_output": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of banana trees and palm trees indicates a tropical climate consistent with Southeast Asia.\",\n    \"The narrow concrete road with no center line and parked motorcycle on the right suggests right-hand traffic, common in Thailand.\",\n    \"The style of the concrete block walls and simple house structures is typical of rural Thai villages.\",\n    \"Overhead electrical wires strung between poles are characteristic of rural infrastructure in Thailand.\"\n  ]\n}"
+}

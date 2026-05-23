@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow residential street with parked cars on both sides and utility poles with overhead wires is typical of suburban Japanese neighborhoods.",
+    "The architecture features modern Japanese-style houses with flat roofs, concrete walls, and minimal landscaping, common in urban Japan.",
+    "The presence of a white kei car (small Japanese vehicle) and the style of the mailbox and door handles are consistent with Japanese residential areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow residential street with parked cars on both sides and utility poles with overhead wires is typical of suburban Japanese neighborhoods.\",\n    \"The architecture features modern Japanese-style houses with flat roofs, concrete walls, and minimal landscaping, common in urban Japan.\",\n    \"The presence of a white kei car (small Japanese vehicle) and the style of the mailbox and door handles are consistent with Japanese residential areas.\",\n    \"The clear blue sky and scattered clouds suggest a"
+}

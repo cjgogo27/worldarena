@@ -1,0 +1,41 @@
+{
+  "skill_conditioned_v4": {
+    "country_accuracy": 0.0,
+    "continent_accuracy": 0.5,
+    "distance_error_km_median": 7916.875411002314,
+    "distance_error_km_mean_valid_only": 7916.875411002314,
+    "distance_error_km_mean_penalized": 7916.875411002314,
+    "distance_error_km_std_penalized": 7913.269162087377,
+    "valid_coordinate_rate": 1.0,
+    "coverage_rate": 1.0,
+    "total_samples": 2.0,
+    "valid_predictions": 2.0,
+    "Acc@1km": 0.0,
+    "Acc@10km": 0.5,
+    "Acc@25km": 0.5,
+    "Acc@100km": 0.5,
+    "Acc@200km": 0.5,
+    "Acc@750km": 0.5,
+    "Acc@2500km": 0.5,
+    "elapsed_seconds": 40.386398792266846,
+    "num_samples": 2,
+    "num_errors": 0,
+    "recovered_failures": 0,
+    "generated_skill_count": 6,
+    "fused_skill_count": 0,
+    "rollout_rounds": 1,
+    "rollout_failure_distance_km": 200.0,
+    "search_evolution_enabled": true,
+    "search_evolution_provider": "brave",
+    "remaining_failed_cases": 2
+  },
+  "_meta": {
+    "last_updated_utc": "2026-03-29T01:48:07.153147+00:00",
+    "methods_in_last_run": [
+      "skill_conditioned_v4"
+    ],
+    "num_methods_total_in_summary": 1,
+    "main_agent_model": "Qwen/Qwen2.5-VL-72B-Instruct",
+    "skill_update_model": "Qwen/Qwen2.5-VL-72B-Instruct"
+  }
+}

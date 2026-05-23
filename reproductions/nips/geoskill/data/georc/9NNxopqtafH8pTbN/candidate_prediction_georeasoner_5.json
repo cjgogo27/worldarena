@@ -1,0 +1,12 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "The road features right-hand traffic, consistent with Portugal’s driving side.",
+    "White chevron signs on guardrails indicate a sharp curve ahead, common in Portuguese mountainous roads.",
+    "Vegetation includes dense scrub and olive trees, typical of southern Portugal’s Mediterranean climate.",
+    "Architecture on the hillside shows white-washed buildings with flat roofs, characteristic of Portuguese coastal or rural settlements."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features right-hand traffic, consistent with Portugal’s driving side.\",\n    \"White chevron signs on guardrails indicate a sharp curve ahead, common in Portuguese mountainous roads.\",\n    \"Vegetation includes dense scrub and olive trees, typical of southern Portugal’s Mediterranean climate.\",\n    \"Architecture on the hillside shows white-washed buildings with flat roofs, characteristic of Portuguese coastal or rural settlements.\"\n  ]\n}"
+}

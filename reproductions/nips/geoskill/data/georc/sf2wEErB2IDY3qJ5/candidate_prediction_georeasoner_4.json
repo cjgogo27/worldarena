@@ -1,0 +1,11 @@
+{
+  "country": "New Zealand",
+  "country_code": "nz",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a narrow, unmarked rural concrete path with no center line or signage, typical of remote New Zealand country roads.",
+    "Vegetation includes dense native bush (likely podocarp forests) on the left and open grassy paddocks on the right, consistent with New Zealand’s South Island landscapes.",
+    "The muddy stream and eroded banks suggest recent rainfall, common in New Zealand’s temperate maritime climate."
+  ],
+  "raw_output": "{\n  \"country\": \"New Zealand\",\n  \"country_code\": \"nz\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a narrow, unmarked rural concrete path with no center line or signage, typical of remote New Zealand country roads.\",\n    \"Vegetation includes dense native bush (likely podocarp forests) on the left and open grassy paddocks on the right, consistent with New Zealand’s South Island landscapes.\",\n    \"The muddy stream and eroded banks suggest recent rainfall, common in New Zealand’s temperate maritime climate.\",\n    \""
+}

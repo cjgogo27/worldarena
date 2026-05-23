@@ -1,0 +1,205 @@
+{
+  "game_id": "KqjXykSvjIJYNXY8",
+  "round": 1,
+  "image_path": "/data/alice/cjtest/NIPS/geoskill/data/georc/KqjXykSvjIJYNXY8/KqjXykSvjIJYNXY8_1.png",
+  "ground_truth_country": "ug",
+  "ground_truth_lat": 0.3463568573342831,
+  "ground_truth_lng": 32.58786293487951,
+  "expert_chain": "Entry not found",
+  "sample_id": "georc::KqjXykSvjIJYNXY8::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ug",
+    "predicted_region": "africa",
+    "predicted_address": "Kampala, Central Region, Uganda",
+    "predicted_lat": 0.31361111,
+    "predicted_lng": 32.58111111,
+    "reasoning_text": "```json\n{\n  \"country\": \"Uganda\",\n  \"country_code\": \"ug\",\n  \"region\": \"East Africa\",\n  \"city\": \"Kampala\",\n  \"province_or_state\": \"Central Region\",\n  \"address\": \"Kampala, Central Region, Uganda\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"STEP 1 - HEMISPHERE & CLIMATE ZONE: The overcast sky makes sun position difficult to determine, but the tropical vegetation and general environment suggest equatorial/tropical climate. STEP 2 - REGIONAL CUES: The wooden utility pole with cross-arm and multiple small insulators, unpaved reddish dirt road, lack of formal road markings, and low-density commercial/residential development with simple buildings are all consistent with East African infrastructure, particularly Uganda. The dry-but-not-desert landscape with sparse trees and brownish grass matches Uganda's seasonal patterns. STEP 3 - DRIVING SIDE & VEHICLES: Left-hand traffic is practiced in Uganda, consistent with the regional context. STEP 4 - SYNTHESIS: While the initial Kampala guess has moderate support, the rural/semi-urban character with dirt roads and simple commercial buildings could place this in the greater Kampala metropolitan area or a nearby town in Central Region. The banner signage, building style, and utility infrastructure are most consistent with peri-urban Uganda. Without more distinctive landmarks, Kampala/Central Region remains the best geocodable estimate.\",\n  \"evidence\": [\"wooden utility pole with cross-arm and multiple insulators typical of East African low-voltage distribution\", \"unpaved reddish dirt road with no painted markings\", \"vertical commercial banner on simple building\", \"dry tropical landscape with sparse trees and brownish grass\", \"low-density semi-urban development pattern\", \"left-hand traffic region consistent with Uganda\"]\n}\n```",
+    "evidence_spans": [
+      "wooden utility pole with cross-arm and multiple insulators typical of East African low-voltage distribution",
+      "unpaved reddish dirt road with no painted markings",
+      "vertical commercial banner on simple building",
+      "dry tropical landscape with sparse trees and brownish grass",
+      "low-density semi-urban development pattern",
+      "left-hand traffic region consistent with Uganda"
+    ],
+    "confidence": 0.72,
+    "retrieved_skills": [
+      {
+        "skill_text": "The wooden electricity pole with small insulators on top of the support bar is unique to South Africa; however, this rolling grassy landscape has to be along the southern part of South Africa and potentially in West Cape all the way to western parts of East Cape",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 2,
+        "score": 0.6678420901298523,
+        "bm25_score": 21.604700088500977,
+        "semantic_score": 0.34941941499710083
+      },
+      {
+        "skill_text": "The landscape is dry, but not the dryness associated with desert biomes; there is low brownish/yellowish shrubbery next to the road and several stretches of low hills, most indicative of South Africa",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 2,
+        "score": 0.7621105313301086,
+        "bm25_score": 21.051076889038086,
+        "semantic_score": 0.4797631502151489
+      },
+      {
+        "skill_text": "Solid yellow outer road lines also is only found in Southern Africa and the alternating perpendicular insulator wooden pole is unique to Northeastern provinces of Southern Africa",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "road"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 5,
+        "score": 0.7201125621795654,
+        "bm25_score": 20.20406723022461,
+        "semantic_score": 0.44553980231285095
+      },
+      {
+        "skill_text": "This greasy landscape with few trees is most common in South Africa and Australia and the sun being in the north confirms that we will be in the southern hemisphere",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "trees"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 2,
+        "score": 0.7074862718582153,
+        "bm25_score": 24.720746994018555,
+        "semantic_score": 0.33121436834335327
+      },
+      {
+        "skill_text": "The road is paved but appears to be of middling quality, with a faded white dashed center line and no shoulder markings, suggesting rural or remote areas.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 2,
+        "score": 0.7070070505142212,
+        "bm25_score": 18.3046817779541,
+        "semantic_score": 0.47051241993904114
+      },
+      {
+        "skill_text": "The car is following us on the left side of the road and there is a solid yellow single line in the middle, which all Western African countries have",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "car",
+          "road"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 4,
+        "score": 0.6867015957832336,
+        "bm25_score": 19.174577713012695,
+        "semantic_score": 0.42606884241104126
+      },
+      {
+        "skill_text": "There are no visible road signs in the image, but the highway’s design (fenced-off properties, long straight stretches) matches Namibian B-roads.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "fence",
+          "highway",
+          "road",
+          "sign"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 5,
+        "score": 0.708992600440979,
+        "bm25_score": 17.759489059448242,
+        "semantic_score": 0.4848911762237549
+      },
+      {
+        "skill_text": "Given the tropical environment and road condition, this is likely somewhere in rural Uganda, near the city of Kampala.",
+        "region_hint": "africa",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 1,
+        "score": 0.7550742626190186,
+        "bm25_score": 14.676973342895508,
+        "semantic_score": 0.6099194884300232
+      },
+      {
+        "skill_text": "The dirt road with reddish soil suggests a semi-arid region with iron-rich earth, common in the southern hemisphere.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "soil"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 3,
+        "score": 0.8761380910873413,
+        "bm25_score": 25.0690975189209,
+        "semantic_score": 0.5352147221565247
+      },
+      {
+        "skill_text": "The road is unpaved, with reddish soil, which is typical in tropical or subtropical regions with laterite soil.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "soil"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 1,
+        "score": 0.7102965116500854,
+        "bm25_score": 15.140542984008789,
+        "semantic_score": 0.543631911277771
+      }
+    ],
+    "stage1_prediction": {
+      "predicted_country": "ug",
+      "predicted_region": "africa",
+      "predicted_address": "Kampala, Central Region, Uganda",
+      "predicted_lat": 0.31361111,
+      "predicted_lng": 32.58111111,
+      "reasoning_text": "```json\n{\n  \"country\": \"Uganda\",\n  \"country_code\": \"ug\",\n  \"region\": \"East Africa\",\n  \"city\": \"Kampala\",\n  \"province_or_state\": \"Central Region\",\n  \"address\": \"Kampala, Central Region, Uganda\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"STEP 1 - HEMISPHERE & CLIMATE ZONE: The overcast sky makes sun position difficult to determine, but the lush green vegetation, tropical/subtropical climate indicators, and the general appearance suggest equatorial/tropical climate. The red dirt road is characteristic of iron-rich soils common in tropical Africa. STEP 2 - CONTINENT NARROWING: Left-hand driving is evident from the parked cars on the left side and the road layout. Combined with the tropical setting, red soil, and architectural style, this strongly points to East Africa. The utility poles with multiple wires are typical of African infrastructure. STEP 3 - COUNTRY IDENTIFICATION: The building architecture with metal-barred windows, the commercial signage style, the corrugated metal roofing on the right building, and the general urban informal settlement pattern are highly characteristic of Uganda. The 'Nido' sign visible appears to be a local brand. The Toyota minivan and general vehicle types are common in Uganda. The boda-boda motorcycle taxi culture (visible rider in yellow shirt) is iconic to Uganda and particularly Kampala. STEP 4 - REGION WITHIN COUNTRY: The hilly terrain visible in the background, dense urban informal settlement, and the specific road quality suggest Kampala's suburbs or peripheral areas. Kampala is known for its seven hills and sprawling informal settlements with exactly this type of mixed commercial-residential street. STEP 5 - FINAL LOCATION TEXT: Based on the combination of left-hand driving, tropical red soil, East African architecture, boda-boda culture, and hilly urban terrain, this is most likely a suburban street in Kampala, Uganda.\",\n  \"evidence\": [\"left-hand driving orientation\", \"red dirt/iron-rich soil road\", \"tropical vegetation and climate\", \"metal-barred windows on buildings\", \"corrugated metal roofing\", \"boda-boda motorcycle taxi\", \"multi-wire utility poles\", \"hilly terrain in background\", \"informal urban commercial street\", \"Nido brand signage\", \"Toyota vehicles common in East Africa\", \"overcast equatorial sky pattern\"]\n}\n```",
+      "evidence_spans": [
+        "left-hand driving orientation",
+        "red dirt/iron-rich soil road",
+        "tropical vegetation and climate",
+        "metal-barred windows on buildings",
+        "corrugated metal roofing",
+        "boda-boda motorcycle taxi",
+        "multi-wire utility poles",
+        "hilly terrain in background",
+        "informal urban commercial street",
+        "Nido brand signage",
+        "Toyota vehicles common in East Africa",
+        "overcast equatorial sky pattern"
+      ],
+      "confidence": 0.75
+    },
+    "local_analysis": {
+      "pole_type": "wooden utility pole with cross-arm, multiple insulators visible, typical low-voltage distribution",
+      "road_markings": "no visible painted road markings, unpaved/reddish dirt road surface",
+      "bollards": "none visible",
+      "signs": "vertical commercial banner on building left with partial text/image, no standard traffic signs visible",
+      "vehicles": "silver minivan/MPV parked left, motorcycle with rider in yellow shirt foreground right, other vehicles parked along street",
+      "architecture": "multi-story concrete/block building with metal railings and barred windows left, single-story corrugated metal roof structure right, diamond decorative patterns on facade",
+      "script_type": "Latin alphabet on commercial signage, possible English or French",
+      "implied_country": "Rwanda or Uganda",
+      "implied_region": "East African highlands, urban/peri-urban commercial district"
+    },
+    "active_region": "africa",
+    "geocot_region": "africa"
+  },
+  "error": null
+}

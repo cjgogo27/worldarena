@@ -1,0 +1,11 @@
+{
+  "country": "Portugal",
+  "country_code": "pt",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved and winds through rolling hills with sparse vegetation, typical of rural Portugal’s interior regions.",
+    "The terrain features reddish-brown soil and exposed rock faces, consistent with the schistous geology found in central and southern Portugal.",
+    "Vegetation includes eucalyptus trees and scrubland, common in Portuguese landscapes due to historical forestry practices."
+  ],
+  "raw_output": "{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved and winds through rolling hills with sparse vegetation, typical of rural Portugal’s interior regions.\",\n    \"The terrain features reddish-brown soil and exposed rock faces, consistent with the schistous geology found in central and southern Portugal.\",\n    \"Vegetation includes eucalyptus trees and scrubland, common in Portuguese landscapes due to historical forestry practices.\",\n    \"No visible infrastructure like utility poles or signs suggests"
+}

@@ -1,0 +1,879 @@
+{
+  "game_id": "8Uo6ejwXYqmp9av3",
+  "round": 1,
+  "sample_id": "georc::8Uo6ejwXYqmp9av3::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "th",
+    "predicted_region": "asia",
+    "predicted_address": "Concrete village lane in a rural agricultural settlement near Suphan Buri, Suphan Buri Province, Thailand",
+    "predicted_lat": 14.47444444,
+    "predicted_lng": 100.11833333,
+    "reasoning_text": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Rural village near Suphan Buri\",\n  \"province_or_state\": \"Suphan Buri Province\",\n  \"address\": \"Concrete village lane in a rural agricultural settlement near Suphan Buri, Suphan Buri Province, Thailand\",\n  \"confidence\": 0.64,\n  \"reasoning\": \"Applying the ordered skill graph strictly: (1) the low-rise buildings with corrugated roofs and mixed concrete/wood construction initially resemble parts of rural Indonesia. (2) The vegetation density and utility layout introduce ambiguity and could suggest somewhere outside core jungle Southeast Asia. Following the graph links into the next skills, the later and more location-specific cues become stronger: (3) the completely flat agricultural plain fits Thai lowland farming terrain well, even if the exact subregional attribution is uncertain. (4) The very narrow poured-concrete lane without markings is highly typical of rural Thai village access roads. (5) The simple concrete rural road and warm-climate setting confirm a developing tropical countryside. (6) The overall combination of left-side-driving-region road design, concrete utility infrastructure, and dry-tropical appearance points most strongly to Thailand. Linked supporting skills reinforce this: (7) corrugated metal roofing is common across tropical developing regions, (8) the architecture plus tropical plants narrows best to Southeast Asia, especially including Thailand, (9) papaya/banana-type vegetation is consistent with mainland Southeast Asia, (10) the road edge style and plant density fit Southeast Asia better than Latin America, and (11)-(12) the humid tropical vegetation and roadside soil/grass further support Southeast Asia. Reconciling the early contradictory signals with the stronger downstream linked evidence, the most consistent final guess is rural central Thailand. Given the flat agricultural settlement pattern and the provided base observation, the best textual location guess is a village lane near Suphan Buri in Suphan Buri Province.\",\n  \"evidence\": [\n    \"Very narrow poured-concrete village lane with no lane markings\",\n    \"Flat agricultural landscape with open cultivated field beside homes\",\n    \"Low-rise detached houses using corrugated metal roofs\",\n    \"Mixed concrete walls and simple rural residential construction\",\n    \"Overhead utility wires on concrete/wood-style poles\",\n    \"Dense tropical vegetation including papaya/banana-like plants\",\n    \"Dry yet tropical roadside appearance consistent with central Thai countryside\"\n  ]\n}",
+    "evidence_spans": [
+      "Very narrow poured-concrete village lane with no lane markings",
+      "Flat agricultural landscape with open cultivated field beside homes",
+      "Low-rise detached houses using corrugated metal roofs",
+      "Mixed concrete walls and simple rural residential construction",
+      "Overhead utility wires on concrete/wood-style poles",
+      "Dense tropical vegetation including papaya/banana-like plants",
+      "Dry yet tropical roadside appearance consistent with central Thai countryside"
+    ],
+    "confidence": 0.64,
+    "base_prediction_summary": {
+      "predicted_country": "th",
+      "predicted_region": "asia",
+      "confidence": 0.47
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "Architecture is low-rise and uses corrugated roofs, with a mix of concrete and wooden structures, matching rural Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 3,
+        "score": 0.951015830039978,
+        "bm25_score": 31.977237701416016,
+        "semantic_score": 0.5509653091430664
+      },
+      {
+        "skill_text": "The vegetation density and mix of utility layout rule out Southeast Asia (which tends to be more jungle) and suggests South Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "vegetation"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 5,
+        "score": 0.8333041667938232,
+        "bm25_score": 21.316293716430664,
+        "semantic_score": 0.6085931062698364
+      },
+      {
+        "skill_text": "Flat agricultural landscape is most common in the eastern regions of Thailand",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "Flat",
+          "agricultural",
+          "landscape",
+          "most"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 1,
+        "score": 0.829782247543335,
+        "bm25_score": 23.471670150756836,
+        "semantic_score": 0.564801037311554
+      },
+      {
+        "skill_text": "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 1,
+        "score": 0.8213609457015991,
+        "bm25_score": 25.32222557067871,
+        "semantic_score": 0.5208523273468018
+      },
+      {
+        "skill_text": "The road is made of packed dirt or concrete with no lane markings, indicating a rural location in a developing country with warm climate.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 5,
+        "score": 0.8196631669998169,
+        "bm25_score": 26.321598052978516,
+        "semantic_score": 0.500471293926239
+      },
+      {
+        "skill_text": "The combination of left-hand drive, concrete square poles, and a dry yet tropical landscape makes Thailand the most likely country",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "pole",
+          "poles"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 1,
+        "score": 0.8022685050964355,
+        "bm25_score": 19.512908935546875,
+        "semantic_score": 0.6052546501159668
+      },
+      {
+        "skill_text": "The buildings use corrugated metal sheets, which are common in tropical, developing regions, particularly in Southeast Asia and Central America.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 1,
+        "score": 0.7968525886535645,
+        "bm25_score": 25.46183204650879,
+        "semantic_score": 0.48945119976997375
+      },
+      {
+        "skill_text": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof",
+          "trees",
+          "vegetation"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.7968196868896484,
+        "bm25_score": 20.570030212402344,
+        "semantic_score": 0.5793982744216919
+      },
+      {
+        "skill_text": "The vegetation, notably the papaya plants on the left, is typical of tropical regions in Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "vegetation"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.7959121465682983,
+        "bm25_score": 26.06211280822754,
+        "semantic_score": 0.4773024320602417
+      },
+      {
+        "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "vegetation"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 4,
+        "score": 0.782267689704895,
+        "bm25_score": 23.674726486206055,
+        "semantic_score": 0.5051668882369995
+      },
+      {
+        "skill_text": "The vegetation is dense, tropical and green, indicative of a humid climate, likely in Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "climate",
+          "vegetation"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.7817666530609131,
+        "bm25_score": 23.378551483154297,
+        "semantic_score": 0.5100256204605103
+      },
+      {
+        "skill_text": "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "soil"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 1,
+        "score": 0.780318021774292,
+        "bm25_score": 21.116844177246094,
+        "semantic_score": 0.5499260425567627
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "Architecture is low-rise and uses corrugated roofs, with a mix of concrete and wooden structures, matching rural Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.951015830039978,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The vegetation density and mix of utility layout rule out Southeast Asia (which tends to be more jungle) and suggests South Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8333041667938232,
+          "visual_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "Flat agricultural landscape is most common in the eastern regions of Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.829782247543335,
+          "visual_cues": [
+            "Flat",
+            "agricultural",
+            "landscape",
+            "most"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8213609457015991,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road is made of packed dirt or concrete with no lane markings, indicating a rural location in a developing country with warm climate.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8196631669998169,
+          "visual_cues": [
+            "climate",
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The combination of left-hand drive, concrete square poles, and a dry yet tropical landscape makes Thailand the most likely country",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.8022685050964355,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The buildings use corrugated metal sheets, which are common in tropical, developing regions, particularly in Southeast Asia and Central America.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7968525886535645,
+          "visual_cues": [
+            "building"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7968196868896484,
+          "visual_cues": [
+            "architecture",
+            "roof",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The vegetation, notably the papaya plants on the left, is typical of tropical regions in Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7959121465682983,
+          "visual_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.782267689704895,
+          "visual_cues": [
+            "road",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The vegetation is dense, tropical and green, indicative of a humid climate, likely in Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.7817666530609131,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.780318021774292,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "climate"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "Architecture is low-rise and uses corrugated roofs, with a mix of concrete and wooden structures, matching rural Indonesia.",
+        "The vegetation density and mix of utility layout rule out Southeast Asia (which tends to be more jungle) and suggests South Asia.",
+        "Flat agricultural landscape is most common in the eastern regions of Thailand",
+        "The concrete road is narrow and has no lane markings, which is typical of rural roads in Thailand.",
+        "The road is made of packed dirt or concrete with no lane markings, indicating a rural location in a developing country with warm climate.",
+        "The combination of left-hand drive, concrete square poles, and a dry yet tropical landscape makes Thailand the most likely country",
+        "The buildings use corrugated metal sheets, which are common in tropical, developing regions, particularly in Southeast Asia and Central America.",
+        "The combination of Southeast Asian architecture (tin-roofed architecture) and tropical vegetation (palm trees as well as banana plants) narrow in countries such as Malaysia, Indonesia, the Philippines, and Thailand",
+        "The vegetation, notably the papaya plants on the left, is typical of tropical regions in Southeast Asia.",
+        "The vegetation is too dense for most Latin American locations, and the style of the concrete road edges matches those in Southeast Asia.",
+        "The vegetation is dense, tropical and green, indicative of a humid climate, likely in Southeast Asia.",
+        "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia."
+      ],
+      "summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Thailand\",\n  \"country_code\": \"th\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Rural village near Suphan Buri\",\n  \"province_or_state\": \"Suphan Buri Province\",\n  \"address\": \"Concrete village lane in a rural agricultural settlement, Suphan Buri Province, Thailand\",\n  \"confidence\": 0.47,\n ",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "th"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

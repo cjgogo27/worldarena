@@ -1,0 +1,11 @@
+{
+  "country": "Kenya",
+  "country_code": "ke",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of prickly pear cacti and acacia-like shrubs suggests a semi-arid savanna climate typical of eastern Africa, particularly Kenya.",
+    "The unpaved shoulder and rural road layout with no center line indicate a low-traffic rural area common in Kenya’s interior regions.",
+    "A single black cow grazing on the right side aligns with pastoralist land use patterns prevalent in Kenyan countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Kenya\",\n  \"country_code\": \"ke\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of prickly pear cacti and acacia-like shrubs suggests a semi-arid savanna climate typical of eastern Africa, particularly Kenya.\",\n    \"The unpaved shoulder and rural road layout with no center line indicate a low-traffic rural area common in Kenya’s interior regions.\",\n    \"A single black cow grazing on the right side aligns with pastoralist land use patterns prevalent in Kenyan countryside.\",\n    \"The overcast"
+}

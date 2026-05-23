@@ -1,0 +1,11 @@
+{
+  "country": "Mongolia",
+  "country_code": "mn",
+  "city": "",
+  "reasoning_chain": [
+    "The vast, treeless steppe terrain with sparse dry grass is characteristic of Mongolia’s central and northern regions.",
+    "Wooden post-and-rail fences lining the road are typical of rural Mongolian settlements used to enclose livestock.",
+    "Simple wooden houses with gabled roofs and red metal roofs match common vernacular architecture in Mongolian countryside."
+  ],
+  "raw_output": "{\n  \"country\": \"Mongolia\",\n  \"country_code\": \"mn\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The vast, treeless steppe terrain with sparse dry grass is characteristic of Mongolia’s central and northern regions.\",\n    \"Wooden post-and-rail fences lining the road are typical of rural Mongolian settlements used to enclose livestock.\",\n    \"Simple wooden houses with gabled roofs and red metal roofs match common vernacular architecture in Mongolian countryside.\",\n    \"Absence of paved roads, traffic signs, or urban infrastructure indicates a remote rural"
+}

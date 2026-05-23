@@ -1,0 +1,12 @@
+{
+  "country": "France",
+  "country_code": "fr",
+  "city": "",
+  "reasoning_chain": [
+    "The blue square road sign with a white bus symbol indicates a bus stop, common in rural French roads.",
+    "The road is a two-lane asphalt road with no center line, typical of secondary roads in rural France.",
+    "Vegetation consists of lush green trees and grasses, consistent with temperate climate zones like those found in France.",
+    "Utility poles and overhead wires are present, which are standard infrastructure in French countryside areas."
+  ],
+  "raw_output": "{\n  \"country\": \"France\",\n  \"country_code\": \"fr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The blue square road sign with a white bus symbol indicates a bus stop, common in rural French roads.\",\n    \"The road is a two-lane asphalt road with no center line, typical of secondary roads in rural France.\",\n    \"Vegetation consists of lush green trees and grasses, consistent with temperate climate zones like those found in France.\",\n    \"Utility poles and overhead wires are present, which are standard infrastructure in French countryside areas.\""
+}

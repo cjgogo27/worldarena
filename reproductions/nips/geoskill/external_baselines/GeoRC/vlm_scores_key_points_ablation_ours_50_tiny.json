@@ -1,0 +1,352 @@
+[
+    {
+        "challenge": "1NJsXTxIF9GGMDxC",
+        "round": 1,
+        "precision": 0.5083333333333333,
+        "recall": 1.0,
+        "f1": 0.6740331491712707
+    },
+    {
+        "challenge": "2xnQdwiCve2rHWVt",
+        "round": 1,
+        "precision": 0.30909090909090914,
+        "recall": 0.8939393939393938,
+        "f1": 0.459354247767346
+    },
+    {
+        "challenge": "3I4ZtihbhZy5qZzQ",
+        "round": 1,
+        "precision": 0.9476190476190476,
+        "recall": 0.8619047619047621,
+        "f1": 0.9027318295739348
+    },
+    {
+        "challenge": "3OuVMcpGjmm0tVfG",
+        "round": 1,
+        "precision": 0.175,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "3uP6lYo9pzx5Q0km",
+        "round": 1,
+        "precision": 0.7980952380952381,
+        "recall": 0.9083333333333334,
+        "f1": 0.8496535044881635
+    },
+    {
+        "challenge": "4UvmdTHySo6AXW4M",
+        "round": 1,
+        "precision": 1.0,
+        "recall": 0.8269230769230768,
+        "f1": 0.9052631578947368
+    },
+    {
+        "challenge": "56Q4T4rpv9O9sCpP",
+        "round": 1,
+        "precision": 0.5535714285714286,
+        "recall": 0.7678571428571429,
+        "f1": 0.6433397683397684
+    },
+    {
+        "challenge": "5GS2RPgTrf85UZM5",
+        "round": 1,
+        "precision": 1.0805555555555557,
+        "recall": 0.8657407407407408,
+        "f1": 0.9612934771117455
+    },
+    {
+        "challenge": "5bPlIRT7eGN79a2E",
+        "round": 1,
+        "precision": 1.1428571428571428,
+        "recall": 0.8273809523809524,
+        "f1": 0.9598618903754855
+    },
+    {
+        "challenge": "5l0GTCFZI877KxkV",
+        "round": 1,
+        "precision": 0.4066666666666666,
+        "recall": 0.7166666666666667,
+        "f1": 0.5188921859545004
+    },
+    {
+        "challenge": "67gLC5CcGgkQIWEW",
+        "round": 1,
+        "precision": 0.7611111111111111,
+        "recall": 0.4375,
+        "f1": 0.5556199304750868
+    },
+    {
+        "challenge": "6fGwHxCTvCbaK77Q",
+        "round": 1,
+        "precision": 1.3384615384615384,
+        "recall": 0.547008547008547,
+        "f1": 0.7766231954808563
+    },
+    {
+        "challenge": "6ypQOh9cOoE7WaWH",
+        "round": 1,
+        "precision": 0.6955555555555556,
+        "recall": 0.91,
+        "f1": 0.7884567474048443
+    },
+    {
+        "challenge": "74bPHM081cMUaNKT",
+        "round": 1,
+        "precision": 0.9054621848739497,
+        "recall": 0.9117647058823529,
+        "f1": 0.908602516150969
+    },
+    {
+        "challenge": "8G5DpHP2KCtVKrk9",
+        "round": 1,
+        "precision": 1.8121212121212125,
+        "recall": 0.762987012987013,
+        "f1": 1.0738383244056944
+    },
+    {
+        "challenge": "8Uo6ejwXYqmp9av3",
+        "round": 1,
+        "precision": 0.3093253968253969,
+        "recall": 1.0,
+        "f1": 0.47249583270192463
+    },
+    {
+        "challenge": "9NNxopqtafH8pTbN",
+        "round": 1,
+        "precision": 1.0357142857142856,
+        "recall": 0.7,
+        "f1": 0.8353909465020576
+    },
+    {
+        "challenge": "9lNwy1vjD53PTSwt",
+        "round": 1,
+        "precision": 0.4428571428571429,
+        "recall": 0.8799999999999999,
+        "f1": 0.5892008639308856
+    },
+    {
+        "challenge": "9oZfZYQEl9GWjZPu",
+        "round": 1,
+        "precision": 0.7583333333333333,
+        "recall": 1.0,
+        "f1": 0.8625592417061612
+    },
+    {
+        "challenge": "AVKTblAzBqaYrcKe",
+        "round": 1,
+        "precision": 0.4089285714285714,
+        "recall": 0.8375,
+        "f1": 0.5495343839541548
+    },
+    {
+        "challenge": "DKGAIVKGYnLWmMy9",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "EEI3fwu4iZvPT2zP",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "G3aNW5xo5JUCnAhB",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "GbfNQanBbRoPIoek",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "HF1MKwIFNCNb4FdM",
+        "round": 1,
+        "precision": 0.049999999999999996,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "HLDekf7z49ovS9Y8",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "HVBiwFr2gEcM1dze",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "IozkbMt8zbdH9XCv",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "JXpmlobJL7nhnp3E",
+        "round": 1,
+        "precision": 0.041666666666666664,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "JfPkjboMSjCsG1Qu",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "JnTw9kl2nWPFaoUg",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "KTKKKeKESyntpGnS",
+        "round": 1,
+        "precision": 0.037037037037037035,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "KWr0ySMIaUQRvikA",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "KXkXw08ZCDqL1e2q",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "KYuWftPRQfRJ5DKL",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "KZ2f6LqzJRyChcg8",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "KqjXykSvjIJYNXY8",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "Lz6IDBZmUTr5oPdV",
+        "round": 1,
+        "precision": 0.0303030303030303,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "MjBPBTn3iUXdebSu",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "N2IFsQAIIcXPuNKn",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "N4EN1CWspaIlcCYq",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "No9HbFZyTOwfaU8s",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "NqhvwHTYOTtGmZgm",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "QTmrnxW99iiyS2xS",
+        "round": 1,
+        "precision": 0.023809523809523808,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "QhbT3Koc9Mxo6EdL",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "STQGgl6Uh9muExNb",
+        "round": 1,
+        "precision": 0.03125,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "SkFHwlV4Z2q9fUje",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "SwSJB5DW8YXOSLn2",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "UYeUpGpQlvb7ExfK",
+        "round": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    },
+    {
+        "challenge": "VGLhN3OEa5t3YAFj",
+        "round": 1,
+        "precision": 0.023809523809523808,
+        "recall": 0.0,
+        "f1": 0.0
+    }
+]

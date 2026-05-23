@@ -1,0 +1,11 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The wooden utility pole with overhead wires is typical of rural/suburban infrastructure in the northeastern or mid-Atlantic US.",
+    "The architecture — stone and wood siding, large garage doors, sloped roof — matches common residential styles in upstate New York or Pennsylvania.",
+    "Vegetation includes dense deciduous trees and lush green lawns, consistent with temperate humid continental climate zones in the northeastern US."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The wooden utility pole with overhead wires is typical of rural/suburban infrastructure in the northeastern or mid-Atlantic US.\",\n    \"The architecture — stone and wood siding, large garage doors, sloped roof — matches common residential styles in upstate New York or Pennsylvania.\",\n    \"Vegetation includes dense deciduous trees and lush green lawns, consistent with temperate humid continental climate zones in the northeastern US.\",\n    \"No visible road markings,"
+}

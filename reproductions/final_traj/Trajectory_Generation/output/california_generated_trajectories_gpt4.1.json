@@ -1,0 +1,52 @@
+[
+  {
+    "user_id": "30002756_2",
+    "user_info": {
+      "user_id": "30002756_2",
+      "age_range": "Appropriate skip",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Spouse/Unmarried partner",
+      "gender": "Male",
+      "race": "White",
+      "education": "Some college or associates degree",
+      "employment_status": "Appropriate skip",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": 2.0,
+      "work_state": "Not specified",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "Appropriate skip",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "primary_activity": "Retired"
+    },
+    "reasoning": "Given the user's profile—a retired, White, non-Hispanic male with some college education, a spouse/partner at home, doesn't work, drives, and hasn't traveled abroad—his day likely includes home-based activities, moderate exercise, locally-based errands, and social or leisurely outings, with times reflecting flexibility in his post-retirement schedule and regional lifestyle typical of California.",
+    "trajectory": "0:00-6:42 home, 6:42-7:35 exercise, 7:35-8:23 home, 8:23-9:05 shopping, 9:05-10:10 home, 10:10-11:12 service, 11:12-12:20 home, 12:20-13:28 dine_out, 13:28-16:17 home, 16:17-18:04 socialize, 18:04-18:47 home, 18:47-19:32 medical, 19:32-21:44 home, 21:44-22:25 dropoff_pickup, 22:25-24:00 home",
+    "raw_result": "Given the user's profile—a retired, White, non-Hispanic male with some college education, a spouse/partner at home, doesn't work, drives, and hasn't traveled abroad—his day likely includes home-based activities, moderate exercise, locally-based errands, and social or leisurely outings, with times reflecting flexibility in his post-retirement schedule and regional lifestyle typical of California.\n\n0:00-6:42 home, 6:42-7:35 exercise, 7:35-8:23 home, 8:23-9:05 shopping, 9:05-10:10 home, 10:10-11:12 service, 11:12-12:20 home, 12:20-13:28 dine_out, 13:28-16:17 home, 16:17-18:04 socialize, 18:04-18:47 home, 18:47-19:32 medical, 19:32-21:44 home, 21:44-22:25 dropoff_pickup, 22:25-24:00 home",
+    "generation_time": "2025-10-21T12:29:08.056492"
+  },
+  {
+    "user_id": "30002945_1",
+    "user_info": {
+      "user_id": "30002945_1",
+      "age_range": "Appropriate skip",
+      "hispanic": "No, Not Hispanic or Latino",
+      "relationship": "Self",
+      "gender": "Female",
+      "race": "White",
+      "education": "Some college or associates degree",
+      "employment_status": "Yes",
+      "traveled_abroad": "No",
+      "distance_to_work_miles": 12.13,
+      "work_state": "California",
+      "driver_on_travel_day": "Yes",
+      "work_from_home": "No",
+      "work_schedule": "Full-time",
+      "occupation": "Clerical or administrative support",
+      "primary_activity": "Working"
+    },
+    "reasoning": "This trajectory reflects a full-time clerical worker (female, White, some college, in California) with a typical early morning routine, a moderate car commute, an 8-hour workday, and essential after-work tasks like shopping and brief exercise. The user’s lifestyle and demographic profile suggest likely evenings at home and some weekend-like social engagement midweek.",
+    "trajectory": "0:00-6:15 home, 6:15-6:40 exercise, 6:40-7:20 home, 7:20-8:05 work, 8:05-17:15 work, 17:15-17:50 shopping, 17:50-18:40 dine_out, 18:40-19:45 socialize, 19:45-24:00 home",
+    "raw_result": "This trajectory reflects a full-time clerical worker (female, White, some college, in California) with a typical early morning routine, a moderate car commute, an 8-hour workday, and essential after-work tasks like shopping and brief exercise. The user’s lifestyle and demographic profile suggest likely evenings at home and some weekend-like social engagement midweek.\n\n0:00-6:15 home, 6:15-6:40 exercise, 6:40-7:20 home, 7:20-8:05 work, 8:05-17:15 work, 17:15-17:50 shopping, 17:50-18:40 dine_out, 18:40-19:45 socialize, 19:45-24:00 home",
+    "generation_time": "2025-10-21T12:29:12.178633"
+  }
+]

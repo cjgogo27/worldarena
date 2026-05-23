@@ -1,0 +1,24 @@
+Flat humid tropical residential environment
+Low-rise wooden and corrugated-metal houses
+Wide pale concrete road with minimal lane markings
+Dense overhead utility wiring on simple poles
+Yellow pedestrian-style warning sign
+Quiet residential junction layout consistent with coastal Guyana
+Overall South American fit stronger than Asian, European, or Oceanian alternatives
+Applying the ordered skill graph strictly: Skill 1 looks for simple double yellow center lines common in parts of Latin America, but this scene does not clearly show those markings, so that cue is weak.
+Through Skill 1's region-support edges, Skills 4, 5, 10, and 12 still keep South America as the best broad regional frame because the road environment is compatible with a Latin American coastal settlement even without strong lane paint.
+Skill 2 suggests rural Vietnam, but the streetscape, architecture, and utility layout do not fit Vietnam well.
+Its linked cue-composition edges to Skills 4, 6, 7, 8, 10, 11, and 12 do not improve those alternatives.
+Skill 3 suggests Indonesian residential neighborhoods, but the built environment and road style are less convincing for Indonesia.
+Skill 4 again favors Latin America, though the expected double yellow line is not visible.
+Skill 5 references a small yellow warning sign similar in Colombia or Ecuador; there is a yellow pedestrian-style warning sign present, which supports a general Latin American interpretation more than the Asian or European alternatives.
+Skill 6 points to Australia or New Zealand because of a wide smooth unmarked residential road, but the tropical architecture, dense overhead wiring, and house styles argue against that.
+Skill 7 points to Belgian villages due to concrete paving, but the climate and buildings clearly do not fit Belgium.
+Skill 8 points to the United States or Mexico, but the road marking pattern is absent.
+Skill 9 points to Japan based on yellow sign design, but the rest of the scene strongly disagrees.
+Skill 10 supports Latin America from faint yellow striping, though striping is weak here.
+Skill 11 points to Russia or post-Soviet areas, which is incompatible with the tropical low-rise setting.
+Skill 12 supports South America, but its exact marking pattern is also not visible.
+After following the graph, the strongest surviving regional conclusion is South America, while the observed left-driving-style roadside setup, tropical coastal residential character, wooden and corrugated homes, pale concrete streets, and Guyana-like utility infrastructure make Guyana the best country fit.
+Within Guyana, the scene matches a residential junction in New Amsterdam, East Berbice-Corentyne.
+Conclusion: likely location is New Amsterdam, East Berbice-Corentyne, Guyana

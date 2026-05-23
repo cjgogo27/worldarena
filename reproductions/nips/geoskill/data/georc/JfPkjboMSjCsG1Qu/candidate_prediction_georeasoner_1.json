@@ -1,0 +1,11 @@
+{
+  "country": "Indonesia",
+  "country_code": "id",
+  "city": "",
+  "reasoning_chain": [
+    "The street sign reads 'JL. ST. HASANUDIN', which is Indonesian for 'Jalan' (street), indicating an Indonesian location.",
+    "Motorcycles are the dominant mode of transport, and they drive on the left side of the road, consistent with Indonesian traffic rules.",
+    "The architecture includes a mix of modern multi-story buildings and traditional wooden houses on stilts, common in rural or semi-urban areas of Indonesia."
+  ],
+  "raw_output": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The street sign reads 'JL. ST. HASANUDIN', which is Indonesian for 'Jalan' (street), indicating an Indonesian location.\",\n    \"Motorcycles are the dominant mode of transport, and they drive on the left side of the road, consistent with Indonesian traffic rules.\",\n    \"The architecture includes a mix of modern multi-story buildings and traditional wooden houses on stilts, common in rural or semi-urban areas of Indonesia.\","
+}

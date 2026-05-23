@@ -1,0 +1,25 @@
+{
+  "game_id": "67gLC5CcGgkQIWEW",
+  "round": 1,
+  "sample_id": "georc::67gLC5CcGgkQIWEW::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "lt",
+    "predicted_region": "europe",
+    "predicted_address": "Residential street in Garliava, Kaunas District Municipality, Lithuania",
+    "predicted_lat": 54.89722222,
+    "predicted_lng": 23.88611111,
+    "reasoning_text": "{\n  \"country\": \"Lithuania\",\n  \"country_code\": \"lt\",\n  \"region\": \"Northern Europe\",\n  \"city\": \"Garliava\",\n  \"province_or_state\": \"Kaunas County\",\n  \"address\": \"Residential street in Garliava, Kaunas District Municipality, Lithuania\",\n  \"confidence\": 0.43,\n  \"reasoning\": \"The scene shows a quiet residential street in a flat, temperate part of Eastern/Northern Europe. The road is narrow and unmarked, with right-side driving implied by the street layout. The detached houses, plastered walls, simple pitched roofs, enclosed metal fencing on concrete bases, and overhead utility lines are typical of post-Soviet/Baltic suburban neighborhoods. The overall landscaping and architecture feel more Baltic than Balkan, and the flat terrain with village-style housing is consistent with Lithuania. Among Lithuanian possibilities, this looks like a suburban locality around Kaunas rather than a dense city center.\",\n  \"evidence\": [\n    \"Flat terrain with temperate vegetation\",\n    \"Narrow residential road without center markings\",\n    \"Detached houses with simple pitched roofs and fenced yards\",\n    \"Metal panel fencing on concrete bases common in Baltic/post-Soviet suburbs\",\n    \"Wooden utility poles with overhead wires\",\n    \"General built environment consistent with Lithuania\"\n  ]\n}",
+    "evidence_spans": [
+      "Flat terrain with temperate vegetation",
+      "Narrow residential road without center markings",
+      "Detached houses with simple pitched roofs and fenced yards",
+      "Metal panel fencing on concrete bases common in Baltic/post-Soviet suburbs",
+      "Wooden utility poles with overhead wires",
+      "General built environment consistent with Lithuania"
+    ],
+    "confidence": 0.43
+  },
+  "error": null
+}

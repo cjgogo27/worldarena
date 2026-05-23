@@ -1,0 +1,2943 @@
+[
+  {
+    "user_id": "40458112_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is nighttime, and the user is likely sleeping or resting at home during this time."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity before starting the workday, allowing for a healthy start."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it's common to have breakfast and prepare for the workday at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "As a professional with a full-time job and a typical work schedule, it is appropriate to start the workday at this time."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "As a professional with a graduate degree, attending a workshop or seminar related to her field during the late morning is a realistic activity."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "It's lunchtime and a good opportunity to take a break from work to have a meal outside, which fits well within the 12:00-14:00 lunch period."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:00",
+        "end_time": "16:30",
+        "reason": "The user is a full-time professional with a primary activity of working, and it is typical to continue work during the afternoon hours."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:30",
+        "end_time": "18:00",
+        "reason": "After finishing work, it's a common time to run errands or do some shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:00",
+        "end_time": "20:00",
+        "reason": "After finishing shopping, it's common to head home for dinner and relaxation, especially after a workday."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:00",
+        "end_time": "22:00",
+        "reason": "After a busy day of work and shopping, it's a good time to unwind and connect with friends or family, fitting well within the evening hours."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:00",
+        "end_time": "24:00",
+        "reason": "It's late night, and after socializing, it's common to wind down and prepare for sleep at home."
+      }
+    ]
+  },
+  {
+    "user_id": "40560229_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It's nighttime, so the user is likely sleeping or resting at home during these hours."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "It's early morning, a common time for physical activity before starting the workday."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it is common to have breakfast and prepare for the workday at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "The user works full-time in sales or service, and this time period is ideal for starting the workday."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The user has some college education and might be attending a training session or an online course to enhance skills related to their sales or service occupation during a break from work."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunch time and the user has just finished an educational activity, making it a suitable time to have lunch outside before returning to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "reason": "The user is employed full-time in a sales or service occupation and is likely to continue working during the afternoon hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it's common to have dinner at a restaurant or cafe before heading home."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:00",
+        "end_time": "21:00",
+        "reason": "After dining out, it's a good time to unwind and catch up with friends or family, fitting well within the evening hours."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:00",
+        "end_time": "23:00",
+        "reason": "After socializing, it's common to spend the rest of the evening at home to relax and prepare for the next day."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "30409204_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It's nighttime, and the user should be sleeping or resting at home during this period."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity, allowing the individual to start the day energized before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it's common to have breakfast and get ready for work at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "The user is employed full-time and typically starts work in the morning. It is common to begin work around 8:30 AM after morning preparations."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "As a professional with a graduate degree, attending a workshop or training session during late morning hours is realistic and aligns with the user's professional development goals."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "It's lunchtime, and dining out is a common activity during this period for a professional who may prefer to eat out before resuming work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:00",
+        "end_time": "16:30",
+        "reason": "Continuing with professional duties as part of a full-time work schedule during typical afternoon working hours."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "reason": "After finishing work, it's a common time to run errands or do some shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "21:00",
+        "reason": "After completing shopping and dining out, it's common to head home to relax and unwind for the evening."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:00",
+        "end_time": "23:00",
+        "reason": "After a day of work and shopping, it's a good time to unwind by socializing with friends or family, which fits well within the evening time frame."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "It's late at night, and the user is likely winding down and preparing for sleep after socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "30201218_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is nighttime, and the user is likely sleeping or resting at home during this period."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity, allowing for a fresh start to the day before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it's common to have breakfast and prepare for the workday at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "The user typically starts their workday after morning activities, and this aligns with their full-time work schedule and professional occupation."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "The user has a graduate or professional degree, indicating a potential interest in continuing education or professional development activities, which fit well into the late morning schedule."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "It's lunchtime and a good opportunity to have a meal outside before returning to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:00",
+        "end_time": "16:30",
+        "reason": "The user is a full-time professional working a typical afternoon schedule after lunch."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "reason": "After finishing work, it's a common time to run errands or do some shopping before heading home for the evening."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "20:30",
+        "reason": "After finishing shopping and dining out, it's typical to head home to unwind and prepare for the evening, especially after a full day of work and errands."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:30",
+        "end_time": "22:30",
+        "reason": "After spending some time at home, it's a good opportunity to visit friends or family, which fits well into the evening time slot."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "24:00",
+        "reason": "It's late night, a typical time for winding down and preparing for sleep after socializing. Staying home fits the circadian rhythm and allows for relaxation before bed."
+      }
+    ]
+  },
+  {
+    "user_id": "30366725_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is nighttime, and the user should be sleeping or resting at home according to common sense time rules."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "It's early morning, a common time for individuals to engage in physical activity before starting their workday."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast and prepare for the day at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "12:00",
+        "reason": "The user is employed part-time in a sales or service role and the current time is within typical working hours, making it a suitable time to engage in work-related activities."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "12:00",
+        "end_time": "13:30",
+        "reason": "It's lunchtime and a good opportunity to have a meal outside, especially after finishing work."
+      },
+      {
+        "activity": "work",
+        "start_time": "13:30",
+        "end_time": "15:30",
+        "reason": "After lunch, it is common to return to work, especially since the user works part-time and may have flexible hours."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:30",
+        "end_time": "17:00",
+        "reason": "After finishing work, it's a suitable time to run errands or do some shopping before heading home."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "It's dinner time, and after a busy day of work and shopping, dining out provides an opportunity to relax and enjoy a meal without the need to cook at home."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:00",
+        "end_time": "21:00",
+        "reason": "After dining out, it's a common time to socialize with friends or family, especially since it's early in the evening and the user has finished work for the day."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:00",
+        "end_time": "23:00",
+        "reason": "After socializing, it is common to wind down at home, preparing for rest and the next day."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "40458112_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It's nighttime, and the user should be sleeping or resting at home during this period."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity, and it fits well before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast and prepare for the workday at home."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "The user is employed full-time in a professional role and typically works during the morning hours."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The user has a professional occupation, and continuing education or training can be a part of their work routine. This fits within the morning time frame and provides a break from work while still being productive."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime, and the user is likely taking a break from work to have a meal outside, which fits the current time period."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "reason": "The user is a full-time professional working in a managerial or technical role, and it is common to continue working during the afternoon hours until the typical workday ends."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it is common to dine out for dinner, especially in the early evening hours."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's a good time to relax at home, unwind, and spend time with a partner before preparing for the next day."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "It's a suitable time for socializing with friends or family, either at home or at a nearby location, before winding down for the night."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, a typical time to wind down and prepare for sleep after socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "40232114_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night, it is typical to be at home for sleeping or resting, as it aligns with natural circadian rhythms."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity, allowing the user to start the day energized before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "Having breakfast and preparing for work at home is typical during this time before heading to the workplace."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "The user is preparing to start their part-time job in sales or service, which fits within the typical work hours beginning in the morning."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "The user, having a Bachelor's degree and a part-time work schedule, might be attending a training session or workshop to enhance skills related to their sales or service occupation. This fits well within the late morning time frame."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:30",
+        "reason": "It's lunch time, and dining out is a common activity during this period, especially after a morning of work and education."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "reason": "The user has a part-time work schedule and the current time period is suitable for continuing work activities."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it's a common time to have dinner at a restaurant or cafe, especially given the user's part-time work schedule and the current time of day."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's a good time to visit friends or family, aligning with the evening social hours."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After socializing, it's common to wind down at home before bed, especially as the day is ending."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "30409204_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It's nighttime, and the user should be sleeping or resting at home during these hours."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity, and exercise can be a healthy start to the day before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's typical to have breakfast and prepare for work at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "The user is employed full-time in a professional role and typically starts work in the morning. This aligns with their primary activity and the common work schedule for this time period."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "11:30",
+        "end_time": "13:00",
+        "reason": "It's nearing lunchtime, and after a productive morning of work, it's reasonable to take a break for lunch outside, which fits the time period and provides a change of environment."
+      },
+      {
+        "activity": "work",
+        "start_time": "13:00",
+        "end_time": "15:00",
+        "reason": "Continuing professional responsibilities after lunch, as it's a typical workday afternoon for a full-time professional."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:00",
+        "end_time": "17:00",
+        "reason": "After finishing work, it's a suitable time to run errands or shop for personal or household needs before heading home."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing shopping, it's common to dine out for dinner before heading home, especially since the user has recently been involved in work and errands."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:00",
+        "end_time": "21:00",
+        "reason": "After dining out, it's a good time to visit friends or family, or participate in a social event, which fits the evening schedule and provides relaxation and enjoyment after a day of work."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:00",
+        "end_time": "23:00",
+        "reason": "After socializing, it's common to spend time at home winding down and preparing for the next workday."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "40636614_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night (00:00-06:00), the only appropriate activity is being at home, typically sleeping or resting, as per common sense time rules."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity before starting a workday, providing energy and focus."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it's a good time to have breakfast and prepare for the workday ahead."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "The user has a full-time job in clerical or administrative support and typically starts work in the morning after preparing at home."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "12:30",
+        "reason": "Attending an online training session or webinar related to clerical or administrative skills during work hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "reason": "It's lunchtime and a good time to take a break from work or education to have a meal outside."
+      },
+      {
+        "activity": "work",
+        "start_time": "13:30",
+        "end_time": "15:30",
+        "reason": "The user is employed full-time in clerical or administrative support and has just finished lunch. It is typical to return to work after lunch during this time period."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:30",
+        "end_time": "17:30",
+        "reason": "After finishing work, it's a suitable time to run errands or do some shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "17:30",
+        "end_time": "19:30",
+        "reason": "After finishing shopping, it's common to head home to unwind and prepare dinner, especially after a workday."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "21:30",
+        "reason": "After a day of work and shopping, it's a good time to unwind by visiting friends or family, which is a common evening activity."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After socializing, it is common to wind down at home, preparing for sleep."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "30326941_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is nighttime, a period typically reserved for sleeping or resting at home."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a suitable time for physical activity before starting the workday."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "Having breakfast and preparing for work at home is typical after morning exercise."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "12:00",
+        "reason": "The user is employed full-time in a manufacturing-related occupation and typically works during the morning hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "12:00",
+        "end_time": "13:00",
+        "reason": "It's lunchtime, and after a morning of work, it's a good time to take a break and have lunch outside, which fits within the typical lunch period."
+      },
+      {
+        "activity": "work",
+        "start_time": "13:00",
+        "end_time": "15:00",
+        "reason": "Continuing the workday after lunch, as it is a full-time job in manufacturing, which typically resumes after a lunch break."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:00",
+        "end_time": "17:00",
+        "reason": "After finishing work for the day, it is a suitable time to run errands or do some shopping before heading home."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "It's the end of the workday, a common time to have dinner out before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's a good time to relax at home, spend time with a partner, and unwind from the day's activities."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After spending some time at home, it's a good opportunity to visit friends or family for a couple of hours, which fits well within the evening hours."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, a time typically spent at home winding down and preparing for sleep after socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "30061599_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night (00:00-06:00), it is common to be at home sleeping or resting, especially after a day of work."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for exercise, allowing the user to start the day with physical activity before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to spend time at home for breakfast and preparing for work, especially during early morning hours."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "12:00",
+        "reason": "The user is employed full-time in a manufacturing occupation and typically works during the morning hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "12:00",
+        "end_time": "13:30",
+        "reason": "It's lunchtime, and after a morning of work, it's a good time to have a meal outside before returning to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "13:30",
+        "end_time": "15:30",
+        "reason": "The user has a full-time job in manufacturing and has just finished lunch, making it reasonable to return to work for the afternoon shift."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:30",
+        "end_time": "17:30",
+        "reason": "After finishing work, it's a suitable time for running errands or shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "17:30",
+        "end_time": "19:30",
+        "reason": "After finishing shopping, it is common to head home to prepare dinner, relax, and spend time with family, especially for a parent."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "21:30",
+        "reason": "After a busy day at work and shopping, spending time with friends or family is a common way to relax and unwind during the evening hours."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After socializing, it's common to spend time at home winding down and preparing for sleep, especially since it's late in the evening."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "40560229_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During nighttime hours, it is typical to be at home sleeping or resting, as no other activities are appropriate at this time."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity; it fits well before starting a part-time work schedule."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast and prepare for the day at home before heading to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "12:00",
+        "reason": "The user works part-time in sales or service and it's a typical time for work activities."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "12:00",
+        "end_time": "13:30",
+        "reason": "It's lunchtime and a good opportunity to take a break from work and have a meal outside, which fits the current time of day."
+      },
+      {
+        "activity": "work",
+        "start_time": "13:30",
+        "end_time": "15:30",
+        "reason": "The user works part-time in sales or service and can continue working after lunch, fitting the typical work schedule."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:30",
+        "end_time": "17:30",
+        "reason": "After finishing work, it's a suitable time to run errands or do some shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "17:30",
+        "end_time": "19:30",
+        "reason": "After finishing shopping, it's common to head home to relax and prepare dinner, especially since the user has a part-time job and might want to unwind at home after a busy day."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "19:30",
+        "end_time": "21:30",
+        "reason": "After a day of work and shopping, it's a good time to enjoy a meal out, especially since it's a common evening activity that fits the current time period."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After dining out, it's common to spend the evening at home winding down and preparing for sleep, especially given the late hour."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "Spending a few moments to catch up with a partner before going to bed is a common activity during late night hours, especially after a day of work and dining out."
+      }
+    ]
+  },
+  {
+    "user_id": "30276739_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night hours (00:00-06:00), the only appropriate activity is being at home for sleeping or resting, in line with natural circadian rhythms."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity, allowing the user to energize before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast at home and prepare for the workday ahead."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "As a full-time professional in a managerial or technical role, it is common to begin work in the morning after preparing at home. This aligns with typical work hours and the user's primary activity."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "As a professional with a graduate degree, attending a workshop or training session during a late morning time slot is a realistic way to enhance skills and stay updated in the field."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime, and dining out is a common activity during this period, especially for someone with a professional job who might prefer a change of environment during the lunch break."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "reason": "As a full-time professional, continuing work in the afternoon aligns with typical work schedules and allows for completion of tasks before the end of the workday."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After a full day of work, it's common to dine out for dinner, especially if the individual is not heading home immediately."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's common to spend the evening at home relaxing or engaging in leisure activities, especially considering the user has a full-time job and may want to unwind before preparing for the next day."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After a day of work and dining out, it's a suitable time to unwind and catch up with friends or family, fitting the 19:00-22:00 time frame for social activities."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, a typical time to wind down and prepare for sleep at home after socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "40486809_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night (00:00-06:00), the only appropriate activity is home, typically for sleeping or resting."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "08:00",
+        "reason": "Early morning is a common time for exercise, providing energy and focus for the day ahead."
+      },
+      {
+        "activity": "home",
+        "start_time": "08:00",
+        "end_time": "09:30",
+        "reason": "After exercising, it's a good time to have breakfast and prepare for the day at home before heading to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:30",
+        "end_time": "12:00",
+        "reason": "The user is employed part-time and it's a suitable time for work activities in the morning."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "12:00",
+        "end_time": "13:30",
+        "reason": "It's lunchtime, a common time to eat out, especially after finishing work."
+      },
+      {
+        "activity": "work",
+        "start_time": "13:30",
+        "end_time": "15:30",
+        "reason": "After lunch, returning to work for a part-time clerical role is typical during this time of day."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:30",
+        "end_time": "17:30",
+        "reason": "After finishing work, it's a suitable time to run errands or do some shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "17:30",
+        "end_time": "20:00",
+        "reason": "After shopping and dining out, it's common to head home to relax and unwind in the evening."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:00",
+        "end_time": "22:00",
+        "reason": "The user has finished their activities for the day and it's a suitable time to visit friends or family, aligning with the evening socializing pattern."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:00",
+        "end_time": "24:00",
+        "reason": "It's late at night, a typical time for winding down and preparing for sleep at home."
+      }
+    ]
+  },
+  {
+    "user_id": "40500779_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is nighttime, and the user is likely sleeping or resting at home during this period."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Starting the day with exercise is a common routine for many professionals to boost energy and focus before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "Having breakfast and preparing for work, which is typical during the early morning hours."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "The user has a full-time job and typically starts work in the morning. Given the time is 08:30, it is appropriate to begin the workday."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "The user has some college education and could be attending a training or educational session related to their professional role during the late morning hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "It's lunchtime and a break from work to have a meal outside."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "reason": "The user is employed full-time and is likely to continue working after lunch, as it fits the typical afternoon work schedule."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it's common to have dinner out before heading home, especially given the distance from work to home."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:00",
+        "reason": "After dining out, it's common to spend time at home relaxing or engaging in leisure activities before winding down for the night."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:00",
+        "end_time": "23:00",
+        "reason": "After a day of work and dining out, socializing with friends or family fits the evening time slot and provides relaxation and connection before winding down for the night."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "It's late at night, and after socializing, it's appropriate to wind down at home, preparing for sleep."
+      }
+    ]
+  },
+  {
+    "user_id": "30509411_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night hours (00:00-06:00), it is common to be at home, sleeping or resting, as this aligns with natural sleep patterns and the need for rest before the day begins."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity, and it fits well before starting a full-time work schedule."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it's common to have breakfast and prepare for the workday at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "The user is employed full-time and works outside the home. It's a typical time to start work after morning activities."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "12:30",
+        "reason": "The user has some college education and might attend a training or online course during the late morning hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "reason": "It's lunchtime, and the user might prefer to have lunch outside before returning to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "13:30",
+        "end_time": "15:30",
+        "reason": "After lunch, it's common to return to work to continue with professional responsibilities, especially for someone with a full-time job in a professional or managerial role."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:30",
+        "end_time": "17:30",
+        "reason": "After finishing work, it's a suitable time to run errands or do some shopping before heading home."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:30",
+        "end_time": "19:30",
+        "reason": "It's the evening time, and after a day of work and shopping, it's a good opportunity to have dinner at a restaurant or cafe."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "21:30",
+        "reason": "After dining out, it's a common time to visit friends or family for socializing, fitting well into the evening schedule."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After a busy day and socializing, it's common to spend the evening at home winding down and preparing for the next day."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "30232307_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It's nighttime, the user is likely sleeping or resting at home during this period."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Starting the day with exercise is common in the early morning hours to boost energy before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it's common to have breakfast and prepare for work at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "It's a weekday morning, and the user is employed full-time in sales or service, typically starting work around this time."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "Attending a professional development workshop or training session related to her sales or service occupation during late morning hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "It's lunchtime, and after finishing education, it's a good time to have a meal outside before returning to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:00",
+        "end_time": "16:30",
+        "reason": "Continuing the workday after lunch, typical for a full-time schedule in sales or service."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:30",
+        "end_time": "18:00",
+        "reason": "After finishing work, it's a common time to run errands or do some shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:00",
+        "end_time": "20:00",
+        "reason": "After a day of work and shopping, it's a good time to head home for dinner and to relax."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:00",
+        "end_time": "22:00",
+        "reason": "After a day of work and shopping, it's a suitable time to relax and catch up with friends or family, fitting well into the evening schedule."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:00",
+        "end_time": "24:00",
+        "reason": "It's late at night, a typical time to wind down and prepare for sleep after a day of work and socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "40558140_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It's nighttime, appropriate for sleeping or resting at home."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for exercise, allowing the user to start the day with physical activity before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast and prepare for work at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "It's a weekday morning and the user has a full-time job, so it's realistic to start the workday now."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The user is a professional and may be attending a training session or workshop to enhance skills during the late morning hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime, and dining out is a common activity during this time to take a break from work and enjoy a meal."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "reason": "The user is employed full-time in a professional role and it's a typical workday afternoon, making it appropriate to resume work after lunch."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it's a common time to have dinner at a restaurant or cafe before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's common to spend the evening at home relaxing or engaging in leisure activities before winding down for the night."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "It's a suitable time for socializing, as the user has already spent time at home and it's common to visit friends or family in the evening."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, and after socializing, it's time to wind down and prepare for sleep at home."
+      }
+    ]
+  },
+  {
+    "user_id": "40599871_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night hours (00:00-06:00), the only appropriate activity is being at home, typically sleeping or resting, in accordance with natural circadian rhythms."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity, providing a fresh start to the day before other commitments."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's a good time to have breakfast and prepare for the day at home."
+      },
+      {
+        "activity": "education",
+        "start_time": "09:00",
+        "end_time": "11:00",
+        "reason": "The user has some college education and might be attending a class or engaging in educational activities during the morning hours."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "It's a suitable time for running personal errands or shopping before lunch."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:30",
+        "reason": "It's lunchtime and a good time to have a meal outside after shopping."
+      },
+      {
+        "activity": "service",
+        "start_time": "14:30",
+        "end_time": "16:30",
+        "reason": "The user has just finished dining out and can use this time to handle any necessary services like visiting a bank or government office, which are typically open during this time."
+      },
+      {
+        "activity": "education",
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "reason": "The user is retired but might be taking a class or attending a workshop in the afternoon, which fits within the current time frame and provides an opportunity for personal development."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "20:30",
+        "reason": "After finishing education activities and dining out earlier, it's a good time to head home to relax and unwind for the evening."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:30",
+        "end_time": "22:30",
+        "reason": "The user has just finished a home activity and it is a suitable time in the evening to engage in socializing with friends or family, which fits the current time period."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, a typical time to wind down and prepare for sleep at home."
+      }
+    ]
+  },
+  {
+    "user_id": "40180215_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During nighttime hours (00:00-06:00), the only appropriate activity is being at home, typically for sleeping or resting."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for individuals to engage in physical activity before starting their workday, especially given the user's full-time work schedule and proximity to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast and prepare for the workday at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "The user is a full-time professional with a primary activity of working, and it is a typical time for work during the morning."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "Taking a short online course or attending a workshop fits the user's profile of having some college education and a professional occupation, and it is a productive way to utilize the late morning hours after work."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime, and dining out is a common activity during this time period for a break from work or education."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "16:30",
+        "reason": "The user is employed full-time and has a primary activity of working. It is a common time to continue work after lunch."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "reason": "After finishing work, it's a common time to run errands or do some shopping before heading home for the evening."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "21:00",
+        "reason": "After finishing shopping, it's common to head home to relax and have dinner, especially after a workday."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:00",
+        "end_time": "22:30",
+        "reason": "After spending time at home, it's a suitable time to visit friends or family, or engage in a social event, which aligns with the evening hours."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "23:30",
+        "reason": "It is late at night, and the user is likely winding down and preparing for sleep after socializing."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "40500779_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is nighttime, and the user should be sleeping or resting at home during this time."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "It's early morning and a good time for physical activity before starting the workday."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's a good time to have breakfast and prepare for the workday at home."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "The user has a full-time job and it's a typical time for starting work after morning activities at home."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The user might be attending a professional development course or a training session related to their occupation during the late morning hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime and a good time to take a break from work or education, enjoy a meal outside, and recharge for the afternoon."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "reason": "The user is a full-time professional working in a managerial or technical role, and it is typical to continue work during the afternoon hours after lunch."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it's common to dine out for dinner, especially since the user is not driving and might prefer to eat out before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's common to spend time at home relaxing or engaging in leisure activities, especially after a full workday."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After spending time at home, it's a good opportunity to catch up with friends or family, fitting well within the evening time slot."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "It's late at night and the user is likely winding down and preparing for sleep after socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "30326941_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It's nighttime, and the user should be sleeping or resting at home during this period."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "It's early morning, a good time to engage in physical activity before heading to work, aligning with a healthy routine."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it is common to have breakfast at home and prepare for the workday ahead."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:30",
+        "reason": "It's a weekday morning and the user typically works full-time in manufacturing, so starting work at this time is appropriate."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "Taking a short course or training session during a break from work is realistic and fits within the morning time frame."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It is lunchtime, and dining out is a common activity during this period, especially for someone working full-time who might want a change of environment."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "reason": "The user has a full-time job in manufacturing, which typically involves working during standard business hours. Returning to work after lunch is a common pattern."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it's common to have dinner out before heading home, especially since the user recently completed work and it's a typical time for dining out."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it is common to spend the evening at home relaxing or engaging in leisure activities, especially after a full day of work."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "It's a suitable time in the evening to visit friends or family, or to engage in social activities, which fits well after spending time at home."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "It's late at night and the user is likely winding down and preparing for sleep after socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "40558140_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is nighttime, and the user should be sleeping or resting at home during this period."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity before starting the workday, providing energy and focus."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's a suitable time to have breakfast at home and prepare for the workday ahead."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "As a full-time professional working in California, it is typical to start the workday around 9:00 AM, especially given the user's occupation and primary activity is working."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The user has a graduate or professional degree, indicating a likelihood of engaging in continuous learning or professional development activities during the late morning hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime, and the user may choose to have lunch at a nearby restaurant or cafe before returning to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "reason": "The user is a full-time professional with a primary activity of working, and the current time period is suitable for continuing work activities."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "It's the end of the workday, and dining out is a common activity for dinner during this time, providing an opportunity to relax and enjoy a meal before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:00",
+        "reason": "After dining out, it's common to spend time at home relaxing or engaging in leisure activities to wind down from the day."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:00",
+        "end_time": "23:00",
+        "reason": "Evening is a common time to unwind and connect with friends or family, especially after a day of work. This activity provides a chance to relax and enjoy social interactions."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "It's late at night, a suitable time to wind down and prepare for sleep at home."
+      }
+    ]
+  },
+  {
+    "user_id": "40232114_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night (00:00-06:00), the only appropriate activity is 'home' for sleeping or resting, as per common sense time rules."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for exercise before heading to work, allowing for a healthy start to the day."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's typical to have breakfast and prepare for the workday at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "As a full-time professional working in California, it's typical to start the workday around 9:00 AM, especially since the user does not work from home and has a short commute."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The user is a professional with a Bachelor's degree and may be attending a workshop or training session to enhance skills, fitting the morning time slot before lunch."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime, and dining out is a common activity during this period for a professional with a full-time work schedule."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "reason": "The user is a full-time professional working in a managerial or technical role, and the afternoon is typically a time for continuing work activities after lunch."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "It's the end of the workday and a common time for dinner, making it ideal to dine out before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:00",
+        "reason": "After dining out, it's common to relax at home in the evening, especially after a full day of work, to unwind and prepare for the next day."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:00",
+        "end_time": "23:00",
+        "reason": "It's a suitable time to visit friends or family, or engage in a social event, providing a break from the workday and an opportunity for relaxation and connection."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "It is late at night, and the user is likely winding down and preparing for sleep after a social activity."
+      }
+    ]
+  },
+  {
+    "user_id": "40599871_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night hours, it is appropriate to be at home, likely sleeping or resting, as it aligns with typical circadian rhythms and common sense time rules."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "08:00",
+        "reason": "Early morning is a common time for physical activity, providing a healthy start to the day before engaging in other responsibilities."
+      },
+      {
+        "activity": "home",
+        "start_time": "08:00",
+        "end_time": "09:30",
+        "reason": "After exercising, it is common to have breakfast and prepare for the day at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:30",
+        "end_time": "12:00",
+        "reason": "The user is employed part-time and it's a suitable time for professional activities, fitting within the typical morning work schedule."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "12:00",
+        "end_time": "13:30",
+        "reason": "It's lunchtime, and after finishing work, it's a good time to have lunch outside."
+      },
+      {
+        "activity": "work",
+        "start_time": "13:30",
+        "end_time": "15:30",
+        "reason": "Continuing part-time professional work after lunch, which fits within the current time window for work activities."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:30",
+        "end_time": "17:30",
+        "reason": "After finishing work, it's a good time to run errands or do some shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "17:30",
+        "end_time": "19:30",
+        "reason": "After finishing shopping, it's common to head home to unwind and prepare dinner, fitting the evening time pattern."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "21:30",
+        "reason": "As the user is retired and it's evening, it's a good time to visit friends or family for social interaction."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After socializing, it's common to wind down at home during the late evening hours, preparing for rest and relaxation before sleep."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "The user might decide to have a late-night snack or dessert at a nearby cafe or restaurant before heading home for the night."
+      }
+    ]
+  },
+  {
+    "user_id": "30366725_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is night time, and the user should be sleeping or resting at home."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for exercise, providing a healthy start to the day before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast and prepare for work at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "12:00",
+        "reason": "As the user works full-time in sales or service and it's within typical working hours, continuing with work is appropriate."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "12:00",
+        "end_time": "13:30",
+        "reason": "It's lunchtime and a common time for a meal break, especially for someone working full-time in sales or service."
+      },
+      {
+        "activity": "work",
+        "start_time": "13:30",
+        "end_time": "15:30",
+        "reason": "After lunch, it's common to return to work in the early afternoon, especially for someone with a full-time job in sales or service."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:30",
+        "end_time": "17:30",
+        "reason": "After finishing work, it's a suitable time to run errands or shop for necessities before heading home."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:30",
+        "end_time": "19:30",
+        "reason": "It's dinner time and a good opportunity to dine out after finishing shopping, aligning with the evening schedule."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "21:30",
+        "reason": "After dining out, it's a common time to visit friends or family or engage in social activities during the evening."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After socializing, it's common to spend time at home winding down and preparing for sleep, especially given the late hour."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "The user might spend the remaining time of the day catching up with their partner before going to sleep, which fits the late-night time period."
+      }
+    ]
+  },
+  {
+    "user_id": "30061599_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It's nighttime, and the user is likely sleeping or resting at home during this period."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "It's early morning, a common time for individuals to engage in physical activity before starting their workday."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it's typical to have breakfast and prepare for the workday at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "The user is employed full-time in a clerical or administrative support role and typically starts work in the morning after preparing at home."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "12:30",
+        "reason": "The user might be attending a training session or workshop related to their clerical or administrative support role, which fits within the morning time period and provides an opportunity for professional development."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "reason": "It's lunchtime, and the user has just finished an educational activity. It's a good time to take a break and have lunch outside."
+      },
+      {
+        "activity": "work",
+        "start_time": "13:30",
+        "end_time": "15:30",
+        "reason": "After lunch, it's common for full-time employees to return to work for the afternoon session."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "15:30",
+        "end_time": "17:30",
+        "reason": "After completing work, it's a suitable time for running errands or shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "17:30",
+        "end_time": "19:30",
+        "reason": "After finishing shopping, it's common to head home to unwind and prepare dinner, especially after a workday."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "21:30",
+        "reason": "It's a suitable time in the evening to visit friends or family and unwind after a day of work."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After socializing, it's common to wind down at home, especially as it approaches the end of the day."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "40593280_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is nighttime, and the user should be sleeping or resting at home during this period."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Starting the day with exercise is a common morning routine, providing energy and focus for the workday ahead."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast and prepare for the workday at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "The user is employed full-time in a professional role and it is a typical workday morning, making it appropriate to engage in work activities during this time."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The individual has a graduate or professional degree, suggesting the possibility of engaging in ongoing professional development or training, which fits within the morning time slot."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime, and after finishing education-related activities, it's a good time to have lunch, possibly at a nearby caf\u00e9 or restaurant, before returning to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "reason": "The user is a full-time professional working in a managerial or technical role, and the current time period is suitable for continuing work activities after lunch."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it's common to have dinner out, especially since the user has already dined out earlier, indicating a preference for dining out."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's common to spend the evening at home relaxing or engaging in leisure activities, especially after a full day of work."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "It's a suitable time to visit friends or family, or engage in social activities, as the user has just finished spending time at home and it's still within the evening hours."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, and after socializing, it's time to wind down and prepare for sleep at home."
+      }
+    ]
+  },
+  {
+    "user_id": "30276739_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night hours (00:00-06:00), the user should be at home, sleeping or resting, as it aligns with typical human circadian rhythms and common sense time rules."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Starting the day with exercise is common in the early morning, providing energy for the day ahead."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast and prepare for the workday at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "As a full-time professional with a graduate degree, the user typically starts their workday around this time, aligning with their primary activity of working."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The user has a graduate or professional degree, suggesting ongoing professional development or training is plausible during work hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime, and dining out is a common activity during this time for a professional taking a break from work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "16:30",
+        "reason": "The user is a full-time professional and typically continues work in the afternoon after lunch."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "reason": "After finishing work, it's a common time to run errands or do shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "21:00",
+        "reason": "After finishing shopping, it's common to head home to unwind and prepare dinner, especially as the workday has ended."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:00",
+        "end_time": "22:30",
+        "reason": "After spending time at home, it's a common time to visit friends or family for a short social gathering or catch-up, especially since the user has a full-time job and may want to unwind with others."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, a typical time to be at home winding down and preparing for sleep after a busy day."
+      }
+    ]
+  },
+  {
+    "user_id": "40225261_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is nighttime, and the user should be sleeping or resting at home during these hours."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "It's early morning, a common time for physical activity before starting the workday."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast and prepare for work at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "The user is employed full-time in a professional role and it is a typical time for work activities."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The user has a Bachelor's degree and may be attending a professional development course or training session during the late morning hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime, and dining out is a common activity during this period, especially for someone working full-time in a professional setting."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "16:30",
+        "reason": "As a full-time professional, it is common to continue working after lunch during the afternoon hours."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "reason": "After finishing work, it's a suitable time to run errands or do some shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "20:30",
+        "reason": "After shopping and dining out, it's a suitable time to head home to relax and spend time with family or partner, aligning with the evening winding down period."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:30",
+        "end_time": "22:30",
+        "reason": "It's a suitable time for socializing in the evening, allowing time to visit friends or family after a busy day."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, a common time to be at home winding down and preparing for sleep after socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "40225261_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night hours (00:00-06:00), it is common to be at home sleeping or resting, as this aligns with typical human circadian rhythms and ensures adequate rest for the upcoming day."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for exercise, allowing for physical activity before starting the workday."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it's common to have breakfast and prepare for the day at home before heading to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "The user is employed full-time and typically starts work in the morning. It's a weekday morning, and after finishing home activities, it's time to begin the workday."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "Engaging in a professional development course or training session is a common activity for someone in a professional or managerial role during late morning hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "It's lunchtime and a good opportunity to have a meal outside, which fits the current time of day."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:00",
+        "end_time": "16:30",
+        "reason": "As the user is employed full-time in a professional role, it is typical to continue working during the afternoon hours after lunch."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "reason": "After finishing work, it's a common time for running errands or shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "21:00",
+        "reason": "After finishing shopping and dining out, it's common to head home to relax and spend time at home during the evening hours."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:00",
+        "end_time": "23:00",
+        "reason": "After a day of work and shopping, it's a good time to unwind and catch up with friends or family, fitting well within the evening hours."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "It's late at night, a typical time to wind down and prepare for sleep at home."
+      }
+    ]
+  },
+  {
+    "user_id": "40593280_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night, the individual is likely sleeping or resting at home, as this is the typical time for rest according to common sense time rules."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "It's early morning, a common time for people to engage in physical activity before starting their workday."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's a common time to have breakfast and prepare for work at home."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "The user is employed full-time and typically engages in professional activities during the morning hours."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The user has a Bachelor's degree and may be engaged in professional development or training activities during the late morning, which aligns with their professional, managerial, or technical occupation."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime, and dining out is a common activity during this period for a break from work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "reason": "The user is a full-time professional who typically works during the afternoon hours. After lunch, it is common to return to work to complete the day's tasks."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it's common to have dinner outside, especially in the early evening, before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's common to spend the evening relaxing at home, especially after a full day of work. This allows for unwinding and preparing for the next day."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After spending time at home, it's a suitable time to visit friends or family for a couple of hours before winding down for the night."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, and it's time to wind down and prepare for sleep after socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "30201218_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It's nighttime, and the user should be sleeping or resting at home during this period."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for exercise, allowing for a healthy start before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's a common time to have breakfast at home and prepare for the workday ahead."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "As a full-time professional working in California, starting the workday at 9:00 AM aligns with typical work schedules, especially given the user's occupation in a professional, managerial, or technical field."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The user has a graduate or professional degree, suggesting a possibility of ongoing professional development or training sessions during work hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime and a good opportunity to step out for a meal before continuing with work in the afternoon."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "16:30",
+        "reason": "The user is a full-time professional who has just finished lunch and is likely to continue working during the afternoon hours."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "reason": "After finishing work, it's a common time to run errands or go shopping before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "20:30",
+        "reason": "After finishing shopping and dining out, it's a suitable time to head home to unwind and relax after a full day of work and errands."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:30",
+        "end_time": "22:30",
+        "reason": "It's a common time for socializing in the evening after work, providing an opportunity to unwind and connect with friends or family."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "23:30",
+        "reason": "It's late at night, and after socializing, it's time to wind down at home and prepare for sleep."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "40501274_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is nighttime, and the only appropriate activity is being at home, likely sleeping or resting, as per common sense time rules."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "It's early morning, a common time for individuals to engage in physical activity before starting their workday, especially since the user has a part-time job and may have a flexible schedule."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast and prepare for the day at home before heading to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "The user is employed part-time in clerical or administrative support and it's a typical time for work activities."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "As the user has some college education and it's still within the morning period, attending a class or engaging in educational activities is appropriate before lunch."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime and a good opportunity to take a break from work and have a meal outside."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "16:30",
+        "reason": "The user is employed part-time in clerical or administrative support and has already finished lunch. Returning to work is a suitable activity for the afternoon time period."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "reason": "After finishing work, it's common to run errands or do shopping before heading home for the evening."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "20:30",
+        "reason": "After finishing shopping and dining out, it's common to head home to unwind and prepare for the evening, especially since it's nearing the end of the day."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:30",
+        "end_time": "22:30",
+        "reason": "Evening is a common time to visit friends or family, and it fits well after spending some time at home."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, a typical time to be at home winding down and preparing for sleep after socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "40501274_3",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is nighttime, and the user should be sleeping or resting at home during this period."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Starting the day with exercise is a healthy routine and fits well in the early morning before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it's common to have breakfast and prepare for the workday at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "As a full-time professional working outside the home, it's time to start the workday after morning preparations."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "Continuing professional development or attending a work-related training session fits within the work schedule and morning time frame."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "It's lunchtime, and dining out is a common activity during this period for a meal break."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:00",
+        "end_time": "16:30",
+        "reason": "The user has a full-time work schedule and typically resumes work after lunch during the afternoon."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "reason": "After finishing work, it's a common time to run errands or shop for groceries before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "18:30",
+        "end_time": "21:00",
+        "reason": "After finishing shopping, it's common to head home to unwind and have some leisure time before preparing for the next day."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:00",
+        "end_time": "23:00",
+        "reason": "It's a suitable time to visit friends or family, or engage in social events, which is common in the evening after a day of work and shopping."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "It's late at night, and the user is likely winding down and preparing for sleep after socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "40180215_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During nighttime hours (00:00-06:00), the only appropriate activity is 'home' for sleeping or resting, as per common sense time rules."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Engaging in morning exercise to start the day energetically before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it is common to have breakfast and prepare for work at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "The user is employed full-time and typically starts work in the morning. Given the current time is 08:30, it's appropriate for her to begin her workday at this time."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "The user might be attending a professional development course or training session that aligns with their professional, managerial, or technical occupation. This fits the morning time slot for educational activities."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "It's lunchtime and a good opportunity to have a meal outside, especially since the user has just finished an educational activity and is likely on a break."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "reason": "The user is employed full-time and has just finished lunch, making it a suitable time to continue with professional duties during the afternoon work hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "It's the end of the workday and a common time for dinner, providing an opportunity to unwind and enjoy a meal outside before heading home."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's a good time to visit friends or family, especially given the social nature of the evening hours."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After socializing, it's common to spend time at home winding down and preparing for sleep, especially since it's late in the evening."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "40636614_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It's nighttime, appropriate for sleeping or resting at home."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity before starting the workday, allowing for a refreshing start."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast and prepare for the workday at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "The user is employed full-time in clerical or administrative support and it's a weekday morning, which is a typical time to be at work."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The user has some college education, and this time period allows for attending a class or engaging in educational activities before lunch."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime, and dining out is a common activity during this time for a break from work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "16:30",
+        "reason": "The user is employed full-time in clerical or administrative support and has just finished lunch, so it's reasonable to return to work during the afternoon hours."
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:30",
+        "end_time": "18:30",
+        "reason": "After finishing work, it's a common time to run errands or shop for groceries before heading home."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:30",
+        "end_time": "20:30",
+        "reason": "It's dinner time and the user has just finished shopping, making it a good opportunity to have dinner out before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "20:30",
+        "end_time": "22:30",
+        "reason": "After dining out, it's common to return home to relax and wind down for the evening."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "22:30",
+        "end_time": "23:30",
+        "reason": "It's late evening, a common time to unwind and perhaps catch up with friends or family over a phone call or video chat before going to bed."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, a typical time to be at home winding down and preparing for sleep after socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "40501274_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It's nighttime, a period reserved for sleeping or resting at home."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for exercise, providing a healthy start to the day before heading to work."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it's common to have breakfast and prepare for work at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "As a full-time professional with a short commute, starting work at this time aligns with a typical work schedule."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "As a professional with a graduate degree, engaging in a training session or attending a seminar during work hours is plausible and fits within the typical morning schedule."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "It's lunchtime and a good opportunity to step out for a meal before returning to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "reason": "As a full-time professional with a primary activity of working, it is typical to continue work during the afternoon hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it's a common time for dinner, and dining out is a popular choice to unwind and enjoy a meal before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's common to spend time at home relaxing or engaging in leisure activities before winding down for the night."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "The user has just finished spending time at home and it's a suitable time for socializing in the evening, allowing for relaxation and interaction with friends or family before winding down for the night."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, and after socializing, it's time to wind down and prepare for sleep at home."
+      }
+    ]
+  },
+  {
+    "user_id": "30232307_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "During the night, it is typical to remain at home for sleeping or resting until the morning."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for physical activity before starting the workday."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "09:00",
+        "reason": "After exercising, it's common to have breakfast and prepare for the workday at home during this time."
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "11:30",
+        "reason": "As a full-time employee in sales or service, it is typical to start work in the morning after finishing activities at home. This aligns with the common work schedule during this time period."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:30",
+        "end_time": "13:30",
+        "reason": "The user has just finished work and it's still within the morning period, which is suitable for engaging in educational activities such as attending a training session or online class."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "reason": "It's lunchtime, and dining out is a common activity during this period for a quick meal before returning to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:30",
+        "end_time": "17:00",
+        "reason": "The user is employed full-time in sales or service and is likely to continue working in the afternoon after lunch."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it's common to have dinner at a restaurant or cafe before heading home, especially since the user has already dined out earlier in the day."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's common to spend the evening socializing with friends or family, especially since it's a suitable time for social activities."
+      },
+      {
+        "activity": "home",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "After socializing, it is common to wind down at home in the late evening, preparing for rest and the next day."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "Complete the day schedule"
+      }
+    ]
+  },
+  {
+    "user_id": "30509411_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It's nighttime, and the user should be sleeping or resting at home, as no other activities are appropriate for this time."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "Early morning is a common time for exercise before heading to work, providing a healthy start to the day."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it's typical to have breakfast at home and prepare for the workday ahead."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "The user is employed full-time in a manufacturing occupation and typically starts work in the morning. It is common to begin work around this time after morning routines."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "Attending a training session or workshop related to the user's occupation during the late morning is a realistic activity, especially for someone working in a field like manufacturing or construction, where continuous learning and skill updates are important."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "It's lunchtime, and dining out is a common activity during this time for a break from work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "reason": "The user is employed full-time in a manufacturing-related occupation and typically works during the afternoon hours."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it's common to have dinner at a restaurant or cafe during this time."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's common to spend time at home relaxing or engaging in leisure activities during the evening hours."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "It's a suitable time in the evening to visit friends or family, especially after having spent time at home. This aligns with social patterns and allows for relaxation before winding down for the night."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, and the user is likely winding down and preparing for sleep after socializing."
+      }
+    ]
+  },
+  {
+    "user_id": "40486809_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00",
+        "reason": "It is nighttime, and the user should be sleeping or resting at home during this period."
+      },
+      {
+        "activity": "exercise",
+        "start_time": "06:00",
+        "end_time": "07:30",
+        "reason": "It's early morning, a common time for physical activity before heading to work, especially for someone with a full-time job in a physically demanding field."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:30",
+        "end_time": "08:30",
+        "reason": "After exercising, it's common to have breakfast and prepare for the workday at home."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "11:00",
+        "reason": "The user is employed full-time in a manufacturing, construction, maintenance, or farming occupation and typically starts work in the morning after completing morning routines."
+      },
+      {
+        "activity": "education",
+        "start_time": "11:00",
+        "end_time": "13:00",
+        "reason": "The user has some college education and might be attending a training or educational session to enhance skills relevant to their occupation in manufacturing, construction, maintenance, or farming."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "It's lunchtime, and dining out is a common activity during this time to take a break from work."
+      },
+      {
+        "activity": "work",
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "reason": "The user works full-time in manufacturing and it's a typical work period in the afternoon."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "After finishing work, it's common to have dinner at a restaurant or cafe, especially since it's the evening and a good time to unwind and enjoy a meal before heading home."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "21:30",
+        "reason": "After dining out, it's common to spend time at home relaxing or engaging in leisure activities during the evening hours."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:30",
+        "end_time": "23:30",
+        "reason": "It's a suitable time in the evening to visit friends or family, especially after spending time at home. This activity fits well as a winding-down social interaction before preparing for sleep."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:30",
+        "end_time": "24:00",
+        "reason": "It's late at night, an appropriate time to wind down and prepare for sleep at home."
+      }
+    ]
+  }
+]

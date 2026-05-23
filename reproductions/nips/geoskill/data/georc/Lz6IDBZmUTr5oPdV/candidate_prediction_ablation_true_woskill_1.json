@@ -1,0 +1,32 @@
+{
+  "game_id": "Lz6IDBZmUTr5oPdV",
+  "round": 1,
+  "sample_id": "georc::Lz6IDBZmUTr5oPdV::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "pl",
+    "predicted_region": "europe",
+    "predicted_address": "Droga Leśna, Zielona Góra, Lubusz Voivodeship, Poland",
+    "predicted_lat": 51.93333333,
+    "predicted_lng": 15.5,
+    "reasoning_text": "```json\n{\n  \"country\": \"Poland\",\n  \"country_code\": \"pl\",\n  \"region\": \"Europe\",\n  \"city\": \"Zielona Góra\",\n  \"province_or_state\": \"Lubusz Voivodeship\",\n  \"address\": \"Droga Leśna, Zielona Góra, Lubusz Voivodeship, Poland\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"The image shows a narrow paved road through dense deciduous forest with autumn foliage, typical of Central European lowland forests. The road surface appears to be asphalt with cracks, consistent with rural Polish forest roads. The vegetation (mixed oak-hornbeam forest with early autumn coloring) and flat terrain match the Lubusz Voivodeship region in western Poland, known for extensive forests around Zielona Góra. The lack of any distinctive signage or infrastructure makes precise location difficult, but the forest road type and vegetation are most consistent with Polish State Forests (Lasy Państwowe) managed areas. The shortlist countries (Poland, Ukraine, Slovakia) all have similar forests, but the road maintenance style and forest composition slightly favor Poland.\",\n  \"evidence\": [\"Deciduous forest with early autumn foliage\", \"Narrow cracked asphalt road\", \"Flat terrain with dense forest canopy\", \"Mixed broadleaf forest typical of Central European lowlands\", \"Road edge vegetation management style\"]\n}\n```",
+    "evidence_spans": [
+      "Deciduous forest with early autumn foliage",
+      "Narrow cracked asphalt road",
+      "Flat terrain with dense forest canopy",
+      "Mixed broadleaf forest typical of Central European lowlands",
+      "Road edge vegetation management style"
+    ],
+    "confidence": 0.6,
+    "country_top3": [
+      "pl",
+      "ua",
+      "sk"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"pl\",\"ua\",\"sk\"],\"reason\":\"Deciduous forest with autumn foliage, narrow cracked asphalt rural road, and dense tree canopy forming a tunnel effect are characteristic of Central/Eastern European lowland forests. The vegetation mix (oak, beech, hornbeam) and road condition suggest Poland, Ukraine, or Slovakia - all with similar temperate forest biomes and rural infrastructure. No distinguishing features like road signs, utility poles, or license plates visible to narrow further.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8400000000000001
+  },
+  "error": null
+}

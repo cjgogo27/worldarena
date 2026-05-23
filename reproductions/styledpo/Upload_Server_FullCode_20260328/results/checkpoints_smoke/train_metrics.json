@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-03-29T14:12:28.410154+00:00",
+  "train_data": "results/pair_benchmark_build/preference_pairs.json",
+  "split": "train",
+  "num_examples": 210,
+  "max_steps": 5,
+  "batch_size": 64,
+  "beta": 0.1,
+  "learning_rate": 0.001,
+  "device": "cuda",
+  "final": {
+    "step": 5,
+    "loss": 0.23104704916477203,
+    "margin": 0.030192963778972626,
+    "policy_margin": 0.030313782393932343,
+    "w": 1.0050010681152344,
+    "b": 0.0
+  },
+  "history": [
+    {
+      "step": 1,
+      "loss": 0.2310490608215332,
+      "margin": 0.030192766338586807,
+      "policy_margin": 0.030192766338586807,
+      "w": 1.000999927520752,
+      "b": 0.0
+    },
+    {
+      "step": 2,
+      "loss": 0.2310485541820526,
+      "margin": 0.030313678085803986,
+      "policy_margin": 0.03034398704767227,
+      "w": 1.0019999742507935,
+      "b": 0.0
+    },
+    {
+      "step": 3,
+      "loss": 0.23104801774024963,
+      "margin": 0.03156113624572754,
+      "policy_margin": 0.03162425011396408,
+      "w": 1.00300133228302,
+      "b": 0.0
+    },
+    {
+      "step": 4,
+      "loss": 0.23104755580425262,
+      "margin": 0.030089588835835457,
+      "policy_margin": 0.03017990104854107,
+      "w": 1.004001498222351,
+      "b": 0.0
+    },
+    {
+      "step": 5,
+      "loss": 0.23104704916477203,
+      "margin": 0.030192963778972626,
+      "policy_margin": 0.030313782393932343,
+      "w": 1.0050010681152344,
+      "b": 0.0
+    }
+  ],
+  "checkpoint": "results/checkpoints_smoke/checkpoint_step_5.pt",
+  "training_log": "results/logs_smoke/training.log"
+}

@@ -1,0 +1,726 @@
+{
+  "game_id": "5GS2RPgTrf85UZM5",
+  "round": 1,
+  "sample_id": "georc::5GS2RPgTrf85UZM5::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "mk",
+    "predicted_region": "europe",
+    "predicted_address": "Semi-rural roadside area on the outskirts of Tetovo, Polog Region, North Macedonia",
+    "predicted_lat": 42.0,
+    "predicted_lng": 20.96666667,
+    "reasoning_text": "{\n  \"country\": \"North Macedonia\",\n  \"country_code\": \"mk\",\n  \"region\": \"Southeast Europe\",\n  \"city\": \"Tetovo\",\n  \"province_or_state\": \"Polog Region\",\n  \"address\": \"Semi-rural roadside area on the outskirts of Tetovo, Polog Region, North Macedonia\",\n  \"confidence\": 0.67,\n  \"reasoning\": \"Applying the ordered skills first: (1) the paved road surface and overall roadside feel are compatible with rural southern Europe and especially former Yugoslav areas; (2) the temperate deciduous vegetation and nearby mountains strongly support a Balkan setting; (3) the road context indicates a rural or peri-urban area in Eastern/Southeastern Europe; (4) the width and edge development suggest a southern European rural fringe rather than a dense urban core. Following linked skills from that Balkan base: (12) the concrete utility poles and overhead wiring are standard for the Balkans; (11) the paved street with simple lane treatment fits small-town or suburban roads in this region. Some lower-priority linked skills point toward Bulgaria or Bosnia and Herzegovina, but those are weaker and less consistent with the broader former Yugoslav road environment visible here. Other linked possibilities such as the Netherlands or Andean development are clearly inconsistent with the mountain basin settlement, Balkan utility infrastructure, roofing, and road style. Combining the Balkan/fomer Yugoslav signals with the provided observation context, the best consistent textual guess is the outskirts of Tetovo in North Macedonia.\",\n  \"evidence\": [\n    \"Right-hand traffic on a broad two-lane paved road\",\n    \"Temperate deciduous trees and grassy roadside vegetation\",\n    \"Mountain range visible in the distance, consistent with a Balkan basin setting\",\n    \"Concrete utility poles with multiple overhead wires\",\n    \"Detached low-rise houses with red/orange tile roofs\",\n    \"Semi-rural roadside development on the edge of a town\",\n    \"Road markings and general infrastructure typical of former Yugoslav countries\"\n  ]\n}",
+    "evidence_spans": [
+      "Right-hand traffic on a broad two-lane paved road",
+      "Temperate deciduous trees and grassy roadside vegetation",
+      "Mountain range visible in the distance, consistent with a Balkan basin setting",
+      "Concrete utility poles with multiple overhead wires",
+      "Detached low-rise houses with red/orange tile roofs",
+      "Semi-rural roadside development on the edge of a town",
+      "Road markings and general infrastructure typical of former Yugoslav countries"
+    ],
+    "confidence": 0.67,
+    "base_prediction_summary": {
+      "predicted_country": "mk",
+      "predicted_region": "europe",
+      "confidence": 0.42
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 1,
+        "score": 0.9280229210853577,
+        "bm25_score": 24.315126419067383,
+        "semantic_score": 0.6665477156639099
+      },
+      {
+        "skill_text": "Vegetation consists of temperate deciduous trees, grasses, and the presence of mountains in the distance suggests a location in the Balkans or a similar region.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "mountains",
+          "trees",
+          "vegetation"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.8918404579162598,
+        "bm25_score": 27.300146102905273,
+        "semantic_score": 0.5519657135009766
+      },
+      {
+        "skill_text": "The road condition and absence of lane markings suggest a rural area in Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 1,
+        "score": 0.8853387832641602,
+        "bm25_score": 26.540739059448242,
+        "semantic_score": 0.5608327388763428
+      },
+      {
+        "skill_text": "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 2,
+        "score": 0.848625898361206,
+        "bm25_score": 25.234806060791016,
+        "semantic_score": 0.5431093573570251
+      },
+      {
+        "skill_text": "The distant urban area has a mix of low-rise buildings with flat roofs and some orange tile roofing, consistent with Andean urban development.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building",
+          "roof"
+        ],
+        "source_game_id": "8Uo6ejwXYqmp9av3",
+        "source_round": 3,
+        "score": 0.8247697353363037,
+        "bm25_score": 28.404001235961914,
+        "semantic_score": 0.44025856256484985
+      },
+      {
+        "skill_text": "The combination of these clues strongly suggests this is in Bulgaria, most likely a smaller town or village, perhaps in the region of Veliko Tarnovo, though exact city is harder to pinpoint without further clues.",
+        "region_hint": "europe",
+        "confidence": 0.75,
+        "visual_cues": [
+          "clues",
+          "combination",
+          "strongly",
+          "these"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 2,
+        "score": 0.8195379972457886,
+        "bm25_score": 24.568761825561523,
+        "semantic_score": 0.5206865072250366
+      },
+      {
+        "skill_text": "The environment and mix of infrastructure, with small shops and residential houses along a main road, is typical of towns or villages near large cities in Bulgaria.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.7850821018218994,
+        "bm25_score": 21.882362365722656,
+        "semantic_score": 0.5372591018676758
+      },
+      {
+        "skill_text": "The vegetation, including neatly trimmed and managed bushes and lawns, fits the temperate maritime climate of the Netherlands.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "climate",
+          "vegetation"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 2,
+        "score": 0.7729007005691528,
+        "bm25_score": 28.372217178344727,
+        "semantic_score": 0.37399840354919434
+      },
+      {
+        "skill_text": "The presence of satellite dishes and building styles fits with the Bulgarian countryside’s modest development.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 2,
+        "score": 0.7710863351821899,
+        "bm25_score": 21.95741844177246,
+        "semantic_score": 0.5174790024757385
+      },
+      {
+        "skill_text": "The combination of clues points strongly toward Bosnia and Herzegovina, more specifically a mid-sized city such as Banja Luka.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "clues",
+          "combination",
+          "points",
+          "strongly"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 3,
+        "score": 0.7641105055809021,
+        "bm25_score": 22.108020782470703,
+        "semantic_score": 0.5050470232963562
+      },
+      {
+        "skill_text": "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "asphalt",
+          "paved",
+          "street",
+          "with"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 2,
+        "score": 0.7601150274276733,
+        "bm25_score": 28.19487190246582,
+        "semantic_score": 0.36151862144470215
+      },
+      {
+        "skill_text": "The utility poles are standard concrete types often found in the Balkans, particularly in Bulgaria and nearby countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "poles"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.7555049657821655,
+        "bm25_score": 22.098867416381836,
+        "semantic_score": 0.49414199590682983
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.9280229210853577,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "Vegetation consists of temperate deciduous trees, grasses, and the presence of mountains in the distance suggests a location in the Balkans or a similar region.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8918404579162598,
+          "visual_cues": [
+            "mountains",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The road condition and absence of lane markings suggest a rural area in Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8853387832641602,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.848625898361206,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The distant urban area has a mix of low-rise buildings with flat roofs and some orange tile roofing, consistent with Andean urban development.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.8247697353363037,
+          "visual_cues": [
+            "building",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The combination of these clues strongly suggests this is in Bulgaria, most likely a smaller town or village, perhaps in the region of Veliko Tarnovo, though exact city is harder to pinpoint without further clues.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.8195379972457886,
+          "visual_cues": [
+            "clues",
+            "combination",
+            "strongly",
+            "these"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The environment and mix of infrastructure, with small shops and residential houses along a main road, is typical of towns or villages near large cities in Bulgaria.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7850821018218994,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The vegetation, including neatly trimmed and managed bushes and lawns, fits the temperate maritime climate of the Netherlands.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7729007005691528,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The presence of satellite dishes and building styles fits with the Bulgarian countryside’s modest development.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7710863351821899,
+          "visual_cues": [
+            "building"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The combination of clues points strongly toward Bosnia and Herzegovina, more specifically a mid-sized city such as Banja Luka.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7641105055809021,
+          "visual_cues": [
+            "clues",
+            "combination",
+            "points",
+            "strongly"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7601150274276733,
+          "visual_cues": [
+            "asphalt",
+            "paved",
+            "street",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The utility poles are standard concrete types often found in the Balkans, particularly in Bulgaria and nearby countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7555049657821655,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "building"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "clues",
+            "combination",
+            "strongly"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "Vegetation consists of temperate deciduous trees, grasses, and the presence of mountains in the distance suggests a location in the Balkans or a similar region.",
+        "The road condition and absence of lane markings suggest a rural area in Eastern Europe.",
+        "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+        "The distant urban area has a mix of low-rise buildings with flat roofs and some orange tile roofing, consistent with Andean urban development.",
+        "The combination of these clues strongly suggests this is in Bulgaria, most likely a smaller town or village, perhaps in the region of Veliko Tarnovo, though exact city is harder to pinpoint without further clues.",
+        "The environment and mix of infrastructure, with small shops and residential houses along a main road, is typical of towns or villages near large cities in Bulgaria.",
+        "The vegetation, including neatly trimmed and managed bushes and lawns, fits the temperate maritime climate of the Netherlands.",
+        "The presence of satellite dishes and building styles fits with the Bulgarian countryside’s modest development.",
+        "The combination of clues points strongly toward Bosnia and Herzegovina, more specifically a mid-sized city such as Banja Luka.",
+        "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+        "The utility poles are standard concrete types often found in the Balkans, particularly in Bulgaria and nearby countries."
+      ],
+      "summary": "nodes=12, edges=46, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"North Macedonia\",\n  \"country_code\": \"mk\",\n  \"region\": \"Southeast Europe\",\n  \"city\": \"Tetovo\",\n  \"province_or_state\": \"Polog Region\",\n  \"address\": \"Semi-rural roadside area on the outskirts of Tetovo, Polog Region, North Macedonia\",\n  \"confidence\": 0.42,\n  \"reasoning\": \"The scene stro",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 46,
+        "graph_summary": "nodes=12, edges=46, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "mk"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

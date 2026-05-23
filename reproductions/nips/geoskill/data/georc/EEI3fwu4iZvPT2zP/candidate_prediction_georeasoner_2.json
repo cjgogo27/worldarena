@@ -1,0 +1,11 @@
+{
+  "country": "Costa Rica",
+  "country_code": "cr",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved dirt road with no center markings and vegetation typical of tropical lowlands suggests a rural area in Central America.",
+    "Utility poles with overhead wires and simple corrugated metal roofing on buildings are common in developing regions like Costa Rica.",
+    "The sign 'SHALVA' painted in red and blue on a wooden structure resembles local signage styles found in Costa Rican towns."
+  ],
+  "raw_output": "{\n  \"country\": \"Costa Rica\",\n  \"country_code\": \"cr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved dirt road with no center markings and vegetation typical of tropical lowlands suggests a rural area in Central America.\",\n    \"Utility poles with overhead wires and simple corrugated metal roofing on buildings are common in developing regions like Costa Rica.\",\n    \"The sign 'SHALVA' painted in red and blue on a wooden structure resembles local signage styles found in Costa Rican towns.\",\n    \"Lush green hills and scattered trees under a"
+}

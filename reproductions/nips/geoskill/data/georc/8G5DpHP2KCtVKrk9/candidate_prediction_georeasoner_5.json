@@ -1,0 +1,11 @@
+{
+  "country": "Mexico",
+  "country_code": "mx",
+  "city": "",
+  "reasoning_chain": [
+    "The architecture features stucco walls, red-painted lower levels, and tiled awnings typical of residential areas in central or southern Mexico.",
+    "Utility poles with overhead wires and the style of street lighting are consistent with rural or suburban Mexican towns.",
+    "The absence of clear signage or language text limits localization, but the overall urban fabric aligns with Mexican regional towns."
+  ],
+  "raw_output": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The architecture features stucco walls, red-painted lower levels, and tiled awnings typical of residential areas in central or southern Mexico.\",\n    \"Utility poles with overhead wires and the style of street lighting are consistent with rural or suburban Mexican towns.\",\n    \"The absence of clear signage or language text limits localization, but the overall urban fabric aligns with Mexican regional towns.\",\n    \"Vegetation includes palm trees and low shrubs, suggesting a"
+}

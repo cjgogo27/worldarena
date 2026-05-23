@@ -1,0 +1,892 @@
+{
+  "game_id": "5bPlIRT7eGN79a2E",
+  "round": 1,
+  "sample_id": "georc::5bPlIRT7eGN79a2E::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "gy",
+    "predicted_region": "south_america",
+    "predicted_address": "Residential junction in New Amsterdam, East Berbice-Corentyne, Guyana",
+    "predicted_lat": 4.107943,
+    "predicted_lng": -58.18337,
+    "reasoning_text": "{\n  \"country\": \"Guyana\",\n  \"country_code\": \"gy\",\n  \"region\": \"South America\",\n  \"city\": \"New Amsterdam\",\n  \"province_or_state\": \"East Berbice-Corentyne\",\n  \"address\": \"Residential junction in New Amsterdam, East Berbice-Corentyne, Guyana\",\n  \"confidence\": 0.67,\n  \"reasoning\": \"Applying the ordered skill graph strictly: Skill 1 looks for simple double yellow center lines common in parts of Latin America, but this scene does not clearly show those markings, so that cue is weak. Through Skill 1's region-support edges, Skills 4, 5, 10, and 12 still keep South America as the best broad regional frame because the road environment is compatible with a Latin American coastal settlement even without strong lane paint. Skill 2 suggests rural Vietnam, but the streetscape, architecture, and utility layout do not fit Vietnam well. Its linked cue-composition edges to Skills 4, 6, 7, 8, 10, 11, and 12 do not improve those alternatives. Skill 3 suggests Indonesian residential neighborhoods, but the built environment and road style are less convincing for Indonesia. Skill 4 again favors Latin America, though the expected double yellow line is not visible. Skill 5 references a small yellow warning sign similar in Colombia or Ecuador; there is a yellow pedestrian-style warning sign present, which supports a general Latin American interpretation more than the Asian or European alternatives. Skill 6 points to Australia or New Zealand because of a wide smooth unmarked residential road, but the tropical architecture, dense overhead wiring, and house styles argue against that. Skill 7 points to Belgian villages due to concrete paving, but the climate and buildings clearly do not fit Belgium. Skill 8 points to the United States or Mexico, but the road marking pattern is absent. Skill 9 points to Japan based on yellow sign design, but the rest of the scene strongly disagrees. Skill 10 supports Latin America from faint yellow striping, though striping is weak here. Skill 11 points to Russia or post-Soviet areas, which is incompatible with the tropical low-rise setting. Skill 12 supports South America, but its exact marking pattern is also not visible. After following the graph, the strongest surviving regional conclusion is South America, while the observed left-driving-style roadside setup, tropical coastal residential character, wooden and corrugated homes, pale concrete streets, and Guyana-like utility infrastructure make Guyana the best country fit. Within Guyana, the scene matches a residential junction in New Amsterdam, East Berbice-Corentyne.\",\n  \"evidence\": [\n    \"Flat humid tropical residential environment\",\n    \"Low-rise wooden and corrugated-metal houses\",\n    \"Wide pale concrete road with minimal lane markings\",\n    \"Dense overhead utility wiring on simple poles\",\n    \"Yellow pedestrian-style warning sign\",\n    \"Quiet residential junction layout consistent with coastal Guyana\",\n    \"Overall South American fit stronger than Asian, European, or Oceanian alternatives\"\n  ]\n}",
+    "evidence_spans": [
+      "Flat humid tropical residential environment",
+      "Low-rise wooden and corrugated-metal houses",
+      "Wide pale concrete road with minimal lane markings",
+      "Dense overhead utility wiring on simple poles",
+      "Yellow pedestrian-style warning sign",
+      "Quiet residential junction layout consistent with coastal Guyana",
+      "Overall South American fit stronger than Asian, European, or Oceanian alternatives"
+    ],
+    "confidence": 0.67,
+    "base_prediction_summary": {
+      "predicted_country": "gy",
+      "predicted_region": "south_america",
+      "confidence": 0.67
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The road markings are simple double yellow lines in the middle, common in Brazil and many other Latin American countries.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 4,
+        "score": 0.879195511341095,
+        "bm25_score": 29.490158081054688,
+        "semantic_score": 0.5235741138458252
+      },
+      {
+        "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.8657867908477783,
+        "bm25_score": 29.269262313842773,
+        "semantic_score": 0.511999249458313
+      },
+      {
+        "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.8602097630500793,
+        "bm25_score": 26.529172897338867,
+        "semantic_score": 0.5500703454017639
+      },
+      {
+        "skill_text": "The road has double yellow center lines and a slight curve, commonly seen in Latin American countries, especially in Colombia and Ecuador.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 4,
+        "score": 0.7994714379310608,
+        "bm25_score": 21.301494598388672,
+        "semantic_score": 0.5660924911499023
+      },
+      {
+        "skill_text": "No visible language on signage, but the small yellow curve warning sign is similar in shape and color to those used in Colombia and Ecuador.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 4,
+        "score": 0.7918133735656738,
+        "bm25_score": 27.423320770263672,
+        "semantic_score": 0.45830148458480835
+      },
+      {
+        "skill_text": "The road is wide, smooth, and lacks any lane markings, a common feature in the quiet residential cul-de-sacs of Australian and New Zealand suburbs.",
+        "region_hint": "oceania",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "3I4ZtihbhZy5qZzQ",
+        "source_round": 4,
+        "score": 0.7888449430465698,
+        "bm25_score": 25.714139938354492,
+        "semantic_score": 0.48262572288513184
+      },
+      {
+        "skill_text": "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 5,
+        "score": 0.7805966734886169,
+        "bm25_score": 22.229591369628906,
+        "semantic_score": 0.5297340154647827
+      },
+      {
+        "skill_text": "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 3,
+        "score": 0.7720487117767334,
+        "bm25_score": 20.205533981323242,
+        "semantic_score": 0.5528523921966553
+      },
+      {
+        "skill_text": "The yellow road sign shape and design are characteristic of Japanese road signage.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 2,
+        "score": 0.771185040473938,
+        "bm25_score": 29.6940860748291,
+        "semantic_score": 0.39821818470954895
+      },
+      {
+        "skill_text": "The road features a faint yellow centerline striping, which is standard in Latin American countries including Brazil and Mexico.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 3,
+        "score": 0.7707875967025757,
+        "bm25_score": 20.505996704101562,
+        "semantic_score": 0.5465616583824158
+      },
+      {
+        "skill_text": "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6fGwHxCTvCbaK77Q",
+        "source_round": 3,
+        "score": 0.7691702246665955,
+        "bm25_score": 27.932580947875977,
+        "semantic_score": 0.42446738481521606
+      },
+      {
+        "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 4,
+        "score": 0.767853856086731,
+        "bm25_score": 19.552635192871094,
+        "semantic_score": 0.558685302734375
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road markings are simple double yellow lines in the middle, common in Brazil and many other Latin American countries.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.879195511341095,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8657867908477783,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8602097630500793,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The road has double yellow center lines and a slight curve, commonly seen in Latin American countries, especially in Colombia and Ecuador.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7994714379310608,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "No visible language on signage, but the small yellow curve warning sign is similar in shape and color to those used in Colombia and Ecuador.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7918133735656738,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The road is wide, smooth, and lacks any lane markings, a common feature in the quiet residential cul-de-sacs of Australian and New Zealand suburbs.",
+          "region_hint": "oceania",
+          "confidence": 0.65,
+          "score": 0.7888449430465698,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7805966734886169,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7720487117767334,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The yellow road sign shape and design are characteristic of Japanese road signage.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.771185040473938,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The road features a faint yellow centerline striping, which is standard in Latin American countries including Brazil and Mexico.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7707875967025757,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7691702246665955,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.767853856086731,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road markings are simple double yellow lines in the middle, common in Brazil and many other Latin American countries.",
+        "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "The road has double yellow center lines and a slight curve, commonly seen in Latin American countries, especially in Colombia and Ecuador.",
+        "No visible language on signage, but the small yellow curve warning sign is similar in shape and color to those used in Colombia and Ecuador.",
+        "The road is wide, smooth, and lacks any lane markings, a common feature in the quiet residential cul-de-sacs of Australian and New Zealand suburbs.",
+        "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+        "The road has a single dashed yellow centerline with solid white outside edges, a marking pattern common in the United States and Mexico.",
+        "The yellow road sign shape and design are characteristic of Japanese road signage.",
+        "The road features a faint yellow centerline striping, which is standard in Latin American countries including Brazil and Mexico.",
+        "The road is very wide with a simple dashed white center line and solid white shoulder lines, a style common in Russia and nearby post-Soviet countries.",
+        "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina."
+      ],
+      "summary": "nodes=12, edges=60, base_region=south_america, top_skill_region=south_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Guyana\",\n  \"country_code\": \"gy\",\n  \"region\": \"South America\",\n  \"city\": \"New Amsterdam\",\n  \"province_or_state\": \"East Berbice-Corentyne\",\n  \"address\": \"Residential junction in New Amsterdam, East Berbice-Corentyne, Guyana\",\n  \"confidence\": 0.67,\n  \"reasoning\": \"The scene shows a flat",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 60,
+        "graph_summary": "nodes=12, edges=60, base_region=south_america, top_skill_region=south_america"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "gy"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

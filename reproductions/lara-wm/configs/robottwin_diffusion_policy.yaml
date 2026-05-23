@@ -1,0 +1,8 @@
+policy_name: diffusion_policy
+device: cuda
+model_path: experiments/rollout_ckpts/robottwin_diffusion_policy.pt
+action_horizon: 8
+n_obs_steps: 2
+num_inference_steps: 100
+state_dim: 16
+action_dim: 16

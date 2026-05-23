@@ -1,0 +1,376 @@
+[
+  {
+    "user_id": "30323349_2",
+    "accuracy": 0.3125,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "No",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "education": "Some college or associates degree",
+      "relationship": "Child",
+      "work_from_home": "Appropriate skip",
+      "distance_to_work_miles": -9.0,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-10:25: education; 10:25-15:15: education; 15:15-24:00: home",
+      "generated": "00:00-07:45: home; 16:20-17:00: home; 17:00-17:20: shopping; 17:20-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "缺失education活动",
+        "detail": "真实轨迹有education,但生成轨迹没有",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "user_id": "30323349_3",
+    "accuracy": 0.4270833333333333,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "No",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "education": "Less than a high school graduate",
+      "relationship": "Child",
+      "work_from_home": "Appropriate skip",
+      "distance_to_work_miles": -9.0,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-07:50: home; 07:50-15:00: education; 15:00-16:50: home; 16:50-22:00: socialize; 22:00-24:00: home",
+      "generated": "00:00-07:20: home; 15:20-15:50: home; 18:10-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "缺失education活动",
+        "detail": "真实轨迹有education,但生成轨迹没有",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "user_id": "30033195_1",
+    "accuracy": 0.4479166666666667,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "No",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "education": "Some college or associates degree",
+      "relationship": "Self",
+      "work_from_home": "Appropriate skip",
+      "distance_to_work_miles": -9.0,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-09:15: exercise; 09:15-12:05: home; 12:05-12:28: shopping; 12:28-12:55: shopping; 12:55-13:48: shopping; 13:48-15:00: socialize; 15:00-15:20: dropoff_pickup; 15:20-24:00: home",
+      "generated": "00:00-10:10: home; 10:10-12:40: work; 12:40-14:05: home; 14:05-15:20: socialize; 15:20-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "错误生成工作",
+        "detail": "就业状态: No, 但真实轨迹无工作活动",
+        "severity": "high"
+      },
+      {
+        "type": "缺失exercise活动",
+        "detail": "真实轨迹有exercise,但生成轨迹没有",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "user_id": "30295072_1",
+    "accuracy": 0.4583333333333333,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Male",
+      "employment_status": "Yes",
+      "work_schedule": "Full-time",
+      "occupation": "Professional, managerial, or technical",
+      "education": "Some college or associates degree",
+      "relationship": "Self",
+      "work_from_home": "No",
+      "distance_to_work_miles": 14.96,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-13:40: home; 13:40-23:00: work; 23:00-24:00: home",
+      "generated": "00:00-06:45: home; 06:45-15:30: work; 15:30-17:00: work; 17:00-18:00: shopping; 18:00-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "工作开始时间差异大",
+        "detail": "真实: 13:40, 生成: 06:45, 差异: 415分钟",
+        "severity": "medium"
+      }
+    ]
+  },
+  {
+    "user_id": "40259503_2",
+    "accuracy": 0.5,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Male",
+      "employment_status": "Yes",
+      "work_schedule": "Part-time",
+      "occupation": "Sales or service",
+      "education": "Bachelor's degree",
+      "relationship": "Spouse/Unmarried partner",
+      "work_from_home": "Yes",
+      "distance_to_work_miles": -9.0,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-09:25: home; 09:25-12:30: socialize; 12:30-13:40: dine_out; 13:40-15:45: shopping; 15:45-17:10: home; 17:10-21:10: socialize; 21:10-24:00: home",
+      "generated": "00:00-07:45: home; 07:45-09:45: work; 09:45-10:45: home; 10:45-11:15: shopping; 11:15-13:15: home; 13:15-15:15: work; 15:15-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "错误生成工作",
+        "detail": "就业状态: Yes, 但真实轨迹无工作活动",
+        "severity": "high"
+      },
+      {
+        "type": "缺失dine_out活动",
+        "detail": "真实轨迹有dine_out,但生成轨迹没有",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "user_id": "30285065_2",
+    "accuracy": 0.5104166666666666,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "No",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "education": "Some college or associates degree",
+      "relationship": "Spouse/Unmarried partner",
+      "work_from_home": "Appropriate skip",
+      "distance_to_work_miles": -9.0,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-06:07: home; 06:07-06:30: dropoff_pickup; 06:30-15:40: work; 15:40-16:35: shopping; 16:35-24:00: home",
+      "generated": "00:00-10:30: home; 10:30-11:20: shopping; 11:20-13:20: shopping; 13:20-16:00: home; 16:00-17:40: socialize; 17:40-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "缺失工作活动",
+        "detail": "就业状态: No, 但生成轨迹无工作活动",
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "user_id": "30272095_1",
+    "accuracy": 0.5208333333333334,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "Yes",
+      "work_schedule": "Part-time",
+      "occupation": "Professional, managerial, or technical",
+      "education": "Graduate degree or professional degree",
+      "relationship": "Self",
+      "work_from_home": "No",
+      "distance_to_work_miles": 40.51,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-08:15: home; 08:15-08:30: dropoff_pickup; 08:30-09:30: shopping; 09:30-15:20: home; 15:20-17:45: socialize; 17:45-24:00: home",
+      "generated": "00:00-08:30: home; 08:30-17:10: work; 17:10-17:40: shopping; 17:40-19:00: home; 19:00-21:00: dine_out; 21:00-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "错误生成工作",
+        "detail": "就业状态: Yes, 但真实轨迹无工作活动",
+        "severity": "high"
+      }
+    ]
+  },
+  {
+    "user_id": "40259503_1",
+    "accuracy": 0.5729166666666666,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "No",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "education": "Some college or associates degree",
+      "relationship": "Self",
+      "work_from_home": "Appropriate skip",
+      "distance_to_work_miles": -9.0,
+      "driver_on_travel_day": "No"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-09:25: home; 09:25-12:30: socialize; 12:30-13:40: dine_out; 13:40-15:45: shopping; 15:45-17:10: home; 17:10-21:10: socialize; 21:10-24:00: home",
+      "generated": "00:00-10:15: home; 10:15-10:45: work; 10:45-11:45: home; 11:45-13:15: work; 13:15-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "错误生成工作",
+        "detail": "就业状态: No, 但真实轨迹无工作活动",
+        "severity": "high"
+      },
+      {
+        "type": "缺失dine_out活动",
+        "detail": "真实轨迹有dine_out,但生成轨迹没有",
+        "severity": "low"
+      }
+    ]
+  },
+  {
+    "user_id": "30323349_1",
+    "accuracy": 0.65625,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Male",
+      "employment_status": "Yes",
+      "work_schedule": "Full-time",
+      "occupation": "Sales or service",
+      "education": "Bachelor's degree",
+      "relationship": "Self",
+      "work_from_home": "No",
+      "distance_to_work_miles": 5.35,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-06:45: home; 06:45-24:00: work",
+      "generated": "00:00-07:40: home; 07:40-16:40: work; 16:40-17:45: home; 17:45-18:15: shopping; 18:15-24:00: home"
+    },
+    "issues": []
+  },
+  {
+    "user_id": "30183740_1",
+    "accuracy": 0.6666666666666666,
+    "person_info": {
+      "age_range": "Appropriate skip",
+      "gender": "Female",
+      "employment_status": "No",
+      "work_schedule": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "education": "Graduate degree or professional degree",
+      "relationship": "Self",
+      "work_from_home": "Appropriate skip",
+      "distance_to_work_miles": -9.0,
+      "driver_on_travel_day": "Yes"
+    },
+    "household_info": {
+      "household_id": null,
+      "household_size": null,
+      "number_of_children": null,
+      "household_income": null,
+      "number_of_vehicles": null,
+      "home_ownership": null
+    },
+    "trajectories": {
+      "original": "00:00-08:30: home; 08:30-09:00: dropoff_pickup; 09:00-09:22: home; 09:22-09:43: medical; 09:43-09:53: service; 09:53-10:03: shopping; 10:03-13:10: shopping; 13:10-18:49: home; 18:49-19:19: dropoff_pickup; 19:19-20:19: dine_out; 20:19-20:39: shopping; 20:39-20:57: dropoff_pickup; 20:57-21:56: shopping; 21:56-23:47: work; 23:47-24:00: home",
+      "generated": "00:00-11:00: home; 11:00-11:45: shopping; 11:45-12:45: shopping; 12:45-14:00: shopping; 14:00-24:00: home"
+    },
+    "issues": [
+      {
+        "type": "缺失工作活动",
+        "detail": "就业状态: No, 但生成轨迹无工作活动",
+        "severity": "high"
+      },
+      {
+        "type": "活动类型过于简化",
+        "detail": "真实活动类型: 7, 生成活动类型: 2",
+        "severity": "low"
+      },
+      {
+        "type": "缺失medical活动",
+        "detail": "真实轨迹有medical,但生成轨迹没有",
+        "severity": "low"
+      },
+      {
+        "type": "缺失dine_out活动",
+        "detail": "真实轨迹有dine_out,但生成轨迹没有",
+        "severity": "low"
+      }
+    ]
+  }
+]

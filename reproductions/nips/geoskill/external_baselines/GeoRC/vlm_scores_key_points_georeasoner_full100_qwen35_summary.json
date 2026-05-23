@@ -1,0 +1,15 @@
+{
+  "num_results": 180,
+  "precision_mean": 0.2658150401553178,
+  "recall_mean": 0.2648826926674148,
+  "f1_mean": 0.25816079220018,
+  "precision_median": 0.31339285714285714,
+  "recall_median": 0.3333333333333333,
+  "f1_median": 0.3297188336287492,
+  "source_files": [
+    "vlm_scores_key_points_georeasoner_full100_qwen35_shard0.json",
+    "vlm_scores_key_points_georeasoner_full100_qwen35_shard1.json",
+    "vlm_scores_key_points_georeasoner_full100_qwen35_shard2.json",
+    "vlm_scores_key_points_georeasoner_full100_qwen35_shard3.json"
+  ]
+}

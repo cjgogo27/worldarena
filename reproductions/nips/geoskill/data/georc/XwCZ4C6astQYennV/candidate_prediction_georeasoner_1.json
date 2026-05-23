@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The road sign displays 'Azul Marina' with Portuguese text, indicating a location in a Portuguese-speaking country like Brazil.",
+    "Vehicles are driving on the right side of the road, consistent with traffic rules in Brazil.",
+    "The presence of a white tanker truck and a white van suggests commercial activity typical of rural or semi-rural Brazilian roads."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road sign displays 'Azul Marina' with Portuguese text, indicating a location in a Portuguese-speaking country like Brazil.\",\n    \"Vehicles are driving on the right side of the road, consistent with traffic rules in Brazil.\",\n    \"The presence of a white tanker truck and a white van suggests commercial activity typical of rural or semi-rural Brazilian roads.\",\n    \"The landscape features tall grasses and mangrove-like vegetation near water, common in coastal"
+}

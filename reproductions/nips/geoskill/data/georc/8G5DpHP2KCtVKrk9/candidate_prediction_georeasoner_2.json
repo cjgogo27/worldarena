@@ -1,0 +1,10 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "The 'No Parking' sign with a red circle and slash over a 'P' is standard in the US, and the arrow pointing both ways indicates a two-way street common in American suburbs.",
+    "The wooden utility pole with metal conduit and overhead power lines is typical of rural or suburban infrastructure in the northeastern US."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The 'No Parking' sign with a red circle and slash over a 'P' is standard in the US, and the arrow pointing both ways indicates a two-way street common in American suburbs.\",\n    \"The wooden utility pole with metal conduit and overhead power lines is typical of rural or suburban infrastructure in the northeastern US.\",\n    \"The architecture of the houses—single-story ranch-style homes with pitched roofs and vinyl siding—is characteristic of mid-20"
+}

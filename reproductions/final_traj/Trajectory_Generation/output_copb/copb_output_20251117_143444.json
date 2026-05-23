@@ -1,0 +1,114 @@
+[
+  {
+    "user_id": "30298497_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:00",
+        "reason": "Resting at home after a day of work and job searching, preparing for the next day."
+      },
+      {
+        "activity": "work",
+        "start_time": "07:00",
+        "end_time": "09:00",
+        "reason": "Beginning the day with work aligns with the part-time schedule, maximizing productivity early in the day."
+      },
+      {
+        "activity": "job_search",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "reason": "Continuing the job search after work hours to optimize time for finding employment."
+      },
+      {
+        "activity": "education",
+        "start_time": "14:00",
+        "end_time": "17:00",
+        "reason": "Engaging in skill development courses to enhance employability while looking for work."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "17:00",
+        "end_time": "19:00",
+        "reason": "Engaging in community-oriented social activities aligns with the user's preference for local leisure and social engagement."
+      },
+      {
+        "activity": "home",
+        "start_time": "19:00",
+        "end_time": "22:00",
+        "reason": "After socializing, it's a good time to relax at home and prepare for the next day."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:00",
+        "end_time": "23:00",
+        "reason": "The user has just finished their day and is likely to relax at home before bedtime."
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "It's late, and the user has already spent the day at home, making it a suitable time for winding down before sleep."
+      }
+    ]
+  },
+  {
+    "user_id": "30298497_2",
+    "schedule": [
+      {
+        "activity": "sleep",
+        "start_time": "00:00",
+        "end_time": "07:00",
+        "reason": "Rest is essential for maintaining energy and focus for the upcoming workday."
+      },
+      {
+        "activity": "home",
+        "start_time": "07:00",
+        "end_time": "08:00",
+        "reason": "This time can be used for morning routines, preparing for the day, and having breakfast before commuting to work."
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "17:00",
+        "reason": "The user has a full-time job that begins at 9:00 AM, and they need to commute to work, making it necessary to start work activities now."
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "18:00",
+        "reason": "Returning home after work to unwind and prepare for dinner."
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:00",
+        "end_time": "19:30",
+        "reason": "After a long day at work, dining out provides a convenient way to relax and enjoy quality time with a partner or close friends."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "21:00",
+        "reason": "After dining out, this individual can spend quality time with close friends or family, aligning with their preference for socializing and maximizing leisure time."
+      },
+      {
+        "activity": "leisure",
+        "start_time": "21:00",
+        "end_time": "22:30",
+        "reason": "To unwind after socializing and enjoy some personal time before bed."
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "23:00",
+        "reason": "Wind down at home after a busy day and prepare for sleep."
+      },
+      {
+        "activity": "socialize",
+        "start_time": "23:00",
+        "end_time": "24:00",
+        "reason": "Engaging in a late-night chat or video call with close friends or family to unwind after a busy day."
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "game_id": "STQGgl6Uh9muExNb",
+  "round": 1,
+  "sample_id": "georc::STQGgl6Uh9muExNb::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "jp",
+    "predicted_region": "asia",
+    "predicted_address": "Kamigamo Shimogamocho, Kita Ward, Kyoto, Kyoto Prefecture, Japan",
+    "predicted_lat": 35.02166667,
+    "predicted_lng": 135.75561111,
+    "reasoning_text": "```json\n{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"East Asia\",\n  \"city\": \"Kyoto\",\n  \"province_or_state\": \"Kyoto Prefecture\",\n  \"address\": \"Kamigamo Shimogamocho, Kita Ward, Kyoto, Kyoto Prefecture, Japan\",\n  \"confidence\": 0.75,\n  \"reasoning\": \"The architectural style strongly indicates Japan: traditional tiled roofs with gentle curves, wooden siding, compact residential lots, and the narrow paved street without sidewalks. The concrete block walls, metal roll-up garage door, and green wire fencing are common in Japanese suburban/residential neighborhoods. The vegetation (deciduous trees, manicured shrubs) and overcast sky suggest a temperate climate consistent with the Kansai region. The hillside terrain in the background with densely packed houses is characteristic of Kyoto's northern wards, particularly the Kita Ward area near Kamigamo Shrine. The driving side cannot be confirmed from this forward-facing view, but all other cues point decisively to Japan over Korea or Taiwan. The specific neighborhood aesthetic—mix of older and mid-century homes on a sloping street—closely matches residential areas in northern Kyoto.\",\n  \"evidence\": [\"Traditional Japanese tiled roofs with curved eaves\", \"Wooden and stucco residential architecture\", \"Narrow residential street without sidewalks\", \"Concrete block walls and green wire fencing\", \"Roll-up metal garage door typical of Japanese homes\", \"Hilly terrain with dense residential development\", \"Temperate climate vegetation and overcast conditions\"]\n}\n```",
+    "evidence_spans": [
+      "Traditional Japanese tiled roofs with curved eaves",
+      "Wooden and stucco residential architecture",
+      "Narrow residential street without sidewalks",
+      "Concrete block walls and green wire fencing",
+      "Roll-up metal garage door typical of Japanese homes",
+      "Hilly terrain with dense residential development",
+      "Temperate climate vegetation and overcast conditions"
+    ],
+    "confidence": 0.75,
+    "country_top3": [
+      "jp",
+      "kr",
+      "tw"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"jp\",\"kr\",\"tw\"],\"reason\":\"The architecture shows distinctive East Asian residential features: tiled roofs with moderate pitch, wooden siding, compact narrow street layout, and utility pole infrastructure typical of Japan. The house designs with enclosed carports, stone/block walls, and specific roof styles strongly match Japanese suburban neighborhoods. Left-hand driving/road layout is consistent with Japan. While Korea and Taiwan share some regional similarities, the combination of roof shapes, building materials, and street proportions is most characteristic of Japan.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9475000000000001
+  },
+  "error": null
+}

@@ -1,0 +1,25 @@
+{
+  "game_id": "GbfNQanBbRoPIoek",
+  "round": 1,
+  "sample_id": "georc::GbfNQanBbRoPIoek::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "mv",
+    "predicted_region": "asia",
+    "predicted_address": "Residential lane, Addu City, Seenu Atoll, Maldives",
+    "predicted_lat": -0.65,
+    "predicted_lng": 73.16,
+    "reasoning_text": "{\n  \"country\": \"Maldives\",\n  \"country_code\": \"mv\",\n  \"region\": \"South Asia\",\n  \"city\": \"Addu City\",\n  \"province_or_state\": \"Seenu Atoll\",\n  \"address\": \"Residential lane, Addu City, Seenu Atoll, Maldives\",\n  \"confidence\": 0.44,\n  \"reasoning\": \"The image shows a very narrow concrete residential lane lined with dense tropical vegetation, low boundary walls, and modest detached homes. This kind of compact, leafy neighborhood street is characteristic of inhabited islands in the Maldives, where roads are often narrow, flat, and concrete-surfaced rather than fully urbanized asphalt streets. The terrain appears completely flat and low-lying, matching coral island geography. There are no visible lane markings, road signs, or large utility installations, suggesting a small-island residential area rather than a major mainland city. Among plausible tropical countries, the enclosed walled properties, concrete lane, and island-style residential layout fit the Maldives better than larger Southeast Asian countries. Addu City is a reasonable locality guess because it has more residential street-view coverage than many other Maldivian islands and includes leafy neighborhood lanes like this.\",\n  \"evidence\": [\n    \"Very narrow concrete residential lane\",\n    \"Dense tropical vegetation on both sides\",\n    \"Flat low-lying terrain with no hills visible\",\n    \"Low walls and compact detached houses typical of island neighborhoods\",\n    \"Lack of major road markings or urban infrastructure\",\n    \"Overall appearance consistent with residential streets on inhabited Maldivian islands\"\n  ]\n}",
+    "evidence_spans": [
+      "Very narrow concrete residential lane",
+      "Dense tropical vegetation on both sides",
+      "Flat low-lying terrain with no hills visible",
+      "Low walls and compact detached houses typical of island neighborhoods",
+      "Lack of major road markings or urban infrastructure",
+      "Overall appearance consistent with residential streets on inhabited Maldivian islands"
+    ],
+    "confidence": 0.44
+  },
+  "error": null
+}

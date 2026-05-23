@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, winding asphalt road with no center line is typical of rural Japanese mountain roads.",
+    "Dense temperate forest with ferns and broadleaf trees suggests a humid subtropical or temperate climate common in Japan.",
+    "No visible signage, vehicles, or infrastructure, but the terrain and vegetation strongly align with Japanese national parks or forested highways."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, winding asphalt road with no center line is typical of rural Japanese mountain roads.\",\n    \"Dense temperate forest with ferns and broadleaf trees suggests a humid subtropical or temperate climate common in Japan.\",\n    \"No visible signage, vehicles, or infrastructure, but the terrain and vegetation strongly align with Japanese national parks or forested highways.\",\n    \"The overall scene—lush greenery, steep slopes, and quiet forest road—is"
+}

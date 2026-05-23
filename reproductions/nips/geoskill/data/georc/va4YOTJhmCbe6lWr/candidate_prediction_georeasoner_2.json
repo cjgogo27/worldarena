@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unpaved shoulder and lack of road markings suggest a rural road common in South Asia, particularly India.",
+    "The vegetation is dense tropical greenery with broadleaf trees and shrubs, consistent with monsoon-influenced climates found in India.",
+    "Utility poles are simple concrete or wooden structures with overhead wires, typical of rural infrastructure in Indian villages."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unpaved shoulder and lack of road markings suggest a rural road common in South Asia, particularly India.\",\n    \"The vegetation is dense tropical greenery with broadleaf trees and shrubs, consistent with monsoon-influenced climates found in India.\",\n    \"Utility poles are simple concrete or wooden structures with overhead wires, typical of rural infrastructure in Indian villages.\",\n    \"No visible signage, vehicles, or architecture are present, but the overall"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Colombia",
+  "country_code": "co",
+  "city": "",
+  "reasoning_chain": [
+    "The street sign reads 'Carrera 11 / Calle 48', which is standard Colombian addressing using 'Carrera' for east-west streets and 'Calle' for north-south streets.",
+    "The yellow pedestrian crossing sign with a walking figure and the black-and-white directional arrow are consistent with Colombian traffic signage standards.",
+    "The chaotic overhead wiring and concrete utility poles are characteristic of urban infrastructure in many Colombian cities."
+  ],
+  "raw_output": "{\n  \"country\": \"Colombia\",\n  \"country_code\": \"co\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The street sign reads 'Carrera 11 / Calle 48', which is standard Colombian addressing using 'Carrera' for east-west streets and 'Calle' for north-south streets.\",\n    \"The yellow pedestrian crossing sign with a walking figure and the black-and-white directional arrow are consistent with Colombian traffic signage standards.\",\n    \"The chaotic overhead wiring and concrete utility poles are characteristic of urban infrastructure in many Colombian cities.\","
+}

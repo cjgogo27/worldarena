@@ -1,0 +1,813 @@
+{
+  "game_id": "JfPkjboMSjCsG1Qu",
+  "round": 1,
+  "sample_id": "georc::JfPkjboMSjCsG1Qu::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "id",
+    "predicted_region": "asia",
+    "predicted_address": "Jl. MT Hasanuddin, Tanjung Selor, North Kalimantan, Indonesia",
+    "predicted_lat": 2.85,
+    "predicted_lng": 117.38333333,
+    "reasoning_text": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Tanjung Selor\",\n  \"province_or_state\": \"North Kalimantan\",\n  \"address\": \"Jl. MT Hasanuddin, Tanjung Selor, North Kalimantan, Indonesia\",\n  \"confidence\": 0.86,\n  \"reasoning\": \"Applying the ordered skills strictly: Skill 1 notes the visible word pattern consistent with Malay/Indonesian usage, which keeps Malaysia and Indonesia as the main candidates. Following its strongest graph-supported links, Skill 3 places the scene in Southeast Asia based on the road furniture and overall traffic environment. Skill 4 and Skill 6 reinforce a humid tropical Southeast Asian setting through the lush vegetation, flat lowland terrain, and roadside soil. Skill 5 is especially important here because the visible roadside sign format and concrete roadside development are characteristic of Indonesia. Skill 7 further supports maritime Southeast Asia from the driving pattern, motorcycles, and tropical roadside streetscape. Skill 10 adds support from the residential architecture, painted fences, and neighborhood style, which fit Indonesia well. I discount Skill 2 and Skill 8 because Brazil and South Africa conflict with the clearly Southeast Asian urban form, language context, motorcycles, and Indonesian-style streetscape. I also discount Skill 9 and Skill 12 because Vietnam and Thailand are weaker matches than Indonesia for the visible sign style, buildings, and road environment. Between Malaysia and Indonesia, the strongest discriminator is the black street sign on the left that appears to read 'Jl. MT Hasanuddin'; 'Jl.' is the standard Indonesian abbreviation for 'Jalan' and is a very strong country-level clue. The stilted wooden houses, drainage, dense overhead wiring, and flat Bornean town feel are highly consistent with Tanjung Selor in North Kalimantan. Therefore the best consistent location guess is Jl. MT Hasanuddin, Tanjung Selor, North Kalimantan, Indonesia.\",\n  \"evidence\": [\n    \"Black roadside street sign appears to read 'Jl. MT Hasanuddin'\",\n    \"Use of 'Jl.' strongly indicates Indonesian street naming\",\n    \"Dense overhead utility wiring typical of Indonesian town streets\",\n    \"Many motorcycles and local traffic pattern consistent with Indonesia\",\n    \"Tropical vegetation and humid lowland environment indicate Southeast Asia\",\n    \"Mix of concrete buildings and wooden stilt-style houses fits Borneo settlements\",\n    \"Roadside drainage and flood-prone street edges fit low-lying Kalimantan towns\",\n    \"Overall architecture and neighborhood style are more consistent with Indonesia than Malaysia\"\n  ]\n}",
+    "evidence_spans": [
+      "Black roadside street sign appears to read 'Jl. MT Hasanuddin'",
+      "Use of 'Jl.' strongly indicates Indonesian street naming",
+      "Dense overhead utility wiring typical of Indonesian town streets",
+      "Many motorcycles and local traffic pattern consistent with Indonesia",
+      "Tropical vegetation and humid lowland environment indicate Southeast Asia",
+      "Mix of concrete buildings and wooden stilt-style houses fits Borneo settlements",
+      "Roadside drainage and flood-prone street edges fit low-lying Kalimantan towns",
+      "Overall architecture and neighborhood style are more consistent with Indonesia than Malaysia"
+    ],
+    "confidence": 0.86,
+    "base_prediction_summary": {
+      "predicted_country": "id",
+      "predicted_region": "asia",
+      "confidence": 0.63
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The sign on the right displays the word \"MASUK\", which means \"enter\" in Malay, suggesting Malaysia or possibly Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.55,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 4,
+        "score": 0.8107503652572632,
+        "bm25_score": 18.160341262817383,
+        "semantic_score": 0.5922507047653198
+      },
+      {
+        "skill_text": "There are no signs using language, but the contextual clues (building design, vegetation, road markings, and car) very strongly point to Brazil.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "building",
+          "car",
+          "road",
+          "road markings",
+          "sign",
+          "vegetation"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 4,
+        "score": 0.8036356568336487,
+        "bm25_score": 28.39908218383789,
+        "semantic_score": 0.3471372425556183
+      },
+      {
+        "skill_text": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "chevron",
+          "guardrail",
+          "sign"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 2,
+        "score": 0.8015057444572449,
+        "bm25_score": 22.873912811279297,
+        "semantic_score": 0.4715457558631897
+      },
+      {
+        "skill_text": "This location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "South",
+          "This",
+          "location",
+          "typical"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 3,
+        "score": 0.7967766523361206,
+        "bm25_score": 22.497020721435547,
+        "semantic_score": 0.4739941358566284
+      },
+      {
+        "skill_text": "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sign"
+        ],
+        "source_game_id": "9NNxopqtafH8pTbN",
+        "source_round": 4,
+        "score": 0.7720587253570557,
+        "bm25_score": 20.812667846679688,
+        "semantic_score": 0.4802158772945404
+      },
+      {
+        "skill_text": "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "soil"
+        ],
+        "source_game_id": "5bPlIRT7eGN79a2E",
+        "source_round": 1,
+        "score": 0.7609666585922241,
+        "bm25_score": 23.80352020263672,
+        "semantic_score": 0.396742045879364
+      },
+      {
+        "skill_text": "The abundance of tropical vegetation with left-hand drive (since we see the back of the Google car), leads this to countries in Southeast Asia, such as Thailand, Malaysia, and Indonesia",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "car",
+          "vegetation"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 2,
+        "score": 0.7603952288627625,
+        "bm25_score": 21.160184860229492,
+        "semantic_score": 0.4568507671356201
+      },
+      {
+        "skill_text": "The car blur appears to be driving on the left side and the chevron is placed for left-hand side drive as well, supporting South Africa as the most likely location",
+        "region_hint": "africa",
+        "confidence": 0.75,
+        "visual_cues": [
+          "car",
+          "chevron",
+          "driving"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 2,
+        "score": 0.7537471652030945,
+        "bm25_score": 28.605350494384766,
+        "semantic_score": 0.2766725718975067
+      },
+      {
+        "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.7520346641540527,
+        "bm25_score": 22.30284309387207,
+        "semantic_score": 0.4195287525653839
+      },
+      {
+        "skill_text": "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "fence"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.7483751773834229,
+        "bm25_score": 21.78925323486328,
+        "semantic_score": 0.4265333414077759
+      },
+      {
+        "skill_text": "Taking into account the infrastructure style, vegetation, and climate hints, this is likely in Malaysia.",
+        "region_hint": "asia",
+        "confidence": 0.75,
+        "visual_cues": [
+          "climate",
+          "vegetation"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 2,
+        "score": 0.7475885152816772,
+        "bm25_score": 16.04133415222168,
+        "semantic_score": 0.5578399896621704
+      },
+      {
+        "skill_text": "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "bollard",
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.7470927238464355,
+        "bm25_score": 18.261444091796875,
+        "semantic_score": 0.5060700178146362
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The sign on the right displays the word \"MASUK\", which means \"enter\" in Malay, suggesting Malaysia or possibly Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.55,
+          "score": 0.8107503652572632,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "There are no signs using language, but the contextual clues (building design, vegetation, road markings, and car) very strongly point to Brazil.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.8036356568336487,
+          "visual_cues": [
+            "building",
+            "car",
+            "road",
+            "road markings",
+            "sign",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8015057444572449,
+          "visual_cues": [
+            "chevron",
+            "guardrail",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "This location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7967766523361206,
+          "visual_cues": [
+            "South",
+            "This",
+            "location",
+            "typical"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7720587253570557,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7609666585922241,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The abundance of tropical vegetation with left-hand drive (since we see the back of the Google car), leads this to countries in Southeast Asia, such as Thailand, Malaysia, and Indonesia",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7603952288627625,
+          "visual_cues": [
+            "car",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The car blur appears to be driving on the left side and the chevron is placed for left-hand side drive as well, supporting South Africa as the most likely location",
+          "region_hint": "africa",
+          "confidence": 0.75,
+          "score": 0.7537471652030945,
+          "visual_cues": [
+            "car",
+            "chevron",
+            "driving"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7520346641540527,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7483751773834229,
+          "visual_cues": [
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "Taking into account the infrastructure style, vegetation, and climate hints, this is likely in Malaysia.",
+          "region_hint": "asia",
+          "confidence": 0.75,
+          "score": 0.7475885152816772,
+          "visual_cues": [
+            "climate",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.7470927238464355,
+          "visual_cues": [
+            "bollard",
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "car",
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "car"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "chevron"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "car"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The sign on the right displays the word \"MASUK\", which means \"enter\" in Malay, suggesting Malaysia or possibly Indonesia.",
+        "There are no signs using language, but the contextual clues (building design, vegetation, road markings, and car) very strongly point to Brazil.",
+        "The guardrail design and the black and yellow chevron sign are commonly found in Southeast Asian countries.",
+        "This location is typical of South and Southeast Asia due to the jungly and tropical landscape full of coconut palms and reddish dirt; countries like Southern India, Sri Lanka, Malaysia, and Indonesia are possible",
+        "There is a sign visible on the right, and although the language is not readable, the format and concrete style are similar to those found in Indonesia.",
+        "The soil and grass on the roadside hint at a humid tropical locale, further supporting Southeast Asia.",
+        "The abundance of tropical vegetation with left-hand drive (since we see the back of the Google car), leads this to countries in Southeast Asia, such as Thailand, Malaysia, and Indonesia",
+        "The car blur appears to be driving on the left side and the chevron is placed for left-hand side drive as well, supporting South Africa as the most likely location",
+        "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "The walls and fences in front of the houses are painted in pastel colors, which is a common Indonesian residential architectural feature.",
+        "Taking into account the infrastructure style, vegetation, and climate hints, this is likely in Malaysia.",
+        "The black and white bollard (street post) on the side of the road is also common in Southeast Asian countries but is most common in Thailand"
+      ],
+      "summary": "nodes=12, edges=56, base_region=asia, top_skill_region=asia"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Indonesia\",\n  \"country_code\": \"id\",\n  \"region\": \"Southeast Asia\",\n  \"city\": \"Tanjung Selor\",\n  \"province_or_state\": \"North Kalimantan\",\n  \"address\": \"Jl. MT Hasanuddin, Tanjung Selor, North Kalimantan, Indonesia\",\n  \"confidence\": 0.63,\n  \"reasoning\": \"The strongest clue is the black ",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 56,
+        "graph_summary": "nodes=12, edges=56, base_region=asia, top_skill_region=asia"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "id"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

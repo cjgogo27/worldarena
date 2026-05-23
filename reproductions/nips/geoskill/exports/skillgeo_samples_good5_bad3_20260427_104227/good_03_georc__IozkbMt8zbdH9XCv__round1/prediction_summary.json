@@ -1,0 +1,9 @@
+{
+  "predicted_country": "ua",
+  "predicted_region": "europe",
+  "predicted_lat": 49.8425,
+  "predicted_lng": 24.03222222,
+  "confidence": 0.65,
+  "error": null,
+  "distance_km": 25.183
+}

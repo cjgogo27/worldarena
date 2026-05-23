@@ -1,0 +1,10 @@
+{
+  "country": "Mongolia",
+  "country_code": "mn",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with white dashed center lines and solid white edges, typical of rural Mongolian roads connecting remote regions.",
+    "The surrounding landscape is vast, flat steppe with sparse dry grass and distant snow-capped mountains, characteristic of Mongolia’s Gobi or northern steppe zones."
+  ],
+  "raw_output": "{\n  \"country\": \"Mongolia\",\n  \"country_code\": \"mn\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with white dashed center lines and solid white edges, typical of rural Mongolian roads connecting remote regions.\",\n    \"The surrounding landscape is vast, flat steppe with sparse dry grass and distant snow-capped mountains, characteristic of Mongolia’s Gobi or northern steppe zones.\",\n    \"No utility poles, buildings, or signage are visible, indicating a remote, sparsely populated area consistent with Mongolia’s"
+}

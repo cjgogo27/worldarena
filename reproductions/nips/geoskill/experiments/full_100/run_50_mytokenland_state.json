@@ -1,0 +1,17 @@
+{
+  "pid": 3211112,
+  "log": "/data/alice/cjtest/NIPS/geoskill/experiments/full_100/test_50_mytokenland_fast_norecovery_20260401_053902.log",
+  "cmd": [
+    "/data2/miniconda3/envs/vgllm/bin/python",
+    "scripts/run_experiment.py",
+    "--config",
+    "configs/full_mytokenland.yaml",
+    "--max-games",
+    "50",
+    "--workers",
+    "1",
+    "--methods",
+    "direct_vlm",
+    "external_geovista_skill_graph"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The blue street sign with white Japanese characters confirms the location is in Japan.",
+    "Cars are driving on the left side of the road, consistent with Japanese traffic rules.",
+    "The utility poles and overhead wires are typical of rural or suburban Japanese infrastructure.",
+    "The architecture, including brick-faced buildings and garage doors, along with the hilly green terrain, matches common Japanese regional landscapes."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The blue street sign with white Japanese characters confirms the location is in Japan.\",\n    \"Cars are driving on the left side of the road, consistent with Japanese traffic rules.\",\n    \"The utility poles and overhead wires are typical of rural or suburban Japanese infrastructure.\",\n    \"The architecture, including brick-faced buildings and garage doors, along with the hilly green terrain, matches common Japanese regional landscapes.\"\n  ]\n}"
+}

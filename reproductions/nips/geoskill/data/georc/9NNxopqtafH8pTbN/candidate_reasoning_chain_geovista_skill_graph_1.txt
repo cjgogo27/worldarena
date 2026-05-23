@@ -1,0 +1,13 @@
+Double solid white center lines
+Left-side driving context consistent with Australia
+Narrow rural sealed road with almost no shoulder
+Dry yellow-brown pasture and rolling hills
+Dense coastal scrub and windswept trees
+Sparse roadside infrastructure typical of Kangaroo Island rural roads
+Applying the skill graph in order: Skill 1 identifies the double solid white center line as a strong Australia/New Zealand cue.
+Skill 2 refines this by noting that the exact style, fading, and overall rural presentation fit rural Australia better than New Zealand.
+Skill 3 then links the road quality, dry pasture, coastal scrub, and windswept trees to Kangaroo Island in South Australia.
+Through the graph connection from Skills 1 and 2 to Skill 5, the narrow sealed pavement and minimal shoulder further support rural Australia over New Zealand.
+Composing these linked cues leads to Skill 12's Australia conclusion and a Kangaroo Island placement.
+The landscape appears especially consistent with the open rural roads on the eastern half of Kangaroo Island, so the best single textual guess is a rural road between Penneshaw and Kingscote.
+Conclusion: likely location is Kangaroo Island, South Australia, Australia

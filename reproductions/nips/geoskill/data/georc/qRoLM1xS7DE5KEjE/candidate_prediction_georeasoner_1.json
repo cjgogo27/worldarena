@@ -1,0 +1,12 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with no passing, common in rural Brazilian roads.",
+    "Lush tropical vegetation and rolling green hills are characteristic of Brazil’s Atlantic Forest or Cerrado biomes.",
+    "Absence of signage, vehicles, or urban infrastructure suggests a remote rural area typical of Brazil’s interior regions.",
+    "Utility pole design and road surface quality align with standard Brazilian rural highway construction standards."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with no passing, common in rural Brazilian roads.\",\n    \"Lush tropical vegetation and rolling green hills are characteristic of Brazil’s Atlantic Forest or Cerrado biomes.\",\n    \"Absence of signage, vehicles, or urban infrastructure suggests a remote rural area typical of Brazil’s interior regions.\",\n    \"Utility pole design and road surface quality align with standard Brazilian rural highway construction standards.\"\n  ]\n}"
+}

@@ -1,0 +1,25 @@
+{
+  "selection_group": "good",
+  "selection_rank": 5,
+  "distance_km": 39.247984,
+  "retrieved_skill_count": 12,
+  "sample_id": "georc::6ypQOh9cOoE7WaWH::round1",
+  "game_id": "6ypQOh9cOoE7WaWH",
+  "round": "1",
+  "image_source": "/data/alice/cjtest/NIPS/geoskill/data/georc/6ypQOh9cOoE7WaWH/6ypQOh9cOoE7WaWH_1.png",
+  "ground_truth": {
+    "country": "me",
+    "lat": 42.738212627906115,
+    "lng": 18.851401585045032
+  },
+  "prediction": {
+    "predicted_country": "me",
+    "predicted_region": "europe",
+    "predicted_address": "Rural local road in the karst hills near Cetinje, Cetinje Municipality, Montenegro",
+    "predicted_lat": 42.3894,
+    "predicted_lng": 18.9247,
+    "confidence": 0.68,
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  }
+}

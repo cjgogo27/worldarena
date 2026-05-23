@@ -1,0 +1,11 @@
+{
+  "country": "Sri Lanka",
+  "country_code": "lk",
+  "city": "",
+  "reasoning_chain": [
+    "Tall coconut palms and lush tropical vegetation indicate a warm, humid climate typical of South Asia or Southeast Asia.",
+    "The unpaved shoulder and simple concrete block wall suggest a rural or semi-rural setting common in developing nations.",
+    "Overhead utility wires strung between poles are typical of infrastructure in Sri Lankan villages and small towns."
+  ],
+  "raw_output": "{\n  \"country\": \"Sri Lanka\",\n  \"country_code\": \"lk\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Tall coconut palms and lush tropical vegetation indicate a warm, humid climate typical of South Asia or Southeast Asia.\",\n    \"The unpaved shoulder and simple concrete block wall suggest a rural or semi-rural setting common in developing nations.\",\n    \"Overhead utility wires strung between poles are typical of infrastructure in Sri Lankan villages and small towns.\",\n    \"The absence of road markings, signage, or vehicles, combined with the overcast sky"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "South Korea",
+  "country_code": "kr",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow paved path with white edge lines resembles rural bike/pedestrian trails common in South Korea’s countryside, not typical for car roads.",
+    "Bare deciduous trees and dormant grass suggest late autumn or winter, consistent with temperate East Asian climates like South Korea’s.",
+    "Distant houses with tiled roofs and greenhouse structures align with agricultural rural settlements found in South Korean mountainous regions."
+  ],
+  "raw_output": "{\n  \"country\": \"South Korea\",\n  \"country_code\": \"kr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow paved path with white edge lines resembles rural bike/pedestrian trails common in South Korea’s countryside, not typical for car roads.\",\n    \"Bare deciduous trees and dormant grass suggest late autumn or winter, consistent with temperate East Asian climates like South Korea’s.\",\n    \"Distant houses with tiled roofs and greenhouse structures align with agricultural rural settlements found in South Korean mountainous regions.\",\n    \"No visible signage or vehicles,"
+}

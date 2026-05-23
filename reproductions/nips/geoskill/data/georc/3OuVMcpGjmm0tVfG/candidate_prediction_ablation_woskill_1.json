@@ -1,0 +1,24 @@
+{
+  "game_id": "3OuVMcpGjmm0tVfG",
+  "round": 1,
+  "sample_id": "georc::3OuVMcpGjmm0tVfG::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "do",
+    "predicted_region": "north_america",
+    "predicted_address": "Rural dirt road near Bayahibe, La Altagracia, Dominican Republic",
+    "predicted_lat": 19.0,
+    "predicted_lng": -70.66666667,
+    "reasoning_text": "{\n  \"country\": \"Dominican Republic\",\n  \"country_code\": \"do\",\n  \"region\": \"Caribbean\",\n  \"city\": \"Bayahibe\",\n  \"province_or_state\": \"La Altagracia\",\n  \"address\": \"Rural dirt road near Bayahibe, La Altagracia, Dominican Republic\",\n  \"confidence\": 0.39,\n  \"reasoning\": \"The scene shows a very narrow pale limestone/gravel road through a tropical but somewhat dry rural area. The vegetation includes banana plants and mixed deciduous trees, indicating a warm tropical climate with a dry season rather than dense rainforest. The piles of light gray limestone rock lining the roadside suggest karst or coral-limestone terrain, which is common in parts of the Caribbean. The overall look of the road, rural homesteads, and vegetation is consistent with the Dominican Republic, especially the drier eastern/southeastern lowlands. Because there are no readable signs, vehicles, or distinctive road markings, the exact locality is uncertain, but a rural area near Bayahibe/La Altagracia is my best guess.\",\n  \"evidence\": [\n    \"Pale white limestone/gravel road surface\",\n    \"Tropical vegetation including banana plants\",\n    \"Dry-season appearance with mixed leafy and sparse trees\",\n    \"Roadside piles/walls of limestone rock indicating karst terrain\",\n    \"Rural Caribbean-looking settlement pattern with narrow unmarked lane\"\n  ]\n}",
+    "evidence_spans": [
+      "Pale white limestone/gravel road surface",
+      "Tropical vegetation including banana plants",
+      "Dry-season appearance with mixed leafy and sparse trees",
+      "Roadside piles/walls of limestone rock indicating karst terrain",
+      "Rural Caribbean-looking settlement pattern with narrow unmarked lane"
+    ],
+    "confidence": 0.39
+  },
+  "error": null
+}

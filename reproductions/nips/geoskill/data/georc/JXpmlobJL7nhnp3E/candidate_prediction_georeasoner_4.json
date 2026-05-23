@@ -1,0 +1,11 @@
+{
+  "country": "Netherlands",
+  "country_code": "nl",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a single white center line and right-hand traffic, consistent with Dutch highway design.",
+    "Metal guardrails are standard on Dutch highways, especially in rural or semi-rural areas like this.",
+    "The flat terrain, open grassy fields, and uniform row of poplar trees are characteristic of the Dutch landscape."
+  ],
+  "raw_output": "{\n  \"country\": \"Netherlands\",\n  \"country_code\": \"nl\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a single white center line and right-hand traffic, consistent with Dutch highway design.\",\n    \"Metal guardrails are standard on Dutch highways, especially in rural or semi-rural areas like this.\",\n    \"The flat terrain, open grassy fields, and uniform row of poplar trees are characteristic of the Dutch landscape.\",\n    \"No visible signage or urban infrastructure suggests a non-urban location, typical of intercity highways in the Netherlands"
+}

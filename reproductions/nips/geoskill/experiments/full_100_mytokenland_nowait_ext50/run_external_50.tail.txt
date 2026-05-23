@@ -1,0 +1,19 @@
+Loaded 50/50 samples for round 1
+Main-agent model (small): qwen3.5-plus
+Skill-update model (large): gpt-5.4-mini
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11052.04it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Skill library built: 1080 skills from 50 games
+Skill graph top_k (clamped): 7
+Methods to run: ['external_georeasoner', 'external_geovista']
+
+============================================================
+Running: external_georeasoner (50 samples)
+============================================================
+external_georeasoner:   0%|          | 0/50 [00:00<?, ?it/s]

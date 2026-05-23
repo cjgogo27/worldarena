@@ -1,0 +1,11 @@
+{
+  "country": "Czech Republic",
+  "country_code": "cz",
+  "city": "",
+  "reasoning_chain": [
+    "The blue car driving on the right side of the road indicates right-hand traffic, consistent with Czech Republic.",
+    "The architecture of the houses, with their pitched roofs and pastel-colored facades, is typical of rural Czech villages.",
+    "The presence of a satellite dish and utility poles with overhead wires is common in Czech residential areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Czech Republic\",\n  \"country_code\": \"cz\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The blue car driving on the right side of the road indicates right-hand traffic, consistent with Czech Republic.\",\n    \"The architecture of the houses, with their pitched roofs and pastel-colored facades, is typical of rural Czech villages.\",\n    \"The presence of a satellite dish and utility poles with overhead wires is common in Czech residential areas.\",\n    \"The vegetation, including lush green grass and mature trees, suggests a temperate climate typical of Central"
+}

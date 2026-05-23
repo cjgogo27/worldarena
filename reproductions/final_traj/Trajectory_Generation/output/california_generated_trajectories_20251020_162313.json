@@ -1,0 +1,23 @@
+[
+  {
+    "user_id": "30002756_2",
+    "user_info": {
+      "user_id": "30002756_2",
+      "age_range": "Appropriate skip",
+      "hispanic": "No, Not Hispanic or Latino",
+      "gender": "Male",
+      "race": "White",
+      "education": "Some college or associates degree",
+      "employment_status": "Appropriate skip",
+      "work_from_home": "Appropriate skip",
+      "occupation": "Appropriate skip",
+      "primary_activity": "Retired",
+      "driver_on_travel_day": "Yes",
+      "distance_to_work_miles": 2.0
+    },
+    "reasoning": "Given the user's profile as a retired, non-Hispanic white male with some college education, the activity pattern centers on home-based and leisure activities, without work commitments. The inclusion of exercise and socializing reflects common retired lifestyle activities, promoting health and social interaction. Shopping and dining out are included for daily errands and enjoyment.",
+    "trajectory": "0:00-7:00 home, 7:00-8:00 exercise, 8:00-10:00 home, 10:00-11:30 shopping, 11:30-13:00 dine_out, 13:00-15:00 home, 15:00-17:00 socialize, 17:00-18:30 home, 18:30-20:00 dine_out, 20:00-24:00 home",
+    "raw_result": "Given the user's profile as a retired, non-Hispanic white male with some college education, the activity pattern centers on home-based and leisure activities, without work commitments. The inclusion of exercise and socializing reflects common retired lifestyle activities, promoting health and social interaction. Shopping and dining out are included for daily errands and enjoyment.\n\n0:00-7:00 home, 7:00-8:00 exercise, 8:00-10:00 home, 10:00-11:30 shopping, 11:30-13:00 dine_out, 13:00-15:00 home, 15:00-17:00 socialize, 17:00-18:30 home, 18:30-20:00 dine_out, 20:00-24:00 home",
+    "generation_time": "2025-10-20T16:23:10.433760"
+  }
+]

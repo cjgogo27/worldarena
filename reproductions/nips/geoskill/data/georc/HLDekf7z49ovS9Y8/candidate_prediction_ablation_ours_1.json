@@ -1,0 +1,772 @@
+{
+  "game_id": "HLDekf7z49ovS9Y8",
+  "round": 1,
+  "sample_id": "georc::HLDekf7z49ovS9Y8::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "ar",
+    "predicted_region": "south_america",
+    "predicted_lat": -34.6158,
+    "predicted_lng": -58.4173,
+    "reasoning_text": "{\n  \"country\": \"Argentina\",\n  \"country_code\": \"ar\",\n  \"region\": \"South America\",\n  \"lat\": -34.6158,\n  \"lng\": -58.4173,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to the outskirts of a major city in the Buenos Aires province, Argentina. The combination of a dirt road (calle de tierra) running parallel to a concrete drainage canal (canal de desagüe) lined with Casuarina trees is a distinctive feature of the 'Bajo' (low-lying) areas in the western and southern suburbs of Buenos Aires (e.g., La Matanza, Lomas de Zamora, Quilmes). The brick wall with barbed wire and the specific style of the wooden utility pole with the concrete base are consistent with Argentine infrastructure. The vegetation and overcast sky fit the Pampas climate. The specific location appears to be a service road or access path near an industrial zone or landfill, common in these areas.\",\n  \"evidence\": [\n    \"Unpaved dirt road with visible tire ruts and loose soil surface\",\n    \"Concrete drainage ditch or canal running parallel to road on left\",\n    \"Large mature trees lining left side of road, possibly Casuarina\",\n    \"Brick wall with graffiti on right side, topped with barbed wire\",\n    \"Utility poles with overhead power lines running along right side\",\n    \"Industrial-style building with metal roof visible behind brick wall\",\n    \"Overcast sky with scattered cumulus clouds — suggests humid subtropical climate\",\n    \"Grass growing along roadside edges, indicating infrequent maintenance\"\n  ]\n}",
+    "evidence_spans": [
+      "Unpaved dirt road with visible tire ruts and loose soil surface",
+      "Concrete drainage ditch or canal running parallel to road on left",
+      "Large mature trees lining left side of road, possibly Casuarina",
+      "Brick wall with graffiti on right side, topped with barbed wire",
+      "Utility poles with overhead power lines running along right side",
+      "Industrial-style building with metal roof visible behind brick wall",
+      "Overcast sky with scattered cumulus clouds — suggests humid subtropical climate",
+      "Grass growing along roadside edges, indicating infrequent maintenance"
+    ],
+    "confidence": 0.85,
+    "geovista_observation": {
+      "observations": [
+        "Unpaved dirt road with visible tire ruts and loose soil surface",
+        "Large mature trees lining left side of road, possibly Casuarina or similar tropical species",
+        "Concrete drainage ditch or canal running parallel to road on left",
+        "Brick wall with graffiti on right side, topped with barbed wire",
+        "Utility poles with overhead power lines running along right side",
+        "Industrial-style building with metal roof visible behind brick wall",
+        "Overcast sky with scattered cumulus clouds — suggests humid tropical/subtropical climate",
+        "No vehicles or pedestrians visible; rural or semi-industrial outskirts setting",
+        "Grass growing along roadside edges, indicating infrequent maintenance",
+        "Road appears to be a local access route, not a main thoroughfare"
+      ],
+      "hard_clues": [
+        "Brick wall with graffiti and barbed wire — common in Latin America, Southeast Asia, or parts of Africa",
+        "Concrete drainage canal adjacent to dirt road — typical in flood-prone tropical regions",
+        "Overhead wooden utility poles with multiple wires — consistent with developing infrastructure",
+        "Tropical tree species (likely Casuarina equisetifolia) — native to coastal tropics worldwide",
+        "Industrial shed with corrugated metal roof — suggests peri-urban industrial zone"
+      ],
+      "ambiguous_clues": [
+        "No license plates, street signs, or language visible — prevents country/city identification",
+        "Driving side cannot be determined — no vehicles present to infer directionality",
+        "Soil color and texture could match many tropical regions (e.g., Brazil, India, Philippines, Nigeria)",
+        "Graffiti style is generic — no identifiable tags or regional art styles",
+        "Cloud cover and vegetation suggest equatorial or monsoon climate — too broad for precise location"
+      ],
+      "possible_scripts": [
+        "Portuguese (Brazil) — common in areas with similar infrastructure and vegetation",
+        "Spanish (Latin America) — plausible given brick walls and rural-industrial mix",
+        "Hindi/Urdu (India/Pakistan) — possible if near industrial outskirts of major cities",
+        "Tagalog (Philippines) — matches tropical flora and informal road conditions",
+        "Swahili (East Africa) — less likely but possible in peri-urban zones of Kenya/Tanzania"
+      ],
+      "driving_side": "unknown"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Brazil",
+        "Argentina",
+        "Paraguay",
+        "Uruguay"
+      ],
+      "zoom_boxes": [
+        [
+          700,
+          400,
+          1000,
+          650
+        ],
+        [
+          0,
+          450,
+          400,
+          700
+        ]
+      ],
+      "verification_queries": [
+        "Search for dirt roads adjacent to concrete drainage canals lined with Casuarina trees in South America",
+        "Identify industrial areas with brick perimeter walls and barbed wire in Argentina or Brazil outskirts",
+        "Find unpaved access roads near industrial sheds in tropical/subtropical regions of South America"
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "ar",
+      "predicted_region": "south_america",
+      "predicted_lat": -34.75,
+      "predicted_lng": -58.45,
+      "confidence": 0.88
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "ar",
+      "predicted_region": "south_america",
+      "predicted_lat": -34.75,
+      "predicted_lng": -58.45,
+      "confidence": 0.88
+    },
+    "base_prediction_summary": {
+      "predicted_country": "ar",
+      "predicted_region": "south_america",
+      "predicted_lat": -34.6158,
+      "predicted_lng": -58.4173,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.88,
+    "skill_boost_aggressive_confidence": 0.88,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+          "region_hint": "south_america",
+          "confidence": 0.75,
+          "score": 0.747532668709755,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.7440316468477249,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The use of concrete poles for electrical wiring and fencing style is consistent with infrastructure seen in the Argentine countryside.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6773860126733781,
+          "visual_cues": [
+            "pole",
+            "poles"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The aridness and dirt road coverage leads to the area around Puerto Natales as similar landscapes south of Puerto Natales normally has triple solid road lines on paved roads",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6554467380046844,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The trash bins on the right have a green color and design used in Uruguay, and there is no visible logo or language indicating Brazil or Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6308682203292848,
+          "visual_cues": [
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "In the distance (pointing south from the compass), it appears to be the horizon of the ocean (or maybe a mountain range since it's hard to tell), which further supports Buenos Aires province as a lot of the city has ocean to the south",
+          "region_hint": "south_america",
+          "confidence": 0.55,
+          "score": 0.5463333368301392,
+          "visual_cues": [
+            "ocean"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The presence of a railway track to the right further supports the idea of a location near a major Argentine city where railways run parallel to large suburban roads.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.45395619571208956,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The road is unpaved and straight with minimal infrastructure, indicating a remote location typical of southern Argentina or Chile.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.4294422864913941,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The vegetation consists of eucalyptus trees and temperate grasses, which are abundant in Uruguay and parts of southern Brazil and Argentina.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.41894921362400056,
+          "visual_cues": [
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The general flat terrain and wide road layout are typical of peri-urban zones around cities like Córdoba, Rosario, or Buenos Aires.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.41744682192802435,
+          "visual_cues": [
+            "road",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The architecture of the house to the left with its modern construction and tan color is prevalent in newer suburbs around Argentine cities.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.4138667702674866,
+          "visual_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "City estimation is difficult with only this image, but the topology and vegetation fit the outskirts of a smaller city in the Brazilian state of Goiás or Minas Gerais, likely near the municipality of Formosa, Goiás.",
+          "region_hint": "south_america",
+          "confidence": 0.75,
+          "score": 0.4109229624271393,
+          "visual_cues": [
+            "vegetation"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "vegetation"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+        "The road markings feature double yellow lines in the center and dashed white lines on the sides, typical of South American countries, especially Argentina.",
+        "The use of concrete poles for electrical wiring and fencing style is consistent with infrastructure seen in the Argentine countryside.",
+        "The aridness and dirt road coverage leads to the area around Puerto Natales as similar landscapes south of Puerto Natales normally has triple solid road lines on paved roads",
+        "The trash bins on the right have a green color and design used in Uruguay, and there is no visible logo or language indicating Brazil or Argentina.",
+        "In the distance (pointing south from the compass), it appears to be the horizon of the ocean (or maybe a mountain range since it's hard to tell), which further supports Buenos Aires province as a lot of the city has ocean to the south",
+        "The presence of a railway track to the right further supports the idea of a location near a major Argentine city where railways run parallel to large suburban roads.",
+        "The road is unpaved and straight with minimal infrastructure, indicating a remote location typical of southern Argentina or Chile.",
+        "The vegetation consists of eucalyptus trees and temperate grasses, which are abundant in Uruguay and parts of southern Brazil and Argentina.",
+        "The general flat terrain and wide road layout are typical of peri-urban zones around cities like Córdoba, Rosario, or Buenos Aires.",
+        "The architecture of the house to the left with its modern construction and tan color is prevalent in newer suburbs around Argentine cities.",
+        "City estimation is difficult with only this image, but the topology and vegetation fit the outskirts of a smaller city in the Brazilian state of Goiás or Minas Gerais, likely near the municipality of Formosa, Goiás."
+      ],
+      "summary": "nodes=12, edges=66, base_region=south_america, top_skill_region=south_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=south_america, top_skill_region=south_america"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

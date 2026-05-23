@@ -1,0 +1,11 @@
+{
+  "country": "Croatia",
+  "country_code": "hr",
+  "city": "",
+  "reasoning_chain": [
+    "The road is narrow, unpaved with gravel shoulders, and lacks center markings, typical of rural mountain roads in Dalmatia or Lika regions.",
+    "Vegetation consists of dense deciduous trees and scrubland, consistent with Mediterranean-influenced temperate zones found in coastal Croatia.",
+    "A single-story house with a red-tiled roof appears on the right, matching traditional rural architecture common in inland Croatian villages."
+  ],
+  "raw_output": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is narrow, unpaved with gravel shoulders, and lacks center markings, typical of rural mountain roads in Dalmatia or Lika regions.\",\n    \"Vegetation consists of dense deciduous trees and scrubland, consistent with Mediterranean-influenced temperate zones found in coastal Croatia.\",\n    \"A single-story house with a red-tiled roof appears on the right, matching traditional rural architecture common in inland Croatian villages.\",\n    \""
+}

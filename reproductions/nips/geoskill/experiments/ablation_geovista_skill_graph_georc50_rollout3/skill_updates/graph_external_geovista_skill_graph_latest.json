@@ -1,0 +1,9 @@
+{
+  "method": "external_geovista_skill_graph",
+  "rollout_idx": 3,
+  "timestamp": "20260401_115214",
+  "num_records": 50,
+  "num_failed_records": 50,
+  "edge_count": 0,
+  "edges": []
+}

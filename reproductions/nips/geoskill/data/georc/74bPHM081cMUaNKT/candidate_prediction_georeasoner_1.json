@@ -1,0 +1,11 @@
+{
+  "country": "China",
+  "country_code": "cn",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of Chinese characters on the tanker truck and nearby structures indicates a location in China.",
+    "The flat, arid terrain with sparse vegetation and newly planted saplings along the roadside is characteristic of northern or western China, particularly in regions like Inner Mongolia or Gansu.",
+    "The road is unpaved and under construction, with no lane markings, suggesting a rural or developing area common in less urbanized parts of China."
+  ],
+  "raw_output": "{\n  \"country\": \"China\",\n  \"country_code\": \"cn\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of Chinese characters on the tanker truck and nearby structures indicates a location in China.\",\n    \"The flat, arid terrain with sparse vegetation and newly planted saplings along the roadside is characteristic of northern or western China, particularly in regions like Inner Mongolia or Gansu.\",\n    \"The road is unpaved and under construction, with no lane markings, suggesting a rural or developing area common in less urbanized parts of China.\",\n    \"Utility"
+}

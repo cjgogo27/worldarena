@@ -1,0 +1,10 @@
+{
+  "country": "Morocco",
+  "country_code": "ma",
+  "city": "",
+  "reasoning_chain": [
+    "White-washed cubic architecture with flat roofs and minimal ornamentation is characteristic of Moroccan residential zones, especially in urban or peri-urban areas.",
+    "Vehicles are driving on the right side of the road, consistent with Morocco’s traffic laws, and the black hatchback resembles models commonly sold in North Africa."
+  ],
+  "raw_output": "{\n  \"country\": \"Morocco\",\n  \"country_code\": \"ma\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"White-washed cubic architecture with flat roofs and minimal ornamentation is characteristic of Moroccan residential zones, especially in urban or peri-urban areas.\",\n    \"Vehicles are driving on the right side of the road, consistent with Morocco’s traffic laws, and the black hatchback resembles models commonly sold in North Africa.\",\n    \"Utility poles are wooden and spaced irregularly, typical of rural or semi-urban infrastructure in Morocco, and overhead wires follow a non"
+}

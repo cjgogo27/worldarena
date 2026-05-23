@@ -1,0 +1,25 @@
+{
+  "selection_group": "good",
+  "selection_rank": 4,
+  "distance_km": 29.953149,
+  "retrieved_skill_count": 12,
+  "sample_id": "georc::HVBiwFr2gEcM1dze::round1",
+  "game_id": "HVBiwFr2gEcM1dze",
+  "round": "1",
+  "image_source": "/data/alice/cjtest/NIPS/geoskill/data/georc/HVBiwFr2gEcM1dze/HVBiwFr2gEcM1dze_1.png",
+  "ground_truth": {
+    "country": "es",
+    "lat": 42.89838790149464,
+    "lng": -8.24203911596484
+  },
+  "prediction": {
+    "predicted_country": "es",
+    "predicted_region": "europe",
+    "predicted_address": "Rural secondary road near Vilalba, Lugo, Galicia, Spain",
+    "predicted_lat": 42.8,
+    "predicted_lng": -7.9,
+    "confidence": 0.68,
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  }
+}

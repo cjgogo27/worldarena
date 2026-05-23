@@ -1,0 +1,89 @@
+{
+  "user_id": "30007544_2",
+  "input_demographics": {
+    "sex": "male",
+    "age": 40,
+    "age_range": "18-64 years old",
+    "race": "Some other race",
+    "enrolled_in_school": false,
+    "employed": false,
+    "occupation": "None",
+    "marital_status": "married",
+    "primary_activity": "Retired"
+  },
+  "raw_output": "| Place Visited           | Arrival Time    | Departure Time  | Location Type |\n|-------------------------|-----------------|-----------------|---------------|\n| Home                    | 07:15 AM        | 07:45 AM        | 1              |\n| Grocery Store          | 07:45 AM        | 08:15 AM        | 11             |\n| Coffee Shop            | 08:30 AM        | 08:50 AM        | 13             |\n| Office                 | 09:00 AM        | 05:30 PM        | 3              |\n| Restaurant             | 12:30 PM        | 01:15 PM        | 13             |\n| Home                    | 05:30 PM        | 06:00 PM        | 1              |",
+  "schedule": [
+    {
+      "activity": "home",
+      "start_time": "07:15",
+      "end_time": "07:45"
+    },
+    {
+      "activity": "shopping",
+      "start_time": "07:45",
+      "end_time": "08:15"
+    },
+    {
+      "activity": "dine_out",
+      "start_time": "08:30",
+      "end_time": "08:50"
+    },
+    {
+      "activity": "work",
+      "start_time": "09:00",
+      "end_time": "17:30"
+    },
+    {
+      "activity": "dine_out",
+      "start_time": "12:30",
+      "end_time": "13:15"
+    },
+    {
+      "activity": "home",
+      "start_time": "17:30",
+      "end_time": "18:00"
+    }
+  ],
+  "ground_truth": [
+    {
+      "activity": "home",
+      "start_time": "00:00",
+      "end_time": "00:30"
+    },
+    {
+      "activity": "dropoff_pickup",
+      "start_time": "00:30",
+      "end_time": "01:25"
+    },
+    {
+      "activity": "dropoff_pickup",
+      "start_time": "01:25",
+      "end_time": "01:45"
+    },
+    {
+      "activity": "home",
+      "start_time": "01:45",
+      "end_time": "08:31"
+    },
+    {
+      "activity": "exercise",
+      "start_time": "08:31",
+      "end_time": "09:01"
+    },
+    {
+      "activity": "home",
+      "start_time": "09:01",
+      "end_time": "14:31"
+    },
+    {
+      "activity": "exercise",
+      "start_time": "14:31",
+      "end_time": "15:01"
+    },
+    {
+      "activity": "home",
+      "start_time": "15:01",
+      "end_time": "24:00"
+    }
+  ]
+}

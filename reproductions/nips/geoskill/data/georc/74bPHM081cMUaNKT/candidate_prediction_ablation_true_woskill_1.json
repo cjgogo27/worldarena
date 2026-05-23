@@ -1,0 +1,34 @@
+{
+  "game_id": "74bPHM081cMUaNKT",
+  "round": 1,
+  "sample_id": "georc::74bPHM081cMUaNKT::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "kz",
+    "predicted_region": "asia",
+    "predicted_address": "A-344 highway, Aktobe Region, Kazakhstan",
+    "predicted_lat": 50.21536,
+    "predicted_lng": 80.25358,
+    "reasoning_text": "```json\n{\n  \"country\": \"Kazakhstan\",\n  \"country_code\": \"kz\",\n  \"region\": \"Central Asia\",\n  \"city\": \"Aktobe\",\n  \"province_or_state\": \"Aktobe Region\",\n  \"address\": \"A-344 highway, Aktobe Region, Kazakhstan\",\n  \"confidence\": 0.7,\n  \"reasoning\": \"The image shows a flat, arid steppe landscape typical of western Kazakhstan. The road is paved but surrounded by sandy, semi-desert terrain with sparse vegetation. The trucks visible appear to be Soviet-era or post-Soviet heavy vehicles common in Kazakhstan. The utility poles and road construction style match Kazakh rural highways. The A-344 highway runs through the Aktobe Region connecting to Russia, and this type of roadside truck stop with fuel tanks is characteristic of this region. The flat terrain and climate indicators (sparse grass, young planted trees along road) align with the Aktobe area rather than Mongolia or China.\",\n  \"evidence\": [\"Flat steppe landscape with semi-arid climate\", \"Soviet-style heavy trucks and fuel tankers\", \"Paved highway with sandy shoulders\", \"Young trees planted in rows along road (common Kazakh roadside planting)\", \"Utility pole style consistent with Central Asia\", \"Roadside industrial/truck stop infrastructure\", \"Sparse vegetation typical of Kazakh steppe\"]\n}\n```",
+    "evidence_spans": [
+      "Flat steppe landscape with semi-arid climate",
+      "Soviet-style heavy trucks and fuel tankers",
+      "Paved highway with sandy shoulders",
+      "Young trees planted in rows along road (common Kazakh roadside planting)",
+      "Utility pole style consistent with Central Asia",
+      "Roadside industrial/truck stop infrastructure",
+      "Sparse vegetation typical of Kazakh steppe"
+    ],
+    "confidence": 0.7,
+    "country_top3": [
+      "kz",
+      "mn",
+      "cn"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"kz\",\"mn\",\"cn\"],\"reason\":\"Flat arid steppe landscape with sparse vegetation, unpaved road edges, and utility poles are characteristic of Central Asian steppe regions. The trucks appear to be Soviet-era or post-Soviet models common in Kazakhstan. The tree planting pattern along roads is typical of Kazakh steppe afforestation efforts. Mongolia shares similar terrain but has less road infrastructure development. China's western regions have similar landscapes but the road quality and vehicle types lean more toward Kazakhstan.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.9330000000000002
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The utility pole design with multiple crossarms and insulators is characteristic of Japanese rural infrastructure.",
+    "The absence of road markings, combined with the narrow paved path and surrounding vegetation, suggests a low-traffic rural area typical of Japan’s countryside.",
+    "The lush green hills and deciduous forest cover indicate a temperate climate zone consistent with central or southern Japan."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The utility pole design with multiple crossarms and insulators is characteristic of Japanese rural infrastructure.\",\n    \"The absence of road markings, combined with the narrow paved path and surrounding vegetation, suggests a low-traffic rural area typical of Japan’s countryside.\",\n    \"The lush green hills and deciduous forest cover indicate a temperate climate zone consistent with central or southern Japan.\",\n    \"The simple, functional architecture of the white metal shed and concrete wall reflects common"
+}

@@ -1,0 +1,12 @@
+{
+  "country": "Argentina",
+  "country_code": "ar",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line indicates two-way traffic with no passing, common in rural Argentina.",
+    "Utility poles with overhead wires and simple wooden construction are typical of Argentine countryside infrastructure.",
+    "Vegetation includes willow trees and scrubby greenery consistent with temperate grassland (pampas) regions of Argentina.",
+    "Absence of signage or urban features suggests a remote rural area, likely in provinces like Córdoba or Santa Fe."
+  ],
+  "raw_output": "{\n  \"country\": \"Argentina\",\n  \"country_code\": \"ar\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line indicates two-way traffic with no passing, common in rural Argentina.\",\n    \"Utility poles with overhead wires and simple wooden construction are typical of Argentine countryside infrastructure.\",\n    \"Vegetation includes willow trees and scrubby greenery consistent with temperate grassland (pampas) regions of Argentina.\",\n    \"Absence of signage or urban features suggests a remote rural area, likely in provinces like Córdoba or Santa Fe.\""
+}

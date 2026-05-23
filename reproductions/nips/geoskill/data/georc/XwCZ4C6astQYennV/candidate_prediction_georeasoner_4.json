@@ -1,0 +1,11 @@
+{
+  "country": "Brazil",
+  "country_code": "br",
+  "city": "",
+  "reasoning_chain": [
+    "The red lateritic soil and tropical vegetation (including palm trees and dense greenery) are characteristic of the Amazon Basin region in Brazil.",
+    "The gas station canopy displays the 'BR' logo, which is the national fuel brand of Petrobras, exclusive to Brazil.",
+    "The road is unpaved or poorly maintained with visible tire tracks and puddles, typical of rural highways in the Brazilian Amazon."
+  ],
+  "raw_output": "{\n  \"country\": \"Brazil\",\n  \"country_code\": \"br\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The red lateritic soil and tropical vegetation (including palm trees and dense greenery) are characteristic of the Amazon Basin region in Brazil.\",\n    \"The gas station canopy displays the 'BR' logo, which is the national fuel brand of Petrobras, exclusive to Brazil.\",\n    \"The road is unpaved or poorly maintained with visible tire tracks and puddles, typical of rural highways in the Brazilian Amazon.\",\n    \"The presence of high-voltage transmission"
+}

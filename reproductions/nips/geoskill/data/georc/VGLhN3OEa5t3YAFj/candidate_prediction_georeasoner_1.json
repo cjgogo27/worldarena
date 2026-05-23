@@ -1,0 +1,11 @@
+{
+  "country": "Chile",
+  "country_code": "cl",
+  "city": "",
+  "reasoning_chain": [
+    "The arid, barren landscape with low hills and lack of vegetation is characteristic of the Atacama Desert region in northern Chile.",
+    "The simple concrete block architecture and unpaved/dirt road are typical of rural or semi-rural infrastructure in remote areas of Chile.",
+    "The presence of a fenced sports court with modern lighting suggests recent public investment, common in Chilean towns even in remote regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Chile\",\n  \"country_code\": \"cl\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The arid, barren landscape with low hills and lack of vegetation is characteristic of the Atacama Desert region in northern Chile.\",\n    \"The simple concrete block architecture and unpaved/dirt road are typical of rural or semi-rural infrastructure in remote areas of Chile.\",\n    \"The presence of a fenced sports court with modern lighting suggests recent public investment, common in Chilean towns even in remote regions.\",\n    \"No visible signage, vehicles,"
+}

@@ -1,0 +1,1199 @@
+[
+  {
+    "user_id": "40693886_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:00",
+        "end_time": "22:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Male\n- Age: Appropriate skip\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Occupation: Clerical or administrative support\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You are accustomed to waking up around 6:30 AM to prepare for your workday.\n2. Your working hours are from 8:30 AM to 5 PM, requiring you to be present at the office.\n3. You typically unwind with a light dinner around 7:30 PM to relax after your day.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Need rest before waking up for work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:30",
+          "end_time": "17:00",
+          "reasoning": "Regular work hours in the office"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "19:00",
+          "end_time": "22:00",
+          "reasoning": "Unwind and relax after a long workday"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40142647_3",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "13:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:00",
+        "end_time": "19:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "21:30"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Female\n- Age: Appropriate skip\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Occupation: Clerical or administrative support\n- Work Schedule: Part-time\n- Primary Activity: Going to school\n- Work from Home: No",
+      "anchors": "1. You typically start your day by attending morning classes, ensuring you're up and ready before 8 AM.  \n2. Your part-time work schedule usually begins in the afternoon, allowing you to focus on clerical tasks from 1 PM to 5 PM.  \n3. You often spend your evenings reviewing class notes or working on assignments, wrapping up your study time by 10 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "07:00",
+          "reasoning": "Ensure adequate rest to be alert for morning classes and part-time work."
+        },
+        {
+          "intention": "go to work",
+          "start_time": "13:00",
+          "end_time": "17:00",
+          "reasoning": "Engage in clerical tasks during my part-time afternoon schedule."
+        },
+        {
+          "intention": "eat",
+          "start_time": "18:00",
+          "end_time": "19:00",
+          "reasoning": "Have dinner to replenish energy after work."
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "19:30",
+          "end_time": "21:30",
+          "reasoning": "Relax and unwind with some leisure activities before reviewing class notes."
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40387256_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "12:00",
+        "end_time": "13:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "18:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:00",
+        "end_time": "21:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Male\n- Age: Appropriate skip\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Occupation: Professional, managerial, or technical\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You typically start your day by waking up around 6:30 AM to prepare for a productive workday.  \n2. Your workday begins at 9 AM, and you maintain a focus on professional responsibilities until 5 PM.  \n3. You usually unwind and have dinner with your family at 7 PM to relax after a busy day.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Need rest before starting a productive workday"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "17:00",
+          "reasoning": "Regular work hours at the office, fulfilling professional responsibilities"
+        },
+        {
+          "intention": "eat",
+          "start_time": "12:00",
+          "end_time": "13:00",
+          "reasoning": "Having lunch break to recharge during the workday"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "18:00",
+          "reasoning": "Commuting back home after completing the workday"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "19:00",
+          "end_time": "21:00",
+          "reasoning": "Unwinding and relaxing with family after dinner"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40165417_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "18:00"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:30",
+        "end_time": "19:00"
+      },
+      {
+        "activity": "exercise",
+        "start_time": "19:30",
+        "end_time": "20:30"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:00",
+        "end_time": "22:30"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Female\n- Age: Appropriate skip\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Occupation: Professional, managerial, or technical\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You start your day by waking up around 6:30 AM to prepare for your commute.\n2. Your working hours are from 9 AM to 6 PM, ensuring you meet deadlines and attend meetings.\n3. You typically unwind with a light workout or a walk after dinner, helping you relax before bedtime.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Need rest to wake up early for my work routine"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "18:00",
+          "reasoning": "Commute to and from work and complete my responsibilities during regular work hours"
+        },
+        {
+          "intention": "eat",
+          "start_time": "18:30",
+          "end_time": "19:00",
+          "reasoning": "Have dinner after returning home from work"
+        },
+        {
+          "intention": "do sports",
+          "start_time": "19:30",
+          "end_time": "20:30",
+          "reasoning": "Engage in a light workout to unwind after a long day at work"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "21:00",
+          "end_time": "22:30",
+          "reasoning": "Relax with some leisure activities or entertainment before bedtime"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30423241_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "10:00",
+        "end_time": "15:00"
+      },
+      {
+        "activity": "exercise",
+        "start_time": "18:00",
+        "end_time": "19:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "22:30"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Male\n- Age: Appropriate skip\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Occupation: Professional, managerial, or technical\n- Work Schedule: Part-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You start your day with a focused morning routine, waking up by 6:30 AM to maximize productivity.\n2. You typically work from 10 AM to 3 PM, ensuring you manage your professional responsibilities efficiently.\n3. You make it a point to engage in a short evening workout around 6 PM, helping you unwind after a day of work.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Need to be well-rested to start the day with a focused morning routine."
+        },
+        {
+          "intention": "go to work",
+          "start_time": "10:00",
+          "end_time": "15:00",
+          "reasoning": "Part-time work schedule to manage professional responsibilities efficiently."
+        },
+        {
+          "intention": "do sports",
+          "start_time": "18:00",
+          "end_time": "19:00",
+          "reasoning": "Evening workout to unwind and maintain physical health."
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "19:30",
+          "end_time": "22:30",
+          "reasoning": "Engage in leisure activities to relax and enjoy personal time."
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30529270_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "18:00"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "19:30",
+        "end_time": "20:30"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:30",
+        "end_time": "22:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Male\n- Age: Appropriate skip\n- Education: High school graduate or GED\n- Employment Status: Yes\n- Occupation: Sales or service\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You start your day by waking up around 6:30 AM to prepare for your full-time sales job.\n2. Your work schedule typically runs from 9 AM to 6 PM, with a focus on in-person interactions.\n3. You often unwind by having dinner at 7:30 PM after a busy day of work.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Need rest to prepare for a full day of work."
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "18:00",
+          "reasoning": "Full-time sales job requires in-person interactions during regular business hours."
+        },
+        {
+          "intention": "eat",
+          "start_time": "19:30",
+          "end_time": "20:30",
+          "reasoning": "Dinner time to unwind and refuel after a busy workday."
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "20:30",
+          "end_time": "22:30",
+          "reasoning": "Relaxing with some leisure activities to de-stress from the day."
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "22:30",
+          "end_time": "24:00",
+          "reasoning": "Getting enough sleep to be refreshed for the next workday."
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40202547_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "12:00",
+        "end_time": "12:30"
+      },
+      {
+        "activity": "home",
+        "start_time": "17:00",
+        "end_time": "18:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "21:00",
+        "end_time": "22:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Female\n- Age: Appropriate skip\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Occupation: Professional, managerial, or technical\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You typically start your day early, setting your alarm for 6:30 AM to prepare for your commute.\n2. Your workday begins at 9 AM sharp, aligning with your full-time professional responsibilities.\n3. You often unwind with a late evening walk or reading session around 9 PM to relax before bed.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Need rest to prepare for an early start and full workday"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "17:00",
+          "reasoning": "Regular work hours with commute considered"
+        },
+        {
+          "intention": "eat",
+          "start_time": "12:00",
+          "end_time": "12:30",
+          "reasoning": "Lunch break to recharge during the workday"
+        },
+        {
+          "intention": "go home",
+          "start_time": "17:00",
+          "end_time": "18:00",
+          "reasoning": "Commute back home after a full day of work"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "21:00",
+          "end_time": "22:00",
+          "reasoning": "Evening relaxation with a walk or reading session"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30227116_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:00",
+        "end_time": "22:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Female\n- Age: Appropriate skip\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Occupation: Professional, managerial, or technical\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You typically start your day by waking up around 6:30 AM to prepare for your workday.  \n2. Your working hours are from 9 AM to 5 PM, and you commute to the office.  \n3. You often unwind by reading or engaging in a hobby after dinner, usually around 8 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Need rest before work; wake up at 6:30 AM to prepare for the workday"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "17:00",
+          "reasoning": "Commute to the office and work from 9 AM to 5 PM"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "20:00",
+          "end_time": "22:00",
+          "reasoning": "Unwind after dinner by reading or engaging in a hobby"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40402314_3",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:30"
+      },
+      {
+        "activity": "service",
+        "start_time": "07:30",
+        "end_time": "08:30"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "08:30",
+        "end_time": "12:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "13:00",
+        "end_time": "18:00"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:30",
+        "end_time": "19:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:00",
+        "end_time": "21:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Male\n- Age: Appropriate skip\n- Education: Less than a high school graduate\n- Employment Status: Yes\n- Occupation: Sales or service\n- Work Schedule: Part-time\n- Primary Activity: Going to school\n- Work from Home: No",
+      "anchors": "1. You typically start your part-time sales job in the afternoon, allowing you to attend morning classes.\n2. You make a habit of reviewing school materials in the evening to prepare for the next day.\n3. You often unwind after work with a late-night snack or light reading before heading to bed around midnight.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "07:30",
+          "reasoning": "Ensure adequate rest to be alert for morning classes."
+        },
+        {
+          "intention": "handle the trivialities of life",
+          "start_time": "07:30",
+          "end_time": "08:30",
+          "reasoning": "Morning routine including breakfast and getting ready for school."
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "08:30",
+          "end_time": "12:00",
+          "reasoning": "Attend morning classes and engage with educational activities."
+        },
+        {
+          "intention": "go to work",
+          "start_time": "13:00",
+          "end_time": "18:00",
+          "reasoning": "Part-time sales job scheduled in the afternoon."
+        },
+        {
+          "intention": "eat",
+          "start_time": "18:30",
+          "end_time": "19:00",
+          "reasoning": "Dinner to refuel after work."
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "19:00",
+          "end_time": "21:00",
+          "reasoning": "Review school materials to prepare for the next day."
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "Wind down with a late-night snack or light reading before bed."
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40436178_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:30"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "08:00",
+        "end_time": "09:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "10:00",
+        "end_time": "14:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "15:00",
+        "end_time": "21:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Female\n- Age: Appropriate skip\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Occupation: Something else\n- Work Schedule: Part-time\n- Primary Activity: Retired\n- Work from Home: No",
+      "anchors": "1. You typically start your day with a leisurely cup of coffee around 8 AM, enjoying the morning calm before your part-time commitments.\n2. Your part-time work hours generally fall between 10 AM and 2 PM, allowing you flexibility to enjoy your retirement activities in the afternoon.\n3. You often wind down your day with a relaxing hobby or light reading, usually settling in by 9 PM to prepare for a restful night's sleep.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "07:30",
+          "reasoning": "Ensuring sufficient rest to start the day refreshed"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "08:00",
+          "end_time": "09:00",
+          "reasoning": "Enjoying a leisurely cup of coffee and the morning calm"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "10:00",
+          "end_time": "14:00",
+          "reasoning": "Scheduled part-time work hours"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "15:00",
+          "end_time": "21:00",
+          "reasoning": "Engaging in relaxing hobbies or light reading to end the day"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30378931_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "18:30"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "19:00",
+        "end_time": "19:30"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:00",
+        "end_time": "22:30"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Female\n- Age: Appropriate skip\n- Education: High school graduate or GED\n- Employment Status: Yes\n- Occupation: Sales or service\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You typically start your day by waking up around 6:30 AM to get ready for work.\n2. Your working hours generally run from 9 AM to 6 PM, requiring a commute to your workplace.\n3. You often unwind after work by enjoying dinner around 7:30 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Need rest before starting my day and getting ready for work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "18:30",
+          "reasoning": "Commute and complete my full-time work schedule in sales"
+        },
+        {
+          "intention": "eat",
+          "start_time": "19:00",
+          "end_time": "19:30",
+          "reasoning": "Unwind with dinner after a long day at work"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "20:00",
+          "end_time": "22:30",
+          "reasoning": "Relax and enjoy some entertainment before going to sleep"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30440532_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "07:00",
+        "end_time": "16:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "18:00",
+        "end_time": "21:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Male\n- Age: Appropriate skip\n- Education: High school graduate or GED\n- Employment Status: Yes\n- Occupation: Manufacturing, construction, maintenance, or farming\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You typically start your day early, waking up around 6 AM to prepare for the workday.\n2. Your work shift usually begins at 7 AM, where you engage in hands-on tasks in manufacturing or construction.\n3. After a full day of work, you often have dinner around 6:30 PM, making sure to recharge for the next day.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:00",
+          "reasoning": "Need rest to start the day early and be prepared for a full day of work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "07:00",
+          "end_time": "16:00",
+          "reasoning": "Regular work hours for a full-time job in manufacturing or construction"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "18:00",
+          "end_time": "21:00",
+          "reasoning": "Relaxation and downtime after a workday, possibly watching TV or spending time with family"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30213224_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:30",
+        "end_time": "17:30"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "19:00",
+        "end_time": "19:30"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:00",
+        "end_time": "22:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Male\n- Age: Appropriate skip\n- Education: High school graduate or GED\n- Employment Status: Yes\n- Occupation: Sales or service\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You typically start your day by waking up around 6:30 AM to ensure you arrive at work on time.\n2. Your working hours are generally from 8:30 AM to 5:30 PM, aligning with your full-time sales or service role.\n3. You often unwind after work by having dinner at 7 PM, providing a consistent end to your day.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "To ensure enough rest before waking up for work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:30",
+          "end_time": "17:30",
+          "reasoning": "Regular work hours for my full-time sales role"
+        },
+        {
+          "intention": "eat",
+          "start_time": "19:00",
+          "end_time": "19:30",
+          "reasoning": "Dinner to unwind and refuel after work"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "20:00",
+          "end_time": "22:00",
+          "reasoning": "Relax and enjoy some personal time after dinner"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "22:30",
+          "end_time": "24:00",
+          "reasoning": "Prepare for the next day's early start"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30260549_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "18:00"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "13:00",
+        "end_time": "14:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "18:30",
+        "end_time": "20:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "23:00",
+        "end_time": "24:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Male\n- Age: Appropriate skip\n- Education: Less than a high school graduate\n- Employment Status: Yes\n- Occupation: Sales or service\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You typically start your workday at 9 AM, ensuring you're ready for your sales or service role.\n2. You make it a point to take a lunch break around 1 PM to recharge for the rest of the day.\n3. You generally finish your work around 6 PM and prioritize unwinding afterward.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "07:00",
+          "reasoning": "Need rest before starting the workday and to maintain energy levels."
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "18:00",
+          "reasoning": "Commute to work and complete full-time job responsibilities in sales or service."
+        },
+        {
+          "intention": "eat",
+          "start_time": "13:00",
+          "end_time": "14:00",
+          "reasoning": "Take a lunch break to recharge and stay productive for the rest of the workday."
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "18:30",
+          "end_time": "20:00",
+          "reasoning": "Relax and unwind after a long workday with some entertainment or leisure activity."
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "23:00",
+          "end_time": "24:00",
+          "reasoning": "Ensure adequate rest for the following day."
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40738792_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "07:00"
+      },
+      {
+        "activity": "exercise",
+        "start_time": "07:00",
+        "end_time": "08:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "10:00",
+        "end_time": "15:00"
+      },
+      {
+        "activity": "service",
+        "start_time": "15:30",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:00",
+        "end_time": "22:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Female\n- Age: Appropriate skip\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Occupation: Professional, managerial, or technical\n- Work Schedule: Part-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You typically start your day with a morning workout at 7 AM to energize for the day ahead.  \n2. Your work hours at the office generally run from 10 AM to 3 PM, allowing for a flexible part-time schedule.  \n3. You dedicate Monday evenings to professional development, often reading or attending a webinar around 8 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "07:00",
+          "reasoning": "Need rest to energize for the morning workout and the day ahead"
+        },
+        {
+          "intention": "do sports",
+          "start_time": "07:00",
+          "end_time": "08:00",
+          "reasoning": "Morning workout helps to energize and prepare mentally for the day"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "10:00",
+          "end_time": "15:00",
+          "reasoning": "Part-time work schedule at the office as a professional"
+        },
+        {
+          "intention": "handle the trivialities of life",
+          "start_time": "15:30",
+          "end_time": "17:00",
+          "reasoning": "Running errands, such as grocery shopping or other tasks needed for daily life"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "20:00",
+          "end_time": "22:00",
+          "reasoning": "Professional development, reading, or attending a webinar to enhance skills"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40672292_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "exercise",
+        "start_time": "18:00",
+        "end_time": "19:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "23:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Male\n- Age: Appropriate skip\n- Education: Graduate degree or professional degree\n- Employment Status: Yes\n- Occupation: Professional, managerial, or technical\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You typically start your day by waking up around 6:30 AM to ensure you have ample time to prepare for the workday.\n2. Your workday begins at 9 AM sharp at the office, where you focus on your professional responsibilities.\n3. You prioritize a workout or some form of physical activity after work, usually scheduled around 6 PM to unwind and stay fit.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Need rest to be refreshed for the workday"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "17:00",
+          "reasoning": "Regular work hours at the office, focusing on professional responsibilities"
+        },
+        {
+          "intention": "do sports",
+          "start_time": "18:00",
+          "end_time": "19:00",
+          "reasoning": "Scheduled physical activity to unwind and maintain fitness"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "19:30",
+          "end_time": "23:00",
+          "reasoning": "Relaxation time after a busy workday"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "40676462_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "07:00",
+        "end_time": "15:00"
+      },
+      {
+        "activity": "shopping",
+        "start_time": "16:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:00",
+        "end_time": "21:00"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Female\n- Age: Appropriate skip\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Occupation: Manufacturing, construction, maintenance, or farming\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You start your day early, waking up by 6 AM to prepare for the workday ahead.\n2. Your work hours typically run from 7 AM to 3 PM, aligning with the demands of your industry.\n3. You make it a point to unwind with a relaxing activity, such as reading or gardening, around 8 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:00",
+          "reasoning": "Need rest before waking up early for work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "07:00",
+          "end_time": "15:00",
+          "reasoning": "Regular work hours in the manufacturing sector"
+        },
+        {
+          "intention": "do shopping",
+          "start_time": "16:00",
+          "end_time": "17:00",
+          "reasoning": "Pick up groceries and essentials on the way home from work"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "20:00",
+          "end_time": "21:00",
+          "reasoning": "Unwind with a relaxing activity like reading or gardening"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30188275_2",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:00"
+      },
+      {
+        "activity": "work",
+        "start_time": "07:00",
+        "end_time": "15:30"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "18:00",
+        "end_time": "19:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "19:30",
+        "end_time": "22:30"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Male\n- Age: Appropriate skip\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Occupation: Manufacturing, construction, maintenance, or farming\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You typically start your day by waking up around 6 AM to prepare for your full-time job.\n2. Your work hours usually begin at 7 AM and end at 3:30 PM, reflecting the typical schedule in manufacturing or construction.\n3. You often unwind after work by having dinner with your family around 6 PM.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:00",
+          "reasoning": "Need rest to wake up early for work"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "07:00",
+          "end_time": "15:30",
+          "reasoning": "Full-time schedule in manufacturing"
+        },
+        {
+          "intention": "eat",
+          "start_time": "18:00",
+          "end_time": "19:00",
+          "reasoning": "Dinner time with family to unwind after work"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "19:30",
+          "end_time": "22:30",
+          "reasoning": "Relaxing and spending quality time with family or watching a show"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30488748_1",
+    "schedule": [
+      {
+        "activity": "home",
+        "start_time": "00:00",
+        "end_time": "06:30"
+      },
+      {
+        "activity": "work",
+        "start_time": "08:00",
+        "end_time": "17:00"
+      },
+      {
+        "activity": "exercise",
+        "start_time": "18:00",
+        "end_time": "19:00"
+      },
+      {
+        "activity": "dine_out",
+        "start_time": "19:30",
+        "end_time": "20:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:30",
+        "end_time": "22:30"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Male\n- Age: Appropriate skip\n- Education: Some college or associates degree\n- Employment Status: Yes\n- Occupation: Professional, managerial, or technical\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You are accustomed to waking up before 7 AM to prepare for your professional responsibilities.\n2. Your working hours typically start at 9 AM, aligning with your full-time managerial role.\n3. You often hit the gym or engage in some form of exercise after work around 6 PM to unwind.",
+      "intentions": [
+        {
+          "intention": "go to sleep",
+          "start_time": "00:00",
+          "end_time": "06:30",
+          "reasoning": "Need rest before waking up to start my day"
+        },
+        {
+          "intention": "go to work",
+          "start_time": "08:00",
+          "end_time": "17:00",
+          "reasoning": "Regular work hours in my full-time managerial role"
+        },
+        {
+          "intention": "do sports",
+          "start_time": "18:00",
+          "end_time": "19:00",
+          "reasoning": "Exercise routine to unwind after work"
+        },
+        {
+          "intention": "eat",
+          "start_time": "19:30",
+          "end_time": "20:00",
+          "reasoning": "Dinner to replenish energy after working and exercising"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "20:30",
+          "end_time": "22:30",
+          "reasoning": "Relax and enjoy some personal time before ending the day"
+        }
+      ],
+      "day": "Monday"
+    }
+  },
+  {
+    "user_id": "30189697_1",
+    "schedule": [
+      {
+        "activity": "work",
+        "start_time": "09:00",
+        "end_time": "18:00"
+      },
+      {
+        "activity": "socialize",
+        "start_time": "20:00",
+        "end_time": "22:00"
+      },
+      {
+        "activity": "home",
+        "start_time": "22:30",
+        "end_time": "06:30"
+      }
+    ],
+    "metadata": {
+      "person_description": "You are a person with the following attributes:\n- Gender: Female\n- Age: Appropriate skip\n- Education: Bachelor's degree\n- Employment Status: Yes\n- Occupation: Professional, managerial, or technical\n- Work Schedule: Full-time\n- Primary Activity: Working\n- Work from Home: No",
+      "anchors": "1. You typically start your day by waking up around 6:30 AM to prepare for your full-time job.\n2. Your working hours are generally from 9 AM to 6 PM, with a focus on professional tasks.\n3. You often unwind by engaging in a personal hobby or activity after dinner, usually around 8 PM.",
+      "intentions": [
+        {
+          "intention": "go to work",
+          "start_time": "09:00",
+          "end_time": "18:00",
+          "reasoning": "Regular professional work hours; focused on tasks and meetings"
+        },
+        {
+          "intention": "leisure or entertainment",
+          "start_time": "20:00",
+          "end_time": "22:00",
+          "reasoning": "Unwind with a personal hobby or activity after dinner"
+        },
+        {
+          "intention": "go to sleep",
+          "start_time": "22:30",
+          "end_time": "06:30",
+          "reasoning": "Ensure adequate rest for the next workday"
+        }
+      ],
+      "day": "Monday"
+    }
+  }
+]

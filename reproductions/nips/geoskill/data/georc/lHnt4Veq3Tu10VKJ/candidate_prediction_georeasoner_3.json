@@ -1,0 +1,10 @@
+{
+  "country": "Malaysia",
+  "country_code": "my",
+  "city": "",
+  "reasoning_chain": [
+    "The man in the image is wearing a songkok (Islamic cap) and a sarong, which are traditional garments commonly worn in Malaysia, especially among Malay communities.",
+    "The vegetation, including coconut palms and tropical trees, along with the coastal-style architecture and open sky, strongly suggests a tropical Southeast Asian location."
+  ],
+  "raw_output": "{\n  \"country\": \"Malaysia\",\n  \"country_code\": \"my\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The man in the image is wearing a songkok (Islamic cap) and a sarong, which are traditional garments commonly worn in Malaysia, especially among Malay communities.\",\n    \"The vegetation, including coconut palms and tropical trees, along with the coastal-style architecture and open sky, strongly suggests a tropical Southeast Asian location.\",\n    \"The road is unpaved on the sides and lacks clear lane markings, typical of rural or semi-rural roads in Malaysia’s"
+}

@@ -1,0 +1,33 @@
+{
+  "game_id": "HF1MKwIFNCNb4FdM",
+  "round": 1,
+  "sample_id": "georc::HF1MKwIFNCNb4FdM::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "cz",
+    "predicted_region": "europe",
+    "predicted_address": "Sedlec, Plzeň, Plzeň Region, Czech Republic",
+    "predicted_lat": 49.9,
+    "predicted_lng": 13.26666667,
+    "reasoning_text": "```json\n{\n  \"country\": \"Czech Republic\",\n  \"country_code\": \"cz\",\n  \"region\": \"Europe\",\n  \"city\": \"Plzeň\",\n  \"province_or_state\": \"Plzeň Region\",\n  \"address\": \"Sedlec, Plzeň, Plzeň Region, Czech Republic\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"The image shows a rural gravel road with dense deciduous vegetation typical of Central European climate. The wooden construction materials (stacked lumber, corrugated metal) and rural building style with red roof are consistent with Czech countryside. The flat to gently rolling terrain with mixed forest and agricultural use matches the Plzeň Region in western Bohemia. The road condition and lack of pavement suggest a minor local road or forest access road. Given the shortlist options (de, pl, cz), the vegetation density, building architecture, and rural character align most closely with Czech Republic rather than Germany or Poland. The specific location is difficult to pinpoint precisely, but the general area around Plzeň in western Czech Republic has similar landscape characteristics.\",\n  \"evidence\": [\"gravel rural road typical of Czech minor roads\", \"deciduous vegetation consistent with Czech climate\", \"red roof building style common in Czech countryside\", \"stacked lumber and construction materials\", \"mixed forest and agricultural landscape\", \"flat to rolling terrain of western Bohemia\"]\n}\n```",
+    "evidence_spans": [
+      "gravel rural road typical of Czech minor roads",
+      "deciduous vegetation consistent with Czech climate",
+      "red roof building style common in Czech countryside",
+      "stacked lumber and construction materials",
+      "mixed forest and agricultural landscape",
+      "flat to rolling terrain of western Bohemia"
+    ],
+    "confidence": 0.6,
+    "country_top3": [
+      "de",
+      "pl",
+      "cz"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"de\",\"pl\",\"cz\"],\"reason\":\"Rural gravel road with stacked firewood, red-tiled roof house, dense deciduous forest, and temperate climate vegetation. Architecture and landscape strongly suggest Central Europe. The firewood storage style, fence construction, and building materials are most consistent with Germany, though Poland and Czech Republic share similar characteristics.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.7075
+  },
+  "error": null
+}

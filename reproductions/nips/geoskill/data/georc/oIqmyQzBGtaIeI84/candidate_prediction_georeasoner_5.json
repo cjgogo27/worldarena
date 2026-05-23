@@ -1,0 +1,12 @@
+{
+  "country": "Switzerland",
+  "country_code": "ch",
+  "city": "",
+  "reasoning_chain": [
+    "The road sign on the right displays a Swiss flag and text in German, indicating location within Switzerland.",
+    "The narrow, winding asphalt road with no center line is typical of rural Swiss countryside roads.",
+    "Utility poles are wooden and tilted, common in mountainous regions of Switzerland due to terrain and construction practices.",
+    "Vegetation includes grassy slopes and scattered trees, consistent with alpine or pre-alpine environments found in Switzerland."
+  ],
+  "raw_output": "{\n  \"country\": \"Switzerland\",\n  \"country_code\": \"ch\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road sign on the right displays a Swiss flag and text in German, indicating location within Switzerland.\",\n    \"The narrow, winding asphalt road with no center line is typical of rural Swiss countryside roads.\",\n    \"Utility poles are wooden and tilted, common in mountainous regions of Switzerland due to terrain and construction practices.\",\n    \"Vegetation includes grassy slopes and scattered trees, consistent with alpine or pre-alpine environments found in Switzerland.\""
+}

@@ -1,0 +1,165 @@
+[
+  {
+    "skill_text": "The terrain is hilly with rocky soil visible in some places, which fits with the karst landscapes found in the Western Balkans.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "soil",
+      "terrain"
+    ],
+    "source_game_id": "6ypQOh9cOoE7WaWH",
+    "source_round": 1,
+    "score": 0.8978650569915771,
+    "bm25_score": 49.09795379638672,
+    "semantic_score": 0.5113511085510254
+  },
+  {
+    "skill_text": "The road is unpaved and appears to be a rural residential street, common in Eastern European countries.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "67gLC5CcGgkQIWEW",
+    "source_round": 3,
+    "score": 0.8005974292755127,
+    "bm25_score": 33.27702331542969,
+    "semantic_score": 0.5912482142448425
+  },
+  {
+    "skill_text": "The architecture style, with the house coloring and the tiled roof, is typical for rural Bulgarian towns.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "architecture",
+      "roof"
+    ],
+    "source_game_id": "67gLC5CcGgkQIWEW",
+    "source_round": 2,
+    "score": 0.7769659757614136,
+    "bm25_score": 31.31584930419922,
+    "semantic_score": 0.5866690278053284
+  },
+  {
+    "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "3uP6lYo9pzx5Q0km",
+    "source_round": 3,
+    "score": 0.7701866626739502,
+    "bm25_score": 33.10908889770508,
+    "semantic_score": 0.5553336143493652
+  },
+  {
+    "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "6ypQOh9cOoE7WaWH",
+    "source_round": 1,
+    "score": 0.7654087543487549,
+    "bm25_score": 29.46837043762207,
+    "semantic_score": 0.5957502126693726
+  },
+  {
+    "skill_text": "The lone house has simple rectangular architecture with a red-tiled roof, a design frequently seen in rural Croatia, Bosnia and Herzegovina, and Montenegro.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "architecture",
+      "roof",
+      "sign"
+    ],
+    "source_game_id": "6ypQOh9cOoE7WaWH",
+    "source_round": 1,
+    "score": 0.7566546201705933,
+    "bm25_score": 25.20243263244629,
+    "semantic_score": 0.6391584873199463
+  },
+  {
+    "skill_text": "The paved but narrow road without a shoulder is common in rural parts of Germany.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "3uP6lYo9pzx5Q0km",
+    "source_round": 3,
+    "score": 0.728870153427124,
+    "bm25_score": 40.00278854370117,
+    "semantic_score": 0.41578209400177
+  },
+  {
+    "skill_text": "The architecture of the houses in the distance, particularly the red-tiled roofs and low-rise, wide structures, is very common in Southern or Eastern Europe.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "architecture",
+      "roof"
+    ],
+    "source_game_id": "5GS2RPgTrf85UZM5",
+    "source_round": 1,
+    "score": 0.7210195064544678,
+    "bm25_score": 27.61092185974121,
+    "semantic_score": 0.5638737082481384
+  },
+  {
+    "skill_text": "The visible house has a tiled roof which is typical for villages in southern India and coastal Sri Lanka, but especially common in rural Tamil Nadu.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "coast",
+      "roof"
+    ],
+    "source_game_id": "67gLC5CcGgkQIWEW",
+    "source_round": 5,
+    "score": 0.7161028385162354,
+    "bm25_score": 38.35186767578125,
+    "semantic_score": 0.42084410786628723
+  },
+  {
+    "skill_text": "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "lane markings",
+      "road"
+    ],
+    "source_game_id": "9lNwy1vjD53PTSwt",
+    "source_round": 2,
+    "score": 0.6969277858734131,
+    "bm25_score": 26.979488372802734,
+    "semantic_score": 0.5417729616165161
+  },
+  {
+    "skill_text": "The architecture features simple, wooden houses painted white, which is common in Scandinavian countries, particularly in rural Sweden and Norway.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "architecture"
+    ],
+    "source_game_id": "3uP6lYo9pzx5Q0km",
+    "source_round": 2,
+    "score": 0.6956357359886169,
+    "bm25_score": 25.042579650878906,
+    "semantic_score": 0.5648391246795654
+  },
+  {
+    "skill_text": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+    "region_hint": "europe",
+    "confidence": 0.75,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "3uP6lYo9pzx5Q0km",
+    "source_round": 5,
+    "score": 0.6931100487709045,
+    "bm25_score": 34.24713134765625,
+    "semantic_score": 0.44438058137893677
+  }
+]

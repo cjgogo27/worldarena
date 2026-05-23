@@ -1,0 +1,34 @@
+{
+  "game_id": "KTKKKeKESyntpGnS",
+  "round": 1,
+  "sample_id": "georc::KTKKKeKESyntpGnS::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "at",
+    "predicted_region": "europe",
+    "predicted_address": "Hauptstraße, Gerasdorf bei Wien, Lower Austria, Austria",
+    "predicted_lat": 48.2974592,
+    "predicted_lng": 16.4693918,
+    "reasoning_text": "```json\n{\n  \"country\": \"Austria\",\n  \"country_code\": \"at\",\n  \"region\": \"Central Europe\",\n  \"city\": \"Gerasdorf bei Wien\",\n  \"province_or_state\": \"Lower Austria\",\n  \"address\": \"Hauptstraße, Gerasdorf bei Wien, Lower Austria, Austria\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"The image shows a rural road with distinctive features: wide agricultural fields, a separated paved bicycle path running parallel to the road, and chevron road markings indicating a curve or intersection ahead. The road infrastructure, including the style of the bicycle path and the white chevron markings, is consistent with Austrian or German rural roads. The flat terrain and expansive fields suggest the Pannonian Plain region of Lower Austria, near Vienna. The specific road layout with tree-lined paths and the type of agriculture (row crops on large flat fields) is very characteristic of the Marchfeld region in Lower Austria. Gerasdorf bei Wien is a municipality in this region with similar rural road characteristics. Between Germany, Austria, and Netherlands, the Netherlands would typically have more distinctive cycling infrastructure (red asphalt, different signage) and flatter horizons with different field patterns. Germany is possible, but the specific combination of road markings, field patterns, and tree spacing leans slightly more toward Austria. The confidence is moderate due to the limited distinguishing landmarks.\",\n  \"evidence\": [\"Separated paved bicycle path parallel to main road\", \"White chevron/directional arrow road markings\", \"Flat expansive agricultural fields with row crops\", \"Tree-lined road edge with regularly spaced trees\", \"Rural road with no visible buildings\", \"Blue sky with scattered cumulus clouds typical of continental climate\", \"Road width and shoulder configuration typical of Austrian rural B-roads or Landesstraßen\"]\n}\n```",
+    "evidence_spans": [
+      "Separated paved bicycle path parallel to main road",
+      "White chevron/directional arrow road markings",
+      "Flat expansive agricultural fields with row crops",
+      "Tree-lined road edge with regularly spaced trees",
+      "Rural road with no visible buildings",
+      "Blue sky with scattered cumulus clouds typical of continental climate",
+      "Road width and shoulder configuration typical of Austrian rural B-roads or Landesstraßen"
+    ],
+    "confidence": 0.6,
+    "country_top3": [
+      "de",
+      "at",
+      "nl"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"de\",\"at\",\"nl\"],\"reason\":\"Rural European landscape with characteristic features: well-maintained asphalt road with chevron markings, dedicated bike path, orderly agricultural fields, and mature deciduous trees lining the road. The road infrastructure quality, field patterns, and tree-lined rural roads are typical of German-speaking Central Europe. The flat-to-gently-rolling terrain with extensive arable farming matches the North German Plain or similar regions in Austria/Netherlands. No distinctive features to definitively separate Germany from Austria or Netherlands at this coarse level.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.7075
+  },
+  "error": null
+}

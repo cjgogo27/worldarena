@@ -1,0 +1,12 @@
+{
+  "country": "United States",
+  "country_code": "us",
+  "city": "",
+  "reasoning_chain": [
+    "Double yellow center line and right-hand traffic indicate a US highway.",
+    "Dry, grassy plains with no trees or buildings suggest Great Plains region.",
+    "Fence posts and rural road markers are typical of US agricultural landscapes.",
+    "Clear blue sky and open terrain match climate and geography of western US states like Montana or Wyoming."
+  ],
+  "raw_output": "{\n  \"country\": \"United States\",\n  \"country_code\": \"us\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"Double yellow center line and right-hand traffic indicate a US highway.\",\n    \"Dry, grassy plains with no trees or buildings suggest Great Plains region.\",\n    \"Fence posts and rural road markers are typical of US agricultural landscapes.\",\n    \"Clear blue sky and open terrain match climate and geography of western US states like Montana or Wyoming.\"\n  ]\n}"
+}

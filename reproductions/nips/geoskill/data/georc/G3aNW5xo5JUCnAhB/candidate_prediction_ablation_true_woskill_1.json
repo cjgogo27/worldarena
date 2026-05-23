@@ -1,0 +1,33 @@
+{
+  "game_id": "G3aNW5xo5JUCnAhB",
+  "round": 1,
+  "sample_id": "georc::G3aNW5xo5JUCnAhB::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "jp",
+    "predicted_region": "asia",
+    "predicted_address": "Kamitsue, Kurume, Fukuoka Prefecture, Japan",
+    "predicted_lat": 33.23818611,
+    "predicted_lng": 131.61260556,
+    "reasoning_text": "```json\n{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"region\": \"East Asia\",\n  \"city\": \"Kurume\",\n  \"province_or_state\": \"Fukuoka Prefecture\",\n  \"address\": \"Kamitsue, Kurume, Fukuoka Prefecture, Japan\",\n  \"confidence\": 0.6,\n  \"reasoning\": \"The image shows a rural Japanese scene with distinctive features: left-hand driving infrastructure (road and drainage alignment), Japanese-style utility poles with multiple cross-arms and wire configurations typical of Japan, a traditional wooden farm building with a gabled roof common in Japanese countryside, and residential architecture matching Japanese rural homes. The narrow paved farm road with concrete drainage channels is characteristic of Japanese agricultural areas. The vegetation and climate suggest Kyushu region. The building style and landscape are consistent with Fukuoka Prefecture rural areas, particularly around Kurume city which has extensive agricultural zones with this exact type of mixed residential-farm landscape.\",\n  \"evidence\": [\"Left-hand road/drainage infrastructure\", \"Japanese-style utility poles with multiple cross-arms\", \"Traditional wooden gabled farm building\", \"Narrow concrete farm road with drainage channel\", \"Japanese rural residential architecture\", \"Kyushu-like vegetation and flat agricultural terrain\"]\n}\n```",
+    "evidence_spans": [
+      "Left-hand road/drainage infrastructure",
+      "Japanese-style utility poles with multiple cross-arms",
+      "Traditional wooden gabled farm building",
+      "Narrow concrete farm road with drainage channel",
+      "Japanese rural residential architecture",
+      "Kyushu-like vegetation and flat agricultural terrain"
+    ],
+    "confidence": 0.6,
+    "country_top3": [
+      "jp",
+      "kr",
+      "tw"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"jp\",\"kr\",\"tw\"],\"reason\":\"The image shows distinct Japanese rural characteristics: traditional wooden farmhouse architecture with dark timber framing, utility poles with multiple cross-arms typical of Japanese infrastructure, narrow paved rural roads, well-maintained agricultural fields, and residential building styles consistent with Japanese countryside. The vegetation, climate, and overall landscape match Japan's temperate rural areas.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8400000000000001
+  },
+  "error": null
+}

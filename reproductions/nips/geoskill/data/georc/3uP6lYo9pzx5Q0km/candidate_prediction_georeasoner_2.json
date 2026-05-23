@@ -1,0 +1,12 @@
+{
+  "country": "Sweden",
+  "country_code": "se",
+  "city": "",
+  "reasoning_chain": [
+    "The road is narrow, unpaved at edges, and lacks center markings, typical of rural Swedish country roads.",
+    "Utility poles with overhead wires are present, consistent with Swedish rural infrastructure.",
+    "Vegetation includes birch trees and conifers, common in southern Sweden’s temperate climate.",
+    "Architecture shows simple white houses with dark roofs, matching typical Swedish rural housing styles."
+  ],
+  "raw_output": "{\n  \"country\": \"Sweden\",\n  \"country_code\": \"se\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is narrow, unpaved at edges, and lacks center markings, typical of rural Swedish country roads.\",\n    \"Utility poles with overhead wires are present, consistent with Swedish rural infrastructure.\",\n    \"Vegetation includes birch trees and conifers, common in southern Sweden’s temperate climate.\",\n    \"Architecture shows simple white houses with dark roofs, matching typical Swedish rural housing styles.\"\n  ]\n}"
+}

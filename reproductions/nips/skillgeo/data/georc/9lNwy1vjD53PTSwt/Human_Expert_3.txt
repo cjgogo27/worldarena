@@ -1,0 +1,30 @@
+Round 1
+This location features square concrete poles most commonly found in former Soviet countries such as Russia and Ukraine. 
+The architecture is typical for southern regions of Ukraine such as around Dnipro. White painted walls are very common in this region, combined with grey metal sheet roofs with a hipped or dutch gable roof design.
+The landscape fits for southern Ukraine, where there is a warmer climate and a lack of conifers or birch trees. 
+Conclusion: This location is 100% in Ukraine. It is likely in the southern part of the country around the city of Dnipro.
+
+Round 2
+This location features architecture indicative of southern Spain, particularly Andalucia. White walls with yellow motifs around doors and windows are typical for this region.
+The landscape is dry and hilly, with prickly pear cacti and olive trees visible. This vegetation is typical for southern Spain. Eucalyptus is also commonly found along the southern coast of Spain.
+Conclusion: This location is likely in Spain along the southern coast of the country, in the province of Andalucia.
+
+Round 3
+This location features cars with long rectangular license plates with a blue strip on the left side. This type of plate is found in many countries in the EU. Notably, Italy and France both have blue strips on both sides of the plates, and therefore are not likely options here.
+The vegetation indicates a Mediterranean climate, with palms, cypress trees, and aleppo pines visible.
+The architecture best fits for Spain, particularly the Balearic Islands. Light colored tiled roofs are common throughout most of Spain, but shutters are most common in the Balearic Islands and some parts of Catalonia, which have more similarities with France and Italy architecturally.
+Conclusion: This location is almost certainly in Spain, in the Balearic Islands. 
+
+Round 4
+This location features a car with a black license plate with white text. This license plate design is found in the countries of Malaysia, Indonesia, and Singapore.
+There is a sign post back visible which indicates that it is set up for left hand drive. In addition, there are black chevrons on a yellow background used to indicate a oncoming curve in the road. This chevron design is used in both Malaysia and Indonesia, among other countries.
+There is a sign visible which features text in English and Arabic. These two languages on a sign is most indicative of Malaysia, a muslim majority country formerly colonized by Britain, rather than Indonesia or Singapore.
+There are electricity poles visible which are round and made of concrete, and feature no pole top or insulator. This pole design is more common in Malaysia than Indonesia.
+The vegetation is tropical, as is typical for Malaysia. There are many coconut palms visible, which may suggest a more coastal region of the country, such as the coast of Perak or Selangor.
+Conclusion: This location is 100% in Malaysia. It is likely in a coastal region of the country, such as in Perak.
+
+Round 5
+This location features a truck bed visible, which is that of the google streetview vehicle capturing the imagery. A truck was used to capture coverage in several US territories such as the Virgin Islands and American Samoa.
+The infrastructure, such as the use of wooden poles, is typical for the US as well as many of its territories.
+The vegetation is tropical, with bananas and coconut palms, typical for islands such as the Virgin Islands and American Samoa.
+Conclusion: This location is likely in a US territory such as the US Virgin Islands

@@ -1,0 +1,10 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow, unpaved or lightly paved road with no center markings and concrete curbs is typical of rural or semi-rural roads in tropical regions like India.",
+    "Dense tropical vegetation including banana plants, ferns, and broadleaf trees suggests a humid subtropical or tropical climate common in South Asia."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow, unpaved or lightly paved road with no center markings and concrete curbs is typical of rural or semi-rural roads in tropical regions like India.\",\n    \"Dense tropical vegetation including banana plants, ferns, and broadleaf trees suggests a humid subtropical or tropical climate common in South Asia.\",\n    \"Absence of vehicles, streetlights, or modern infrastructure points to a remote or less developed area, consistent with many parts of rural India"
+}

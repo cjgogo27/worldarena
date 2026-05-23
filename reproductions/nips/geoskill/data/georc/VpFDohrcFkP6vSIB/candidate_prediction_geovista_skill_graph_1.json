@@ -1,0 +1,105 @@
+{
+  "game_id": "VpFDohrcFkP6vSIB",
+  "round": 1,
+  "sample_id": "georc::VpFDohrcFkP6vSIB::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "lv",
+    "predicted_region": "europe",
+    "predicted_address": "Dārza iela, Smiltene, Vidzeme, Latvia",
+    "predicted_lat": 57.40667,
+    "predicted_lng": 26.01083,
+    "reasoning_text": "{\n  \"country\": \"Latvia\",\n  \"country_code\": \"lv\",\n  \"region\": \"Northern Europe\",\n  \"city\": \"Smiltene\",\n  \"province_or_state\": \"Vidzeme\",\n  \"address\": \"Dārza iela, Smiltene, Vidzeme, Latvia\",\n  \"confidence\": 0.39,\n  \"reasoning\": \"The scene fits Latvia first: right-hand traffic, a Baltic temperate landscape, Soviet-era low-rise apartment housing, fenced garden plots, and municipal waste containers all match a small Latvian town. Among the shortlist, Latvia is more convincing than Estonia or Lithuania because of the specific mix of apartment block design, road environment, and residential garden layout. The provided base observation already points to Smiltene, and the image supports a residential edge street within that town. With no readable street signage, the most consistent specific guess is a residential road in Smiltene; Dārza iela is the best single candidate because the setting strongly suggests a garden-plot residential street.\",\n  \"evidence\": [\n    \"Right-hand traffic on a narrow local paved road\",\n    \"Post-Soviet low-rise apartment block typical of small Baltic towns\",\n    \"Detached fenced garden plots directly beside multifamily housing\",\n    \"Modern municipal waste container installation\",\n    \"Temperate northern European vegetation and flat-to-gently rolling terrain\",\n    \"Overall residential morphology consistent with Smiltene, Vidzeme\"\n  ]\n}",
+    "evidence_spans": [
+      "Right-hand traffic on a narrow local paved road",
+      "Post-Soviet low-rise apartment block typical of small Baltic towns",
+      "Detached fenced garden plots directly beside multifamily housing",
+      "Modern municipal waste container installation",
+      "Temperate northern European vegetation and flat-to-gently rolling terrain",
+      "Overall residential morphology consistent with Smiltene, Vidzeme"
+    ],
+    "confidence": 0.39,
+    "country_top3": [
+      "lv",
+      "ee",
+      "lt"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"lv\",\"ee\",\"lt\"],\"reason\":\"Baltic/post-Soviet residential environment with right-hand traffic, Soviet-era apartment block beside detached fenced garden plots, temperate vegetation, and municipal infrastructure strongly fit the Baltic states. Latvia is the best match, with Estonia and Lithuania as closest alternatives.\"}",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.77,
+        "pred_country": "lv",
+        "geo_country": "lv",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.32,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Dārza iela, Smiltene, Vidzeme, Latvia"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.7875000000000001,
+        "pred_country": "lv",
+        "geo_country": "lv",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.39,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Dārza iela, Smiltene, Vidzeme, Latvia"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.7825000000000001,
+        "pred_country": "lv",
+        "geo_country": "lv",
+        "country_consistency": 1.0,
+        "address_specificity": 0.45,
+        "confidence": 0.37,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Dārza iela, Smiltene, Vidzeme, Latvia"
+      }
+    ],
+    "selected_candidate_score": 0.7875000000000001,
+    "base_prediction_summary": {
+      "predicted_country": "lv",
+      "predicted_region": "europe",
+      "confidence": 0.37
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Latvia\",\n  \"country_code\": \"lv\",\n  \"region\": \"Northern Europe\",\n  \"city\": \"Smiltene\",\n  \"province_or_state\": \"Vidzeme\",\n  \"address\": \"Residential edge area, Smiltene, Vidzeme, Latvia\",\n  \"confidence\": 0.37,\n  \"reasoning\": \"The scene shows a temperate, post-Soviet residential environm",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "lv"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Kenya",
+  "country_code": "ke",
+  "city": "",
+  "reasoning_chain": [
+    "The road features a single yellow centerline and white edge lines, consistent with Kenyan rural roads under the East African road marking standards.",
+    "Utility poles are wooden and spaced widely, typical of rural infrastructure in Kenya’s highland regions.",
+    "Vegetation includes acacia-like shrubs and grassy slopes, characteristic of the savanna-to-highland transition zone found in central Kenya."
+  ],
+  "raw_output": "{\n  \"country\": \"Kenya\",\n  \"country_code\": \"ke\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road features a single yellow centerline and white edge lines, consistent with Kenyan rural roads under the East African road marking standards.\",\n    \"Utility poles are wooden and spaced widely, typical of rural infrastructure in Kenya’s highland regions.\",\n    \"Vegetation includes acacia-like shrubs and grassy slopes, characteristic of the savanna-to-highland transition zone found in central Kenya.\",\n    \"No visible signage or vehicles, but the"
+}

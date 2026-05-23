@@ -1,0 +1,10 @@
+latent_encoder:
+  action_dim: 7
+  latent_dim: 32
+  feature_dim: 1536
+  hidden_dim: 256
+  num_layers: 2
+  dropout: 0.1
+  kl_weight: 1.0
+  collapse_variance_threshold: 0.001
+  collapse_kl_threshold: 0.001

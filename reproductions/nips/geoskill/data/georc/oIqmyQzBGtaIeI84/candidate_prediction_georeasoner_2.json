@@ -1,0 +1,11 @@
+{
+  "country": "France",
+  "country_code": "fr",
+  "city": "",
+  "reasoning_chain": [
+    "The street sign 'DES FONTAINES' is in French, indicating a location in a French-speaking country, most likely France.",
+    "The architecture features traditional stone buildings with slate roofs, typical of rural France, particularly in regions like Brittany or Normandy.",
+    "The road layout and utility poles are consistent with rural French villages, including the presence of overhead power lines and a lack of modern urban infrastructure."
+  ],
+  "raw_output": "{\n  \"country\": \"France\",\n  \"country_code\": \"fr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The street sign 'DES FONTAINES' is in French, indicating a location in a French-speaking country, most likely France.\",\n    \"The architecture features traditional stone buildings with slate roofs, typical of rural France, particularly in regions like Brittany or Normandy.\",\n    \"The road layout and utility poles are consistent with rural French villages, including the presence of overhead power lines and a lack of modern urban infrastructure.\",\n    \"The vegetation and overcast sky"
+}

@@ -1,0 +1,11 @@
+{
+  "country": "Netherlands",
+  "country_code": "nl",
+  "city": "",
+  "reasoning_chain": [
+    "The blue street sign with white text reading 'Ringweg' is Dutch for 'Ring Road', indicating a location in the Netherlands.",
+    "The brick-paved road and well-maintained hedges are characteristic of Dutch suburban architecture and landscaping.",
+    "Cars are parked on the right side of the road, consistent with right-hand traffic in the Netherlands."
+  ],
+  "raw_output": "{\n  \"country\": \"Netherlands\",\n  \"country_code\": \"nl\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The blue street sign with white text reading 'Ringweg' is Dutch for 'Ring Road', indicating a location in the Netherlands.\",\n    \"The brick-paved road and well-maintained hedges are characteristic of Dutch suburban architecture and landscaping.\",\n    \"Cars are parked on the right side of the road, consistent with right-hand traffic in the Netherlands.\",\n    \"The presence of modern houses with pitched roofs and lush greenery under a partly cloudy"
+}

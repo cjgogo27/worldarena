@@ -1,0 +1,14 @@
+Wide unpaved road with orange-red laterite soil
+No meaningful lane markings visible, weakening the India edge-marking cue
+Dense tropical green vegetation on both sides
+Humid lowland to gently rolling rural landscape
+Simple rural roadside with grassy shoulders and minimal infrastructure
+Visual profile matches laterite-road countryside common in eastern Cambodia, especially Mondulkiri
+Applying the ordered skill graph: (1) the road is unpaved with reddish laterite soil, which strongly indicates a tropical or subtropical setting.
+(2) The India-specific cue about short white dashed edge markings is not supported here because the road appears essentially unmarked, so that branch is weak.
+Through the linked cues from (1), (3) the reddish soil and simple road form fit rural Southeast Asia better than many alternatives.
+(8) Dense green tropical vegetation supports a humid Southeast Asian environment, and (12) the roadside grass and soil reinforce that same humid tropical setting.
+Other ordered alternatives such as Japan, southern Europe, or Central America do not fit the laterite road, vegetation, and overall rural profile as well.
+Within Southeast Asia, the broad orange-red dirt road and open tropical roadside are especially consistent with eastern Cambodia, and Mondulkiri around Sen Monorom is a strong fit for this type of rural laterite landscape.
+Therefore the best consistent location guess is a rural road near Sen Monorom in Mondulkiri Province, Cambodia.
+Conclusion: likely location is Sen Monorom, Mondulkiri, Cambodia

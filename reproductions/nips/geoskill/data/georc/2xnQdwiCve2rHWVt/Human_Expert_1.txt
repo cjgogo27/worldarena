@@ -1,0 +1,47 @@
+Round 1
+Reasoning
+The combination of left-hand drive, concrete square poles, and a dry yet tropical landscape makes Thailand the most likely country
+Large concrete electricity poles with hanging insulators are common along highways in Thailand
+Fan-palms are most common in South Thailand or in the Peninsula, but this is too dry for South Thailand
+This dry landscape is mainly found in central Thailand and possibly eastern Thailand due to the slightly red soil
+The highway stretches directly east, so it could be some stretch of east-west highway north of Bangkok, or highway 12 (which is mostly east-west)
+Conclusion
+This location is 100% in Thailand, likely in central or eastern Thailand
+Round 2
+Reasoning
+The Bengali script on the store banner means we are definitely in Bangladesh
+Although some states in India speak Bengali, they do not have this good generation 4 coverage
+2023 copyright on the coverage means we are not in the capital of Dhaka nor Mymensingh
+The exact region is hard to region-guess since Bengalish looks very close in the east and west
+Conclusion
+This location is 100% in Bangladesh, with the exact region/state being unclear
+
+Round 3
+Reasoning
+The southeast asian landscape (tropical vegetation and south-eastern asian architecture) combined with left-hand drive and asymmetrical concrete poles, makes Indonesia the only possible country
+Reddish soil is mainly found in Sumatra and Kalimantan
+Tape on the electricity pole’s insulator lines is very commonly found in Kalimantan, especially South and Central Kalimantan
+Birdhouses (large rectangular buildings) are also most commonly found in Kalimantan
+A combination of tilted and non-tilted roofs is common in Central and South Kalimantan
+Conclusion
+This location is 100% in Indonesia, highly likely in Central or South Kalimantan
+
+Round 4
+Reasoning
+Poor quality roads and soviet style housing (large square apartment blocks) lead this location to Eastern Europe
+Tiled roofs are most common in Hungary and the eastern parts of Romania
+Electricity poles are too far to see, so it cannot be confirmed if they have the holes in them (which are found in Poland, Romania, and Hungary)
+The landscape is completely flat, making Hungary the most likely country; because of the poor infrastructure, if it is in Hungary, then it is east
+Conclusion
+This location is definitely somewhere in Eastern Europe, likely in the country of Hungary, and probably in the eastern regions
+
+Round 5
+Reasoning
+With the semitropical coastal vegetation (some fuzzy plants and bushes), immediate places that have rare vegetation are South Africa or Europe, and in only the Western countries of Spain and Portugal
+However, since the sun is to the south, this location should be in the Northern Hemisphere, making considerations of Southern Africa and South America unlikely 
+The hilly, rocky nature (with the lack of mountains) makes this location likely to be in some type of national park or reserve
+Northern Portugal is known to have many national parks with this type of coverage 
+Conclusion
+This location is likely to be in Northern Portugal, but there is a slight chance it could be somewhere else on another continent, like coast of South Africa
+
+

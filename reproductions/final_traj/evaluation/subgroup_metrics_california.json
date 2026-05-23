@@ -1,0 +1,159 @@
+{
+  "child_indicator_source": "proxy_household_size_gt_adult_count",
+  "test_users_total": 4417,
+  "test_users_child_matched": 1239,
+  "test_users_child_unmatched": 3178,
+  "generated_child_proxy_counts": {
+    "without_children": 41,
+    "with_children": 4
+  },
+  "generated_household_sizes_available": [
+    2,
+    3,
+    4
+  ],
+  "size_groups": {
+    "2": {
+      "n": 1670,
+      "metrics": {
+        "MarkovChain": {
+          "accuracy": 0.6551334830339322,
+          "edit_dist": 0.34325723552894205,
+          "bleu": 0.683229792867347
+        },
+        "FrequencyBased": {
+          "accuracy": 0.6492265469061876,
+          "edit_dist": 0.34605164670658684,
+          "bleu": 0.5802182992182106
+        },
+        "HoMe-LLM": {
+          "accuracy": 0.6754303892215568,
+          "edit_dist": 0.32207460079840317,
+          "bleu": 0.7060531039996798
+        }
+      }
+    },
+    "3": {
+      "n": 633,
+      "metrics": {
+        "MarkovChain": {
+          "accuracy": 0.6342976566614007,
+          "edit_dist": 0.3640896524486572,
+          "bleu": 0.6633892780187344
+        },
+        "FrequencyBased": {
+          "accuracy": 0.6311216429699842,
+          "edit_dist": 0.36496182201158506,
+          "bleu": 0.5751745205366448
+        },
+        "HoMe-LLM": {
+          "accuracy": 0.6646919431279621,
+          "edit_dist": 0.3331523170089521,
+          "bleu": 0.6824818621309856
+        }
+      }
+    },
+    "4": {
+      "n": 448,
+      "metrics": {
+        "MarkovChain": {
+          "accuracy": 0.6167457217261905,
+          "edit_dist": 0.3818359375,
+          "bleu": 0.6447296979172785
+        },
+        "FrequencyBased": {
+          "accuracy": 0.6237211681547619,
+          "edit_dist": 0.37283761160714285,
+          "bleu": 0.5719979620094098
+        },
+        "HoMe-LLM": {
+          "accuracy": 0.6568080357142857,
+          "edit_dist": 0.34193638392857145,
+          "bleu": 0.6767524262985444
+        }
+      }
+    },
+    "5": {
+      "n": 150,
+      "metrics": {
+        "MarkovChain": {
+          "accuracy": 0.6313888888888889,
+          "edit_dist": 0.3674305555555556,
+          "bleu": 0.6519773792704012
+        },
+        "FrequencyBased": {
+          "accuracy": 0.6227083333333333,
+          "edit_dist": 0.3736111111111111,
+          "bleu": 0.5742188238299216
+        },
+        "HoMe-LLM": {
+          "accuracy": null,
+          "edit_dist": null,
+          "bleu": null
+        }
+      }
+    },
+    "6+": {
+      "n": 43,
+      "metrics": {
+        "MarkovChain": {
+          "accuracy": 0.6310562015503876,
+          "edit_dist": 0.36870155038759694,
+          "bleu": 0.6614039570326885
+        },
+        "FrequencyBased": {
+          "accuracy": 0.622093023255814,
+          "edit_dist": 0.3728197674418604,
+          "bleu": 0.5754955533068206
+        },
+        "HoMe-LLM": {
+          "accuracy": null,
+          "edit_dist": null,
+          "bleu": null
+        }
+      }
+    }
+  },
+  "child_groups": {
+    "without_children": {
+      "n": 1179,
+      "metrics": {
+        "MarkovChain": {
+          "accuracy": 0.6515143483177834,
+          "edit_dist": 0.34655958439355383,
+          "bleu": 0.6783877340334584
+        },
+        "FrequencyBased": {
+          "accuracy": 0.6483071812270286,
+          "edit_dist": 0.3472663980774668,
+          "bleu": 0.5800685046010561
+        },
+        "HoMe-LLM": {
+          "accuracy": 0.6793009612666101,
+          "edit_dist": 0.31853442182640657,
+          "bleu": 0.7057639465540355
+        }
+      }
+    },
+    "with_children": {
+      "n": 60,
+      "metrics": {
+        "MarkovChain": {
+          "accuracy": 0.6098958333333333,
+          "edit_dist": 0.3888888888888888,
+          "bleu": 0.640556414070722
+        },
+        "FrequencyBased": {
+          "accuracy": 0.6350694444444445,
+          "edit_dist": 0.3614583333333334,
+          "bleu": 0.5795022259842348
+        },
+        "HoMe-LLM": {
+          "accuracy": null,
+          "edit_dist": null,
+          "bleu": null
+        }
+      }
+    }
+  }
+}

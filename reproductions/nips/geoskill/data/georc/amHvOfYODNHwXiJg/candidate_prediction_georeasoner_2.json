@@ -1,0 +1,11 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "The roundabout with yield sign (inverted triangle) and blue circular arrow sign indicates a European-style traffic system, consistent with Finland’s road infrastructure.",
+    "The presence of pine trees and sparse deciduous vegetation suggests a northern temperate or boreal climate, typical of Finland’s landscape.",
+    "Road markings and streetlights are modern and standardized, matching Finnish municipal road design in suburban areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The roundabout with yield sign (inverted triangle) and blue circular arrow sign indicates a European-style traffic system, consistent with Finland’s road infrastructure.\",\n    \"The presence of pine trees and sparse deciduous vegetation suggests a northern temperate or boreal climate, typical of Finland’s landscape.\",\n    \"Road markings and streetlights are modern and standardized, matching Finnish municipal road design in suburban areas.\",\n    \"No visible language on signs, but the"
+}

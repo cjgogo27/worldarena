@@ -1,0 +1,671 @@
+{
+  "game_id": "67gLC5CcGgkQIWEW",
+  "round": 1,
+  "sample_id": "georc::67gLC5CcGgkQIWEW::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "hu",
+    "predicted_region": "europe",
+    "predicted_address": "Residential village street, rural eastern Hungary, Hajdu-Bihar County",
+    "predicted_lat": 47.0,
+    "predicted_lng": 20.0,
+    "reasoning_text": "{\n  \"country\": \"Hungary\",\n  \"country_code\": \"hu\",\n  \"region\": \"Central Europe\",\n  \"city\": \"unknown village locality\",\n  \"province_or_state\": \"Hajdu-Bihar\",\n  \"address\": \"Residential village street, rural eastern Hungary, Hajdu-Bihar County\",\n  \"confidence\": 0.56,\n  \"reasoning\": \"Applying the ordered skill graph strictly: Skill 1 suggests an unpaved rural residential street in Eastern Europe; while the road here is actually paved, the rural residential character and Eastern European setting are compatible. Skill 2 points toward central or eastern Ukraine from greenery and architecture, but the fenced plots, masonry gate pillars, paved sidewalk edge, and village-house style fit Hungary better than Ukraine. Skill 3 (Kenyan countryside), Skill 4 (Vietnam), Skill 5 (Japan snowy regions), Skill 7 (Indonesia), and Skill 11 (Central America) conflict with the clearly Central European built environment and can be ruled out. Skill 6 favors southern Europe from the narrow unmarked road, but the housing, utility poles, and plot fencing look more like the Pannonian basin than Mediterranean Europe. Skill 8 mentions Belgian villages, yet the overhead wiring density, simpler detached houses, and fence construction are less Belgian and more East-Central European. Skill 9 suggests flat Poland, which is plausible regionally, but the village streetscape is more characteristically Hungarian. Skill 10 is the strongest fit in the graph: the landscape is flat and if Hungary, then likely the east due to the simpler village infrastructure. Skill 12 (rural Germany) is weaker because the road edge treatment, fencing, and overhead wiring are not typically German. Composing the compatible graph cues leads to a consistent conclusion: a rural village in eastern Hungary, most plausibly on the Great Hungarian Plain, with Hajdu-Bihar as a reasonable county-level guess.\",\n  \"evidence\": [\n    \"narrow paved residential road with no lane markings\",\n    \"right-hand traffic road layout\",\n    \"flat to very gently rolling terrain\",\n    \"dense overhead utility wiring on wooden poles\",\n    \"single-story detached houses with pitched roofs\",\n    \"masonry pillar and metal-panel fencing typical of Hungarian villages\",\n    \"simple plastered village homes and modest infrastructure\",\n    \"temperate green vegetation consistent with the Pannonian plain\"\n  ]\n}",
+    "evidence_spans": [
+      "narrow paved residential road with no lane markings",
+      "right-hand traffic road layout",
+      "flat to very gently rolling terrain",
+      "dense overhead utility wiring on wooden poles",
+      "single-story detached houses with pitched roofs",
+      "masonry pillar and metal-panel fencing typical of Hungarian villages",
+      "simple plastered village homes and modest infrastructure",
+      "temperate green vegetation consistent with the Pannonian plain"
+    ],
+    "confidence": 0.56,
+    "base_prediction_summary": {
+      "predicted_country": "hu",
+      "predicted_region": "europe",
+      "confidence": 0.39
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The road is unpaved and appears to be a rural residential street, common in Eastern European countries.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 3,
+        "score": 0.9575786590576172,
+        "bm25_score": 31.429813385009766,
+        "semantic_score": 0.5833214521408081
+      },
+      {
+        "skill_text": "Given the green, fertile landscape and architectural cues, the village is likely in central or eastern Ukraine.",
+        "region_hint": "europe",
+        "confidence": 0.75,
+        "visual_cues": [
+          "Given",
+          "fertile",
+          "green",
+          "landscape"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 1,
+        "score": 0.9283376336097717,
+        "bm25_score": 31.571537017822266,
+        "semantic_score": 0.5478014945983887
+      },
+      {
+        "skill_text": "The landscape features gently rolling hills and distant scattered homes with tin roofs, typical of the Kenyan countryside outside larger cities.",
+        "region_hint": "africa",
+        "confidence": 0.65,
+        "visual_cues": [
+          "roof"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 4,
+        "score": 0.9164469242095947,
+        "bm25_score": 32.134239196777344,
+        "semantic_score": 0.5249181985855103
+      },
+      {
+        "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 2,
+        "score": 0.8648293018341064,
+        "bm25_score": 29.532779693603516,
+        "semantic_score": 0.5098651051521301
+      },
+      {
+        "skill_text": "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "roof"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 4,
+        "score": 0.8633261919021606,
+        "bm25_score": 33.925926208496094,
+        "semantic_score": 0.4347553253173828
+      },
+      {
+        "skill_text": "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 2,
+        "score": 0.8632192015647888,
+        "bm25_score": 24.82361602783203,
+        "semantic_score": 0.586725652217865
+      },
+      {
+        "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "region_hint": "asia",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 3,
+        "score": 0.859408438205719,
+        "bm25_score": 32.2743034362793,
+        "semantic_score": 0.4579107463359833
+      },
+      {
+        "skill_text": "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 5,
+        "score": 0.8558904528617859,
+        "bm25_score": 28.794416427612305,
+        "semantic_score": 0.5120680928230286
+      },
+      {
+        "skill_text": "The overall flat terrain with dense forests matches the Mazovian region of Poland.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "terrain"
+        ],
+        "source_game_id": "4UvmdTHySo6AXW4M",
+        "source_round": 3,
+        "score": 0.8365422487258911,
+        "bm25_score": 30.294069290161133,
+        "semantic_score": 0.4650743007659912
+      },
+      {
+        "skill_text": "The landscape is completely flat, making Hungary the most likely country; because of the poor infrastructure, if it is in Hungary, then it is east",
+        "region_hint": "europe",
+        "confidence": 0.75,
+        "visual_cues": [
+          "completely",
+          "flat",
+          "landscape",
+          "making"
+        ],
+        "source_game_id": "2xnQdwiCve2rHWVt",
+        "source_round": 4,
+        "score": 0.8319400548934937,
+        "bm25_score": 23.47176742553711,
+        "semantic_score": 0.5738512873649597
+      },
+      {
+        "skill_text": "The road is narrow, unmarked, and partially paved, typical of rural roads in developing countries, especially in Central America.",
+        "region_hint": "unknown",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3OuVMcpGjmm0tVfG",
+        "source_round": 1,
+        "score": 0.8265259265899658,
+        "bm25_score": 25.509305953979492,
+        "semantic_score": 0.5336675643920898
+      },
+      {
+        "skill_text": "The paved but narrow road without a shoulder is common in rural parts of Germany.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "3uP6lYo9pzx5Q0km",
+        "source_round": 3,
+        "score": 0.81553053855896,
+        "bm25_score": 29.5440616607666,
+        "semantic_score": 0.45378434658050537
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The road is unpaved and appears to be a rural residential street, common in Eastern European countries.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.9575786590576172,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "Given the green, fertile landscape and architectural cues, the village is likely in central or eastern Ukraine.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.9283376336097717,
+          "visual_cues": [
+            "Given",
+            "fertile",
+            "green",
+            "landscape"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The landscape features gently rolling hills and distant scattered homes with tin roofs, typical of the Kenyan countryside outside larger cities.",
+          "region_hint": "africa",
+          "confidence": 0.65,
+          "score": 0.9164469242095947,
+          "visual_cues": [
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The overall condition and layout of the road fit rural areas in Vietnam.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8648293018341064,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.8633261919021606,
+          "visual_cues": [
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8632192015647888,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+          "region_hint": "asia",
+          "confidence": 0.65,
+          "score": 0.859408438205719,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8558904528617859,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The overall flat terrain with dense forests matches the Mazovian region of Poland.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.8365422487258911,
+          "visual_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The landscape is completely flat, making Hungary the most likely country; because of the poor infrastructure, if it is in Hungary, then it is east",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.8319400548934937,
+          "visual_cues": [
+            "completely",
+            "flat",
+            "landscape",
+            "making"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The road is narrow, unmarked, and partially paved, typical of rural roads in developing countries, especially in Central America.",
+          "region_hint": "unknown",
+          "confidence": 0.65,
+          "score": 0.8265259265899658,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The paved but narrow road without a shoulder is common in rural parts of Germany.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.81553053855896,
+          "visual_cues": [
+            "road"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "landscape"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The road is unpaved and appears to be a rural residential street, common in Eastern European countries.",
+        "Given the green, fertile landscape and architectural cues, the village is likely in central or eastern Ukraine.",
+        "The landscape features gently rolling hills and distant scattered homes with tin roofs, typical of the Kenyan countryside outside larger cities.",
+        "The overall condition and layout of the road fit rural areas in Vietnam.",
+        "The style of the rural houses in the background, with their sloped metal roofs, is characteristic of Japan, especially snowy regions.",
+        "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+        "The road is narrow and paved with simple asphalt, a feature often seen in Indonesian residential neighborhoods.",
+        "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+        "The overall flat terrain with dense forests matches the Mazovian region of Poland.",
+        "The landscape is completely flat, making Hungary the most likely country; because of the poor infrastructure, if it is in Hungary, then it is east",
+        "The road is narrow, unmarked, and partially paved, typical of rural roads in developing countries, especially in Central America.",
+        "The paved but narrow road without a shoulder is common in rural parts of Germany."
+      ],
+      "summary": "nodes=12, edges=37, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Hungary\",\n  \"country_code\": \"hu\",\n  \"region\": \"Central Europe\",\n  \"city\": \"unknown village locality\",\n  \"province_or_state\": \"Hungary\",\n  \"address\": \"Residential village street, rural Hungary\",\n  \"confidence\": 0.39,\n  \"reasoning\": \"The scene shows a narrow paved village road with rig",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 37,
+        "graph_summary": "nodes=12, edges=37, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "hu"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

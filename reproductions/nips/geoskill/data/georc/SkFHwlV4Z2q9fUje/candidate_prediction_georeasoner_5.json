@@ -1,0 +1,11 @@
+{
+  "country": "India",
+  "country_code": "in",
+  "city": "",
+  "reasoning_chain": [
+    "The Devanagari script on the wall sign ('सेवक रोही उस्माना') confirms location in India, where Hindi is widely used.",
+    "The vehicle is driving on the left side of the road, consistent with India’s traffic rules.",
+    "The dry, dusty terrain with sparse vegetation and scattered trees suggests a semi-arid region typical of central or western India."
+  ],
+  "raw_output": "{\n  \"country\": \"India\",\n  \"country_code\": \"in\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The Devanagari script on the wall sign ('सेवक रोही उस्माना') confirms location in India, where Hindi is widely used.\",\n    \"The vehicle is driving on the left side of the road, consistent with India’s traffic rules.\",\n    \"The dry, dusty terrain with sparse vegetation and scattered trees suggests a semi-arid region typical of central or western India.\",\n    \"Simple brick structures and unpaved shoulders alongside a"
+}

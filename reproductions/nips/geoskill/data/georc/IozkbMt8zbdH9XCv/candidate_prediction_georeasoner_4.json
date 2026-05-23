@@ -1,0 +1,11 @@
+{
+  "country": "Bangladesh",
+  "country_code": "bd",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of Bengali script on the blue tarp and purple banner indicates a location in Bangladesh or West Bengal, India; combined with rural architecture and vegetation, Bangladesh is more likely.",
+    "The unpaved, narrow road with visible potholes and lack of formal markings is typical of rural areas in Bangladesh.",
+    "Utility poles with overhead wires and simple concrete structures are common in Bangladeshi villages."
+  ],
+  "raw_output": "{\n  \"country\": \"Bangladesh\",\n  \"country_code\": \"bd\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of Bengali script on the blue tarp and purple banner indicates a location in Bangladesh or West Bengal, India; combined with rural architecture and vegetation, Bangladesh is more likely.\",\n    \"The unpaved, narrow road with visible potholes and lack of formal markings is typical of rural areas in Bangladesh.\",\n    \"Utility poles with overhead wires and simple concrete structures are common in Bangladeshi villages.\",\n    \"Lush green rice padd"
+}

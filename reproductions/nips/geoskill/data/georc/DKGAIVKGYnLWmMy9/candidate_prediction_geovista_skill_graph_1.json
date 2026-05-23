@@ -1,0 +1,950 @@
+{
+  "game_id": "DKGAIVKGYnLWmMy9",
+  "round": 1,
+  "sample_id": "georc::DKGAIVKGYnLWmMy9::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "hr",
+    "predicted_region": "europe",
+    "predicted_address": "Regional highway in the karst highlands near Perušić, Lika-Senj County, Croatia",
+    "predicted_lat": 44.707,
+    "predicted_lng": 15.174,
+    "reasoning_text": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"region\": \"Southern Europe / Western Balkans\",\n  \"city\": \"Perušić vicinity\",\n  \"province_or_state\": \"Lika-Senj County\",\n  \"address\": \"Regional highway in the karst highlands near Perušić, Lika-Senj County, Croatia\",\n  \"confidence\": 0.67,\n  \"reasoning\": \"Applying the ordered skills strictly: (1) the hilly terrain with exposed rocky soil strongly matches the karst landscapes of the Western Balkans. (2) The road engineering, guardrails, and overall infrastructure quality fit European standards and are compatible with Croatia. (3) The dashed center line and wide white edge lines are clearly European and lean more toward Central/Eastern Europe than Western Europe. (4) The light-colored rocky roadside and rural southern-European feel are typical of former Yugoslav karst regions. (5) Although the pavement is modern here, the overall rural mountain-road setting still fits a non-core-Western-European but well-developed Balkan corridor. (6) The suggestion of Australian-style bollards conflicts with the clearly European signage, right-hand traffic, and Balkan landscape, so this cue is rejected as inconsistent with the higher-priority skills. (7) Latvia near Riga is inconsistent with the limestone karst, dry rocky shoulders, and Balkan-style warning sign, so it is rejected. (8) The road is in a rural southern-European setting, reinforcing an inland Adriatic-hinterland location. (9) The markings are European, but the total scene is more consistent with Croatia than Bulgaria because of the road build quality, guardrails, and Dinaric karst environment. (10) A generic rural Eastern Europe interpretation is too broad; the landscape more specifically indicates the western Balkans. (11) The semi-open forest, shrubs, and inland-but-Adriatic-influenced vegetation support the Croatian karst hinterland rather than the immediate coast. (12) Russia is inconsistent with the bright limestone, Mediterranean-influenced vegetation, and European triangular curve warning sign, so it is rejected. Composing the linked skills, skill 1 supports skills 2, 3, 4, 5, 8, 9, 10, and 11, producing a consistent western-Balkan karst-road interpretation; skill 2 further supports that European/Croatian reading. Altogether, the most consistent location is a regional road in the Lika karst highlands of Croatia, with Lika-Senj County the best fit.\",\n  \"evidence\": [\n    \"Exposed bright limestone and rocky shoulders typical of Dinaric karst\",\n    \"Hilly, forested inland terrain consistent with Lika highlands\",\n    \"Right-hand driving on a modern two-lane European road\",\n    \"Red-bordered triangular curve warning sign in European style\",\n    \"White center and edge lines consistent with Croatian regional roads\",\n    \"Strong guardrails and recent paving typical of upgraded Croatian infrastructure\",\n    \"Vegetation suggests inland Adriatic climatic influence rather than northern Europe\",\n    \"Overall scene matches the western Balkan karst hinterland better than Bulgaria, Latvia, or Russia\"\n  ]\n}",
+    "evidence_spans": [
+      "Exposed bright limestone and rocky shoulders typical of Dinaric karst",
+      "Hilly, forested inland terrain consistent with Lika highlands",
+      "Right-hand driving on a modern two-lane European road",
+      "Red-bordered triangular curve warning sign in European style",
+      "White center and edge lines consistent with Croatian regional roads",
+      "Strong guardrails and recent paving typical of upgraded Croatian infrastructure",
+      "Vegetation suggests inland Adriatic climatic influence rather than northern Europe",
+      "Overall scene matches the western Balkan karst hinterland better than Bulgaria, Latvia, or Russia"
+    ],
+    "confidence": 0.67,
+    "base_prediction_summary": {
+      "predicted_country": "hr",
+      "predicted_region": "europe",
+      "confidence": 0.56
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The terrain is hilly with rocky soil visible in some places, which fits with the karst landscapes found in the Western Balkans.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "soil",
+          "terrain"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 1,
+        "score": 1.0,
+        "bm25_score": 47.40576934814453,
+        "semantic_score": 0.6318971514701843
+      },
+      {
+        "skill_text": "The mix of vehicles and road infrastructure are consistent with Western European standards.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "74bPHM081cMUaNKT",
+        "source_round": 3,
+        "score": 0.7355556488037109,
+        "bm25_score": 37.6519775390625,
+        "semantic_score": 0.42658036947250366
+      },
+      {
+        "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "5GS2RPgTrf85UZM5",
+        "source_round": 1,
+        "score": 0.7291845083236694,
+        "bm25_score": 32.57686233520508,
+        "semantic_score": 0.4865064322948456
+      },
+      {
+        "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 1,
+        "score": 0.6731694936752319,
+        "bm25_score": 17.333398818969727,
+        "semantic_score": 0.619634211063385
+      },
+      {
+        "skill_text": "The road conditions, including cracked pavement, suggest a region not in Western Europe, but with significant urban infrastructure.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "sign"
+        ],
+        "source_game_id": "1NJsXTxIF9GGMDxC",
+        "source_round": 3,
+        "score": 0.6691568493843079,
+        "bm25_score": 24.860328674316406,
+        "semantic_score": 0.5136507153511047
+      },
+      {
+        "skill_text": "The bollards (street posts with reflectors) on the side of the road are unique to Australia, but possibly found in countries in Europe but this climate can never be Europe",
+        "region_hint": "oceania",
+        "confidence": 0.55,
+        "visual_cues": [
+          "bollard",
+          "climate",
+          "road"
+        ],
+        "source_game_id": "56Q4T4rpv9O9sCpP",
+        "source_round": 4,
+        "score": 0.6686286926269531,
+        "bm25_score": 34.410457611083984,
+        "semantic_score": 0.3849779963493347
+      },
+      {
+        "skill_text": "Given the road construction, forest type, and climate, the most likely location is Latvia, possibly near Riga, in the countryside.",
+        "region_hint": "europe",
+        "confidence": 0.75,
+        "visual_cues": [
+          "climate",
+          "road"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 3,
+        "score": 0.6612186431884766,
+        "bm25_score": 28.07274055480957,
+        "semantic_score": 0.46050673723220825
+      },
+      {
+        "skill_text": "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 2,
+        "score": 0.651421070098877,
+        "bm25_score": 23.378971099853516,
+        "semantic_score": 0.5109673738479614
+      },
+      {
+        "skill_text": "The road markings are thin and unbroken, similar to Bulgarian road standards as opposed to the thicker Serbian markings.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "67gLC5CcGgkQIWEW",
+        "source_round": 2,
+        "score": 0.6480544805526733,
+        "bm25_score": 22.04792022705078,
+        "semantic_score": 0.5245295166969299
+      },
+      {
+        "skill_text": "The road condition and absence of lane markings suggest a rural area in Eastern Europe.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "lane markings",
+          "road"
+        ],
+        "source_game_id": "9lNwy1vjD53PTSwt",
+        "source_round": 1,
+        "score": 0.6444237232208252,
+        "bm25_score": 20.56058120727539,
+        "semantic_score": 0.5398505926132202
+      },
+      {
+        "skill_text": "The absence of pine trees and presence of broad-leaved shrubs and semi-open terrain supports a location away from the Adriatic coast but within its influence.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "coast",
+          "road",
+          "terrain",
+          "trees"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 1,
+        "score": 0.640792965888977,
+        "bm25_score": 29.41657257080078,
+        "semantic_score": 0.41653889417648315
+      },
+      {
+        "skill_text": "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "road",
+          "soil"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 3,
+        "score": 0.6313894987106323,
+        "bm25_score": 20.016496658325195,
+        "semantic_score": 0.5305795073509216
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The terrain is hilly with rocky soil visible in some places, which fits with the karst landscapes found in the Western Balkans.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 1.0,
+          "visual_cues": [
+            "soil",
+            "terrain"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The mix of vehicles and road infrastructure are consistent with Western European standards.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7355556488037109,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7291845083236694,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6731694936752319,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The road conditions, including cracked pavement, suggest a region not in Western Europe, but with significant urban infrastructure.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6691568493843079,
+          "visual_cues": [
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The bollards (street posts with reflectors) on the side of the road are unique to Australia, but possibly found in countries in Europe but this climate can never be Europe",
+          "region_hint": "oceania",
+          "confidence": 0.55,
+          "score": 0.6686286926269531,
+          "visual_cues": [
+            "bollard",
+            "climate",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "Given the road construction, forest type, and climate, the most likely location is Latvia, possibly near Riga, in the countryside.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.6612186431884766,
+          "visual_cues": [
+            "climate",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.651421070098877,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The road markings are thin and unbroken, similar to Bulgarian road standards as opposed to the thicker Serbian markings.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6480544805526733,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The road condition and absence of lane markings suggest a rural area in Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6444237232208252,
+          "visual_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The absence of pine trees and presence of broad-leaved shrubs and semi-open terrain supports a location away from the Adriatic coast but within its influence.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.640792965888977,
+          "visual_cues": [
+            "coast",
+            "road",
+            "terrain",
+            "trees"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6313894987106323,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "terrain"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "soil"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "climate",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "lane markings",
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        }
+      ],
+      "ordered_skill_texts": [
+        "The terrain is hilly with rocky soil visible in some places, which fits with the karst landscapes found in the Western Balkans.",
+        "The mix of vehicles and road infrastructure are consistent with Western European standards.",
+        "The road markings are distinctively European, especially the dashed center lines and wide white edge lines, and are not typical of Western Europe, hinting more toward Central or Eastern Europe.",
+        "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "The road conditions, including cracked pavement, suggest a region not in Western Europe, but with significant urban infrastructure.",
+        "The bollards (street posts with reflectors) on the side of the road are unique to Australia, but possibly found in countries in Europe but this climate can never be Europe",
+        "Given the road construction, forest type, and climate, the most likely location is Latvia, possibly near Riga, in the countryside.",
+        "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+        "The road markings are thin and unbroken, similar to Bulgarian road standards as opposed to the thicker Serbian markings.",
+        "The road condition and absence of lane markings suggest a rural area in Eastern Europe.",
+        "The absence of pine trees and presence of broad-leaved shrubs and semi-open terrain supports a location away from the Adriatic coast but within its influence.",
+        "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia"
+      ],
+      "summary": "nodes=12, edges=65, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Croatia\",\n  \"country_code\": \"hr\",\n  \"region\": \"Southern Europe / Western Balkans\",\n  \"city\": \"Unknown\",\n  \"province_or_state\": \"Lika-Senj County\",\n  \"address\": \"Regional highway in the karst highlands of Lika-Senj County, Croatia\",\n  \"confidence\": 0.56,\n  \"reasoning\": \"The road envir",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 65,
+        "graph_summary": "nodes=12, edges=65, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "hr"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

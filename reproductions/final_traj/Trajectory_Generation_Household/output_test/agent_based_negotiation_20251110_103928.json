@@ -1,0 +1,353 @@
+[
+  {
+    "household_id": "30007884",
+    "household_info": {
+      "household_id": "30007884",
+      "home_ownership": "Own",
+      "household_size": 2,
+      "vehicle_count": 2,
+      "household_income": "$35,000 to $49,999",
+      "driver_count": 2,
+      "adult_count": 2,
+      "young_children_count": 0,
+      "msa_size": "In an MSA of 500,000 - 999,999",
+      "urban_area": "Not in urban area",
+      "household_race": "White",
+      "household_hispanic": "No",
+      "state": "California"
+    },
+    "members": {
+      "30007884_1": {
+        "user_id": "30007884_1",
+        "age_range": "Appropriate skip",
+        "hispanic": "No, Not Hispanic or Latino",
+        "relationship": "Self",
+        "gender": "Female",
+        "race": "White",
+        "education": "Bachelor's degree",
+        "employment_status": "Yes",
+        "traveled_abroad": "No",
+        "distance_to_work_miles": 44.21,
+        "work_state": "California",
+        "driver_on_travel_day": "Yes",
+        "work_from_home": "No",
+        "work_schedule": "Full-time",
+        "occupation": "Clerical or administrative support",
+        "primary_activity": "Working"
+      },
+      "30007884_2": {
+        "user_id": "30007884_2",
+        "age_range": "Appropriate skip",
+        "hispanic": "No, Not Hispanic or Latino",
+        "relationship": "Non-relative",
+        "gender": "Female",
+        "race": "White",
+        "education": "High school graduate or GED",
+        "employment_status": "Yes",
+        "traveled_abroad": "No",
+        "distance_to_work_miles": 7.81,
+        "work_state": "California",
+        "driver_on_travel_day": "Yes",
+        "work_from_home": "No",
+        "work_schedule": "Full-time",
+        "occupation": "Clerical or administrative support",
+        "primary_activity": "Working"
+      }
+    },
+    "phase1_mandatory": {
+      "30007884_1": {
+        "mandatory_activities": [
+          {
+            "activity": "work",
+            "start_time": "08:30",
+            "end_time": "17:15",
+            "uses_vehicle": true,
+            "reasoning": "Full-time worker with a commute to work"
+          }
+        ]
+      },
+      "30007884_2": {
+        "mandatory_activities": [
+          {
+            "activity": "work",
+            "start_time": "08:30",
+            "end_time": "17:15",
+            "uses_vehicle": true,
+            "reasoning": "Full-time worker"
+          }
+        ]
+      }
+    },
+    "phase2_household_tasks": {
+      "household_tasks": [
+        {
+          "task_id": "grocery_shopping",
+          "activity": "shopping",
+          "duration_minutes": 60,
+          "priority": "high"
+        },
+        {
+          "task_id": "vehicle_maintenance",
+          "activity": "car maintenance",
+          "duration_minutes": 120,
+          "priority": "medium"
+        },
+        {
+          "task_id": "house_cleaning",
+          "activity": "cleaning",
+          "duration_minutes": 90,
+          "priority": "medium"
+        }
+      ]
+    },
+    "phase2_allocation": {
+      "family_discussion": [
+        {
+          "speaker": "30007884_1",
+          "statement": "Since both of us have the same work schedule today, from 8:30 AM to 5:15 PM, neither of us will be available during the daytime to handle any tasks. However, after work, I can take care of the grocery shopping around 6 PM since it should only take about an hour. \n\nFor vehicle maintenance, which takes about 2 hours, perhaps it could be scheduled for a weekend or a day when one of us has more time off during the week. As for house cleaning, it might be more manageable if we split it after dinner, or perhaps tackle it together over the weekend when both of us have more time. Let me know what you think!"
+        },
+        {
+          "speaker": "30007884_2",
+          "statement": "Given both of us have the same work schedule from 8:30 to 5:15, it might be a bit challenging to do tasks during the workday. However, I can handle grocery shopping after work around 6 pm, as it's only about an hour. For vehicle maintenance, since it takes quite a bit longer, maybe we can schedule it for the weekend when we're both free. As for house cleaning, we could either tackle it together after dinner or split the chores over a couple of days in the evening. What do you think?"
+        },
+        {
+          "speaker": "30007884_1",
+          "statement": "That sounds like a good plan! I'll take care of the vehicle maintenance this weekend, and we can split the house cleaning tasks after dinner a couple of evenings this week."
+        },
+        {
+          "speaker": "30007884_2",
+          "statement": "Sounds perfect! I'll handle the grocery shopping tonight and we can tackle the house cleaning together after dinner as planned."
+        },
+        {
+          "speaker": "30007884_1",
+          "statement": "Great! Thanks for taking care of the grocery shopping tonight. I’ll see you after work, and we can start with the house cleaning after dinner."
+        },
+        {
+          "speaker": "30007884_2",
+          "statement": "Looking forward to it! Let's make sure we have a quick dinner so we have more time for cleaning."
+        },
+        {
+          "speaker": "30007884_1",
+          "statement": "Sure thing, I'll make sure dinner is ready quickly so we can get a head start on the cleaning. See you after work!"
+        },
+        {
+          "speaker": "30007884_2",
+          "statement": "I’ll see you after work, and thanks for handling dinner. We'll get through the cleaning quickly and still have some time to relax."
+        },
+        {
+          "speaker": "30007884_1",
+          "statement": "I'll plan something simple for dinner so we can dive into cleaning right after. Looking forward to having some downtime together afterward!"
+        },
+        {
+          "speaker": "30007884_2",
+          "statement": "Great plan! I'll make sure to swing by the store right after work, and I'm looking forward to our downtime after we tackle the chores."
+        },
+        {
+          "speaker": "30007884_1",
+          "statement": "Sounds perfect! I'll be ready with dinner when you get back from the store, and then we can tackle the cleaning together."
+        },
+        {
+          "speaker": "30007884_2",
+          "statement": "I'll grab what we need quickly, and I'll see you at home. I'm excited to unwind together after we finish up!"
+        },
+        {
+          "speaker": "30007884_1",
+          "statement": "Looking forward to it! Safe travels on your way back, and I'll have dinner ready by the time you arrive."
+        },
+        {
+          "speaker": "30007884_2",
+          "statement": "Thanks! I'll head straight to the store after work and see you soon. Can't wait for dinner and some relaxing time together!"
+        }
+      ],
+      "negotiation_summary": "After 14 exchanges, family reached consensus through multi-agent negotiation using Agent instances.",
+      "task_allocations": [
+        {
+          "task_id": "grocery_shopping",
+          "assigned_to": "30007884_2",
+          "scheduled_time": {
+            "start": "18:00",
+            "end": "19:00"
+          },
+          "reasoning": "30007884_2 volunteered to handle grocery shopping after work."
+        },
+        {
+          "task_id": "vehicle_maintenance",
+          "assigned_to": "30007884_1",
+          "scheduled_time": "weekend",
+          "reasoning": "30007884_1 volunteered to handle vehicle maintenance over the weekend."
+        },
+        {
+          "task_id": "house_cleaning",
+          "assigned_to": "both",
+          "scheduled_time": "after dinner on a couple of evenings during the week",
+          "reasoning": "Both agreed to split the house cleaning tasks after dinner on a couple of evenings."
+        }
+      ]
+    },
+    "phase3_personal": {
+      "30007884_1": {
+        "personal_activities": [
+          {
+            "activity": "exercise",
+            "start_time": "19:00",
+            "end_time": "20:00",
+            "uses_vehicle": false,
+            "reasoning": "Evening gym session"
+          },
+          {
+            "activity": "dine_out",
+            "start_time": "20:30",
+            "end_time": "22:00",
+            "uses_vehicle": true,
+            "reasoning": "Dinner at a local restaurant to enjoy a relaxing meal and unwind after a busy workday."
+          },
+          {
+            "activity": "socialize",
+            "start_time": "17:45",
+            "end_time": "18:45",
+            "uses_vehicle": false,
+            "reasoning": "Catching up with a friend over coffee at a nearby cafe."
+          }
+        ]
+      },
+      "30007884_2": {
+        "personal_activities": [
+          {
+            "activity": "exercise",
+            "start_time": "19:00",
+            "end_time": "20:00",
+            "uses_vehicle": false,
+            "reasoning": "An evening gym session is a great way to unwind after a day of work and errands."
+          },
+          {
+            "activity": "dine_out",
+            "start_time": "20:15",
+            "end_time": "21:30",
+            "uses_vehicle": true,
+            "reasoning": "Enjoy a meal at a local restaurant to treat yourself after a productive day."
+          },
+          {
+            "activity": "socialize",
+            "start_time": "21:45",
+            "end_time": "23:00",
+            "uses_vehicle": false,
+            "reasoning": "Relax with friends or family at home or a nearby cafe to catch up on the day's events."
+          }
+        ]
+      }
+    },
+    "phase4_schedules": {
+      "30007884_1": {
+        "full_schedule": [
+          {
+            "activity": "home",
+            "start_time": "00:00",
+            "end_time": "07:30"
+          },
+          {
+            "activity": "dropoff_pickup",
+            "start_time": "07:30",
+            "end_time": "08:00"
+          },
+          {
+            "activity": "work",
+            "start_time": "08:00",
+            "end_time": "12:00"
+          },
+          {
+            "activity": "vehicle_maintenance",
+            "start_time": "12:00",
+            "end_time": "13:00"
+          },
+          {
+            "activity": "work",
+            "start_time": "13:00",
+            "end_time": "17:15"
+          },
+          {
+            "activity": "socialize",
+            "start_time": "17:15",
+            "end_time": "18:15"
+          },
+          {
+            "activity": "home",
+            "start_time": "18:15",
+            "end_time": "19:00"
+          },
+          {
+            "activity": "exercise",
+            "start_time": "19:00",
+            "end_time": "20:00"
+          },
+          {
+            "activity": "home",
+            "start_time": "20:00",
+            "end_time": "20:30"
+          },
+          {
+            "activity": "dine_out",
+            "start_time": "20:30",
+            "end_time": "22:00"
+          },
+          {
+            "activity": "home",
+            "start_time": "22:00",
+            "end_time": "24:00"
+          }
+        ]
+      },
+      "30007884_2": {
+        "full_schedule": [
+          {
+            "activity": "home",
+            "start_time": "00:00",
+            "end_time": "07:00"
+          },
+          {
+            "activity": "dropoff_pickup",
+            "start_time": "07:00",
+            "end_time": "08:00"
+          },
+          {
+            "activity": "work",
+            "start_time": "08:00",
+            "end_time": "17:15"
+          },
+          {
+            "activity": "home",
+            "start_time": "17:15",
+            "end_time": "18:00"
+          },
+          {
+            "activity": "shopping",
+            "start_time": "18:00",
+            "end_time": "19:00"
+          },
+          {
+            "activity": "exercise",
+            "start_time": "19:00",
+            "end_time": "20:00"
+          },
+          {
+            "activity": "dine_out",
+            "start_time": "20:00",
+            "end_time": "21:30"
+          },
+          {
+            "activity": "socialize",
+            "start_time": "21:30",
+            "end_time": "23:00"
+          },
+          {
+            "activity": "home",
+            "start_time": "23:00",
+            "end_time": "24:00"
+          }
+        ]
+      }
+    },
+    "generation_time": "2025-11-10T10:39:28.723781",
+    "agent_based": true,
+    "agents_count": 2
+  }
+]

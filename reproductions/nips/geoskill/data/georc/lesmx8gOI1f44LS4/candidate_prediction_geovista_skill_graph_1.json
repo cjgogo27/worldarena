@@ -1,0 +1,108 @@
+{
+  "game_id": "lesmx8gOI1f44LS4",
+  "round": 1,
+  "sample_id": "georc::lesmx8gOI1f44LS4::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "pt",
+    "predicted_region": "europe",
+    "predicted_address": "EN125 road, Almancil, Faro District, Portugal",
+    "predicted_lat": 37.08686,
+    "predicted_lng": -8.03074,
+    "reasoning_text": "```json\n{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"region\": \"Southern Europe\",\n  \"city\": \"Almancil\",\n  \"province_or_state\": \"Faro District\",\n  \"address\": \"EN125 road, Almancil, Faro District, Portugal\",\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly supports Portugal, specifically the Algarve region. The English 'STOP' sign and road marking is standard in Portugal, particularly in tourist areas like the Algarve, rather than the Portuguese 'PARE'. The Dracaena draco (dragon tree) plants are iconic to Macaronesia and widely planted in southern Portugal. The white metal fence style, concrete utility poles with simple street lamps, and low-rise white buildings with dark roofs are characteristic Algarve architecture. The green and blue wheeled trash bins match Portuguese municipal waste separation systems. Right-hand driving confirms Europe. The EN125 is the main east-west coastal road through the Algarve, and Almancil is a known town along this route. The intersection layout with a stop-controlled junction onto a larger road fits the EN125 corridor.\",\n  \"evidence\": [\"English 'STOP' sign and road marking (Portuguese standard)\", \"Dracaena draco (dragon tree) plants typical of Algarve landscaping\", \"White metal fence with vertical bars\", \"Concrete utility poles with simple street lamps\", \"Low-rise white buildings with dark roofs\", \"Green and blue wheeled trash bins (Portuguese waste system)\", \"Right-hand driving\", \"Clear blue sky and Mediterranean vegetation\", \"Rural-urban fringe development pattern\"]\n}\n```",
+    "evidence_spans": [
+      "English 'STOP' sign and road marking (Portuguese standard)",
+      "Dracaena draco (dragon tree) plants typical of Algarve landscaping",
+      "White metal fence with vertical bars",
+      "Concrete utility poles with simple street lamps",
+      "Low-rise white buildings with dark roofs",
+      "Green and blue wheeled trash bins (Portuguese waste system)",
+      "Right-hand driving",
+      "Clear blue sky and Mediterranean vegetation",
+      "Rural-urban fringe development pattern"
+    ],
+    "confidence": 0.85,
+    "country_top3": [
+      "pt",
+      "es",
+      "it"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"pt\",\"es\",\"it\"],\"reason\":\"Primary indicators point to Portugal: English 'STOP' sign (Portugal uses 'STOP' not 'PARE', unlike most other Romance-speaking countries), Dracaena draco (dragon tree) plants characteristic of Macaronesia and southern Portugal, white metal fencing style, utility pole infrastructure, and Mediterranean vegetation. The road marking style with painted 'STOP' on asphalt is Portuguese. Spain (es) and Italy (it) share similar Mediterranean climate and some infrastructure elements but differ in stop sign conventions (Spain uses 'STOP', Italy uses 'STOP' but with different road marking norms), and the specific combination of dragon trees plus Portuguese-style road infrastructure strongly favors Portugal.\"}\n```",
+    "candidate_vote": [
+      {
+        "temperature": 0.1,
+        "score": 0.9850000000000001,
+        "pred_country": "pt",
+        "geo_country": "pt",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.82,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "EN125 road at intersection with Rua dos Pescadores, Almancil, Faro District, Portugal"
+      },
+      {
+        "temperature": 0.13,
+        "score": 0.9850000000000001,
+        "pred_country": "pt",
+        "geo_country": "pt",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.82,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "Rua do Comércio at EN125, Almancil, Faro District, Portugal"
+      },
+      {
+        "temperature": 0.16,
+        "score": 0.9925000000000002,
+        "pred_country": "pt",
+        "geo_country": "pt",
+        "country_consistency": 1.0,
+        "address_specificity": 0.9,
+        "confidence": 0.85,
+        "refined_vague_address": false,
+        "repaired_country_mismatch": false,
+        "address": "EN125 road, Almancil, Faro District, Portugal"
+      }
+    ],
+    "selected_candidate_score": 0.9925000000000002,
+    "base_prediction_summary": {
+      "predicted_country": "pt",
+      "predicted_region": "europe",
+      "confidence": 0.78
+    },
+    "retrieved_skills": [],
+    "retrieved_skills_raw_count": 0,
+    "skill_graph_plan": {
+      "nodes": [],
+      "edges": [],
+      "ordered_skill_texts": [],
+      "summary": "no-skills"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "```json\n{\n  \"country\": \"Portugal\",\n  \"country_code\": \"pt\",\n  \"region\": \"Southern Europe\",\n  \"city\": \"Almancil\",\n  \"province_or_state\": \"Faro District\",\n  \"address\": \"EN125 road near Almancil, Algarve, Portugal\",\n  \"confidence\": 0.78,\n  \"reasoning\": \"The combination of an English 'STOP' sign and road",
+        "retrieved_skill_count": 0,
+        "region_filtered_count": 0
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 0,
+        "graph_edges": 0,
+        "graph_summary": "no-skills"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "pt"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}

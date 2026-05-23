@@ -1,0 +1,58 @@
+[
+  {
+    "stage": "round_0_initial",
+    "country_accuracy": 0.6,
+    "continent_accuracy": 0.8,
+    "valid_coordinate_rate": 1.0,
+    "Acc@25km": 0.0,
+    "Acc@200km": 0.4,
+    "Acc@750km": 0.8,
+    "num_errors": 0,
+    "generated_skill_count_so_far": null,
+    "fused_skill_count_so_far": null,
+    "recovered_failures_so_far": null,
+    "remaining_failed_cases": null
+  },
+  {
+    "stage": "round_1_post_update",
+    "country_accuracy": 0.6,
+    "continent_accuracy": 0.8,
+    "valid_coordinate_rate": 1.0,
+    "Acc@25km": 0.0,
+    "Acc@200km": 0.6,
+    "Acc@750km": 0.8,
+    "num_errors": 0,
+    "generated_skill_count_so_far": 9,
+    "fused_skill_count_so_far": 0,
+    "recovered_failures_so_far": 1,
+    "remaining_failed_cases": 2
+  },
+  {
+    "stage": "round_2_post_update",
+    "country_accuracy": 0.6,
+    "continent_accuracy": 0.8,
+    "valid_coordinate_rate": 1.0,
+    "Acc@25km": 0.0,
+    "Acc@200km": 0.6,
+    "Acc@750km": 0.8,
+    "num_errors": 0,
+    "generated_skill_count_so_far": 17,
+    "fused_skill_count_so_far": 0,
+    "recovered_failures_so_far": 1,
+    "remaining_failed_cases": 2
+  },
+  {
+    "stage": "round_3_post_update",
+    "country_accuracy": 0.6,
+    "continent_accuracy": 0.8,
+    "valid_coordinate_rate": 1.0,
+    "Acc@25km": 0.0,
+    "Acc@200km": 0.6,
+    "Acc@750km": 0.8,
+    "num_errors": 0,
+    "generated_skill_count_so_far": 24,
+    "fused_skill_count_so_far": 0,
+    "recovered_failures_so_far": 1,
+    "remaining_failed_cases": 2
+  }
+]

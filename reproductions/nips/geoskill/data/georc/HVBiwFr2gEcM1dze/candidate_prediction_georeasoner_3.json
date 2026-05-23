@@ -1,0 +1,11 @@
+{
+  "country": "Finland",
+  "country_code": "fi",
+  "city": "",
+  "reasoning_chain": [
+    "The road is unpaved and covered in snow with no center line, typical of rural Finnish forest roads in winter.",
+    "Tall, straight coniferous trees (likely Scots pine) dominate the landscape, characteristic of boreal forests in northern Europe, especially Finland.",
+    "No utility poles, signs, or buildings are visible, indicating a remote, sparsely populated area common in Finland’s wilderness regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Finland\",\n  \"country_code\": \"fi\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is unpaved and covered in snow with no center line, typical of rural Finnish forest roads in winter.\",\n    \"Tall, straight coniferous trees (likely Scots pine) dominate the landscape, characteristic of boreal forests in northern Europe, especially Finland.\",\n    \"No utility poles, signs, or buildings are visible, indicating a remote, sparsely populated area common in Finland’s wilderness regions.\",\n    \"The clear blue sky"
+}

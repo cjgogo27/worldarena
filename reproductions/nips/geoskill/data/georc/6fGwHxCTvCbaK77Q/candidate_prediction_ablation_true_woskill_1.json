@@ -1,0 +1,32 @@
+{
+  "game_id": "6fGwHxCTvCbaK77Q",
+  "round": 1,
+  "sample_id": "georc::6fGwHxCTvCbaK77Q::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "cd",
+    "predicted_region": "africa",
+    "predicted_address": "Route Nationale 4, Kisangani, Tshopo, Democratic Republic of the Congo",
+    "predicted_lat": 0.51666667,
+    "predicted_lng": 25.2,
+    "reasoning_text": "```json\n{\n  \"country\": \"Democratic Republic of the Congo\",\n  \"country_code\": \"cd\",\n  \"region\": \"Central Africa\",\n  \"city\": \"Kisangani\",\n  \"province_or_state\": \"Tshopo\",\n  \"address\": \"Route Nationale 4, Kisangani, Tshopo, Democratic Republic of the Congo\",\n  \"confidence\": 0.55,\n  \"reasoning\": \"The image shows a wide, red dirt road with drainage channels on the side, surrounded by dense tropical vegetation under a bright equatorial sky. The reddish lateritic soil is characteristic of the Congo Basin. The road appears to be a major rural artery rather than a minor track. Among the three candidates (Brazil, DRC, Indonesia), the combination of very red soil, specific type of tropical forest edge vegetation, and road construction style with side drains points most strongly to the DRC. The flat terrain and distant horizon also fit the Congo River basin around Kisangani, a major city in the DRC connected by RN4. Indonesia's rural roads often have different vegetation and soil colors, while Brazil's Amazonian roads typically have different drainage and forest structures.\",\n  \"evidence\": [\"Red lateritic dirt road typical of Congo Basin\", \"Tropical equatorial vegetation and bright sky\", \"Roadside drainage channels\", \"Flat terrain with distant horizon\", \"Absence of palm oil plantations or Brazilian-style ranchland\"]\n}\n```",
+    "evidence_spans": [
+      "Red lateritic dirt road typical of Congo Basin",
+      "Tropical equatorial vegetation and bright sky",
+      "Roadside drainage channels",
+      "Flat terrain with distant horizon",
+      "Absence of palm oil plantations or Brazilian-style ranchland"
+    ],
+    "confidence": 0.55,
+    "country_top3": [
+      "br",
+      "cd",
+      "id"
+    ],
+    "country_shortlist_raw": "{\"top3_countries\":[\"br\",\"cd\",\"id\"],\"reason\":\"Red lateritic dirt road with tropical savanna/forest edge vegetation, flat terrain, and bright humid climate strongly suggests Brazilian Amazon/Cerrado transition zone, Sub-Saharan Africa (e.g., DRC), or Indonesian Kalimantan/Sumatra. The road quality and vegetation density most closely match rural Brazil.\"}",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.785
+  },
+  "error": null
+}

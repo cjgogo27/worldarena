@@ -1,0 +1,11 @@
+{
+  "country": "South Africa",
+  "country_code": "za",
+  "city": "",
+  "reasoning_chain": [
+    "The road is a two-lane asphalt highway with white dashed centerline, consistent with South African rural roads.",
+    "Vegetation includes fynbos-like shrubs and scattered trees typical of the Western Cape or Free State regions.",
+    "Distant flat-topped mountains resemble the Drakensberg or Great Escarpment, common in southern Africa."
+  ],
+  "raw_output": "{\n  \"country\": \"South Africa\",\n  \"country_code\": \"za\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The road is a two-lane asphalt highway with white dashed centerline, consistent with South African rural roads.\",\n    \"Vegetation includes fynbos-like shrubs and scattered trees typical of the Western Cape or Free State regions.\",\n    \"Distant flat-topped mountains resemble the Drakensberg or Great Escarpment, common in southern Africa.\",\n    \"No visible signage, vehicles, or urban infrastructure suggests a remote rural area, likely in"
+}

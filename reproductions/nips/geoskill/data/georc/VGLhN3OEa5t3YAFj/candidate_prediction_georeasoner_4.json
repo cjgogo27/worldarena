@@ -1,0 +1,11 @@
+{
+  "country": "Mexico",
+  "country_code": "mx",
+  "city": "",
+  "reasoning_chain": [
+    "The 'Mi Super Fresh' sign with Spanish text and logo style is typical of Mexican supermarket chains like Soriana or Chedraui.",
+    "Vehicles drive on the right side of the road, consistent with Mexico’s traffic laws.",
+    "Utility poles with overhead wires and concrete bases are common in Mexican urban and suburban areas."
+  ],
+  "raw_output": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The 'Mi Super Fresh' sign with Spanish text and logo style is typical of Mexican supermarket chains like Soriana or Chedraui.\",\n    \"Vehicles drive on the right side of the road, consistent with Mexico’s traffic laws.\",\n    \"Utility poles with overhead wires and concrete bases are common in Mexican urban and suburban areas.\",\n    \"The arid vegetation, white warehouse-style buildings, and clear blue sky suggest a warm, dry climate typical"
+}

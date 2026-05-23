@@ -1,0 +1,33 @@
+
+========================================================================================
+ERROR ANALYSIS SUMMARY
+========================================================================================
+Results dir: /data/alice/cjtest/geoskill/experiments/full_100
+
+Method-level snapshot:
+Method             CountryAcc  RegionAcc  MedDist(km)  HallucRate
+------------------------------------------------------------------
+direct_vlm              0.500      0.810        546.1       0.010
+cot_vlm                 0.420      0.710        701.6       0.010
+geocot                  0.540      0.880        627.7       0.020
+georeasoner             0.490      0.860        671.1       0.010
+gre_multistage          0.490      0.900        697.5       0.020
+skill_conditioned       0.440      0.830        873.8       0.010
+img2loc_rag             0.470      0.850        748.2       0.020
+
+Top country confusions (top-3 each method):
+  - direct_vlm: ua→ru (3), id→th (2), me→hr (2)
+  - cot_vlm: ua→ru (3), br→unknown (3), id→th (2)
+  - geocot: id→th (2), ua→ru (2), me→hr (2)
+  - georeasoner: me→hr (2), ph→th (2), kg→uz (1)
+  - gre_multistage: ua→ru (3), id→th (2), me→hr (2)
+  - skill_conditioned: ph→th (4), id→my (3), ua→ru (2)
+  - img2loc_rag: ua→ru (4), me→hr (3), ph→th (3)
+
+Case studies (skill_conditioned):
+  Worst cases: 5
+  Best correct-country cases: 5
+  Biggest wins vs direct_vlm: 5
+  Biggest losses vs direct_vlm: 5
+
+Saved analysis JSON: /data/alice/cjtest/geoskill/experiments/full_100/error_analysis.json

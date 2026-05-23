@@ -1,0 +1,11 @@
+{
+  "country": "Taiwan",
+  "country_code": "tw",
+  "city": "",
+  "reasoning_chain": [
+    "The narrow residential alley with parked scooters and cars on the right side indicates right-hand traffic, consistent with Taiwan.",
+    "The presence of air conditioning units mounted externally on buildings and green awnings is typical of urban residential areas in Taiwan.",
+    "The style of window grilles and building facades matches common architectural designs in Taiwanese neighborhoods."
+  ],
+  "raw_output": "{\n  \"country\": \"Taiwan\",\n  \"country_code\": \"tw\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The narrow residential alley with parked scooters and cars on the right side indicates right-hand traffic, consistent with Taiwan.\",\n    \"The presence of air conditioning units mounted externally on buildings and green awnings is typical of urban residential areas in Taiwan.\",\n    \"The style of window grilles and building facades matches common architectural designs in Taiwanese neighborhoods.\",\n    \"The overcast sky and dense urban layout are characteristic of many cities in Taiwan, such as Taipei"
+}

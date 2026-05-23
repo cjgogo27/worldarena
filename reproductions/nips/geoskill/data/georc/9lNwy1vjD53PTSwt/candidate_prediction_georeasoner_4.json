@@ -1,0 +1,11 @@
+{
+  "country": "Malaysia",
+  "country_code": "my",
+  "city": "",
+  "reasoning_chain": [
+    "The blue 'MASUK' sign (Malay for 'Enter') indicates a Malaysian location, as Malay is the national language.",
+    "The presence of a driving school sign ('AKADEMI MEMANDU NASROM SDN. BHD.') with a Malaysian-style license plate format confirms the country.",
+    "Vegetation includes tropical trees like palm and dense rainforest, consistent with Malaysia’s equatorial climate."
+  ],
+  "raw_output": "{\n  \"country\": \"Malaysia\",\n  \"country_code\": \"my\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The blue 'MASUK' sign (Malay for 'Enter') indicates a Malaysian location, as Malay is the national language.\",\n    \"The presence of a driving school sign ('AKADEMI MEMANDU NASROM SDN. BHD.') with a Malaysian-style license plate format confirms the country.\",\n    \"Vegetation includes tropical trees like palm and dense rainforest, consistent with Malaysia’s equatorial climate.\",\n    \"Road infrastructure,"
+}

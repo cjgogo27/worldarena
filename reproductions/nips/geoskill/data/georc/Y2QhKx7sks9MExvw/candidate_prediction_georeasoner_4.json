@@ -1,0 +1,11 @@
+{
+  "country": "Costa Rica",
+  "country_code": "cr",
+  "city": "",
+  "reasoning_chain": [
+    "The yellow taxi with black stripes is characteristic of Costa Rican urban taxis, especially in cities like San José or Alajuela.",
+    "The architecture—stucco houses with arched porches and concrete block walls—is typical of residential areas in Costa Rica’s Central Valley.",
+    "Vegetation includes palm trees and flowering bougainvillea, consistent with tropical lowland climates found in Costa Rica."
+  ],
+  "raw_output": "{\n  \"country\": \"Costa Rica\",\n  \"country_code\": \"cr\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The yellow taxi with black stripes is characteristic of Costa Rican urban taxis, especially in cities like San José or Alajuela.\",\n    \"The architecture—stucco houses with arched porches and concrete block walls—is typical of residential areas in Costa Rica’s Central Valley.\",\n    \"Vegetation includes palm trees and flowering bougainvillea, consistent with tropical lowland climates found in Costa Rica.\",\n    \"Overhead utility lines and"
+}

@@ -1,0 +1,780 @@
+{
+  "game_id": "IozkbMt8zbdH9XCv",
+  "round": 1,
+  "sample_id": "georc::IozkbMt8zbdH9XCv::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "pl",
+    "predicted_region": "europe",
+    "predicted_lat": 50.0647,
+    "predicted_lng": 19.945,
+    "reasoning_text": "{\n  \"country\": \"Poland\",\n  \"country_code\": \"pl\",\n  \"region\": \"Europe\",\n  \"lat\": 50.0647,\n  \"lng\": 19.9450,\n  \"confidence\": 0.85,\n  \"reasoning\": \"The visual evidence strongly points to Poland. The red brick architecture on the left is characteristic of Polish rural and suburban construction (often called 'czerwona cegła'). The dark wooden fence on a brick base is a very common fencing style in Polish residential areas. The vegetation (dandelions, deciduous trees) and the mix of asphalt with dirt shoulders are typical of Polish rural roads (drogi powiatowe or gminne). The modern houses on the right with pitched roofs and chimneys also fit the Polish suburban aesthetic. The absence of visible street signs or traffic lights suggests a less urbanized area. The zoom verification queries confirm that similar scenes are found in Poland, particularly in rural or semi-rural areas.\",\n  \"evidence\": [\n    \"Red brick two-story building with white roof on the left\",\n    \"Dark wooden fence on a brick base on the right\",\n    \"Mix of asphalt and dirt road surface\",\n    \"Modern houses with pitched roofs and chimneys\",\n    \"Vegetation including dandelions and deciduous trees\",\n    \"Utility poles and overhead wires\"\n  ]\n}",
+    "evidence_spans": [
+      "Red brick two-story building with white roof on the left",
+      "Dark wooden fence on a brick base on the right",
+      "Mix of asphalt and dirt road surface",
+      "Modern houses with pitched roofs and chimneys",
+      "Vegetation including dandelions and deciduous trees",
+      "Utility poles and overhead wires"
+    ],
+    "confidence": 0.85,
+    "geovista_observation": {
+      "observations": [
+        "The road surface is a mix of asphalt and gravel/dirt shoulders, typical of rural or semi-rural residential areas.",
+        "A long, dark wooden fence runs along the right side of the road, sitting on a low brick or concrete base.",
+        "On the left, there is a large, two-story building made of red brick with a white roof.",
+        "Vegetation includes green grass with yellow dandelions and deciduous trees with fresh spring leaves.",
+        "Utility poles and overhead wires are visible on the left side.",
+        "The architecture on the right features modern-looking houses with pitched roofs and chimneys.",
+        "The sky is blue with scattered clouds, indicating fair weather.",
+        "There are no visible street signs or traffic lights in the immediate view."
+      ],
+      "hard_clues": [
+        "Red brick building on the left with a specific window style and white roof.",
+        "Distinctive dark wooden fence with a brick base on the right.",
+        "The specific mix of road surface (asphalt center, dirt shoulders).",
+        "The style of the houses on the right (modern, pitched roofs, specific chimney placement).",
+        "The presence of dandelions in the grass, suggesting a temperate climate in spring."
+      ],
+      "ambiguous_clues": [
+        "The exact location of the road within the country (could be any rural area with similar architecture).",
+        "The specific names of the houses or buildings are not visible.",
+        "The direction of the road (north, south, etc.) cannot be determined without a compass or sun position analysis."
+      ],
+      "possible_scripts": [
+        "Search for 'red brick house white roof rural road' in image search engines.",
+        "Look for satellite imagery of rural areas with similar road and fence patterns.",
+        "Analyze the architectural style of the houses to narrow down the country or region.",
+        "Check for any unique features in the landscape or vegetation that might indicate a specific location."
+      ],
+      "driving_side": "right"
+    },
+    "geovista_plan": {
+      "country_candidates": [
+        "Poland",
+        "Ukraine",
+        "Belarus",
+        "Russia"
+      ],
+      "zoom_boxes": [
+        [
+          0,
+          290,
+          250,
+          550
+        ],
+        [
+          680,
+          350,
+          990,
+          550
+        ]
+      ],
+      "verification_queries": [
+        "Red brick two-story house with white roof and chimney on left side of rural road",
+        "Dark wooden fence on brick base along right side of road",
+        "Modern houses with pitched roofs and chimneys in rural Poland",
+        "Road with asphalt center and dirt shoulders in Eastern Europe"
+      ]
+    },
+    "geovista_zoom_notes": [],
+    "external_baseline_name": "GeoVista_skill_boost",
+    "official_mode": false,
+    "skill_boost_candidate_summary": {
+      "predicted_country": "pl",
+      "predicted_region": "europe",
+      "predicted_lat": 50.0647,
+      "predicted_lng": 19.945,
+      "confidence": 0.85
+    },
+    "aggressive_candidate_summary": {
+      "predicted_country": "pl",
+      "predicted_region": "europe",
+      "predicted_lat": 50.0647,
+      "predicted_lng": 19.945,
+      "confidence": 0.85
+    },
+    "base_prediction_summary": {
+      "predicted_country": "pl",
+      "predicted_region": "europe",
+      "predicted_lat": 50.0647,
+      "predicted_lng": 19.945,
+      "confidence": 0.85
+    },
+    "skill_boost_decision": "base",
+    "skill_boost_base_confidence": 0.85,
+    "skill_boost_boost_confidence": 0.85,
+    "skill_boost_aggressive_confidence": 0.85,
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7896028131246567,
+          "visual_cues": [
+            "architecture",
+            "building",
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.693442052602768,
+          "visual_cues": [
+            "road"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6900967329740524,
+          "visual_cues": [
+            "pole",
+            "poles",
+            "road",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6894526034593582,
+          "visual_cues": [
+            "road",
+            "soil"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The bus stop shelter on the right with faded paint and a concrete structure is typical of rural Ukraine, Russia, or Belarus.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6825087308883667,
+          "visual_cues": [
+            "right",
+            "shelter",
+            "stop",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "Building materials and fence styles, plus the presence of cottage-style homes, further exclude Western Europe and Scandinavia.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6812894195318222,
+          "visual_cues": [
+            "building",
+            "fence"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The houses have plastered exteriors in a pale pink-beige tone with brown shutters and sloped, tiled roofs, typical of suburban French architecture.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6273968011140824,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "Vegetation consists of temperate deciduous trees, grasses, and the presence of mountains in the distance suggests a location in the Balkans or a similar region.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6245946526527405,
+          "visual_cues": [
+            "mountains",
+            "trees",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The lone house has simple rectangular architecture with a red-tiled roof, a design frequently seen in rural Croatia, Bosnia and Herzegovina, and Montenegro.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.6157353132963181,
+          "visual_cues": [
+            "architecture",
+            "roof",
+            "sign"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "The abundance of brick architecture with European-style housing (single houses with multiple floors) is very common in the Northwestern countries of Europe",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.5210907697677613,
+          "visual_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "The architecture of the houses in the distance, particularly the red-tiled roofs and low-rise, wide structures, is very common in Southern or Eastern Europe.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.46583875715732576,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "Considering all these factors, the most likely location is Poland, possibly in a southwestern Polish town/city—most closely resembling the residential outskirts of Opole.",
+          "region_hint": "europe",
+          "confidence": 0.75,
+          "score": 0.4503552615642548,
+          "visual_cues": [
+            "pole"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "building",
+            "fence"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sign"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "pole"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_8",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_8",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_10",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_11",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The fenced grassy area and utilitarian, functional architecture of both the apartment block and adjacent building on the right are reminiscent of small towns in Poland.",
+        "The road has a rough, light-colored surface, common in rural areas of southern Europe, especially the former Yugoslav countries.",
+        "There are no visible road signs, but the combination of wooden telegraph poles and the fencing style reinforce the Scandinavian guess.",
+        "The low quality dark wet road with reddish grave soil leans the location toward Russia and also large forests of tightly packed birches are not as common in the Baltics or Scandinavia",
+        "The bus stop shelter on the right with faded paint and a concrete structure is typical of rural Ukraine, Russia, or Belarus.",
+        "Building materials and fence styles, plus the presence of cottage-style homes, further exclude Western Europe and Scandinavia.",
+        "The houses have plastered exteriors in a pale pink-beige tone with brown shutters and sloped, tiled roofs, typical of suburban French architecture.",
+        "Vegetation consists of temperate deciduous trees, grasses, and the presence of mountains in the distance suggests a location in the Balkans or a similar region.",
+        "The lone house has simple rectangular architecture with a red-tiled roof, a design frequently seen in rural Croatia, Bosnia and Herzegovina, and Montenegro.",
+        "The abundance of brick architecture with European-style housing (single houses with multiple floors) is very common in the Northwestern countries of Europe",
+        "The architecture of the houses in the distance, particularly the red-tiled roofs and low-rise, wide structures, is very common in Southern or Eastern Europe.",
+        "Considering all these factors, the most likely location is Poland, possibly in a southwestern Polish town/city—most closely resembling the residential outskirts of Opole."
+      ],
+      "summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "plan_skill_graph",
+        "skill_count": 12,
+        "graph_nodes": 12,
+        "graph_edges": 66,
+        "graph_summary": "nodes=12, edges=66, base_region=europe, top_skill_region=europe"
+      },
+      {
+        "stage": "aggressive_reestimate",
+        "ran": false,
+        "reason": "gate_not_passed"
+      }
+    ]
+  },
+  "error": null
+}

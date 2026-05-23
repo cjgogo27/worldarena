@@ -1,0 +1,11 @@
+{
+  "country": "Russia",
+  "country_code": "ru",
+  "city": "",
+  "reasoning_chain": [
+    "The unpaved, wide gravel road with no center markings is typical of rural Russian roads in forested regions.",
+    "Overhead power lines run parallel to the road on the left, consistent with Russian rural infrastructure layout.",
+    "Dense mixed coniferous and deciduous forest vegetation matches the taiga biome found across northern and central Russia."
+  ],
+  "raw_output": "{\n  \"country\": \"Russia\",\n  \"country_code\": \"ru\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The unpaved, wide gravel road with no center markings is typical of rural Russian roads in forested regions.\",\n    \"Overhead power lines run parallel to the road on the left, consistent with Russian rural infrastructure layout.\",\n    \"Dense mixed coniferous and deciduous forest vegetation matches the taiga biome found across northern and central Russia.\",\n    \"Absence of any signage, vehicles, or urban features strongly indicates a remote, non-urban"
+}

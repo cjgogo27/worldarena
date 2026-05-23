@@ -1,0 +1,34 @@
+{
+  "game_id": "VGLhN3OEa5t3YAFj",
+  "round": 1,
+  "sample_id": "georc::VGLhN3OEa5t3YAFj::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "pe",
+    "predicted_region": "south_america",
+    "predicted_address": "Calle Los Pinos, Ilo, Moquegua, Peru",
+    "predicted_lat": -17.64585833,
+    "predicted_lng": -71.34531389,
+    "reasoning_text": "```json\n{\n  \"country\": \"Peru\",\n  \"country_code\": \"pe\",\n  \"region\": \"South America\",\n  \"city\": \"Ilo\",\n  \"province_or_state\": \"Moquegua\",\n  \"address\": \"Calle Los Pinos, Ilo, Moquegua, Peru\",\n  \"confidence\": 0.7,\n  \"reasoning\": \"The arid coastal desert landscape with barren hills is characteristic of southern Peru's coastal region. The unfinished concrete block construction with white painted base is common in Peruvian urban development. The sports field with blue fencing and concrete surface matches infrastructure seen in Peruvian towns. The utility poles and street lighting style are consistent with Peruvian standards. The overall environment suggests a small to medium-sized coastal town in the Moquegua region, likely Ilo, which is a port city in this desert coastal area. The driving side appears to be right-hand traffic, consistent with Peru.\",\n  \"evidence\": [\"arid coastal desert landscape with barren hills\", \"unfinished concrete block construction with white painted base\", \"blue metal fence around sports court\", \"concrete sports court with soccer goal\", \"utility poles with street lighting typical of Peru\", \"right-hand traffic orientation\", \"coastal desert vegetation absence\"]\n}\n```",
+    "evidence_spans": [
+      "arid coastal desert landscape with barren hills",
+      "unfinished concrete block construction with white painted base",
+      "blue metal fence around sports court",
+      "concrete sports court with soccer goal",
+      "utility poles with street lighting typical of Peru",
+      "right-hand traffic orientation",
+      "coastal desert vegetation absence"
+    ],
+    "confidence": 0.7,
+    "country_top3": [
+      "pe",
+      "cl",
+      "bo"
+    ],
+    "country_shortlist_raw": "```json\n{\"top3_countries\":[\"pe\",\"cl\",\"bo\"],\"reason\":\"Arid coastal desert terrain with barren hills, unfinished concrete block construction with white-painted base (common in Peruvian informal settlements), blue metal mesh fencing around sports court, utility poles with simple street lighting, and overall urban fringe morphology typical of Peruvian cities like Lima's southern districts or other coastal desert towns in Peru. Chile and Bolivia share similar desert geography but the construction style and coastal desert appearance strongly favor Peru.\"}\n```",
+    "candidate_vote_mode": "single_pass",
+    "selected_candidate_score": 0.8650000000000001
+  },
+  "error": null
+}

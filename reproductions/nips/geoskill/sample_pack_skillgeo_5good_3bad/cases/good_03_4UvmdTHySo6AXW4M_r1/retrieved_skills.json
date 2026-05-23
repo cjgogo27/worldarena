@@ -1,0 +1,163 @@
+[
+  {
+    "skill_text": "The curve and landscape of the road suggest a mountainous area, likely in the foothills rather than high altitude, which is common in southern Europe.",
+    "region_hint": "europe",
+    "confidence": 0.75,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "3uP6lYo9pzx5Q0km",
+    "source_round": 5,
+    "score": 0.8628618717193604,
+    "bm25_score": 26.211475372314453,
+    "semantic_score": 0.6045064926147461
+  },
+  {
+    "skill_text": "The road condition and absence of lane markings suggest a rural area in Eastern Europe.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "lane markings",
+      "road"
+    ],
+    "source_game_id": "9lNwy1vjD53PTSwt",
+    "source_round": 1,
+    "score": 0.8624073266983032,
+    "bm25_score": 25.885828018188477,
+    "semantic_score": 0.611248254776001
+  },
+  {
+    "skill_text": "The road is paved but appears to be of middling quality, with a faded white dashed center line and no shoulder markings, suggesting rural or remote areas.",
+    "region_hint": "africa",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "74bPHM081cMUaNKT",
+    "source_round": 2,
+    "score": 0.8581154942512512,
+    "bm25_score": 27.38517951965332,
+    "semantic_score": 0.5710915923118591
+  },
+  {
+    "skill_text": "The road is paved with concrete and has narrow shoulders, a feature seen in Belgian villages.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "5GS2RPgTrf85UZM5",
+    "source_round": 5,
+    "score": 0.8560869097709656,
+    "bm25_score": 25.302453994750977,
+    "semantic_score": 0.6154642105102539
+  },
+  {
+    "skill_text": "Absence of lane markings and the narrowness of the road suggest a rural location in southern Europe.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "lane markings",
+      "road"
+    ],
+    "source_game_id": "9lNwy1vjD53PTSwt",
+    "source_round": 2,
+    "score": 0.8449313640594482,
+    "bm25_score": 23.33221435546875,
+    "semantic_score": 0.6442526578903198
+  },
+  {
+    "skill_text": "The white road delineators with a single black rectangle are characteristic of those found in Germany and the Czech Republic, specifically in rural areas.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "3uP6lYo9pzx5Q0km",
+    "source_round": 3,
+    "score": 0.8345389366149902,
+    "bm25_score": 22.835187911987305,
+    "semantic_score": 0.6406950354576111
+  },
+  {
+    "skill_text": "The road lacks a central divider and has simple, faded lane markings, consistent with less-trafficked rural roads in Vietnam.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "lane markings",
+      "road"
+    ],
+    "source_game_id": "5bPlIRT7eGN79a2E",
+    "source_round": 4,
+    "score": 0.8315361738204956,
+    "bm25_score": 29.479326248168945,
+    "semantic_score": 0.4856138825416565
+  },
+  {
+    "skill_text": "Narrow, winding paved road without lane markings commonly found in rural parts of countries like the Netherlands, Germany, or Belgium.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "lane markings",
+      "road"
+    ],
+    "source_game_id": "4UvmdTHySo6AXW4M",
+    "source_round": 1,
+    "score": 0.830167293548584,
+    "bm25_score": 20.770679473876953,
+    "semantic_score": 0.6813087463378906
+  },
+  {
+    "skill_text": "The road is unpaved and appears to be a rural residential street, common in Eastern European countries.",
+    "region_hint": "asia",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "67gLC5CcGgkQIWEW",
+    "source_round": 3,
+    "score": 0.8266016840934753,
+    "bm25_score": 24.19011878967285,
+    "semantic_score": 0.5986111760139465
+  },
+  {
+    "skill_text": "The specific scene resembles Drenthe or Friesland provinces, which have rural roads and such tree-lined fields.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "4UvmdTHySo6AXW4M",
+    "source_round": 1,
+    "score": 0.8252815008163452,
+    "bm25_score": 24.79865074157715,
+    "semantic_score": 0.5829150676727295
+  },
+  {
+    "skill_text": "The road surface is fairly narrow with a single white center line and no shoulder markings, which is more common in rural or mountainous areas of southern and eastern Europe.",
+    "region_hint": "europe",
+    "confidence": 0.65,
+    "visual_cues": [
+      "road"
+    ],
+    "source_game_id": "3uP6lYo9pzx5Q0km",
+    "source_round": 5,
+    "score": 0.8250241279602051,
+    "bm25_score": 25.88488006591797,
+    "semantic_score": 0.5578947067260742
+  },
+  {
+    "skill_text": "The road is relatively narrow, with worn asphalt and no visible lane markings, which is characteristic of rural or secondary roads in developing countries.",
+    "region_hint": "north_america",
+    "confidence": 0.65,
+    "visual_cues": [
+      "lane markings",
+      "road"
+    ],
+    "source_game_id": "9oZfZYQEl9GWjZPu",
+    "source_round": 1,
+    "score": 0.8071589469909668,
+    "bm25_score": 26.548559188842773,
+    "semantic_score": 0.5173244476318359
+  }
+]

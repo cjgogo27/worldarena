@@ -1,0 +1,10 @@
+{
+  "country": "Argentina",
+  "country_code": "ar",
+  "city": "",
+  "reasoning_chain": [
+    "The street sign with 'Av. 250' and '300' in Spanish indicates a Latin American country, likely Argentina given the architecture and vehicle styles.",
+    "The presence of a white sedan (possibly a Chevrolet or similar model common in Argentina) and the style of utility poles and overhead wires are typical of Argentine neighborhoods."
+  ],
+  "raw_output": "{\n  \"country\": \"Argentina\",\n  \"country_code\": \"ar\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The street sign with 'Av. 250' and '300' in Spanish indicates a Latin American country, likely Argentina given the architecture and vehicle styles.\",\n    \"The presence of a white sedan (possibly a Chevrolet or similar model common in Argentina) and the style of utility poles and overhead wires are typical of Argentine neighborhoods.\",\n    \"The vegetation, including willow-like trees and dry grass, along with the clear blue sky, suggests"
+}

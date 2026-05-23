@@ -1,0 +1,12 @@
+{
+  "country": "Japan",
+  "country_code": "jp",
+  "city": "",
+  "reasoning_chain": [
+    "The presence of Japanese-style architecture with traditional timber framing and modern concrete buildings suggests a rural Japanese setting.",
+    "Utility poles with overhead wires and their design are typical of Japan's infrastructure, especially in rural areas.",
+    "The narrow paved path alongside agricultural fields is characteristic of Japanese countryside roads, often used for bicycles or pedestrians.",
+    "Vegetation and open farmland under a clear sky indicate a temperate climate consistent with Japan's rural regions."
+  ],
+  "raw_output": "{\n  \"country\": \"Japan\",\n  \"country_code\": \"jp\",\n  \"city\": \"\",\n  \"reasoning_chain\": [\n    \"The presence of Japanese-style architecture with traditional timber framing and modern concrete buildings suggests a rural Japanese setting.\",\n    \"Utility poles with overhead wires and their design are typical of Japan's infrastructure, especially in rural areas.\",\n    \"The narrow paved path alongside agricultural fields is characteristic of Japanese countryside roads, often used for bicycles or pedestrians.\",\n    \"Vegetation and open farmland under a clear sky indicate a temperate climate consistent with Japan's rural regions.\""
+}

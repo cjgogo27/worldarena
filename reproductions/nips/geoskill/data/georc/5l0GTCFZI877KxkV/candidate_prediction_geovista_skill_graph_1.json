@@ -1,0 +1,714 @@
+{
+  "game_id": "5l0GTCFZI877KxkV",
+  "round": 1,
+  "sample_id": "georc::5l0GTCFZI877KxkV::round1",
+  "dataset_name": "georc",
+  "dataset_version": "georc_v1",
+  "prediction": {
+    "predicted_country": "mx",
+    "predicted_region": "north_america",
+    "predicted_address": "Residential street in Felipe Carrillo Puerto, Quintana Roo, Mexico",
+    "predicted_lat": 19.43333333,
+    "predicted_lng": -99.13333333,
+    "reasoning_text": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"region\": \"North America\",\n  \"city\": \"Felipe Carrillo Puerto\",\n  \"province_or_state\": \"Quintana Roo\",\n  \"address\": \"Residential street in Felipe Carrillo Puerto, Quintana Roo, Mexico\",\n  \"confidence\": 0.72,\n  \"reasoning\": \"Applying the ordered skill graph strictly: (1) the street architecture shows flat-roofed and walled facades, which is a strong match for Mexican urban and small-town housing. (2) The sidewalks and curbs, including painted curb edges and sloped driveway access, fit small towns in southern Mexico. (3) Combining the tropical vegetation, suburban-residential setting, architecture, and curb design places the scene in Mexico and more specifically in the Yucatán Peninsula zone rather than elsewhere in North America. Following the linked supporting skills: (4) the paved residential road without lane markings is consistent with small-town streets in this region; (5) the single-story pastel-colored homes also support rural/small-town southeastern Mexico; (6) the road condition, sidewalks, and utility pole style fit Yucatán Peninsula states such as Yucatán, Campeche, and Quintana Roo; and (7) the dense above-ground wiring crossing the street is very typical of Mexico. Among Yucatán Peninsula candidates, the flat tropical lowland environment and town character fit Felipe Carrillo Puerto, Quintana Roo well. I therefore give a consistent final guess of a residential street in Felipe Carrillo Puerto, Quintana Roo, Mexico.\",\n  \"evidence\": [\n    \"Flat-roofed, single-story masonry houses with walled facades\",\n    \"Painted curbs and narrow sidewalks with sloped driveway cut-ins\",\n    \"Pastel house colors common in small-town southeastern Mexico\",\n    \"Flat tropical lowland setting with warm-climate vegetation\",\n    \"Above-ground utility wires strung densely across the street\",\n    \"Unmarked paved residential road with somewhat dusty shoulders\",\n    \"Built environment consistent with Yucatán Peninsula towns\"\n  ]\n}",
+    "evidence_spans": [
+      "Flat-roofed, single-story masonry houses with walled facades",
+      "Painted curbs and narrow sidewalks with sloped driveway cut-ins",
+      "Pastel house colors common in small-town southeastern Mexico",
+      "Flat tropical lowland setting with warm-climate vegetation",
+      "Above-ground utility wires strung densely across the street",
+      "Unmarked paved residential road with somewhat dusty shoulders",
+      "Built environment consistent with Yucatán Peninsula towns"
+    ],
+    "confidence": 0.72,
+    "base_prediction_summary": {
+      "predicted_country": "mx",
+      "predicted_region": "north_america",
+      "confidence": 0.43
+    },
+    "retrieved_skills": [
+      {
+        "skill_text": "The street architecture shows houses with flat roofs and walled facades, common in Mexican cities.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 5,
+        "score": 0.9202551245689392,
+        "bm25_score": 37.0828971862793,
+        "semantic_score": 0.5883134603500366
+      },
+      {
+        "skill_text": "The sidewalk and curb construction style, with its painted edge and sloped access points, is typical for small towns in southern Mexico.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "sidewalk"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 1,
+        "score": 0.8069661855697632,
+        "bm25_score": 26.39748191833496,
+        "semantic_score": 0.6318691968917847
+      },
+      {
+        "skill_text": "Combining the tropical vegetation, suburban-rural setting, architecture, curb and sidewalk design, I estimate this image is in Mexico, specifically a small town near Mérida, Yucatán.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "sidewalk",
+          "sign",
+          "vegetation"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 1,
+        "score": 0.7641433477401733,
+        "bm25_score": 20.202817916870117,
+        "semantic_score": 0.6894541382789612
+      },
+      {
+        "skill_text": "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "asphalt",
+          "paved",
+          "street",
+          "with"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 2,
+        "score": 0.7497564554214478,
+        "bm25_score": 32.21101379394531,
+        "semantic_score": 0.44002872705459595
+      },
+      {
+        "skill_text": "The architecture features flat-roofed, single-story houses with pastel colors, common in rural Mexico and Central America.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "architecture",
+          "roof"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 1,
+        "score": 0.7356187105178833,
+        "bm25_score": 22.778091430664062,
+        "semantic_score": 0.5999709367752075
+      },
+      {
+        "skill_text": "The condition of the road and sidewalk as well as the electric pole style matches rural settings in Mexico, especially Yucatán, Campeche, or Tabasco.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "pole",
+          "road",
+          "sidewalk"
+        ],
+        "source_game_id": "5l0GTCFZI877KxkV",
+        "source_round": 1,
+        "score": 0.7342728972434998,
+        "bm25_score": 17.37503433227539,
+        "semantic_score": 0.7011366486549377
+      },
+      {
+        "skill_text": "The electrical wiring is above ground and strung across the street in a web formation, very typical of Mexico.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "above",
+          "electrical",
+          "ground",
+          "wiring"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 5,
+        "score": 0.7302309274673462,
+        "bm25_score": 27.155616760253906,
+        "semantic_score": 0.5088417530059814
+      },
+      {
+        "skill_text": "The street layout and the presence of a detached single-family home structure in a tidy residential neighborhood further point toward France.",
+        "region_hint": "europe",
+        "confidence": 0.65,
+        "visual_cues": [
+          "detached",
+          "layout",
+          "presence",
+          "street"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 3,
+        "score": 0.7217627763748169,
+        "bm25_score": 31.34591293334961,
+        "semantic_score": 0.41692599654197693
+      },
+      {
+        "skill_text": "The sky is clear and the lighting is very intense, supporting a location in central or northern Mexico.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "clear",
+          "intense",
+          "lighting",
+          "very"
+        ],
+        "source_game_id": "8G5DpHP2KCtVKrk9",
+        "source_round": 5,
+        "score": 0.7139347791671753,
+        "bm25_score": 23.74888038635254,
+        "semantic_score": 0.5507735013961792
+      },
+      {
+        "skill_text": "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+        "region_hint": "south_america",
+        "confidence": 0.75,
+        "visual_cues": [
+          "road",
+          "road markings"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 4,
+        "score": 0.7048653960227966,
+        "bm25_score": 25.575843811035156,
+        "semantic_score": 0.5030905604362488
+      },
+      {
+        "skill_text": "Overall, the combination of landscape, climate, and road quality closely matches what is found in rural parts of the Caribbean, specifically in Cuba.",
+        "region_hint": "north_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "car",
+          "climate",
+          "road"
+        ],
+        "source_game_id": "9oZfZYQEl9GWjZPu",
+        "source_round": 1,
+        "score": 0.6995772123336792,
+        "bm25_score": 21.947513580322266,
+        "semantic_score": 0.5648236274719238
+      },
+      {
+        "skill_text": "The red tile roofs and the style of the doors and windows fit with towns in Boyacá or Cundinamarca departments in Colombia.",
+        "region_hint": "south_america",
+        "confidence": 0.65,
+        "visual_cues": [
+          "roof"
+        ],
+        "source_game_id": "6ypQOh9cOoE7WaWH",
+        "source_round": 3,
+        "score": 0.6944835186004639,
+        "bm25_score": 25.370155334472656,
+        "semantic_score": 0.492326021194458
+      }
+    ],
+    "skill_graph_plan": {
+      "nodes": [
+        {
+          "id": "skill_1",
+          "skill_text": "The street architecture shows houses with flat roofs and walled facades, common in Mexican cities.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.9202551245689392,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_2",
+          "skill_text": "The sidewalk and curb construction style, with its painted edge and sloped access points, is typical for small towns in southern Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.8069661855697632,
+          "visual_cues": [
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_3",
+          "skill_text": "Combining the tropical vegetation, suburban-rural setting, architecture, curb and sidewalk design, I estimate this image is in Mexico, specifically a small town near Mérida, Yucatán.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7641433477401733,
+          "visual_cues": [
+            "architecture",
+            "sidewalk",
+            "sign",
+            "vegetation"
+          ]
+        },
+        {
+          "id": "skill_4",
+          "skill_text": "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7497564554214478,
+          "visual_cues": [
+            "asphalt",
+            "paved",
+            "street",
+            "with"
+          ]
+        },
+        {
+          "id": "skill_5",
+          "skill_text": "The architecture features flat-roofed, single-story houses with pastel colors, common in rural Mexico and Central America.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7356187105178833,
+          "visual_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "id": "skill_6",
+          "skill_text": "The condition of the road and sidewalk as well as the electric pole style matches rural settings in Mexico, especially Yucatán, Campeche, or Tabasco.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7342728972434998,
+          "visual_cues": [
+            "pole",
+            "road",
+            "sidewalk"
+          ]
+        },
+        {
+          "id": "skill_7",
+          "skill_text": "The electrical wiring is above ground and strung across the street in a web formation, very typical of Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7302309274673462,
+          "visual_cues": [
+            "above",
+            "electrical",
+            "ground",
+            "wiring"
+          ]
+        },
+        {
+          "id": "skill_8",
+          "skill_text": "The street layout and the presence of a detached single-family home structure in a tidy residential neighborhood further point toward France.",
+          "region_hint": "europe",
+          "confidence": 0.65,
+          "score": 0.7217627763748169,
+          "visual_cues": [
+            "detached",
+            "layout",
+            "presence",
+            "street"
+          ]
+        },
+        {
+          "id": "skill_9",
+          "skill_text": "The sky is clear and the lighting is very intense, supporting a location in central or northern Mexico.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.7139347791671753,
+          "visual_cues": [
+            "clear",
+            "intense",
+            "lighting",
+            "very"
+          ]
+        },
+        {
+          "id": "skill_10",
+          "skill_text": "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+          "region_hint": "south_america",
+          "confidence": 0.75,
+          "score": 0.7048653960227966,
+          "visual_cues": [
+            "road",
+            "road markings"
+          ]
+        },
+        {
+          "id": "skill_11",
+          "skill_text": "Overall, the combination of landscape, climate, and road quality closely matches what is found in rural parts of the Caribbean, specifically in Cuba.",
+          "region_hint": "north_america",
+          "confidence": 0.65,
+          "score": 0.6995772123336792,
+          "visual_cues": [
+            "car",
+            "climate",
+            "road"
+          ]
+        },
+        {
+          "id": "skill_12",
+          "skill_text": "The red tile roofs and the style of the doors and windows fit with towns in Boyacá or Cundinamarca departments in Colombia.",
+          "region_hint": "south_america",
+          "confidence": 0.65,
+          "score": 0.6944835186004639,
+          "visual_cues": [
+            "roof"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "src": "skill_1",
+          "dst": "skill_2",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture",
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_1",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_3",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sidewalk"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sidewalk"
+          ]
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_2",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_4",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "architecture"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "sidewalk"
+          ]
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_3",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_5",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_8",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "street"
+          ]
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_4",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_6",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_5",
+          "dst": "skill_12",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "roof"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_7",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_10",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_6",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_9",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_7",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_9",
+          "dst": "skill_11",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_11",
+          "relation": "cue_composition",
+          "weight": 0.6,
+          "shared_cues": [
+            "road"
+          ]
+        },
+        {
+          "src": "skill_10",
+          "dst": "skill_12",
+          "relation": "region_support",
+          "weight": 1.0,
+          "shared_cues": []
+        }
+      ],
+      "ordered_skill_texts": [
+        "The street architecture shows houses with flat roofs and walled facades, common in Mexican cities.",
+        "The sidewalk and curb construction style, with its painted edge and sloped access points, is typical for small towns in southern Mexico.",
+        "Combining the tropical vegetation, suburban-rural setting, architecture, curb and sidewalk design, I estimate this image is in Mexico, specifically a small town near Mérida, Yucatán.",
+        "The street is paved with asphalt, and the absence of painted lane lines on a residential street fits many small towns in these regions.",
+        "The architecture features flat-roofed, single-story houses with pastel colors, common in rural Mexico and Central America.",
+        "The condition of the road and sidewalk as well as the electric pole style matches rural settings in Mexico, especially Yucatán, Campeche, or Tabasco.",
+        "The electrical wiring is above ground and strung across the street in a web formation, very typical of Mexico.",
+        "The street layout and the presence of a detached single-family home structure in a tidy residential neighborhood further point toward France.",
+        "The sky is clear and the lighting is very intense, supporting a location in central or northern Mexico.",
+        "Based on the landscape, infrastructure, and road markings, this scene is very likely in Argentina, specifically in the Córdoba region near the city of Córdoba.",
+        "Overall, the combination of landscape, climate, and road quality closely matches what is found in rural parts of the Caribbean, specifically in Cuba.",
+        "The red tile roofs and the style of the doors and windows fit with towns in Boyacá or Cundinamarca departments in Colombia."
+      ],
+      "summary": "nodes=12, edges=42, base_region=north_america, top_skill_region=north_america"
+    },
+    "online_rollout_trace": [
+      {
+        "stage": "retrieve_skills",
+        "query": "{\n  \"country\": \"Mexico\",\n  \"country_code\": \"mx\",\n  \"region\": \"North America\",\n  \"city\": \"Felipe Carrillo Puerto\",\n  \"province_or_state\": \"Quintana Roo\",\n  \"address\": \"Residential street in Felipe Carrillo Puerto, Quintana Roo, Mexico\",\n  \"confidence\": 0.43,\n  \"reasoning\": \"The scene shows a flat, wa",
+        "retrieved_skill_count": 48
+      },
+      {
+        "stage": "build_skill_graph",
+        "graph_nodes": 12,
+        "graph_edges": 42,
+        "graph_summary": "nodes=12, edges=42, base_region=north_america, top_skill_region=north_america"
+      },
+      {
+        "stage": "online_rollout",
+        "mode": "skill_graph_only",
+        "output_country": "mx"
+      }
+    ],
+    "skill_boost_decision": "skill_graph_rollout",
+    "external_baseline_name": "GeoVista_skill_graph_rollout",
+    "official_mode": false
+  },
+  "error": null
+}
