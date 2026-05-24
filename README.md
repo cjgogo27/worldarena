@@ -13,6 +13,13 @@ Training and evaluation code for WorldArena leaderboard submissions, including r
 │   │   ├── batch_predict_i2v_worldarena.py  # WorldArena batch inference
 │   │   ├── build_manifests_for_instructions.py
 │   │   └── run_*infer.sh         # Inference launchers
+│   ├── worldarena/               # SeedVR refinement & evaluation pipeline
+│   │   ├── run_seedvr.sh         # SeedVR batch refiner (GPU-aware, auto-recovery)
+│   │   ├── launch_instructions1_seedvr.sh  # Launch instructions_1 SeedVR
+│   │   ├── launch_instructions2_seedvr.sh  # Launch instructions_2 SeedVR
+│   │   ├── launch_instructions1_eval.sh    # Launch instructions_1 evaluation
+│   │   ├── launch_instructions2_eval.sh    # Launch instructions_2 evaluation
+│   │   └── run_eval_pipeline.sh  # Full eval pipeline (Wan2.1 → SeedVR → Metrics)
 │   └── *.py                      # Utility scripts
 ├── config/                       # Configuration files
 ├── abot/
@@ -58,6 +65,16 @@ Training and evaluation code for WorldArena leaderboard submissions, including r
 - `scripts/wan2.1/run_instructions_infer.sh` - Launch inference on test instructions
 - `batch_inference_test_dataset.py` - Batch inference on test dataset
 - `scripts/wan2.1/build_manifests_for_instructions.py` - Build manifests for WorldArena instruction sets
+
+### SeedVR Refinement Pipeline
+- `scripts/worldarena/run_seedvr.sh` - SeedVR batch refiner: watches an input directory, runs SeedVR2-EMA-3B inference, and collects outputs. Uses `pick_gpu()` for automatic GPU selection or pinned GPU mode. Designed to survive shell timeout via `setsid -f`.
+- `scripts/worldarena/launch_instructions1_seedvr.sh` - Launcher for SeedVR refinement on instructions_1 test set (1000 videos, GPU 2).
+- `scripts/worldarena/launch_instructions2_seedvr.sh` - Launcher for SeedVR refinement on instructions_2 test set (1000 videos, GPU 3).
+- `scripts/worldarena/launch_instructions1_eval.sh` - Launcher for evaluation metrics on instructions_1 outputs.
+- `scripts/worldarena/launch_instructions2_eval.sh` - Launcher for evaluation metrics on instructions_2 outputs.
+- `scripts/worldarena/run_eval_pipeline.sh` - Full end-to-end evaluation pipeline: generates videos with Wan2.1 inference, refines with SeedVR, computes quality metrics, and generates VLM summaries.
+
+The SeedVR refiner uses a 3.4B-parameter DiT model (SeedVR2-EMA-3B) with Euler sampler (1 step), running at 832×480 resolution and 24 FPS. Each video is 121 frames.
 
 ## Checkpoints & Data
 
